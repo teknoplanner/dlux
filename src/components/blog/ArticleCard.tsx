@@ -14,18 +14,18 @@ interface ArticleCardProps {
 export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = false }) => {
   const targetApp = apps.find((a) => a.slug === article.targetAppSlug);
 
-  const getCategoryBadgeVariant = (cat: ArticleItem["category"]) => {
+  const getCategoryBadgeVariant = (cat: ArticleItem["category"]): "purple" | "cyan" | "pink" | "green" | "amber" | "outline" => {
     switch (cat) {
       case "productivity":
         return "cyan";
       case "gaming":
         return "purple";
       case "education":
-        return "emerald";
+        return "green";
       case "finance":
         return "amber";
       default:
-        return "default";
+        return "outline";
     }
   };
 
