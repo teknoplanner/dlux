@@ -34,7 +34,7 @@ export const developer: DeveloperProfile = {
     "D Lucky X adalah studio pengembang game dan aplikasi Android independen dari Indonesia. Kami merilis game santai yang adiktif, petualangan aksi seru, aplikasi edukasi anak ramah keluarga, serta aplikasi utilitas produktivitas & finansial harian yang ringan, privat, dan aman di Google Play Store.",
   playStoreUrl:
     "https://play.google.com/store/apps/dev?id=5090788794635737630",
-  email: "support@dluckyx.cloud",
+  email: "teknoplanner@gmail.com",
   website: "https://dluckyx.cloud",
 };
 

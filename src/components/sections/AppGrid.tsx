@@ -18,20 +18,20 @@ export const AppGrid: React.FC = () => {
   const toolCount = apps.filter((a) => a.category === "tool").length;
 
   return (
-    <section id="apps" className="py-20 relative bg-[#070913]">
+    <section id="apps" className="py-20 relative bg-white border-b border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-3">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-400">
-            <span>KATALOG RESMI GOOGLE PLAY</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-xs font-semibold text-slate-800">
+            <span>KATALOG KARYA STUDIO</span>
           </div>
 
-          <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-white tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
             Koleksi Game &amp; Aplikasi Kami
           </h2>
 
-          <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-            Pilih game adu penalti, petualangan kucing, edukasi matematika anak, atau alat produktivitas seperti editor PDF offline dan pengatur keuangan harian.
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+            Pilih game adu penalti, petualangan kucing luar angkasa, edukasi matematika anak, atau alat utilitas seperti editor PDF offline dan pengatur keuangan harian.
           </p>
 
           {/* Filter Tabs */}
@@ -40,8 +40,8 @@ export const AppGrid: React.FC = () => {
               onClick={() => setActiveCategory("all")}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 activeCategory === "all"
-                  ? "bg-white text-slate-950 shadow-md font-bold"
-                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
+                  ? "bg-slate-900 text-white shadow-sm font-bold"
+                  : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
               }`}
             >
               <LayoutGrid className="w-4 h-4" />
@@ -52,8 +52,8 @@ export const AppGrid: React.FC = () => {
               onClick={() => setActiveCategory("game")}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 activeCategory === "game"
-                  ? "bg-emerald-500 text-white shadow-md shadow-emerald-500/20 font-bold"
-                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
+                  ? "bg-emerald-600 text-white shadow-sm font-bold"
+                  : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
               }`}
             >
               <Gamepad2 className="w-4 h-4 text-emerald-400" />
@@ -64,11 +64,11 @@ export const AppGrid: React.FC = () => {
               onClick={() => setActiveCategory("tool")}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 activeCategory === "tool"
-                  ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold"
-                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
+                  ? "bg-sky-600 text-white shadow-sm font-bold"
+                  : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
               }`}
             >
-              <Wrench className="w-4 h-4 text-cyan-400" />
+              <Wrench className="w-4 h-4 text-sky-400" />
               Alat &amp; Utilitas ({toolCount})
             </button>
 
@@ -76,8 +76,8 @@ export const AppGrid: React.FC = () => {
               onClick={() => setActiveCategory("education")}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 activeCategory === "education"
-                  ? "bg-purple-600 text-white shadow-md shadow-purple-600/20 font-bold"
-                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
+                  ? "bg-purple-600 text-white shadow-sm font-bold"
+                  : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
               }`}
             >
               <GraduationCap className="w-4 h-4 text-purple-400" />

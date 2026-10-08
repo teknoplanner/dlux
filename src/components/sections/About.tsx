@@ -5,47 +5,47 @@ import { developer } from "@/data/apps";
 export const About: React.FC = () => {
   const pillars = [
     {
-      icon: <Sparkles className="w-5 h-5 text-purple-400" />,
+      icon: <Sparkles className="w-5 h-5 text-purple-600" />,
       title: "Desain Intuitif & Menyenangkan",
       desc: "Menghadirkan gameplay dan antarmuka yang ramah pengguna tanpa kerumitan yang membingungkan.",
     },
     {
-      icon: <Brain className="w-5 h-5 text-cyan-400" />,
+      icon: <Brain className="w-5 h-5 text-sky-600" />,
       title: "Asah Logika & Ketangkasan",
-      desc: "Membantu anak-anak dan keluarga melatih fokus, berhitung, dan daya ingat harian.",
+      desc: "Membantu anak-anak dan keluarga melatih fokus, ketangkasan berhitung, dan daya ingat harian.",
     },
     {
-      icon: <Heart className="w-5 h-5 text-rose-400" />,
+      icon: <Heart className="w-5 h-5 text-rose-600" />,
       title: "Aplikasi Bermanfaat",
-      desc: "Selain game hiburan, kami membuat alat praktis seperti editor PDF dan pencatat anggaran keuangan.",
+      desc: "Selain game hiburan, kami membuat alat praktis seperti editor PDF offline dan pencatat anggaran keuangan.",
     },
     {
-      icon: <Shield className="w-5 h-5 text-emerald-400" />,
+      icon: <Shield className="w-5 h-5 text-emerald-600" />,
       title: "Privasi Pengguna Terjaga",
       desc: "Mematuhi standar Google Play Families dan COPPA. Tanpa pengumpulan data invasif yang merugikan pengguna.",
     },
   ];
 
   return (
-    <section id="about" className="py-20 relative bg-[#090c18] border-t border-slate-800/80">
+    <section id="about" className="py-20 relative bg-white border-t border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Text */}
           <div className="lg:col-span-5 space-y-4 text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-400">
-              <span>PROFIL PENGEMBANG</span>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-xs font-semibold text-slate-800">
+              <span>TENTANG STUDIO KAMI</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-white tracking-tight">
-              Membangun Game Seru &amp; Aplikasi Bermanfaat
+            <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
+              Membangun Game Menghibur &amp; Aplikasi Berfaedah
             </h2>
 
-            <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               {developer.description}
             </p>
 
-            <p className="text-sm text-slate-300 leading-relaxed">
-              Kami percaya bahwa aplikasi mobile yang baik harus ringan di perangkat, menjaga privasi pengguna, dan memberikan nilai nyata baik untuk hiburan santai maupun produktivitas kerja harian.
+            <p className="text-sm text-slate-600 leading-relaxed">
+              Kami percaya bahwa aplikasi mobile yang baik harus ringan di perangkat, menjaga privasi pengguna secara ketat, dan memberikan nilai nyata baik untuk hiburan santai maupun produktivitas kerja harian.
             </p>
           </div>
 
@@ -54,15 +54,15 @@ export const About: React.FC = () => {
             {pillars.map((pillar, idx) => (
               <div
                 key={idx}
-                className="p-5 rounded-2xl bg-[#0e1224] border border-slate-800 hover:border-slate-700 transition-all duration-200 shadow-lg"
+                className="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-slate-300 transition-all duration-200 shadow-sm"
               >
-                <div className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center mb-3">
+                <div className="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center mb-3 shadow-sm">
                   {pillar.icon}
                 </div>
-                <h3 className="text-base font-bold text-white mb-1.5 font-display">
+                <h3 className="text-base font-bold text-slate-900 mb-1.5 font-display">
                   {pillar.title}
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                   {pillar.desc}
                 </p>
               </div>

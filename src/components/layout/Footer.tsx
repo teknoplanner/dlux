@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Gamepad2, Mail, ExternalLink, ShieldCheck, Heart } from "lucide-react";
+import { Gamepad2, Mail, ExternalLink, ShieldCheck } from "lucide-react";
 import { apps, developer } from "@/data/apps";
 
 export const Footer: React.FC = () => {
@@ -109,11 +109,8 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} D Lucky X. Hak cipta dilindungi undang-undang.</p>
-          <p className="flex items-center gap-1.5">
-            Dibuat dengan <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> untuk pengguna di seluruh dunia.
-          </p>
+        <div className="pt-8 text-center text-xs text-slate-500">
+          <p>© {new Date().getFullYear()} D Lucky X</p>
         </div>
       </div>
     </footer>
