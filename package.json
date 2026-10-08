@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "generate-assets": "node scripts/generate-assets.mjs",
-    "check-apps": "node scripts/check-apps.mjs"
+    "check-apps": "node scripts/check-apps.mjs",
+    "sync:playstore": "node scripts/sync-playstore-metrics.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^9.106.0",
