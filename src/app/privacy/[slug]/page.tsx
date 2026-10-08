@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { apps, developer } from "@/data/apps";
 import { Badge } from "@/components/ui/Badge";
+import { KucingPrivacyContent } from "@/components/privacy/KucingPrivacyContent";
 
 interface PageProps {
   params: {
@@ -45,6 +46,41 @@ export default function AppPrivacyPage({ params }: PageProps) {
   }
 
   const isEducation = app.category === "education";
+
+  if (app.slug === "kucing-atur-duit") {
+    return (
+      <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="mb-8 flex flex-wrap items-center justify-between gap-3">
+            <Link
+              href="/privacy"
+              className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Back to General Privacy Policy
+            </Link>
+
+            <div className="flex items-center gap-4 text-xs font-semibold">
+              <Link
+                href={`/terms/${app.slug}`}
+                className="text-indigo-700 hover:text-indigo-900 underline"
+              >
+                Terms of Service &rarr;
+              </Link>
+              <Link
+                href={`/apps/${app.slug}`}
+                className="text-slate-700 hover:text-slate-900 underline"
+              >
+                {app.name} Overview &rarr;
+              </Link>
+            </div>
+          </div>
+
+          <KucingPrivacyContent app={app} />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
