@@ -1,27 +1,12 @@
 import type { Metadata } from "next";
-import { Poppins, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { developer } from "@/data/apps";
 import { generateOrganizationSchema } from "@/lib/seo";
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
-  display: "swap",
-});
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  weight: ["600", "700"],
-  variable: "--font-space",
-  display: "swap",
-});
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://dluckyx.com"),
+  metadataBase: new URL("https://dluckyx.cloud"),
   title: {
     default: "D Lucky X — Studio Game & Aplikasi Android Resmi",
     template: "%s | D Lucky X",
@@ -44,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://dluckyx.com",
+    url: "https://dluckyx.cloud",
     siteName: "D Lucky X",
     title: "D Lucky X — Studio Game & Aplikasi Android Resmi",
     description: developer.tagline,
@@ -68,9 +53,19 @@ export default function RootLayout({
   const orgSchema = generateOrganizationSchema();
 
   return (
-    <html lang="id" className={`${poppins.variable} ${spaceGrotesk.variable}`}>
+    <html lang="id">
       <head>
         <link rel="icon" href="/images/apps/stickman-penalty-rush/icon.webp" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+          rel="stylesheet"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}

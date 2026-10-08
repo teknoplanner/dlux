@@ -33,8 +33,8 @@ export const developer: DeveloperProfile = {
     "D Lucky X adalah studio game dan pengembang aplikasi Android independen. Kami berdedikasi menciptakan pengalaman bermain game yang seru, edukatif, ringan, dan aman untuk segala usia, mulai dari anak-anak hingga dewasa.",
   playStoreUrl:
     "https://play.google.com/store/apps/dev?id=5090788794635737630",
-  email: "support@dluckyx.com",
-  website: "https://dluckyx.com",
+  email: "support@dluckyx.cloud",
+  website: "https://dluckyx.cloud",
 };
 
 export const apps: AppItem[] = [

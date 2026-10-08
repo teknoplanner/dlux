@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://dluckyx.com/sitemap.xml",
+    sitemap: "https://dluckyx.cloud/sitemap.xml",
   };
 }

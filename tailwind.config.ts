@@ -23,8 +23,8 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-poppins)", "sans-serif"],
-        display: ["var(--font-space)", "sans-serif"],
+        sans: ["Poppins", "system-ui", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        display: ["'Space Grotesk'", "system-ui", "-apple-system", "BlinkMacSystemFont", "sans-serif"],
       },
       boxShadow: {
         "neon-purple": "0 0 25px -5px rgba(139, 92, 246, 0.4)",
