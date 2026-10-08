@@ -49,12 +49,24 @@ export function generateSoftwareAppSchema(app: AppItem) {
   };
 }
 
-export function generateArticleSchema(article: ArticleItem, app?: AppItem) {
+export function generateArticleSchema(
+  article: ArticleItem,
+  app?: AppItem,
+  lang: "id" | "en" = "id"
+) {
+  const isEn = lang === "en";
+  const headline = isEn ? article.titleEn : article.title;
+  const description = isEn ? article.metaDescriptionEn : article.metaDescription;
+  const keywords = isEn ? article.keywordsEn.join(", ") : article.keywords.join(", ");
+  const pageUrl = isEn
+    ? `${developer.website}/en/blog/${article.slug}/`
+    : `${developer.website}/blog/${article.slug}/`;
+
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline: article.title,
-    description: article.metaDescription,
+    headline,
+    description,
     image: `${developer.website}${article.coverImage}`,
     datePublished: article.publishedDate,
     dateModified: article.publishedDate,
@@ -74,9 +86,10 @@ export function generateArticleSchema(article: ArticleItem, app?: AppItem) {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${developer.website}/blog/${article.slug}/`,
+      "@id": pageUrl,
     },
-    keywords: article.keywords.join(", "),
+    keywords,
+    inLanguage: isEn ? "en" : "id",
     ...(app
       ? {
           about: {

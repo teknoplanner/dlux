@@ -6,12 +6,17 @@ import { ArticleSection } from "@/data/articles";
 
 interface TableOfContentsProps {
   sections: ArticleSection[];
+  lang?: "id" | "en";
 }
 
-export const TableOfContents: React.FC<TableOfContentsProps> = ({ sections }) => {
+export const TableOfContents: React.FC<TableOfContentsProps> = ({
+  sections,
+  lang = "id",
+}) => {
   const [isOpen, setIsOpen] = useState(true);
 
   if (!sections || sections.length === 0) return null;
+  const isEn = lang === "en";
 
   return (
     <nav className="rounded-2xl bg-slate-50 border border-slate-200 p-5 my-6">
@@ -22,7 +27,7 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({ sections }) =>
       >
         <span className="flex items-center gap-2">
           <ListCollapse className="w-4 h-4 text-indigo-600" />
-          <span>Daftar Isi Panduan</span>
+          <span>{isEn ? "Table of Contents" : "Daftar Isi Panduan"}</span>
         </span>
         <ChevronDown
           className={`w-4 h-4 text-slate-500 transition-transform duration-200 ${
@@ -33,7 +38,7 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({ sections }) =>
 
       {isOpen && (
         <ul className="mt-3.5 space-y-2 text-xs border-t border-slate-200/70 pt-3">
-          {sections.map((sec, idx) => (
+          {sections.map((sec) => (
             <li key={sec.id}>
               <a
                 href={`#${sec.id}`}
@@ -48,7 +53,7 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({ sections }) =>
               href="#faq"
               className="text-slate-600 hover:text-indigo-600 hover:underline transition-colors block leading-relaxed"
             >
-              Pertanyaan yang Sering Diajukan (FAQ)
+              {isEn ? "Frequently Asked Questions (FAQ)" : "Pertanyaan yang Sering Diajukan (FAQ)"}
             </a>
           </li>
         </ul>

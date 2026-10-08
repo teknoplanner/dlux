@@ -9,7 +9,6 @@ import {
   HelpCircle,
   CheckCircle2,
   Lightbulb,
-  Globe2,
 } from "lucide-react";
 import { articles, getArticleBySlug, getRelatedArticles } from "@/data/articles";
 import { apps, developer } from "@/data/apps";
@@ -38,22 +37,22 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: PageProps): Metadata {
   const article = getArticleBySlug(params.slug);
-  if (!article) return { title: "Artikel Tidak Ditemukan" };
+  if (!article) return { title: "Article Not Found" };
 
   return {
-    title: `${article.metaTitle} | D Lucky X`,
-    description: article.metaDescription,
-    keywords: article.keywords,
+    title: `${article.metaTitleEn} | D Lucky X`,
+    description: article.metaDescriptionEn,
+    keywords: article.keywordsEn,
     alternates: {
-      canonical: `${developer.website}/blog/${article.slug}/`,
+      canonical: `${developer.website}/en/blog/${article.slug}/`,
       languages: {
-        id: `${developer.website}/blog/${article.slug}/`,
         en: `${developer.website}/en/blog/${article.slug}/`,
+        id: `${developer.website}/blog/${article.slug}/`,
       },
     },
     openGraph: {
-      title: article.metaTitle,
-      description: article.metaDescription,
+      title: article.metaTitleEn,
+      description: article.metaDescriptionEn,
       images: [{ url: article.coverImage }],
       type: "article",
       publishedTime: article.publishedDate,
@@ -61,13 +60,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
     },
     twitter: {
       card: "summary_large_image",
-      title: article.metaTitle,
-      description: article.metaDescription,
+      title: article.metaTitleEn,
+      description: article.metaDescriptionEn,
     },
   };
 }
 
-export default function ArticleDetailPage({ params }: PageProps) {
+export default function EnglishArticleDetailPage({ params }: PageProps) {
   const article = getArticleBySlug(params.slug);
 
   if (!article) {
@@ -77,18 +76,18 @@ export default function ArticleDetailPage({ params }: PageProps) {
   const targetApp = apps.find((a) => a.slug === article.targetAppSlug);
   const relatedArticles = getRelatedArticles(article.slug, 3);
 
-  const formattedDate = new Date(article.publishedDate).toLocaleDateString("id-ID", {
+  const formattedDate = new Date(article.publishedDate).toLocaleDateString("en-US", {
     day: "numeric",
     month: "long",
     year: "numeric",
   });
 
-  const articleSchema = generateArticleSchema(article, targetApp, "id");
-  const faqSchema = generateFaqSchema(article.faq);
+  const articleSchema = generateArticleSchema(article, targetApp, "en");
+  const faqSchema = generateFaqSchema(article.faqEn);
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Beranda", url: `${developer.website}/` },
-    { name: "Blog", url: `${developer.website}/blog/` },
-    { name: article.title, url: `${developer.website}/blog/${article.slug}/` },
+    { name: "Home", url: `${developer.website}/` },
+    { name: "Blog", url: `${developer.website}/en/blog/` },
+    { name: article.titleEn, url: `${developer.website}/en/blog/${article.slug}/` },
   ]);
 
   return (
@@ -117,26 +116,26 @@ export default function ArticleDetailPage({ params }: PageProps) {
           {/* Breadcrumb & Navigation */}
           <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500 border-b border-slate-200/80 pb-4">
             <Link
-              href="/blog"
+              href="/en/blog"
               className="inline-flex items-center gap-1.5 font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
-              <span>Kembali ke Blog</span>
+              <span>Back to English Blog</span>
             </Link>
 
             <div className="flex items-center gap-2">
-              <Link href="/" className="hover:underline">Beranda</Link>
+              <Link href="/" className="hover:underline">Home</Link>
               <span>/</span>
-              <Link href="/blog" className="hover:underline">Blog</Link>
+              <Link href="/en/blog" className="hover:underline">Blog</Link>
               <span>/</span>
               <span className="text-slate-800 font-semibold truncate max-w-[200px]">
-                {article.title}
+                {article.titleEn}
               </span>
             </div>
           </div>
 
-          {/* Bilingual Language Switcher & Non-ID IP Prompt */}
-          <LanguageSwitcher currentLang="id" slug={article.slug} />
+          {/* Bilingual Language Switcher */}
+          <LanguageSwitcher currentLang="en" slug={article.slug} />
 
           {/* Article Header */}
           <header className="space-y-4">
@@ -146,7 +145,7 @@ export default function ArticleDetailPage({ params }: PageProps) {
               </Badge>
               <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 font-medium font-mono">
                 <Clock className="w-3.5 h-3.5 text-slate-400" />
-                {article.readTime}
+                {article.readTimeEn}
               </span>
               <span>•</span>
               <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 font-medium">
@@ -156,11 +155,11 @@ export default function ArticleDetailPage({ params }: PageProps) {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-slate-900 leading-tight">
-              {article.title}
+              {article.titleEn}
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-              {article.metaDescription}
+              {article.metaDescriptionEn}
             </p>
 
             <div className="pt-2 flex items-center justify-between text-xs text-slate-500 border-t border-slate-100">
@@ -170,39 +169,18 @@ export default function ArticleDetailPage({ params }: PageProps) {
                 </div>
                 <div>
                   <span className="font-semibold text-slate-900 block leading-tight">{article.author}</span>
-                  <span className="text-[11px] text-slate-600 font-mono">Dipublikasikan untuk Pengguna Android</span>
+                  <span className="text-[11px] text-slate-600 font-mono">Published for Global Android Users</span>
                 </div>
               </div>
             </div>
           </header>
 
-          {/* Bilingual English Quick Summary */}
-          {article.englishSummary && (
-            <div className="rounded-2xl bg-gradient-to-r from-sky-50 via-indigo-50/50 to-slate-50 border border-sky-200/90 p-5 sm:p-6 shadow-2xs space-y-2.5">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2 text-sky-900 font-bold text-xs font-mono uppercase tracking-wider">
-                  <Globe2 className="w-4 h-4 text-sky-600" />
-                  <span>🇬🇧 English Quick Summary (Bilingual Overview)</span>
-                </div>
-                <Link
-                  href={`/en/blog/${article.slug}`}
-                  className="text-xs font-bold text-indigo-700 hover:text-indigo-900 underline"
-                >
-                  Read Full Article in English &rarr;
-                </Link>
-              </div>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed italic">
-                &ldquo;{article.englishSummary}&rdquo;
-              </p>
-            </div>
-          )}
-
           {/* Table of Contents */}
-          <TableOfContents sections={article.sections} lang="id" />
+          <TableOfContents sections={article.sectionsEn} lang="en" />
 
           {/* Article Main Body Content */}
           <main className="space-y-10 text-slate-800 text-sm sm:text-base leading-relaxed">
-            {article.sections.map((section, idx) => (
+            {article.sectionsEn.map((section, idx) => (
               <div key={section.id} className="space-y-4">
                 <h2
                   id={section.id}
@@ -252,7 +230,7 @@ export default function ArticleDetailPage({ params }: PageProps) {
 
                 {/* Mid-Article Inline App CTA (After 2nd Section) */}
                 {idx === 1 && targetApp && (
-                  <AppCtaBanner app={targetApp} variant="inline" lang="id" />
+                  <AppCtaBanner app={targetApp} variant="inline" lang="en" />
                 )}
               </div>
             ))}
@@ -261,22 +239,22 @@ export default function ArticleDetailPage({ params }: PageProps) {
           {/* End-Article Main App CTA Banner */}
           {targetApp && (
             <div className="pt-4">
-              <AppCtaBanner app={targetApp} variant="bottom" lang="id" />
+              <AppCtaBanner app={targetApp} variant="bottom" lang="en" />
             </div>
           )}
 
           {/* FAQ Accordion Section */}
-          {article.faq && article.faq.length > 0 && (
+          {article.faqEn && article.faqEn.length > 0 && (
             <section id="faq" className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6 scroll-mt-28">
               <div className="border-b border-slate-100 pb-3 flex items-center gap-2.5">
                 <HelpCircle className="w-5 h-5 text-indigo-600" />
                 <h2 className="text-xl font-bold font-display text-slate-900">
-                  Pertanyaan yang Sering Diajukan (FAQ)
+                  Frequently Asked Questions (FAQ)
                 </h2>
               </div>
 
               <div className="space-y-4">
-                {article.faq.map((item, idx) => (
+                {article.faqEn.map((item, idx) => (
                   <div
                     key={idx}
                     className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2"
@@ -298,19 +276,19 @@ export default function ArticleDetailPage({ params }: PageProps) {
             <section className="pt-8 border-t border-slate-200 space-y-6">
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-bold font-display text-slate-900">
-                  Rekomendasi Panduan Lainnya
+                  Related Guides &amp; Articles
                 </h3>
                 <Link
-                  href="/blog"
+                  href="/en/blog"
                   className="text-xs font-bold text-indigo-600 hover:text-indigo-800"
                 >
-                  Lihat Semua &rarr;
+                  View All Guides &rarr;
                 </Link>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {relatedArticles.map((rel) => (
-                  <ArticleCard key={rel.slug} article={rel} lang="id" />
+                  <ArticleCard key={rel.slug} article={rel} lang="en" />
                 ))}
               </div>
             </section>

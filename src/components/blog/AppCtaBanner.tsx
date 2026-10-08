@@ -1,16 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Play, Star, ShieldCheck, Download, Sparkles, ExternalLink } from "lucide-react";
+import { Play, Star, ShieldCheck, ExternalLink } from "lucide-react";
 import { AppItem } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 
 interface AppCtaBannerProps {
   app: AppItem;
   variant?: "inline" | "bottom";
+  lang?: "id" | "en";
 }
 
-export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({ app, variant = "bottom" }) => {
+export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({
+  app,
+  variant = "bottom",
+  lang = "id",
+}) => {
+  const isEn = lang === "en";
+
   if (variant === "inline") {
     return (
       <aside className="my-8 rounded-2xl bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-5 sm:p-6 shadow-md border border-indigo-900/60 relative overflow-hidden">
@@ -31,7 +38,7 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({ app, variant = "bott
             <div>
               <div className="flex items-center gap-2">
                 <span className="text-[10px] font-mono uppercase tracking-wider text-cyan-300 bg-cyan-950/80 px-2 py-0.5 rounded-md border border-cyan-700/50">
-                  Solusi Praktis
+                  {isEn ? "Practical Solution" : "Solusi Praktis"}
                 </span>
                 <div className="flex items-center text-amber-400 text-xs font-bold gap-0.5">
                   <Star className="w-3.5 h-3.5 fill-current" />
@@ -39,7 +46,7 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({ app, variant = "bott
                 </div>
               </div>
               <h4 className="text-base font-bold text-white mt-1 leading-snug">
-                Coba langsung di {app.name}
+                {isEn ? `Try it directly in ${app.name}` : `Coba langsung di ${app.name}`}
               </h4>
               <p className="text-xs text-slate-300 line-clamp-1 mt-0.5">
                 {app.tagline}
@@ -56,7 +63,7 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({ app, variant = "bott
               className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold shadow-md w-full sm:w-auto justify-center"
             >
               <Play className="w-3.5 h-3.5 fill-current" />
-              <span>Pasang Gratis</span>
+              <span>{isEn ? "Install Free" : "Pasang Gratis"}</span>
             </Button>
           </div>
         </div>
@@ -86,11 +93,11 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({ app, variant = "bott
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-xs font-mono font-bold uppercase tracking-wider text-emerald-400 bg-emerald-950/80 px-2.5 py-0.5 rounded-md border border-emerald-800/60 inline-flex items-center gap-1">
                 <ShieldCheck className="w-3.5 h-3.5" />
-                Resmi di Google Play
+                {isEn ? "Official Google Play" : "Resmi di Google Play"}
               </span>
               <div className="flex items-center text-amber-400 text-xs font-bold gap-1 bg-white/10 px-2 py-0.5 rounded-md">
                 <Star className="w-3.5 h-3.5 fill-current" />
-                <span>5.0 • {app.downloads} Unduhan</span>
+                <span>5.0 • {app.downloads} {isEn ? "Downloads" : "Unduhan"}</span>
               </div>
             </div>
 
@@ -113,14 +120,14 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({ app, variant = "bott
             className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold shadow-lg justify-center gap-2 text-sm"
           >
             <Play className="w-4 h-4 fill-current" />
-            <span>Install di Google Play</span>
+            <span>{isEn ? "Get on Google Play" : "Install di Google Play"}</span>
           </Button>
 
           <Link
             href={`/apps/${app.slug}`}
             className="text-xs text-center font-semibold text-slate-300 hover:text-white underline transition-colors py-1 flex items-center justify-center gap-1"
           >
-            <span>Lihat Screenshot &amp; Detail Fitur</span>
+            <span>{isEn ? "View Screenshots & Features" : "Lihat Screenshot & Detail Fitur"}</span>
             <ExternalLink className="w-3 h-3" />
           </Link>
         </div>

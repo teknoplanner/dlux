@@ -21,6 +21,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/en/blog/`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/privacy/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
@@ -47,8 +53,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  // Indonesian Blog Articles (35 Articles)
   const blogRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${baseUrl}/blog/${article.slug}/`,
+    lastModified: new Date(article.publishedDate),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
+  // English Blog Articles (35 Articles for International SEO)
+  const englishBlogRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
+    url: `${baseUrl}/en/blog/${article.slug}/`,
     lastModified: new Date(article.publishedDate),
     changeFrequency: "weekly",
     priority: 0.7,
@@ -72,6 +87,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticRoutes,
     ...appRoutes,
     ...blogRoutes,
+    ...englishBlogRoutes,
     ...privacyRoutes,
     ...termsRoutes,
   ];

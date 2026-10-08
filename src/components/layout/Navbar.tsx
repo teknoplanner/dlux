@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Play, Menu, X, Gamepad2, ShieldCheck, Mail, Sparkles, BookOpen } from "lucide-react";
+import { Play, Menu, X, Gamepad2, Sparkles, BookOpen } from "lucide-react";
 import { developer } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 
@@ -67,28 +67,10 @@ export const Navbar: React.FC = () => {
               Featured
             </Link>
             <Link
-              href="/#about"
-              className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
-            >
-              About
-            </Link>
-            <Link
               href="/blog"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
               Blog
-            </Link>
-            <Link
-              href="/privacy"
-              className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
-            >
-              Privacy Policy
-            </Link>
-            <Link
-              href="/contact"
-              className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
-            >
-              Contact
             </Link>
           </nav>
 
@@ -138,36 +120,12 @@ export const Navbar: React.FC = () => {
             Featured Spotlight
           </Link>
           <Link
-            href="/#about"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
-          >
-            <ShieldCheck className="w-4 h-4 text-cyan-600" />
-            About Studio
-          </Link>
-          <Link
             href="/blog"
             onClick={() => setMobileMenuOpen(false)}
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
           >
             <BookOpen className="w-4 h-4 text-indigo-600" />
             Blog &amp; Panduan
-          </Link>
-          <Link
-            href="/privacy"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
-          >
-            <ShieldCheck className="w-4 h-4 text-purple-600" />
-            Privacy Policy
-          </Link>
-          <Link
-            href="/contact"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
-          >
-            <Mail className="w-4 h-4 text-orange-500" />
-            Contact &amp; Support
           </Link>
           <div className="pt-2">
             <Button

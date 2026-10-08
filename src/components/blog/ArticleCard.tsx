@@ -9,12 +9,19 @@ import { Badge } from "@/components/ui/Badge";
 interface ArticleCardProps {
   article: ArticleItem;
   featured?: boolean;
+  lang?: "id" | "en";
 }
 
-export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = false }) => {
+export const ArticleCard: React.FC<ArticleCardProps> = ({
+  article,
+  featured = false,
+  lang = "id",
+}) => {
   const targetApp = apps.find((a) => a.slug === article.targetAppSlug);
 
-  const getCategoryBadgeVariant = (cat: ArticleItem["category"]): "purple" | "cyan" | "pink" | "green" | "amber" | "outline" => {
+  const getCategoryBadgeVariant = (
+    cat: ArticleItem["category"]
+  ): "purple" | "cyan" | "pink" | "green" | "amber" | "outline" => {
     switch (cat) {
       case "productivity":
         return "cyan";
@@ -29,11 +36,20 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
     }
   };
 
-  const formattedDate = new Date(article.publishedDate).toLocaleDateString("id-ID", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
+  const isEn = lang === "en";
+  const title = isEn ? article.titleEn : article.title;
+  const description = isEn ? article.metaDescriptionEn : article.metaDescription;
+  const readTime = isEn ? article.readTimeEn : article.readTime;
+  const href = isEn ? `/en/blog/${article.slug}` : `/blog/${article.slug}`;
+
+  const formattedDate = new Date(article.publishedDate).toLocaleDateString(
+    isEn ? "en-US" : "id-ID",
+    {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    }
+  );
 
   if (featured) {
     return (
@@ -46,7 +62,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
           <div className="relative z-10 space-y-4">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs font-bold text-cyan-300 tracking-wide uppercase">
               <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-              Artikel Pilihan
+              {isEn ? "Featured Guide" : "Artikel Pilihan"}
             </div>
 
             {targetApp && (
@@ -62,7 +78,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
                 </div>
                 <div>
                   <span className="text-[11px] font-mono uppercase tracking-wider text-slate-300 block">
-                    Aplikasi Terkait
+                    {isEn ? "Related Application" : "Aplikasi Terkait"}
                   </span>
                   <span className="text-sm font-bold text-white block truncate">
                     {targetApp.name}
@@ -75,7 +91,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
           <div className="relative z-10 pt-8 mt-auto flex items-center gap-4 text-xs text-slate-300 font-medium">
             <span className="inline-flex items-center gap-1.5">
               <Clock className="w-3.5 h-3.5 text-cyan-400" />
-              {article.readTime}
+              {readTime}
             </span>
             <span>•</span>
             <span className="inline-flex items-center gap-1.5">
@@ -93,23 +109,23 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
               </Badge>
             </div>
 
-            <Link href={`/blog/${article.slug}`}>
+            <Link href={href}>
               <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900 group-hover:text-indigo-600 transition-colors leading-tight">
-                {article.title}
+                {title}
               </h3>
             </Link>
 
             <p className="text-sm text-slate-600 line-clamp-3 leading-relaxed">
-              {article.metaDescription}
+              {description}
             </p>
           </div>
 
           <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
             <Link
-              href={`/blog/${article.slug}`}
+              href={href}
               className="inline-flex items-center gap-2 text-sm font-bold text-indigo-600 hover:text-indigo-800 group-hover:gap-3 transition-all"
             >
-              <span>Baca Panduan Selengkapnya</span>
+              <span>{isEn ? "Read Complete Guide" : "Baca Panduan Selengkapnya"}</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -129,20 +145,20 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
 
           <span className="inline-flex items-center gap-1 text-xs text-slate-600 font-medium font-mono">
             <Clock className="w-3 h-3 text-slate-500" />
-            {article.readTime}
+            {readTime}
           </span>
         </div>
 
         {/* Title */}
-        <Link href={`/blog/${article.slug}`} className="block">
+        <Link href={href} className="block">
           <h3 className="text-lg sm:text-xl font-bold font-display text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug line-clamp-2">
-            {article.title}
+            {title}
           </h3>
         </Link>
 
         {/* Snippet */}
         <p className="text-xs sm:text-sm text-slate-600 line-clamp-3 leading-relaxed">
-          {article.metaDescription}
+          {description}
         </p>
       </div>
 
@@ -160,7 +176,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
               />
             </div>
             <div className="min-w-0 flex-1">
-              <span className="text-[10px] text-slate-600 font-mono block leading-none">Aplikasi</span>
+              <span className="text-[10px] text-slate-600 font-mono block leading-none">
+                {isEn ? "App" : "Aplikasi"}
+              </span>
               <span className="text-xs font-bold text-slate-800 truncate block mt-0.5">
                 {targetApp.name}
               </span>
@@ -171,10 +189,10 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
         <div className="pt-2 flex items-center justify-between text-xs text-slate-600 font-medium">
           <span>{formattedDate}</span>
           <Link
-            href={`/blog/${article.slug}`}
+            href={href}
             className="inline-flex items-center gap-1.5 font-bold text-indigo-600 hover:text-indigo-800 group-hover:gap-2 transition-all"
           >
-            <span>Baca</span>
+            <span>{isEn ? "Read" : "Baca"}</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
