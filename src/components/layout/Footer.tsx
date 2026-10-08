@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import { Gamepad2, Mail, ExternalLink, ShieldCheck, FileText, BookOpen } from "lucide-react";
-import { apps, developer } from "@/data/apps";
+import { developer } from "@/data/apps";
 
 export const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-50 border-t border-slate-200 pt-16 pb-12 relative overflow-hidden text-slate-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 pb-12 border-b border-slate-200">
           {/* Col 1: Studio Info */}
           <div className="md:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3">
@@ -46,30 +46,7 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Col 2: Games & Apps List */}
-          <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-4">
-              Our Creations
-            </h4>
-            <ul className="space-y-2.5">
-              {apps.map((app) => (
-                <li key={app.slug}>
-                  <Link
-                    href={`/apps/${app.slug}`}
-                    className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
-                  >
-                    <span
-                      className="w-2 h-2 rounded-full shrink-0"
-                      style={{ backgroundColor: app.color }}
-                    />
-                    <span className="truncate">{app.name}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Col 3: Legal & Resources */}
+          {/* Col 2: Legal & Resources */}
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-4">
               Information &amp; Support
