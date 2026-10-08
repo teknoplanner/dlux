@@ -5,66 +5,64 @@ import { apps, developer } from "@/data/apps";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#05070e] border-t border-slate-800 pt-16 pb-12 relative overflow-hidden">
+    <footer className="bg-slate-50 border-t border-slate-200 pt-16 pb-12 relative overflow-hidden text-slate-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-200">
           {/* Col 1: Studio Info */}
           <div className="md:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 to-cyan-400 p-[1.5px]">
-                <div className="w-full h-full bg-[#0b0b18] rounded-[10px] flex items-center justify-center">
-                  <Gamepad2 className="w-5 h-5 text-cyan-400" />
-                </div>
+              <div className="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-white shadow-sm">
+                <Gamepad2 className="w-5 h-5 text-emerald-400" />
               </div>
               <div>
-                <span className="text-xl font-bold font-display tracking-tight text-white">
-                  D LUCKY <span className="text-cyan-400">X</span>
+                <span className="text-xl font-bold font-display tracking-tight text-slate-900">
+                  D LUCKY <span className="text-emerald-600">X</span>
                 </span>
-                <span className="block text-[10px] tracking-widest uppercase text-gray-400 -mt-1 font-semibold">
-                  Game &amp; App Studio
+                <span className="block text-[10px] tracking-widest uppercase text-slate-500 -mt-1 font-semibold">
+                  Studio Game &amp; Aplikasi
                 </span>
               </div>
             </Link>
-            <p className="text-sm text-gray-400 max-w-md leading-relaxed">
-              {developer.tagline}
+            <p className="text-sm text-slate-600 max-w-md leading-relaxed">
+              {developer.description}
             </p>
-            <div className="flex items-center gap-4 pt-2">
+            <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
                 href={developer.playStoreUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-cyan-300 hover:bg-cyan-500/10 hover:border-cyan-400/40 transition-all"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-800 hover:border-slate-300 hover:bg-slate-100 transition-all shadow-sm"
               >
-                <ExternalLink className="w-3.5 h-3.5" />
-                Google Play Developer
+                <ExternalLink className="w-3.5 h-3.5 text-slate-600" />
+                Halaman Google Play
               </a>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-white/5 border border-white/10 text-gray-300 hover:bg-white/10 transition-all"
+                className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-800 hover:border-slate-300 hover:bg-slate-100 transition-all shadow-sm"
               >
-                <Mail className="w-3.5 h-3.5" />
+                <Mail className="w-3.5 h-3.5 text-slate-600" />
                 {developer.email}
               </Link>
             </div>
           </div>
 
-          {/* Col 2: Games List */}
+          {/* Col 2: Games & Apps List */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4">
-              Game & Aplikasi
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-4">
+              Karya Kami
             </h4>
             <ul className="space-y-2.5">
               {apps.map((app) => (
                 <li key={app.slug}>
                   <Link
                     href={`/apps/${app.slug}`}
-                    className="text-sm text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-1.5"
+                    className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
                   >
                     <span
-                      className="w-1.5 h-1.5 rounded-full"
+                      className="w-2 h-2 rounded-full shrink-0"
                       style={{ backgroundColor: app.color }}
                     />
-                    {app.name}
+                    <span className="truncate">{app.name}</span>
                   </Link>
                 </li>
               ))}
@@ -73,25 +71,26 @@ export const Footer: React.FC = () => {
 
           {/* Col 3: Legal & Resources */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-4">
-              Legal & Dukungan
+            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-4">
+              Informasi &amp; Dukungan
             </h4>
             <ul className="space-y-2.5">
               <li>
                 <Link
                   href="/privacy"
-                  className="text-sm text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-1.5"
+                  className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
                 >
-                  <ShieldCheck className="w-3.5 h-3.5 text-pink-400" />
-                  Privacy Policy
+                  <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                  Kebijakan Privasi
                 </Link>
               </li>
               <li>
                 <Link
                   href="/contact"
-                  className="text-sm text-gray-400 hover:text-cyan-400 transition-colors"
+                  className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
                 >
-                  Hubungi Developer
+                  <Mail className="w-4 h-4 text-sky-600" />
+                  Hubungi Pengembang
                 </Link>
               </li>
               <li>
@@ -99,9 +98,10 @@ export const Footer: React.FC = () => {
                   href={developer.playStoreUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-gray-400 hover:text-cyan-400 transition-colors"
+                  className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
                 >
-                  Play Console Listing
+                  <ExternalLink className="w-4 h-4 text-purple-600" />
+                  Profil Developer Resmi
                 </a>
               </li>
             </ul>
@@ -109,10 +109,10 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} D Lucky X. Seluruh hak cipta dilindungi undang-undang.</p>
-          <p className="flex items-center gap-1">
-            Dibuat dengan <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> untuk pemain di seluruh dunia.
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <p>© {new Date().getFullYear()} D Lucky X. Hak cipta dilindungi undang-undang.</p>
+          <p className="flex items-center gap-1.5">
+            Dibuat dengan <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" /> untuk pengguna di seluruh dunia.
           </p>
         </div>
       </div>
