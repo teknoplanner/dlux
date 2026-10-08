@@ -2,18 +2,37 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { Play, Trophy, CheckCircle, ArrowRight, Gamepad2, Wrench, ShieldCheck, Smartphone } from "lucide-react";
+import { Play, Pin, CheckCircle, ArrowRight, Gamepad2, Wrench, GraduationCap, Smartphone, Star, Download } from "lucide-react";
 import { apps } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 import { ScreenshotCarousel } from "@/components/app/ScreenshotCarousel";
 
 export const Featured: React.FC = () => {
+  // Pinned priority: Monster Math: Latih Otak as requested
+  const pinnedMath = apps.find((a) => a.slug === "monster-math-train-brain") || apps[3];
   const topGame = apps.find((a) => a.slug === "stickman-penalty-rush") || apps[1];
   const topTool = apps.find((a) => a.slug === "offline-pdf-editor") || apps[0];
 
-  const [activeTab, setActiveTab] = useState<"game" | "tool">("game");
-  const currentApp = activeTab === "game" ? topGame : topTool;
+  const [activeSlug, setActiveSlug] = useState<string>("monster-math-train-brain");
+
+  const currentApp =
+    activeSlug === "monster-math-train-brain"
+      ? pinnedMath
+      : activeSlug === "stickman-penalty-rush"
+      ? topGame
+      : topTool;
+
+  const getSubcategory = () => {
+    if (currentApp.slug === "monster-math-train-brain") return "Edukasi Matematika & Latih Otak";
+    if (currentApp.slug === "stickman-penalty-rush") return "Aksi & Olahraga Santai";
+    return "Utilitas Dokumen & Privasi";
+  };
+
+  const getSubcategoryColor = () => {
+    if (currentApp.slug === "monster-math-train-brain") return "text-purple-700";
+    if (currentApp.slug === "stickman-penalty-rush") return "text-emerald-700";
+    return "text-sky-700";
+  };
 
   return (
     <section id="featured" className="py-20 relative bg-slate-50 border-y border-slate-200/80">
@@ -21,41 +40,57 @@ export const Featured: React.FC = () => {
         {/* Section Header & Spotlight Switcher */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-semibold text-slate-800 mb-3 shadow-sm">
-              <Trophy className="w-3.5 h-3.5 text-amber-500" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-bold text-slate-800 mb-3 shadow-2xs">
+              <Pin className="w-3.5 h-3.5 text-purple-600 fill-purple-600" />
               <span>SOROTAN KARYA PILIHAN</span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
               Pilihan Unggulan Studio
             </h2>
             <p className="text-sm sm:text-base text-slate-600 mt-2 max-w-xl">
-              Lihat lebih dekat karya andalan kami, baik game aksi seru maupun aplikasi utilitas kerja harian yang aman.
+              Karya pilihan studio yang paling banyak diunduh dan dinikmati pengguna di Google Play Store.
             </p>
           </div>
 
-          {/* Tab Selector: Game vs Tool */}
-          <div className="inline-flex p-1 rounded-2xl bg-slate-200/80 border border-slate-300/70 shrink-0">
+          {/* Tab Selector: Pinned Monster Math, Game, Tool */}
+          <div className="inline-flex p-1 rounded-2xl bg-slate-200/80 border border-slate-300/80 shrink-0">
             <button
-              onClick={() => setActiveTab("game")}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
-                activeTab === "game"
+              onClick={() => setActiveSlug("monster-math-train-brain")}
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all ${
+                activeSlug === "monster-math-train-brain"
                   ? "bg-white text-slate-900 shadow-sm font-bold"
-                  : "text-slate-600 hover:text-slate-900"
+                  : "text-slate-700 hover:text-slate-950 font-semibold"
+              }`}
+            >
+              <GraduationCap className="w-4 h-4 text-purple-600" />
+              <span>Monster Math</span>
+              <span className="text-[10px] px-1.5 py-0.5 rounded-md bg-purple-100 text-purple-800 font-bold ml-0.5">
+                Pinned
+              </span>
+            </button>
+
+            <button
+              onClick={() => setActiveSlug("stickman-penalty-rush")}
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all ${
+                activeSlug === "stickman-penalty-rush"
+                  ? "bg-white text-slate-900 shadow-sm font-bold"
+                  : "text-slate-700 hover:text-slate-950 font-semibold"
               }`}
             >
               <Gamepad2 className="w-4 h-4 text-emerald-600" />
-              <span>Game Andalan</span>
+              <span>Stickman Penalti</span>
             </button>
+
             <button
-              onClick={() => setActiveTab("tool")}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all ${
-                activeTab === "tool"
+              onClick={() => setActiveSlug("offline-pdf-editor")}
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all ${
+                activeSlug === "offline-pdf-editor"
                   ? "bg-white text-slate-900 shadow-sm font-bold"
-                  : "text-slate-600 hover:text-slate-900"
+                  : "text-slate-700 hover:text-slate-950 font-semibold"
               }`}
             >
               <Wrench className="w-4 h-4 text-sky-600" />
-              <span>Aplikasi Utilitas</span>
+              <span>PDF Editor</span>
             </button>
           </div>
         </div>
@@ -77,11 +112,9 @@ export const Featured: React.FC = () => {
                 </div>
                 <div>
                   <span
-                    className={`text-xs font-semibold uppercase tracking-wider block mb-1 ${
-                      activeTab === "game" ? "text-emerald-700" : "text-sky-700"
-                    }`}
+                    className={`text-xs font-bold uppercase tracking-wider block mb-1 ${getSubcategoryColor()}`}
                   >
-                    {activeTab === "game" ? "Aksi & Olahraga Santai" : "Utilitas Dokumen & Privasi"}
+                    {getSubcategory()}
                   </span>
                   <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 font-display">
                     {currentApp.name}
@@ -89,7 +122,7 @@ export const Featured: React.FC = () => {
                 </div>
               </div>
 
-              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+              <p className="text-slate-700 text-sm sm:text-base leading-relaxed">
                 {currentApp.tagline}
               </p>
 
@@ -97,7 +130,7 @@ export const Featured: React.FC = () => {
               {currentApp.features && (
                 <div className="space-y-2 pt-2 border-t border-slate-100">
                   {currentApp.features.slice(0, 3).map((feat, idx) => (
-                    <div key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-slate-700">
+                    <div key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-slate-800">
                       <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                       <span>{feat}</span>
                     </div>
@@ -112,21 +145,23 @@ export const Featured: React.FC = () => {
                     <Smartphone className="w-4 h-4 text-emerald-600" />
                     <span>Android</span>
                   </div>
-                  <div className="text-[11px] text-slate-500 font-medium">Platform</div>
+                  <div className="text-[11px] text-slate-600 font-medium">Platform</div>
                 </div>
                 <div>
                   <div className="flex items-center justify-center gap-1 text-slate-900 font-bold text-base font-display">
-                    <span className="text-amber-500 font-bold">★</span>
+                    <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
                     <span>{currentApp.rating ? currentApp.rating.toFixed(1) : "5.0"}</span>
                   </div>
-                  <div className="text-[11px] text-slate-500 font-medium">Rating Play Store</div>
+                  <div className="text-[11px] text-slate-600 font-medium">
+                    {currentApp.reviewsCount ? `${currentApp.reviewsCount} Ulasan` : "Rating Play Store"}
+                  </div>
                 </div>
                 <div>
                   <div className="flex items-center justify-center gap-1 text-slate-900 font-bold text-base font-display">
-                    <ShieldCheck className="w-4 h-4 text-sky-600" />
+                    <Download className="w-4 h-4 text-sky-600" />
                     <span>{currentApp.downloads}</span>
                   </div>
-                  <div className="text-[11px] text-slate-500 font-medium">Total Unduhan</div>
+                  <div className="text-[11px] text-slate-600 font-medium">Total Unduhan</div>
                 </div>
               </div>
 
@@ -146,7 +181,7 @@ export const Featured: React.FC = () => {
                   href={`/apps/${currentApp.slug}`}
                   variant="outline"
                   size="md"
-                  className="w-full sm:w-auto bg-white border-slate-200 text-slate-800 hover:bg-slate-50"
+                  className="w-full sm:w-auto bg-white border-slate-300 text-slate-900 hover:bg-slate-50 font-bold"
                 >
                   <span>Detail Lengkap</span>
                   <ArrowRight className="w-4 h-4 text-slate-500" />
