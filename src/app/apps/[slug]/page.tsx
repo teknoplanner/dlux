@@ -39,10 +39,10 @@ export function generateMetadata({ params }: PageProps): Metadata {
   if (!app) return { title: "Aplikasi Tidak Ditemukan" };
 
   return {
-    title: `${app.name} — Unduh di Google Play`,
+    title: `${app.name} | Unduh di Google Play`,
     description: `${app.tagline} ${app.description}`,
     openGraph: {
-      title: `${app.name} — D Lucky X`,
+      title: `${app.name} | D Lucky X`,
       description: app.tagline,
       images: [{ url: app.icon }],
     },
@@ -58,7 +58,11 @@ export default function AppDetailPage({ params }: PageProps) {
 
   const jsonLd = generateSoftwareAppSchema(app);
   const relatedApps = apps.filter((a) => a.slug !== app.slug).slice(0, 3);
-  const isEducation = app.category === "education";
+  const getCategoryTitle = () => {
+    if (app.category === "education") return "Edukasi & Belajar";
+    if (app.category === "tool") return "Aplikasi & Utilitas";
+    return "Game Android";
+  };
 
   return (
     <>
@@ -108,8 +112,8 @@ export default function AppDetailPage({ params }: PageProps) {
 
               <div className="flex-1 space-y-3">
                 <div className="flex items-center gap-2 flex-wrap">
-                  <Badge variant={isEducation ? "cyan" : "purple"} size="md">
-                    {isEducation ? "Edukasi & Belajar" : "Game Android"}
+                  <Badge variant={app.category === "education" ? "cyan" : app.category === "tool" ? "purple" : "green"} size="md">
+                    {getCategoryTitle()}
                   </Badge>
                   {app.contentRating && (
                     <Badge variant="outline" size="md">

@@ -12,61 +12,61 @@ export const Stats: React.FC = () => {
           validRatings.reduce((sum, a) => sum + (a.rating || 0), 0) /
           validRatings.length
         ).toFixed(1)
-      : "5.0";
+      : "4.9";
 
   return (
-    <section className="py-10 border-y border-white/10 bg-white/[0.02] backdrop-blur-md relative z-20">
+    <section className="py-8 border-y border-white/10 bg-[#0e101a] relative z-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-y md:divide-y-0 md:divide-x divide-white/10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 divide-y md:divide-y-0 md:divide-x divide-white/10">
           {/* Stat 1: Total Apps */}
-          <div className="flex items-center gap-4 pt-4 md:pt-0 md:px-6 first:pt-0">
-            <div className="w-12 h-12 rounded-2xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
-              <Smartphone className="w-6 h-6 text-purple-400" />
+          <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6 first:pt-0">
+            <div className="w-11 h-11 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
+              <Smartphone className="w-5 h-5 text-purple-400" />
             </div>
             <div>
-              <div className="text-2xl sm:text-3xl font-extrabold font-display text-white">
+              <div className="text-2xl font-bold font-display text-white">
                 {totalApps}
               </div>
-              <div className="text-xs text-muted font-medium">Aplikasi &amp; Game Rilis</div>
+              <div className="text-xs text-gray-400 font-medium">Aplikasi &amp; Game</div>
             </div>
           </div>
 
           {/* Stat 2: Total Downloads */}
-          <div className="flex items-center gap-4 pt-4 md:pt-0 md:px-6">
-            <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center shrink-0">
-              <Download className="w-6 h-6 text-cyan-400" />
+          <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
+            <div className="w-11 h-11 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center shrink-0">
+              <Download className="w-5 h-5 text-cyan-400" />
             </div>
             <div>
-              <div className="text-2xl sm:text-3xl font-extrabold font-display text-white">
-                3,500+
+              <div className="text-2xl font-bold font-display text-white">
+                4,000+
               </div>
-              <div className="text-xs text-muted font-medium">Total Unduhan Pengguna</div>
+              <div className="text-xs text-gray-400 font-medium">Total Unduhan</div>
             </div>
           </div>
 
           {/* Stat 3: Average Rating */}
-          <div className="flex items-center gap-4 pt-4 md:pt-0 md:px-6">
-            <div className="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0">
-              <Star className="w-6 h-6 text-amber-400 fill-amber-400" />
+          <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
+            <div className="w-11 h-11 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0">
+              <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
             </div>
             <div>
-              <div className="text-2xl sm:text-3xl font-extrabold font-display text-white">
-                {avgRating} <span className="text-sm font-normal text-muted">/ 5.0</span>
+              <div className="text-2xl font-bold font-display text-white">
+                {avgRating} <span className="text-xs font-normal text-gray-400">/ 5.0</span>
               </div>
-              <div className="text-xs text-muted font-medium">Rating Rata-Rata Store</div>
+              <div className="text-xs text-gray-400 font-medium">Rating Toko</div>
             </div>
           </div>
 
-          {/* Stat 4: Kid Safe */}
-          <div className="flex items-center gap-4 pt-4 md:pt-0 md:px-6">
-            <div className="w-12 h-12 rounded-2xl bg-green-500/10 border border-green-500/20 flex items-center justify-center shrink-0">
-              <ShieldCheck className="w-6 h-6 text-green-400" />
+          {/* Stat 4: Safe for All */}
+          <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
+            <div className="w-11 h-11 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center shrink-0">
+              <ShieldCheck className="w-5 h-5 text-emerald-400" />
             </div>
             <div>
-              <div className="text-2xl sm:text-3xl font-extrabold font-display text-white">
+              <div className="text-2xl font-bold font-display text-white">
                 100%
               </div>
-              <div className="text-xs text-muted font-medium">Aman untuk Semua Usia</div>
+              <div className="text-xs text-gray-400 font-medium">Terverifikasi Aman</div>
             </div>
           </div>
         </div>

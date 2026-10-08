@@ -45,13 +45,33 @@ const apps = [
   },
   {
     slug: "fruity-merge-3d-match-puzzle",
-    name: "Fruity Merge 3D",
+    name: "Fruit Match: Memory Puzzle",
     tagline: "Match Puzzle & Memory",
     color1: "#b45309",
     color2: "#f59e0b",
     accent: "#fde047",
     symbol: "🍉🍇",
     badge: "PUZZLE 3D",
+  },
+  {
+    slug: "offline-pdf-editor",
+    name: "Offline PDF Editor & Sign",
+    tagline: "Edit & Sign PDF Documents Offline",
+    color1: "#1e293b",
+    color2: "#0284c7",
+    accent: "#38bdf8",
+    symbol: "📄✍️",
+    badge: "PDF TOOL",
+  },
+  {
+    slug: "kucing-atur-duit",
+    name: "Kucing Atur Duit",
+    tagline: "Cat Daily Expense Tracker",
+    color1: "#c2410c",
+    color2: "#f97316",
+    accent: "#fb923c",
+    symbol: "🐱💰",
+    badge: "FINANCE",
   },
 ];
 
@@ -98,9 +118,11 @@ async function generateAssets() {
     </svg>
     `;
 
-    await sharp(Buffer.from(iconSvg))
-      .webp({ quality: 90 })
-      .toFile(path.join(dir, "icon.webp"));
+    if (!fs.existsSync(path.join(dir, "icon.webp"))) {
+      await sharp(Buffer.from(iconSvg))
+        .webp({ quality: 90 })
+        .toFile(path.join(dir, "icon.webp"));
+    }
 
     // 2. Screenshot 1 (Gameplay Action)
     const ss1Svg = `

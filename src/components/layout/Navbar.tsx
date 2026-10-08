@@ -39,8 +39,8 @@ export const Navbar: React.FC = () => {
               <span className="text-xl font-bold font-display tracking-tight bg-gradient-to-r from-white via-gray-100 to-purple-200 bg-clip-text text-transparent">
                 D LUCKY <span className="text-cyan-400">X</span>
               </span>
-              <span className="block text-[10px] tracking-widest uppercase text-muted -mt-1 font-semibold">
-                Game Studio
+              <span className="block text-[10px] tracking-widest uppercase text-gray-400 -mt-1 font-semibold">
+                Game &amp; App Studio
               </span>
             </div>
           </Link>

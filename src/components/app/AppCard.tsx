@@ -6,79 +6,77 @@ import Link from "next/link";
 import { Star, Download, Play, Info } from "lucide-react";
 import { AppItem } from "@/data/apps";
 import { TiltCard } from "@/components/ui/TiltCard";
-import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
 
 interface AppCardProps {
   app: AppItem;
 }
 
 export const AppCard: React.FC<AppCardProps> = ({ app }) => {
-  const isEducation = app.category === "education";
+  const getCategoryLabel = () => {
+    switch (app.category) {
+      case "game":
+        return "Game";
+      case "education":
+        return "Edukasi";
+      case "tool":
+        return "Alat & Utilitas";
+      default:
+        return "Aplikasi";
+    }
+  };
 
   return (
     <TiltCard className="h-full">
-      <div className="h-full flex flex-col justify-between rounded-3xl bg-white/[0.04] border border-white/10 hover:border-white/20 p-6 backdrop-blur-xl transition-all duration-300 shadow-xl group hover:shadow-2xl">
+      <div className="h-full flex flex-col justify-between rounded-2xl bg-[#11131e]/90 border border-white/10 hover:border-white/25 p-5 transition-all duration-300 shadow-lg hover:shadow-xl group">
         <div>
-          {/* Top Header: Icon + Info */}
+          {/* Top Header: Authentic Play Store Squircle Icon + Info */}
           <div className="flex items-start gap-4">
-            <div
-              className="relative w-18 h-18 rounded-2xl p-1 shrink-0 transition-transform group-hover:scale-105 duration-300"
-              style={{
-                background: `linear-gradient(135deg, ${app.color}40, rgba(255,255,255,0.05))`,
-                boxShadow: `0 8px 20px -6px ${app.color}30`,
-              }}
+            <Link
+              href={`/apps/${app.slug}`}
+              className="relative w-18 h-18 shrink-0 rounded-[20px] overflow-hidden border border-white/15 shadow-md group-hover:scale-105 transition-transform duration-300"
             >
               <Image
                 src={app.icon}
                 alt={app.name}
                 width={72}
                 height={72}
-                className="w-16 h-16 rounded-xl object-cover"
+                className="w-full h-full object-cover"
               />
-            </div>
+            </Link>
 
             <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2 flex-wrap mb-1">
-                <Badge
-                  variant={isEducation ? "cyan" : "purple"}
-                  size="sm"
-                >
-                  {isEducation ? "Edukasi" : "Game"}
-                </Badge>
-                {app.contentRating && (
-                  <Badge variant="outline" size="sm">
-                    {app.contentRating}
-                  </Badge>
-                )}
+              <div className="flex items-center gap-1.5 flex-wrap mb-1.5">
+                <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-white/5 text-gray-300 border border-white/10">
+                  {getCategoryLabel()}
+                </span>
                 {app.hasAds ? (
-                  <Badge variant="amber" size="sm">
+                  <span className="text-[10px] font-medium px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/20">
                     Iklan
-                  </Badge>
+                  </span>
                 ) : (
-                  <Badge variant="green" size="sm">
+                  <span className="text-[10px] font-medium px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">
                     Bebas Iklan
-                  </Badge>
+                  </span>
                 )}
               </div>
 
-              <h3 className="text-lg font-bold text-white group-hover:text-cyan-300 transition-colors truncate">
+              <h3 className="text-base font-bold text-white group-hover:text-cyan-300 transition-colors truncate">
                 <Link href={`/apps/${app.slug}`}>{app.name}</Link>
               </h3>
             </div>
           </div>
 
           {/* Tagline */}
-          <p className="mt-3 text-sm text-gray-300 line-clamp-2 leading-relaxed">
+          <p className="mt-3 text-xs sm:text-sm text-gray-300 line-clamp-2 leading-relaxed">
             {app.tagline}
           </p>
 
           {/* Tags */}
-          <div className="mt-4 flex flex-wrap gap-1.5">
+          <div className="mt-3 flex flex-wrap gap-1.5">
             {app.tags.slice(0, 3).map((tag) => (
               <span
                 key={tag}
-                className="text-[11px] px-2 py-0.5 rounded-md bg-white/[0.03] text-gray-400 border border-white/5"
+                className="text-[10px] px-2 py-0.5 rounded bg-white/[0.04] text-gray-400 border border-white/5"
               >
                 #{tag}
               </span>
@@ -87,45 +85,44 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
         </div>
 
         {/* Bottom Section: Metrics & Action */}
-        <div className="mt-6 pt-4 border-t border-white/10 space-y-4">
+        <div className="mt-5 pt-3.5 border-t border-white/10 space-y-3">
           <div className="flex items-center justify-between text-xs text-gray-400">
             {app.rating ? (
-              <div className="flex items-center gap-1.5 font-semibold text-amber-400">
-                <Star className="w-4 h-4 fill-amber-400" />
-                <span>{app.rating.toFixed(1)} / 5.0</span>
+              <div className="flex items-center gap-1 font-semibold text-amber-400">
+                <Star className="w-3.5 h-3.5 fill-amber-400" />
+                <span>{app.rating.toFixed(1)}</span>
+                <span className="text-[10px] text-gray-500 font-normal">/ 5.0</span>
               </div>
             ) : (
-              <div className="text-gray-500">Rilis Baru</div>
+              <div className="text-gray-500 text-[11px]">Rilis Baru</div>
             )}
 
             {app.downloads && (
-              <div className="flex items-center gap-1.5 font-medium text-gray-300">
-                <Download className="w-3.5 h-3.5 text-cyan-400" />
-                <span>{app.downloads} Unduhan</span>
+              <div className="flex items-center gap-1 font-medium text-gray-300 text-xs">
+                <Download className="w-3 h-3 text-cyan-400" />
+                <span>{app.downloads}</span>
               </div>
             )}
           </div>
 
-          <div className="grid grid-cols-2 gap-2.5">
-            <Button
+          <div className="grid grid-cols-2 gap-2">
+            <Link
               href={`/apps/${app.slug}`}
-              variant="outline"
-              size="sm"
-              className="w-full text-xs font-semibold"
+              className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold text-gray-200 hover:text-white transition-colors"
             >
               <Info className="w-3.5 h-3.5 text-cyan-400" />
               Detail
-            </Button>
-            <Button
+            </Link>
+
+            <a
               href={app.playUrl}
-              external
-              variant="primary"
-              size="sm"
-              className="w-full text-xs font-semibold"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-xs font-semibold text-white shadow-sm transition-colors"
             >
-              <Play className="w-3.5 h-3.5 fill-current" />
+              <Play className="w-3 h-3 fill-current" />
               Install
-            </Button>
+            </a>
           </div>
         </div>
       </div>

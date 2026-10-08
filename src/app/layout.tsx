@@ -8,7 +8,7 @@ import { generateOrganizationSchema } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL("https://dluckyx.cloud"),
   title: {
-    default: "D Lucky X — Studio Game & Aplikasi Android Resmi",
+    default: "D Lucky X | Game & App Studio Android Resmi",
     template: "%s | D Lucky X",
   },
   description: developer.tagline,
@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     "Milo Cat Adventure",
     "Monster Math Train Brain",
     "Baby Shark ABC",
-    "Fruity Merge 3D",
+    "Fruit Match",
+    "Offline PDF Editor",
+    "Kucing Atur Duit",
     "Google Play Developer",
     "Game Edukasi Anak",
   ],
@@ -31,12 +33,12 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: "https://dluckyx.cloud",
     siteName: "D Lucky X",
-    title: "D Lucky X — Studio Game & Aplikasi Android Resmi",
+    title: "D Lucky X | Game & App Studio Android Resmi",
     description: developer.tagline,
   },
   twitter: {
     card: "summary_large_image",
-    title: "D Lucky X — Studio Game & Aplikasi Android Resmi",
+    title: "D Lucky X | Game & App Studio Android Resmi",
     description: developer.tagline,
   },
   robots: {
