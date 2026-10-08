@@ -5,23 +5,23 @@ export const WhyUs: React.FC = () => {
   const reasons = [
     {
       icon: <Zap className="w-5 h-5 text-sky-600" />,
-      title: "Ringan & Hemat Penyimpanan",
-      desc: "Ukuran berkas hemat memori, cepat diunduh dan tidak membebani kapasitas RAM smartphone Anda.",
+      title: "Lightweight & Fast",
+      desc: "Optimized package sizes that download quickly and run smoothly without hogging smartphone memory.",
     },
     {
       icon: <WifiOff className="w-5 h-5 text-purple-600" />,
-      title: "Bisa Digunakan Penuh Offline",
-      desc: "Sebagian besar game dan aplikasi dirancang agar tetap berfungsi penuh tanpa ketergantungan kuota internet.",
+      title: "Full Offline Play",
+      desc: "Engineered to deliver complete functionality without relying on cellular data or continuous WiFi.",
     },
     {
       icon: <Baby className="w-5 h-5 text-pink-600" />,
-      title: "Aman untuk Seluruh Keluarga",
-      desc: "Aplikasi edukasi anak mematuhi kebijakan Google Play Families, bebas konten tidak pantas dan iklan invasif.",
+      title: "Safe for the Family",
+      desc: "Educational titles comply with Google Play Families guidelines, free from invasive ads or tracking.",
     },
     {
       icon: <Smartphone className="w-5 h-5 text-emerald-600" />,
-      title: "Kompatibel di Berbagai HP",
-      desc: "Dioptimalkan agar berjalan stabil di aneka tipe smartphone Android, dari perangkat entry-level hingga flagship.",
+      title: "Wide Compatibility",
+      desc: "Optimized for stable, responsive performance across a broad spectrum of Android devices.",
     },
   ];
 
@@ -30,13 +30,13 @@ export const WhyUs: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-semibold text-slate-800 shadow-sm">
-            <span>STANDAR KUALITAS KAMI</span>
+            <span>OUR QUALITY STANDARDS</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-            Keunggulan Aplikasi D Lucky X
+            Why Choose D Lucky X Apps
           </h2>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-            Standar teknis dan kenyamanan yang kami terapkan agar setiap aplikasi memberi pengalaman memuaskan.
+            Technical craftsmanship and mindful design ensuring an enjoyable user experience on every device.
           </p>
         </div>
 

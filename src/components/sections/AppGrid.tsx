@@ -23,11 +23,11 @@ export const AppGrid: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
           <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-600 block">
-            Katalog Karya
+            Portfolio
           </span>
 
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-            Game &amp; Aplikasi Android
+            Android Games &amp; Apps
           </h2>
         </div>
 
@@ -42,7 +42,7 @@ export const AppGrid: React.FC = () => {
             }`}
           >
             <LayoutGrid className="w-4 h-4 text-slate-600" />
-            Semua ({apps.length})
+            All ({apps.length})
           </button>
 
           <button
@@ -54,7 +54,7 @@ export const AppGrid: React.FC = () => {
             }`}
           >
             <Gamepad2 className="w-4 h-4 text-emerald-600" />
-            Game ({gameCount})
+            Games ({gameCount})
           </button>
 
           <button
@@ -66,7 +66,7 @@ export const AppGrid: React.FC = () => {
             }`}
           >
             <Wrench className="w-4 h-4 text-sky-600" />
-            Alat ({toolCount})
+            Tools ({toolCount})
           </button>
 
           <button
@@ -78,7 +78,7 @@ export const AppGrid: React.FC = () => {
             }`}
           >
             <GraduationCap className="w-4 h-4 text-purple-600" />
-            Edukasi ({eduCount})
+            Education ({eduCount})
           </button>
         </div>
 

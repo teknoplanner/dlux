@@ -35,11 +35,11 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: PageProps): Metadata {
   const app = apps.find((a) => a.slug === params.slug);
-  if (!app) return { title: "Aplikasi Tidak Ditemukan" };
+  if (!app) return { title: "App Not Found" };
 
   return {
     title: `${app.name} | D Lucky X`,
-    description: `${app.tagline} ${app.description}`,
+    description: `${app.tagline} ${app.description.slice(0, 160)}`,
     openGraph: {
       title: `${app.name} | D Lucky X`,
       description: app.tagline,
@@ -58,9 +58,9 @@ export default function AppDetailPage({ params }: PageProps) {
   const jsonLd = generateSoftwareAppSchema(app);
   const relatedApps = apps.filter((a) => a.slug !== app.slug).slice(0, 3);
   const getCategoryTitle = () => {
-    if (app.category === "education") return "Edukasi & Belajar";
-    if (app.category === "tool") return "Aplikasi & Utilitas";
-    return "Game Android";
+    if (app.category === "education") return "Education & Learning";
+    if (app.category === "tool") return "Utility & Tools";
+    return "Android Game";
   };
 
   return (
@@ -79,7 +79,7 @@ export default function AppDetailPage({ params }: PageProps) {
               className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
-              Kembali ke Katalog Karya Kami
+              Back to Portfolio
             </Link>
           </div>
 
@@ -104,16 +104,16 @@ export default function AppDetailPage({ params }: PageProps) {
                   </Badge>
                   {app.contentRating && (
                     <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200">
-                      Usia {app.contentRating}
+                      Rated {app.contentRating}
                     </span>
                   )}
                   {app.hasAds ? (
                     <span className="text-xs font-medium px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 border border-amber-200">
-                      Iklan Ringan
+                      Contains Ads
                     </span>
                   ) : (
                     <span className="text-xs font-medium px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200">
-                      Bebas Iklan
+                      Ad-Free
                     </span>
                   )}
                 </div>
@@ -129,20 +129,20 @@ export default function AppDetailPage({ params }: PageProps) {
                 <div className="flex flex-wrap items-center gap-4 pt-2 text-sm text-slate-600">
                   <div className="flex items-center gap-1 font-semibold text-amber-600">
                     <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
-                    <span>{app.rating ? app.rating.toFixed(1) : "5.0"} Bintang</span>
+                    <span>{app.rating ? app.rating.toFixed(1) : "5.0"} Stars</span>
                     {app.reviewsCount && (
-                      <span className="text-xs text-slate-500 font-medium">({app.reviewsCount} ulasan)</span>
+                      <span className="text-xs text-slate-500 font-medium">({app.reviewsCount} reviews)</span>
                     )}
                   </div>
                   <span className="text-slate-300">•</span>
                   <div className="flex items-center gap-1 text-slate-700 font-medium">
                     <Download className="w-4 h-4 text-slate-400" />
-                    <span>{app.downloads} Unduhan</span>
+                    <span>{app.downloads} Downloads</span>
                   </div>
                   <span className="text-slate-300">•</span>
                   <div className="flex items-center gap-1.5 text-emerald-600 font-medium">
                     <ShieldCheck className="w-4 h-4" />
-                    <span>Terverifikasi Google Play</span>
+                    <span>Google Play Verified</span>
                   </div>
                 </div>
               </div>
@@ -154,10 +154,10 @@ export default function AppDetailPage({ params }: PageProps) {
                   external
                   variant="primary"
                   size="lg"
-                  className="w-full md:w-auto bg-slate-900 hover:bg-slate-800 text-white shadow-sm px-8 py-4 text-base"
+                  className="w-full md:w-auto bg-slate-900 hover:bg-slate-800 text-white shadow-sm px-8 py-4 text-base font-bold"
                 >
                   <Play className="w-5 h-5 fill-current" />
-                  Unduh di Google Play
+                  Get on Google Play
                 </Button>
               </div>
             </div>
@@ -166,7 +166,7 @@ export default function AppDetailPage({ params }: PageProps) {
           {/* Screenshot Gallery Section */}
           <div className="mb-14">
             <h2 className="text-2xl font-bold font-display text-slate-900 mb-6">
-              Tangkapan Layar Aplikasi
+              Application Screenshots
             </h2>
             <ScreenshotCarousel screenshots={app.screenshots} appName={app.name} />
           </div>
@@ -177,14 +177,14 @@ export default function AppDetailPage({ params }: PageProps) {
             <div className="lg:col-span-8 space-y-6">
               <div className="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm">
                 <h3 className="text-xl font-bold font-display text-slate-900 mb-4">
-                  Tentang {app.name}
+                  About {app.name}
                 </h3>
                 <p className="text-slate-600 text-base leading-relaxed whitespace-pre-line mb-6">
                   {app.description}
                 </p>
 
                 <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3">
-                  Fitur Unggulan:
+                  Key Features:
                 </h4>
                 <ul className="space-y-2.5 text-sm text-slate-700">
                   {app.features && app.features.length > 0 ? (
@@ -198,11 +198,11 @@ export default function AppDetailPage({ params }: PageProps) {
                     <>
                       <li className="flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                        <span>Desain responsif dan kontrol intuitif untuk layar sentuh Android.</span>
+                        <span>Responsive layout with intuitive mobile touchscreen controls.</span>
                       </li>
                       <li className="flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                        <span>Performa stabil tanpa lag dan hemat konsumsi baterai.</span>
+                        <span>Smooth performance optimized to conserve battery life.</span>
                       </li>
                     </>
                   )}
@@ -228,22 +228,22 @@ export default function AppDetailPage({ params }: PageProps) {
             <div className="lg:col-span-4 space-y-6">
               <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
                 <h3 className="text-lg font-bold font-display text-slate-900 mb-4">
-                  Informasi Aplikasi
+                  App Information
                 </h3>
 
                 <div className="space-y-4 text-sm divide-y divide-slate-100">
                   <div className="flex justify-between items-center pt-2">
-                    <span className="text-slate-500">Pengembang</span>
+                    <span className="text-slate-500">Developer</span>
                     <span className="text-slate-900 font-medium">{developer.name}</span>
                   </div>
 
                   <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Total Unduhan</span>
+                    <span className="text-slate-500">Total Downloads</span>
                     <span className="text-slate-900 font-bold">{app.downloads}</span>
                   </div>
 
                   <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Rating Google Play</span>
+                    <span className="text-slate-500">Play Store Rating</span>
                     <span className="text-slate-900 font-bold text-amber-600 flex items-center gap-1">
                       <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
                       {app.rating ? app.rating.toFixed(1) : "5.0"}
@@ -252,12 +252,12 @@ export default function AppDetailPage({ params }: PageProps) {
                   </div>
 
                   <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Kategori</span>
+                    <span className="text-slate-500">Category</span>
                     <span className="text-slate-900 font-medium capitalize">{app.category}</span>
                   </div>
 
                   <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Sistem Operasi</span>
+                    <span className="text-slate-500">Operating System</span>
                     <span className="text-slate-900 font-medium flex items-center gap-1">
                       <Smartphone className="w-3.5 h-3.5 text-slate-600" />
                       Android 6.0+
@@ -265,14 +265,14 @@ export default function AppDetailPage({ params }: PageProps) {
                   </div>
 
                   <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Rating Usia</span>
-                    <span className="text-slate-900 font-medium">{app.contentRating || "3+"}</span>
+                    <span className="text-slate-500">Content Rating</span>
+                    <span className="text-slate-900 font-medium">Rated {app.contentRating || "3+"}</span>
                   </div>
 
                   <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Format Iklan</span>
+                    <span className="text-slate-500">Ad Support</span>
                     <span className="text-slate-900 font-medium">
-                      {app.hasAds ? "Iklan Ringan" : "Bebas Iklan"}
+                      {app.hasAds ? "Contains Ads" : "Ad-Free"}
                     </span>
                   </div>
 
@@ -284,7 +284,7 @@ export default function AppDetailPage({ params }: PageProps) {
                       className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-semibold text-white shadow-sm transition-all"
                     >
                       <ExternalLink className="w-4 h-4" />
-                      Lihat di Google Play Store
+                      View on Google Play Store
                     </a>
                   </div>
                 </div>
@@ -294,16 +294,16 @@ export default function AppDetailPage({ params }: PageProps) {
               <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
                 <div className="flex items-center gap-3 mb-2">
                   <ShieldCheck className="w-5 h-5 text-emerald-600" />
-                  <h4 className="text-base font-bold text-slate-900">Privasi Pengguna</h4>
+                  <h4 className="text-base font-bold text-slate-900">User Privacy</h4>
                 </div>
                 <p className="text-xs text-slate-600 mb-4 leading-relaxed">
-                  Kami sangat menghargai privasi Anda dan anak Anda. Pelajari kebijakan penanganan data untuk aplikasi ini.
+                  We take user and family privacy seriously. Review the data policy and permissions for this app.
                 </p>
                 <Link
                   href={`/privacy/${app.slug}`}
                   className="text-xs font-semibold text-slate-900 hover:underline"
                 >
-                  Baca Kebijakan Privasi {app.name} &rarr;
+                  Read {app.name} Privacy Policy &rarr;
                 </Link>
               </div>
             </div>
@@ -313,7 +313,7 @@ export default function AppDetailPage({ params }: PageProps) {
           {relatedApps.length > 0 && (
             <div className="pt-10 border-t border-slate-200">
               <h2 className="text-2xl font-bold font-display text-slate-900 mb-8">
-                Karya Terkait Lainnya
+                More From Our Studio
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {relatedApps.map((related) => (

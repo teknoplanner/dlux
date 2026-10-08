@@ -20,17 +20,17 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
         };
       case "education":
         return {
-          label: "Edukasi",
+          label: "Education",
           badgeColor: "bg-purple-50 text-purple-800 border-purple-200",
         };
       case "tool":
         return {
-          label: "Alat",
+          label: "Tool",
           badgeColor: "bg-sky-50 text-sky-800 border-sky-200",
         };
       default:
         return {
-          label: "Aplikasi",
+          label: "App",
           badgeColor: "bg-slate-50 text-slate-800 border-slate-200",
         };
     }
@@ -41,12 +41,12 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
   return (
     <div className="h-full flex flex-col justify-between rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-sm hover:shadow-md overflow-hidden group">
       <div>
-        {/* Real Screenshot Preview Banner (Separate, clear top section) */}
+        {/* Real Screenshot Preview Banner */}
         <div className="relative w-full h-44 bg-slate-100 overflow-hidden border-b border-slate-100">
           {app.screenshots?.[0] ? (
             <Image
               src={app.screenshots[0]}
-              alt={`Tangkapan layar ${app.name}`}
+              alt={`Screenshot of ${app.name}`}
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-500"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -64,12 +64,12 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
             </span>
 
             <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-white/95 text-slate-800 border border-slate-200 shadow-sm">
-              Rating {app.contentRating || "3+"}
+              Rated {app.contentRating || "3+"}
             </span>
           </div>
         </div>
 
-        {/* Solid Pure White Content Area: Clear, High Contrast, No Overlap */}
+        {/* Solid Pure White Content Area */}
         <div className="p-5 bg-white space-y-3">
           {/* App Icon + App Name Row */}
           <div className="flex items-start gap-3.5">
@@ -87,7 +87,7 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
             </Link>
 
             <div className="flex-1 min-w-0">
-              {/* App Name: Bold, Large, High-Contrast Slate-950 Text */}
+              {/* App Name: Bold, Large, High-Contrast Text */}
               <h3 className="text-base sm:text-lg font-bold font-display text-slate-900 group-hover:text-emerald-700 transition-colors leading-snug line-clamp-2">
                 <Link href={`/apps/${app.slug}`}>{app.name}</Link>
               </h3>
@@ -101,7 +101,7 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
                 <span className="text-slate-300">•</span>
                 <span className="inline-flex items-center gap-1 font-semibold text-slate-700">
                   <Download className="w-3.5 h-3.5 text-slate-400" />
-                  {app.downloads} Unduhan
+                  {app.downloads} Downloads
                 </span>
               </div>
             </div>
@@ -122,7 +122,7 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
             className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-white hover:bg-slate-100 border border-slate-200 text-xs font-bold text-slate-800 shadow-2xs transition-colors"
           >
             <Info className="w-3.5 h-3.5 text-slate-500" />
-            Detail
+            Details
           </Link>
 
           <a

@@ -5,18 +5,18 @@ export const About: React.FC = () => {
   const pillars = [
     {
       icon: <Zap className="w-5 h-5 text-amber-500" />,
-      title: "Ringan & Cepat",
-      desc: "Ukuran berkas hemat memori dan responsif di berbagai tipe smartphone Android.",
+      title: "Lightweight & Fast",
+      desc: "Compact footprint and responsive performance across various Android smartphone models.",
     },
     {
       icon: <ShieldCheck className="w-5 h-5 text-emerald-600" />,
-      title: "Privasi Utuh",
-      desc: "Aman untuk keluarga, mematuhi standar Google Play tanpa pelacakan invasif.",
+      title: "Complete Privacy",
+      desc: "Safe for the whole family, complying strictly with Google Play standards with zero invasive tracking.",
     },
     {
       icon: <Heart className="w-5 h-5 text-rose-500" />,
-      title: "Karya Nyata",
-      desc: "Game santai yang menyenangkan dan aplikasi praktis untuk kebutuhan harian.",
+      title: "Purposeful Design",
+      desc: "Engaging casual games and practical utility tools built to bring real everyday value.",
     },
   ];
 
@@ -25,10 +25,10 @@ export const About: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         <div className="max-w-2xl mx-auto mb-12">
           <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-500 mb-2 block">
-            Filosofi Studio
+            Studio Philosophy
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-            Fokus pada Kualitas &amp; Pengalaman Pengguna
+            Focused on Quality &amp; User Experience
           </h2>
         </div>
 

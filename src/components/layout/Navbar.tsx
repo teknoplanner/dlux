@@ -47,7 +47,7 @@ export const Navbar: React.FC = () => {
                 D LUCKY <span className="text-emerald-600">X</span>
               </span>
               <span className="block text-[10px] tracking-widest uppercase text-slate-500 -mt-1 font-semibold">
-                Studio Game &amp; Aplikasi
+                Game &amp; App Studio
               </span>
             </div>
           </Link>
@@ -58,31 +58,31 @@ export const Navbar: React.FC = () => {
               href="/#apps"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
-              Koleksi Karya
+              Apps &amp; Games
             </Link>
             <Link
               href="/#featured"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
-              Sorotan Pilihan
+              Featured
             </Link>
             <Link
               href="/#about"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
-              Tentang Studio
+              About
             </Link>
             <Link
               href="/privacy"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
-              Kebijakan Privasi
+              Privacy Policy
             </Link>
             <Link
               href="/contact"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
-              Kontak
+              Contact
             </Link>
           </nav>
 
@@ -93,7 +93,7 @@ export const Navbar: React.FC = () => {
               external
               variant="primary"
               size="sm"
-              className="bg-slate-900 hover:bg-slate-800 text-white shadow-sm"
+              className="bg-slate-900 hover:bg-slate-800 text-white shadow-sm font-bold"
             >
               <Play className="w-3.5 h-3.5 fill-current" />
               Google Play
@@ -103,7 +103,7 @@ export const Navbar: React.FC = () => {
           {/* Mobile Menu Trigger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Buka Menu Navigasi"
+            aria-label="Open Navigation Menu"
             aria-expanded={mobileMenuOpen}
             className="md:hidden p-2 rounded-xl bg-white border border-slate-200 text-slate-700 hover:text-slate-900 shadow-sm"
           >
@@ -121,7 +121,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
           >
             <Gamepad2 className="w-4 h-4 text-emerald-600" />
-            Koleksi Karya
+            Apps &amp; Games
           </Link>
           <Link
             href="/#featured"
@@ -129,7 +129,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
           >
             <Sparkles className="w-4 h-4 text-amber-500" />
-            Sorotan Pilihan
+            Featured Spotlight
           </Link>
           <Link
             href="/#about"
@@ -137,7 +137,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
           >
             <ShieldCheck className="w-4 h-4 text-cyan-600" />
-            Tentang Studio
+            About Studio
           </Link>
           <Link
             href="/privacy"
@@ -145,7 +145,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
           >
             <ShieldCheck className="w-4 h-4 text-purple-600" />
-            Kebijakan Privasi
+            Privacy Policy
           </Link>
           <Link
             href="/contact"
@@ -153,7 +153,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
           >
             <Mail className="w-4 h-4 text-orange-500" />
-            Kontak &amp; Dukungan
+            Contact &amp; Support
           </Link>
           <div className="pt-2">
             <Button
@@ -161,10 +161,10 @@ export const Navbar: React.FC = () => {
               external
               variant="primary"
               size="md"
-              className="w-full justify-center bg-slate-900 text-white"
+              className="w-full justify-center bg-slate-900 text-white font-bold"
             >
               <Play className="w-4 h-4 fill-current" />
-              Kunjungi Google Play
+              Visit Google Play
             </Button>
           </div>
         </div>

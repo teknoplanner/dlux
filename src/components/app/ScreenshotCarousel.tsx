@@ -33,14 +33,14 @@ export const ScreenshotCarousel: React.FC<ScreenshotCarouselProps> = ({
       <div className="hidden sm:flex items-center justify-between absolute -top-12 right-0 gap-2">
         <button
           onClick={() => scroll("left")}
-          aria-label="Gulir ke kiri"
+          aria-label="Scroll left"
           className="p-2 rounded-xl bg-slate-100 border border-slate-200 hover:bg-slate-200 text-slate-700 hover:text-slate-900 transition-all shadow-sm"
         >
           <ChevronLeft className="w-4 h-4" />
         </button>
         <button
           onClick={() => scroll("right")}
-          aria-label="Gulir ke kanan"
+          aria-label="Scroll right"
           className="p-2 rounded-xl bg-slate-100 border border-slate-200 hover:bg-slate-200 text-slate-700 hover:text-slate-900 transition-all shadow-sm"
         >
           <ChevronRight className="w-4 h-4" />
@@ -61,12 +61,12 @@ export const ScreenshotCarousel: React.FC<ScreenshotCarouselProps> = ({
           >
             <Image
               src={src}
-              alt={`${appName} gameplay screenshot ${index + 1}`}
+              alt={`${appName} screenshot ${index + 1}`}
               fill
               className="object-cover group-hover/item:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-0 group-hover/item:opacity-100 transition-opacity flex items-end justify-between p-4">
-              <span className="text-xs text-white font-medium">Tangkapan Layar {index + 1}</span>
+              <span className="text-xs text-white font-medium">Screenshot {index + 1}</span>
               <div className="p-1.5 rounded-lg bg-white/20 text-white backdrop-blur-sm">
                 <Maximize2 className="w-4 h-4" />
               </div>
@@ -83,7 +83,7 @@ export const ScreenshotCarousel: React.FC<ScreenshotCarouselProps> = ({
         >
           <button
             onClick={() => setSelectedImage(null)}
-            aria-label="Tutup pratinjau"
+            aria-label="Close preview"
             className="absolute top-6 right-6 p-3 rounded-full bg-white/10 border border-white/20 text-white hover:bg-white/20 transition-all z-50"
           >
             <X className="w-6 h-6" />
@@ -94,7 +94,7 @@ export const ScreenshotCarousel: React.FC<ScreenshotCarouselProps> = ({
           >
             <Image
               src={selectedImage}
-              alt={`${appName} pratinjau`}
+              alt={`${appName} preview`}
               fill
               className="object-contain"
             />

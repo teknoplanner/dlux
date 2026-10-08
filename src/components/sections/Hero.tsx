@@ -23,12 +23,12 @@ export const Hero: React.FC = () => {
         </span>
 
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold font-display tracking-tight text-slate-950 leading-[1.05] mb-5">
-          Game Seru.<br />
-          Aplikasi Bermanfaat.
+          Engaging Games.<br />
+          Useful Apps.
         </h1>
 
         <p className="text-base sm:text-lg text-slate-700 max-w-lg mx-auto font-medium leading-relaxed mb-8">
-          Koleksi game santai dan aplikasi Android yang ringan, aman, dan menyenangkan.
+          A collection of casual games and lightweight, secure, and delightful Android apps.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3.5 pointer-events-auto">
@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
             size="lg"
             className="bg-slate-900 hover:bg-slate-800 text-white px-7 py-3.5 shadow-sm text-sm font-bold"
           >
-            <span>Lihat Karya</span>
+            <span>Explore Apps &amp; Games</span>
             <ArrowDown className="w-4 h-4 ml-1" />
           </Button>
 

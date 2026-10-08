@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
                   D LUCKY <span className="text-emerald-600">X</span>
                 </span>
                 <span className="block text-[10px] tracking-widest uppercase text-slate-600 -mt-1 font-bold">
-                  Studio Game &amp; Aplikasi
+                  Game &amp; App Studio
                 </span>
               </div>
             </Link>
@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
                 className="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-white border border-slate-200 text-slate-800 hover:border-slate-300 hover:bg-slate-100 transition-all shadow-sm"
               >
                 <ExternalLink className="w-3.5 h-3.5 text-slate-600" />
-                Halaman Google Play
+                Google Play Store
               </a>
               <Link
                 href="/contact"
@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
           {/* Col 2: Games & Apps List */}
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-4">
-              Karya Kami
+              Our Creations
             </h4>
             <ul className="space-y-2.5">
               {apps.map((app) => (
@@ -72,7 +72,7 @@ export const Footer: React.FC = () => {
           {/* Col 3: Legal & Resources */}
           <div>
             <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-4">
-              Informasi &amp; Dukungan
+              Information &amp; Support
             </h4>
             <ul className="space-y-2.5">
               <li>
@@ -81,7 +81,7 @@ export const Footer: React.FC = () => {
                   className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
                 >
                   <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                  Kebijakan Privasi
+                  Privacy Policy
                 </Link>
               </li>
               <li>
@@ -90,7 +90,7 @@ export const Footer: React.FC = () => {
                   className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
                 >
                   <Mail className="w-4 h-4 text-sky-600" />
-                  Hubungi Pengembang
+                  Contact Developer
                 </Link>
               </li>
               <li>
@@ -101,7 +101,7 @@ export const Footer: React.FC = () => {
                   className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
                 >
                   <ExternalLink className="w-4 h-4 text-purple-600" />
-                  Profil Developer Resmi
+                  Official Google Play Profile
                 </a>
               </li>
             </ul>

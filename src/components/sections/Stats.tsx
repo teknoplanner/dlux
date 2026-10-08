@@ -16,39 +16,39 @@ export const Stats: React.FC = () => {
             </div>
             <div>
               <div className="text-2xl font-bold font-display text-slate-900">
-                {totalApps} Karya
+                {totalApps} Releases
               </div>
-              <div className="text-xs text-slate-700 font-semibold">Koleksi Android</div>
+              <div className="text-xs text-slate-700 font-semibold">Android Collection</div>
             </div>
           </div>
 
-          {/* Stat 2: Kategori Utama */}
+          {/* Stat 2: Categories */}
           <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
             <div className="w-11 h-11 rounded-xl bg-sky-50 border border-sky-200 flex items-center justify-center shrink-0">
               <Layers className="w-5 h-5 text-sky-600" />
             </div>
             <div>
               <div className="text-2xl font-bold font-display text-slate-900">
-                3 Bidang
+                3 Genres
               </div>
-              <div className="text-xs text-slate-700 font-semibold">Game, Alat &amp; Edukasi</div>
+              <div className="text-xs text-slate-700 font-semibold">Games, Tools &amp; Education</div>
             </div>
           </div>
 
-          {/* Stat 3: Bebas Iklan Invasif */}
+          {/* Stat 3: Family Friendly */}
           <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
             <div className="w-11 h-11 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center shrink-0">
               <HeartHandshake className="w-5 h-5 text-amber-600" />
             </div>
             <div>
               <div className="text-2xl font-bold font-display text-slate-900">
-                Ramah
+                Family
               </div>
-              <div className="text-xs text-slate-700 font-semibold">Keluarga &amp; Anak</div>
+              <div className="text-xs text-slate-700 font-semibold">Safe for All Ages</div>
             </div>
           </div>
 
-          {/* Stat 4: Privasi Terjaga */}
+          {/* Stat 4: Privacy */}
           <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
             <div className="w-11 h-11 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center shrink-0">
               <ShieldCheck className="w-5 h-5 text-emerald-600" />
@@ -57,7 +57,7 @@ export const Stats: React.FC = () => {
               <div className="text-2xl font-bold font-display text-slate-900">
                 100%
               </div>
-              <div className="text-xs text-slate-700 font-semibold">Privasi Terlindungi</div>
+              <div className="text-xs text-slate-700 font-semibold">Privacy Focused</div>
             </div>
           </div>
         </div>

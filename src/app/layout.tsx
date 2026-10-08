@@ -8,37 +8,37 @@ import { generateOrganizationSchema } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL("https://dluckyx.cloud"),
   title: {
-    default: "D Lucky X | Studio Game & Aplikasi Android",
+    default: "D Lucky X | Android Games & Apps Studio",
     template: "%s | D Lucky X",
   },
   description: developer.tagline,
   keywords: [
     "D Lucky X",
-    "Game Android",
+    "Android Games",
     "Stickman Penalty Rush",
     "Milo Cat Adventure",
-    "Monster Math Train Brain",
+    "Monster Math Brain Training",
     "Baby Shark ABC",
     "Fruit Match",
     "Offline PDF Editor",
     "Kucing Atur Duit",
-    "Game Edukasi Anak",
-    "Aplikasi Produktivitas Android",
+    "Kids Educational Games",
+    "Android Productivity Apps",
   ],
   authors: [{ name: developer.name, url: developer.website }],
   creator: developer.name,
   publisher: developer.name,
   openGraph: {
     type: "website",
-    locale: "id_ID",
+    locale: "en_US",
     url: "https://dluckyx.cloud",
     siteName: "D Lucky X",
-    title: "D Lucky X | Studio Game & Aplikasi Android",
+    title: "D Lucky X | Android Games & Apps Studio",
     description: developer.tagline,
   },
   twitter: {
     card: "summary_large_image",
-    title: "D Lucky X | Studio Game & Aplikasi Android",
+    title: "D Lucky X | Android Games & Apps Studio",
     description: developer.tagline,
   },
   robots: {
@@ -55,7 +55,7 @@ export default function RootLayout({
   const orgSchema = generateOrganizationSchema();
 
   return (
-    <html lang="id">
+    <html lang="en">
       <head>
         <link rel="icon" href="/images/apps/stickman-penalty-rush/icon.webp" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
