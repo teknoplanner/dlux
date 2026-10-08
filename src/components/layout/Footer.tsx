@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Gamepad2, Mail, ExternalLink, ShieldCheck, FileText } from "lucide-react";
+import { Gamepad2, Mail, ExternalLink, ShieldCheck, FileText, BookOpen } from "lucide-react";
 import { apps, developer } from "@/data/apps";
 
 export const Footer: React.FC = () => {
@@ -75,6 +75,15 @@ export const Footer: React.FC = () => {
               Information &amp; Support
             </h4>
             <ul className="space-y-2.5">
+              <li>
+                <Link
+                  href="/blog"
+                  className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
+                >
+                  <BookOpen className="w-4 h-4 text-indigo-600" />
+                  Blog &amp; Panduan
+                </Link>
+              </li>
               <li>
                 <Link
                   href="/privacy"

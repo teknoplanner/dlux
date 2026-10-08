@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Play, Menu, X, Gamepad2, ShieldCheck, Mail, Sparkles } from "lucide-react";
+import { Play, Menu, X, Gamepad2, ShieldCheck, Mail, Sparkles, BookOpen } from "lucide-react";
 import { developer } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 
@@ -73,6 +73,12 @@ export const Navbar: React.FC = () => {
               About
             </Link>
             <Link
+              href="/blog"
+              className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+            >
+              Blog
+            </Link>
+            <Link
               href="/privacy"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
@@ -138,6 +144,14 @@ export const Navbar: React.FC = () => {
           >
             <ShieldCheck className="w-4 h-4 text-cyan-600" />
             About Studio
+          </Link>
+          <Link
+            href="/blog"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
+          >
+            <BookOpen className="w-4 h-4 text-indigo-600" />
+            Blog &amp; Panduan
           </Link>
           <Link
             href="/privacy"

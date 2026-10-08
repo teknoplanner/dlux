@@ -15,10 +15,12 @@ import {
   Download,
 } from "lucide-react";
 import { apps, developer } from "@/data/apps";
+import { getArticlesByApp } from "@/data/articles";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { ScreenshotCarousel } from "@/components/app/ScreenshotCarousel";
 import { AppCard } from "@/components/app/AppCard";
+import { ArticleCard } from "@/components/blog/ArticleCard";
 import { generateSoftwareAppSchema } from "@/lib/seo";
 
 interface PageProps {
@@ -57,6 +59,7 @@ export default function AppDetailPage({ params }: PageProps) {
 
   const jsonLd = generateSoftwareAppSchema(app);
   const relatedApps = apps.filter((a) => a.slug !== app.slug).slice(0, 3);
+  const appArticles = getArticlesByApp(app.slug);
   const getCategoryTitle = () => {
     if (app.category === "education") return "Education & Learning";
     if (app.category === "tool") return "Utility & Tools";
@@ -318,6 +321,34 @@ export default function AppDetailPage({ params }: PageProps) {
               </div>
             </div>
           </div>
+
+          {/* Related Articles & Guides */}
+          {appArticles.length > 0 && (
+            <div className="pt-10 border-t border-slate-200">
+              <div className="flex items-center justify-between mb-6">
+                <div>
+                  <h2 className="text-2xl font-bold font-display text-slate-900">
+                    📖 Panduan &amp; Tips Terkait
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-600 mt-1">
+                    Pelajari trik, panduan penggunaan, dan ulasan mendalam seputar {app.name}.
+                  </p>
+                </div>
+                <Link
+                  href="/blog"
+                  className="text-xs font-bold text-indigo-600 hover:text-indigo-800 shrink-0"
+                >
+                  Lihat Semua Artikel &rarr;
+                </Link>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {appArticles.map((article) => (
+                  <ArticleCard key={article.slug} article={article} />
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Related Apps */}
           {relatedApps.length > 0 && (

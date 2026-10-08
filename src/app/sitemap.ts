@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { apps } from "@/data/apps";
+import { articles } from "@/data/articles";
 
 export const dynamic = "force-static";
 
@@ -12,6 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/blog/`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
     },
     {
       url: `${baseUrl}/privacy/`,
@@ -40,6 +47,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  const blogRoutes: MetadataRoute.Sitemap = articles.map((article) => ({
+    url: `${baseUrl}/blog/${article.slug}/`,
+    lastModified: new Date(article.publishedDate),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
   const privacyRoutes: MetadataRoute.Sitemap = apps.map((app) => ({
     url: `${baseUrl}/privacy/${app.slug}/`,
     lastModified: new Date(),
@@ -54,5 +68,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...appRoutes, ...privacyRoutes, ...termsRoutes];
+  return [
+    ...staticRoutes,
+    ...appRoutes,
+    ...blogRoutes,
+    ...privacyRoutes,
+    ...termsRoutes,
+  ];
 }
