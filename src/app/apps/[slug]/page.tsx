@@ -11,6 +11,8 @@ import {
   ExternalLink,
   Tag,
   CheckCircle2,
+  Star,
+  Download,
 } from "lucide-react";
 import { apps, developer } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
@@ -124,10 +126,23 @@ export default function AppDetailPage({ params }: PageProps) {
                   {app.tagline}
                 </p>
 
-                <div className="flex items-center gap-6 pt-2 text-sm text-slate-500">
+                <div className="flex flex-wrap items-center gap-4 pt-2 text-sm text-slate-600">
+                  <div className="flex items-center gap-1 font-semibold text-amber-600">
+                    <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
+                    <span>{app.rating ? app.rating.toFixed(1) : "5.0"} Bintang</span>
+                    {app.reviewsCount && (
+                      <span className="text-xs text-slate-400 font-normal">({app.reviewsCount} ulasan)</span>
+                    )}
+                  </div>
+                  <span className="text-slate-300">•</span>
+                  <div className="flex items-center gap-1 text-slate-700 font-medium">
+                    <Download className="w-4 h-4 text-slate-400" />
+                    <span>{app.downloads} Unduhan</span>
+                  </div>
+                  <span className="text-slate-300">•</span>
                   <div className="flex items-center gap-1.5 text-emerald-600 font-medium">
                     <ShieldCheck className="w-4 h-4" />
-                    <span>Terverifikasi Aman &amp; Privat</span>
+                    <span>Terverifikasi Google Play</span>
                   </div>
                 </div>
               </div>
@@ -220,6 +235,20 @@ export default function AppDetailPage({ params }: PageProps) {
                   <div className="flex justify-between items-center pt-2">
                     <span className="text-slate-500">Pengembang</span>
                     <span className="text-slate-900 font-medium">{developer.name}</span>
+                  </div>
+
+                  <div className="flex justify-between items-center pt-3">
+                    <span className="text-slate-500">Total Unduhan</span>
+                    <span className="text-slate-900 font-bold">{app.downloads}</span>
+                  </div>
+
+                  <div className="flex justify-between items-center pt-3">
+                    <span className="text-slate-500">Rating Google Play</span>
+                    <span className="text-slate-900 font-bold text-amber-600 flex items-center gap-1">
+                      <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
+                      {app.rating ? app.rating.toFixed(1) : "5.0"}
+                      {app.reviewsCount ? ` (${app.reviewsCount})` : ""}
+                    </span>
                   </div>
 
                   <div className="flex justify-between items-center pt-3">

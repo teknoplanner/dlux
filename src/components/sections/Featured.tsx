@@ -90,7 +90,7 @@ export const Featured: React.FC = () => {
               </div>
 
               <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                {currentApp.description}
+                {currentApp.tagline}
               </p>
 
               {/* Feature Checklist */}
@@ -105,7 +105,7 @@ export const Featured: React.FC = () => {
                 </div>
               )}
 
-              {/* Honest Specs Row */}
+              {/* Real Play Store Specs Row */}
               <div className="grid grid-cols-3 gap-3 py-3 border-y border-slate-100 text-center">
                 <div>
                   <div className="flex items-center justify-center gap-1 text-slate-900 font-bold text-base font-display">
@@ -116,17 +116,17 @@ export const Featured: React.FC = () => {
                 </div>
                 <div>
                   <div className="flex items-center justify-center gap-1 text-slate-900 font-bold text-base font-display">
-                    <ShieldCheck className="w-4 h-4 text-sky-600" />
-                    <span>100%</span>
+                    <span className="text-amber-500 font-bold">★</span>
+                    <span>{currentApp.rating ? currentApp.rating.toFixed(1) : "5.0"}</span>
                   </div>
-                  <div className="text-[11px] text-slate-500 font-medium">Privasi Terjaga</div>
+                  <div className="text-[11px] text-slate-500 font-medium">Rating Play Store</div>
                 </div>
                 <div>
                   <div className="flex items-center justify-center gap-1 text-slate-900 font-bold text-base font-display">
-                    <CheckCircle className="w-4 h-4 text-purple-600" />
-                    <span>Gratis</span>
+                    <ShieldCheck className="w-4 h-4 text-sky-600" />
+                    <span>{currentApp.downloads}</span>
                   </div>
-                  <div className="text-[11px] text-slate-500 font-medium">Akses Penuh</div>
+                  <div className="text-[11px] text-slate-500 font-medium">Total Unduhan</div>
                 </div>
               </div>
 

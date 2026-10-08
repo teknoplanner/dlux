@@ -2,8 +2,8 @@ import fs from "node:fs";
 
 // Baca slug aplikasi dari src/data/apps.ts
 const appsContent = fs.readFileSync("src/data/apps.ts", "utf-8");
-const slugMatches = [...appsContent.matchAll(/slug:\s*["']([^"']+)["']/g)];
-const slugs = slugMatches.map((m) => m[1]);
+const slugMatches = [...appsContent.matchAll(/["']?slug["']?:\s*["']([^"']+)["']/g)];
+const slugs = Array.from(new Set(slugMatches.map((m) => m[1])));
 
 if (!slugs.length) {
   console.error("Error: Tidak ada slug aplikasi ditemukan di src/data/apps.ts");

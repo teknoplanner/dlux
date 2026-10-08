@@ -6,229 +6,214 @@ import { Float, OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 import { SceneFallback } from "./SceneFallback";
 
-// Individual Interactive Kinetic Kinetic Element
-function KineticShape({
-  position,
-  scale = 1,
-  type = "sphere",
-  color = "#ffffff",
-  roughness = 0.2,
-  metalness = 0.1,
-  speed = 1.5,
-  repelFactor = 1.0,
-}: {
-  position: [number, number, number];
-  scale?: number;
-  type?: "sphere" | "torus" | "capsule" | "octahedron" | "cylinder";
-  color?: string;
-  roughness?: number;
-  metalness?: number;
-  speed?: number;
-  repelFactor?: number;
-}) {
-  const meshRef = useRef<THREE.Group>(null);
-  const initialPos = useMemo(() => new THREE.Vector3(...position), [position]);
-  const currentPos = useRef(new THREE.Vector3(...position));
-  const velocity = useRef(new THREE.Vector3());
-  const { pointer, viewport } = useThree();
-
-  useFrame((state, delta) => {
-    if (!meshRef.current) return;
-    const t = state.clock.elapsedTime * speed;
-
-    // Subtle natural floating motion
-    const targetY = initialPos.y + Math.sin(t) * 0.2;
-    const targetX = initialPos.x + Math.cos(t * 0.8) * 0.15;
-    const targetZ = initialPos.z + Math.sin(t * 0.6) * 0.15;
-
-    // Calculate pointer distance in viewport space
-    const pointer3D = new THREE.Vector3(
-      (pointer.x * viewport.width) / 2,
-      (pointer.y * viewport.height) / 2,
-      0
-    );
-
-    const distToPointer = currentPos.current.distanceTo(pointer3D);
-    const repelRadius = 3.2;
-
-    if (distToPointer < repelRadius) {
-      // Repel gently from cursor
-      const repelDir = currentPos.current.clone().sub(pointer3D).normalize();
-      const force = (1 - distToPointer / repelRadius) * repelFactor * 1.8;
-      velocity.current.add(repelDir.multiplyScalar(force * delta * 5));
-    }
-
-    // Spring back toward target
-    const springForce = new THREE.Vector3(targetX, targetY, targetZ)
-      .sub(currentPos.current)
-      .multiplyScalar(3.0 * delta);
-    velocity.current.add(springForce);
-
-    // Apply damping
-    velocity.current.multiplyScalar(0.92);
-    currentPos.current.add(velocity.current);
-
-    meshRef.current.position.copy(currentPos.current);
-
-    // Gentle continuous rotation
-    meshRef.current.rotation.x += delta * 0.3;
-    meshRef.current.rotation.y += delta * 0.4;
-  });
-
-  const renderGeometry = () => {
-    switch (type) {
-      case "torus":
-        return <torusGeometry args={[0.7, 0.22, 24, 48]} />;
-      case "capsule":
-        return <capsuleGeometry args={[0.35, 0.7, 16, 32]} />;
-      case "octahedron":
-        return <octahedronGeometry args={[0.65, 0]} />;
-      case "cylinder":
-        return <cylinderGeometry args={[0.5, 0.5, 0.25, 32]} />;
-      case "sphere":
-      default:
-        return <sphereGeometry args={[0.55, 36, 36]} />;
-    }
-  };
-
+// Crystalline Glass/Prism Material with Iridescent Refraction
+function PrismCrystalMaterial({ isHovered }: { isHovered?: boolean }) {
   return (
-    <group ref={meshRef} position={position} scale={scale}>
-      <mesh castShadow receiveShadow>
-        {renderGeometry()}
-        <meshStandardMaterial
-          color={color}
-          roughness={roughness}
-          metalness={metalness}
-          envMapIntensity={1.2}
-        />
+    <meshPhysicalMaterial
+      color="#ffffff"
+      roughness={isHovered ? 0.04 : 0.08}
+      metalness={0.12}
+      transmission={0.88}
+      ior={1.54}
+      thickness={1.4}
+      specularColor="#38bdf8"
+      specularIntensity={1.0}
+      clearcoat={1.0}
+      clearcoatRoughness={0.08}
+      iridescence={0.75}
+      iridescenceIOR={1.38}
+      attenuationColor="#e0f2fe"
+      attenuationDistance={1.2}
+      transparent
+      opacity={0.95}
+    />
+  );
+}
+
+// Single Hexagonal Crystal Arm with Dendritic Branches
+function CrystalArm({
+  rotationZ,
+  isHovered,
+}: {
+  rotationZ: number;
+  isHovered: boolean;
+}) {
+  return (
+    <group rotation={[0, 0, rotationZ]}>
+      {/* Main Arm Shaft */}
+      <mesh position={[0, 1.25, 0]}>
+        <cylinderGeometry args={[0.045, 0.09, 2.2, 6]} />
+        <PrismCrystalMaterial isHovered={isHovered} />
       </mesh>
+
+      {/* Arm Tip Crystal Diamond */}
+      <mesh position={[0, 2.45, 0]} rotation={[0, 0, Math.PI / 4]}>
+        <octahedronGeometry args={[0.2, 0]} />
+        <PrismCrystalMaterial isHovered={isHovered} />
+      </mesh>
+
+      {/* Inner Branchlets at 60 degrees */}
+      <group position={[0, 0.95, 0]}>
+        <mesh position={[0.32, 0.18, 0]} rotation={[0, 0, -Math.PI / 3]}>
+          <cylinderGeometry args={[0.03, 0.055, 0.75, 6]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+        <mesh position={[-0.32, 0.18, 0]} rotation={[0, 0, Math.PI / 3]}>
+          <cylinderGeometry args={[0.03, 0.055, 0.75, 6]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+        {/* Diamond caps on inner branchlets */}
+        <mesh position={[0.62, 0.36, 0]} rotation={[0, 0, Math.PI / 4]}>
+          <octahedronGeometry args={[0.09, 0]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+        <mesh position={[-0.62, 0.36, 0]} rotation={[0, 0, Math.PI / 4]}>
+          <octahedronGeometry args={[0.09, 0]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+      </group>
+
+      {/* Outer Branchlets at 60 degrees */}
+      <group position={[0, 1.7, 0]}>
+        <mesh position={[0.26, 0.15, 0]} rotation={[0, 0, -Math.PI / 3]}>
+          <cylinderGeometry args={[0.025, 0.045, 0.6, 6]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+        <mesh position={[-0.26, 0.15, 0]} rotation={[0, 0, Math.PI / 3]}>
+          <cylinderGeometry args={[0.025, 0.045, 0.6, 6]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+        {/* Diamond caps on outer branchlets */}
+        <mesh position={[0.5, 0.3, 0]} rotation={[0, 0, Math.PI / 4]}>
+          <octahedronGeometry args={[0.075, 0]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+        <mesh position={[-0.5, 0.3, 0]} rotation={[0, 0, Math.PI / 4]}>
+          <octahedronGeometry args={[0.075, 0]} />
+          <PrismCrystalMaterial isHovered={isHovered} />
+        </mesh>
+      </group>
     </group>
   );
 }
 
-// Interactive Ambient Kinetic Installation
-function KineticField() {
-  const groupRef = useRef<THREE.Group>(null);
-  const { pointer, viewport } = useThree();
+// The Majestic Procedural Snowflake / Prism Crystal
+function CrystallizeStructure({ isHovered }: { isHovered: boolean }) {
+  const crystalGroupRef = useRef<THREE.Group>(null);
+  const { pointer } = useThree();
 
-  // Subtle group tilt following pointer
-  useFrame(() => {
-    if (groupRef.current) {
-      groupRef.current.rotation.y = THREE.MathUtils.lerp(
-        groupRef.current.rotation.y,
-        pointer.x * 0.15,
-        0.04
-      );
-      groupRef.current.rotation.x = THREE.MathUtils.lerp(
-        groupRef.current.rotation.x,
-        -pointer.y * 0.12,
-        0.04
-      );
-    }
+  useFrame((state, delta) => {
+    if (!crystalGroupRef.current) return;
+    const t = state.clock.elapsedTime;
+
+    // Gentle auto-rotation and pointer tilt
+    crystalGroupRef.current.rotation.z = t * 0.12;
+    crystalGroupRef.current.rotation.y = THREE.MathUtils.lerp(
+      crystalGroupRef.current.rotation.y,
+      pointer.x * 0.35 + Math.sin(t * 0.4) * 0.08,
+      0.05
+    );
+    crystalGroupRef.current.rotation.x = THREE.MathUtils.lerp(
+      crystalGroupRef.current.rotation.x,
+      -pointer.y * 0.25 + Math.cos(t * 0.3) * 0.06,
+      0.05
+    );
   });
 
-  // Responsive scale based on viewport width
-  const responsiveScale = Math.min(1.0, Math.max(0.65, viewport.width / 14));
+  return (
+    <group ref={crystalGroupRef}>
+      {/* Central Hexagonal Core Nucleus */}
+      <mesh position={[0, 0, 0]}>
+        <cylinderGeometry args={[0.42, 0.42, 0.32, 6]} />
+        <PrismCrystalMaterial isHovered={isHovered} />
+      </mesh>
+
+      {/* Central Star Gem Core */}
+      <mesh position={[0, 0, 0]} rotation={[0, Math.PI / 6, 0]}>
+        <octahedronGeometry args={[0.5, 0]} />
+        <PrismCrystalMaterial isHovered={isHovered} />
+      </mesh>
+
+      {/* Concentric Inner Facet Ring */}
+      <mesh rotation={[Math.PI / 2, 0, 0]}>
+        <torusGeometry args={[0.62, 0.035, 16, 48]} />
+        <PrismCrystalMaterial isHovered={isHovered} />
+      </mesh>
+
+      {/* 6 Radial Symmetrical Crystal Arms */}
+      {[0, 1, 2, 3, 4, 5].map((i) => (
+        <CrystalArm
+          key={i}
+          rotationZ={(i / 6) * Math.PI * 2}
+          isHovered={isHovered}
+        />
+      ))}
+    </group>
+  );
+}
+
+// Ambient Floating Prismatic Spores / Ice Dust
+function FloatingPrismaticDust() {
+  const dustCount = 32;
+  const particles = useMemo(() => {
+    return Array.from({ length: dustCount }, () => ({
+      position: [
+        (Math.random() - 0.5) * 11,
+        (Math.random() - 0.5) * 8,
+        (Math.random() - 0.5) * 5 - 1,
+      ] as [number, number, number],
+      scale: 0.06 + Math.random() * 0.12,
+      speed: 1.0 + Math.random() * 1.5,
+    }));
+  }, []);
 
   return (
-    <group ref={groupRef} scale={responsiveScale}>
-      {/* Left Cluster: Clean playful tactile shapes */}
-      <KineticShape
-        position={[-4.5, 1.8, -0.5]}
-        scale={1.25}
-        type="sphere"
-        color="#ffffff"
-        roughness={0.15}
-        metalness={0.05}
-        speed={1.2}
-      />
-      <KineticShape
-        position={[-3.6, -0.2, 0.8]}
-        scale={1.05}
-        type="torus"
-        color="#10b981"
-        roughness={0.25}
-        metalness={0.2}
-        speed={1.4}
-      />
-      <KineticShape
-        position={[-4.8, -1.8, -0.2]}
-        scale={0.9}
-        type="capsule"
-        color="#38bdf8"
-        roughness={0.2}
-        metalness={0.1}
-        speed={1.0}
-      />
-      <KineticShape
-        position={[-2.4, 2.5, -1.2]}
-        scale={0.65}
-        type="octahedron"
-        color="#fbbf24"
-        roughness={0.1}
-        metalness={0.4}
-        speed={1.6}
-      />
-
-      {/* Right Cluster: Complementary vibrant soft pastel shapes */}
-      <KineticShape
-        position={[4.6, 1.6, -0.3]}
-        scale={1.2}
-        type="torus"
-        color="#ec4899"
-        roughness={0.2}
-        metalness={0.15}
-        speed={1.3}
-      />
-      <KineticShape
-        position={[3.8, -0.4, 0.6]}
-        scale={1.15}
-        type="sphere"
-        color="#ffffff"
-        roughness={0.12}
-        metalness={0.05}
-        speed={1.1}
-      />
-      <KineticShape
-        position={[4.5, -2.0, -0.4]}
-        scale={0.95}
-        type="octahedron"
-        color="#8b5cf6"
-        roughness={0.15}
-        metalness={0.2}
-        speed={1.5}
-      />
-      <KineticShape
-        position={[2.6, 2.3, -1.0]}
-        scale={0.7}
-        type="cylinder"
-        color="#f59e0b"
-        roughness={0.2}
-        metalness={0.3}
-        speed={1.4}
-      />
-
-      {/* Background Floating Ambient Dots */}
-      {[
-        [-5.5, 0.2, -2.5],
-        [5.2, 0.1, -2.8],
-        [-1.2, 3.2, -2.0],
-        [1.4, 3.0, -2.2],
-        [-3.0, -2.8, -1.5],
-        [3.2, -2.9, -1.8],
-      ].map((pos, idx) => (
-        <Float key={idx} speed={2 + idx * 0.4} floatIntensity={0.6}>
-          <mesh position={pos as [number, number, number]} scale={0.18}>
-            <sphereGeometry args={[1, 16, 16]} />
+    <>
+      {particles.map((p, idx) => (
+        <Float key={idx} speed={p.speed} rotationIntensity={0.6} floatIntensity={0.8} position={p.position}>
+          <mesh scale={p.scale}>
+            <octahedronGeometry args={[1, 0]} />
             <meshStandardMaterial
-              color={idx % 2 === 0 ? "#10b981" : "#38bdf8"}
-              roughness={0.3}
-              emissive={idx % 2 === 0 ? "#10b981" : "#38bdf8"}
-              emissiveIntensity={0.3}
+              color={idx % 3 === 0 ? "#38bdf8" : idx % 3 === 1 ? "#10b981" : "#ffffff"}
+              roughness={0.15}
+              metalness={0.2}
+              emissive={idx % 3 === 0 ? "#0284c7" : "#059669"}
+              emissiveIntensity={0.25}
+              transparent
+              opacity={0.7}
             />
           </mesh>
         </Float>
       ))}
+    </>
+  );
+}
+
+// Main Interactive Scene Stage
+function CrystalStage() {
+  const [isHovered, setIsHovered] = useState(false);
+  const { viewport } = useThree();
+
+  // Responsive scale to fit mobile or ultra-wide gracefully
+  const responsiveScale = Math.min(1.05, Math.max(0.68, viewport.width / 11));
+
+  return (
+    <group
+      scale={responsiveScale}
+      onPointerOver={() => {
+        setIsHovered(true);
+        document.body.style.cursor = "grab";
+      }}
+      onPointerOut={() => {
+        setIsHovered(false);
+        document.body.style.cursor = "auto";
+      }}
+    >
+      <Float speed={1.8} rotationIntensity={0.15} floatIntensity={0.35}>
+        <CrystallizeStructure isHovered={isHovered} />
+      </Float>
+
+      <FloatingPrismaticDust />
     </group>
   );
 }
@@ -266,28 +251,37 @@ export default function HeroSceneClient() {
       className="absolute inset-0 w-full h-full select-none pointer-events-auto"
     >
       <Canvas
-        camera={{ position: [0, 0, 7.2], fov: 48 }}
+        camera={{ position: [0, 0, 6.2], fov: 45 }}
         dpr={[1, 1.5]}
         frameloop={isInView ? "always" : "never"}
-        gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
+        gl={{
+          antialias: true,
+          alpha: true,
+          powerPreference: "high-performance",
+        }}
         className="w-full h-full cursor-grab active:cursor-grabbing"
       >
-        {/* Soft Daylight Studio Lighting */}
-        <ambientLight intensity={1.1} color="#ffffff" />
-        <directionalLight position={[6, 9, 6]} intensity={2.2} color="#fffbeb" />
-        <directionalLight position={[-6, 4, -3]} intensity={1.2} color="#f0fdf4" />
-        <pointLight position={[0, 6, 3]} intensity={0.8} color="#ffffff" />
+        {/* Prismatic Studio Lighting for Facet Dispersion */}
+        <ambientLight intensity={1.0} color="#ffffff" />
+        {/* Warm Key Light */}
+        <directionalLight position={[5, 7, 6]} intensity={2.4} color="#fffbf0" />
+        {/* Cool Ice Cyan Rim Light */}
+        <directionalLight position={[-6, -4, -4]} intensity={1.8} color="#38bdf8" />
+        {/* Emerald Specular Accent Light */}
+        <pointLight position={[-3, 4, 3]} intensity={1.5} color="#10b981" />
+        {/* Prismatic Violet Specular Glint */}
+        <pointLight position={[3, -3, 2]} intensity={1.3} color="#c084fc" />
 
         <Suspense fallback={null}>
-          <KineticField />
+          <CrystalStage />
 
           <OrbitControls
             enableZoom={false}
             enablePan={false}
             autoRotate
-            autoRotateSpeed={0.4}
-            minPolarAngle={Math.PI / 2.6}
-            maxPolarAngle={Math.PI / 1.7}
+            autoRotateSpeed={0.5}
+            minPolarAngle={Math.PI / 3.0}
+            maxPolarAngle={Math.PI / 1.5}
             dampingFactor={0.06}
           />
         </Suspense>

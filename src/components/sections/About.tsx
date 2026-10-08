@@ -1,73 +1,54 @@
 import React from "react";
-import { Sparkles, Brain, Heart, Shield } from "lucide-react";
-import { developer } from "@/data/apps";
+import { Zap, ShieldCheck, Heart } from "lucide-react";
 
 export const About: React.FC = () => {
   const pillars = [
     {
-      icon: <Sparkles className="w-5 h-5 text-purple-600" />,
-      title: "Desain Intuitif & Menyenangkan",
-      desc: "Menghadirkan gameplay dan antarmuka yang ramah pengguna tanpa kerumitan yang membingungkan.",
+      icon: <Zap className="w-5 h-5 text-amber-500" />,
+      title: "Ringan & Cepat",
+      desc: "Ukuran berkas hemat memori dan responsif di berbagai tipe smartphone Android.",
     },
     {
-      icon: <Brain className="w-5 h-5 text-sky-600" />,
-      title: "Asah Logika & Ketangkasan",
-      desc: "Membantu anak-anak dan keluarga melatih fokus, ketangkasan berhitung, dan daya ingat harian.",
+      icon: <ShieldCheck className="w-5 h-5 text-emerald-600" />,
+      title: "Privasi Utuh",
+      desc: "Aman untuk keluarga, mematuhi standar Google Play tanpa pelacakan invasif.",
     },
     {
-      icon: <Heart className="w-5 h-5 text-rose-600" />,
-      title: "Aplikasi Bermanfaat",
-      desc: "Selain game hiburan, kami membuat alat praktis seperti editor PDF offline dan pencatat anggaran keuangan.",
-    },
-    {
-      icon: <Shield className="w-5 h-5 text-emerald-600" />,
-      title: "Privasi Pengguna Terjaga",
-      desc: "Mematuhi standar Google Play Families dan COPPA. Tanpa pengumpulan data invasif yang merugikan pengguna.",
+      icon: <Heart className="w-5 h-5 text-rose-500" />,
+      title: "Karya Nyata",
+      desc: "Game santai yang menyenangkan dan aplikasi praktis untuk kebutuhan harian.",
     },
   ];
 
   return (
     <section id="about" className="py-20 relative bg-white border-t border-slate-200/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          {/* Left Text */}
-          <div className="lg:col-span-5 space-y-4 text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-xs font-semibold text-slate-800">
-              <span>TENTANG STUDIO KAMI</span>
-            </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div className="max-w-2xl mx-auto mb-12">
+          <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-500 mb-2 block">
+            Filosofi Studio
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
+            Fokus pada Kualitas &amp; Pengalaman Pengguna
+          </h2>
+        </div>
 
-            <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-              Membangun Game Menghibur &amp; Aplikasi Berfaedah
-            </h2>
-
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              {developer.description}
-            </p>
-
-            <p className="text-sm text-slate-600 leading-relaxed">
-              Kami percaya bahwa aplikasi mobile yang baik harus ringan di perangkat, menjaga privasi pengguna secara ketat, dan memberikan nilai nyata baik untuk hiburan santai maupun produktivitas kerja harian.
-            </p>
-          </div>
-
-          {/* Right 4 Pillars */}
-          <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {pillars.map((pillar, idx) => (
-              <div
-                key={idx}
-                className="p-5 rounded-2xl bg-slate-50 border border-slate-200 hover:border-slate-300 transition-all duration-200 shadow-sm"
-              >
-                <div className="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center mb-3 shadow-sm">
-                  {pillar.icon}
-                </div>
-                <h3 className="text-base font-bold text-slate-900 mb-1.5 font-display">
-                  {pillar.title}
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  {pillar.desc}
-                </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {pillars.map((pillar, idx) => (
+            <div
+              key={idx}
+              className="p-6 rounded-2xl bg-slate-50 border border-slate-200 text-left shadow-sm hover:border-slate-300 transition-all"
+            >
+              <div className="w-10 h-10 rounded-xl bg-white border border-slate-200 flex items-center justify-center mb-4 shadow-sm">
+                {pillar.icon}
               </div>
-            ))}
-          </div>
+              <h3 className="text-base font-bold text-slate-900 mb-2 font-display">
+                {pillar.title}
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                {pillar.desc}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
