@@ -8,7 +8,7 @@ import { generateOrganizationSchema } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL("https://dluckyx.cloud"),
   title: {
-    default: "D Lucky X | Game & App Studio Android Resmi",
+    default: "D Lucky X | Studio Game & Aplikasi Android",
     template: "%s | D Lucky X",
   },
   description: developer.tagline,
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     "Fruit Match",
     "Offline PDF Editor",
     "Kucing Atur Duit",
-    "Google Play Developer",
     "Game Edukasi Anak",
+    "Aplikasi Produktivitas Android",
   ],
   authors: [{ name: developer.name, url: developer.website }],
   creator: developer.name,
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: "https://dluckyx.cloud",
     siteName: "D Lucky X",
-    title: "D Lucky X | Game & App Studio Android Resmi",
+    title: "D Lucky X | Studio Game & Aplikasi Android",
     description: developer.tagline,
   },
   twitter: {
     card: "summary_large_image",
-    title: "D Lucky X | Game & App Studio Android Resmi",
+    title: "D Lucky X | Studio Game & Aplikasi Android",
     description: developer.tagline,
   },
   robots: {
@@ -73,7 +73,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
       </head>
-      <body className="bg-[#070913] text-[#f8fafc] font-sans antialiased min-h-screen flex flex-col selection:bg-cyan-500/30 selection:text-cyan-300">
+      <body className="bg-[#fafaf9] text-slate-900 font-sans antialiased min-h-screen flex flex-col selection:bg-slate-900 selection:text-white">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
