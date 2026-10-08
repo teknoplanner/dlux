@@ -5,12 +5,9 @@ import { apps, developer } from "@/data/apps";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#05050b] border-t border-white/10 pt-16 pb-12 relative overflow-hidden">
-      {/* Background glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-24 bg-gradient-to-b from-purple-600/10 to-transparent blur-3xl pointer-events-none" />
-
+    <footer className="bg-[#05070e] border-t border-slate-800 pt-16 pb-12 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
           {/* Col 1: Studio Info */}
           <div className="md:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3">

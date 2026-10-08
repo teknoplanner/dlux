@@ -18,66 +18,70 @@ export const AppGrid: React.FC = () => {
   const toolCount = apps.filter((a) => a.category === "tool").length;
 
   return (
-    <section id="apps" className="py-20 relative bg-[#0a0b12]">
+    <section id="apps" className="py-20 relative bg-[#070913]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 space-y-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs font-mono text-cyan-400">
+            <span>KATALOG RESMI GOOGLE PLAY</span>
+          </div>
+
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-white tracking-tight">
             Koleksi Game &amp; Aplikasi Kami
           </h2>
 
-          <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-            Pilih game aksi, tantangan puzzle, edukasi balita, atau aplikasi utilitas untuk mempermudah aktivitas harian Anda.
+          <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
+            Pilih game adu penalti, petualangan kucing, edukasi matematika anak, atau alat produktivitas seperti editor PDF offline dan pengatur keuangan harian.
           </p>
 
           {/* Filter Tabs */}
-          <div className="flex flex-wrap items-center justify-center gap-2 pt-4">
+          <div className="flex flex-wrap items-center justify-center gap-2.5 pt-4">
             <button
               onClick={() => setActiveCategory("all")}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 activeCategory === "all"
-                  ? "bg-white text-gray-900 shadow-md"
-                  : "bg-white/5 text-gray-300 hover:text-white hover:bg-white/10 border border-white/10"
+                  ? "bg-white text-slate-950 shadow-md font-bold"
+                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
               }`}
             >
               <LayoutGrid className="w-4 h-4" />
-              Semua ({apps.length})
+              Semua Karya ({apps.length})
             </button>
 
             <button
               onClick={() => setActiveCategory("game")}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 activeCategory === "game"
-                  ? "bg-emerald-500 text-white shadow-md shadow-emerald-500/20"
-                  : "bg-white/5 text-gray-300 hover:text-white hover:bg-white/10 border border-white/10"
+                  ? "bg-emerald-500 text-white shadow-md shadow-emerald-500/20 font-bold"
+                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
               }`}
             >
-              <Gamepad2 className="w-4 h-4" />
-              Game ({gameCount})
-            </button>
-
-            <button
-              onClick={() => setActiveCategory("education")}
-              className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
-                activeCategory === "education"
-                  ? "bg-purple-500 text-white shadow-md shadow-purple-500/20"
-                  : "bg-white/5 text-gray-300 hover:text-white hover:bg-white/10 border border-white/10"
-              }`}
-            >
-              <GraduationCap className="w-4 h-4" />
-              Edukasi ({eduCount})
+              <Gamepad2 className="w-4 h-4 text-emerald-400" />
+              Game Android ({gameCount})
             </button>
 
             <button
               onClick={() => setActiveCategory("tool")}
               className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 activeCategory === "tool"
-                  ? "bg-cyan-500 text-white shadow-md shadow-cyan-500/20"
-                  : "bg-white/5 text-gray-300 hover:text-white hover:bg-white/10 border border-white/10"
+                  ? "bg-cyan-500 text-slate-950 shadow-md shadow-cyan-500/20 font-bold"
+                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
               }`}
             >
-              <Wrench className="w-4 h-4" />
-              Aplikasi &amp; Tools ({toolCount})
+              <Wrench className="w-4 h-4 text-cyan-400" />
+              Alat &amp; Utilitas ({toolCount})
+            </button>
+
+            <button
+              onClick={() => setActiveCategory("education")}
+              className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
+                activeCategory === "education"
+                  ? "bg-purple-600 text-white shadow-md shadow-purple-600/20 font-bold"
+                  : "bg-slate-900/90 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800"
+              }`}
+            >
+              <GraduationCap className="w-4 h-4 text-purple-400" />
+              Edukasi Anak ({eduCount})
             </button>
           </div>
         </div>

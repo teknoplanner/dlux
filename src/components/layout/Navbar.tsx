@@ -22,7 +22,7 @@ export const Navbar: React.FC = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-[#07070f]/85 backdrop-blur-xl border-b border-white/10 shadow-lg shadow-black/40 py-3"
+          ? "bg-[#070913]/90 backdrop-blur-xl border-b border-slate-800 shadow-xl shadow-black/50 py-3"
           : "bg-transparent py-5"
       }`}
     >
@@ -100,7 +100,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Menu Drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#0a0a18]/95 backdrop-blur-2xl border-b border-white/10 px-6 py-6 space-y-4 animate-in slide-in-from-top-4 duration-200">
+        <div className="md:hidden bg-[#070913]/98 backdrop-blur-2xl border-b border-slate-800 px-6 py-6 space-y-4 animate-in slide-in-from-top-4 duration-200">
           <Link
             href="/#apps"
             onClick={() => setMobileMenuOpen(false)}

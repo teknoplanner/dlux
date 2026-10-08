@@ -43,10 +43,10 @@ export default function ContactPage() {
             HUBUNGI PENGEMBANG
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-white">
-            Kontak &amp; Dukungan Pemain
+            Kontak &amp; Dukungan Pengguna
           </h1>
           <p className="text-base text-gray-300 max-w-xl mx-auto">
-            Punya pertanyaan seputar game, laporan bug teknis, atau proposal kerja sama? Tim D Lucky X siap mendengar masukan Anda.
+            Punya pertanyaan seputar game atau aplikasi, laporan kendala teknis, atau proposal kerja sama? Tim D Lucky X siap mendengar masukan Anda.
           </p>
         </div>
 

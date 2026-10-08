@@ -86,12 +86,12 @@ export default function AppDetailPage({ params }: PageProps) {
               className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-cyan-400 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
-              Kembali ke Semua Game
+              Kembali ke Katalog Aplikasi &amp; Game
             </Link>
           </div>
 
           {/* App Header Box */}
-          <div className="rounded-3xl bg-white/[0.04] border border-white/10 p-6 sm:p-10 backdrop-blur-2xl shadow-2xl mb-12">
+          <div className="rounded-3xl bg-slate-900/90 border border-slate-800 p-6 sm:p-10 shadow-2xl mb-12">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-6 sm:gap-8">
               <div
                 className="w-28 h-28 sm:w-36 sm:h-36 rounded-3xl p-1 shrink-0 shadow-2xl"
@@ -170,7 +170,7 @@ export default function AppDetailPage({ params }: PageProps) {
                   external
                   variant="primary"
                   size="lg"
-                  className="w-full md:w-auto shadow-purple-600/30 px-8 py-4 text-base"
+                  className="w-full md:w-auto shadow-emerald-600/30 px-8 py-4 text-base"
                 >
                   <Play className="w-5 h-5 fill-current" />
                   Install di Google Play
@@ -182,7 +182,7 @@ export default function AppDetailPage({ params }: PageProps) {
           {/* Screenshot Gallery Section */}
           <div className="mb-14">
             <h2 className="text-2xl font-bold font-display text-white mb-6">
-              Screenshot &amp; Tampilan Gameplay
+              Screenshot &amp; Tampilan Aplikasi
             </h2>
             <ScreenshotCarousel screenshots={app.screenshots} appName={app.name} />
           </div>
@@ -203,22 +203,33 @@ export default function AppDetailPage({ params }: PageProps) {
                   Fitur Utama:
                 </h4>
                 <ul className="space-y-2.5 text-sm text-gray-300">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-400 shrink-0" />
-                    <span>Gameplay responsif dan kontrol intuitif untuk layar sentuh Android.</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-400 shrink-0" />
-                    <span>Grafis HD cerah dengan performa stabil 60 FPS tanpa lag.</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-400 shrink-0" />
-                    <span>Ukuran file ringan, hemat memori penyimpanan dan kuota data.</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-green-400 shrink-0" />
-                    <span>Dukungan mode bermain offline tanpa ketergantungan koneksi internet.</span>
-                  </li>
+                  {app.features && app.features.length > 0 ? (
+                    app.features.map((feat, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                        <span>{feat}</span>
+                      </li>
+                    ))
+                  ) : (
+                    <>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                        <span>Desain responsif dan kontrol intuitif untuk layar sentuh Android.</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                        <span>Performa stabil tanpa lag dan hemat konsumsi baterai.</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                        <span>Ukuran file ringan, hemat memori penyimpanan dan kuota data.</span>
+                      </li>
+                      <li className="flex items-center gap-2">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                        <span>Dukungan mode offline tanpa ketergantungan koneksi internet.</span>
+                      </li>
+                    </>
+                  )}
                 </ul>
 
                 <div className="mt-8 pt-6 border-t border-white/10">
@@ -287,10 +298,10 @@ export default function AppDetailPage({ params }: PageProps) {
                       href={app.playUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold text-cyan-300 hover:text-white transition-all"
+                      className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white shadow-sm transition-all"
                     >
                       <ExternalLink className="w-4 h-4" />
-                      Buka di Google Play Console
+                      Buka di Google Play Store
                     </a>
                   </div>
                 </div>

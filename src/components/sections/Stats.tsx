@@ -15,58 +15,58 @@ export const Stats: React.FC = () => {
       : "4.9";
 
   return (
-    <section className="py-8 border-y border-white/10 bg-[#0e101a] relative z-20">
+    <section className="py-8 border-y border-slate-800 bg-[#0a0d1b] relative z-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 divide-y md:divide-y-0 md:divide-x divide-white/10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 divide-y md:divide-y-0 md:divide-x divide-slate-800">
           {/* Stat 1: Total Apps */}
           <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6 first:pt-0">
-            <div className="w-11 h-11 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
+            <div className="w-11 h-11 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center shrink-0">
               <Smartphone className="w-5 h-5 text-purple-400" />
             </div>
             <div>
               <div className="text-2xl font-bold font-display text-white">
                 {totalApps}
               </div>
-              <div className="text-xs text-gray-400 font-medium">Aplikasi &amp; Game</div>
+              <div className="text-xs text-slate-400 font-medium">Koleksi Android</div>
             </div>
           </div>
 
           {/* Stat 2: Total Downloads */}
           <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
-            <div className="w-11 h-11 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center shrink-0">
+            <div className="w-11 h-11 rounded-xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center shrink-0">
               <Download className="w-5 h-5 text-cyan-400" />
             </div>
             <div>
               <div className="text-2xl font-bold font-display text-white">
                 4,000+
               </div>
-              <div className="text-xs text-gray-400 font-medium">Total Unduhan</div>
+              <div className="text-xs text-slate-400 font-medium">Total Unduhan</div>
             </div>
           </div>
 
           {/* Stat 3: Average Rating */}
           <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
-            <div className="w-11 h-11 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0">
+            <div className="w-11 h-11 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center shrink-0">
               <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
             </div>
             <div>
               <div className="text-2xl font-bold font-display text-white">
-                {avgRating} <span className="text-xs font-normal text-gray-400">/ 5.0</span>
+                {avgRating} <span className="text-xs font-normal text-slate-400">/ 5.0</span>
               </div>
-              <div className="text-xs text-gray-400 font-medium">Rating Toko</div>
+              <div className="text-xs text-slate-400 font-medium">Rating Pengguna</div>
             </div>
           </div>
 
-          {/* Stat 4: Safe for All */}
+          {/* Stat 4: Play Protect Verified */}
           <div className="flex items-center gap-3.5 pt-3 md:pt-0 md:px-6">
-            <div className="w-11 h-11 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center shrink-0">
+            <div className="w-11 h-11 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center shrink-0">
               <ShieldCheck className="w-5 h-5 text-emerald-400" />
             </div>
             <div>
               <div className="text-2xl font-bold font-display text-white">
                 100%
               </div>
-              <div className="text-xs text-gray-400 font-medium">Terverifikasi Aman</div>
+              <div className="text-xs text-slate-400 font-medium">Play Protect Aman</div>
             </div>
           </div>
         </div>

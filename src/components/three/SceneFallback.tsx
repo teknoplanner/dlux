@@ -1,41 +1,44 @@
 import React from "react";
-import { Gamepad2, Sparkles } from "lucide-react";
+import { Gamepad2, Play, Sparkles } from "lucide-react";
 
 export const SceneFallback: React.FC = () => {
   return (
-    <div className="relative w-full h-[400px] md:h-[500px] flex items-center justify-center overflow-hidden select-none">
-      {/* Background Neon Orbs */}
-      <div className="absolute w-72 h-72 rounded-full bg-purple-600/25 blur-3xl animate-pulse" />
-      <div
-        className="absolute w-64 h-64 rounded-full bg-cyan-500/20 blur-3xl animate-pulse"
-        style={{ animationDelay: "1s" }}
-      />
-      <div
-        className="absolute w-56 h-56 rounded-full bg-pink-500/15 blur-3xl animate-pulse"
-        style={{ animationDelay: "2s" }}
-      />
-
-      {/* Futuristic Concentric Rings */}
-      <div className="relative flex items-center justify-center">
-        {/* Outer Ring */}
-        <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border border-purple-500/30 border-dashed animate-spin [animation-duration:30s] flex items-center justify-center" />
-
-        {/* Middle Ring */}
-        <div className="absolute w-48 h-48 md:w-60 md:h-60 rounded-full border border-cyan-400/30 border-t-cyan-400 animate-spin [animation-duration:15s] flex items-center justify-center" />
-
-        {/* Inner Glass Sphere */}
-        <div className="absolute w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-tr from-purple-600/40 via-indigo-600/30 to-cyan-500/40 backdrop-blur-md border border-white/20 shadow-2xl shadow-purple-500/30 flex items-center justify-center">
-          <div className="w-20 h-20 rounded-full bg-[#0b0b18]/80 flex flex-col items-center justify-center border border-white/10">
-            <Gamepad2 className="w-8 h-8 text-cyan-400 animate-bounce" />
+    <div className="relative w-full h-[460px] md:h-[540px] flex items-center justify-center overflow-hidden select-none bg-[#0a0d1a] rounded-3xl border border-white/10">
+      {/* Subtle Structural Console Silhouette */}
+      <div className="relative w-80 h-52 sm:w-96 sm:h-60 rounded-3xl bg-[#121628] border-2 border-cyan-500/30 p-4 shadow-2xl flex flex-col justify-between">
+        {/* Top Console Bar */}
+        <div className="flex items-center justify-between text-[11px] font-mono text-gray-400 border-b border-white/10 pb-2">
+          <div className="flex items-center gap-1.5 text-cyan-400 font-bold">
+            <Gamepad2 className="w-4 h-4" />
+            <span>D LUCKY X CONSOLE</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-emerald-400" />
+            <span>60 FPS</span>
           </div>
         </div>
 
-        {/* Orbiting Sparkles */}
-        <div className="absolute -top-4 right-12 text-cyan-300 animate-pulse">
-          <Sparkles className="w-6 h-6" />
+        {/* Center Screen Mock */}
+        <div className="flex-1 my-3 rounded-xl bg-[#070912] border border-cyan-500/20 p-4 flex flex-col items-center justify-center text-center space-y-2">
+          <span className="text-[10px] uppercase font-mono tracking-wider text-pink-400 font-semibold">
+            OFFICIAL ANDROID STUDIO
+          </span>
+          <h4 className="text-base sm:text-lg font-bold text-white font-display">
+            Stickman • Milo • PDF Editor &bull; Kucing Duit
+          </h4>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 text-xs font-semibold">
+            <Play className="w-3 h-3 fill-current" />
+            <span>Google Play Ready</span>
+          </div>
         </div>
-        <div className="absolute -bottom-2 left-10 text-pink-400 animate-pulse">
-          <Sparkles className="w-5 h-5" />
+
+        {/* Bottom Status */}
+        <div className="flex items-center justify-between text-[10px] font-mono text-gray-500">
+          <span>PORTAL READY</span>
+          <div className="flex items-center gap-1 text-amber-400">
+            <Sparkles className="w-3 h-3" />
+            <span>7 APLIKASI AKTIF</span>
+          </div>
         </div>
       </div>
     </div>
