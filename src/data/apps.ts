@@ -140,7 +140,7 @@ export const apps: AppItem[] = [
     "reviewsCount": null,
     "downloads": "10+",
     "contentRating": "3+",
-    "hasAds": false,
+    "hasAds": true,
     "playUrl": "https://play.google.com/store/apps/details?id=com.miloadventure.game",
     "color": "#f472b6"
   },
@@ -209,7 +209,7 @@ export const apps: AppItem[] = [
     "reviewsCount": 10,
     "downloads": "500+",
     "contentRating": "3+",
-    "hasAds": false,
+    "hasAds": true,
     "playUrl": "https://play.google.com/store/apps/details?id=com.sharksmartalphabet",
     "color": "#22d3ee"
   },
