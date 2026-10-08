@@ -290,21 +290,31 @@ export default function AppDetailPage({ params }: PageProps) {
                 </div>
               </div>
 
-              {/* Privacy Link Card */}
-              <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-                <div className="flex items-center gap-3 mb-2">
+              {/* Privacy & Legal Card */}
+              <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-3">
+                <div className="flex items-center gap-3">
                   <ShieldCheck className="w-5 h-5 text-emerald-600" />
-                  <h4 className="text-base font-bold text-slate-900">User Privacy</h4>
+                  <h4 className="text-base font-bold text-slate-900">Legal &amp; User Privacy</h4>
                 </div>
-                <p className="text-xs text-slate-600 mb-4 leading-relaxed">
-                  We take user and family privacy seriously. Review the data policy and permissions for this app.
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  We maintain strict data security and compliance standards for this application on Google Play.
                 </p>
-                <Link
-                  href={`/privacy/${app.slug}`}
-                  className="text-xs font-semibold text-slate-900 hover:underline"
-                >
-                  Read {app.name} Privacy Policy &rarr;
-                </Link>
+                <div className="pt-2 border-t border-slate-100 flex flex-col gap-2">
+                  <Link
+                    href={`/privacy/${app.slug}`}
+                    className="text-xs font-semibold text-slate-900 hover:text-emerald-700 hover:underline flex items-center justify-between"
+                  >
+                    <span>Read Privacy Policy</span>
+                    <span>&rarr;</span>
+                  </Link>
+                  <Link
+                    href={`/terms/${app.slug}`}
+                    className="text-xs font-semibold text-slate-900 hover:text-indigo-700 hover:underline flex items-center justify-between"
+                  >
+                    <span>Read Terms of Service</span>
+                    <span>&rarr;</span>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

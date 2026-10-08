@@ -49,7 +49,7 @@ export default function AppPrivacyPage({ params }: PageProps) {
   return (
     <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="mb-8 flex items-center justify-between">
+        <div className="mb-8 flex flex-wrap items-center justify-between gap-3">
           <Link
             href="/privacy"
             className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
@@ -58,12 +58,20 @@ export default function AppPrivacyPage({ params }: PageProps) {
             Back to General Privacy Policy
           </Link>
 
-          <Link
-            href={`/apps/${app.slug}`}
-            className="text-xs text-slate-700 hover:text-slate-900 font-semibold underline flex items-center gap-1"
-          >
-            {app.name} Overview &rarr;
-          </Link>
+          <div className="flex items-center gap-4 text-xs font-semibold">
+            <Link
+              href={`/terms/${app.slug}`}
+              className="text-indigo-700 hover:text-indigo-900 underline"
+            >
+              Terms of Service &rarr;
+            </Link>
+            <Link
+              href={`/apps/${app.slug}`}
+              className="text-slate-700 hover:text-slate-900 underline"
+            >
+              {app.name} Overview &rarr;
+            </Link>
+          </div>
         </div>
 
         <div className="text-center mb-10 space-y-3">

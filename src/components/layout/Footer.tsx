@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Gamepad2, Mail, ExternalLink, ShieldCheck } from "lucide-react";
+import { Gamepad2, Mail, ExternalLink, ShieldCheck, FileText } from "lucide-react";
 import { apps, developer } from "@/data/apps";
 
 export const Footer: React.FC = () => {
@@ -91,6 +91,15 @@ export const Footer: React.FC = () => {
                 >
                   <Mail className="w-4 h-4 text-sky-600" />
                   Contact Developer
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="text-sm text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-2"
+                >
+                  <FileText className="w-4 h-4 text-indigo-600" />
+                  Terms of Service
                 </Link>
               </li>
               <li>
