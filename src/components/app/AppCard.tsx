@@ -39,10 +39,10 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
   const category = getCategoryDetails();
 
   return (
-    <div className="h-full flex flex-col justify-between rounded-2xl bg-white border border-slate-200/90 hover:border-slate-300 transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1 overflow-hidden group">
+    <div className="h-full flex flex-col justify-between rounded-2xl bg-white border border-slate-200 hover:border-slate-300 transition-all duration-300 shadow-sm hover:shadow-md overflow-hidden group">
       <div>
-        {/* Real Screenshot Preview Banner */}
-        <div className="relative w-full h-48 bg-slate-100 overflow-hidden">
+        {/* Real Screenshot Preview Banner (Separate, clear top section) */}
+        <div className="relative w-full h-44 bg-slate-100 overflow-hidden border-b border-slate-100">
           {app.screenshots?.[0] ? (
             <Image
               src={app.screenshots[0]}
@@ -55,72 +55,71 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
             <div className="w-full h-full bg-slate-100" />
           )}
 
-          {/* Top Badges */}
-          <div className="absolute top-3 left-3 right-3 flex items-center justify-between z-10">
+          {/* Floating Category & Age Badges with Solid High Contrast Background */}
+          <div className="absolute top-3 left-3 right-3 flex items-center justify-between z-10 pointer-events-none">
             <span
-              className={`inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-semibold border backdrop-blur-md bg-white/95 shadow-sm ${category.badgeColor}`}
+              className={`inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-bold border shadow-sm ${category.badgeColor} bg-white/95`}
             >
               {category.label}
             </span>
 
-            <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-white/95 text-slate-700 border border-slate-200 shadow-sm">
+            <span className="text-[11px] font-bold px-2 py-0.5 rounded-md bg-white/95 text-slate-800 border border-slate-200 shadow-sm">
               Rating {app.contentRating || "3+"}
             </span>
           </div>
-
-          {/* Bottom Gradient Fade */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none" />
         </div>
 
-        {/* Card Body with App Icon Offset */}
-        <div className="px-5 pb-2 -mt-7 relative z-20">
-          {/* Icon & Title Row */}
-          <div className="flex items-end gap-3.5 mb-3">
+        {/* Solid Pure White Content Area: Clear, High Contrast, No Overlap */}
+        <div className="p-5 bg-white space-y-3">
+          {/* App Icon + App Name Row */}
+          <div className="flex items-start gap-3.5">
             <Link
               href={`/apps/${app.slug}`}
-              className="relative w-16 h-16 shrink-0 rounded-2xl overflow-hidden border-2 border-white bg-white shadow-md group-hover:scale-105 transition-transform duration-300"
+              className="relative w-14 h-14 shrink-0 rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-sm hover:scale-105 transition-transform duration-200 block"
             >
               <Image
                 src={app.icon}
                 alt={app.name}
-                width={64}
-                height={64}
+                width={56}
+                height={56}
                 className="w-full h-full object-cover"
               />
             </Link>
 
-            <div className="flex-1 min-w-0 pb-1">
-              <h3 className="text-base font-bold text-slate-900 group-hover:text-emerald-700 transition-colors truncate font-display">
+            <div className="flex-1 min-w-0">
+              {/* App Name: Bold, Large, High-Contrast Slate-950 Text */}
+              <h3 className="text-base sm:text-lg font-bold font-display text-slate-900 group-hover:text-emerald-700 transition-colors leading-snug line-clamp-2">
                 <Link href={`/apps/${app.slug}`}>{app.name}</Link>
               </h3>
-              {/* Play Store Real Stats */}
-              <div className="flex items-center gap-3 text-xs text-slate-600 mt-0.5">
-                <span className="inline-flex items-center gap-1 font-semibold text-amber-600">
+
+              {/* Play Store Real Stats: Rating & Downloads */}
+              <div className="flex items-center gap-2.5 text-xs text-slate-600 mt-1">
+                <span className="inline-flex items-center gap-1 font-bold text-amber-600">
                   <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
                   {app.rating ? app.rating.toFixed(1) : "5.0"}
                 </span>
                 <span className="text-slate-300">•</span>
-                <span className="inline-flex items-center gap-1 text-slate-600 font-medium">
-                  <Download className="w-3 h-3 text-slate-400" />
-                  {app.downloads}
+                <span className="inline-flex items-center gap-1 font-semibold text-slate-700">
+                  <Download className="w-3.5 h-3.5 text-slate-400" />
+                  {app.downloads} Unduhan
                 </span>
               </div>
             </div>
           </div>
 
           {/* Real Play Store Tagline */}
-          <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed mb-3">
+          <p className="text-xs sm:text-sm text-slate-600 line-clamp-2 leading-relaxed">
             {app.tagline}
           </p>
         </div>
       </div>
 
-      {/* Card Footer: Actions */}
-      <div className="px-5 pt-3 pb-4 border-t border-slate-100 space-y-2.5 mt-2">
+      {/* Card Footer: Clear Action Buttons */}
+      <div className="p-5 pt-3 border-t border-slate-100 bg-slate-50/50">
         <div className="grid grid-cols-2 gap-2">
           <Link
             href={`/apps/${app.slug}`}
-            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-xs font-semibold text-slate-800 transition-colors"
+            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-white hover:bg-slate-100 border border-slate-200 text-xs font-bold text-slate-800 shadow-2xs transition-colors"
           >
             <Info className="w-3.5 h-3.5 text-slate-500" />
             Detail
@@ -130,9 +129,9 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
             href={app.playUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-semibold text-white shadow-sm transition-colors"
+            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-bold text-white shadow-sm transition-colors"
           >
-            <Play className="w-3 h-3 fill-current" />
+            <Play className="w-3 h-3 fill-current text-white" />
             Google Play
           </a>
         </div>

@@ -18,7 +18,7 @@ export const Stats: React.FC = () => {
               <div className="text-2xl font-bold font-display text-slate-900">
                 {totalApps} Karya
               </div>
-              <div className="text-xs text-slate-500 font-medium">Koleksi Android</div>
+              <div className="text-xs text-slate-700 font-semibold">Koleksi Android</div>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ export const Stats: React.FC = () => {
               <div className="text-2xl font-bold font-display text-slate-900">
                 3 Bidang
               </div>
-              <div className="text-xs text-slate-500 font-medium">Game, Alat &amp; Edukasi</div>
+              <div className="text-xs text-slate-700 font-semibold">Game, Alat &amp; Edukasi</div>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export const Stats: React.FC = () => {
               <div className="text-2xl font-bold font-display text-slate-900">
                 Ramah
               </div>
-              <div className="text-xs text-slate-500 font-medium">Keluarga &amp; Anak</div>
+              <div className="text-xs text-slate-700 font-semibold">Keluarga &amp; Anak</div>
             </div>
           </div>
 
@@ -57,7 +57,7 @@ export const Stats: React.FC = () => {
               <div className="text-2xl font-bold font-display text-slate-900">
                 100%
               </div>
-              <div className="text-xs text-slate-500 font-medium">Privasi Terlindungi</div>
+              <div className="text-xs text-slate-700 font-semibold">Privasi Terlindungi</div>
             </div>
           </div>
         </div>

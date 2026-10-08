@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
                 <span className="text-xl font-bold font-display tracking-tight text-slate-900">
                   D LUCKY <span className="text-emerald-600">X</span>
                 </span>
-                <span className="block text-[10px] tracking-widest uppercase text-slate-500 -mt-1 font-semibold">
+                <span className="block text-[10px] tracking-widest uppercase text-slate-600 -mt-1 font-bold">
                   Studio Game &amp; Aplikasi
                 </span>
               </div>
@@ -109,7 +109,7 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom bar */}
-        <div className="pt-8 text-center text-xs text-slate-500">
+        <div className="pt-8 text-center text-xs text-slate-600 font-medium">
           <p>© {new Date().getFullYear()} D Lucky X</p>
         </div>
       </div>

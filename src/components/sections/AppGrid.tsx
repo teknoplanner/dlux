@@ -22,7 +22,7 @@ export const AppGrid: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
-          <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-500 block">
+          <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-600 block">
             Katalog Karya
           </span>
 
@@ -31,53 +31,53 @@ export const AppGrid: React.FC = () => {
           </h2>
         </div>
 
-        {/* Filter Tabs */}
+        {/* Filter Tabs with High Contrast */}
         <div className="flex flex-wrap items-center justify-center gap-2.5 mb-10">
           <button
             onClick={() => setActiveCategory("all")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
+            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
               activeCategory === "all"
                 ? "bg-slate-900 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
+                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
             }`}
           >
-            <LayoutGrid className="w-4 h-4" />
+            <LayoutGrid className="w-4 h-4 text-slate-600" />
             Semua ({apps.length})
           </button>
 
           <button
             onClick={() => setActiveCategory("game")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
+            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
               activeCategory === "game"
                 ? "bg-emerald-600 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
+                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
             }`}
           >
-            <Gamepad2 className="w-4 h-4 text-emerald-400" />
+            <Gamepad2 className="w-4 h-4 text-emerald-600" />
             Game ({gameCount})
           </button>
 
           <button
             onClick={() => setActiveCategory("tool")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
+            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
               activeCategory === "tool"
                 ? "bg-sky-600 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
+                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
             }`}
           >
-            <Wrench className="w-4 h-4 text-sky-400" />
+            <Wrench className="w-4 h-4 text-sky-600" />
             Alat ({toolCount})
           </button>
 
           <button
             onClick={() => setActiveCategory("education")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
+            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
               activeCategory === "education"
                 ? "bg-purple-600 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-700 hover:text-slate-900 hover:bg-slate-200 border border-slate-200"
+                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
             }`}
           >
-            <GraduationCap className="w-4 h-4 text-purple-400" />
+            <GraduationCap className="w-4 h-4 text-purple-600" />
             Edukasi ({eduCount})
           </button>
         </div>

@@ -131,7 +131,7 @@ export default function AppDetailPage({ params }: PageProps) {
                     <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
                     <span>{app.rating ? app.rating.toFixed(1) : "5.0"} Bintang</span>
                     {app.reviewsCount && (
-                      <span className="text-xs text-slate-400 font-normal">({app.reviewsCount} ulasan)</span>
+                      <span className="text-xs text-slate-500 font-medium">({app.reviewsCount} ulasan)</span>
                     )}
                   </div>
                   <span className="text-slate-300">•</span>

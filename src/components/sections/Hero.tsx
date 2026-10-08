@@ -16,18 +16,18 @@ export const Hero: React.FC = () => {
       {/* Interactive 3D Ambient Kinetic Canvas */}
       <HeroScene />
 
-      {/* Hero Foreground Content: Minimal, Punchy, Clean */}
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 relative z-10 text-center pointer-events-none">
-        <span className="inline-block text-xs font-mono font-bold uppercase tracking-widest text-slate-500 mb-4 pointer-events-auto">
+      {/* Hero Foreground Content with Soft Scrim for 100% High Contrast */}
+      <div className="max-w-3xl mx-auto px-6 sm:px-10 py-8 rounded-3xl relative z-10 text-center pointer-events-none bg-white/45 backdrop-blur-[2px] border border-white/70 shadow-xs">
+        <span className="inline-block text-xs font-mono font-bold uppercase tracking-widest text-slate-700 bg-white/80 border border-slate-200/80 px-3.5 py-1 rounded-full shadow-2xs mb-4 pointer-events-auto">
           D Lucky X • Indie Studio
         </span>
 
-        <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold font-display tracking-tight text-slate-900 leading-[1.05] mb-5">
+        <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold font-display tracking-tight text-slate-950 leading-[1.05] mb-5">
           Game Seru.<br />
           Aplikasi Bermanfaat.
         </h1>
 
-        <p className="text-base sm:text-lg text-slate-600 max-w-lg mx-auto font-normal leading-relaxed mb-8">
+        <p className="text-base sm:text-lg text-slate-700 max-w-lg mx-auto font-medium leading-relaxed mb-8">
           Koleksi game santai dan aplikasi Android yang ringan, aman, dan menyenangkan.
         </p>
 
@@ -36,7 +36,7 @@ export const Hero: React.FC = () => {
             href="#apps"
             variant="primary"
             size="lg"
-            className="bg-slate-900 hover:bg-slate-800 text-white px-7 py-3.5 shadow-sm text-sm font-semibold"
+            className="bg-slate-900 hover:bg-slate-800 text-white px-7 py-3.5 shadow-sm text-sm font-bold"
           >
             <span>Lihat Karya</span>
             <ArrowDown className="w-4 h-4 ml-1" />
@@ -47,10 +47,10 @@ export const Hero: React.FC = () => {
             external
             variant="outline"
             size="lg"
-            className="bg-white/85 backdrop-blur-md border-slate-300 text-slate-800 hover:bg-white px-7 py-3.5 shadow-sm text-sm font-semibold"
+            className="bg-white hover:bg-slate-50 border-slate-300 text-slate-900 px-7 py-3.5 shadow-sm text-sm font-bold"
           >
             <span>Google Play</span>
-            <ExternalLink className="w-4 h-4 text-slate-500 ml-1" />
+            <ExternalLink className="w-4 h-4 text-slate-600 ml-1" />
           </Button>
         </div>
       </div>
