@@ -136,6 +136,14 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
+                  href="/gear"
+                  className="hover:text-emerald-400 text-slate-400 transition-colors flex items-center gap-2"
+                >
+                  Gear &amp; Hardware
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/#about"
                   className="hover:text-white text-slate-400 transition-colors flex items-center gap-2"
                 >
@@ -208,6 +216,7 @@ export const Footer: React.FC = () => {
             </div>
           </div>
         </div>
+
 
         {/* Bottom Bar: Copyright & Badges */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">

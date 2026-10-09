@@ -4,7 +4,6 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import {
-  ArrowLeft,
   Clock,
   Calendar,
   HelpCircle,
@@ -23,6 +22,11 @@ import {
   generateFaqSchema,
   generateBreadcrumbSchema,
 } from "@/lib/seo";
+import {
+  getAmazonProductsByCategory,
+  getAmazonProductsByIds,
+} from "@/data/amazonProducts";
+import { AmazonGearShowcase } from "@/components/blog/AmazonProductCard";
 
 interface PageProps {
   params: {
@@ -32,7 +36,7 @@ interface PageProps {
 
 export function generateStaticParams() {
   return articles.map((article) => ({
-    slug: article.slug,
+    slug: article.slugEn,
   }));
 }
 
@@ -45,9 +49,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
     description: article.metaDescriptionEn,
     keywords: article.keywordsEn,
     alternates: {
-      canonical: `${developer.website}/en/blog/${article.slug}/`,
+      canonical: `${developer.website}/en/blog/${article.slugEn}/`,
       languages: {
-        en: `${developer.website}/en/blog/${article.slug}/`,
+        en: `${developer.website}/en/blog/${article.slugEn}/`,
         id: `${developer.website}/blog/${article.slug}/`,
       },
     },
@@ -63,6 +67,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       card: "summary_large_image",
       title: article.metaTitleEn,
       description: article.metaDescriptionEn,
+      images: [article.coverImage],
     },
   };
 }
@@ -83,12 +88,23 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
     year: "numeric",
   });
 
+  const affiliateProducts =
+    article.affiliateProductIds && article.affiliateProductIds.length > 0
+      ? getAmazonProductsByIds(article.affiliateProductIds)
+      : article.category === "gaming"
+      ? getAmazonProductsByCategory("gaming")
+      : article.category === "education"
+      ? getAmazonProductsByCategory("kids")
+      : article.category === "productivity"
+      ? getAmazonProductsByCategory("productivity")
+      : [];
+
   const articleSchema = generateArticleSchema(article, targetApp, "en");
   const faqSchema = generateFaqSchema(article.faqEn);
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: "Home", url: `${developer.website}/` },
     { name: "Blog", url: `${developer.website}/en/blog/` },
-    { name: article.titleEn, url: `${developer.website}/en/blog/${article.slug}/` },
+    { name: article.titleEn, url: `${developer.website}/en/blog/${article.slugEn}/` },
   ]);
 
   return (
@@ -109,48 +125,27 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
+      <div className="pt-28 pb-24 relative overflow-hidden bg-[#fafaf9]">
         {/* Ambient Top Glow */}
         <div className="absolute top-20 left-1/2 -translate-x-1/2 w-full max-w-4xl h-80 bg-gradient-to-b from-indigo-100/30 to-transparent blur-3xl pointer-events-none" />
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8">
-          {/* Breadcrumb & Navigation */}
-          <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500 border-b border-slate-200/80 pb-4">
-            <Link
-              href="/en/blog"
-              className="inline-flex items-center gap-1.5 font-medium text-slate-600 hover:text-slate-900 transition-colors"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" />
-              <span>Back to English Blog</span>
-            </Link>
-
-            <div className="flex items-center gap-2">
-              <Link href="/" className="hover:underline">Home</Link>
-              <span>/</span>
-              <Link href="/en/blog" className="hover:underline">Blog</Link>
-              <span>/</span>
-              <span className="text-slate-800 font-semibold truncate max-w-[200px]">
-                {article.titleEn}
-              </span>
-            </div>
-          </div>
-
           {/* Bilingual Language Switcher */}
-          <LanguageSwitcher currentLang="en" slug={article.slug} />
+          <LanguageSwitcher currentLang="en" slugId={article.slug} slugEn={article.slugEn} />
 
           {/* Article Header */}
-          <header className="space-y-4">
+          <header className="space-y-5">
             <div className="flex flex-wrap items-center gap-3">
               <Badge variant="purple">
                 {article.category.toUpperCase()}
               </Badge>
-              <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 font-medium font-mono">
-                <Clock className="w-3.5 h-3.5 text-slate-400" />
+              <span className="inline-flex items-center gap-1.5 text-sm text-slate-500 font-medium font-mono">
+                <Clock className="w-4 h-4 text-slate-400" />
                 {article.readTimeEn}
               </span>
-              <span>•</span>
-              <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 font-medium">
-                <Calendar className="w-3.5 h-3.5 text-slate-400" />
+              <span className="text-slate-300">•</span>
+              <span className="inline-flex items-center gap-1.5 text-sm text-slate-500 font-medium">
+                <Calendar className="w-4 h-4 text-slate-400" />
                 {formattedDate}
               </span>
             </div>
@@ -159,18 +154,18 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
               {article.titleEn}
             </h1>
 
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
+            <p className="text-lg sm:text-xl text-slate-600 leading-relaxed font-normal">
               {article.metaDescriptionEn}
             </p>
 
-            <div className="pt-2 flex items-center justify-between text-xs text-slate-500 border-t border-slate-100">
-              <div className="flex items-center gap-2">
-                <div className="w-7 h-7 rounded-full bg-indigo-100 border border-indigo-200 flex items-center justify-center text-indigo-700 font-bold text-xs">
+            <div className="pt-3 flex items-center justify-between text-sm text-slate-500 border-t border-slate-200/80">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-full bg-indigo-100 border border-indigo-200 flex items-center justify-center text-indigo-700 font-bold text-xs">
                   DL
                 </div>
                 <div>
                   <span className="font-semibold text-slate-900 block leading-tight">{article.author}</span>
-                  <span className="text-[11px] text-slate-600 font-mono">Published for Global Android Users</span>
+                  <span className="text-xs text-slate-500 font-mono">Published for Global Android Users</span>
                 </div>
               </div>
             </div>
@@ -193,20 +188,20 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
           {/* Table of Contents */}
           <TableOfContents sections={article.sectionsEn} lang="en" />
 
-          {/* Article Main Body Content */}
-          <main className="space-y-10 text-slate-800 text-sm sm:text-base leading-relaxed">
+          {/* Article Main Body Content - Enlarged for Easy Reading */}
+          <main className="space-y-12 text-slate-800 text-base sm:text-lg leading-relaxed sm:leading-8">
             {article.sectionsEn.map((section, idx) => (
-              <div key={section.id} className="space-y-4">
+              <div key={section.id} className="space-y-5">
                 <h2
                   id={section.id}
-                  className="text-xl sm:text-2xl font-bold font-display text-slate-900 scroll-mt-28 border-b border-slate-100 pb-2"
+                  className="text-2xl sm:text-3xl font-bold font-display text-slate-900 scroll-mt-28 border-b border-slate-200/70 pb-3"
                 >
                   {section.title}
                 </h2>
 
-                <div className="space-y-3.5 text-slate-700">
+                <div className="space-y-4 text-slate-700">
                   {section.content.map((paragraph, pIdx) => (
-                    <p key={pIdx} className="leading-relaxed">
+                    <p key={pIdx} className="leading-relaxed sm:leading-8 text-base sm:text-lg text-slate-700">
                       {paragraph}
                     </p>
                   ))}
@@ -214,10 +209,10 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
 
                 {/* Optional Bullet Points */}
                 {section.bulletPoints && section.bulletPoints.length > 0 && (
-                  <ul className="space-y-2 pl-1 pt-1">
+                  <ul className="space-y-2.5 pl-1 pt-2">
                     {section.bulletPoints.map((point, bIdx) => (
-                      <li key={bIdx} className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-700">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                      <li key={bIdx} className="flex items-start gap-3 text-base sm:text-lg text-slate-700 leading-relaxed">
+                        <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-1" />
                         <span>{point}</span>
                       </li>
                     ))}
@@ -227,7 +222,7 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                 {/* Optional Tip / Highlight Box */}
                 {section.tipBox && (
                   <div
-                    className={`p-4 sm:p-5 rounded-2xl border text-xs sm:text-sm leading-relaxed space-y-1.5 my-4 ${
+                    className={`p-5 sm:p-6 rounded-2xl border text-base sm:text-lg leading-relaxed space-y-2 my-6 ${
                       section.tipBox.type === "highlight"
                         ? "bg-cyan-50/70 border-cyan-200 text-cyan-950"
                         : section.tipBox.type === "warning"
@@ -236,10 +231,10 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                     }`}
                   >
                     <div className="flex items-center gap-2 font-bold font-display">
-                      <Lightbulb className="w-4 h-4 text-indigo-600" />
+                      <Lightbulb className="w-5 h-5 text-indigo-600 shrink-0" />
                       <span>{section.tipBox.title}</span>
                     </div>
-                    <p className="text-slate-700 pl-6">{section.tipBox.text}</p>
+                    <p className="text-slate-700 pl-7 leading-relaxed">{section.tipBox.text}</p>
                   </div>
                 )}
 
@@ -250,6 +245,28 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
               </div>
             ))}
           </main>
+
+          {/* Amazon Affiliate Hardware & Gear Showcase */}
+          {affiliateProducts.length > 0 && (
+            <AmazonGearShowcase
+              products={affiliateProducts}
+              lang="en"
+              title={
+                article.category === "gaming"
+                  ? "Tested Hardware & Gear for Mobile Gaming"
+                  : article.category === "education"
+                  ? "Recommended Tablet Hardware for Kids & Early Learning"
+                  : "Tested Tools for Digital Paperwork & Note-Taking"
+              }
+              subtitle={
+                article.category === "gaming"
+                  ? "Touchscreen friction, heat buildup, and audio lag often hold gameplay back. These tested physical accessories help keep touch response smooth and prevent thermal throttling."
+                  : article.category === "education"
+                  ? "Protect screens from accidental drops and help children develop pencil grip coordination with tested, child-safe accessories."
+                  : "Eliminate slippery touchscreen friction and sign digital PDFs with pen-like precision using tested universal styluses and paper-feel protectors."
+              }
+            />
+          )}
 
           {/* End-Article Main App CTA Banner */}
           {targetApp && (
@@ -262,8 +279,8 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
           {article.faqEn && article.faqEn.length > 0 && (
             <section id="faq" className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6 scroll-mt-28">
               <div className="border-b border-slate-100 pb-3 flex items-center gap-2.5">
-                <HelpCircle className="w-5 h-5 text-indigo-600" />
-                <h2 className="text-xl font-bold font-display text-slate-900">
+                <HelpCircle className="w-6 h-6 text-indigo-600" />
+                <h2 className="text-2xl font-bold font-display text-slate-900">
                   Frequently Asked Questions (FAQ)
                 </h2>
               </div>
@@ -272,12 +289,12 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                 {article.faqEn.map((item, idx) => (
                   <div
                     key={idx}
-                    className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2"
+                    className="p-5 sm:p-6 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2"
                   >
-                    <h3 className="text-sm sm:text-base font-bold text-slate-900">
+                    <h3 className="text-base sm:text-lg font-bold text-slate-900">
                       Q: {item.q}
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
                       {item.a}
                     </p>
                   </div>
@@ -290,12 +307,12 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
           {relatedArticles.length > 0 && (
             <section className="pt-8 border-t border-slate-200 space-y-6">
               <div className="flex items-center justify-between">
-                <h3 className="text-xl font-bold font-display text-slate-900">
+                <h3 className="text-2xl font-bold font-display text-slate-900">
                   Related Guides &amp; Articles
                 </h3>
                 <Link
                   href="/en/blog"
-                  className="text-xs font-bold text-indigo-600 hover:text-indigo-800"
+                  className="text-sm font-bold text-indigo-600 hover:text-indigo-800"
                 >
                   View All Guides &rarr;
                 </Link>

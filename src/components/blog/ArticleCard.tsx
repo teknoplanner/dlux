@@ -40,7 +40,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   const title = isEn ? article.titleEn : article.title;
   const description = isEn ? article.metaDescriptionEn : article.metaDescription;
   const readTime = isEn ? article.readTimeEn : article.readTime;
-  const href = isEn ? `/en/blog/${article.slug}` : `/blog/${article.slug}`;
+  const href = isEn ? `/en/blog/${article.slugEn || article.slug}` : `/blog/${article.slug}`;
 
   const formattedDate = new Date(article.publishedDate).toLocaleDateString(
     isEn ? "en-US" : "id-ID",
@@ -54,13 +54,20 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   if (featured) {
     return (
       <article className="group relative rounded-3xl bg-white border border-slate-200/90 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-0">
-        <div className="lg:col-span-5 relative bg-gradient-to-br from-slate-900 to-indigo-950 p-8 sm:p-10 flex flex-col justify-between overflow-hidden">
-          {/* Neon decorative background glow */}
-          <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-pink-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="lg:col-span-5 relative bg-slate-900 min-h-[240px] lg:min-h-full overflow-hidden flex flex-col justify-between p-6 sm:p-8">
+          {article.coverImage && (
+            <Image
+              src={article.coverImage}
+              alt={title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              sizes="(max-width: 1024px) 100vw, 40vw"
+            />
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/40 to-slate-950/20 pointer-events-none" />
 
           <div className="relative z-10 space-y-4">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs font-bold text-cyan-300 tracking-wide uppercase">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/20 text-xs font-bold text-cyan-300 tracking-wide uppercase">
               <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
               {isEn ? "Featured Guide" : "Artikel Pilihan"}
             </div>
@@ -136,6 +143,19 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
 
   return (
     <article className="group relative rounded-3xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col justify-between">
+      {/* Cover Image */}
+      {article.coverImage && (
+        <Link href={href} className="relative w-full aspect-[16/9] overflow-hidden block bg-slate-900 border-b border-slate-100">
+          <Image
+            src={article.coverImage}
+            alt={title}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </Link>
+      )}
+
       <div className="p-6 sm:p-7 space-y-4">
         {/* Card Header with Badges */}
         <div className="flex items-center justify-between gap-2">
@@ -157,7 +177,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
         </Link>
 
         {/* Snippet */}
-        <p className="text-xs sm:text-sm text-slate-600 line-clamp-3 leading-relaxed">
+        <p className="text-sm sm:text-base text-slate-600 line-clamp-3 leading-relaxed">
           {description}
         </p>
       </div>

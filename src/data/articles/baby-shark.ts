@@ -3,10 +3,11 @@ import { ArticleItem } from "./types";
 export const babySharkArticles: ArticleItem[] = [
   {
     slug: "metode-phonics-terbaik-mengajar-anak-belajar-huruf-abc-dan-angka",
+    slugEn: "best-interactive-phonics-method-to-teach-toddlers-abcs-and-numbers-with-baby-sha",
     targetAppSlug: "baby-shark-abc-kids-learning",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/baby-shark-abc-kids-learning/icon.webp",
+    coverImage: "/images/blog/metode-phonics-terbaik-mengajar-anak-belajar-huruf-abc-dan-angka.webp",
     author: "Tim Tumbuh Kembang Anak D Lucky X",
 
     // Indonesian
@@ -138,10 +139,11 @@ export const babySharkArticles: ArticleItem[] = [
   },
   {
     slug: "pentingnya-metode-phonics-untuk-anak-usia-dini-agar-cepat-bisa-membaca",
+    slugEn: "why-phonics-method-helps-preschoolers-learn-to-read-faster-than-rote-memorizatio",
     targetAppSlug: "baby-shark-abc-kids-learning",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/baby-shark-abc-kids-learning/icon.webp",
+    coverImage: "/images/blog/pentingnya-metode-phonics-untuk-anak-usia-dini-agar-cepat-bisa-membaca.webp",
     author: "Tim Edukasi D Lucky X",
 
     // Indonesian
@@ -267,10 +269,11 @@ export const babySharkArticles: ArticleItem[] = [
   },
   {
     slug: "rekomendasi-aplikasi-edukasi-anak-balita-yang-aman-tanpa-iklan-mengganggu",
+    slugEn: "safe-toddler-app-checklist-child-friendly-visuals-audio-distraction-free-learnin",
     targetAppSlug: "baby-shark-abc-kids-learning",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/baby-shark-abc-kids-learning/icon.webp",
+    coverImage: "/images/blog/rekomendasi-aplikasi-edukasi-anak-balita-yang-aman-tanpa-iklan-mengganggu.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -396,10 +399,11 @@ export const babySharkArticles: ArticleItem[] = [
   },
   {
     slug: "cara-melatih-motorik-halus-anak-lewat-fitur-tracing-menulis-huruf",
+    slugEn: "developing-fine-motor-skills-in-toddlers-with-letter-tracing-number-drawing",
     targetAppSlug: "baby-shark-abc-kids-learning",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/baby-shark-abc-kids-learning/icon.webp",
+    coverImage: "/images/blog/cara-melatih-motorik-halus-anak-lewat-fitur-tracing-menulis-huruf.webp",
     author: "Tim Edukasi D Lucky X",
 
     // Indonesian
@@ -526,10 +530,11 @@ export const babySharkArticles: ArticleItem[] = [
   },
   {
     slug: "tips-mendampingi-screen-time-positif-anak-usia-2-sampai-5-tahun",
+    slugEn: "transforming-screen-time-into-meaningful-learning-a-modern-parents-guide",
     targetAppSlug: "baby-shark-abc-kids-learning",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/baby-shark-abc-kids-learning/icon.webp",
+    coverImage: "/images/blog/tips-mendampingi-screen-time-positif-anak-usia-2-sampai-5-tahun.webp",
     author: "Tim Edukasi D Lucky X",
 
     // Indonesian

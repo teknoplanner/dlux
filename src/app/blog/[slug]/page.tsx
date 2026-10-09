@@ -4,7 +4,6 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import {
-  ArrowLeft,
   Clock,
   Calendar,
   HelpCircle,
@@ -24,6 +23,11 @@ import {
   generateFaqSchema,
   generateBreadcrumbSchema,
 } from "@/lib/seo";
+import {
+  getAmazonProductsByCategory,
+  getAmazonProductsByIds,
+} from "@/data/amazonProducts";
+import { AmazonGearShowcase } from "@/components/blog/AmazonProductCard";
 
 interface PageProps {
   params: {
@@ -49,7 +53,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       canonical: `${developer.website}/blog/${article.slug}/`,
       languages: {
         id: `${developer.website}/blog/${article.slug}/`,
-        en: `${developer.website}/en/blog/${article.slug}/`,
+        en: `${developer.website}/en/blog/${article.slugEn}/`,
       },
     },
     openGraph: {
@@ -64,6 +68,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       card: "summary_large_image",
       title: article.metaTitle,
       description: article.metaDescription,
+      images: [article.coverImage],
     },
   };
 }
@@ -83,6 +88,17 @@ export default function ArticleDetailPage({ params }: PageProps) {
     month: "long",
     year: "numeric",
   });
+
+  const affiliateProducts =
+    article.affiliateProductIds && article.affiliateProductIds.length > 0
+      ? getAmazonProductsByIds(article.affiliateProductIds)
+      : article.category === "gaming"
+      ? getAmazonProductsByCategory("gaming")
+      : article.category === "education"
+      ? getAmazonProductsByCategory("kids")
+      : article.category === "productivity"
+      ? getAmazonProductsByCategory("productivity")
+      : [];
 
   const articleSchema = generateArticleSchema(article, targetApp, "id");
   const faqSchema = generateFaqSchema(article.faq);
@@ -110,48 +126,27 @@ export default function ArticleDetailPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
+      <div className="pt-28 pb-24 relative overflow-hidden bg-[#fafaf9]">
         {/* Ambient Top Glow */}
         <div className="absolute top-20 left-1/2 -translate-x-1/2 w-full max-w-4xl h-80 bg-gradient-to-b from-indigo-100/30 to-transparent blur-3xl pointer-events-none" />
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8">
-          {/* Breadcrumb & Navigation */}
-          <div className="flex flex-wrap items-center justify-between gap-3 text-xs text-slate-500 border-b border-slate-200/80 pb-4">
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-1.5 font-medium text-slate-600 hover:text-slate-900 transition-colors"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" />
-              <span>Kembali ke Blog</span>
-            </Link>
-
-            <div className="flex items-center gap-2">
-              <Link href="/" className="hover:underline">Beranda</Link>
-              <span>/</span>
-              <Link href="/blog" className="hover:underline">Blog</Link>
-              <span>/</span>
-              <span className="text-slate-800 font-semibold truncate max-w-[200px]">
-                {article.title}
-              </span>
-            </div>
-          </div>
-
           {/* Bilingual Language Switcher & Non-ID IP Prompt */}
-          <LanguageSwitcher currentLang="id" slug={article.slug} />
+          <LanguageSwitcher currentLang="id" slugId={article.slug} slugEn={article.slugEn} />
 
           {/* Article Header */}
-          <header className="space-y-4">
+          <header className="space-y-5">
             <div className="flex flex-wrap items-center gap-3">
               <Badge variant="purple">
                 {article.category.toUpperCase()}
               </Badge>
-              <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 font-medium font-mono">
-                <Clock className="w-3.5 h-3.5 text-slate-400" />
+              <span className="inline-flex items-center gap-1.5 text-sm text-slate-500 font-medium font-mono">
+                <Clock className="w-4 h-4 text-slate-400" />
                 {article.readTime}
               </span>
-              <span>•</span>
-              <span className="inline-flex items-center gap-1.5 text-xs text-slate-500 font-medium">
-                <Calendar className="w-3.5 h-3.5 text-slate-400" />
+              <span className="text-slate-300">•</span>
+              <span className="inline-flex items-center gap-1.5 text-sm text-slate-500 font-medium">
+                <Calendar className="w-4 h-4 text-slate-400" />
                 {formattedDate}
               </span>
             </div>
@@ -160,18 +155,18 @@ export default function ArticleDetailPage({ params }: PageProps) {
               {article.title}
             </h1>
 
-            <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
+            <p className="text-lg sm:text-xl text-slate-600 leading-relaxed font-normal">
               {article.metaDescription}
             </p>
 
-            <div className="pt-2 flex items-center justify-between text-xs text-slate-500 border-t border-slate-100">
-              <div className="flex items-center gap-2">
-                <div className="w-7 h-7 rounded-full bg-indigo-100 border border-indigo-200 flex items-center justify-center text-indigo-700 font-bold text-xs">
+            <div className="pt-3 flex items-center justify-between text-sm text-slate-500 border-t border-slate-200/80">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-full bg-indigo-100 border border-indigo-200 flex items-center justify-center text-indigo-700 font-bold text-xs">
                   DL
                 </div>
                 <div>
                   <span className="font-semibold text-slate-900 block leading-tight">{article.author}</span>
-                  <span className="text-[11px] text-slate-600 font-mono">Dipublikasikan untuk Pengguna Android</span>
+                  <span className="text-xs text-slate-500 font-mono">Dipublikasikan untuk Pengguna Android</span>
                 </div>
               </div>
             </div>
@@ -200,13 +195,13 @@ export default function ArticleDetailPage({ params }: PageProps) {
                   <span>🇬🇧 English Quick Summary (Bilingual Overview)</span>
                 </div>
                 <Link
-                  href={`/en/blog/${article.slug}`}
+                  href={`/en/blog/${article.slugEn}`}
                   className="text-xs font-bold text-indigo-700 hover:text-indigo-900 underline"
                 >
                   Read Full Article in English &rarr;
                 </Link>
               </div>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed italic">
+              <p className="text-sm sm:text-base text-slate-700 leading-relaxed italic">
                 &ldquo;{article.englishSummary}&rdquo;
               </p>
             </div>
@@ -215,20 +210,20 @@ export default function ArticleDetailPage({ params }: PageProps) {
           {/* Table of Contents */}
           <TableOfContents sections={article.sections} lang="id" />
 
-          {/* Article Main Body Content */}
-          <main className="space-y-10 text-slate-800 text-sm sm:text-base leading-relaxed">
+          {/* Article Main Body Content - Enlarged for Easy Reading */}
+          <main className="space-y-12 text-slate-800 text-base sm:text-lg leading-relaxed sm:leading-8">
             {article.sections.map((section, idx) => (
-              <div key={section.id} className="space-y-4">
+              <div key={section.id} className="space-y-5">
                 <h2
                   id={section.id}
-                  className="text-xl sm:text-2xl font-bold font-display text-slate-900 scroll-mt-28 border-b border-slate-100 pb-2"
+                  className="text-2xl sm:text-3xl font-bold font-display text-slate-900 scroll-mt-28 border-b border-slate-200/70 pb-3"
                 >
                   {section.title}
                 </h2>
 
-                <div className="space-y-3.5 text-slate-700">
+                <div className="space-y-4 text-slate-700">
                   {section.content.map((paragraph, pIdx) => (
-                    <p key={pIdx} className="leading-relaxed">
+                    <p key={pIdx} className="leading-relaxed sm:leading-8 text-base sm:text-lg text-slate-700">
                       {paragraph}
                     </p>
                   ))}
@@ -236,10 +231,10 @@ export default function ArticleDetailPage({ params }: PageProps) {
 
                 {/* Optional Bullet Points */}
                 {section.bulletPoints && section.bulletPoints.length > 0 && (
-                  <ul className="space-y-2 pl-1 pt-1">
+                  <ul className="space-y-2.5 pl-1 pt-2">
                     {section.bulletPoints.map((point, bIdx) => (
-                      <li key={bIdx} className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-700">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                      <li key={bIdx} className="flex items-start gap-3 text-base sm:text-lg text-slate-700 leading-relaxed">
+                        <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-1" />
                         <span>{point}</span>
                       </li>
                     ))}
@@ -249,7 +244,7 @@ export default function ArticleDetailPage({ params }: PageProps) {
                 {/* Optional Tip / Highlight Box */}
                 {section.tipBox && (
                   <div
-                    className={`p-4 sm:p-5 rounded-2xl border text-xs sm:text-sm leading-relaxed space-y-1.5 my-4 ${
+                    className={`p-5 sm:p-6 rounded-2xl border text-base sm:text-lg leading-relaxed space-y-2 my-6 ${
                       section.tipBox.type === "highlight"
                         ? "bg-cyan-50/70 border-cyan-200 text-cyan-950"
                         : section.tipBox.type === "warning"
@@ -258,10 +253,10 @@ export default function ArticleDetailPage({ params }: PageProps) {
                     }`}
                   >
                     <div className="flex items-center gap-2 font-bold font-display">
-                      <Lightbulb className="w-4 h-4 text-indigo-600" />
+                      <Lightbulb className="w-5 h-5 text-indigo-600 shrink-0" />
                       <span>{section.tipBox.title}</span>
                     </div>
-                    <p className="text-slate-700 pl-6">{section.tipBox.text}</p>
+                    <p className="text-slate-700 pl-7 leading-relaxed">{section.tipBox.text}</p>
                   </div>
                 )}
 
@@ -272,6 +267,28 @@ export default function ArticleDetailPage({ params }: PageProps) {
               </div>
             ))}
           </main>
+
+          {/* Rekomendasi Gear & Hardware Resmi Amazon */}
+          {affiliateProducts.length > 0 && (
+            <AmazonGearShowcase
+              products={affiliateProducts}
+              lang="id"
+              title={
+                article.category === "gaming"
+                  ? "Perangkat Pendukung Teruji untuk Sesi Bermain Panjang"
+                  : article.category === "education"
+                  ? "Rekomendasi Aksesoris Tablet untuk Belajar Anak"
+                  : "Perangkat Pendukung untuk Pengelolaan Dokumen & Catatan"
+              }
+              subtitle={
+                article.category === "gaming"
+                  ? "Suhu perangkat yang panas dan jari yang kesat sering mengganggu jalannya permainan. Berikut aksesoris fisik yang kami rekomendasikan untuk kenyamanan bermain optimal."
+                  : article.category === "education"
+                  ? "Lindungi perangkat dari risiko benturan dan bantu anak melatih koordinasi motorik genggaman tangan dengan aksesoris yang aman dan tahan banting."
+                  : "Atasi permukaan layar yang licin saat menandatangani dokumen PDF atau mencatat rapat dengan stylus presisi dan pelindung layar bertekstur kertas."
+              }
+            />
+          )}
 
           {/* End-Article Main App CTA Banner */}
           {targetApp && (
@@ -284,8 +301,8 @@ export default function ArticleDetailPage({ params }: PageProps) {
           {article.faq && article.faq.length > 0 && (
             <section id="faq" className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6 scroll-mt-28">
               <div className="border-b border-slate-100 pb-3 flex items-center gap-2.5">
-                <HelpCircle className="w-5 h-5 text-indigo-600" />
-                <h2 className="text-xl font-bold font-display text-slate-900">
+                <HelpCircle className="w-6 h-6 text-indigo-600" />
+                <h2 className="text-2xl font-bold font-display text-slate-900">
                   Pertanyaan yang Sering Diajukan (FAQ)
                 </h2>
               </div>
@@ -294,12 +311,12 @@ export default function ArticleDetailPage({ params }: PageProps) {
                 {article.faq.map((item, idx) => (
                   <div
                     key={idx}
-                    className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2"
+                    className="p-5 sm:p-6 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2"
                   >
-                    <h3 className="text-sm sm:text-base font-bold text-slate-900">
+                    <h3 className="text-base sm:text-lg font-bold text-slate-900">
                       Q: {item.q}
                     </h3>
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
                       {item.a}
                     </p>
                   </div>
@@ -312,12 +329,12 @@ export default function ArticleDetailPage({ params }: PageProps) {
           {relatedArticles.length > 0 && (
             <section className="pt-8 border-t border-slate-200 space-y-6">
               <div className="flex items-center justify-between">
-                <h3 className="text-xl font-bold font-display text-slate-900">
+                <h3 className="text-2xl font-bold font-display text-slate-900">
                   Rekomendasi Panduan Lainnya
                 </h3>
                 <Link
                   href="/blog"
-                  className="text-xs font-bold text-indigo-600 hover:text-indigo-800"
+                  className="text-sm font-bold text-indigo-600 hover:text-indigo-800"
                 >
                   Lihat Semua &rarr;
                 </Link>

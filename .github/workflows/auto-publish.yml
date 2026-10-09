@@ -1,0 +1,70 @@
+name: Auto Publish Scheduled Articles
+
+on:
+  schedule:
+    # Runs every hour at minute 20 to catch the staggered schedule slots (06:30, 08:15, 10:00, etc. WIB)
+    - cron: '20 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish-queue:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check and publish due articles
+        id: publish_step
+        run: |
+          node scripts/publish-daily-queue.mjs
+          if [[ -n $(git status --porcelain src/data/articles/) ]]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push if any articles were published
+        if: steps.publish_step.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/articles/
+          git commit -m "feat(blog): auto-publish scheduled articles"
+          git push
+
+      - name: Build site with newly published articles
+        if: steps.publish_step.outputs.has_changes == 'true'
+        run: npm run build
+
+      - name: Upload Pages artifact
+        if: steps.publish_step.outputs.has_changes == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+      - name: Deploy to GitHub Pages
+        if: steps.publish_step.outputs.has_changes == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4

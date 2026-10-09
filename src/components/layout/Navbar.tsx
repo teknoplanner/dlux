@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-7">
             <Link
               href="/"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
@@ -70,6 +70,12 @@ export const Navbar: React.FC = () => {
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
               Blog
+            </Link>
+            <Link
+              href="/gear"
+              className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+            >
+              Gear
             </Link>
           </nav>
 
@@ -125,6 +131,14 @@ export const Navbar: React.FC = () => {
           >
             <BookOpen className="w-4 h-4 text-indigo-600" />
             Blog &amp; Panduan
+          </Link>
+          <Link
+            href="/gear"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
+          >
+            <Gamepad2 className="w-4 h-4 text-cyan-600" />
+            Gear
           </Link>
           <div className="pt-2">
             <Button

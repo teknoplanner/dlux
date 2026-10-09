@@ -3,10 +3,11 @@ import { ArticleItem } from "./types";
 export const monsterMathArticles: ArticleItem[] = [
   {
     slug: "cara-meningkatkan-kecepatan-berhitung-cepat-dan-daya-ingat-anak",
+    slugEn: "fun-ways-to-boost-mental-math-calculation-speed-brain-memory-with-gamification",
     targetAppSlug: "monster-math-train-brain",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/monster-math-train-brain/icon.webp",
+    coverImage: "/images/blog/cara-meningkatkan-kecepatan-berhitung-cepat-dan-daya-ingat-anak.webp",
     author: "Tim Edukasi D Lucky X",
 
     // Indonesian
@@ -140,10 +141,11 @@ export const monsterMathArticles: ArticleItem[] = [
   },
   {
     slug: "trik-berhitung-cepat-perkalian-dan-pembagian-tanpa-kertas-coretan",
+    slugEn: "mental-math-shortcuts-rapid-multiplication-division-in-your-head-without-scratch",
     targetAppSlug: "monster-math-train-brain",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/monster-math-train-brain/icon.webp",
+    coverImage: "/images/blog/trik-berhitung-cepat-perkalian-dan-pembagian-tanpa-kertas-coretan.webp",
     author: "Tim Edukasi D Lucky X",
 
     // Indonesian
@@ -272,10 +274,11 @@ export const monsterMathArticles: ArticleItem[] = [
   },
   {
     slug: "manfaat-latihan-otak-matematika-5-menit-sehari-untuk-daya-fokus",
+    slugEn: "benefits-of-daily-5-minute-brain-math-workouts-for-focus-and-attention-span",
     targetAppSlug: "monster-math-train-brain",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/monster-math-train-brain/icon.webp",
+    coverImage: "/images/blog/manfaat-latihan-otak-matematika-5-menit-sehari-untuk-daya-fokus.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -406,10 +409,11 @@ export const monsterMathArticles: ArticleItem[] = [
   },
   {
     slug: "panduan-orang-tua-mengatasi-anak-yang-takut-belajar-matematika",
+    slugEn: "parents-guide-how-to-cure-math-anxiety-in-children-using-educational-games",
     targetAppSlug: "monster-math-train-brain",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/monster-math-train-brain/icon.webp",
+    coverImage: "/images/blog/panduan-orang-tua-mengatasi-anak-yang-takut-belajar-matematika.webp",
     author: "Tim Edukasi D Lucky X",
 
     // Indonesian
@@ -536,10 +540,11 @@ export const monsterMathArticles: ArticleItem[] = [
   },
   {
     slug: "strategi-meraih-skor-tertinggi-di-mode-survival-monster-math",
+    slugEn: "survival-mode-strategy-how-to-hit-high-scores-infinite-combos-in-monster-math",
     targetAppSlug: "monster-math-train-brain",
     category: "education",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/monster-math-train-brain/icon.webp",
+    coverImage: "/images/blog/strategi-meraih-skor-tertinggi-di-mode-survival-monster-math.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian

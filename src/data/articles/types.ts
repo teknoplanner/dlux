@@ -11,12 +11,15 @@ export interface ArticleSection {
 }
 
 export interface ArticleItem {
-  slug: string;
+  slug: string;       // Indonesian slug (for /blog/[slug]/)
+  slugEn: string;     // English slug (for /en/blog/[slug]/)
   targetAppSlug: string;
   category: "productivity" | "gaming" | "education" | "finance" | "lifestyle";
   publishedDate: string;
   coverImage: string;
   author: string;
+  affiliateProductIds?: string[];
+  affiliateCategory?: "gaming" | "kids" | "productivity";
 
   // Indonesian Version
   title: string;

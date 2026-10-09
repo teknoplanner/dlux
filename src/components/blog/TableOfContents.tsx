@@ -22,7 +22,7 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({
     <nav className="rounded-2xl bg-slate-50 border border-slate-200 p-5 my-6">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between text-left font-bold font-display text-slate-900 text-sm focus:outline-none"
+        className="w-full flex items-center justify-between text-left font-bold font-display text-slate-900 text-base focus:outline-none"
         aria-expanded={isOpen}
       >
         <span className="flex items-center gap-2">
@@ -37,7 +37,7 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({
       </button>
 
       {isOpen && (
-        <ul className="mt-3.5 space-y-2 text-xs border-t border-slate-200/70 pt-3">
+        <ul className="mt-4 space-y-2.5 text-sm sm:text-base border-t border-slate-200/70 pt-3.5">
           {sections.map((sec) => (
             <li key={sec.id}>
               <a

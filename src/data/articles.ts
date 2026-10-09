@@ -10,12 +10,16 @@ import { kucingAturDuitArticles } from "./articles/kucing-atur-duit";
 // Active Published Gaming Meta Articles (Single pro feature live right now)
 import { publishedGamingArticles } from "./articles/published-gaming";
 
+// High-Intent Amazon Affiliate Hardware Buyer Guides (Priority for English & Global Visitors)
+import { amazonBuyerGuides } from "./articles/amazon-buyer-guides";
+
 // Queued Gaming Articles (149 articles staged for scheduled release)
 export { queuedArticles } from "./articles/queue";
 
 export type { ArticleItem, ArticleSection };
 
 const unsortedArticles: ArticleItem[] = [
+  ...amazonBuyerGuides,
   ...publishedGamingArticles,
   ...offlinePdfArticles,
   ...stickmanPenaltyArticles,
@@ -32,7 +36,7 @@ export const articles: ArticleItem[] = unsortedArticles.sort(
 );
 
 export function getArticleBySlug(slug: string): ArticleItem | undefined {
-  return articles.find((article) => article.slug === slug);
+  return articles.find((article) => article.slug === slug || article.slugEn === slug);
 }
 
 export function getArticlesByApp(appSlug: string): ArticleItem[] {
@@ -42,18 +46,20 @@ export function getArticlesByApp(appSlug: string): ArticleItem[] {
 export function getRelatedArticles(currentSlug: string, limit = 3): ArticleItem[] {
   const current = getArticleBySlug(currentSlug);
   if (!current) {
-    return articles.filter((article) => article.slug !== currentSlug).slice(0, limit);
+    return articles
+      .filter((article) => article.slug !== currentSlug && article.slugEn !== currentSlug)
+      .slice(0, limit);
   }
 
   const sameApp = articles.filter(
-    (a) => a.slug !== currentSlug && a.targetAppSlug === current.targetAppSlug
+    (a) => a.slug !== current.slug && a.slugEn !== current.slugEn && a.targetAppSlug === current.targetAppSlug
   );
   if (sameApp.length >= limit) {
     return sameApp.slice(0, limit);
   }
 
   const otherApp = articles.filter(
-    (a) => a.slug !== currentSlug && a.targetAppSlug !== current.targetAppSlug
+    (a) => a.slug !== current.slug && a.slugEn !== current.slugEn && a.targetAppSlug !== current.targetAppSlug
   );
   return [...sameApp, ...otherApp].slice(0, limit);
 }

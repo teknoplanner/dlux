@@ -4,14 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/generate-rss.mjs && next build && node scripts/check-apps.mjs",
+    "build": "node scripts/generate-rss.mjs && node scripts/generate-sitemap.mjs && next build && node scripts/check-apps.mjs",
     "start": "next start",
     "lint": "next lint",
     "generate-assets": "node scripts/generate-assets.mjs",
     "generate-rss": "node scripts/generate-rss.mjs",
+    "generate-sitemap": "node scripts/generate-sitemap.mjs",
     "check-apps": "node scripts/check-apps.mjs",
     "sync:playstore": "node scripts/sync-playstore-metrics.mjs",
-    "seo:ping": "node scripts/ping-search-engines.mjs"
+    "seo:ping": "node scripts/ping-search-engines.mjs",
+    "publish:queue": "node scripts/publish-daily-queue.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^9.106.0",

@@ -6,11 +6,21 @@ import { Globe, ArrowRight } from "lucide-react";
 
 interface LanguageSwitcherProps {
   currentLang: "id" | "en";
-  slug: string;
+  slug?: string;
+  slugId?: string;
+  slugEn?: string;
 }
 
-export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang, slug }) => {
+export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
+  currentLang,
+  slug = "",
+  slugId,
+  slugEn,
+}) => {
   const [showAutoSuggest, setShowAutoSuggest] = useState(false);
+
+  const finalSlugId = slugId || slug;
+  const finalSlugEn = slugEn || slug;
 
   useEffect(() => {
     // If currently on ID page, check if user might prefer English (non-ID locale or international IP)
@@ -37,8 +47,6 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang,
     }
   };
 
-  const targetUrl = currentLang === "id" ? `/en/blog/${slug}` : `/blog/${slug}`;
-
   return (
     <div className="space-y-3">
       {/* Auto-suggest Banner for non-ID visitors on Indonesian page */}
@@ -61,7 +69,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang,
               Stay on ID
             </button>
             <Link
-              href={`/en/blog/${slug}`}
+              href={`/en/blog/${finalSlugEn}`}
               onClick={() => setManualPreference("en")}
               className="inline-flex items-center gap-1.5 text-xs font-bold bg-white text-indigo-700 hover:bg-sky-50 px-3 py-1.5 rounded-lg shadow-xs transition-colors"
             >
@@ -75,7 +83,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang,
       {/* Manual Language Toggle Pill */}
       <div className="inline-flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 text-xs font-medium">
         <Link
-          href={`/blog/${slug}`}
+          href={`/blog/${finalSlugId}`}
           onClick={() => setManualPreference("id")}
           className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-lg transition-all ${
             currentLang === "id"
@@ -88,7 +96,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({ currentLang,
         </Link>
 
         <Link
-          href={`/en/blog/${slug}`}
+          href={`/en/blog/${finalSlugEn}`}
           onClick={() => setManualPreference("en")}
           className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-lg transition-all ${
             currentLang === "en"

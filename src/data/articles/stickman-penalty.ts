@@ -3,10 +3,11 @@ import { ArticleItem } from "./types";
 export const stickmanPenaltyArticles: ArticleItem[] = [
   {
     slug: "tips-menang-adu-penalti-game-sepak-bola-android",
+    slugEn: "secret-tips-to-score-penalty-goals-save-shots-in-android-soccer-shootout-stickma",
     targetAppSlug: "stickman-penalty-rush",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/stickman-penalty-rush/icon.webp",
+    coverImage: "/images/blog/tips-menang-adu-penalti-game-sepak-bola-android.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -138,10 +139,11 @@ export const stickmanPenaltyArticles: ArticleItem[] = [
   },
   {
     slug: "cara-membaca-arah-gerak-kiper-dalam-game-adu-penalti",
+    slugEn: "how-to-read-goalkeeper-movement-aim-top-corners-in-stickman-penalty-rush",
     targetAppSlug: "stickman-penalty-rush",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/stickman-penalty-rush/icon.webp",
+    coverImage: "/images/blog/cara-membaca-arah-gerak-kiper-dalam-game-adu-penalti.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -262,10 +264,11 @@ export const stickmanPenaltyArticles: ArticleItem[] = [
   },
   {
     slug: "rekomendasi-game-sepak-bola-offline-ringan-adu-penalti-terbaik",
+    slugEn: "why-stickman-penalty-rush-is-the-best-lightweight-offline-soccer-game-on-android",
     targetAppSlug: "stickman-penalty-rush",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/stickman-penalty-rush/icon.webp",
+    coverImage: "/images/blog/rekomendasi-game-sepak-bola-offline-ringan-adu-penalti-terbaik.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -393,10 +396,11 @@ export const stickmanPenaltyArticles: ArticleItem[] = [
   },
   {
     slug: "panduan-turnamen-world-cup-stickman-penalty-rush-raih-trofi",
+    slugEn: "tournament-walkthrough-how-to-win-the-world-cup-trophy-in-stickman-penalty-rush",
     targetAppSlug: "stickman-penalty-rush",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/stickman-penalty-rush/icon.webp",
+    coverImage: "/images/blog/panduan-turnamen-world-cup-stickman-penalty-rush-raih-trofi.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -520,10 +524,11 @@ export const stickmanPenaltyArticles: ArticleItem[] = [
   },
   {
     slug: "trik-jadi-kiper-hebat-menepis-semua-tendangan-penalti-game-hp",
+    slugEn: "goalkeeper-masterclass-how-to-anticipate-block-opponent-penalties-on-mobile",
     targetAppSlug: "stickman-penalty-rush",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/stickman-penalty-rush/icon.webp",
+    coverImage: "/images/blog/trik-jadi-kiper-hebat-menepis-semua-tendangan-penalti-game-hp.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian

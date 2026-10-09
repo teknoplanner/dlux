@@ -3,6 +3,7 @@ import { ArticleItem } from "./types";
 export const publishedGamingArticles: ArticleItem[] = [
   {
     slug: "mobile-legends-build-ling-tersakit-2026-item-full-burst-rotasi-cepat-solo-r",
+    slugEn: "mobile-legends-best-ling-build-2026-burst-items-assassin-emblem-solo-rank",
     targetAppSlug: "stickman-penalty-rush",
     category: "gaming",
     publishedDate: "2026-10-09T12:52:00+07:00",

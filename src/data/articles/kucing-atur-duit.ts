@@ -3,10 +3,11 @@ import { ArticleItem } from "./types";
 export const kucingAturDuitArticles: ArticleItem[] = [
   {
     slug: "cara-mengatur-keuangan-pribadi-dengan-metode-budgeting-kucing-lucu",
+    slugEn: "how-to-manage-personal-finances-save-money-stress-free-with-cat-budget-planner",
     targetAppSlug: "kucing-atur-duit",
     category: "finance",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/kucing-atur-duit/icon.webp",
+    coverImage: "/images/blog/cara-mengatur-keuangan-pribadi-dengan-metode-budgeting-kucing-lucu.webp",
     author: "Tim Finansial D Lucky X",
 
     // Indonesian
@@ -142,10 +143,11 @@ export const kucingAturDuitArticles: ArticleItem[] = [
   },
   {
     slug: "cara-menerapkan-metode-anggaran-50-30-20-untuk-gaji-umr-dan-fresh-graduate",
+    slugEn: "how-to-apply-the-50-30-20-budgeting-rule-on-your-smartphone-for-entry-level-sala",
     targetAppSlug: "kucing-atur-duit",
     category: "finance",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/kucing-atur-duit/icon.webp",
+    coverImage: "/images/blog/cara-menerapkan-metode-anggaran-50-30-20-untuk-gaji-umr-dan-fresh-graduate.webp",
     author: "Tim Finansial D Lucky X",
 
     // Indonesian
@@ -281,10 +283,11 @@ export const kucingAturDuitArticles: ArticleItem[] = [
   },
   {
     slug: "bahaya-kebocoran-finansial-latte-factor-dan-cara-menghentikannya",
+    slugEn: "beware-the-latte-factor-how-tiny-daily-expenses-drain-your-bank-account-silently",
     targetAppSlug: "kucing-atur-duit",
     category: "finance",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/kucing-atur-duit/icon.webp",
+    coverImage: "/images/blog/bahaya-kebocoran-finansial-latte-factor-dan-cara-menghentikannya.webp",
     author: "Tim Finansial D Lucky X",
 
     // Indonesian
@@ -413,10 +416,11 @@ export const kucingAturDuitArticles: ArticleItem[] = [
   },
   {
     slug: "alasan-aplikasi-catat-keuangan-offline-lebih-aman-untuk-data-privasi-kamu",
+    slugEn: "why-offline-budget-apps-are-safer-for-your-financial-privacy-than-cloud-trackers",
     targetAppSlug: "kucing-atur-duit",
     category: "finance",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/kucing-atur-duit/icon.webp",
+    coverImage: "/images/blog/alasan-aplikasi-catat-keuangan-offline-lebih-aman-untuk-data-privasi-kamu.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -545,10 +549,11 @@ export const kucingAturDuitArticles: ArticleItem[] = [
   },
   {
     slug: "tips-membangun-dana-darurat-dan-pos-tabungan-impian-langkah-demi-langkah",
+    slugEn: "step-by-step-guide-to-building-an-emergency-fund-starting-with-small-daily-habit",
     targetAppSlug: "kucing-atur-duit",
     category: "finance",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/kucing-atur-duit/icon.webp",
+    coverImage: "/images/blog/tips-membangun-dana-darurat-dan-pos-tabungan-impian-langkah-demi-langkah.webp",
     author: "Tim Finansial D Lucky X",
 
     // Indonesian

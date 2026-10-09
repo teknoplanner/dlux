@@ -3,10 +3,11 @@ import { ArticleItem } from "./types";
 export const fruityMergeArticles: ArticleItem[] = [
   {
     slug: "trik-meraih-skor-tinggi-game-merge-semangka-3d",
+    slugEn: "secret-tricks-to-merge-giant-watermelons-beat-high-scores-in-fruity-merge-3d",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/fruity-merge-3d-match-puzzle/icon.webp",
+    coverImage: "/images/blog/trik-meraih-skor-tinggi-game-merge-semangka-3d.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -139,10 +140,11 @@ export const fruityMergeArticles: ArticleItem[] = [
   },
   {
     slug: "panduan-urutan-evolusi-buah-di-fruity-merge-3d-dari-ceri-ke-semangka",
+    slugEn: "complete-fruit-evolution-hierarchy-in-fruity-merge-3d-from-cherry-to-watermelon",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/fruity-merge-3d-match-puzzle/icon.webp",
+    coverImage: "/images/blog/panduan-urutan-evolusi-buah-di-fruity-merge-3d-dari-ceri-ke-semangka.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -281,10 +283,11 @@ export const fruityMergeArticles: ArticleItem[] = [
   },
   {
     slug: "strategi-penataan-sudut-kotak-agar-buah-tidak-cepat-penuh-game-merge",
+    slugEn: "corner-stacking-strategy-how-to-keep-your-basket-clean-in-3d-merge-puzzle",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/fruity-merge-3d-match-puzzle/icon.webp",
+    coverImage: "/images/blog/strategi-penataan-sudut-kotak-agar-buah-tidak-cepat-penuh-game-merge.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -417,10 +420,11 @@ export const fruityMergeArticles: ArticleItem[] = [
   },
   {
     slug: "rekomendasi-game-puzzle-santai-offline-penghilang-stres-di-hp",
+    slugEn: "why-3d-fruit-merge-is-the-ultimate-stress-relief-casual-offline-game-on-android",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/fruity-merge-3d-match-puzzle/icon.webp",
+    coverImage: "/images/blog/rekomendasi-game-puzzle-santai-offline-penghilang-stres-di-hp.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -546,10 +550,11 @@ export const fruityMergeArticles: ArticleItem[] = [
   },
   {
     slug: "cara-menciptakan-reaksi-berantai-combo-merge-untuk-skor-berlipat-ganda",
+    slugEn: "chain-reaction-masterclass-how-to-trigger-5x-combo-drops-in-fruity-merge-3d",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/fruity-merge-3d-match-puzzle/icon.webp",
+    coverImage: "/images/blog/cara-menciptakan-reaksi-berantai-combo-merge-untuk-skor-berlipat-ganda.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian

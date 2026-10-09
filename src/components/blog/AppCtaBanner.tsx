@@ -45,10 +45,10 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({
                   <span>5.0</span>
                 </div>
               </div>
-              <h4 className="text-base font-bold text-white mt-1 leading-snug">
+              <h4 className="text-base sm:text-lg font-bold text-white mt-1 leading-snug">
                 {isEn ? `Try it directly in ${app.name}` : `Coba langsung di ${app.name}`}
               </h4>
-              <p className="text-xs text-slate-300 line-clamp-1 mt-0.5">
+              <p className="text-xs sm:text-sm text-slate-300 line-clamp-1 mt-0.5">
                 {app.tagline}
               </p>
             </div>
@@ -105,7 +105,7 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({
               {app.name}
             </h3>
 
-            <p className="text-xs sm:text-sm text-slate-300 max-w-xl leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-300 max-w-xl leading-relaxed">
               {app.tagline}
             </p>
           </div>

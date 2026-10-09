@@ -3,10 +3,11 @@ import { ArticleItem } from "./types";
 export const offlinePdfArticles: ArticleItem[] = [
   {
     slug: "cara-edit-tanda-tangan-kompres-pdf-offline-android",
+    slugEn: "how-to-edit-sign-compress-pdf-on-android-100-offline-without-uploading-to-server",
     targetAppSlug: "offline-pdf-editor",
     category: "productivity",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/offline-pdf-editor/icon.webp",
+    coverImage: "/images/blog/cara-edit-tanda-tangan-kompres-pdf-offline-android.webp",
     author: "Tim Pengembang D Lucky X",
 
     // Indonesian
@@ -164,10 +165,11 @@ export const offlinePdfArticles: ArticleItem[] = [
   },
   {
     slug: "cara-menggabungkan-file-pdf-di-hp-tanpa-kuota-aman",
+    slugEn: "how-to-merge-multiple-pdf-files-on-android-without-internet-or-cloud-uploads",
     targetAppSlug: "offline-pdf-editor",
     category: "productivity",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/offline-pdf-editor/icon.webp",
+    coverImage: "/images/blog/cara-menggabungkan-file-pdf-di-hp-tanpa-kuota-aman.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -296,10 +298,11 @@ export const offlinePdfArticles: ArticleItem[] = [
   },
   {
     slug: "cara-kompres-pdf-menjadi-200kb-di-hp-tanpa-rusak-teks",
+    slugEn: "how-to-compress-pdf-to-200kb-500kb-on-android-without-blurry-text",
     targetAppSlug: "offline-pdf-editor",
     category: "productivity",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/offline-pdf-editor/icon.webp",
+    coverImage: "/images/blog/cara-kompres-pdf-menjadi-200kb-di-hp-tanpa-rusak-teks.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -427,10 +430,11 @@ export const offlinePdfArticles: ArticleItem[] = [
   },
   {
     slug: "cara-memberi-tanda-tangan-digital-pada-dokumen-kontrak-pdf-hp",
+    slugEn: "step-by-step-guide-to-digitally-sign-contracts-on-pdf-via-android-phone",
     targetAppSlug: "offline-pdf-editor",
     category: "productivity",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/offline-pdf-editor/icon.webp",
+    coverImage: "/images/blog/cara-memberi-tanda-tangan-digital-pada-dokumen-kontrak-pdf-hp.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -557,10 +561,11 @@ export const offlinePdfArticles: ArticleItem[] = [
   },
   {
     slug: "cara-mengisi-formulir-pdf-dan-menghitamkan-data-rahasia-nik",
+    slugEn: "how-to-fill-out-pdf-forms-permanently-redact-sensitive-info-on-mobile",
     targetAppSlug: "offline-pdf-editor",
     category: "productivity",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/offline-pdf-editor/icon.webp",
+    coverImage: "/images/blog/cara-mengisi-formulir-pdf-dan-menghitamkan-data-rahasia-nik.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian

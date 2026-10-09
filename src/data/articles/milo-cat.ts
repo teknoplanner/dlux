@@ -3,10 +3,11 @@ import { ArticleItem } from "./types";
 export const miloCatArticles: ArticleItem[] = [
   {
     slug: "rahasia-menyelesaikan-level-sulit-game-platformer-milo-cat",
+    slugEn: "pro-tips-to-beat-difficult-stages-in-milo-cat-adventure-2d-retro-platformer",
     targetAppSlug: "milo-cat-adventure",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/milo-cat-adventure/icon.webp",
+    coverImage: "/images/blog/rahasia-menyelesaikan-level-sulit-game-platformer-milo-cat.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -133,10 +134,11 @@ export const miloCatArticles: ArticleItem[] = [
   },
   {
     slug: "cara-mengumpulkan-semua-ikan-emas-dan-bintang-rahasia-milo-cat",
+    slugEn: "secret-locations-how-to-collect-all-golden-fishes-3-star-ratings-in-milo-cat",
     targetAppSlug: "milo-cat-adventure",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/milo-cat-adventure/icon.webp",
+    coverImage: "/images/blog/cara-mengumpulkan-semua-ikan-emas-dan-bintang-rahasia-milo-cat.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -261,10 +263,11 @@ export const miloCatArticles: ArticleItem[] = [
   },
   {
     slug: "rekomendasi-game-offline-petualangan-kucing-lucu-dan-menantang",
+    slugEn: "why-milo-cat-adventure-is-the-most-addictive-offline-cat-game-on-mobile",
     targetAppSlug: "milo-cat-adventure",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/milo-cat-adventure/icon.webp",
+    coverImage: "/images/blog/rekomendasi-game-offline-petualangan-kucing-lucu-dan-menantang.webp",
     author: "Tim Editorial D Lucky X",
 
     // Indonesian
@@ -389,10 +392,11 @@ export const miloCatArticles: ArticleItem[] = [
   },
   {
     slug: "tips-mengalahkan-bos-monster-tiap-dunia-milo-cat-adventure",
+    slugEn: "boss-fight-guide-how-to-defeat-every-world-boss-without-losing-lives-in-milo-cat",
     targetAppSlug: "milo-cat-adventure",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/milo-cat-adventure/icon.webp",
+    coverImage: "/images/blog/tips-mengalahkan-bos-monster-tiap-dunia-milo-cat-adventure.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
@@ -523,10 +527,11 @@ export const miloCatArticles: ArticleItem[] = [
   },
   {
     slug: "trik-kuasai-manuver-wall-jump-dan-dash-untuk-speedrun-milo-cat",
+    slugEn: "advanced-movement-guide-wall-jumping-dashing-speedrunning-in-milo-cat",
     targetAppSlug: "milo-cat-adventure",
     category: "gaming",
     publishedDate: "2026-10-08",
-    coverImage: "/images/apps/milo-cat-adventure/icon.webp",
+    coverImage: "/images/blog/trik-kuasai-manuver-wall-jump-dan-dash-untuk-speedrun-milo-cat.webp",
     author: "Tim Gamer D Lucky X",
 
     // Indonesian
