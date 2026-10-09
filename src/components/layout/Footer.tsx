@@ -42,7 +42,7 @@ export const Footer: React.FC = () => {
             </Link>
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-              Studio independen pembuat game santai dan aplikasi Android yang ringan, aman, dan menghormati privasi pengguna sepenuhnya.
+              Independent indie studio crafting lightweight, engaging casual games, and privacy-respecting Android applications.
             </p>
 
             <div className="pt-1 flex flex-col gap-2">
@@ -76,7 +76,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white flex items-center gap-2">
               <Gamepad2 className="w-3.5 h-3.5 text-emerald-400" />
-              Katalog Aplikasi
+              Apps &amp; Games
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm">
               {apps.slice(0, 6).map((app) => (
@@ -99,7 +99,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white flex items-center gap-2">
               <BookOpen className="w-3.5 h-3.5 text-cyan-400" />
-              Edukasi &amp; Panduan
+              Guides &amp; Resources
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm">
               <li>
@@ -123,7 +123,7 @@ export const Footer: React.FC = () => {
                   href="/blog"
                   className="hover:text-emerald-400 text-slate-400 transition-colors flex items-center gap-2"
                 >
-                  Blog &amp; Tutorial (ID)
+                  Blog &amp; Guides (ID)
                 </Link>
               </li>
               <li>
@@ -131,7 +131,7 @@ export const Footer: React.FC = () => {
                   href="/en/blog"
                   className="hover:text-emerald-400 text-slate-400 transition-colors flex items-center gap-2"
                 >
-                  Guides &amp; Articles (EN)
+                  Articles &amp; Tips (EN)
                 </Link>
               </li>
               <li>
@@ -139,7 +139,7 @@ export const Footer: React.FC = () => {
                   href="/#about"
                   className="hover:text-white text-slate-400 transition-colors flex items-center gap-2"
                 >
-                  Tentang D Lucky X
+                  About Studio
                 </Link>
               </li>
               <li>
@@ -147,7 +147,7 @@ export const Footer: React.FC = () => {
                   href="/contact"
                   className="hover:text-white text-slate-400 transition-colors flex items-center gap-2"
                 >
-                  Hubungi Pengembang
+                  Contact Developer
                 </Link>
               </li>
             </ul>
@@ -157,7 +157,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white flex items-center gap-2">
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-              Keamanan &amp; Privasi
+              Privacy &amp; Trust
             </h4>
             <ul className="space-y-2.5 text-xs sm:text-sm">
               <li>
@@ -195,16 +195,16 @@ export const Footer: React.FC = () => {
                   className="hover:text-white text-slate-400 transition-colors flex items-center gap-2"
                 >
                   <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                  XML Sitemap Google
+                  Google XML Sitemap
                 </a>
               </li>
             </ul>
 
             <div className="p-3 rounded-xl bg-slate-900/90 border border-slate-800 text-[11px] text-slate-400 leading-relaxed">
               <span className="font-semibold text-emerald-400 block mb-0.5">
-                Standar Keamanan Google Play
+                Google Play Safety Standards
               </span>
-              Seluruh aplikasi kami mematuhi pedoman Google Play Data Safety dan tidak mengumpulkan data sensitif tanpa izin.
+              All our applications strictly comply with Google Play Data Safety policies, ensuring complete privacy with zero unauthorized data tracking.
             </div>
           </div>
         </div>
