@@ -7,6 +7,13 @@ import { babySharkArticles } from "./articles/baby-shark";
 import { fruityMergeArticles } from "./articles/fruity-merge";
 import { kucingAturDuitArticles } from "./articles/kucing-atur-duit";
 
+// 150 Curated Gaming Series (30 Days x 5 Articles/Day)
+import { mlbbArticles } from "./articles/mlbb";
+import { freefireArticles } from "./articles/free-fire";
+import { robloxArticles } from "./articles/roblox";
+import { minecraftArticles } from "./articles/minecraft";
+import { genshineafcArticles } from "./articles/genshin-eafc";
+
 export type { ArticleItem, ArticleSection };
 
 export const articles: ArticleItem[] = [
@@ -16,7 +23,14 @@ export const articles: ArticleItem[] = [
   ...monsterMathArticles,
   ...babySharkArticles,
   ...fruityMergeArticles,
-  ...kucingAturDuitArticles
+  ...kucingAturDuitArticles,
+
+  // 150 Gaming Meta Series
+  ...mlbbArticles,
+  ...freefireArticles,
+  ...robloxArticles,
+  ...minecraftArticles,
+  ...genshineafcArticles,
 ];
 
 export function getArticleBySlug(slug: string): ArticleItem | undefined {
@@ -33,7 +47,6 @@ export function getRelatedArticles(currentSlug: string, limit = 3): ArticleItem[
     return articles.filter((article) => article.slug !== currentSlug).slice(0, limit);
   }
 
-  // Prioritize articles from the same app or same category
   const sameApp = articles.filter(
     (a) => a.slug !== currentSlug && a.targetAppSlug === current.targetAppSlug
   );
