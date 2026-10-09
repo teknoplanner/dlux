@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -41,6 +43,8 @@ jobs:
           node scripts/publish-daily-queue.mjs
           if [[ -n $(git status --porcelain src/data/articles/) ]]; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            node scripts/generate-rss.mjs
+            node scripts/generate-sitemap.mjs
           else
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           fi
@@ -50,9 +54,9 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/articles/
+          git add src/data/articles/ public/
           git commit -m "feat(blog): auto-publish scheduled articles"
-          git push
+          git push origin main
 
       - name: Build site with newly published articles
         if: steps.publish_step.outputs.has_changes == 'true'
