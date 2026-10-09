@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import {
@@ -174,6 +175,20 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
               </div>
             </div>
           </header>
+
+          {/* Main Featured Cover Image */}
+          {article.coverImage && (
+            <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-slate-900">
+              <Image
+                src={article.coverImage}
+                alt={article.titleEn}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 896px) 100vw, 896px"
+              />
+            </div>
+          )}
 
           {/* Table of Contents */}
           <TableOfContents sections={article.sectionsEn} lang="en" />
