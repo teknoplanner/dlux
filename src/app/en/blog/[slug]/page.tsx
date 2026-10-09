@@ -165,7 +165,7 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                 </div>
                 <div>
                   <span className="font-semibold text-slate-900 block leading-tight">{article.author}</span>
-                  <span className="text-xs text-slate-500 font-mono">Published for Global Android Users</span>
+                  <span className="text-xs text-slate-500 font-mono">Published</span>
                 </div>
               </div>
             </div>
