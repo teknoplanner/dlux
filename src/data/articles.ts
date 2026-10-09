@@ -7,16 +7,16 @@ import { babySharkArticles } from "./articles/baby-shark";
 import { fruityMergeArticles } from "./articles/fruity-merge";
 import { kucingAturDuitArticles } from "./articles/kucing-atur-duit";
 
-// 150 Curated Gaming Series (30 Days x 5 Articles/Day)
-import { mlbbArticles } from "./articles/mlbb";
-import { freefireArticles } from "./articles/free-fire";
-import { robloxArticles } from "./articles/roblox";
-import { minecraftArticles } from "./articles/minecraft";
-import { genshineafcArticles } from "./articles/genshin-eafc";
+// Active Published Gaming Meta Articles (Single pro feature live right now)
+import { publishedGamingArticles } from "./articles/published-gaming";
+
+// Queued Gaming Articles (149 articles staged for scheduled release)
+export { queuedArticles } from "./articles/queue";
 
 export type { ArticleItem, ArticleSection };
 
-export const articles: ArticleItem[] = [
+const unsortedArticles: ArticleItem[] = [
+  ...publishedGamingArticles,
   ...offlinePdfArticles,
   ...stickmanPenaltyArticles,
   ...miloCatArticles,
@@ -24,14 +24,12 @@ export const articles: ArticleItem[] = [
   ...babySharkArticles,
   ...fruityMergeArticles,
   ...kucingAturDuitArticles,
-
-  // 150 Gaming Meta Series
-  ...mlbbArticles,
-  ...freefireArticles,
-  ...robloxArticles,
-  ...minecraftArticles,
-  ...genshineafcArticles,
 ];
+
+// Always sort newest first so the latest published article is featured spotlight
+export const articles: ArticleItem[] = unsortedArticles.sort(
+  (a, b) => new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime()
+);
 
 export function getArticleBySlug(slug: string): ArticleItem | undefined {
   return articles.find((article) => article.slug === slug);
