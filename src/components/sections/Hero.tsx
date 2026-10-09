@@ -16,8 +16,11 @@ export const Hero: React.FC = () => {
       {/* Interactive 3D Ambient Kinetic Canvas */}
       <HeroScene />
 
-      {/* Hero Foreground Content with Soft Scrim for 100% High Contrast */}
-      <div className="max-w-3xl mx-auto px-6 sm:px-10 py-8 rounded-3xl relative z-10 text-center pointer-events-none bg-white/45 backdrop-blur-[2px] border border-white/70 shadow-xs">
+      {/* Full-width transparent scrim spreading across the entire hero section */}
+      <div className="absolute inset-0 z-[5] pointer-events-none bg-gradient-to-b from-[#fafaf9]/30 via-white/60 to-[#fafaf9]/90 backdrop-blur-[3px]" />
+
+      {/* Hero Foreground Content - full width flow without boxed borders */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 relative z-10 text-center pointer-events-none">
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold font-display tracking-tight text-slate-950 leading-[1.05] mb-5">
           Engaging Games.<br />
           Useful Apps.
