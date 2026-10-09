@@ -2,9 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Play, Menu, X, Gamepad2, Sparkles, BookOpen } from "lucide-react";
+import { Play, Menu, X, Gamepad2, Sparkles, BookOpen, Home } from "lucide-react";
 import { developer } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
+import { BrandLogo } from "@/components/ui/BrandLogo";
 
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,9 +40,7 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center justify-between">
           {/* Brand Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-slate-900 flex items-center justify-center text-white shadow-md shadow-slate-900/10 group-hover:bg-slate-800 transition-colors">
-              <Gamepad2 className="w-5 h-5 text-emerald-400 group-hover:scale-110 transition-transform duration-300" />
-            </div>
+            <BrandLogo className="w-10 h-10 rounded-xl shadow-md shadow-slate-900/10 group-hover:scale-105 transition-transform duration-300 overflow-hidden flex-shrink-0" />
             <div>
               <span className="text-xl font-bold font-display tracking-tight text-slate-900">
                 D LUCKY <span className="text-emerald-600">X</span>
@@ -55,10 +54,10 @@ export const Navbar: React.FC = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <Link
-              href="/#apps"
+              href="/"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
-              Apps &amp; Games
+              Home
             </Link>
             <Link
               href="/#featured"
@@ -104,12 +103,12 @@ export const Navbar: React.FC = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white/98 backdrop-blur-xl border-b border-slate-200 px-6 py-6 space-y-3 shadow-xl">
           <Link
-            href="/#apps"
+            href="/"
             onClick={() => setMobileMenuOpen(false)}
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
           >
-            <Gamepad2 className="w-4 h-4 text-emerald-600" />
-            Apps &amp; Games
+            <Home className="w-4 h-4 text-emerald-600" />
+            Home
           </Link>
           <Link
             href="/#featured"

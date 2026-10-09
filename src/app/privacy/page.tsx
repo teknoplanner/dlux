@@ -3,15 +3,35 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { ShieldCheck, ArrowLeft, Mail, CheckCircle2, Lock, Share2, Users } from "lucide-react";
 import { apps, developer } from "@/data/apps";
+import { generateBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
-  description: "Official Google Play Data Safety and Privacy Policy for D Lucky X Android applications.",
+  title: "Privacy Policy | D Lucky X Android Studio",
+  description: "Official Google Play Data Safety and Privacy Policy for D Lucky X Android applications and games.",
+  alternates: {
+    canonical: `${developer.website}/privacy/`,
+  },
+  openGraph: {
+    title: "Privacy Policy | D Lucky X Android Studio",
+    description: "Official Google Play Data Safety and Privacy Policy for D Lucky X Android applications and games.",
+    url: `${developer.website}/privacy/`,
+    type: "website",
+  },
 };
 
 export default function PrivacyPage() {
+  const breadcrumbLd = generateBreadcrumbSchema([
+    { name: "Home", url: `${developer.website}/` },
+    { name: "Privacy Policy", url: `${developer.website}/privacy/` },
+  ]);
+
   return (
-    <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mb-8">
           <Link
@@ -189,5 +209,6 @@ export default function PrivacyPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

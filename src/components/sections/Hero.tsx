@@ -18,10 +18,6 @@ export const Hero: React.FC = () => {
 
       {/* Hero Foreground Content with Soft Scrim for 100% High Contrast */}
       <div className="max-w-3xl mx-auto px-6 sm:px-10 py-8 rounded-3xl relative z-10 text-center pointer-events-none bg-white/45 backdrop-blur-[2px] border border-white/70 shadow-xs">
-        <span className="inline-block text-xs font-mono font-bold uppercase tracking-widest text-slate-700 bg-white/80 border border-slate-200/80 px-3.5 py-1 rounded-full shadow-2xs mb-4 pointer-events-auto">
-          D Lucky X • Indie Studio
-        </span>
-
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold font-display tracking-tight text-slate-950 leading-[1.05] mb-5">
           Engaging Games.<br />
           Useful Apps.

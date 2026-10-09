@@ -5,6 +5,7 @@ import { ArrowLeft, BookOpen, Sparkles, Compass } from "lucide-react";
 import { articles } from "@/data/articles";
 import { developer } from "@/data/apps";
 import { ArticleCard } from "@/components/blog/ArticleCard";
+import { generateBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Blog & Panduan Aplikasi Android | D Lucky X",
@@ -21,15 +22,26 @@ export const metadata: Metadata = {
     title: "Blog & Panduan Aplikasi Android | D Lucky X",
     description:
       "Kumpulan artikel, tips privasi, panduan belajar anak, dan trik bermain game offline Android dari studio pengembang D Lucky X.",
+    url: `${developer.website}/blog/`,
     type: "website",
+    images: [{ url: `${developer.website}/images/logo.png`, width: 512, height: 512 }],
   },
 };
 
 export default function BlogHubPage() {
   const [featuredArticle, ...otherArticles] = articles;
+  const breadcrumbLd = generateBreadcrumbSchema([
+    { name: "Home", url: `${developer.website}/` },
+    { name: "Blog", url: `${developer.website}/blog/` },
+  ]);
 
   return (
-    <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
       {/* Background ambient lighting */}
       <div className="absolute top-20 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-b from-indigo-100/40 via-cyan-100/20 to-transparent blur-3xl pointer-events-none" />
 
@@ -108,5 +120,6 @@ export default function BlogHubPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

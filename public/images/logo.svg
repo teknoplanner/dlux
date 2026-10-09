@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1122" />
+      <stop offset="50%" stop-color="#040813" />
+      <stop offset="100%" stop-color="#010206" />
+    </linearGradient>
+
+    <!-- Outer Border Glow -->
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Central Ambient Glow -->
+    <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.7" />
+      <stop offset="45%" stop-color="#06b6d4" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Emerald Beam Gradients -->
+    <linearGradient id="emeraldLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="35%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="emeraldDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="40%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <!-- Cyan Beam Gradients -->
+    <linearGradient id="cyanLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="35%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="cyanDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="40%" stop-color="#0891b2" />
+      <stop offset="100%" stop-color="#0e7490" />
+    </linearGradient>
+
+    <!-- Core Star Gradient -->
+    <linearGradient id="gemStar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#f0fdf4" />
+      <stop offset="65%" stop-color="#a7f3d0" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.9" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect width="512" height="512" rx="118" fill="url(#bg)" />
+  <rect x="12" y="12" width="488" height="488" rx="106" fill="none" stroke="url(#border)" stroke-width="5" />
+
+  <!-- Ambient Glow -->
+  <circle cx="256" cy="256" r="200" fill="url(#bloom)" />
+
+  <g transform="translate(256, 256)" filter="url(#glow)">
+    
+    <!-- UNDER BEAM (Cyan, at +45 deg, split for center bridge) -->
+    <g transform="rotate(45)" filter="url(#shadow)">
+      <!-- Left Wing -->
+      <path d="M -175 -48 L -70 -48 L -70 0 L -175 0 Z" fill="url(#cyanLight)" />
+      <path d="M -175 0 L -70 0 L -70 48 L -175 48 Z" fill="url(#cyanDark)" />
+      <path d="M -175 -48 L -220 0 L -175 48 Z" fill="url(#cyanLight)" />
+
+      <!-- Right Wing -->
+      <path d="M 70 -48 L 175 -48 L 175 0 L 70 0 Z" fill="url(#cyanLight)" />
+      <path d="M 70 0 L 175 0 L 175 48 L 70 48 Z" fill="url(#cyanDark)" />
+      <path d="M 175 -48 L 220 0 L 175 48 Z" fill="url(#cyanLight)" />
+
+      <!-- Inner accent glow lines -->
+      <line x1="-170" y1="0" x2="-75" y2="0" stroke="#a5f3fc" stroke-width="3" stroke-linecap="round" opacity="0.85" />
+      <line x1="75" y1="0" x2="170" y2="0" stroke="#a5f3fc" stroke-width="3" stroke-linecap="round" opacity="0.85" />
+    </g>
+
+    <!-- OVER BEAM (Emerald, at -45 deg, continuous with highlight spine) -->
+    <g transform="rotate(-45)" filter="url(#shadow)">
+      <path d="M -175 -48 L 175 -48 L 175 0 L -175 0 Z" fill="url(#emeraldLight)" />
+      <path d="M -175 0 L 175 0 L 175 48 L -175 48 Z" fill="url(#emeraldDark)" />
+      <!-- Outer Angled Cuts -->
+      <path d="M -175 -48 L -220 0 L -175 48 Z" fill="url(#emeraldLight)" />
+      <path d="M 175 -48 L 220 0 L 175 48 Z" fill="url(#emeraldLight)" />
+      <!-- Spine highlight -->
+      <line x1="-165" y1="0" x2="165" y2="0" stroke="#a7f3d0" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
+    </g>
+
+    <!-- CENTERPIECE: The Lucky Diamond Star Nexus -->
+    <g filter="url(#shadow)">
+      <rect x="-62" y="-62" width="124" height="124" rx="26" transform="rotate(45)" fill="#020610" stroke="#34d399" stroke-width="4.5" />
+      
+      <!-- 4-Leaf Lucky Clover Star (Diamond Curvature) -->
+      <path d="M 0 -64 Q 0 0 64 0 Q 0 0 0 64 Q 0 0 -64 0 Q 0 0 0 -64 Z" fill="url(#gemStar)" />
+      
+      <!-- Intense Bright Core -->
+      <circle cx="0" cy="0" r="12" fill="#ffffff" />
+    </g>
+  </g>
+</svg>

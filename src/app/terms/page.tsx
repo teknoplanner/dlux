@@ -3,15 +3,35 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { FileText, ArrowLeft, Mail, ShieldCheck, CheckCircle2 } from "lucide-react";
 import { apps, developer } from "@/data/apps";
+import { generateBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Terms of Service",
+  title: "Terms of Service | D Lucky X Android Studio",
   description: "Official public Terms of Service for D Lucky X Android applications and games.",
+  alternates: {
+    canonical: `${developer.website}/terms/`,
+  },
+  openGraph: {
+    title: "Terms of Service | D Lucky X Android Studio",
+    description: "Official public Terms of Service for D Lucky X Android applications and games.",
+    url: `${developer.website}/terms/`,
+    type: "website",
+  },
 };
 
 export default function TermsPage() {
+  const breadcrumbLd = generateBreadcrumbSchema([
+    { name: "Home", url: `${developer.website}/` },
+    { name: "Terms of Service", url: `${developer.website}/terms/` },
+  ]);
+
   return (
-    <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mb-8">
           <Link
@@ -132,5 +152,6 @@ export default function TermsPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

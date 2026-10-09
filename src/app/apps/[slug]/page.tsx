@@ -21,7 +21,7 @@ import { Badge } from "@/components/ui/Badge";
 import { ScreenshotCarousel } from "@/components/app/ScreenshotCarousel";
 import { AppCard } from "@/components/app/AppCard";
 import { ArticleCard } from "@/components/blog/ArticleCard";
-import { generateSoftwareAppSchema } from "@/lib/seo";
+import { generateSoftwareAppSchema, generateBreadcrumbSchema } from "@/lib/seo";
 
 interface PageProps {
   params: {
@@ -40,12 +40,24 @@ export function generateMetadata({ params }: PageProps): Metadata {
   if (!app) return { title: "App Not Found" };
 
   return {
-    title: `${app.name} | D Lucky X`,
-    description: `${app.tagline} ${app.description.slice(0, 160)}`,
+    title: `${app.name} | D Lucky X Android App`,
+    description: `${app.tagline} ${app.description.slice(0, 150)}`,
+    alternates: {
+      canonical: `${developer.website}/apps/${app.slug}/`,
+    },
     openGraph: {
       title: `${app.name} | D Lucky X`,
       description: app.tagline,
-      images: [{ url: app.icon }],
+      url: `${developer.website}/apps/${app.slug}/`,
+      siteName: "D Lucky X",
+      images: [{ url: `${developer.website}${app.icon}`, alt: app.name, width: 512, height: 512 }],
+      type: "website",
+    },
+    twitter: {
+      card: "summary",
+      title: `${app.name} | D Lucky X`,
+      description: app.tagline,
+      images: [`${developer.website}${app.icon}`],
     },
   };
 }
@@ -58,6 +70,11 @@ export default function AppDetailPage({ params }: PageProps) {
   }
 
   const jsonLd = generateSoftwareAppSchema(app);
+  const breadcrumbLd = generateBreadcrumbSchema([
+    { name: "Home", url: `${developer.website}/` },
+    { name: "Apps & Games", url: `${developer.website}/#apps` },
+    { name: app.name, url: `${developer.website}/apps/${app.slug}/` },
+  ]);
   const relatedApps = apps.filter((a) => a.slug !== app.slug).slice(0, 3);
   const appArticles = getArticlesByApp(app.slug);
   const getCategoryTitle = () => {
@@ -71,6 +88,10 @@ export default function AppDetailPage({ params }: PageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <div className="pt-28 pb-20 relative overflow-hidden bg-[#fafaf9]">

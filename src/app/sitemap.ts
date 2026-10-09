@@ -11,38 +11,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: `${baseUrl}/`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 1.0,
     },
     {
       url: `${baseUrl}/blog/`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 0.8,
+      alternates: {
+        languages: {
+          id: `${baseUrl}/blog/`,
+          en: `${baseUrl}/en/blog/`,
+        },
+      },
     },
     {
       url: `${baseUrl}/en/blog/`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 0.8,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/blog/`,
+          id: `${baseUrl}/blog/`,
+        },
+      },
     },
     {
       url: `${baseUrl}/privacy/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/contact/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.7,
     },
     {
       url: `${baseUrl}/terms/`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.7,
     },
   ];
 
@@ -58,7 +70,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/blog/${article.slug}/`,
     lastModified: new Date(article.publishedDate),
     changeFrequency: "weekly",
-    priority: 0.7,
+    priority: 0.8,
+    alternates: {
+      languages: {
+        id: `${baseUrl}/blog/${article.slug}/`,
+        en: `${baseUrl}/en/blog/${article.slug}/`,
+      },
+    },
   }));
 
   // English Blog Articles (35 Articles for International SEO)
@@ -66,21 +84,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/en/blog/${article.slug}/`,
     lastModified: new Date(article.publishedDate),
     changeFrequency: "weekly",
-    priority: 0.7,
+    priority: 0.8,
+    alternates: {
+      languages: {
+        en: `${baseUrl}/en/blog/${article.slug}/`,
+        id: `${baseUrl}/blog/${article.slug}/`,
+      },
+    },
   }));
 
   const privacyRoutes: MetadataRoute.Sitemap = apps.map((app) => ({
     url: `${baseUrl}/privacy/${app.slug}/`,
     lastModified: new Date(),
     changeFrequency: "monthly",
-    priority: 0.7,
+    priority: 0.6,
   }));
 
   const termsRoutes: MetadataRoute.Sitemap = apps.map((app) => ({
     url: `${baseUrl}/terms/${app.slug}/`,
     lastModified: new Date(),
     changeFrequency: "monthly",
-    priority: 0.7,
+    priority: 0.6,
   }));
 
   return [

@@ -29,22 +29,55 @@ export const metadata: Metadata = {
   authors: [{ name: developer.name, url: developer.website }],
   creator: developer.name,
   publisher: developer.name,
+  alternates: {
+    canonical: "https://dluckyx.cloud/",
+  },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://dluckyx.cloud",
+    locale: "id_ID",
+    alternateLocale: ["en_US"],
+    url: "https://dluckyx.cloud/",
     siteName: "D Lucky X",
     title: "D Lucky X | Android Games & Apps Studio",
     description: developer.tagline,
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 512,
+        height: 512,
+        alt: "D Lucky X Studio Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "D Lucky X | Android Games & Apps Studio",
     description: developer.tagline,
+    images: ["/images/logo.png"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "google-site-verification-dluckyx",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
@@ -58,7 +91,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/apps/stickman-penalty-rush/icon.webp" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="alternate icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="D Lucky X Blog RSS Feed"
+          href="/feed.xml"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

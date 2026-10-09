@@ -7,7 +7,7 @@ export function generateOrganizationSchema() {
     "@type": "Organization",
     name: developer.name,
     url: developer.website,
-    logo: `${developer.website}/images/apps/stickman-penalty-rush/icon.webp`,
+    logo: `${developer.website}/images/logo.png`,
     sameAs: [developer.playStoreUrl],
     description: developer.tagline,
     email: developer.email,
@@ -81,7 +81,7 @@ export function generateArticleSchema(
       url: developer.website,
       logo: {
         "@type": "ImageObject",
-        url: `${developer.website}/images/apps/stickman-penalty-rush/icon.webp`,
+        url: `${developer.website}/images/logo.png`,
       },
     },
     mainEntityOfPage: {
@@ -128,6 +128,42 @@ export function generateBreadcrumbSchema(items: { name: string; url: string }[])
       position: index + 1,
       name: item.name,
       item: item.url,
+    })),
+  };
+}
+
+export function generateWebsiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: developer.name,
+    url: developer.website,
+    description: developer.tagline,
+    publisher: {
+      "@type": "Organization",
+      name: developer.name,
+      logo: {
+        "@type": "ImageObject",
+        url: `${developer.website}/images/logo.png`,
+      },
+    },
+    inLanguage: ["id", "en"],
+  };
+}
+
+export function generateAppsItemListSchema(items: AppItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "D Lucky X Android Games & Applications",
+    description: "Koleksi resmi game dan aplikasi Android oleh D Lucky X",
+    itemListElement: items.map((app, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: app.name,
+      url: `${developer.website}/apps/${app.slug}/`,
+      image: `${developer.website}${app.icon}`,
+      description: app.tagline,
     })),
   };
 }
