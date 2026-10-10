@@ -245,12 +245,12 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Berserker's Fury: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Great Dragon Spear: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Endless Battle: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Ice Hunter's Tough Boots: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
+          "2. Berserker's Fury: Fondasi damage kritikal utama dengan +65 Physical Attack dan pasif unik +40% Critical Damage.",
+          "3. Great Dragon Spear: Memberikan +70 Physical Attack, +20% Critical Chance, dan dorongan lari instan 15% setelah melancarkan Ultimate.",
+          "4. Endless Battle: Memicu True Damage tambahan pasca penggunaan skill, physical lifesteal, dan reduksi cooldown.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -333,12 +333,12 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Berserker's Fury: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Great Dragon Spear: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Endless Battle: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Ice Hunter's Tough Boots: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
+          "2. Berserker's Fury: Core critical milestone providing +65 Physical Attack and +40% unique Critical Damage.",
+          "3. Great Dragon Spear: Grants +70 Physical Attack, +20% Critical Chance, and a 15% sprint surge upon casting Ultimate.",
+          "4. Endless Battle: Triggers scaling True Damage following ability casts, paired with physical lifesteal and CDR.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {

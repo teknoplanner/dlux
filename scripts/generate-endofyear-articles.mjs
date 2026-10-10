@@ -343,6 +343,140 @@ function createSlug(str) {
     .slice(0, 75);
 }
 
+const ITEM_DESCRIPTIONS = {
+  "Tough Boots": {
+    id: "Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
+    en: "Reduces incoming crowd-control duration by 30% while providing vital early magic resistance."
+  },
+  "Warrior Boots": {
+    id: "Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+    en: "Progressively stacks physical defense upon receiving incoming physical hits."
+  },
+  "Swift Boots": {
+    id: "Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
+    en: "Boosts baseline attack speed by 15% to accelerate basic attack passive charges."
+  },
+  "Arcane Boots": {
+    id: "Memberikan +10 Magic Penetration untuk menembus pertahanan sihir lawan di menit awal.",
+    en: "Provides flat +10 Magic Penetration to pierce early enemy magic resistance."
+  },
+  "Rapid Boots": {
+    id: "Memberikan movement speed tertinggi untuk rotasi roaming kilat melintasi seluruh lane.",
+    en: "Delivers maximum out-of-combat movement speed for lightning-fast cross-map rotations."
+  },
+  "Berserker's Fury": {
+    id: "Fondasi damage kritikal utama dengan +65 Physical Attack dan pasif unik +40% Critical Damage.",
+    en: "Core critical milestone providing +65 Physical Attack and +40% unique Critical Damage."
+  },
+  "Great Dragon Spear": {
+    id: "Memberikan +70 Physical Attack, +20% Critical Chance, dan dorongan lari instan 15% setelah melancarkan Ultimate.",
+    en: "Grants +70 Physical Attack, +20% Critical Chance, and a 15% sprint surge upon casting Ultimate."
+  },
+  "Endless Battle": {
+    id: "Memicu True Damage tambahan pasca penggunaan skill, physical lifesteal, dan reduksi cooldown.",
+    en: "Triggers scaling True Damage following ability casts, paired with physical lifesteal and CDR."
+  },
+  "Malefic Roar": {
+    id: "Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+    en: "Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters."
+  },
+  "Blade of the Heptaseas": {
+    id: "Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
+    en: "Unleashes devastating ambush burst and slow on the first basic attack from concealment."
+  },
+  "Hunter Strike": {
+    id: "Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+    en: "Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes."
+  },
+  "Blade of Despair": {
+    id: "Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+    en: "The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets."
+  },
+  "War Axe": {
+    id: "Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+    en: "Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes."
+  },
+  "Demon Hunter Sword": {
+    id: "Senjata utama penghancur tank berkat pasif damage berbasis 8% dari sisa HP target saat ini.",
+    en: "The premier tank-melter dealing bonus damage scaling with 8% of target current HP."
+  },
+  "Golden Staff": {
+    id: "Mengonversi critical chance menjadi attack speed tinggi dan memicu efek basic attack ganda setiap 3 pukulan.",
+    en: "Converts critical chance into attack speed and activates double basic attack on-hits."
+  },
+  "Corrosion Scythe": {
+    id: "Meningkatkan attack speed kumulatif dan memberikan efek slow bertingkat yang mengunci langkah lari lawan.",
+    en: "Accelerates stacking attack speed and inflicts stacking slows to tether fleeing targets."
+  },
+  "Wind of Nature": {
+    id: "Tombol keselamatan darurat yang memberikan kekebalan mutlak terhadap seluruh physical damage selama 2 detik.",
+    en: "Clutch active immunity granting total physical damage invulnerability for 2 seconds in duels."
+  },
+  "Rose Gold Meteor": {
+    id: "Membuka perisai sihir darurat dan lifesteal saat darah sekarat untuk membalikkan keadaan duel.",
+    en: "Deploys a protective lifeline shield and bonus lifesteal when falling below 30% HP."
+  },
+  "Immortality": {
+    id: "Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack.",
+    en: "Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
+  },
+  "Dominance Ice": {
+    id: "Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+    en: "Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%."
+  },
+  "Athena's Shield": {
+    id: "Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh.",
+    en: "Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits."
+  },
+  "Antique Cuirass": {
+    id: "Memangkas physical attack musuh yang menyerang Anda hingga 24%, efektif meredam assassin lawan.",
+    en: "Reduces enemy physical attack by up to 24% when struck by physical abilities."
+  },
+  "Blade Armor": {
+    id: "Memantulkan 20% damage serangan fisik kembali ke penyerang dan memangkas critical damage lawan sebesar 20%.",
+    en: "Reflects 20% incoming basic attack damage and reduces enemy critical damage by 20%."
+  },
+  "Thunder Belt": {
+    id: "Memberikan True Damage berbasis HP maksimal dan efek slow area setelah melancarkan kemampuan skill.",
+    en: "Channels scaling True Damage based on max HP and an AoE slow following skill casts."
+  },
+  "Queen's Wings": {
+    id: "Memberikan reduksi damage drastis dan peningkatan spell vamp darurat saat HP berada di bawah 40%.",
+    en: "Grants massive damage mitigation and emergency spell vamp surge when dropped below 40% HP."
+  },
+  "Genius Wand": {
+    id: "Mengurangi magic defense musuh secara bertingkat untuk memaksimalkan burst damage di awal pertempuran.",
+    en: "Strips enemy magic defense progressively to amplify magic burst during skirmishes."
+  },
+  "Holy Crystal": {
+    id: "Meningkatkan magic power secara eksponensial sebesar 21%-35% berbasis scaling level hero.",
+    en: "Exponentially amplifies total magic power by 21%-35% scaling with hero level."
+  },
+  "Glowing Wand": {
+    id: "Membakar musuh dengan persentase HP target secara berkelanjutan dan memangkas efek heal musuh.",
+    en: "Burns targets for percentage max HP over time while reducing enemy healing recovery."
+  },
+  "Divine Glaive": {
+    id: "Penetrasi magic berbasis 40% dari total magic defense musuh untuk menembus tank ber-Athena Shield.",
+    en: "Penetrates 40% enemy magic defense to vaporize heavily shielded frontline tanks."
+  },
+  "Blood Wings": {
+    id: "Item puncak mage yang memberikan tambahan shield pelindung masif berbasis total magic power Anda.",
+    en: "The pinnacle mage equipment providing a massive scaling shield based on total magic power."
+  }
+};
+
+function getItemDesc(itemName, lang = "id") {
+  for (const [k, v] of Object.entries(ITEM_DESCRIPTIONS)) {
+    if (itemName.toLowerCase().includes(k.toLowerCase()) || k.toLowerCase().includes(itemName.toLowerCase())) {
+      return v[lang] || v.id;
+    }
+  }
+  return lang === "id"
+    ? "Memberikan atribut sinergis esensial untuk memaksimalkan efektivitas skill dan ketahanan hero di arena."
+    : "Delivers essential synergistic attributes to maximize skill scaling and battle survivability.";
+}
+
 // Generate cover WebP only if doesn't exist
 async function generateCoverImage(slug, title, categoryText, themeColor = "#10b981") {
   const filePath = path.join("public/images/blog", `${slug}.webp`);
@@ -529,7 +663,7 @@ function buildHeroContent(heroName, dayNum) {
           `Untuk memaksimalkan potensi pasif dan scaling damage ${heroName}, susunan 6 item inti berikut dirancang untuk menyeimbangkan penetrasi, damage ledakan, dan daya tahan hidup di pertarungan intens:`,
           `Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:`
         ],
-        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.`)
+        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: ${getItemDesc(item, "id")}`)
       },
       {
         id: "setting-emblem-dan-spell",
@@ -584,7 +718,7 @@ function buildHeroContent(heroName, dayNum) {
           `To unlock the full damage scaling and survivability of ${heroName}, this 6-item core arsenal harmonizes penetration, sustained burst, and defensive safety:`,
           `Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:`
         ],
-        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: Delivers essential offensive and defensive stats required to control high-intensity clashes.`)
+        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: ${getItemDesc(item, "en")}`)
       },
       {
         id: "emblem-and-spell-configuration",

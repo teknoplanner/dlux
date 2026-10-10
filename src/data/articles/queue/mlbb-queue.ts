@@ -49,12 +49,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Blade of the Heptaseas: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Rose Gold Meteor: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Athena's Shield: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Ice Hunter's Tough Boots: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
+          "2. Blade of the Heptaseas: Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "5. Rose Gold Meteor: Membuka perisai sihir darurat dan lifesteal saat darah sekarat untuk membalikkan keadaan duel.",
+          "6. Athena's Shield: Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh."
         ]
       },
       {
@@ -137,12 +137,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Blade of the Heptaseas: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Rose Gold Meteor: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Athena's Shield: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Ice Hunter's Tough Boots: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
+          "2. Blade of the Heptaseas: Unleashes devastating ambush burst and slow on the first basic attack from concealment.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "5. Rose Gold Meteor: Deploys a protective lifeline shield and bonus lifesteal when falling below 30% HP.",
+          "6. Athena's Shield: Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits."
         ]
       },
       {
@@ -240,12 +240,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Blade of Despair: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Endless Battle: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Swift Boots: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
+          "2. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "3. Blade of Despair: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "4. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "5. Endless Battle: Memicu True Damage tambahan pasca penggunaan skill, physical lifesteal, dan reduksi cooldown.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -328,12 +328,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Blade of Despair: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Endless Battle: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Swift Boots: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
+          "2. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "3. Blade of Despair: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "4. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "5. Endless Battle: Triggers scaling True Damage following ability casts, paired with physical lifesteal and CDR.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -431,12 +431,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Endless Battle: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Blade of Despair: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Queen's Wings: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Ice Hunter's Tough Boots: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Endless Battle: Memicu True Damage tambahan pasca penggunaan skill, physical lifesteal, dan reduksi cooldown.",
+          "4. Blade of Despair: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Queen's Wings: Memberikan reduksi damage drastis dan peningkatan spell vamp darurat saat HP berada di bawah 40%."
         ]
       },
       {
@@ -519,12 +519,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Endless Battle: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Blade of Despair: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Queen's Wings: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Ice Hunter's Tough Boots: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Endless Battle: Triggers scaling True Damage following ability casts, paired with physical lifesteal and CDR.",
+          "4. Blade of Despair: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Queen's Wings: Grants massive damage mitigation and emergency spell vamp surge when dropped below 40% HP."
         ]
       },
       {
@@ -622,12 +622,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Arcane Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Genius Wand: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Holy Crystal: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Glowing Wand: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Divine Glaive: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Blood Wings: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Arcane Boots: Memberikan +10 Magic Penetration untuk menembus pertahanan sihir lawan di menit awal.",
+          "2. Genius Wand: Mengurangi magic defense musuh secara bertingkat untuk memaksimalkan burst damage di awal pertempuran.",
+          "3. Holy Crystal: Meningkatkan magic power secara eksponensial sebesar 21%-35% berbasis scaling level hero.",
+          "4. Glowing Wand: Membakar musuh dengan persentase HP target secara berkelanjutan dan memangkas efek heal musuh.",
+          "5. Divine Glaive: Penetrasi magic berbasis 40% dari total magic defense musuh untuk menembus tank ber-Athena Shield.",
+          "6. Blood Wings: Item puncak mage yang memberikan tambahan shield pelindung masif berbasis total magic power Anda."
         ]
       },
       {
@@ -710,12 +710,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Arcane Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Genius Wand: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Holy Crystal: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Glowing Wand: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Divine Glaive: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Blood Wings: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Arcane Boots: Provides flat +10 Magic Penetration to pierce early enemy magic resistance.",
+          "2. Genius Wand: Strips enemy magic defense progressively to amplify magic burst during skirmishes.",
+          "3. Holy Crystal: Exponentially amplifies total magic power by 21%-35% scaling with hero level.",
+          "4. Glowing Wand: Burns targets for percentage max HP over time while reducing enemy healing recovery.",
+          "5. Divine Glaive: Penetrates 40% enemy magic defense to vaporize heavily shielded frontline tanks.",
+          "6. Blood Wings: The pinnacle mage equipment providing a massive scaling shield based on total magic power."
         ]
       },
       {
@@ -813,12 +813,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Blade of the Heptaseas: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Blade of Despair: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Ice Hunter's Tough Boots: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
+          "2. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "3. Blade of the Heptaseas: Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
+          "4. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "5. Blade of Despair: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -901,12 +901,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Ice Hunter's Tough Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Blade of the Heptaseas: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Blade of Despair: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Ice Hunter's Tough Boots: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
+          "2. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "3. Blade of the Heptaseas: Unleashes devastating ambush burst and slow on the first basic attack from concealment.",
+          "4. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "5. Blade of Despair: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -1004,12 +1004,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Blade of Despair: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Demon Hunter Sword: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Rose Gold Meteor: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Wind of Nature: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Swift Boots: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
+          "2. Blade of Despair: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "3. Demon Hunter Sword: Senjata utama penghancur tank berkat pasif damage berbasis 8% dari sisa HP target saat ini.",
+          "4. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "5. Rose Gold Meteor: Membuka perisai sihir darurat dan lifesteal saat darah sekarat untuk membalikkan keadaan duel.",
+          "6. Wind of Nature: Tombol keselamatan darurat yang memberikan kekebalan mutlak terhadap seluruh physical damage selama 2 detik."
         ]
       },
       {
@@ -1092,12 +1092,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Blade of Despair: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Demon Hunter Sword: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Rose Gold Meteor: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Wind of Nature: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Swift Boots: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
+          "2. Blade of Despair: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "3. Demon Hunter Sword: The premier tank-melter dealing bonus damage scaling with 8% of target current HP.",
+          "4. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "5. Rose Gold Meteor: Deploys a protective lifeline shield and bonus lifesteal when falling below 30% HP.",
+          "6. Wind of Nature: Clutch active immunity granting total physical damage invulnerability for 2 seconds in duels."
         ]
       },
       {
@@ -1195,12 +1195,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Corrosion Scythe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Demon Hunter Sword: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Golden Staff: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Wind of Nature: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Swift Boots: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
+          "2. Corrosion Scythe: Meningkatkan attack speed kumulatif dan memberikan efek slow bertingkat yang mengunci langkah lari lawan.",
+          "3. Demon Hunter Sword: Senjata utama penghancur tank berkat pasif damage berbasis 8% dari sisa HP target saat ini.",
+          "4. Golden Staff: Mengonversi critical chance menjadi attack speed tinggi dan memicu efek basic attack ganda setiap 3 pukulan.",
+          "5. Wind of Nature: Tombol keselamatan darurat yang memberikan kekebalan mutlak terhadap seluruh physical damage selama 2 detik.",
+          "6. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal."
         ]
       },
       {
@@ -1283,12 +1283,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Corrosion Scythe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Demon Hunter Sword: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Golden Staff: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Wind of Nature: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Swift Boots: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
+          "2. Corrosion Scythe: Accelerates stacking attack speed and inflicts stacking slows to tether fleeing targets.",
+          "3. Demon Hunter Sword: The premier tank-melter dealing bonus damage scaling with 8% of target current HP.",
+          "4. Golden Staff: Converts critical chance into attack speed and activates double basic attack on-hits.",
+          "5. Wind of Nature: Clutch active immunity granting total physical damage invulnerability for 2 seconds in duels.",
+          "6. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters."
         ]
       },
       {
@@ -1386,12 +1386,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Demon Hunter Sword: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Golden Staff: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Corrosion Scythe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Wind of Nature: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Swift Boots: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
+          "2. Demon Hunter Sword: Senjata utama penghancur tank berkat pasif damage berbasis 8% dari sisa HP target saat ini.",
+          "3. Golden Staff: Mengonversi critical chance menjadi attack speed tinggi dan memicu efek basic attack ganda setiap 3 pukulan.",
+          "4. Corrosion Scythe: Meningkatkan attack speed kumulatif dan memberikan efek slow bertingkat yang mengunci langkah lari lawan.",
+          "5. Wind of Nature: Tombol keselamatan darurat yang memberikan kekebalan mutlak terhadap seluruh physical damage selama 2 detik.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -1474,12 +1474,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Swift Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Demon Hunter Sword: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Golden Staff: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Corrosion Scythe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Wind of Nature: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Swift Boots: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
+          "2. Demon Hunter Sword: The premier tank-melter dealing bonus damage scaling with 8% of target current HP.",
+          "3. Golden Staff: Converts critical chance into attack speed and activates double basic attack on-hits.",
+          "4. Corrosion Scythe: Accelerates stacking attack speed and inflicts stacking slows to tether fleeing targets.",
+          "5. Wind of Nature: Clutch active immunity granting total physical damage invulnerability for 2 seconds in duels.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -1577,12 +1577,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -1665,12 +1665,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -1768,12 +1768,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -1856,12 +1856,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -1959,12 +1959,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -2047,12 +2047,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -2150,12 +2150,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Tough Boots (Conceal): Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Athena's Shield: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Antique Cuirass: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Blade Armor: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Tough Boots (Conceal): Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
+          "2. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "3. Athena's Shield: Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh.",
+          "4. Antique Cuirass: Memangkas physical attack musuh yang menyerang Anda hingga 24%, efektif meredam assassin lawan.",
+          "5. Blade Armor: Memantulkan 20% damage serangan fisik kembali ke penyerang dan memangkas critical damage lawan sebesar 20%.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -2238,12 +2238,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Tough Boots (Conceal): Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Athena's Shield: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Antique Cuirass: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Blade Armor: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Tough Boots (Conceal): Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
+          "2. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "3. Athena's Shield: Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits.",
+          "4. Antique Cuirass: Reduces enemy physical attack by up to 24% when struck by physical abilities.",
+          "5. Blade Armor: Reflects 20% incoming basic attack damage and reduces enemy critical damage by 20%.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -2341,12 +2341,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -2429,12 +2429,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -2532,12 +2532,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -2620,12 +2620,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -2723,12 +2723,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Rapid Boots (Conceal): Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Athena's Shield: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Antique Cuirass: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Thunder Belt: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Rapid Boots (Conceal): Memberikan movement speed tertinggi untuk rotasi roaming kilat melintasi seluruh lane.",
+          "2. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "3. Athena's Shield: Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh.",
+          "4. Antique Cuirass: Memangkas physical attack musuh yang menyerang Anda hingga 24%, efektif meredam assassin lawan.",
+          "5. Thunder Belt: Memberikan True Damage berbasis HP maksimal dan efek slow area setelah melancarkan kemampuan skill.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -2811,12 +2811,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Rapid Boots (Conceal): Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Athena's Shield: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Antique Cuirass: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Thunder Belt: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Rapid Boots (Conceal): Delivers maximum out-of-combat movement speed for lightning-fast cross-map rotations.",
+          "2. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "3. Athena's Shield: Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits.",
+          "4. Antique Cuirass: Reduces enemy physical attack by up to 24% when struck by physical abilities.",
+          "5. Thunder Belt: Channels scaling True Damage based on max HP and an AoE slow following skill casts.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -2914,12 +2914,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. Blade of the Heptaseas: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Blade of Despair: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Thunder Belt: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. Blade of the Heptaseas: Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Blade of Despair: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "5. Thunder Belt: Memberikan True Damage berbasis HP maksimal dan efek slow area setelah melancarkan kemampuan skill.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -3002,12 +3002,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. Blade of the Heptaseas: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Blade of Despair: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Thunder Belt: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. Blade of the Heptaseas: Unleashes devastating ambush burst and slow on the first basic attack from concealment.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Blade of Despair: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "5. Thunder Belt: Channels scaling True Damage based on max HP and an AoE slow following skill casts.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -3105,12 +3105,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -3193,12 +3193,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -3296,12 +3296,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -3384,12 +3384,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -3487,12 +3487,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -3575,12 +3575,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -3678,12 +3678,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -3766,12 +3766,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -3869,12 +3869,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -3957,12 +3957,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -4060,12 +4060,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -4148,12 +4148,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -4251,12 +4251,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -4339,12 +4339,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -4442,12 +4442,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -4530,12 +4530,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -4633,12 +4633,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -4721,12 +4721,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -4824,12 +4824,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -4912,12 +4912,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -5015,12 +5015,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -5103,12 +5103,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -5206,12 +5206,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -5294,12 +5294,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -5397,12 +5397,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -5485,12 +5485,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -5588,12 +5588,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -5676,12 +5676,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -5779,12 +5779,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -5867,12 +5867,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -5970,12 +5970,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -6058,12 +6058,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -6161,12 +6161,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -6249,12 +6249,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -6352,12 +6352,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -6440,12 +6440,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -6543,12 +6543,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -6631,12 +6631,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -6734,12 +6734,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -6822,12 +6822,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -6925,12 +6925,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -7013,12 +7013,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -7116,12 +7116,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -7204,12 +7204,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -7307,12 +7307,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -7395,12 +7395,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -7498,12 +7498,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -7586,12 +7586,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -7689,12 +7689,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -7777,12 +7777,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -7880,12 +7880,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -7968,12 +7968,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -8071,12 +8071,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -8159,12 +8159,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -8262,12 +8262,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -8350,12 +8350,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -8453,12 +8453,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -8541,12 +8541,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -8644,12 +8644,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -8732,12 +8732,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -8835,12 +8835,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -8923,12 +8923,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -9026,12 +9026,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -9114,12 +9114,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -9217,12 +9217,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -9305,12 +9305,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -9408,12 +9408,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -9496,12 +9496,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -9599,12 +9599,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -9687,12 +9687,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -9790,12 +9790,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -9878,12 +9878,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -9981,12 +9981,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -10069,12 +10069,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -10172,12 +10172,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -10260,12 +10260,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -10363,12 +10363,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -10451,12 +10451,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -10554,12 +10554,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -10642,12 +10642,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -10745,12 +10745,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -10833,12 +10833,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -10936,12 +10936,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -11024,12 +11024,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -11127,12 +11127,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -11215,12 +11215,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -11318,12 +11318,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -11406,12 +11406,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -11509,12 +11509,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -11597,12 +11597,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -11700,12 +11700,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -11788,12 +11788,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -11891,12 +11891,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -11979,12 +11979,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -12082,12 +12082,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -12170,12 +12170,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -12273,12 +12273,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -12361,12 +12361,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -12464,12 +12464,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -12552,12 +12552,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -12655,12 +12655,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -12743,12 +12743,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -12846,12 +12846,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -12934,12 +12934,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -13037,12 +13037,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -13125,12 +13125,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -13228,12 +13228,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -13316,12 +13316,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -13419,12 +13419,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -13507,12 +13507,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -13610,12 +13610,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -13698,12 +13698,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -13801,12 +13801,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -13889,12 +13889,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -13992,12 +13992,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -14080,12 +14080,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -14183,12 +14183,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -14271,12 +14271,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -14374,12 +14374,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -14462,12 +14462,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -14565,12 +14565,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -14653,12 +14653,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -14756,12 +14756,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -14844,12 +14844,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -14947,12 +14947,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -15035,12 +15035,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -15138,12 +15138,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -15226,12 +15226,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -15329,12 +15329,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -15417,12 +15417,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
@@ -15520,12 +15520,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "2. War Axe: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "3. Hunter Strike: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "4. Dominance Ice: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "5. Malefic Roar: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.",
-          "6. Immortality: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn."
+          "1. Warrior Boots: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
+          "2. War Axe: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "3. Hunter Strike: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. Dominance Ice: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "5. Malefic Roar: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "6. Immortality: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
       {
@@ -15608,12 +15608,12 @@ export const mlbbQueueArticles: ArticleItem[] = [
           "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
         ],
         "bulletPoints": [
-          "1. Warrior Boots: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "2. War Axe: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "3. Hunter Strike: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "4. Dominance Ice: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "5. Malefic Roar: Delivers essential offensive and defensive stats required to control high-intensity clashes.",
-          "6. Immortality: Delivers essential offensive and defensive stats required to control high-intensity clashes."
+          "1. Warrior Boots: Progressively stacks physical defense upon receiving incoming physical hits.",
+          "2. War Axe: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "3. Hunter Strike: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. Dominance Ice: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "5. Malefic Roar: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "6. Immortality: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
       {
