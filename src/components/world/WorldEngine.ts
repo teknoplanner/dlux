@@ -6,6 +6,18 @@ import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPa
 import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
 import { WorldAudio } from "./WorldAudio";
 
+export interface ActiveMinigame {
+  id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt";
+  title: string;
+  island: string;
+  instructions: string;
+  score: number;
+  targetScore: number;
+  timeLeft: number;
+  totalTime: number;
+  status: "playing" | "won" | "lost";
+}
+
 export interface NPCData {
   id: string;
   name: string;
@@ -14,6 +26,12 @@ export interface NPCData {
   pos: THREE.Vector3;
   dialogue: string[];
   avatar: string;
+  arcadeChallenge?: {
+    id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt";
+    title: string;
+    instructions: string;
+    badge: string;
+  };
 }
 
 export interface IslandPOI {
@@ -32,14 +50,12 @@ export interface EngineCallbacks {
   onGoal?: () => void;
   onProximityChange?: (npc: NPCData | null) => void;
   onQuestProgress?: (questId: string) => void;
+  onMinigameUpdate?: (game: ActiveMinigame | null) => void;
 }
 
-export interface SolidCollider {
-  x: number;
-  z: number;
-  radius: number;
-  label?: string;
-}
+export type SolidCollider =
+  | { type?: "circle"; x: number; z: number; radius: number; label?: string }
+  | { type: "box"; minX: number; maxX: number; minZ: number; maxZ: number; label?: string };
 
 export interface BridgeData {
   p1: THREE.Vector3;
@@ -63,6 +79,30 @@ function getBridgeHeightAt(px: number, pz: number, br: BridgeData): number | nul
     const baseH = br.p1.y * (1 - clampedT) + br.p2.y * clampedT;
     const archH = br.arch * 4 * clampedT * (1 - clampedT);
     return baseH + archH;
+  }
+  return null;
+}
+
+function getPathHeightAt(
+  px: number,
+  pz: number,
+  p1: THREE.Vector3,
+  p2: THREE.Vector3,
+  width: number,
+  height: number
+): number | null {
+  const dx = p2.x - p1.x;
+  const dz = p2.z - p1.z;
+  const lenSq = dx * dx + dz * dz;
+  if (lenSq === 0) return null;
+  const t = ((px - p1.x) * dx + (pz - p1.z) * dz) / lenSq;
+  if (t < -0.06 || t > 1.06) return null;
+  const clampedT = Math.max(0, Math.min(1, t));
+  const projX = p1.x + clampedT * dx;
+  const projZ = p1.z + clampedT * dz;
+  const dist = Math.hypot(px - projX, pz - projZ);
+  if (dist <= width / 2 + 1.2) {
+    return height;
   }
   return null;
 }
@@ -106,6 +146,35 @@ function createSoccerBallTexture(): THREE.CanvasTexture {
     ctx.stroke();
   }
   return new THREE.CanvasTexture(canvas);
+}
+
+function createGoalNetTexture(): THREE.CanvasTexture {
+  const canvas = document.createElement("canvas");
+  canvas.width = 128;
+  canvas.height = 128;
+  const ctx = canvas.getContext("2d");
+  if (ctx) {
+    ctx.clearRect(0, 0, 128, 128);
+    ctx.strokeStyle = "rgba(255, 255, 255, 0.85)";
+    ctx.lineWidth = 2.5;
+    const step = 16;
+    for (let i = -128; i <= 256; i += step) {
+      ctx.beginPath();
+      ctx.moveTo(i, 0);
+      ctx.lineTo(i + 128, 128);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(i, 128);
+      ctx.lineTo(i + 128, 0);
+      ctx.stroke();
+    }
+  }
+  const tex = new THREE.CanvasTexture(canvas);
+  tex.wrapS = THREE.RepeatWrapping;
+  tex.wrapT = THREE.RepeatWrapping;
+  tex.repeat.set(6, 4);
+  return tex;
 }
 
 function createMiloFaceTexture(): THREE.CanvasTexture {
@@ -181,6 +250,154 @@ function createMiloFaceTexture(): THREE.CanvasTexture {
   return new THREE.CanvasTexture(canvas);
 }
 
+function createNPCFaceTexture(npcId: string): THREE.CanvasTexture {
+  const canvas = document.createElement("canvas");
+  canvas.width = 512;
+  canvas.height = 256;
+  const ctx = canvas.getContext("2d");
+  if (ctx) {
+    const baseColors: Record<string, string> = {
+      lexa: "#fed7aa", // warm golden peach
+      valen: "#fef3c7", // noble fair ivory
+      jax: "#fdba74",   // outdoors bronze
+      leo: "#fed7aa",   // athletic sun-kissed
+    };
+    ctx.fillStyle = baseColors[npcId] || "#fed7aa";
+    ctx.fillRect(0, 0, 512, 256);
+
+    // Cute blush cheeks for Lexa and Leo
+    if (npcId === "lexa" || npcId === "leo") {
+      ctx.fillStyle = "rgba(244, 114, 182, 0.45)";
+      ctx.beginPath();
+      ctx.ellipse(170, 130, 24, 14, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.ellipse(342, 130, 24, 14, 0, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    if (npcId === "jax") {
+      // Tactical Aviator Sunglasses with gold rims & reflective glare
+      ctx.fillStyle = "#0f172a";
+      ctx.strokeStyle = "#eab308";
+      ctx.lineWidth = 4;
+
+      // Left lens
+      ctx.beginPath();
+      ctx.ellipse(200, 105, 45, 34, 0.05, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+
+      // Right lens
+      ctx.beginPath();
+      ctx.ellipse(312, 105, 45, 34, -0.05, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+
+      // Bridge connection
+      ctx.beginPath();
+      ctx.moveTo(245, 95);
+      ctx.lineTo(267, 95);
+      ctx.stroke();
+
+      // Lens glare reflection
+      ctx.fillStyle = "rgba(255, 255, 255, 0.45)";
+      ctx.beginPath();
+      ctx.ellipse(185, 95, 12, 18, Math.PI / 4, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.ellipse(297, 95, 12, 18, Math.PI / 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Smirk mouth
+      ctx.strokeStyle = "#7c2d12";
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.moveTo(240, 168);
+      ctx.quadraticCurveTo(260, 166, 276, 158);
+      ctx.stroke();
+    } else {
+      // Big Expressive Chibi/Anime Eyes with Iris Glow & Sparkles
+      const irisColors: Record<string, string> = {
+        lexa: "#10b981", // Emerald green
+        valen: "#0284c7", // Sapphire blue
+        leo: "#f59e0b",   // Golden amber
+      };
+      const irisColor = irisColors[npcId] || "#0284c7";
+
+      // White Sclera
+      ctx.fillStyle = "#ffffff";
+      // Left eye
+      ctx.beginPath();
+      ctx.ellipse(195, 105, 30, 36, 0, 0, Math.PI * 2);
+      ctx.fill();
+      // Right eye
+      ctx.beginPath();
+      ctx.ellipse(317, 105, 30, 36, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Colored Iris
+      ctx.fillStyle = irisColor;
+      ctx.beginPath();
+      ctx.ellipse(198, 105, 20, 28, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.ellipse(314, 105, 20, 28, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Dark Pupil
+      ctx.fillStyle = "#0f172a";
+      ctx.beginPath();
+      ctx.ellipse(200, 107, 11, 16, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.beginPath();
+      ctx.ellipse(312, 107, 11, 16, 0, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Big Sparkle Highlights
+      ctx.fillStyle = "#ffffff";
+      ctx.beginPath();
+      ctx.arc(192, 95, 8, 0, Math.PI * 2);
+      ctx.arc(206, 115, 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.arc(306, 95, 8, 0, Math.PI * 2);
+      ctx.arc(320, 115, 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Eyelashes & Brows
+      ctx.strokeStyle = "#451a03";
+      ctx.lineWidth = 4;
+      // Brows
+      ctx.beginPath();
+      ctx.moveTo(170, 72);
+      ctx.quadraticCurveTo(195, 64, 225, 72);
+      ctx.moveTo(287, 72);
+      ctx.quadraticCurveTo(317, 64, 342, 72);
+      ctx.stroke();
+
+      // Friendly smile mouth
+      ctx.strokeStyle = "#991b1b";
+      ctx.lineWidth = 3.5;
+      ctx.beginPath();
+      ctx.arc(256, 155, 14, 0.2, Math.PI - 0.2);
+      ctx.stroke();
+
+      // Leo sports band-aid on cheek
+      if (npcId === "leo") {
+        ctx.fillStyle = "#fde047";
+        ctx.save();
+        ctx.translate(345, 132);
+        ctx.rotate(0.3);
+        ctx.fillRect(-15, -6, 30, 12);
+        ctx.restore();
+      }
+    }
+  }
+  return new THREE.CanvasTexture(canvas);
+}
+
 export class WorldEngine {
   public container: HTMLElement;
   public scene: THREE.Scene;
@@ -208,12 +425,14 @@ export class WorldEngine {
   private tailGroup: THREE.Group | null = null;
   private bubbleHelmet: THREE.Mesh | null = null;
 
-  // Solid Colliders & Connecting Bridges
+  // Solid Colliders, Connecting Bridges & Road Pavements
   private colliders: SolidCollider[] = [];
   private bridges: BridgeData[] = [];
+  public paths: { p1: THREE.Vector3; p2: THREE.Vector3; width: number; height: number }[] = [];
 
   // Movement & Camera Physics
-  public playerPos: THREE.Vector3 = new THREE.Vector3(0, 4.90, 0);
+  public playerPos: THREE.Vector3 = new THREE.Vector3(0, 4.80, 8.0);
+  private lastSafePos: THREE.Vector3 = new THREE.Vector3(0, 4.80, 8.0);
   public playerVel: THREE.Vector3 = new THREE.Vector3(0, 0, 0);
   public playerRotY: number = 0;
   public currentSpeed: number = 0;
@@ -246,7 +465,7 @@ export class WorldEngine {
   private goalBox: THREE.Box3 = new THREE.Box3();
 
   // Collectibles & Speed Rings
-  private tokens: { mesh: THREE.Mesh; collected: boolean }[] = [];
+  private tokens: { mesh: THREE.Mesh; collected: boolean; baseY: number }[] = [];
   public coinsCollected: number = 0;
   public totalCoins: number = 30;
   private speedRings: THREE.Mesh[] = [];
@@ -265,14 +484,14 @@ export class WorldEngine {
 
   // POIs
   public pois: IslandPOI[] = [
-    { id: "hub", name: "Central Plaza", pos: new THREE.Vector3(0, 4.75, 0), desc: "The vibrant heart of the archipelago", tag: "START" },
+    { id: "hub", name: "Central Plaza", pos: new THREE.Vector3(0, 4.80, 8.0), desc: "The vibrant heart of the archipelago", tag: "START" },
     { id: "moba", name: "MOBA Sanctuary", pos: new THREE.Vector3(-70, 6.6, -65), desc: "Ancient Champions Monolith & Amethyst Crystal", tag: "ARENA" },
     { id: "br", name: "Battle Royale Outpost", pos: new THREE.Vector3(75, 7.0, -60), desc: "Coastal Lighthouse, Airdrop & Cliff Boardwalk", tag: "SURVIVAL" },
     { id: "voxel", name: "Voxel Sandbox Bay", pos: new THREE.Vector3(-65, 4.7, 70), desc: "Terraced Cubic Hills & Pixel Palms", tag: "SANDBOX" },
     { id: "soccer", name: "Arcade Soccer Arena", pos: new THREE.Vector3(65, 2.38, 65), desc: "Beach Stadium, Bleachers & Giant Ball", tag: "SPORTS" },
   ];
 
-  // NPCs
+  // NPCs with unique Arcade Challenges
   public npcs: NPCData[] = [
     {
       id: "lexa",
@@ -282,10 +501,16 @@ export class WorldEngine {
       pos: new THREE.Vector3(6, 4.80, 5),
       avatar: "🧭",
       dialogue: [
-        "Halo Milo! Selamat datang di Coastal Gaming Archipelago!",
-        "Kamu bisa berjalan dan berlari melintasi jembatan kayu penghubung pulau MOBA, Battle Royale, Voxel, dan Soccer.",
-        "Kumpulkan 30 token emas, bicara dengan penjaga pulau, dan cetak gol spektakuler di stadion pantai!"
+        "Hello Milo! Welcome to the Coastal Gaming Archipelago!",
+        "Sprint and leap across the scenic suspension bridges linking MOBA Sanctuary, Battle Royale Outpost, Voxel Bay, and the Soccer Arena.",
+        "Collect 30 gold arcade tokens, challenge the island champions, and score a screamer at the beach stadium!"
       ],
+      arcadeChallenge: {
+        id: "ring_trial",
+        title: "Plaza Slalom Rush",
+        instructions: "Sprint through 5 glowing Neon Slalom Rings around Central Plaza before time runs out!",
+        badge: "💍 RING MASTER",
+      },
     },
     {
       id: "valen",
@@ -295,10 +520,16 @@ export class WorldEngine {
       pos: new THREE.Vector3(-66, 6.6, -60),
       avatar: "⚔️",
       dialogue: [
-        "Salam, pahlawan angkasa! Kamu berdiri di depan Monolith of Ancients.",
-        "Kristal kecubung ungu di atas altar memancarkan energi kemenangan legendaris.",
-        "Ketepatan waktu dan rotasi lane adalah kunci kejayaan sejati!"
+        "Greetings, star champion! You stand before the Monolith of the Ancients.",
+        "The glowing amethyst crystal above our altar radiates the essence of tactical mastery.",
+        "Impeccable timing and lane positioning are the true hallmarks of a Grandmaster!"
       ],
+      arcadeChallenge: {
+        id: "crystal_runes",
+        title: "Sanctuary Core Overdrive",
+        instructions: "Attune 4 Ancient Elemental Runes around the Sanctuary Altar within 35 seconds!",
+        badge: "💎 RUNE GUARDIAN",
+      },
     },
     {
       id: "jax",
@@ -308,10 +539,16 @@ export class WorldEngine {
       pos: new THREE.Vector3(70, 7.0, -55),
       avatar: "🪂",
       dialogue: [
-        "Waspada! Peti airdrop legendaris baru saja mendarat di tebing mercusuar.",
-        "Lari kencang dengan tombol Shift untuk melintasi jembatan kayu ke pos pengamatan!",
-        "Terus bergerak cepat — kemenangan hanya milik yang berani!"
+        "Heads up, operative! A high-value tactical airdrop just touched down on the lighthouse bluffs.",
+        "Hit Nitro with Shift to charge across the cliffside skywalks up to the observation deck!",
+        "Keep your eyes peeled and your reflexes sharp. Victory belongs to the decisive!"
       ],
+      arcadeChallenge: {
+        id: "airdrop_hunt",
+        title: "Airdrop Supply Intercept",
+        instructions: "Recover 3 Tactical Airdrop Crates along the Outpost cliffs before time runs out!",
+        badge: "📦 SURVIVAL ACE",
+      },
     },
     {
       id: "leo",
@@ -321,14 +558,31 @@ export class WorldEngine {
       pos: new THREE.Vector3(60, 2.60, 58),
       avatar: "⚽",
       dialogue: [
-        "Hei Milo! Selamat datang di Arcade Beach Soccer Arena!",
-        "Berani adu tendangan? Tabrak bola raksasa masuk ke dalam gawang berjala!",
-        "Cetak gol sekarang dan rasakan sorak penonton di tepi pantai!"
+        "Yo Milo! Welcome to the Arcade Beach Soccer Arena!",
+        "Got what it takes to strike gold? Drive the giant soccer ball right into the netted goal!",
+        "Score now and let the seaside grandstands echo with roaring applause!"
       ],
+      arcadeChallenge: {
+        id: "penalty_kick",
+        title: "Golden Striker Shootout",
+        instructions: "Dribble and drive the giant soccer ball into 3 Golden Goal Target Zones!",
+        badge: "⚽ GOLDEN BOOT",
+      },
     },
   ];
 
   public activeProximityNPC: NPCData | null = null;
+  public activeDialogueNPC: NPCData | null = null;
+  public activeMinigame: ActiveMinigame | null = null;
+  private minigameTargets: {
+    mesh: THREE.Object3D;
+    hit: boolean;
+    radius: number;
+    pos: THREE.Vector3;
+    type?: "soccer_target" | "nitro_gate" | "moba_orb" | "airdrop_crate";
+    update?: (delta: number, time: number) => void;
+    onHit?: () => void;
+  }[] = [];
   public currentLocationName: string = "Central Plaza";
 
   // Inputs
@@ -355,7 +609,9 @@ export class WorldEngine {
     // 2. Camera Setup
     const aspect = container.clientWidth / container.clientHeight;
     this.camera = new THREE.PerspectiveCamera(54, aspect, 0.1, 950);
-    this.camera.position.set(0, 8, 14);
+    this.camera.position.set(0, 9.2, 15.8);
+    this.cameraLookAt.set(0, 6.4, 8.0);
+    this.camera.lookAt(this.cameraLookAt);
 
     // 3. WebGL Renderer with Tone Mapping & Soft Shadows
     this.renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
@@ -746,6 +1002,7 @@ export class WorldEngine {
     pathGroup.add(curbR);
 
     this.scene.add(pathGroup);
+    this.paths.push({ p1, p2, width, height });
   }
 
   // Taman Bunga & Tanah Subur (Flowerbeds with rich soil & colorful petals)
@@ -986,7 +1243,7 @@ export class WorldEngine {
     trophy.position.set(center.x, 6.90, center.z);
     trophy.castShadow = true;
     this.scene.add(trophy);
-    this.colliders.push({ x: center.x, z: center.z, radius: 1.6, label: "trophy" });
+    this.colliders.push({ type: "circle", x: center.x, z: center.z, radius: 3.3, label: "central_flowerbed" });
 
     // 2. 4 Radial Cobblestone Roads (Jalan Paving ke Setiap Jembatan!)
     this.createPathSegment(new THREE.Vector3(-6, 0, -6), new THREE.Vector3(-18, 0, -18), 3.4, 0xa8a29e, 4.80);
@@ -1048,7 +1305,7 @@ export class WorldEngine {
     blade.rotation.z = 0.15;
     blade.castShadow = true;
     this.scene.add(blade);
-    this.colliders.push({ x: center.x, z: center.z, radius: 2.0, label: "monolith" });
+    this.colliders.push({ type: "box", minX: center.x - 0.8, maxX: center.x + 0.8, minZ: center.z - 1.6, maxZ: center.z + 1.6, label: "monolith" });
 
     this.mobaCrystal = new THREE.Mesh(
       new THREE.OctahedronGeometry(2.4, 0),
@@ -1118,7 +1375,7 @@ export class WorldEngine {
     crate.position.set(center.x + 6, 8.8, center.z + 6);
     crate.castShadow = true;
     this.scene.add(crate);
-    this.colliders.push({ x: center.x + 6, z: center.z + 6, radius: 2.2, label: "crate" });
+    this.colliders.push({ type: "box", minX: center.x + 6 - 1.9, maxX: center.x + 6 + 1.9, minZ: center.z + 6 - 1.9, maxZ: center.z + 6 + 1.9, label: "crate" });
 
     const chute = new THREE.Mesh(new THREE.ConeGeometry(5.5, 2.8, 14, 1, true), new THREE.MeshStandardMaterial({ color: 0xfacc15, side: THREE.DoubleSide }));
     chute.position.set(center.x + 6, 13.5, center.z + 6);
@@ -1139,8 +1396,23 @@ export class WorldEngine {
     const soilMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.9, flatShading: true });
     const stoneMat = new THREE.MeshStandardMaterial({ color: 0x64748b, roughness: 0.8, flatShading: true });
 
+    // 1. Solid Stone Arrival Quay & Foundation directly under Bridge Touchdown (-48, 52)
+    // Ensures seamless physical ground connecting bridge abutment directly into Voxel island
+    const quayMat = new THREE.MeshStandardMaterial({ color: 0x475569, roughness: 0.85, flatShading: true });
+    const arrivalQuay = new THREE.Mesh(new THREE.BoxGeometry(8.5, 5.2, 9.5), quayMat);
+    arrivalQuay.position.set(-48, 2.1, 52); // Top surface flush at y = 4.70, anchored to seabed at y = -0.5
+    arrivalQuay.receiveShadow = true;
+    arrivalQuay.castShadow = true;
+    this.scene.add(arrivalQuay);
+
+    const bridgeStairs = new THREE.Mesh(new THREE.BoxGeometry(7.5, 4.8, 8.5), voxelMat);
+    bridgeStairs.position.set(-54, 2.3, 59); // Top surface flush at y = 4.70
+    bridgeStairs.receiveShadow = true;
+    bridgeStairs.castShadow = true;
+    this.scene.add(bridgeStairs);
+
     // Paved stone road from bridge (-48, 52) to voxel center
-    this.createPathSegment(new THREE.Vector3(-48, 0, 52), new THREE.Vector3(center.x, 0, center.z), 3.2, 0x475569, 4.7);
+    this.createPathSegment(new THREE.Vector3(-48, 0, 52), new THREE.Vector3(center.x, 0, center.z), 4.2, 0x475569, 4.7);
 
     for (let x = -4; x <= 4; x++) {
       for (let z = -4; z <= 4; z++) {
@@ -1196,7 +1468,14 @@ export class WorldEngine {
       bench.position.set(bx, 2.60 + (0.6 * (b + 1)) / 2, center.z);
       bench.castShadow = true;
       this.scene.add(bench);
-      this.colliders.push({ x: bx, z: center.z, radius: 1.8, label: "bench" });
+      this.colliders.push({
+        type: "box",
+        minX: bx - 1.1,
+        maxX: bx + 1.1,
+        minZ: center.z - 12.2,
+        maxZ: center.z + 12.2,
+        label: "stadium_bleacher",
+      });
     }
 
     // Garden flowerbeds and park trees around stadium
@@ -1566,108 +1845,363 @@ export class WorldEngine {
       const group = new THREE.Group();
       group.position.copy(npc.pos);
 
-      const skinMat = new THREE.MeshStandardMaterial({ color: 0xffedd5, roughness: 0.6 });
-      const darkMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.5 });
+      // Set natural posed orientation (facing scenic post)
+      const defaultRotY: Record<string, number> = {
+        lexa: 0.15,
+        valen: 0.85,
+        jax: -0.75,
+        leo: 0.45,
+      };
+      group.rotation.y = defaultRotY[npc.id] ?? 0;
 
+      const darkMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.5 });
+      const goldMat = new THREE.MeshStandardMaterial({ color: 0xfacc15, metalness: 0.8, roughness: 0.2 });
+      const whiteMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.4 });
+
+      // Head Group (Natural posed head, doesn't swivel towards player)
       const headGroup = new THREE.Group();
       headGroup.position.set(0, 1.7, 0);
 
-      const head = new THREE.Mesh(new THREE.SphereGeometry(0.42, 14, 14), skinMat);
+      // Procedural Anime Face Texture mapped to front (-Z)
+      const faceTex = createNPCFaceTexture(npc.id);
+      faceTex.needsUpdate = true;
+      const faceMat = new THREE.MeshStandardMaterial({ map: faceTex, roughness: 0.65 });
+      const head = new THREE.Mesh(new THREE.SphereGeometry(0.44, 24, 24), faceMat);
+      head.rotation.y = Math.PI / 2; // Centers texture directly towards -Z (front)
       head.castShadow = true;
       headGroup.add(head);
 
       // Legs & Boots firmly planted on ground
       for (const lx of [-0.18, 0.18]) {
-        const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.14, 0.5, 10), darkMat);
-        leg.position.set(lx, 0.25, 0);
+        const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.14, 0.52, 12), darkMat);
+        leg.position.set(lx, 0.26, 0);
         leg.castShadow = true;
         group.add(leg);
+
+        const boot = new THREE.Mesh(new THREE.BoxGeometry(0.24, 0.18, 0.36), darkMat);
+        boot.position.set(lx, 0.09, -0.06);
+        group.add(boot);
       }
 
       let waveArm: THREE.Group | undefined;
       let juggledBall: THREE.Mesh | undefined;
 
       if (npc.id === "lexa") {
-        const vestMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.7 });
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 0.42, 0.9, 12), vestMat);
-        body.position.y = 0.9;
-        body.castShadow = true;
-        group.add(body);
+        // --- LEXA: THE ARCHIPELAGO NAVIGATOR & ADVENTURER ---
+        const hairMat = new THREE.MeshStandardMaterial({ color: 0x92400e, roughness: 0.7 });
 
-        const hatBrim = new THREE.Mesh(new THREE.CylinderGeometry(0.7, 0.7, 0.08, 16), vestMat);
-        hatBrim.position.y = 0.32;
+        // Hair Back volume
+        const hairBack = new THREE.Mesh(new THREE.SphereGeometry(0.47, 16, 16, 0, Math.PI, 0, Math.PI), hairMat);
+        hairBack.position.set(0, 0, 0.08);
+        hairBack.rotation.x = -Math.PI / 2;
+        headGroup.add(hairBack);
+
+        // Front layered bangs
+        for (const bx of [-0.22, 0, 0.22]) {
+          const bang = new THREE.Mesh(new THREE.BoxGeometry(0.15, 0.22, 0.1), hairMat);
+          bang.position.set(bx, 0.24, -0.4);
+          bang.rotation.z = bx * 0.4;
+          bang.rotation.x = -0.2;
+          headGroup.add(bang);
+        }
+
+        // Side hair locks
+        for (const sx of [-0.42, 0.42]) {
+          const lock = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.03, 0.42, 8), hairMat);
+          lock.position.set(sx, -0.05, -0.15);
+          headGroup.add(lock);
+        }
+
+        // Explorer Safari Hat with wide brim, leather strap & gold compass buckle
+        const vestMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.7 });
+        const hatBrim = new THREE.Mesh(new THREE.CylinderGeometry(0.72, 0.72, 0.06, 24), vestMat);
+        hatBrim.position.y = 0.34;
         headGroup.add(hatBrim);
-        const hatCrown = new THREE.Mesh(new THREE.CylinderGeometry(0.38, 0.45, 0.35, 12), vestMat);
-        hatCrown.position.y = 0.52;
+
+        const hatCrown = new THREE.Mesh(new THREE.CylinderGeometry(0.40, 0.46, 0.36, 16), vestMat);
+        hatCrown.position.y = 0.53;
         headGroup.add(hatCrown);
 
-        const backpack = new THREE.Mesh(new THREE.BoxGeometry(0.5, 0.6, 0.3), darkMat);
-        backpack.position.set(0, 0.9, -0.35);
-        group.add(backpack);
+        const hatBand = new THREE.Mesh(new THREE.CylinderGeometry(0.465, 0.465, 0.08, 16), darkMat);
+        hatBand.position.y = 0.39;
+        headGroup.add(hatBand);
 
-        waveArm = new THREE.Group();
-        waveArm.position.set(0.45, 1.25, 0);
-        const armMesh = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.09, 0.55), vestMat);
-        armMesh.position.y = 0.25;
-        waveArm.add(armMesh);
-        group.add(waveArm);
-      } else if (npc.id === "valen") {
-        const armorMat = new THREE.MeshStandardMaterial({ color: 0x38bdf8, metalness: 0.85, roughness: 0.2 });
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.38, 0.46, 0.95, 12), armorMat);
+        const compassBuckle = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.05, 12), goldMat);
+        compassBuckle.position.set(0, 0.39, -0.47);
+        compassBuckle.rotation.x = Math.PI / 2;
+        headGroup.add(compassBuckle);
+
+        // Khaki jacket body with utility belt
+        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.44, 0.92, 14), vestMat);
         body.position.y = 0.92;
         body.castShadow = true;
         group.add(body);
 
-        const helm = new THREE.Mesh(new THREE.SphereGeometry(0.44, 14, 14), armorMat);
-        headGroup.add(helm);
+        // White collar
+        const collar = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.26, 0.12, 12), whiteMat);
+        collar.position.y = 1.34;
+        group.add(collar);
 
-        const sword = new THREE.Mesh(
-          new THREE.BoxGeometry(0.12, 1.8, 0.35),
-          new THREE.MeshStandardMaterial({ color: 0x06b6d4, emissive: 0x0284c7, emissiveIntensity: 0.8, metalness: 0.9 })
-        );
-        sword.position.set(0.55, 0.9, 0.3);
-        sword.rotation.z = -0.3;
-        group.add(sword);
-      } else if (npc.id === "jax") {
-        const camoMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.8 });
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.45, 0.9, 12), camoMat);
-        body.position.y = 0.9;
+        // Utility belt & pouches
+        const belt = new THREE.Mesh(new THREE.CylinderGeometry(0.45, 0.45, 0.1, 16), darkMat);
+        belt.position.y = 0.62;
+        group.add(belt);
+
+        for (const px of [-0.38, 0.38]) {
+          const pouch = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.18, 0.14), darkMat);
+          pouch.position.set(px, 0.62, 0);
+          group.add(pouch);
+        }
+
+        // Explorer backpack on back (+Z)
+        const backpack = new THREE.Mesh(new THREE.BoxGeometry(0.52, 0.62, 0.32), darkMat);
+        backpack.position.set(0, 0.95, 0.38);
+        backpack.castShadow = true;
+        group.add(backpack);
+
+        const bedroll = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, 0.54, 12), new THREE.MeshStandardMaterial({ color: 0x059669 }));
+        bedroll.position.set(0, 1.30, 0.38);
+        bedroll.rotation.z = Math.PI / 2;
+        group.add(bedroll);
+
+        // Friendly animated waving arm (right arm)
+        waveArm = new THREE.Group();
+        waveArm.position.set(0.46, 1.25, 0);
+        const armMesh = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.09, 0.52), vestMat);
+        armMesh.position.y = 0.24;
+        waveArm.add(armMesh);
+        const hand = new THREE.Mesh(new THREE.SphereGeometry(0.12, 8, 8), whiteMat);
+        hand.position.y = 0.50;
+        waveArm.add(hand);
+        group.add(waveArm);
+
+        // Resting left arm
+        const leftArm = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.08, 0.52), vestMat);
+        leftArm.position.set(-0.46, 0.95, 0);
+        group.add(leftArm);
+
+      } else if (npc.id === "valen") {
+        // --- VALEN: MOBA SANCTUARY KNIGHT & RUNE GUARDIAN ---
+        const armorMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0, metalness: 0.9, roughness: 0.18 });
+        const cyanGlowMat = new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 1.2 });
+        const hairMat = new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.6 });
+
+        // Dark navy hair strands peeking out
+        const hairBack = new THREE.Mesh(new THREE.SphereGeometry(0.46, 14, 14, 0, Math.PI, 0, Math.PI), hairMat);
+        hairBack.position.set(0, -0.05, 0.08);
+        hairBack.rotation.x = -Math.PI / 2;
+        headGroup.add(hairBack);
+
+        // Paladin Winged Circlet Visor
+        const circlet = new THREE.Mesh(new THREE.CylinderGeometry(0.46, 0.46, 0.12, 16), armorMat);
+        circlet.position.y = 0.25;
+        headGroup.add(circlet);
+
+        // Forehead Rune Gem
+        const runeGem = new THREE.Mesh(new THREE.OctahedronGeometry(0.12, 0), cyanGlowMat);
+        runeGem.position.set(0, 0.25, -0.47);
+        headGroup.add(runeGem);
+
+        // Winged visor fins on sides
+        for (const wx of [-0.48, 0.48]) {
+          const wing = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.35, 0.25), armorMat);
+          wing.position.set(wx, 0.35, -0.05);
+          wing.rotation.z = (wx > 0 ? -1 : 1) * 0.4;
+          wing.rotation.y = (wx > 0 ? 1 : -1) * 0.2;
+          headGroup.add(wing);
+        }
+
+        // Armored Torso with Cyan Arc-Reactor
+        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.40, 0.48, 0.96, 14), armorMat);
+        body.position.y = 0.94;
         body.castShadow = true;
         group.add(body);
 
-        const beret = new THREE.Mesh(new THREE.CylinderGeometry(0.48, 0.45, 0.2, 12), new THREE.MeshStandardMaterial({ color: 0xdc2626 }));
-        beret.position.set(0.08, 0.38, 0);
-        beret.rotation.z = -0.2;
+        const chestRune = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.06, 16), cyanGlowMat);
+        chestRune.position.set(0, 1.15, -0.42);
+        chestRune.rotation.x = Math.PI / 2;
+        group.add(chestRune);
+
+        // Giant Winged Shoulder Pauldrons
+        for (const px of [-0.52, 0.52]) {
+          const pauldron = new THREE.Mesh(new THREE.SphereGeometry(0.26, 12, 12), armorMat);
+          pauldron.position.set(px, 1.35, 0);
+          group.add(pauldron);
+
+          const pGlow = new THREE.Mesh(new THREE.TorusGeometry(0.22, 0.04, 8, 16), cyanGlowMat);
+          pGlow.position.set(px, 1.35, 0);
+          pGlow.rotation.y = Math.PI / 2;
+          group.add(pGlow);
+        }
+
+        // Royal Blue Cape fluttering on back (+Z)
+        const capeMat = new THREE.MeshStandardMaterial({ color: 0x1d4ed8, roughness: 0.6, side: THREE.DoubleSide });
+        const cape = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 1.1), capeMat);
+        cape.position.set(0, 0.85, 0.44);
+        cape.rotation.x = 0.15;
+        group.add(cape);
+
+        // Cyan Glowing Greatsword held at side
+        const swordGroup = new THREE.Group();
+        swordGroup.position.set(0.60, 0.7, 0.1);
+        swordGroup.rotation.z = -0.2;
+
+        const blade = new THREE.Mesh(new THREE.BoxGeometry(0.14, 1.8, 0.38), cyanGlowMat);
+        blade.position.y = 0.9;
+        swordGroup.add(blade);
+
+        const guard = new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.14, 0.7), goldMat);
+        guard.position.y = 0.0;
+        swordGroup.add(guard);
+
+        const hilt = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 0.5), darkMat);
+        hilt.position.y = -0.28;
+        swordGroup.add(hilt);
+
+        group.add(swordGroup);
+
+      } else if (npc.id === "jax") {
+        // --- JAX: BATTLE ROYALE OUTPOST ACE & SURVIVOR ---
+        const camoMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.8 });
+        const beretMat = new THREE.MeshStandardMaterial({ color: 0xb91c1c, roughness: 0.6 });
+        const hairMat = new THREE.MeshStandardMaterial({ color: 0x451a03, roughness: 0.7 });
+
+        // Short military cropped hair behind head
+        const hairBack = new THREE.Mesh(new THREE.SphereGeometry(0.45, 14, 14, 0, Math.PI, 0, Math.PI), hairMat);
+        hairBack.position.set(0, 0, 0.08);
+        hairBack.rotation.x = -Math.PI / 2;
+        headGroup.add(hairBack);
+
+        // Red Tactical Beret sharply tilted with silver emblem
+        const beret = new THREE.Mesh(new THREE.CylinderGeometry(0.50, 0.46, 0.22, 16), beretMat);
+        beret.position.set(0.10, 0.38, 0);
+        beret.rotation.z = -0.28;
         headGroup.add(beret);
 
-        const bino = new THREE.Mesh(new THREE.BoxGeometry(0.35, 0.15, 0.25), darkMat);
-        bino.position.set(0, 0.1, 0.45);
-        headGroup.add(bino);
-      } else if (npc.id === "leo") {
-        const jerseyMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.6 });
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 0.44, 0.9, 12), jerseyMat);
-        body.position.y = 0.9;
+        const beretBadge = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.12, 0.04), goldMat);
+        beretBadge.position.set(0.02, 0.38, -0.46);
+        headGroup.add(beretBadge);
+
+        // Tactical Headset with Ear Cup & Boom Microphone
+        const headsetCup = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, 0.10, 10), darkMat);
+        headsetCup.position.set(-0.44, 0.05, 0);
+        headsetCup.rotation.z = Math.PI / 2;
+        headGroup.add(headsetCup);
+
+        const headsetAntenna = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.02, 0.45), darkMat);
+        headsetAntenna.position.set(-0.45, 0.35, 0);
+        headGroup.add(headsetAntenna);
+
+        const micBoom = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.02, 0.32), darkMat);
+        micBoom.position.set(-0.35, -0.12, -0.32);
+        micBoom.rotation.x = Math.PI / 3;
+        headGroup.add(micBoom);
+
+        // Combat Tactical Plate Carrier Body
+        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.38, 0.46, 0.92, 14), camoMat);
+        body.position.y = 0.92;
         body.castShadow = true;
         group.add(body);
 
-        const band = new THREE.Mesh(new THREE.CylinderGeometry(0.44, 0.44, 0.12, 14), new THREE.MeshStandardMaterial({ color: 0xffffff }));
-        band.position.y = 0.15;
-        headGroup.add(band);
+        // Ammo Pouches on Plate Carrier (Front facing -Z)
+        for (const px of [-0.18, 0, 0.18]) {
+          const mag = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.22, 0.12), darkMat);
+          mag.position.set(px, 0.95, -0.42);
+          group.add(mag);
+        }
 
-        juggledBall = new THREE.Mesh(new THREE.SphereGeometry(0.28, 12, 12), new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.4 }));
-        juggledBall.position.set(0.35, 0.4, 0.5);
+        // Radio on shoulder
+        const shoulderRadio = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.26, 0.12), darkMat);
+        shoulderRadio.position.set(-0.42, 1.25, -0.1);
+        group.add(shoulderRadio);
+
+        // Tactical Binoculars / Rangefinder
+        const bino = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.16, 0.22), darkMat);
+        bino.position.set(0, 0.65, -0.44);
+        group.add(bino);
+
+      } else if (npc.id === "leo") {
+        // --- LEO: BEACH STADIUM CHAMPION STRIKER ---
+        const jerseyMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.6 });
+        const hairMat = new THREE.MeshStandardMaterial({ color: 0x1e1b18, roughness: 0.8 });
+
+        // Dynamic Spiky Anime Soccer Hair
+        const hairBase = new THREE.Mesh(new THREE.SphereGeometry(0.46, 14, 14, 0, Math.PI, 0, Math.PI), hairMat);
+        hairBase.position.set(0, 0.02, 0.06);
+        hairBase.rotation.x = -Math.PI / 2;
+        headGroup.add(hairBase);
+
+        // Spikes on top and back
+        const spikeGeo = new THREE.ConeGeometry(0.14, 0.36, 5);
+        const spikeOffsets: [number, number, number, number, number][] = [
+          [0, 0.45, -0.15, -0.3, 0],
+          [-0.22, 0.42, -0.1, -0.2, 0.4],
+          [0.22, 0.42, -0.1, -0.2, -0.4],
+          [0, 0.48, 0.15, 0.3, 0],
+          [-0.18, 0.45, 0.2, 0.3, 0.3],
+          [0.18, 0.45, 0.2, 0.3, -0.3],
+        ];
+        spikeOffsets.forEach(([sx, sy, sz, rx, rz]) => {
+          const spike = new THREE.Mesh(spikeGeo, hairMat);
+          spike.position.set(sx, sy, sz);
+          spike.rotation.x = rx;
+          spike.rotation.z = rz;
+          headGroup.add(spike);
+        });
+
+        // Crisp White Athletic Headband
+        const headband = new THREE.Mesh(new THREE.CylinderGeometry(0.455, 0.455, 0.14, 16), whiteMat);
+        headband.position.y = 0.20;
+        headGroup.add(headband);
+
+        // Sporty #10 Jersey Body
+        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.44, 0.92, 14), jerseyMat);
+        body.position.y = 0.92;
+        body.castShadow = true;
+        group.add(body);
+
+        // White V-Neck Collar
+        const collar = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.26, 0.1), whiteMat);
+        collar.position.y = 1.34;
+        group.add(collar);
+
+        // #10 Number Emblem on Chest (Front facing -Z)
+        const numberPatch = new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.26, 0.05), whiteMat);
+        numberPatch.position.set(0, 1.05, -0.42);
+        group.add(numberPatch);
+
+        // Captain Armband on Left Arm (Yellow)
+        const captainArmband = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.11, 0.12, 10), goldMat);
+        captainArmband.position.set(-0.46, 1.15, 0);
+        group.add(captainArmband);
+
+        // Animated Mini Juggled Soccer Ball
+        const soccerBallTex = createSoccerBallTexture();
+        const ballMat = new THREE.MeshStandardMaterial({ map: soccerBallTex, roughness: 0.35 });
+        juggledBall = new THREE.Mesh(new THREE.SphereGeometry(0.28, 16, 16), ballMat);
+        juggledBall.position.set(0.38, 0.45, -0.45);
         group.add(juggledBall);
       }
 
       group.add(headGroup);
 
-      // Floating Quest Beacon [!] with Bloom
+      // Floating Holographic Quest Diamond with Idle Bobbing Bloom
+      const beaconGroup = new THREE.Group();
+      beaconGroup.position.y = 2.75;
       const beacon = new THREE.Mesh(
-        new THREE.OctahedronGeometry(0.32, 0),
-        new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 1.0 })
+        new THREE.OctahedronGeometry(0.34, 0),
+        new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 1.4 })
       );
-      beacon.position.y = 2.65;
-      group.add(beacon);
+      beaconGroup.add(beacon);
+
+      const beaconRing = new THREE.Mesh(
+        new THREE.TorusGeometry(0.5, 0.04, 8, 20),
+        new THREE.MeshStandardMaterial({ color: 0xfacc15, emissive: 0xeab308, emissiveIntensity: 1.2 })
+      );
+      beaconRing.rotation.x = Math.PI / 2;
+      beaconGroup.add(beaconRing);
+
+      group.add(beaconGroup);
 
       this.scene.add(group);
       this.npcMeshMap.set(npc.id, { group, head: headGroup, waveArm, juggledBall });
@@ -1711,8 +2245,12 @@ export class WorldEngine {
       // Battle Royale Outpost (3 coins)
       [72, 8.2, -54], [78, 8.2, -66], [68, 8.2, -72],
 
-      // Voxel Bay (2 coins)
-      [-63, 5.8, 65], [-68, 5.8, 74],
+      // Voxel Bay (5 coins elevated above cubic block tops & arrival terrace)
+      [-65.0, 7.6, 70.0], // Peak summit of Voxel pyramid hill (block top at 6.2)
+      [-60.4, 6.2, 65.4], // Upper terrace step (block top at 4.7)
+      [-69.6, 6.2, 74.6], // Upper terrace step (block top at 4.7)
+      [-54.0, 6.1, 59.0], // Paved stone pathway leading to bridge (road at 4.7)
+      [-48.0, 6.1, 52.0], // Arrival quay at bridge touchdown (quay at 4.7)
 
       // Arcade Soccer Arena (2 coins)
       [60, 3.8, 60], [70, 3.8, 70],
@@ -1723,7 +2261,7 @@ export class WorldEngine {
       token.position.set(x, y, z);
       token.castShadow = true;
       this.scene.add(token);
-      this.tokens.push({ mesh: token, collected: false });
+      this.tokens.push({ mesh: token, collected: false, baseY: y });
     });
 
     this.totalCoins = this.tokens.length;
@@ -1760,34 +2298,177 @@ export class WorldEngine {
     });
   }
 
+  private createTubeBetweenPoints(
+    p1: THREE.Vector3,
+    p2: THREE.Vector3,
+    radius: number,
+    material: THREE.Material
+  ): THREE.Mesh {
+    const dir = new THREE.Vector3().subVectors(p2, p1);
+    const len = dir.length();
+    const geo = new THREE.CylinderGeometry(radius, radius, len, 16);
+    const mesh = new THREE.Mesh(geo, material);
+    mesh.position.addVectors(p1, p2).multiplyScalar(0.5);
+    mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir.clone().normalize());
+    mesh.castShadow = true;
+    return mesh;
+  }
+
   private spawnSoccerArena() {
     const pos = new THREE.Vector3(65, 0, 65);
+    const turfY = 2.66;
+    const goalFrontZ = pos.z + 13.0; // z = 78.0
+    const topDepth = 1.4;            // horizontal top roof depth -> 79.4
+    const totalDepth = 3.5;          // ground base depth -> 81.5
+    const goalBackZ = goalFrontZ + totalDepth;
+    const goalWidth = 9.0;
+    const goalHeight = 3.4;
 
-    const postMat = new THREE.MeshStandardMaterial({ color: 0xd1d5db, roughness: 0.45, metalness: 0.35 });
-    const postL = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 3.8), postMat);
-    postL.position.set(pos.x - 4, 1.9, pos.z + 12);
-    this.scene.add(postL);
-    this.colliders.push({ x: pos.x - 4, z: pos.z + 12, radius: 0.4, label: "postL" });
+    const halfW = goalWidth / 2;
+    const leftX = pos.x - halfW;  // 60.5
+    const rightX = pos.x + halfW; // 69.5
 
-    const postR = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 3.8), postMat);
-    postR.position.set(pos.x + 4, 1.9, pos.z + 12);
-    this.scene.add(postR);
-    this.colliders.push({ x: pos.x + 4, z: pos.z + 12, radius: 0.4, label: "postR" });
+    // Key 3D Vertices of the Stadium Goal Frame
+    // Left side vertices:
+    const vFrontBotL = new THREE.Vector3(leftX, turfY + 0.1, goalFrontZ);
+    const vFrontTopL = new THREE.Vector3(leftX, turfY + goalHeight, goalFrontZ);
+    const vTopBackL  = new THREE.Vector3(leftX, turfY + goalHeight, goalFrontZ + topDepth);
+    const vBotBackL  = new THREE.Vector3(leftX, turfY + 0.1, goalBackZ);
 
-    const crossbar = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 8.2), postMat);
-    crossbar.rotation.z = Math.PI / 2;
-    crossbar.position.set(pos.x, 3.8, pos.z + 12);
-    this.scene.add(crossbar);
+    // Right side vertices:
+    const vFrontBotR = new THREE.Vector3(rightX, turfY + 0.1, goalFrontZ);
+    const vFrontTopR = new THREE.Vector3(rightX, turfY + goalHeight, goalFrontZ);
+    const vTopBackR  = new THREE.Vector3(rightX, turfY + goalHeight, goalFrontZ + topDepth);
+    const vBotBackR  = new THREE.Vector3(rightX, turfY + 0.1, goalBackZ);
 
+    // 1. Glossy White Steel Post Material
+    const postMat = new THREE.MeshStandardMaterial({
+      color: 0xffffff,
+      roughness: 0.25,
+      metalness: 0.65,
+    });
+
+    const postRad = 0.14;
+    const supportRad = 0.11;
+
+    // A. Front Goal Face (The Main Frame)
+    this.scene.add(this.createTubeBetweenPoints(vFrontBotL, vFrontTopL, postRad, postMat));
+    this.scene.add(this.createTubeBetweenPoints(vFrontBotR, vFrontTopR, postRad, postMat));
+    this.scene.add(this.createTubeBetweenPoints(vFrontTopL, vFrontTopR, postRad, postMat));
+
+    // B. Top Depth Stanchions (Horizontal rails extending backwards from crossbar)
+    this.scene.add(this.createTubeBetweenPoints(vFrontTopL, vTopBackL, supportRad, postMat));
+    this.scene.add(this.createTubeBetweenPoints(vFrontTopR, vTopBackR, supportRad, postMat));
+    this.scene.add(this.createTubeBetweenPoints(vTopBackL, vTopBackR, supportRad, postMat));
+
+    // C. Sloped Diagonal Back Struts (Connecting top-back corner to bottom-back ground corner)
+    this.scene.add(this.createTubeBetweenPoints(vTopBackL, vBotBackL, supportRad, postMat));
+    this.scene.add(this.createTubeBetweenPoints(vTopBackR, vBotBackR, supportRad, postMat));
+
+    // D. Ground Base Stabilizer Frame
+    this.scene.add(this.createTubeBetweenPoints(vFrontBotL, vBotBackL, supportRad, postMat));
+    this.scene.add(this.createTubeBetweenPoints(vFrontBotR, vBotBackR, supportRad, postMat));
+    this.scene.add(this.createTubeBetweenPoints(vBotBackL, vBotBackR, supportRad, postMat));
+
+    // Spherical Corner Welds at all 8 key vertices for 100% seamless contiguous joints
+    const jointGeo = new THREE.SphereGeometry(postRad * 1.05, 16, 16);
+    [vFrontTopL, vFrontTopR, vTopBackL, vTopBackR, vBotBackL, vBotBackR, vFrontBotL, vFrontBotR].forEach((v) => {
+      const joint = new THREE.Mesh(jointGeo, postMat);
+      joint.position.copy(v);
+      this.scene.add(joint);
+    });
+
+    // Physics Colliders for Front Posts
+    this.colliders.push({ x: leftX, z: goalFrontZ, radius: 0.35, label: "goal_post_left" });
+    this.colliders.push({ x: rightX, z: goalFrontZ, radius: 0.35, label: "goal_post_right" });
+
+    // 6. Realistic 3D Woven Soccer Netting Panels (White Diamond Pattern)
+    const netTex = createGoalNetTexture();
+    const netMat = new THREE.MeshStandardMaterial({
+      map: netTex,
+      transparent: true,
+      opacity: 0.70,
+      side: THREE.DoubleSide,
+      roughness: 0.75,
+      depthWrite: false,
+    });
+
+    // Helper to generate a 2-triangle Quad BufferGeometry from 4 points
+    const createQuadNet = (p1: THREE.Vector3, p2: THREE.Vector3, p3: THREE.Vector3, p4: THREE.Vector3, uvScaleU = 6, uvScaleV = 3) => {
+      const geo = new THREE.BufferGeometry();
+      const positions = new Float32Array([
+        p1.x, p1.y, p1.z,
+        p2.x, p2.y, p2.z,
+        p3.x, p3.y, p3.z,
+
+        p1.x, p1.y, p1.z,
+        p3.x, p3.y, p3.z,
+        p4.x, p4.y, p4.z,
+      ]);
+      const uvs = new Float32Array([
+        0, 0,
+        uvScaleU, 0,
+        uvScaleU, uvScaleV,
+
+        0, 0,
+        uvScaleU, uvScaleV,
+        0, uvScaleV,
+      ]);
+      geo.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+      geo.setAttribute("uv", new THREE.BufferAttribute(uvs, 2));
+      geo.computeVertexNormals();
+      return new THREE.Mesh(geo, netMat);
+    };
+
+    // Roof Net: between front top crossbar and top back crossbar
+    this.scene.add(createQuadNet(vFrontTopL, vFrontTopR, vTopBackR, vTopBackL, 8, 2));
+
+    // Sloped Rear Net: between top back crossbar and bottom rear ground crossbar
+    this.scene.add(createQuadNet(vTopBackL, vTopBackR, vBotBackR, vBotBackL, 8, 4));
+
+    // Left Side Netting (Quad from front upright, top rail, back diagonal, ground rail)
+    this.scene.add(createQuadNet(vFrontBotL, vFrontTopL, vTopBackL, vBotBackL, 3, 3));
+
+    // Right Side Netting (Quad from front upright, top rail, back diagonal, ground rail)
+    this.scene.add(createQuadNet(vFrontBotR, vBotBackR, vTopBackR, vFrontTopR, 3, 3));
+
+    // 7. Solid Collision Backstop (Ball cannot escape through back or sides of net)
+    this.colliders.push({
+      type: "box",
+      minX: leftX - 0.2,
+      maxX: rightX + 0.2,
+      minZ: goalBackZ - 0.2,
+      maxZ: goalBackZ + 1.2,
+      label: "goal_back_net",
+    });
+    this.colliders.push({
+      type: "box",
+      minX: leftX - 0.8,
+      maxX: leftX + 0.1,
+      minZ: goalFrontZ,
+      maxZ: goalBackZ + 0.2,
+      label: "goal_side_net_left",
+    });
+    this.colliders.push({
+      type: "box",
+      minX: rightX - 0.1,
+      maxX: rightX + 0.8,
+      minZ: goalFrontZ,
+      maxZ: goalBackZ + 0.2,
+      label: "goal_side_net_right",
+    });
+
+    // 8. Goal Trigger Detection Volume Inside Goal Net
     this.goalBox.set(
-      new THREE.Vector3(pos.x - 4.5, 0, pos.z + 11.5),
-      new THREE.Vector3(pos.x + 4.5, 4.2, pos.z + 15)
+      new THREE.Vector3(leftX + 0.3, turfY, goalFrontZ + 0.2),
+      new THREE.Vector3(rightX - 0.3, turfY + goalHeight + 0.5, goalBackZ + 0.5)
     );
 
+    // 9. Giant Arcade Soccer Ball
     const soccerTex = createSoccerBallTexture();
     const ballMat = new THREE.MeshStandardMaterial({ map: soccerTex, roughness: 0.35, metalness: 0.1 });
-    this.soccerBall = new THREE.Mesh(new THREE.SphereGeometry(1.6, 24, 24), ballMat);
-    this.soccerBall.position.set(pos.x, 4.26, pos.z);
+    this.soccerBall = new THREE.Mesh(new THREE.SphereGeometry(1.5, 24, 24), ballMat);
+    this.soccerBall.position.set(pos.x, turfY + 1.6, pos.z);
     this.soccerBall.castShadow = true;
     this.scene.add(this.soccerBall);
   }
@@ -1840,6 +2521,7 @@ export class WorldEngine {
     this.updateNPCBehaviors(time);
     this.updateCollectibles(time);
     this.updateSoccerBall(delta);
+    this.updateMinigame(delta, time);
     this.updateCameraFollow(delta);
     this.checkLocationAndProximity();
 
@@ -1888,27 +2570,30 @@ export class WorldEngine {
 
   private updateNPCBehaviors(time: number) {
     this.npcMeshMap.forEach((npcRef, npcId) => {
+      // Gentle breathing body bobbing
       npcRef.group.position.y = (this.npcs.find((n) => n.id === npcId)?.pos.y || 0) + Math.sin(time * 2.6) * 0.03;
 
       const distToPlayer = npcRef.group.position.distanceTo(this.playerPos);
-      if (distToPlayer < 14) {
-        const dir = new THREE.Vector3().subVectors(this.playerPos, npcRef.group.position).normalize();
-        const targetAngle = Math.atan2(dir.x, dir.z);
-        npcRef.head.rotation.y = THREE.MathUtils.lerp(npcRef.head.rotation.y, targetAngle, 0.08);
-      } else {
-        npcRef.head.rotation.y = THREE.MathUtils.lerp(npcRef.head.rotation.y, 0, 0.05);
-      }
+      const isTalking = this.activeDialogueNPC?.id === npcId;
 
+      // Natural heroic idle breathing (face does NOT follow the player)
+      npcRef.head.rotation.y = THREE.MathUtils.lerp(npcRef.head.rotation.y, 0, 0.1);
+      npcRef.head.rotation.x = Math.sin(time * 2.2) * 0.03; // Subtle natural breathing nod
+
+      // Lexa friendly wave
       if (npcId === "lexa" && npcRef.waveArm) {
-        if (distToPlayer < 12) {
+        if (distToPlayer < 10 || isTalking) {
           npcRef.waveArm.rotation.z = -1.2 + Math.sin(time * 8) * 0.45;
         } else {
           npcRef.waveArm.rotation.z = THREE.MathUtils.lerp(npcRef.waveArm.rotation.z, 0, 0.1);
         }
       }
 
+      // Leo juggle soccer ball with spin
       if (npcId === "leo" && npcRef.juggledBall) {
-        npcRef.juggledBall.position.y = 0.35 + Math.abs(Math.sin(time * 6)) * 0.45;
+        npcRef.juggledBall.position.y = 0.45 + Math.abs(Math.sin(time * 6)) * 0.45;
+        npcRef.juggledBall.rotation.x = time * 8;
+        npcRef.juggledBall.rotation.y = time * 6;
       }
     });
   }
@@ -1958,31 +2643,65 @@ export class WorldEngine {
 
     // 3. SOLID OBSTACLE COLLISION RESOLUTION (Zero clipping through objects!)
     const playerRadius = 0.55;
-    for (const col of this.colliders) {
-      const dx = this.playerPos.x - col.x;
-      const dz = this.playerPos.z - col.z;
-      const dist = Math.hypot(dx, dz);
-      const minDist = col.radius + playerRadius;
-      if (dist < minDist && dist > 0.0001) {
-        const overlap = minDist - dist;
-        this.playerPos.x += (dx / dist) * overlap;
-        this.playerPos.z += (dz / dist) * overlap;
+    for (let iter = 0; iter < 2; iter++) {
+      for (const col of this.colliders) {
+        if ("type" in col && col.type === "box") {
+          const closestX = Math.max(col.minX, Math.min(col.maxX, this.playerPos.x));
+          const closestZ = Math.max(col.minZ, Math.min(col.maxZ, this.playerPos.z));
+          const dx = this.playerPos.x - closestX;
+          const dz = this.playerPos.z - closestZ;
+          const distSq = dx * dx + dz * dz;
+
+          if (distSq < playerRadius * playerRadius) {
+            if (distSq < 0.0001) {
+              const dLeft = this.playerPos.x - col.minX;
+              const dRight = col.maxX - this.playerPos.x;
+              const dBottom = this.playerPos.z - col.minZ;
+              const dTop = col.maxZ - this.playerPos.z;
+              const minEdge = Math.min(dLeft, dRight, dBottom, dTop);
+              if (minEdge === dLeft) this.playerPos.x = col.minX - playerRadius;
+              else if (minEdge === dRight) this.playerPos.x = col.maxX + playerRadius;
+              else if (minEdge === dBottom) this.playerPos.z = col.minZ - playerRadius;
+              else this.playerPos.z = col.maxZ + playerRadius;
+            } else {
+              const dist = Math.sqrt(distSq);
+              const overlap = playerRadius - dist;
+              this.playerPos.x += (dx / dist) * overlap;
+              this.playerPos.z += (dz / dist) * overlap;
+            }
+          }
+        } else {
+          // Circle collider
+          const dx = this.playerPos.x - col.x;
+          const dz = this.playerPos.z - col.z;
+          const dist = Math.hypot(dx, dz);
+          const minDist = col.radius + playerRadius;
+          if (dist < minDist) {
+            if (dist > 0.0001) {
+              const overlap = minDist - dist;
+              this.playerPos.x += (dx / dist) * overlap;
+              this.playerPos.z += (dz / dist) * overlap;
+            } else {
+              this.playerPos.z += minDist;
+            }
+          }
+        }
       }
     }
 
-    // 4. Ground Height & Gravity (Firmly planted on terrain/bridges)
+    // 4. Ground Height & Gravity (Firmly planted on terrain/bridges or submerged in ocean)
     const groundHeight = this.calculateGroundHeight(this.playerPos.x, this.playerPos.z);
 
-    // Water state detection (Water plane at y = 0.0; deep ocean returns -0.55)
+    // Water state detection (Water plane at y = 0.0; deep ocean returns -1.25)
     const wasOnWater = this.onWater;
-    this.onWater = groundHeight <= 0.05;
+    this.onWater = groundHeight <= -0.15;
     if (!wasOnWater && this.onWater) {
       this.audio.playSplash();
     }
 
-    // Jump (Can jump off solid ground OR splash jump out of water)
+    // Jump (Can jump off solid ground OR splash jump / dolphin breach out of water)
     if (this.inputs.jump && (this.isGrounded || this.onWater)) {
-      this.playerVel.y = this.onWater ? 7.5 : 8.5;
+      this.playerVel.y = this.onWater ? 7.2 : 8.5;
       this.isGrounded = false;
       if (this.onWater) {
         this.audio.playSplash();
@@ -2002,8 +2721,9 @@ export class WorldEngine {
         }
       }
     } else {
-      const waterBob = this.onWater ? Math.sin(time * 3.5) * 0.04 : 0;
-      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, groundHeight + waterBob, 20 * delta);
+      // Submerged swimming bobbing vs solid ground walking
+      const waterBob = this.onWater ? Math.sin(time * 3.5) * 0.08 : 0;
+      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, groundHeight + waterBob, (this.onWater ? 10 : 20) * delta);
     }
 
     // Audio & Speedometer
@@ -2047,15 +2767,20 @@ export class WorldEngine {
         this.rightArm.rotation.z = -0.25;
       }
 
-      // Torso tilts slightly forward in swimming pose, bobs with waves
-      this.catMeshGroup.position.y = Math.sin(time * 3.5) * 0.06;
-      this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, -0.22, 8 * delta);
+      // Torso tilts horizontally in prone swimming pose, bobs with waves
+      this.catMeshGroup.position.y = Math.sin(time * 3.5) * 0.08;
+      this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, -0.42, 8 * delta);
       this.catMeshGroup.rotation.y = Math.sin(swimCycle * 0.5) * 0.08;
       this.catMeshGroup.scale.set(1.0, 1.0, 1.0);
 
+      // Head lifts up to face forward over the water surface
+      if (this.headGroup) {
+        this.headGroup.rotation.x = THREE.MathUtils.lerp(this.headGroup.rotation.x, 0.40, 8 * delta);
+      }
+
       // Tail wags gently above water
       if (this.tailGroup) {
-        this.tailGroup.rotation.x = 0.75 + Math.sin(time * 4.0) * 0.15;
+        this.tailGroup.rotation.x = 0.85 + Math.sin(time * 4.0) * 0.15;
         this.tailGroup.rotation.z = Math.sin(time * 5.0) * 0.4;
       }
 
@@ -2187,12 +2912,20 @@ export class WorldEngine {
       }
     }
 
-    // 2. Pier at Central Plaza
+    // 2. Connecting Stone Pavements, Roads & Bridge Landing Quays
+    for (const p of this.paths) {
+      const ph = getPathHeightAt(x, z, p.p1, p.p2, p.width, p.height);
+      if (ph !== null) {
+        return ph;
+      }
+    }
+
+    // 3. Pier at Central Plaza
     if (Math.abs(x) < 1.8 && z >= -34 && z <= -23) {
       return 0.8;
     }
 
-    // 3. Island Terrain Height
+    // 4. Island Terrain Height
     return this.getIslandHeight(x, z);
   }
 
@@ -2208,9 +2941,9 @@ export class WorldEngine {
       }
       if (dHub <= 32.0) {
         const t = (dHub - 28.5) / 3.5;
-        return 1.40 * (1 - t) + (-0.55) * t; // Gentle shoreline into ocean
+        return 1.40 * (1 - t) + (-1.25) * t; // Gentle shoreline into ocean
       }
-      return -0.55;
+      return -1.25;
     }
 
     // 2. MOBA Sanctuary (-70, -65)
@@ -2223,9 +2956,9 @@ export class WorldEngine {
       }
       if (dMOBA <= 32.0) {
         const t = (dMOBA - 27.5) / 4.5;
-        return 1.40 * (1 - t) + (-0.55) * t;
+        return 1.40 * (1 - t) + (-1.25) * t;
       }
-      return -0.55;
+      return -1.25;
     }
 
     // 3. Battle Royale Outpost (75, -60)
@@ -2238,9 +2971,9 @@ export class WorldEngine {
       }
       if (dBR <= 33.0) {
         const t = (dBR - 28.5) / 4.5;
-        return 1.40 * (1 - t) + (-0.55) * t;
+        return 1.40 * (1 - t) + (-1.25) * t;
       }
-      return -0.55;
+      return -1.25;
     }
 
     // 4. Arcade Soccer Arena (65, 65)
@@ -2256,14 +2989,14 @@ export class WorldEngine {
       }
       if (dSoc <= 32.5) {
         const t = (dSoc - 28.0) / 4.5;
-        return 1.40 * (1 - t) + (-0.55) * t;
+        return 1.40 * (1 - t) + (-1.25) * t;
       }
-      return -0.55;
+      return -1.25;
     }
 
     // 5. Voxel Sandbox Bay (-65, 70)
     const dVox = Math.hypot(x - (-65), z - 70);
-    if (dVox < 28) {
+    if (dVox < 35) {
       const gx = Math.round((x - (-65)) / 4.6);
       const gz = Math.round((z - 70) / 4.6);
       if (Math.abs(gx) <= 4 && Math.abs(gz) <= 4) {
@@ -2273,18 +3006,26 @@ export class WorldEngine {
           return h * 1.5 + 0.2;
         }
       }
-      if (dVox <= 22) return 1.40;
-      const t = Math.min(1, (dVox - 22) / 5.0);
-      return 1.40 * (1 - t) + (-0.55) * t;
+      if (dVox <= 26.0) return 4.70; // Solid grass & stone plateau flush with bridge & arrival terrace!
+      if (dVox <= 30.0) {
+        const t = (dVox - 26.0) / 4.0;
+        return 4.70 * (1 - t) + 1.40 * t; // Gentle sandy beach slope
+      }
+      if (dVox <= 34.0) {
+        const t = (dVox - 30.0) / 4.0;
+        return 1.40 * (1 - t) + (-1.25) * t; // Shoreline into ocean
+      }
+      return -1.25;
     }
 
-    return -0.55; // Open deep ocean (Milo sinks chest-deep and swims)
+    return -1.25; // Open deep ocean (Milo sinks chest-deep and swims)
   }
 
   private updateCollectibles(time: number) {
-    this.tokens.forEach((t) => {
+    this.tokens.forEach((t, i) => {
       if (t.collected) return;
       t.mesh.rotation.z = time * 2.5;
+      t.mesh.position.y = t.baseY + Math.sin(time * 3.2 + i * 0.7) * 0.15;
 
       const dist = this.playerPos.distanceTo(t.mesh.position);
       // Magnet attract if close
@@ -2318,12 +3059,13 @@ export class WorldEngine {
     if (!this.soccerBall) return;
 
     const dist = this.playerPos.distanceTo(this.soccerBall.position);
-    if (dist < 3.2) {
+    if (dist < 2.9) {
       const pushDir = new THREE.Vector3().subVectors(this.soccerBall.position, this.playerPos).normalize();
-      const impulse = Math.max(Math.abs(this.currentSpeed) * 1.5, 12);
+      const impulse = Math.max(Math.abs(this.currentSpeed) * 1.5, 9.0);
       this.ballVel.x = pushDir.x * impulse;
       this.ballVel.z = pushDir.z * impulse;
-      this.ballVel.y = 4.2;
+      // Controlled ground rolling when dribbling; lofted strike when sprint boosting
+      this.ballVel.y = this.isBoosting ? 3.8 : 1.2;
       this.audio.playKick();
     }
 
@@ -2363,18 +3105,519 @@ export class WorldEngine {
     }
   }
 
+  public setActiveDialogueNPC(npc: NPCData | null) {
+    this.activeDialogueNPC = npc;
+    if (npc) {
+      // Rotate Milo to face the NPC directly
+      const dir = new THREE.Vector3().subVectors(npc.pos, this.playerPos).normalize();
+      this.playerRotY = Math.atan2(dir.x, dir.z) + Math.PI;
+      this.currentSpeed = 0;
+    }
+  }
+
+  // =========================================================================
+  // ARCADE MINIGAME SYSTEM
+  // =========================================================================
+  public startMinigame(id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt") {
+    this.cleanupMinigame();
+
+    const configs: Record<string, Omit<ActiveMinigame, "score" | "timeLeft" | "status">> = {
+      ring_trial: {
+        id: "ring_trial",
+        title: "Plaza Slalom Rush",
+        island: "Central Plaza",
+        instructions: "Sprint through 5 glowing Neon Slalom Rings around Central Plaza before time runs out!",
+        targetScore: 5,
+        totalTime: 35,
+      },
+      penalty_kick: {
+        id: "penalty_kick",
+        title: "Golden Striker Shootout",
+        island: "Arcade Soccer Arena",
+        instructions: "Dribble and kick the ball into 3 Golden Goal Target Zones inside the stadium!",
+        targetScore: 3,
+        totalTime: 45,
+      },
+      crystal_runes: {
+        id: "crystal_runes",
+        title: "Sanctuary Core Overdrive",
+        island: "MOBA Sanctuary",
+        instructions: "Attune 4 Ancient Elemental Runes around the Sanctuary Altar within 35 seconds!",
+        targetScore: 4,
+        totalTime: 35,
+      },
+      airdrop_hunt: {
+        id: "airdrop_hunt",
+        title: "Airdrop Supply Intercept",
+        island: "Battle Royale Outpost",
+        instructions: "Recover 3 Tactical Airdrop Crates along the Outpost cliffs before time runs out!",
+        targetScore: 3,
+        totalTime: 35,
+      },
+    };
+
+    const cfg = configs[id];
+    if (!cfg) return;
+
+    this.activeMinigame = {
+      ...cfg,
+      score: 0,
+      timeLeft: cfg.totalTime,
+      status: "playing",
+    };
+
+    this.setupMinigameObjects(id);
+    this.audio.playBoost();
+    this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+  }
+
+  public cancelMinigame() {
+    this.cleanupMinigame();
+    this.activeMinigame = null;
+    this.callbacks.onMinigameUpdate?.(null);
+  }
+
+  private cleanupMinigame() {
+    this.minigameTargets.forEach((t) => {
+      this.scene.remove(t.mesh);
+    });
+    this.minigameTargets = [];
+  }
+
+  private setupMinigameObjects(id: string) {
+    if (id === "ring_trial") {
+      // Central Plaza: High-Speed Cyber Slalom Sprint Gates
+      const ringConfigs: [number, number, number, number][] = [
+        [-12, 5.4, 0, Math.PI / 2],
+        [-6, 5.4, -12, 0],
+        [10, 5.4, -8, -Math.PI / 3],
+        [12, 5.4, 6, Math.PI / 2],
+        [-4, 5.4, 12, -Math.PI / 4],
+      ];
+      ringConfigs.forEach(([x, y, z, rotY], index) => {
+        const group = new THREE.Group();
+        group.position.set(x, y, z);
+        group.rotation.y = rotY;
+
+        // Double Neon Cyber Ring
+        const ringMat = new THREE.MeshStandardMaterial({
+          color: 0x06b6d4,
+          emissive: 0x0891b2,
+          emissiveIntensity: 1.8,
+          roughness: 0.2,
+        });
+        const ring = new THREE.Mesh(new THREE.TorusGeometry(1.6, 0.12, 16, 32), ringMat);
+        group.add(ring);
+
+        // Holographic Chevron Pointer Arrow (pointing through gate)
+        const arrowGeo = new THREE.ConeGeometry(0.35, 0.7, 4);
+        arrowGeo.rotateX(Math.PI / 2);
+        const arrowMat = new THREE.MeshBasicMaterial({ color: 0xfacc15 });
+        const arrow = new THREE.Mesh(arrowGeo, arrowMat);
+        arrow.position.set(0, 0, -0.6);
+        group.add(arrow);
+
+        // Ground Speed Boost Pad Strip
+        const stripGeo = new THREE.PlaneGeometry(2.4, 3.2);
+        stripGeo.rotateX(-Math.PI / 2);
+        const stripMat = new THREE.MeshBasicMaterial({
+          color: 0x06b6d4,
+          transparent: true,
+          opacity: 0.45,
+          side: THREE.DoubleSide,
+        });
+        const strip = new THREE.Mesh(stripGeo, stripMat);
+        strip.position.y = -1.4;
+        group.add(strip);
+
+        this.scene.add(group);
+        this.minigameTargets.push({
+          mesh: group,
+          hit: false,
+          radius: 2.8,
+          pos: new THREE.Vector3(x, y, z),
+          type: "nitro_gate",
+          update: (delta, time) => {
+            ring.rotation.z = time * 2.2;
+            arrow.position.z = -0.6 + Math.sin(time * 6 + index) * 0.2;
+          },
+          onHit: () => {
+            // Instant Supercharged Nitro Blast
+            this.currentSpeed = Math.min(this.currentSpeed + 18, this.maxSpeed * 2.0);
+            this.isBoosting = true;
+            this.audio.playBoost();
+            this.audio.playCoin();
+          },
+        });
+      });
+    } else if (id === "penalty_kick") {
+      // Teleport ball & Milo into kick positions at Soccer Arena
+      if (this.soccerBall) {
+        this.soccerBall.position.set(65, 3.2, 58);
+        this.ballVel.set(0, 0, 0);
+      }
+      this.playerPos.set(65, 2.6, 52);
+      this.playerRotY = Math.PI; // Face goal (+Z)
+      this.currentSpeed = 0;
+
+      // 3 Target Bullseyes placed inside the 3D goal net frame (Goal front z = 78.0, rear z = 81.5)
+      const targetCoords: [number, number, number][] = [
+        [62.2, 4.8, 79.4], // Left upper corner inside goal
+        [65.0, 3.6, 79.4], // Center low inside goal
+        [67.8, 4.8, 79.4], // Right upper corner inside goal
+      ];
+      targetCoords.forEach(([x, y, z]) => {
+        const group = new THREE.Group();
+        group.position.set(x, y, z);
+
+        const outerRing = new THREE.Mesh(
+          new THREE.RingGeometry(0.7, 0.9, 24),
+          new THREE.MeshBasicMaterial({ color: 0xef4444, side: THREE.DoubleSide })
+        );
+        group.add(outerRing);
+
+        const innerRing = new THREE.Mesh(
+          new THREE.RingGeometry(0.4, 0.65, 24),
+          new THREE.MeshBasicMaterial({ color: 0xffffff, side: THREE.DoubleSide })
+        );
+        group.add(innerRing);
+
+        const centerDot = new THREE.Mesh(
+          new THREE.CircleGeometry(0.35, 24),
+          new THREE.MeshBasicMaterial({ color: 0xfacc15, side: THREE.DoubleSide })
+        );
+        group.add(centerDot);
+
+        this.scene.add(group);
+        this.minigameTargets.push({
+          mesh: group,
+          hit: false,
+          radius: 1.8,
+          pos: new THREE.Vector3(x, y, z),
+          type: "soccer_target",
+          update: (delta, time) => {
+            group.rotation.z = Math.sin(time * 3) * 0.2;
+          },
+          onHit: () => {
+            this.audio.playGoal();
+            this.audio.playChime();
+          },
+        });
+      });
+    } else if (id === "crystal_runes") {
+      // 4 Elemental Sigil Orbs orbiting around the Ancient Monolith
+      const orbConfigs = [
+        { pos: [-70, 7.8, -78] as [number, number, number], color: 0xef4444, emissive: 0xdc2626 },
+        { pos: [-70, 7.8, -52] as [number, number, number], color: 0x3b82f6, emissive: 0x2563eb },
+        { pos: [-83, 7.8, -65] as [number, number, number], color: 0xa855f7, emissive: 0x9333ea },
+        { pos: [-57, 7.8, -65] as [number, number, number], color: 0xfacc15, emissive: 0xeab308 },
+      ];
+
+      orbConfigs.forEach((cfg, idx) => {
+        const group = new THREE.Group();
+        group.position.set(...cfg.pos);
+
+        // Core Glowing Elemental Orb
+        const orbMat = new THREE.MeshStandardMaterial({
+          color: cfg.color,
+          emissive: cfg.emissive,
+          emissiveIntensity: 2.2,
+          roughness: 0.1,
+        });
+        const orb = new THREE.Mesh(new THREE.SphereGeometry(0.75, 24, 24), orbMat);
+        group.add(orb);
+
+        // Orbiting Crystalline Rings
+        const ringMat = new THREE.MeshStandardMaterial({
+          color: 0xffffff,
+          emissive: cfg.color,
+          emissiveIntensity: 1.2,
+          roughness: 0.2,
+        });
+        const ringA = new THREE.Mesh(new THREE.TorusGeometry(1.2, 0.06, 8, 24), ringMat);
+        const ringB = new THREE.Mesh(new THREE.TorusGeometry(1.4, 0.05, 8, 24), ringMat);
+        ringB.rotation.x = Math.PI / 2;
+        group.add(ringA);
+        group.add(ringB);
+
+        // Vertical Beacon Light Pillar
+        const beamMat = new THREE.MeshBasicMaterial({
+          color: cfg.color,
+          transparent: true,
+          opacity: 0.35,
+          side: THREE.DoubleSide,
+        });
+        const beam = new THREE.Mesh(new THREE.CylinderGeometry(0.4, 0.4, 14, 12, 1, true), beamMat);
+        beam.position.y = 7.0;
+        group.add(beam);
+
+        this.scene.add(group);
+        this.minigameTargets.push({
+          mesh: group,
+          hit: false,
+          radius: 2.6,
+          pos: new THREE.Vector3(...cfg.pos),
+          type: "moba_orb",
+          update: (delta, time) => {
+            orb.position.y = Math.sin(time * 3.5 + idx * 1.5) * 0.3;
+            ringA.rotation.x = time * 2.5;
+            ringA.rotation.y = time * 1.8;
+            ringB.rotation.y = time * -2.0;
+            ringB.rotation.z = time * 2.2;
+          },
+          onHit: () => {
+            this.audio.playChime();
+            // Celestial Monolith Surge Reaction: spin crystal and pulse bloom
+            if (this.mobaCrystal) {
+              this.mobaCrystal.rotation.y += Math.PI / 2;
+              this.mobaCrystal.scale.set(1.4, 1.4, 1.4);
+              setTimeout(() => {
+                if (this.mobaCrystal) this.mobaCrystal.scale.set(1.0, 1.0, 1.0);
+              }, 400);
+            }
+          },
+        });
+      });
+    } else if (id === "airdrop_hunt") {
+      // 3 Falling Military Airdrop Supply Crates descending from sky with parachutes
+      const dropCoords: [number, number, number][] = [
+        [66, 7.8, -66],
+        [82, 7.8, -54],
+        [74, 7.8, -74],
+      ];
+
+      dropCoords.forEach(([x, groundY, z], idx) => {
+        const group = new THREE.Group();
+        const startY = groundY + 14.0 + idx * 3.5;
+        group.position.set(x, startY, z);
+
+        // 1. Reinforced Military Supply Crate
+        const crateMat = new THREE.MeshStandardMaterial({
+          color: 0xb91c1c,
+          metalness: 0.5,
+          roughness: 0.4,
+        });
+        const crate = new THREE.Mesh(new THREE.BoxGeometry(1.6, 1.5, 1.6), crateMat);
+        crate.position.y = 0.75;
+        group.add(crate);
+
+        // Steel protective roll-cage edge frame
+        const frameMat = new THREE.MeshStandardMaterial({ color: 0x0f172a, metalness: 0.8 });
+        const frame = new THREE.Mesh(new THREE.BoxGeometry(1.68, 0.25, 1.68), frameMat);
+        frame.position.y = 0.75;
+        group.add(frame);
+
+        // 2. Billowing Fabric Parachute Canopy
+        const chuteMat = new THREE.MeshStandardMaterial({
+          color: 0x38bdf8,
+          side: THREE.DoubleSide,
+          roughness: 0.65,
+        });
+        const chute = new THREE.Mesh(
+          new THREE.SphereGeometry(2.4, 16, 12, 0, Math.PI * 2, 0, Math.PI / 2),
+          chuteMat
+        );
+        chute.position.y = 4.8;
+        group.add(chute);
+
+        // Parachute suspension cords (4 thin lines connecting chute to crate corners)
+        const cordMat = new THREE.LineBasicMaterial({ color: 0xffffff });
+        for (const [cx, cz] of [[0.7, 0.7], [-0.7, 0.7], [0.7, -0.7], [-0.7, -0.7]]) {
+          const cordGeo = new THREE.BufferGeometry().setFromPoints([
+            new THREE.Vector3(cx, 1.5, cz),
+            new THREE.Vector3(cx * 2.2, 4.7, cz * 2.2),
+          ]);
+          group.add(new THREE.Line(cordGeo, cordMat));
+        }
+
+        // 3. Ground Signal Smoke Flare marking drop zone
+        const flareGroup = new THREE.Group();
+        flareGroup.position.set(x, groundY, z);
+
+        const canister = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.18, 0.18, 0.6, 10),
+          new THREE.MeshStandardMaterial({ color: 0xfacc15, roughness: 0.3 })
+        );
+        canister.position.y = 0.3;
+        flareGroup.add(canister);
+
+        const smokeColumn = new THREE.Mesh(
+          new THREE.CylinderGeometry(0.4, 1.2, 18, 12, 1, true),
+          new THREE.MeshBasicMaterial({
+            color: 0xfacc15,
+            transparent: true,
+            opacity: 0.45,
+            side: THREE.DoubleSide,
+          })
+        );
+        smokeColumn.position.y = 9.0;
+        flareGroup.add(smokeColumn);
+        this.scene.add(flareGroup);
+
+        this.scene.add(group);
+
+        let currentY = startY;
+        const targetEntry = {
+          mesh: group,
+          hit: false,
+          radius: 2.8,
+          pos: new THREE.Vector3(x, currentY, z),
+          type: "airdrop_crate" as const,
+          update: (delta: number, time: number) => {
+            if (currentY > groundY) {
+              currentY = Math.max(groundY, currentY - 3.2 * delta);
+              group.position.y = currentY;
+              group.position.x = x + Math.sin(time * 2.0 + idx) * 0.35;
+              group.rotation.z = Math.sin(time * 1.8 + idx) * 0.08;
+              targetEntry.pos.set(group.position.x, currentY, z);
+            } else {
+              chute.scale.set(0.8, 0.3, 0.8);
+              chute.position.y = 1.8;
+            }
+          },
+          onHit: () => {
+            this.scene.remove(flareGroup);
+            this.audio.playCoin();
+            this.audio.playBoost();
+          },
+        };
+        this.minigameTargets.push(targetEntry);
+      });
+    }
+  }
+
+  private updateMinigame(delta: number, time: number) {
+    if (!this.activeMinigame || this.activeMinigame.status !== "playing") return;
+
+    this.activeMinigame.timeLeft -= delta;
+
+    // Update animated effects on targets
+    this.minigameTargets.forEach((t) => {
+      if (!t.hit && t.update) {
+        t.update(delta, time);
+      }
+    });
+
+    if (this.activeMinigame.id === "penalty_kick") {
+      // Check collision between soccer ball and targets
+      if (this.soccerBall) {
+        this.minigameTargets.forEach((t) => {
+          if (t.hit) return;
+          const d = this.soccerBall!.position.distanceTo(t.pos);
+          if (d < t.radius) {
+            t.hit = true;
+            this.scene.remove(t.mesh);
+            t.onHit?.();
+            this.activeMinigame!.score++;
+
+            // Reset soccer ball to penalty spot
+            setTimeout(() => {
+              if (this.soccerBall) {
+                this.soccerBall.position.set(65, 3.2, 58);
+                this.ballVel.set(0, 0, 0);
+              }
+            }, 600);
+          }
+        });
+      }
+    } else {
+      // Check collision between Milo and targets
+      this.minigameTargets.forEach((t) => {
+        if (t.hit) return;
+        const d = this.playerPos.distanceTo(t.pos);
+        if (d < t.radius) {
+          t.hit = true;
+          this.scene.remove(t.mesh);
+          t.onHit?.();
+          this.activeMinigame!.score++;
+        }
+      });
+    }
+
+    // Win condition check
+    if (this.activeMinigame.score >= this.activeMinigame.targetScore) {
+      this.activeMinigame.status = "won";
+      this.audio.playVictory();
+      this.coinsCollected += 5;
+      this.callbacks.onCoinsUpdate?.(this.coinsCollected, this.totalCoins);
+      this.callbacks.onQuestProgress?.(this.activeMinigame.id);
+      this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+
+      setTimeout(() => {
+        if (this.activeMinigame?.status === "won") {
+          this.cleanupMinigame();
+          this.activeMinigame = null;
+          this.callbacks.onMinigameUpdate?.(null);
+        }
+      }, 4000);
+      return;
+    }
+
+    // Time-out lose condition check
+    if (this.activeMinigame.timeLeft <= 0) {
+      this.activeMinigame.timeLeft = 0;
+      this.activeMinigame.status = "lost";
+      this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+
+      setTimeout(() => {
+        if (this.activeMinigame?.status === "lost") {
+          this.cleanupMinigame();
+          this.activeMinigame = null;
+          this.callbacks.onMinigameUpdate?.(null);
+        }
+      }, 3500);
+      return;
+    }
+
+    this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+  }
+
   private updateCameraFollow(delta: number) {
-    const targetFov = this.isBoosting ? 64 : 54;
+    if (this.activeDialogueNPC) {
+      // Cinematic 3/4 angle conversation camera framing the NPC's expressive 3D face and upper body
+      const npcPos = this.activeDialogueNPC.pos;
+      const npcRef = this.npcMeshMap.get(this.activeDialogueNPC.id);
+      const npcRotY = npcRef?.group.rotation.y || 0;
+
+      // Forward vector of NPC (-Z in local space)
+      const npcForward = new THREE.Vector3(-Math.sin(npcRotY), 0, -Math.cos(npcRotY));
+      const npcRight = new THREE.Vector3(npcForward.z, 0, -npcForward.x);
+
+      // Camera positioned in front of NPC at a flattering 3/4 heroic angle
+      const targetCamPos = new THREE.Vector3()
+        .copy(npcPos)
+        .addScaledVector(npcForward, 2.7)
+        .addScaledVector(npcRight, 1.1)
+        .add(new THREE.Vector3(0, 1.75, 0));
+
+      this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 42, 6 * delta);
+      this.camera.updateProjectionMatrix();
+      this.camera.position.lerp(targetCamPos, 0.1);
+
+      const targetLook = new THREE.Vector3().copy(npcPos).add(new THREE.Vector3(0, 1.6, 0));
+      this.cameraLookAt.lerp(targetLook, 0.12);
+      this.camera.lookAt(this.cameraLookAt);
+      return;
+    }
+
+    // Default Gameplay Follow Cam (Land vs Swimming POV)
+    const targetFov = this.isBoosting ? 64 : (this.onWater ? 58 : 54);
     this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, targetFov, 6 * delta);
     this.camera.updateProjectionMatrix();
 
-    const offset = new THREE.Vector3(0, 4.4, 7.8);
+    const offset = this.onWater
+      ? new THREE.Vector3(0, 1.85, 5.2)
+      : new THREE.Vector3(0, 4.4, 7.8);
     offset.applyAxisAngle(new THREE.Vector3(0, 1, 0), this.playerRotY);
 
     const targetCamPos = new THREE.Vector3().addVectors(this.playerPos, offset);
+    if (this.onWater) {
+      targetCamPos.y = Math.max(0.65, targetCamPos.y);
+    }
     this.camera.position.lerp(targetCamPos, 0.08);
 
-    const lookTarget = new THREE.Vector3().copy(this.playerPos).add(new THREE.Vector3(0, 1.6, 0));
+    const lookTargetY = this.onWater ? 0.75 : 1.6;
+    const lookTarget = new THREE.Vector3().copy(this.playerPos).add(new THREE.Vector3(0, lookTargetY, 0));
     this.cameraLookAt.lerp(lookTarget, 0.1);
     this.camera.lookAt(this.cameraLookAt);
   }

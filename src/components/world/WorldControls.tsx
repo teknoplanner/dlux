@@ -102,16 +102,16 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
     return (
       <div className="absolute bottom-6 left-6 pointer-events-none hidden md:flex items-center gap-2.5 bg-slate-900/90 backdrop-blur-md px-5 py-3 rounded-2xl border border-white/20 text-xs font-mono text-slate-300 shadow-[0_6px_20px_rgba(0,0,0,0.6)]">
         <span className="font-black text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20 shadow-inner">WASD / ↑↓←→</span>
-        <span className="text-slate-300 font-bold">GERAK</span>
+        <span className="text-slate-300 font-bold">MOVE</span>
         <span className="text-slate-600 font-black">•</span>
         <span className="font-black text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20 shadow-inner">SPACE</span>
-        <span className="text-slate-300 font-bold">LOMPAT</span>
+        <span className="text-slate-300 font-bold">JUMP</span>
         <span className="text-slate-600 font-black">•</span>
         <span className="font-black text-cyan-400 bg-slate-800 px-2 py-0.5 rounded border border-cyan-400/30 shadow-inner">SHIFT</span>
         <span className="text-cyan-300 font-bold">NITRO</span>
         <span className="text-slate-600 font-black">•</span>
         <span className="font-black text-amber-400 bg-slate-800 px-2 py-0.5 rounded border border-amber-400/30 shadow-inner">E</span>
-        <span className="text-amber-300 font-bold">AKSI</span>
+        <span className="text-amber-300 font-bold">INTERACT</span>
       </div>
     );
   }

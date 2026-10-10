@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Volume2, VolumeX, Maximize2, Minimize2, Smartphone, Compass, Sparkles, HelpCircle, Trophy, ArrowLeft, Zap } from "lucide-react";
-import { NPCData } from "./WorldEngine";
+import { NPCData, ActiveMinigame } from "./WorldEngine";
 
 interface WorldHUDProps {
   location: string;
@@ -11,11 +11,13 @@ interface WorldHUDProps {
   speedKmH: number;
   nitroPct: number;
   activeNPC: NPCData | null;
+  activeMinigame?: ActiveMinigame | null;
   showGoal: boolean;
   isMuted: boolean;
   onToggleMute: () => void;
   onOpenPhone: () => void;
   onInteractNPC: () => void;
+  onCancelMinigame?: () => void;
 }
 
 export const WorldHUD: React.FC<WorldHUDProps> = ({
@@ -25,11 +27,13 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
   speedKmH,
   nitroPct,
   activeNPC,
+  activeMinigame,
   showGoal,
   isMuted,
   onToggleMute,
   onOpenPhone,
   onInteractNPC,
+  onCancelMinigame,
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
@@ -86,7 +90,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
         <button
           onClick={handleExitGame}
           className="pointer-events-auto group flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-slate-900/90 hover:bg-red-950/90 border border-white/20 hover:border-red-500/50 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
-          title="Keluar dari Game ke Web"
+          title="Exit Game to Web"
         >
           <ArrowLeft className="w-4 h-4 text-emerald-400 group-hover:text-red-400 group-hover:-translate-x-1 transition-transform" />
           <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 group-hover:bg-red-400 animate-pulse" />
@@ -159,6 +163,92 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
       </div>
 
       {/* ================================================================= */}
+      {/* ACTIVE ARCADE MINIGAME HUD BANNER                                 */}
+      {/* ================================================================= */}
+      {activeMinigame && (
+        <div className="absolute top-20 sm:top-24 inset-x-0 flex justify-center pointer-events-auto px-4 z-40 animate-in slide-in-from-top-4 duration-300">
+          <div className="w-full max-w-xl bg-[#070d18]/95 backdrop-blur-2xl border-[3px] border-amber-400/80 rounded-2xl sm:rounded-3xl p-4 sm:p-5 shadow-[0_16px_40px_rgba(0,0,0,0.9),inset_0_0_20px_rgba(245,158,11,0.2)] text-white space-y-3 relative">
+            {/* Corner Rivets */}
+            <div className="absolute top-2 left-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
+            <div className="absolute top-2 right-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
+            <div className="absolute bottom-2 left-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
+            <div className="absolute bottom-2 right-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
+
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping" />
+                <span className="text-[10px] font-mono font-black uppercase tracking-widest px-2.5 py-0.5 rounded bg-amber-400 text-slate-950 shadow">
+                  1P ARCADE TRIAL
+                </span>
+                <h4 className="font-black font-display text-sm sm:text-base text-amber-300 tracking-wide">
+                  {activeMinigame.title}
+                </h4>
+              </div>
+
+              <div className="flex items-center gap-2.5">
+                {/* Digital LED Timer */}
+                <div
+                  className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-mono font-black text-xs sm:text-sm border-2 ${
+                    activeMinigame.timeLeft <= 10
+                      ? "bg-red-950/80 text-red-400 border-red-500 shadow-[0_0_12px_rgba(239,68,68,0.5)] animate-pulse"
+                      : "bg-slate-950 text-cyan-300 border-cyan-400/60 shadow-[0_0_10px_rgba(6,182,212,0.3)]"
+                  }`}
+                >
+                  <span className="text-xs">⏱️</span>
+                  <span>{Math.max(0, activeMinigame.timeLeft).toFixed(1)}s</span>
+                </div>
+
+                {/* Abort button */}
+                {activeMinigame.status === "playing" && (
+                  <button
+                    onClick={onCancelMinigame}
+                    className="px-2.5 py-1 rounded-xl bg-slate-900 hover:bg-red-950 text-slate-400 hover:text-red-300 border border-white/20 text-xs font-mono font-bold transition-all cursor-pointer"
+                    title="Cancel Challenge"
+                  >
+                    ABORT [✕]
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* Instructions & Score Progress */}
+            <div className="space-y-1.5">
+              <div className="flex items-center justify-between text-xs font-mono">
+                <span className="text-slate-300 line-clamp-1">{activeMinigame.instructions}</span>
+                <span className="font-black text-amber-300 ml-2 whitespace-nowrap bg-slate-950 px-2 py-0.5 rounded border border-amber-400/30">
+                  {activeMinigame.score} / {activeMinigame.targetScore} TARGETS
+                </span>
+              </div>
+              <div className="w-full h-3 bg-slate-950 rounded-full overflow-hidden border border-white/20 p-0.5 shadow-inner">
+                <div
+                  className="h-full bg-gradient-to-r from-amber-400 via-yellow-300 to-emerald-400 rounded-full transition-all duration-300 shadow-[0_0_8px_#facc15]"
+                  style={{
+                    width: `${Math.min(100, (activeMinigame.score / activeMinigame.targetScore) * 100)}%`,
+                  }}
+                />
+              </div>
+            </div>
+
+            {/* Victory Toast */}
+            {activeMinigame.status === "won" && (
+              <div className="p-3 rounded-xl bg-emerald-500/20 border-2 border-emerald-400 text-emerald-300 font-black text-center text-xs sm:text-sm animate-bounce flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(16,185,129,0.3)]">
+                <Trophy className="w-4 h-4 fill-current text-amber-300" />
+                <span>CHALLENGE COMPLETE! +5 GOLD TOKENS AWARDED!</span>
+              </div>
+            )}
+
+            {/* Time Up Toast */}
+            {activeMinigame.status === "lost" && (
+              <div className="p-3 rounded-xl bg-red-500/20 border-2 border-red-400 text-red-300 font-black text-center text-xs sm:text-sm animate-pulse flex items-center justify-center gap-2">
+                <span>💥</span>
+                <span>TIME EXPIRED! Talk to the island guide to try again.</span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* ================================================================= */}
       {/* GOAL CELEBRATION ARCADE BANNER                                    */}
       {/* ================================================================= */}
       {showGoal && (
@@ -180,7 +270,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
             className="group px-7 py-3.5 rounded-full bg-slate-900/95 hover:bg-cyan-600 border-2 border-cyan-400/60 text-white font-black text-sm sm:text-base shadow-[0_8px_25px_rgba(6,182,212,0.4)] flex items-center gap-3 active:scale-95 transition-all cursor-pointer"
           >
             <span className="text-2xl animate-pulse">{activeNPC.avatar}</span>
-            <span className="tracking-wide">BICARA DENGAN {activeNPC.name.toUpperCase()}</span>
+            <span className="tracking-wide">TALK TO {activeNPC.name.toUpperCase()}</span>
             <span className="px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-black font-mono text-xs shadow-inner">
               [E]
             </span>
@@ -214,7 +304,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
             <div className="flex items-center justify-between border-b border-white/10 pb-4">
               <h3 className="text-xl font-black font-display flex items-center gap-2.5 text-cyan-300">
                 <Compass className="w-6 h-6 text-cyan-400" />
-                PANDUAN D LUCKY WORLD 3D
+                D LUCKY WORLD 3D GUIDE
               </h3>
               <button
                 onClick={() => setShowHelp(false)}
@@ -230,7 +320,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   1
                 </span>
                 <p>
-                  <strong>Eksplorasi Kepulauan:</strong> Gunakan tombol <code className="bg-slate-800 px-1.5 py-0.5 rounded text-emerald-400 font-bold">WASD</code> atau layar sentuh untuk bergerak bebas.
+                  <strong>Archipelago Exploration:</strong> Use <code className="bg-slate-800 px-1.5 py-0.5 rounded text-emerald-400 font-bold">WASD</code> or touch controls to move freely.
                 </p>
               </div>
               <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-950/60 border border-white/10">
@@ -238,7 +328,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   2
                 </span>
                 <p>
-                  <strong>Cyber Jet Ski:</strong> Di darat Milo berlari; saat masuk ke lautan, Milo otomatis mengendarai <em>Cyber Jet Ski</em> berkecepatan tinggi!
+                  <strong>Swimming &amp; Running:</strong> Milo sprints across islands on foot and automatically swims gracefully when entering the ocean!
                 </p>
               </div>
               <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-950/60 border border-white/10">
@@ -246,7 +336,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   3
                 </span>
                 <p>
-                  <strong>Smartphone Hub:</strong> Klik <code className="bg-slate-800 px-1.5 py-0.5 rounded text-cyan-400 font-bold">Phone Hub</code> di kanan bawah untuk <strong>Minimap GPS &amp; Fast Travel Teleport</strong>.
+                  <strong>Smartphone Hub:</strong> Tap <code className="bg-slate-800 px-1.5 py-0.5 rounded text-cyan-400 font-bold">Phone Hub</code> on the bottom-right for <strong>GPS Minimap &amp; Fast Travel</strong>.
                 </p>
               </div>
               <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-950/60 border border-white/10">
@@ -254,7 +344,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   4
                 </span>
                 <p>
-                  <strong>Beach Soccer Stadium:</strong> Tabrak bola sepak raksasa masuk ke dalam gawang untuk mencetak gol!
+                  <strong>Beach Soccer Stadium:</strong> Dribble and strike the giant soccer ball into the goal to score!
                 </p>
               </div>
             </div>
@@ -263,7 +353,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
               onClick={() => setShowHelp(false)}
               className="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 text-slate-950 font-black text-base shadow-[0_6px_20px_rgba(16,185,129,0.4)] border-b-4 border-emerald-700 active:border-b-0 active:translate-y-1 transition-all cursor-pointer"
             >
-              SIAP MENJELAJAH!
+              READY TO EXPLORE!
             </button>
           </div>
         </div>

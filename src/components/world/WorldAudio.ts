@@ -224,6 +224,63 @@ export class WorldAudio {
   }
 
   /**
+   * Sound: Arcade Objective Chime (Crystal clear ascending bell chime)
+   */
+  public playChime() {
+    if (this.isMuted) return;
+    const ctx = this.initContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const notes = [880, 1174.66, 1760]; // A5 -> D6 -> A6
+    notes.forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(freq, now + idx * 0.06);
+
+      gain.gain.setValueAtTime(0.18, now + idx * 0.06);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.06 + 0.35);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(now + idx * 0.06);
+      osc.stop(now + idx * 0.06 + 0.35);
+    });
+  }
+
+  /**
+   * Sound: Arcade Challenge Victory Fanfare
+   */
+  public playVictory() {
+    if (this.isMuted) return;
+    const ctx = this.initContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const melody = [523.25, 659.25, 783.99, 1046.5, 1318.51];
+    melody.forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "triangle";
+      osc.frequency.setValueAtTime(freq, now + idx * 0.1);
+
+      gain.gain.setValueAtTime(0, now + idx * 0.1);
+      gain.gain.linearRampToValueAtTime(0.24, now + idx * 0.1 + 0.03);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 1.5);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(now + idx * 0.1);
+      osc.stop(now + 1.5);
+    });
+  }
+
+  /**
    * Sound: Gentle tactile footstep on turf / wood / sand
    */
   public playFootstep() {

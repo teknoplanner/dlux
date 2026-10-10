@@ -37,29 +37,29 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
   const quests: Quest[] = [
     {
       id: "moba",
-      title: "Pedang Suci MOBA",
-      desc: "Kunjungi MOBA Sanctuary dan bicara dengan Valen the Knight.",
+      title: "Holy Blade of MOBA",
+      desc: "Visit MOBA Sanctuary and speak with Valen the Knight.",
       reward: "+50 EXP",
       completed: !!completedQuests["moba"],
     },
     {
       id: "soccer",
-      title: "Tendangan Kelas Dunia",
-      desc: "Cetak 1 gol di Soccer Arena bay dengan menabrak bola ke gawang.",
+      title: "World Class Striker",
+      desc: "Score 1 goal in Soccer Arena bay by driving the ball into the net.",
       reward: "+100 EXP",
       completed: !!completedQuests["soccer"],
     },
     {
       id: "airdrop",
-      title: "Pemburu Airdrop",
-      desc: "Jelajahi Battle Royale Outpost dan temukan kotak airdrop berparasut.",
+      title: "Airdrop Hunter",
+      desc: "Explore Battle Royale Outpost and find the parachuted airdrop crate.",
       reward: "+50 EXP",
       completed: !!completedQuests["airdrop"],
     },
     {
       id: "tokens",
-      title: "Kolektor Token Arcade",
-      desc: "Kumpulkan minimal 15 koin token arcade di seluruh kepulauan.",
+      title: "Arcade Token Collector",
+      desc: "Collect at least 15 arcade token coins across the archipelago.",
       reward: "+100 EXP",
       completed: !!completedQuests["tokens"],
     },
@@ -197,7 +197,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             <div className="space-y-3">
               <div className="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                <span>Misi Kepulauan ({quests.filter((q) => q.completed).length}/{quests.length})</span>
+                <span>Archipelago Quests ({quests.filter((q) => q.completed).length}/{quests.length})</span>
               </div>
               {quests.map((q) => (
                 <div
