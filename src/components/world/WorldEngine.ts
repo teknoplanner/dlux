@@ -34,6 +34,31 @@ export interface EngineCallbacks {
   onQuestProgress?: (questId: string) => void;
 }
 
+export interface SolidCollider {
+  x: number;
+  z: number;
+  radius: number;
+  label?: string;
+}
+
+export interface BridgeData {
+  p1: THREE.Vector3;
+  p2: THREE.Vector3;
+  width: number;
+  height: number;
+}
+
+function distanceToSegment2D(px: number, pz: number, x1: number, z1: number, x2: number, z2: number): number {
+  const dx = x2 - x1;
+  const dz = z2 - z1;
+  const lenSq = dx * dx + dz * dz;
+  if (lenSq === 0) return Math.hypot(px - x1, pz - z1);
+  const t = Math.max(0, Math.min(1, ((px - x1) * dx + (pz - z1) * dz) / lenSq));
+  const projX = x1 + t * dx;
+  const projZ = z1 + t * dz;
+  return Math.hypot(px - projX, pz - projZ);
+}
+
 // =============================================================================
 // PROCEDURAL CANVAS TEXTURE GENERATORS
 // =============================================================================
@@ -165,7 +190,6 @@ export class WorldEngine {
   // Milo Space Hero Cat Model
   public playerGroup: THREE.Group;
   private catMeshGroup: THREE.Group;
-  private jetSkiGroup: THREE.Group;
   private leftLeg: THREE.Group | null = null;
   private rightLeg: THREE.Group | null = null;
   private leftArm: THREE.Group | null = null;
@@ -175,15 +199,18 @@ export class WorldEngine {
   private earR: THREE.Mesh | null = null;
   private tailGroup: THREE.Group | null = null;
   private bubbleHelmet: THREE.Mesh | null = null;
-  private jetSkiThrusters: THREE.Mesh[] = [];
+
+  // Solid Colliders & Connecting Bridges
+  private colliders: SolidCollider[] = [];
+  private bridges: BridgeData[] = [];
 
   // Movement & Camera Physics
-  public playerPos: THREE.Vector3 = new THREE.Vector3(0, 0.4, 0);
+  public playerPos: THREE.Vector3 = new THREE.Vector3(0, 4.75, 0);
   public playerVel: THREE.Vector3 = new THREE.Vector3(0, 0, 0);
   public playerRotY: number = 0;
   public currentSpeed: number = 0;
-  public maxSpeed: number = 26;
-  public acceleration: number = 36;
+  public maxSpeed: number = 24;
+  public acceleration: number = 34;
   public deceleration: number = 22;
   public turnSpeed: number = 3.2;
   public isGrounded: boolean = true;
@@ -195,8 +222,7 @@ export class WorldEngine {
   private currentTurnSpeed: number = 0;
   private currentBankZ: number = 0;
   private currentPitchX: number = 0;
-  private stuntSpin: number = 0;
-  private cameraLookAt: THREE.Vector3 = new THREE.Vector3(0, 1.4, 0);
+  private cameraLookAt: THREE.Vector3 = new THREE.Vector3(0, 5.8, 0);
 
   // Environment Meshes
   private waterGeometry: THREE.PlaneGeometry | null = null;
@@ -231,11 +257,11 @@ export class WorldEngine {
 
   // POIs
   public pois: IslandPOI[] = [
-    { id: "hub", name: "Central Plaza", pos: new THREE.Vector3(0, 0.5, 0), desc: "The vibrant heart of the archipelago", tag: "START" },
-    { id: "moba", name: "MOBA Sanctuary", pos: new THREE.Vector3(-70, 2, -65), desc: "Ancient Champions Monolith & Amethyst Crystal", tag: "ARENA" },
-    { id: "br", name: "Battle Royale Outpost", pos: new THREE.Vector3(75, 2, -60), desc: "Coastal Lighthouse, Airdrop & Stunt Ramps", tag: "SURVIVAL" },
-    { id: "voxel", name: "Voxel Sandbox Bay", pos: new THREE.Vector3(-65, 2, 70), desc: "Terraced Cubic Hills & Pixel Palms", tag: "SANDBOX" },
-    { id: "soccer", name: "Arcade Soccer Arena", pos: new THREE.Vector3(65, 0.5, 65), desc: "Beach Stadium, Bleachers & Giant Ball", tag: "SPORTS" },
+    { id: "hub", name: "Central Plaza", pos: new THREE.Vector3(0, 4.75, 0), desc: "The vibrant heart of the archipelago", tag: "START" },
+    { id: "moba", name: "MOBA Sanctuary", pos: new THREE.Vector3(-70, 6.6, -65), desc: "Ancient Champions Monolith & Amethyst Crystal", tag: "ARENA" },
+    { id: "br", name: "Battle Royale Outpost", pos: new THREE.Vector3(75, 7.0, -60), desc: "Coastal Lighthouse, Airdrop & Cliff Boardwalk", tag: "SURVIVAL" },
+    { id: "voxel", name: "Voxel Sandbox Bay", pos: new THREE.Vector3(-65, 4.7, 70), desc: "Terraced Cubic Hills & Pixel Palms", tag: "SANDBOX" },
+    { id: "soccer", name: "Arcade Soccer Arena", pos: new THREE.Vector3(65, 2.38, 65), desc: "Beach Stadium, Bleachers & Giant Ball", tag: "SPORTS" },
   ];
 
   // NPCs
@@ -245,12 +271,12 @@ export class WorldEngine {
       name: "Lexa the Explorer",
       title: "Archipelago Navigator",
       island: "Central Plaza",
-      pos: new THREE.Vector3(6, 4.4, 5),
+      pos: new THREE.Vector3(6, 4.6, 5),
       avatar: "🧭",
       dialogue: [
         "Halo Milo! Selamat datang di Coastal Gaming Archipelago!",
-        "Setiap pulau mewakili dunia game: MOBA, Battle Royale, Voxel Sandbox, dan Beach Soccer.",
-        "Kendarai Cyber Jet Ski di ombak, kumpulkan 30 token emas, dan cetak gol spektakuler!"
+        "Kamu bisa berjalan dan berlari melintasi jembatan kayu penghubung pulau MOBA, Battle Royale, Voxel, dan Soccer.",
+        "Kumpulkan 30 token emas, bicara dengan penjaga pulau, dan cetak gol spektakuler di stadion pantai!"
       ],
     },
     {
@@ -258,7 +284,7 @@ export class WorldEngine {
       name: "Valen the Knight",
       title: "MOBA Grandmaster",
       island: "MOBA Sanctuary",
-      pos: new THREE.Vector3(-66, 1.8, -60),
+      pos: new THREE.Vector3(-66, 6.6, -60),
       avatar: "⚔️",
       dialogue: [
         "Salam, pahlawan angkasa! Kamu berdiri di depan Monolith of Ancients.",
@@ -271,11 +297,11 @@ export class WorldEngine {
       name: "Jax the Ranger",
       title: "Survival Outpost Ace",
       island: "Battle Royale Outpost",
-      pos: new THREE.Vector3(70, 1.8, -55),
+      pos: new THREE.Vector3(70, 7.0, -55),
       avatar: "🪂",
       dialogue: [
         "Waspada! Peti airdrop legendaris baru saja mendarat di tebing mercusuar.",
-        "Tancap gas nitro di tanjakan kayu untuk melakukan lompatan akrobatik melintasi teluk!",
+        "Lari kencang dengan tombol Shift untuk melintasi jembatan kayu ke pos pengamatan!",
         "Terus bergerak cepat — kemenangan hanya milik yang berani!"
       ],
     },
@@ -284,7 +310,7 @@ export class WorldEngine {
       name: "Striker Leo",
       title: "Beach Stadium Champion",
       island: "Arcade Soccer Arena",
-      pos: new THREE.Vector3(60, 1.2, 58),
+      pos: new THREE.Vector3(60, 3.0, 58),
       avatar: "⚽",
       dialogue: [
         "Hei Milo! Selamat datang di Arcade Beach Soccer Arena!",
@@ -355,12 +381,10 @@ export class WorldEngine {
     this.buildOcean();
     this.buildArchipelago();
 
-    // 6. Milo Space Hero Cat & Cyber Jet Ski
+    // 6. Milo Space Hero Cat (Walking on Foot!)
     this.playerGroup = new THREE.Group();
     this.catMeshGroup = this.buildMiloAvatar();
-    this.jetSkiGroup = this.buildJetSki();
     this.playerGroup.add(this.catMeshGroup);
-    this.playerGroup.add(this.jetSkiGroup);
     this.scene.add(this.playerGroup);
 
     // 7. Spawn Collectibles, Soccer Arena & Animated NPCs
@@ -513,6 +537,7 @@ export class WorldEngine {
 
       this.scene.add(buoy);
       this.maritimeBuoys.push(buoy);
+      this.colliders.push({ x: bx, z: bz, radius: 1.2, label: "buoy" });
     });
   }
 
@@ -578,6 +603,9 @@ export class WorldEngine {
       grassColor: 0x22c55e,
     });
     this.addSoccerStadiumProps(new THREE.Vector3(65, 0, 65));
+
+    // 6. Connect All Islands with Walkable Wooden Bridges
+    this.buildConnectingBridges();
   }
 
   private createOrganicIsland(cfg: { center: THREE.Vector3; radius: number; height: number; sandColor: number; grassColor: number }) {
@@ -620,6 +648,7 @@ export class WorldEngine {
     trunk.rotation.z = (Math.random() - 0.5) * 0.22;
     trunk.castShadow = true;
     this.scene.add(trunk);
+    this.colliders.push({ x, z, radius: 0.65, label: "palm" });
 
     const leavesMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.65, flatShading: true });
     for (let j = 0; j < 5; j++) {
@@ -647,6 +676,7 @@ export class WorldEngine {
     rock.castShadow = true;
     rock.receiveShadow = true;
     this.scene.add(rock);
+    this.colliders.push({ x, z, radius: 1.1, label: "rock" });
   }
 
   private createBeachUmbrella(x: number, z: number, y: number, colorA: number, colorB: number) {
@@ -668,6 +698,7 @@ export class WorldEngine {
     chair.rotation.y = 0.3;
     chair.castShadow = true;
     this.scene.add(chair);
+    this.colliders.push({ x, z, radius: 1.2, label: "umbrella" });
   }
 
   private createWoodenPier(start: THREE.Vector3, rotY: number, length: number = 8) {
@@ -700,6 +731,7 @@ export class WorldEngine {
     trophy.position.set(center.x, 6.1, center.z);
     trophy.castShadow = true;
     this.scene.add(trophy);
+    this.colliders.push({ x: center.x, z: center.z, radius: 1.6, label: "trophy" });
 
     this.createWoodenPier(new THREE.Vector3(0, 0, -28), 0, 10);
     this.createBeachUmbrella(center.x - 12, center.z + 18, 0.4, 0xf43f5e, 0x38bdf8);
@@ -718,6 +750,7 @@ export class WorldEngine {
     blade.rotation.z = 0.15;
     blade.castShadow = true;
     this.scene.add(blade);
+    this.colliders.push({ x: center.x, z: center.z, radius: 2.0, label: "monolith" });
 
     this.mobaCrystal = new THREE.Mesh(
       new THREE.OctahedronGeometry(2.4, 0),
@@ -726,14 +759,18 @@ export class WorldEngine {
     this.mobaCrystal.position.set(center.x + 8, 8.5, center.z + 6);
     this.mobaCrystal.castShadow = true;
     this.scene.add(this.mobaCrystal);
+    this.colliders.push({ x: center.x + 8, z: center.z + 6, radius: 1.5, label: "crystal" });
 
     const ruinMat = new THREE.MeshStandardMaterial({ color: 0x94a3b8, roughness: 0.8 });
     for (let p = 0; p < 4; p++) {
       const angle = (p / 4) * Math.PI * 2;
+      const px = center.x + Math.cos(angle) * 12;
+      const pz = center.z + Math.sin(angle) * 12;
       const pillar = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.6, 4.5, 8), ruinMat);
-      pillar.position.set(center.x + Math.cos(angle) * 12, 7.5, center.z + Math.sin(angle) * 12);
+      pillar.position.set(px, 7.5, pz);
       pillar.castShadow = true;
       this.scene.add(pillar);
+      this.colliders.push({ x: px, z: pz, radius: 0.85, label: "pillar" });
     }
   }
 
@@ -742,6 +779,7 @@ export class WorldEngine {
     lhBase.position.set(center.x - 8, 14, center.z - 8);
     lhBase.castShadow = true;
     this.scene.add(lhBase);
+    this.colliders.push({ x: center.x - 8, z: center.z - 8, radius: 3.2, label: "lighthouse" });
 
     const redBand = new THREE.Mesh(new THREE.CylinderGeometry(2.4, 2.6, 3.5, 16), new THREE.MeshStandardMaterial({ color: 0xdc2626, roughness: 0.5 }));
     redBand.position.set(center.x - 8, 14, center.z - 8);
@@ -761,6 +799,7 @@ export class WorldEngine {
     crate.position.set(center.x + 6, 8.8, center.z + 6);
     crate.castShadow = true;
     this.scene.add(crate);
+    this.colliders.push({ x: center.x + 6, z: center.z + 6, radius: 2.2, label: "crate" });
 
     const chute = new THREE.Mesh(new THREE.ConeGeometry(5.5, 2.8, 14, 1, true), new THREE.MeshStandardMaterial({ color: 0xfacc15, side: THREE.DoubleSide }));
     chute.position.set(center.x + 6, 13.5, center.z + 6);
@@ -802,10 +841,12 @@ export class WorldEngine {
 
     const benchMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.5 });
     for (let b = 0; b < 3; b++) {
+      const bx = center.x - 13 - b * 2.2;
       const bench = new THREE.Mesh(new THREE.BoxGeometry(2.0, 0.6 * (b + 1), 24), benchMat);
-      bench.position.set(center.x - 13 - b * 2.2, 2.3 + (0.6 * (b + 1)) / 2, center.z);
+      bench.position.set(bx, 2.3 + (0.6 * (b + 1)) / 2, center.z);
       bench.castShadow = true;
       this.scene.add(bench);
+      this.colliders.push({ x: bx, z: center.z, radius: 1.8, label: "bench" });
     }
   }
 
@@ -818,6 +859,67 @@ export class WorldEngine {
     ramp.castShadow = true;
     ramp.receiveShadow = true;
     this.scene.add(ramp);
+  }
+
+  // =========================================================================
+  // CONNECTING WOODEN BRIDGES (Archipelago Land Links)
+  // =========================================================================
+  private buildConnectingBridges() {
+    // 1. Central Plaza (Hub) <-> MOBA Sanctuary
+    this.createBridgeSegment(new THREE.Vector3(-18, 0, -18), new THREE.Vector3(-52, 0, -50));
+    // 2. Central Plaza (Hub) <-> Battle Royale Outpost
+    this.createBridgeSegment(new THREE.Vector3(18, 0, -16), new THREE.Vector3(56, 0, -45));
+    // 3. Central Plaza (Hub) <-> Voxel Sandbox Bay
+    this.createBridgeSegment(new THREE.Vector3(-16, 0, 18), new THREE.Vector3(-48, 0, 52));
+    // 4. Central Plaza (Hub) <-> Arcade Soccer Arena
+    this.createBridgeSegment(new THREE.Vector3(16, 0, 18), new THREE.Vector3(48, 0, 48));
+  }
+
+  private createBridgeSegment(p1: THREE.Vector3, p2: THREE.Vector3) {
+    const dist = Math.hypot(p2.x - p1.x, p2.z - p1.z);
+    const angle = Math.atan2(p2.x - p1.x, p2.z - p1.z);
+    const midX = (p1.x + p2.x) / 2;
+    const midZ = (p1.z + p2.z) / 2;
+
+    const bridgeGroup = new THREE.Group();
+    bridgeGroup.position.set(midX, 1.4, midZ);
+    bridgeGroup.rotation.y = angle;
+
+    const woodMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.8 });
+    const deck = new THREE.Mesh(new THREE.BoxGeometry(4.0, 0.28, dist), woodMat);
+    deck.receiveShadow = true;
+    bridgeGroup.add(deck);
+
+    const railMat = new THREE.MeshStandardMaterial({ color: 0xb45309, roughness: 0.7 });
+    const railL = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.45, dist), railMat);
+    railL.position.set(-1.9, 0.35, 0);
+    bridgeGroup.add(railL);
+
+    const railR = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.45, dist), railMat);
+    railR.position.set(1.9, 0.35, 0);
+    bridgeGroup.add(railR);
+
+    // Support Pilings & Warm Lanterns
+    const postMat = new THREE.MeshStandardMaterial({ color: 0x451a03, roughness: 0.9 });
+    const lanternMat = new THREE.MeshStandardMaterial({ color: 0xfef08a, emissive: 0xfacc15, emissiveIntensity: 0.8 });
+    const steps = Math.max(3, Math.floor(dist / 14));
+    for (let i = 0; i <= steps; i++) {
+      const zOffset = (i / steps - 0.5) * dist;
+      for (const s of [-1.9, 1.9]) {
+        const post = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.16, 3.2, 8), postMat);
+        post.position.set(s, -0.6, zOffset);
+        bridgeGroup.add(post);
+
+        if (i % 2 === 0) {
+          const lamp = new THREE.Mesh(new THREE.SphereGeometry(0.18, 8, 8), lanternMat);
+          lamp.position.set(s, 0.7, zOffset);
+          bridgeGroup.add(lamp);
+        }
+      }
+    }
+
+    this.scene.add(bridgeGroup);
+    this.bridges.push({ p1, p2, width: 4.0, height: 1.4 });
   }
 
   // =========================================================================
@@ -844,27 +946,27 @@ export class WorldEngine {
     suitVest.position.y = 1.02;
     torso.add(suitVest);
 
-    // White Belly Patch
+    // White Belly Patch (Front facing -Z)
     const belly = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.55, 0.22), whiteMat);
-    belly.position.set(0, 0.98, 0.44);
+    belly.position.set(0, 0.98, -0.44);
     torso.add(belly);
 
-    // Golden Cat Hero Emblem on Chest
+    // Golden Cat Hero Emblem on Chest (Front facing -Z)
     const emblem = new THREE.Mesh(new THREE.BoxGeometry(0.18, 0.18, 0.1), goldMat);
-    emblem.position.set(0, 1.15, 0.48);
+    emblem.position.set(0, 1.15, -0.48);
     torso.add(emblem);
 
-    // Astronaut Jetpack on Back (with Dual Thruster Nozzles)
+    // Astronaut Jetpack on Back (Rear facing +Z towards camera)
     const jetpack = new THREE.Mesh(new THREE.BoxGeometry(0.55, 0.65, 0.3), suitCollarMat);
-    jetpack.position.set(0, 1.05, -0.45);
+    jetpack.position.set(0, 1.05, 0.45);
     torso.add(jetpack);
 
     const nozzleL = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.14, 0.25, 8), new THREE.MeshStandardMaterial({ color: 0x334155, metalness: 0.8 }));
-    nozzleL.position.set(-0.16, 0.65, -0.45);
+    nozzleL.position.set(-0.16, 0.65, 0.45);
     torso.add(nozzleL);
 
     const nozzleR = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.14, 0.25, 8), new THREE.MeshStandardMaterial({ color: 0x334155, metalness: 0.8 }));
-    nozzleR.position.set(0.16, 0.65, -0.45);
+    nozzleR.position.set(0.16, 0.65, 0.45);
     torso.add(nozzleR);
 
     cat.add(torso);
@@ -876,18 +978,19 @@ export class WorldEngine {
     const faceTex = createMiloFaceTexture();
     const faceMat = new THREE.MeshStandardMaterial({ map: faceTex, roughness: 0.65 });
     const head = new THREE.Mesh(new THREE.SphereGeometry(0.56, 24, 24), faceMat);
+    head.rotation.y = Math.PI / 2; // Face texture maps to front (-Z)
     head.castShadow = true;
     this.headGroup.add(head);
 
-    // White Muzzle & Pink Nose
+    // White Muzzle & Pink Nose (Front facing -Z)
     const muzzle = new THREE.Mesh(new THREE.SphereGeometry(0.24, 14, 14), whiteMat);
-    muzzle.position.set(0, -0.1, 0.44);
+    muzzle.position.set(0, -0.1, -0.44);
     muzzle.scale.set(1.1, 0.7, 0.8);
     this.headGroup.add(muzzle);
 
     const nose = new THREE.Mesh(new THREE.ConeGeometry(0.07, 0.08, 4), pinkMat);
-    nose.position.set(0, -0.05, 0.6);
-    nose.rotation.x = Math.PI / 2;
+    nose.position.set(0, -0.05, -0.6);
+    nose.rotation.x = -Math.PI / 2;
     this.headGroup.add(nose);
 
     // Cat Ears
@@ -896,7 +999,7 @@ export class WorldEngine {
     earLGroup.rotation.z = 0.25;
     this.earL = new THREE.Mesh(new THREE.ConeGeometry(0.2, 0.38, 5), furMat);
     const innerL = new THREE.Mesh(new THREE.ConeGeometry(0.12, 0.26, 4), pinkMat);
-    innerL.position.set(0, -0.02, 0.06);
+    innerL.position.set(0, -0.02, -0.06);
     earLGroup.add(this.earL);
     earLGroup.add(innerL);
     this.headGroup.add(earLGroup);
@@ -906,7 +1009,7 @@ export class WorldEngine {
     earRGroup.rotation.z = -0.25;
     this.earR = new THREE.Mesh(new THREE.ConeGeometry(0.2, 0.38, 5), furMat);
     const innerR = new THREE.Mesh(new THREE.ConeGeometry(0.12, 0.26, 4), pinkMat);
-    innerR.position.set(0, -0.02, 0.06);
+    innerR.position.set(0, -0.02, -0.06);
     earRGroup.add(this.earR);
     earRGroup.add(innerR);
     this.headGroup.add(earRGroup);
@@ -923,7 +1026,7 @@ export class WorldEngine {
       clearcoat: 1.0,
     });
     this.bubbleHelmet = new THREE.Mesh(new THREE.SphereGeometry(0.74, 28, 28), helmetMat);
-    this.bubbleHelmet.position.set(0, 0.06, 0.05);
+    this.bubbleHelmet.position.set(0, 0.06, -0.05);
     this.headGroup.add(this.bubbleHelmet);
 
     // Helmet Collar Ring
@@ -945,7 +1048,7 @@ export class WorldEngine {
     this.leftLeg.add(legMeshL);
 
     const pawL = new THREE.Mesh(pawGeo, whiteMat);
-    pawL.position.set(0, -0.6, 0.06);
+    pawL.position.set(0, -0.6, -0.06);
     pawL.scale.set(1.0, 0.7, 1.2);
     this.leftLeg.add(pawL);
     cat.add(this.leftLeg);
@@ -958,7 +1061,7 @@ export class WorldEngine {
     this.rightLeg.add(legMeshR);
 
     const pawR = new THREE.Mesh(pawGeo, whiteMat);
-    pawR.position.set(0, -0.6, 0.06);
+    pawR.position.set(0, -0.6, -0.06);
     pawR.scale.set(1.0, 0.7, 1.2);
     this.rightLeg.add(pawR);
     cat.add(this.rightLeg);
@@ -974,7 +1077,7 @@ export class WorldEngine {
     this.leftArm.add(armMeshL);
 
     const handPawL = new THREE.Mesh(pawGeo, whiteMat);
-    handPawL.position.set(0, -0.55, 0.04);
+    handPawL.position.set(0, -0.55, -0.04);
     handPawL.scale.set(0.9, 0.7, 1.0);
     this.leftArm.add(handPawL);
     cat.add(this.leftArm);
@@ -987,99 +1090,26 @@ export class WorldEngine {
     this.rightArm.add(armMeshR);
 
     const handPawR = new THREE.Mesh(pawGeo, whiteMat);
-    handPawR.position.set(0, -0.55, 0.04);
+    handPawR.position.set(0, -0.55, -0.04);
     handPawR.scale.set(0.9, 0.7, 1.0);
     this.rightArm.add(handPawR);
     cat.add(this.rightArm);
 
-    // 5. Tail (Striped Tabby Cat Tail)
+    // 5. Tail (Striped Tabby Cat Tail on Back facing +Z)
     this.tailGroup = new THREE.Group();
-    this.tailGroup.position.set(0, 0.75, -0.48);
+    this.tailGroup.position.set(0, 0.75, 0.48);
 
     const tailBase = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.11, 0.45, 8), furMat);
-    tailBase.position.set(0, 0.1, -0.15);
-    tailBase.rotation.x = -0.8;
+    tailBase.position.set(0, 0.1, 0.15);
+    tailBase.rotation.x = 0.8;
     this.tailGroup.add(tailBase);
 
     const tailTip = new THREE.Mesh(new THREE.SphereGeometry(0.12, 8, 8), whiteMat);
-    tailTip.position.set(0, 0.25, -0.35);
+    tailTip.position.set(0, 0.25, 0.35);
     this.tailGroup.add(tailTip);
     cat.add(this.tailGroup);
 
     return cat;
-  }
-
-  private buildJetSki(): THREE.Group {
-    const ski = new THREE.Group();
-    const hullMat = new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.25, metalness: 0.85 });
-    const cyanNeonMat = new THREE.MeshStandardMaterial({
-      color: 0x06b6d4,
-      emissive: 0x0891b2,
-      emissiveIntensity: 0.9,
-      roughness: 0.1,
-    });
-    const orangeNeonMat = new THREE.MeshStandardMaterial({
-      color: 0xf97316,
-      emissive: 0xea580c,
-      emissiveIntensity: 1.0,
-    });
-
-    const hullGeo = new THREE.ConeGeometry(1.25, 3.8, 6);
-    hullGeo.rotateX(Math.PI / 2);
-    const hull = new THREE.Mesh(hullGeo, hullMat);
-    hull.position.set(0, 0.32, 0.2);
-    hull.scale.set(1.05, 0.44, 1.0);
-    hull.castShadow = true;
-    ski.add(hull);
-
-    const shield = new THREE.Mesh(
-      new THREE.BoxGeometry(0.95, 0.42, 0.85),
-      new THREE.MeshStandardMaterial({ color: 0x38bdf8, roughness: 0.1, transparent: true, opacity: 0.85 })
-    );
-    shield.position.set(0, 0.68, 0.6);
-    shield.rotation.x = -0.42;
-    ski.add(shield);
-
-    const bar = new THREE.Mesh(new THREE.BoxGeometry(1.25, 0.1, 0.1), cyanNeonMat);
-    bar.position.set(0, 0.84, 0.55);
-    ski.add(bar);
-
-    const neonGeo = new THREE.BoxGeometry(0.12, 0.14, 2.9);
-    const neonL = new THREE.Mesh(neonGeo, cyanNeonMat);
-    neonL.position.set(-0.95, 0.38, -0.1);
-    ski.add(neonL);
-
-    const neonR = new THREE.Mesh(neonGeo, cyanNeonMat);
-    neonR.position.set(0.95, 0.38, -0.1);
-    ski.add(neonR);
-
-    // Dual Exhaust Thrusters
-    const exhaustGeo = new THREE.CylinderGeometry(0.18, 0.22, 0.45, 8);
-    exhaustGeo.rotateX(Math.PI / 2);
-    const exhaustL = new THREE.Mesh(exhaustGeo, hullMat);
-    exhaustL.position.set(-0.45, 0.32, -1.6);
-    ski.add(exhaustL);
-
-    const exhaustR = new THREE.Mesh(exhaustGeo, hullMat);
-    exhaustR.position.set(0.45, 0.32, -1.6);
-    ski.add(exhaustR);
-
-    const flameGeo = new THREE.ConeGeometry(0.16, 0.85, 6);
-    flameGeo.rotateX(-Math.PI / 2);
-    const flameL = new THREE.Mesh(flameGeo, orangeNeonMat);
-    flameL.position.set(-0.45, 0.32, -2.0);
-    flameL.visible = false;
-    ski.add(flameL);
-
-    const flameR = new THREE.Mesh(flameGeo, orangeNeonMat);
-    flameR.position.set(0.45, 0.32, -2.0);
-    flameR.visible = false;
-    ski.add(flameR);
-
-    this.jetSkiThrusters = [flameL, flameR];
-
-    ski.visible = false;
-    return ski;
   }
 
   // =========================================================================
@@ -1187,6 +1217,7 @@ export class WorldEngine {
 
       this.scene.add(group);
       this.npcMeshMap.set(npc.id, { group, head: headGroup, waveArm, juggledBall });
+      this.colliders.push({ x: npc.pos.x, z: npc.pos.z, radius: 0.95, label: npc.id });
     });
   }
 
@@ -1199,15 +1230,15 @@ export class WorldEngine {
     const tokenMat = new THREE.MeshStandardMaterial({ color: 0xfacc15, emissive: 0xeab308, emissiveIntensity: 0.6, metalness: 0.9, roughness: 0.1 });
 
     const spawnCoords: [number, number, number][] = [
-      [0, 5.2, -6], [0, 5.2, 6], [-6, 5.2, 0], [6, 5.2, 0],
-      [-25, 1.0, -25], [-45, 1.0, -45], [25, 1.0, -25], [45, 1.0, -45],
-      [-25, 1.0, 25], [-45, 1.0, 45], [25, 1.0, 25], [45, 1.0, 45],
-      [-70, 4.5, -55], [-75, 4.5, -70], [-65, 4.5, -75],
-      [75, 5.5, -50], [80, 5.5, -65], [70, 5.5, -75],
-      [-65, 4.0, 60], [-70, 4.0, 75], [-60, 4.0, 80],
-      [60, 2.2, 55], [70, 2.2, 70], [55, 2.2, 75],
-      [-30, 4.0, 0], [30, 4.0, 0], [55, 4.0, -45], [0, 1.0, -40],
-      [0, 1.0, 40], [-40, 1.0, 0], [40, 1.0, 0], [0, 2.0, 0]
+      [0, 5.5, -6], [0, 5.5, 6], [-6, 5.5, 0], [6, 5.5, 0],
+      [-25, 2.2, -25], [-45, 2.2, -45], [25, 2.2, -25], [45, 2.2, -45],
+      [-25, 2.2, 25], [-45, 2.2, 45], [25, 2.2, 25], [45, 2.2, 45],
+      [-70, 7.3, -55], [-75, 7.3, -70], [-65, 7.3, -75],
+      [75, 7.8, -50], [80, 7.8, -65], [70, 7.8, -75],
+      [-65, 5.6, 60], [-70, 5.6, 75], [-60, 5.6, 80],
+      [60, 3.2, 55], [70, 3.2, 70], [55, 3.2, 75],
+      [-30, 5.4, 0], [30, 5.4, 0], [55, 5.4, -45], [0, 2.2, -40],
+      [0, 2.2, 40], [-40, 2.2, 0], [40, 2.2, 0], [0, 5.6, 0]
     ];
 
     spawnCoords.forEach(([x, y, z]) => {
@@ -1226,10 +1257,10 @@ export class WorldEngine {
     const ringMat = new THREE.MeshStandardMaterial({ color: 0x06b6d4, emissive: 0x0891b2, emissiveIntensity: 1.0, roughness: 0.1 });
 
     const ringPositions: [number, number, number, number][] = [
-      [0, 1.8, -45, 0],
-      [0, 1.8, 45, 0],
-      [-45, 1.8, 0, Math.PI / 2],
-      [45, 1.8, 0, Math.PI / 2],
+      [-35, 2.6, -34, -Math.PI / 4],
+      [37, 2.6, -30, Math.PI / 4],
+      [-32, 2.6, 35, Math.PI / 4],
+      [32, 2.6, 33, -Math.PI / 4],
     ];
 
     ringPositions.forEach(([x, y, z, rotY]) => {
@@ -1248,10 +1279,12 @@ export class WorldEngine {
     const postL = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 3.8), postMat);
     postL.position.set(pos.x - 4, 1.9, pos.z + 12);
     this.scene.add(postL);
+    this.colliders.push({ x: pos.x - 4, z: pos.z + 12, radius: 0.4, label: "postL" });
 
     const postR = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 3.8), postMat);
     postR.position.set(pos.x + 4, 1.9, pos.z + 12);
     this.scene.add(postR);
+    this.colliders.push({ x: pos.x + 4, z: pos.z + 12, radius: 0.4, label: "postR" });
 
     const crossbar = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 8.2), postMat);
     crossbar.rotation.z = Math.PI / 2;
@@ -1398,29 +1431,28 @@ export class WorldEngine {
     this.currentTurnSpeed = THREE.MathUtils.lerp(this.currentTurnSpeed, targetTurn * this.turnSpeed, 12 * delta);
     this.playerRotY += this.currentTurnSpeed * delta;
 
-    // 2. Snappy Acceleration & Deceleration
+    // 2. Snappy Acceleration & Sprint Dash
     let targetSpeed = 0;
     if (this.inputs.forward) {
       targetSpeed = this.maxSpeed;
     } else if (this.inputs.backward) {
-      targetSpeed = -this.maxSpeed * 0.4;
+      targetSpeed = -this.maxSpeed * 0.45;
     }
 
     if (this.inputs.boost && this.nitro > 0 && this.inputs.forward) {
       targetSpeed *= 1.6;
       this.nitro = Math.max(0, this.nitro - 25 * delta);
       this.isBoosting = true;
-      this.audio.playBoost();
     } else {
       this.nitro = Math.min(100, this.nitro + 12 * delta);
       this.isBoosting = false;
     }
     this.callbacks.onNitroUpdate?.(this.nitro);
 
-    const accelRate = targetSpeed !== 0 ? (targetSpeed > this.currentSpeed ? this.acceleration : this.deceleration) : this.deceleration * 1.5;
+    const accelRate = targetSpeed !== 0 ? (targetSpeed > this.currentSpeed ? this.acceleration : this.deceleration) : this.deceleration * 1.6;
     this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, targetSpeed, Math.min(1, accelRate * 0.25 * delta));
 
-    // Translation
+    // Translation along forward vector (-Z)
     const forwardX = -Math.sin(this.playerRotY) * this.currentSpeed;
     const forwardZ = -Math.cos(this.playerRotY) * this.currentSpeed;
     this.playerVel.x = forwardX;
@@ -1432,155 +1464,131 @@ export class WorldEngine {
     this.playerPos.x = THREE.MathUtils.clamp(this.playerPos.x, -165, 165);
     this.playerPos.z = THREE.MathUtils.clamp(this.playerPos.z, -165, 165);
 
-    // Height & Ground calculation
-    const groundHeight = this.calculateGroundHeight(this.playerPos.x, this.playerPos.z);
-    const waterLevel = 0.2;
+    // 3. SOLID OBSTACLE COLLISION RESOLUTION (Zero clipping through objects!)
+    const playerRadius = 0.55;
+    for (const col of this.colliders) {
+      const dx = this.playerPos.x - col.x;
+      const dz = this.playerPos.z - col.z;
+      const dist = Math.hypot(dx, dz);
+      const minDist = col.radius + playerRadius;
+      if (dist < minDist && dist > 0.0001) {
+        const overlap = minDist - dist;
+        this.playerPos.x += (dx / dist) * overlap;
+        this.playerPos.z += (dz / dist) * overlap;
+      }
+    }
 
-    // Jump & Airborne Stunts
+    // 4. Ground Height & Gravity (Firmly planted on terrain/bridges)
+    const groundHeight = this.calculateGroundHeight(this.playerPos.x, this.playerPos.z);
+
+    // Jump
     if (this.inputs.jump && this.isGrounded) {
-      this.playerVel.y = 13.0;
+      this.playerVel.y = 12.0;
       this.isGrounded = false;
-      this.stuntSpin = Math.PI * 2;
       this.audio.playJump();
     }
 
     if (!this.isGrounded) {
-      this.playerVel.y -= 28 * delta;
+      this.playerVel.y -= 26 * delta;
       this.playerPos.y += this.playerVel.y * delta;
-      if (this.stuntSpin > 0) {
-        this.catMeshGroup.rotation.y += 8 * delta;
-        this.stuntSpin -= 8 * delta;
-      }
       if (this.playerPos.y <= groundHeight) {
         this.playerPos.y = groundHeight;
         this.playerVel.y = 0;
         this.isGrounded = true;
-        this.stuntSpin = 0;
       }
     } else {
-      this.playerPos.y = groundHeight;
+      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, groundHeight, 20 * delta);
     }
 
-    // Water Detection
+    // Water Splash Detection
     const wasOnWater = this.onWater;
-    this.onWater = groundHeight <= waterLevel + 0.1;
+    this.onWater = groundHeight <= 0.45;
     if (!wasOnWater && this.onWater) {
       this.audio.playSplash();
     }
 
-    this.jetSkiGroup.visible = this.onWater;
-
     // Audio & Speedometer
-    this.audio.updateEngineSound(Math.abs(this.currentSpeed), this.onWater);
+    this.audio.updateEngineSound(Math.abs(this.currentSpeed), this.isBoosting);
     this.callbacks.onSpeedUpdate?.(Math.round(Math.abs(this.currentSpeed) * 3.6));
 
-    // Dynamic Banking Roll into turns
-    const targetBank = -this.currentTurnSpeed * 0.18;
+    // Dynamic lean roll into turns
+    const targetBank = -this.currentTurnSpeed * 0.12;
     this.currentBankZ = THREE.MathUtils.lerp(this.currentBankZ, targetBank, 10 * delta);
 
     this.playerGroup.position.copy(this.playerPos);
     this.playerGroup.rotation.y = this.playerRotY;
     this.playerGroup.rotation.z = this.currentBankZ;
+    this.playerGroup.rotation.x = 0;
 
-    // =========================================================================
-    // MILO SQUASH & STRETCH ANIMATION CONTROLLER
-    // =========================================================================
+    // 5. MILO NATURAL RUN & WALK CYCLE CONTROLLER
     const speedRatio = Math.abs(this.currentSpeed) / this.maxSpeed;
 
-    if (this.onWater) {
-      // WATER MODE: JET SKI RIDING STANCE
-      this.catMeshGroup.position.y = 0.28;
-      this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, 0.38, 10 * delta);
+    if (!this.isGrounded) {
+      // In air / jumping
+      if (this.leftLeg) this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, -0.45, 12 * delta);
+      if (this.rightLeg) this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, 0.35, 12 * delta);
+      if (this.leftArm) this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.7, 12 * delta);
+      if (this.rightArm) this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.7, 12 * delta);
+      this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, -0.15, 10 * delta);
+      this.catMeshGroup.scale.set(0.92, 1.12, 0.92);
+    } else if (speedRatio > 0.04) {
+      // Running / Walking on foot
+      const stepRate = this.isBoosting ? 2.4 : 1.6;
+      this.walkCycle += Math.abs(this.currentSpeed) * stepRate * delta;
+
+      const legSwing = Math.sin(this.walkCycle) * (0.65 + speedRatio * 0.35);
+      const armSwing = -Math.sin(this.walkCycle) * (0.55 + speedRatio * 0.35);
+
+      if (this.leftLeg) this.leftLeg.rotation.x = legSwing;
+      if (this.rightLeg) this.rightLeg.rotation.x = -legSwing;
+      if (this.leftArm) this.leftArm.rotation.x = armSwing;
+      if (this.rightArm) this.rightArm.rotation.x = -armSwing;
+
+      // Body bounce and squash
+      const bounce = Math.abs(Math.sin(this.walkCycle)) * 0.12;
+      this.catMeshGroup.position.y = bounce;
+
+      const squash = Math.sin(this.walkCycle * 2) * 0.05;
+      this.catMeshGroup.scale.set(1.0 + squash, 1.0 - squash, 1.0 + squash);
+
+      // Natural forward lean into the run (-Z is forward!)
+      const targetLean = -Math.min(0.24, speedRatio * 0.22);
+      this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, targetLean, 10 * delta);
+      this.catMeshGroup.rotation.y = Math.sin(this.walkCycle * 0.5) * 0.06;
+
+      // Footstep sound on ground contact
+      if (Math.abs(Math.sin(this.walkCycle)) < 0.14) {
+        this.audio.playFootstep();
+      }
+    } else {
+      // Idle standing
+      if (this.leftLeg) this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, 0, 10 * delta);
+      if (this.rightLeg) this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, 0, 10 * delta);
+      if (this.leftArm) this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.05, 10 * delta);
+      if (this.rightArm) this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.05, 10 * delta);
+
+      const breath = Math.sin(time * 2.8) * 0.035;
+      this.catMeshGroup.position.y = breath;
+      this.catMeshGroup.scale.set(1.0, 1.0, 1.0);
+      this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, 0, 10 * delta);
       this.catMeshGroup.rotation.y = THREE.MathUtils.lerp(this.catMeshGroup.rotation.y, 0, 10 * delta);
 
-      if (this.leftArm) this.leftArm.rotation.x = -1.18;
-      if (this.rightArm) this.rightArm.rotation.x = -1.18;
-      if (this.leftLeg) this.leftLeg.rotation.x = -0.75;
-      if (this.rightLeg) this.rightLeg.rotation.x = -0.75;
-
-      const waveBob = Math.sin(time * 3.5 + this.playerPos.x * 0.1) * 0.06;
-      this.playerPos.y = groundHeight + waveBob;
-
-      const targetPitch = -(this.currentSpeed / this.maxSpeed) * 0.16;
-      this.currentPitchX = THREE.MathUtils.lerp(this.currentPitchX, targetPitch, 8 * delta);
-      this.playerGroup.rotation.x = this.currentPitchX;
-
-      this.jetSkiThrusters.forEach((thruster) => {
-        thruster.visible = this.isBoosting;
-        if (this.isBoosting) {
-          thruster.scale.z = 1.0 + Math.sin(time * 30) * 0.3;
-        }
-      });
-    } else {
-      // LAND MODE: SQUASH & STRETCH NATURAL RUN CYCLE
-      this.playerGroup.rotation.x = THREE.MathUtils.lerp(this.playerGroup.rotation.x, 0, 10 * delta);
-
-      if (!this.isGrounded) {
-        if (this.leftLeg) this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, -0.45, 12 * delta);
-        if (this.rightLeg) this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, -0.35, 12 * delta);
-        if (this.leftArm) this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.7, 12 * delta);
-        if (this.rightArm) this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.7, 12 * delta);
-        this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, -0.15, 10 * delta);
-        this.catMeshGroup.scale.set(0.92, 1.12, 0.92);
-      } else if (speedRatio > 0.05) {
-        this.walkCycle += Math.abs(this.currentSpeed) * 1.55 * delta;
-
-        const legSwing = Math.sin(this.walkCycle) * (0.6 + speedRatio * 0.35);
-        const armSwing = -Math.sin(this.walkCycle) * (0.5 + speedRatio * 0.35);
-
-        if (this.leftLeg) this.leftLeg.rotation.x = legSwing;
-        if (this.rightLeg) this.rightLeg.rotation.x = -legSwing;
-        if (this.leftArm) this.leftArm.rotation.x = armSwing;
-        if (this.rightArm) this.rightArm.rotation.x = -armSwing;
-
-        const bounce = Math.abs(Math.sin(this.walkCycle)) * 0.14;
-        this.catMeshGroup.position.y = bounce;
-
-        const squash = Math.sin(this.walkCycle * 2) * 0.06;
-        this.catMeshGroup.scale.set(1.0 + squash, 1.0 - squash, 1.0 + squash);
-
-        const targetLean = Math.min(0.28, speedRatio * 0.25);
-        this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, targetLean, 10 * delta);
-        this.catMeshGroup.rotation.y = Math.sin(this.walkCycle * 0.5) * 0.08;
-      } else {
-        if (this.leftLeg) this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, 0, 10 * delta);
-        if (this.rightLeg) this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, 0, 10 * delta);
-        if (this.leftArm) this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.1, 10 * delta);
-        if (this.rightArm) this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.1, 10 * delta);
-
-        const breath = Math.sin(time * 2.8) * 0.035;
-        this.catMeshGroup.position.y = breath;
-        this.catMeshGroup.scale.set(1.0, 1.0, 1.0);
-        this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, 0, 10 * delta);
-        this.catMeshGroup.rotation.y = THREE.MathUtils.lerp(this.catMeshGroup.rotation.y, 0, 10 * delta);
-
-        if (this.earL) this.earL.rotation.z = 0.25 + Math.sin(time * 2.0) * 0.06;
-        if (this.earR) this.earR.rotation.z = -0.25 - Math.sin(time * 2.5) * 0.06;
-      }
+      if (this.earL) this.earL.rotation.z = 0.25 + Math.sin(time * 2.0) * 0.06;
+      if (this.earR) this.earR.rotation.z = -0.25 - Math.sin(time * 2.5) * 0.06;
     }
 
-    // Tabby Tail Fluid Wag
+    // Tabby tail wagging behind Milo
     if (this.tailGroup) {
       this.tailGroup.rotation.z = Math.sin(time * 4.5 + this.walkCycle) * 0.35;
-      this.tailGroup.rotation.x = -0.6 + speedRatio * 0.5;
+      this.tailGroup.rotation.x = 0.6 - speedRatio * 0.35;
     }
 
-    // Water Wake Particles
-    if (this.onWater && Math.abs(this.currentSpeed) > 3 && this.wakePositions) {
-      this.wakePositions[this.nextWakeIdx * 3] = this.playerPos.x;
-      this.wakePositions[this.nextWakeIdx * 3 + 1] = 0.1;
-      this.wakePositions[this.nextWakeIdx * 3 + 2] = this.playerPos.z;
-      this.nextWakeIdx = (this.nextWakeIdx + 1) % 90;
-      if (this.wakeParticles) {
-        this.wakeParticles.geometry.attributes.position.needsUpdate = true;
-      }
-    }
-
-    // Rainbow Thruster Comet Trail on Boost
+    // Rainbow thruster particles behind Milo when sprinting (jetpack at z = +0.45)
     if (this.isBoosting && this.thrusterPositions) {
-      this.thrusterPositions[this.nextThrusterIdx * 3] = this.playerPos.x + (Math.random() - 0.5) * 0.4;
-      this.thrusterPositions[this.nextThrusterIdx * 3 + 1] = this.playerPos.y + 0.8 + (Math.random() - 0.5) * 0.2;
-      this.thrusterPositions[this.nextThrusterIdx * 3 + 2] = this.playerPos.z + (Math.random() - 0.5) * 0.4;
+      const backOffset = new THREE.Vector3(0, 1.05, 0.5).applyAxisAngle(new THREE.Vector3(0, 1, 0), this.playerRotY);
+      this.thrusterPositions[this.nextThrusterIdx * 3] = this.playerPos.x + backOffset.x + (Math.random() - 0.5) * 0.3;
+      this.thrusterPositions[this.nextThrusterIdx * 3 + 1] = this.playerPos.y + backOffset.y + (Math.random() - 0.5) * 0.2;
+      this.thrusterPositions[this.nextThrusterIdx * 3 + 2] = this.playerPos.z + backOffset.z + (Math.random() - 0.5) * 0.3;
       this.nextThrusterIdx = (this.nextThrusterIdx + 1) % 60;
       if (this.thrusterParticles) {
         this.thrusterParticles.geometry.attributes.position.needsUpdate = true;
@@ -1589,22 +1597,98 @@ export class WorldEngine {
   }
 
   private calculateGroundHeight(x: number, z: number): number {
-    const islands = [
-      { x: 0, z: 0, r: 28, h: 4.6 },
-      { x: -70, z: -65, r: 25, h: 6.4 },
-      { x: 75, z: -60, r: 26, h: 6.8 },
-      { x: -65, z: 70, r: 22, h: 4.8 },
-      { x: 65, z: 65, r: 27, h: 3.0 },
-    ];
-
-    for (const isl of islands) {
-      const dist = Math.hypot(x - isl.x, z - isl.z);
-      if (dist < isl.r) {
-        const factor = (1 - dist / isl.r);
-        return 0.4 + factor * (isl.h - 0.4);
+    // 1. Bridges take precedence when over water
+    let bridgeH = -1;
+    for (const br of this.bridges) {
+      const dist = distanceToSegment2D(x, z, br.p1.x, br.p1.z, br.p2.x, br.p2.z);
+      if (dist <= br.width / 2 + 0.2) {
+        bridgeH = Math.max(bridgeH, br.height + 0.14);
       }
     }
-    return 0.2; // Sea level
+
+    // 2. Pier at Central Plaza
+    if (Math.abs(x) < 1.8 && z >= -34 && z <= -23) {
+      bridgeH = Math.max(bridgeH, 0.8);
+    }
+
+    // 3. Island Terrain Height
+    const islH = this.getIslandHeight(x, z);
+
+    if (bridgeH > 0) {
+      return Math.max(islH, bridgeH);
+    }
+    return islH;
+  }
+
+  private getIslandHeight(x: number, z: number): number {
+    // 1. Central Plaza (0, 0)
+    const dHub = Math.hypot(x, z);
+    if (dHub < 36) {
+      if (dHub <= 10.5) return 4.75; // White paved plaza
+      if (dHub <= 21.0) return 4.6;  // Grass plateau
+      if (dHub <= 28.0) {
+        const t = (dHub - 21.0) / 7.0;
+        return 4.6 * (1 - t) + 1.7 * t; // Slope to sand
+      }
+      const t = Math.min(1, (dHub - 28.0) / 7.0);
+      return 1.7 * (1 - t) + 0.3 * t; // Beach to water
+    }
+
+    // 2. MOBA Sanctuary (-70, -65)
+    const dMOBA = Math.hypot(x - (-70), z - (-65));
+    if (dMOBA < 34) {
+      if (dMOBA <= 18.5) return 6.6; // High altar plateau
+      if (dMOBA <= 25.0) {
+        const t = (dMOBA - 18.5) / 6.5;
+        return 6.6 * (1 - t) + 1.7 * t;
+      }
+      const t = Math.min(1, (dMOBA - 25.0) / 8.0);
+      return 1.7 * (1 - t) + 0.3 * t;
+    }
+
+    // 3. Battle Royale Outpost (75, -60)
+    const dBR = Math.hypot(x - 75, z - (-60));
+    if (dBR < 35) {
+      if (dBR <= 19.2) return 7.0; // Lighthouse plateau
+      if (dBR <= 26.0) {
+        const t = (dBR - 19.2) / 6.8;
+        return 7.0 * (1 - t) + 1.7 * t;
+      }
+      const t = Math.min(1, (dBR - 26.0) / 8.0);
+      return 1.7 * (1 - t) + 0.3 * t;
+    }
+
+    // 4. Arcade Soccer Arena (65, 65)
+    const dSoc = Math.hypot(x - 65, z - 65);
+    if (dSoc < 35) {
+      if (Math.abs(x - 65) <= 11.2 && Math.abs(z - 65) <= 16.2) {
+        return 2.38; // Soccer pitch turf
+      }
+      if (dSoc <= 20.0) return 3.0; // Stadium plateau
+      if (dSoc <= 27.0) {
+        const t = (dSoc - 20.0) / 7.0;
+        return 3.0 * (1 - t) + 1.5 * t;
+      }
+      const t = Math.min(1, (dSoc - 27.0) / 7.0);
+      return 1.5 * (1 - t) + 0.3 * t;
+    }
+
+    // 5. Voxel Sandbox Bay (-65, 70)
+    const dVox = Math.hypot(x - (-65), z - 70);
+    if (dVox < 28) {
+      const gx = Math.round((x - (-65)) / 4.6);
+      const gz = Math.round((z - 70) / 4.6);
+      if (Math.abs(gx) <= 4 && Math.abs(gz) <= 4) {
+        const dGrid = Math.hypot(gx, gz);
+        if (dGrid <= 4.2) {
+          const h = Math.max(1, 4 - Math.floor(dGrid * 0.8));
+          return h * 1.5 + 0.2;
+        }
+      }
+      return 1.0;
+    }
+
+    return 0.3; // Shallow coastal shoreline
   }
 
   private updateCollectibles(time: number) {
@@ -1689,18 +1773,18 @@ export class WorldEngine {
   }
 
   private updateCameraFollow(delta: number) {
-    const targetFov = this.isBoosting ? 68 : 54;
+    const targetFov = this.isBoosting ? 64 : 54;
     this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, targetFov, 6 * delta);
     this.camera.updateProjectionMatrix();
 
-    const offset = new THREE.Vector3(0, 5.2, 9.5);
+    const offset = new THREE.Vector3(0, 4.4, 7.8);
     offset.applyAxisAngle(new THREE.Vector3(0, 1, 0), this.playerRotY);
 
     const targetCamPos = new THREE.Vector3().addVectors(this.playerPos, offset);
-    this.camera.position.lerp(targetCamPos, 0.065);
+    this.camera.position.lerp(targetCamPos, 0.08);
 
-    const lookTarget = new THREE.Vector3().copy(this.playerPos).add(new THREE.Vector3(0, 1.5, 0));
-    this.cameraLookAt.lerp(lookTarget, 0.085);
+    const lookTarget = new THREE.Vector3().copy(this.playerPos).add(new THREE.Vector3(0, 1.6, 0));
+    this.cameraLookAt.lerp(lookTarget, 0.1);
     this.camera.lookAt(this.cameraLookAt);
   }
 
@@ -1742,7 +1826,7 @@ export class WorldEngine {
     const targetPOI = this.pois.find((p) => p.id === islandId);
     if (targetPOI) {
       this.playerPos.copy(targetPOI.pos);
-      this.playerPos.y += 1.0;
+      this.playerPos.y = this.calculateGroundHeight(targetPOI.pos.x, targetPOI.pos.z) + 0.1;
       this.playerVel.set(0, 0, 0);
       this.currentSpeed = 0;
       this.audio.playJump();

@@ -221,9 +221,9 @@ export const WorldGameCanvas: React.FC = () => {
             {/* Arcade Feature Badges */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 w-full">
               <div className="p-3 rounded-2xl bg-slate-900/80 border border-emerald-500/30 shadow-lg text-left space-y-1">
-                <div className="text-xl">🏄</div>
-                <div className="text-xs font-bold text-white">Cyber Jet Ski</div>
-                <div className="text-[10px] text-slate-400 font-mono">Water drift &amp; wake</div>
+                <div className="text-xl">🐱</div>
+                <div className="text-xs font-bold text-white">Milo Explorer</div>
+                <div className="text-[10px] text-slate-400 font-mono">Jelajahi pulau &amp; jembatan</div>
               </div>
               <div className="p-3 rounded-2xl bg-slate-900/80 border border-cyan-500/30 shadow-lg text-left space-y-1">
                 <div className="text-xl">⚽</div>
@@ -251,7 +251,7 @@ export const WorldGameCanvas: React.FC = () => {
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs font-mono">
                 <div className="flex items-center gap-2 bg-slate-950/80 px-2.5 py-1.5 rounded-xl border border-white/10">
                   <span className="px-1.5 py-0.5 rounded bg-slate-800 text-emerald-400 font-bold border-b-2 border-slate-700 text-[11px]">WASD</span>
-                  <span className="text-slate-300 text-[11px]">Gerak</span>
+                  <span className="text-slate-300 text-[11px]">Jalan/Lari</span>
                 </div>
                 <div className="flex items-center gap-2 bg-slate-950/80 px-2.5 py-1.5 rounded-xl border border-white/10">
                   <span className="px-1.5 py-0.5 rounded bg-slate-800 text-emerald-400 font-bold border-b-2 border-slate-700 text-[11px]">SPACE</span>
@@ -259,7 +259,7 @@ export const WorldGameCanvas: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2 bg-slate-950/80 px-2.5 py-1.5 rounded-xl border border-white/10">
                   <span className="px-1.5 py-0.5 rounded bg-slate-800 text-cyan-400 font-bold border-b-2 border-slate-700 text-[11px]">SHIFT</span>
-                  <span className="text-slate-300 text-[11px]">Nitro</span>
+                  <span className="text-slate-300 text-[11px]">Sprint Dash</span>
                 </div>
                 <div className="flex items-center gap-2 bg-slate-950/80 px-2.5 py-1.5 rounded-xl border border-white/10">
                   <span className="px-1.5 py-0.5 rounded bg-slate-800 text-amber-400 font-bold border-b-2 border-slate-700 text-[11px]">E</span>

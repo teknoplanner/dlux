@@ -224,10 +224,36 @@ export class WorldAudio {
   }
 
   /**
-   * Sound: Continuous Jet Ski Engine Hum (Frequency scaled with speed)
+   * Sound: Gentle tactile footstep on turf / wood / sand
    */
-  public updateEngineSound(speed: number, onWater: boolean) {
-    if (this.isMuted || !onWater || speed < 0.2) {
+  public playFootstep() {
+    if (this.isMuted) return;
+    const ctx = this.initContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = "sine";
+    osc.frequency.setValueAtTime(110, now);
+    osc.frequency.exponentialRampToValueAtTime(35, now + 0.045);
+
+    gain.gain.setValueAtTime(0.04, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.045);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.045);
+  }
+
+  /**
+   * Sound: Continuous Sprint Wind / Thruster Hum (Frequency scaled with speed)
+   */
+  public updateEngineSound(speed: number, isSprinting: boolean = false) {
+    if (this.isMuted || !isSprinting || speed < 2.0) {
       if (this.engineGain && this.ctx) {
         this.engineGain.gain.setTargetAtTime(0, this.ctx.currentTime, 0.08);
       }
@@ -241,9 +267,9 @@ export class WorldAudio {
       this.engineOsc = ctx.createOscillator();
       this.engineGain = ctx.createGain();
 
-      this.engineOsc.type = "sawtooth";
-      this.engineOsc.frequency.setValueAtTime(65, ctx.currentTime);
-      this.engineGain.gain.setValueAtTime(0.04, ctx.currentTime);
+      this.engineOsc.type = "triangle";
+      this.engineOsc.frequency.setValueAtTime(80, ctx.currentTime);
+      this.engineGain.gain.setValueAtTime(0.03, ctx.currentTime);
 
       this.engineOsc.connect(this.engineGain);
       this.engineGain.connect(ctx.destination);
@@ -252,8 +278,8 @@ export class WorldAudio {
       this.isEngineRunning = true;
     }
 
-    const targetFreq = 55 + Math.min(speed * 20, 140);
-    const targetVol = Math.min(0.03 + speed * 0.015, 0.08);
+    const targetFreq = 70 + Math.min(speed * 12, 160);
+    const targetVol = Math.min(0.02 + speed * 0.008, 0.05);
 
     this.engineOsc.frequency.setTargetAtTime(targetFreq, ctx.currentTime, 0.05);
     this.engineGain.gain.setTargetAtTime(targetVol, ctx.currentTime, 0.05);
