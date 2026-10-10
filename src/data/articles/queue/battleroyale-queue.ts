@@ -32,7 +32,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #1)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #1)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -43,32 +43,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -114,11 +114,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -189,7 +189,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #2)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #2)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -200,32 +200,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -271,11 +271,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -346,7 +346,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #3)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #3)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -357,32 +357,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -428,11 +428,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -503,7 +503,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #4)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #4)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -514,32 +514,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -585,11 +585,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -660,7 +660,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #5)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #5)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -671,32 +671,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -742,11 +742,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -817,7 +817,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #6)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #6)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -828,32 +828,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -899,11 +899,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -974,7 +974,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #7)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #7)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -985,32 +985,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -1056,11 +1056,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -1131,7 +1131,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #8)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #8)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1142,32 +1142,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -1213,11 +1213,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -1288,7 +1288,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Trik Close Combat Jiggle Gerak Cepat (Panduan 2026 #9)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Trik Close Combat Jiggle Gerak Cepat (Panduan 2026 #9)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1299,32 +1299,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -1370,11 +1370,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -1445,7 +1445,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Trik Crouch Shoot Tembak Jongkok (Panduan 2026 #10)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Trik Crouch Shoot Tembak Jongkok (Panduan 2026 #10)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1456,32 +1456,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -1527,11 +1527,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -1602,7 +1602,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Trik Prone Shoot Tiarap Dadakan (Panduan 2026 #11)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Trik Prone Shoot Tiarap Dadakan (Panduan 2026 #11)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1613,32 +1613,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -1684,11 +1684,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -1759,7 +1759,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Trik Jump Shot Lompat Tembak (Panduan 2026 #12)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Trik Jump Shot Lompat Tembak (Panduan 2026 #12)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1770,32 +1770,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -1841,11 +1841,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -1916,7 +1916,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Trik Peek Kiri Kanan Cepat Semak (Panduan 2026 #13)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Trik Peek Kiri Kanan Cepat Semak (Panduan 2026 #13)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1927,32 +1927,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -1998,11 +1998,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -2073,7 +2073,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Zona Biru Pinggir Peta (Panduan 2026 #14)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Zona Biru Pinggir Peta (Panduan 2026 #14)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2084,32 +2084,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -2155,11 +2155,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -2230,7 +2230,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Kendaraan Kompon Aman (Panduan 2026 #15)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Kendaraan Kompon Aman (Panduan 2026 #15)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2241,32 +2241,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -2312,11 +2312,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -2387,7 +2387,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Pendaratan Cepat Hot Drop Pochinki (Panduan 2026 #16)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Pendaratan Cepat Hot Drop Pochinki (Panduan 2026 #16)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2398,32 +2398,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -2469,11 +2469,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -2544,7 +2544,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Looting Efisien 2 Menit Siap Tempur (Panduan 2026 #17)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Looting Efisien 2 Menit Siap Tempur (Panduan 2026 #17)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2555,32 +2555,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -2626,11 +2626,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -2701,7 +2701,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Attachment Kompensator vs Suppressor (Panduan 2026 #18)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Attachment Kompensator vs Suppressor (Panduan 2026 #18)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2712,32 +2712,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -2783,11 +2783,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -2858,7 +2858,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Attachment Vertical Grip vs Angled (Panduan 2026 #19)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Attachment Vertical Grip vs Angled (Panduan 2026 #19)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2869,32 +2869,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -2940,11 +2940,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -3015,7 +3015,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Extended Mag Quickdraw Wajib (Panduan 2026 #20)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Extended Mag Quickdraw Wajib (Panduan 2026 #20)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3026,32 +3026,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -3097,11 +3097,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -3172,7 +3172,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Manajemen Granat Asap Smoke Wall (Panduan 2026 #21)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Manajemen Granat Asap Smoke Wall (Panduan 2026 #21)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3183,32 +3183,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -3254,11 +3254,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -3329,7 +3329,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Granat Ledak Frag Waktu 3 Detik (Panduan 2026 #22)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Granat Ledak Frag Waktu 3 Detik (Panduan 2026 #22)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3340,32 +3340,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -3411,11 +3411,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -3486,7 +3486,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Molotov Koktail Bakar Kompon (Panduan 2026 #23)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Molotov Koktail Bakar Kompon (Panduan 2026 #23)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3497,32 +3497,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -3568,11 +3568,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -3643,7 +3643,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Flashbang Butakan Musuh Ruangan (Panduan 2026 #24)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Flashbang Butakan Musuh Ruangan (Panduan 2026 #24)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3654,32 +3654,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -3725,11 +3725,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -3800,7 +3800,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Revive Rekan Tim di Asap Tebal (Panduan 2026 #25)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Revive Rekan Tim di Asap Tebal (Panduan 2026 #25)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3811,32 +3811,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -3882,11 +3882,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -3957,7 +3957,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Komunikasi Suara Mikrofon Squad (Panduan 2026 #26)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Komunikasi Suara Mikrofon Squad (Panduan 2026 #26)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3968,32 +3968,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -4039,11 +4039,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -4114,7 +4114,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Formasi Rusher Flanker Support (Panduan 2026 #27)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Formasi Rusher Flanker Support (Panduan 2026 #27)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4125,32 +4125,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -4196,11 +4196,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -4271,7 +4271,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Sniper Pengintai Informasi Bukit (Panduan 2026 #28)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Sniper Pengintai Informasi Bukit (Panduan 2026 #28)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4282,32 +4282,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -4353,11 +4353,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -4428,7 +4428,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Kendaraan Dacia vs UAZ Lindungi (Panduan 2026 #29)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Kendaraan Dacia vs UAZ Lindungi (Panduan 2026 #29)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4439,32 +4439,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -4510,11 +4510,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -4585,7 +4585,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Buggy Bermanuver Cepat Tebing (Panduan 2026 #30)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Buggy Bermanuver Cepat Tebing (Panduan 2026 #30)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4596,32 +4596,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -4667,11 +4667,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -4742,7 +4742,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Air Drop Kotak Merah Senjata Groza (Panduan 2026 #31)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Air Drop Kotak Merah Senjata Groza (Panduan 2026 #31)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4753,32 +4753,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -4824,11 +4824,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -4899,7 +4899,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Senjata AWM vs AMR Anti Kendaraan (Panduan 2026 #32)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Senjata AWM vs AMR Anti Kendaraan (Panduan 2026 #32)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4910,32 +4910,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -4981,11 +4981,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -5056,7 +5056,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Senjata MG3 LMG Tembak Cepat (Panduan 2026 #33)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Senjata MG3 LMG Tembak Cepat (Panduan 2026 #33)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5067,32 +5067,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -5138,11 +5138,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -5213,7 +5213,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Senjata DBS Shotgun Raja Rumah (Panduan 2026 #34)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Senjata DBS Shotgun Raja Rumah (Panduan 2026 #34)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5224,32 +5224,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -5295,11 +5295,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -5370,7 +5370,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Senjata UMP45 Laser Jarak Dekat (Panduan 2026 #35)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Senjata UMP45 Laser Jarak Dekat (Panduan 2026 #35)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5381,32 +5381,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -5452,11 +5452,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -5527,7 +5527,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Audio Jejak Kaki Headset Presisi (Panduan 2026 #36)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Audio Jejak Kaki Headset Presisi (Panduan 2026 #36)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5538,32 +5538,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -5609,11 +5609,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -5684,7 +5684,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Grafis Smooth Extreme 90 FPS (Panduan 2026 #37)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Grafis Smooth Extreme 90 FPS (Panduan 2026 #37)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5695,32 +5695,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -5766,11 +5766,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -5841,7 +5841,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Atasi Frame Drop Pertempuran Akhir (Panduan 2026 #38)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Atasi Frame Drop Pertempuran Akhir (Panduan 2026 #38)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5852,32 +5852,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -5923,11 +5923,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -5998,7 +5998,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Posisi Duduk Ergonomis Mabar 4 Jam (Panduan 2026 #39)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Posisi Duduk Ergonomis Mabar 4 Jam (Panduan 2026 #39)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6009,32 +6009,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -6080,11 +6080,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -6155,7 +6155,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Kain Pembersih Layar Sentuh Licin (Panduan 2026 #40)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Kain Pembersih Layar Sentuh Licin (Panduan 2026 #40)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6166,32 +6166,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -6237,11 +6237,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -6312,7 +6312,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Map Erangel Rute Jembatan Militer (Panduan 2026 #41)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Map Erangel Rute Jembatan Militer (Panduan 2026 #41)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6323,32 +6323,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -6394,11 +6394,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -6469,7 +6469,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Map Miramar Tebing Sniper AWM (Panduan 2026 #42)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Map Miramar Tebing Sniper AWM (Panduan 2026 #42)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6480,32 +6480,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -6551,11 +6551,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -6626,7 +6626,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Map Sanhok Semak Kamuflase Rumput (Panduan 2026 #43)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Map Sanhok Semak Kamuflase Rumput (Panduan 2026 #43)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6637,32 +6637,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -6708,11 +6708,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -6783,7 +6783,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Map Vikendi Salju Jejak Kaki (Panduan 2026 #44)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Map Vikendi Salju Jejak Kaki (Panduan 2026 #44)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6794,32 +6794,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -6865,11 +6865,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -6940,7 +6940,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Map Livik Pertempuran Kilat 15 Menit (Panduan 2026 #45)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Map Livik Pertempuran Kilat 15 Menit (Panduan 2026 #45)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6951,32 +6951,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -7022,11 +7022,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -7097,7 +7097,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Event Kolaborasi Mode Khusus PUBGM (Panduan 2026 #46)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Event Kolaborasi Mode Khusus PUBGM (Panduan 2026 #46)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7108,32 +7108,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -7179,11 +7179,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -7254,7 +7254,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: CODM Custom Gunsmith Meta 2026 (Panduan 2026 #47)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: CODM Custom Gunsmith Meta 2026 (Panduan 2026 #47)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7265,32 +7265,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -7336,11 +7336,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -7411,7 +7411,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: CODM Operator Class Medic Ninja (Panduan 2026 #48)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: CODM Operator Class Medic Ninja (Panduan 2026 #48)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7422,32 +7422,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -7493,11 +7493,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -7568,7 +7568,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: CODM Sniper Kar98k Quick Scope (Panduan 2026 #49)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: CODM Sniper Kar98k Quick Scope (Panduan 2026 #49)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7579,32 +7579,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -7650,11 +7650,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -7725,7 +7725,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: CODM Shotgun KRM Sliding Jump (Panduan 2026 #50)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: CODM Shotgun KRM Sliding Jump (Panduan 2026 #50)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7736,32 +7736,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -7807,11 +7807,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -7882,7 +7882,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Turnamen PMGC & PMGO Indonesia (Panduan 2026 #51)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Turnamen PMGC & PMGO Indonesia (Panduan 2026 #51)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7893,32 +7893,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -7964,11 +7964,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -8039,7 +8039,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Mental Baja Clutch 1 Lawan 4 (Panduan 2026 #52)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Mental Baja Clutch 1 Lawan 4 (Panduan 2026 #52)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8050,32 +8050,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -8121,11 +8121,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -8196,7 +8196,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Review Killcam Evaluasi Mati (Panduan 2026 #53)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Review Killcam Evaluasi Mati (Panduan 2026 #53)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8207,32 +8207,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -8278,11 +8278,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -8353,7 +8353,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Warm Up TDM Latihan Aim 15 Menit (Panduan 2026 #54)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Warm Up TDM Latihan Aim 15 Menit (Panduan 2026 #54)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8364,32 +8364,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -8435,11 +8435,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -8510,7 +8510,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Cheater Report Sistem Tencent (Panduan 2026 #55)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Cheater Report Sistem Tencent (Panduan 2026 #55)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8521,32 +8521,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -8592,11 +8592,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -8667,7 +8667,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Keamanan Akun Verifikasi 2 Langkah (Panduan 2026 #56)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Keamanan Akun Verifikasi 2 Langkah (Panduan 2026 #56)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8678,32 +8678,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -8749,11 +8749,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -8824,7 +8824,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Top Up UC Legal Promo Resmi (Panduan 2026 #57)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Top Up UC Legal Promo Resmi (Panduan 2026 #57)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8835,32 +8835,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -8906,11 +8906,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -8981,7 +8981,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Skin Senjata Upgrade Efek Kill (Panduan 2026 #58)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Skin Senjata Upgrade Efek Kill (Panduan 2026 #58)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8992,32 +8992,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -9063,11 +9063,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -9138,7 +9138,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Title Gelaran Keren Profil Akun (Panduan 2026 #59)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Title Gelaran Keren Profil Akun (Panduan 2026 #59)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9149,32 +9149,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -9220,11 +9220,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -9295,7 +9295,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Tier Conqueror Target Awal Musim (Panduan 2026 #60)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Tier Conqueror Target Awal Musim (Panduan 2026 #60)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9306,32 +9306,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -9377,11 +9377,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -9452,7 +9452,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Point Rank Minus Pencegahan Trik (Panduan 2026 #61)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Point Rank Minus Pencegahan Trik (Panduan 2026 #61)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9463,32 +9463,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -9534,11 +9534,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -9609,7 +9609,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Mabar Duo Serasi Komunikasi (Panduan 2026 #62)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Mabar Duo Serasi Komunikasi (Panduan 2026 #62)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9620,32 +9620,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -9691,11 +9691,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -9766,7 +9766,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas iPad vs HP (Panduan 2026 #63)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas iPad vs HP (Panduan 2026 #63)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9777,32 +9777,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -9848,11 +9848,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -9923,7 +9923,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Layar Sentuh Lengket (Panduan 2026 #64)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Layar Sentuh Lengket (Panduan 2026 #64)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9934,32 +9934,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -10005,11 +10005,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -10080,7 +10080,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Pencegahan Panas HP Baterai Awet (Panduan 2026 #65)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Pencegahan Panas HP Baterai Awet (Panduan 2026 #65)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10091,32 +10091,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -10162,11 +10162,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -10237,7 +10237,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Suara Peluru Silencer Jarak Jauh (Panduan 2026 #66)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Suara Peluru Silencer Jarak Jauh (Panduan 2026 #66)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10248,32 +10248,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -10319,11 +10319,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -10394,7 +10394,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Recoil Beryl M762 Peluru 7.62 (Panduan 2026 #67)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Recoil Beryl M762 Peluru 7.62 (Panduan 2026 #67)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10405,32 +10405,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -10476,11 +10476,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -10551,7 +10551,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Recoil AKM Jarak Dekat Mematikan (Panduan 2026 #68)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Recoil AKM Jarak Dekat Mematikan (Panduan 2026 #68)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10562,32 +10562,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -10633,11 +10633,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -10708,7 +10708,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: DMR SLR vs SKS Pilihan Pro (Panduan 2026 #69)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: DMR SLR vs SKS Pilihan Pro (Panduan 2026 #69)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10719,32 +10719,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -10790,11 +10790,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -10865,7 +10865,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Pistol Scorpion Darurat Awal Turun (Panduan 2026 #70)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Pistol Scorpion Darurat Awal Turun (Panduan 2026 #70)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10876,32 +10876,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -10947,11 +10947,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -11022,7 +11022,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Trik Panjat Tebing Parkour Gedung (Panduan 2026 #71)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Trik Panjat Tebing Parkour Gedung (Panduan 2026 #71)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11033,32 +11033,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -11104,11 +11104,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -11179,7 +11179,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Pintu Rumah Jebakan Ledakan (Panduan 2026 #72)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Pintu Rumah Jebakan Ledakan (Panduan 2026 #72)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11190,32 +11190,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -11261,11 +11261,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -11336,7 +11336,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Atap Rumah Posisi Tembak Rahasia (Panduan 2026 #73)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Atap Rumah Posisi Tembak Rahasia (Panduan 2026 #73)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11347,32 +11347,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -11418,11 +11418,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -11493,7 +11493,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Kolong Jembatan Sembunyi Zona (Panduan 2026 #74)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Kolong Jembatan Sembunyi Zona (Panduan 2026 #74)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11504,32 +11504,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -11575,11 +11575,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -11650,7 +11650,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Taktik Chicken Dinner Konsisten (Panduan 2026 #75)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Taktik Chicken Dinner Konsisten (Panduan 2026 #75)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11661,32 +11661,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -11732,11 +11732,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -11807,7 +11807,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #76)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #76)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11818,32 +11818,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -11889,11 +11889,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -11964,7 +11964,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #77)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #77)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11975,32 +11975,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -12046,11 +12046,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -12121,7 +12121,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #78)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #78)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12132,32 +12132,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -12203,11 +12203,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -12278,7 +12278,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #79)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #79)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12289,32 +12289,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -12360,11 +12360,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -12435,7 +12435,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #80)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #80)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12446,32 +12446,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -12517,11 +12517,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -12592,7 +12592,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #81)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #81)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12603,32 +12603,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -12674,11 +12674,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -12749,7 +12749,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #82)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #82)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12760,32 +12760,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -12831,11 +12831,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
@@ -12906,7 +12906,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
         "content": [
-          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #83)\" mengupas rahasia bermain pro secara mendalam.",
+          "Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan \"**Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #83)**\" mengupas rahasia bermain pro secara mendalam.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12917,32 +12917,32 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Adu Tembak Jarak Dekat (Close Combat)",
         "content": [
-          "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat."
+          "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Rotasi Zona & Memilih Compound Terbaik",
         "content": [
-          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta."
+          "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
         "content": [
-          "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+          "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
         ]
       }
     ],
@@ -12988,11 +12988,11 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-          "Standard: Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-          "Standard: 2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-          "Standard: 3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-          "Standard: 4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+          "Standard: **Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+          "Standard: **Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+          "Standard: **2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+          "Standard: **3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+          "Standard: **4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
         ]
       },
       {

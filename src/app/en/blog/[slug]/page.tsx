@@ -17,6 +17,7 @@ import { TableOfContents } from "@/components/blog/TableOfContents";
 import { AppCtaBanner } from "@/components/blog/AppCtaBanner";
 import { ArticleCard } from "@/components/blog/ArticleCard";
 import { LanguageSwitcher } from "@/components/blog/LanguageSwitcher";
+import { FormattedText } from "@/components/blog/FormattedText";
 import {
   generateArticleSchema,
   generateFaqSchema,
@@ -202,7 +203,7 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                 <div className="space-y-4 text-slate-700">
                   {section.content.map((paragraph, pIdx) => (
                     <p key={pIdx} className="leading-relaxed sm:leading-8 text-base sm:text-lg text-slate-700">
-                      {paragraph}
+                      <FormattedText text={paragraph} />
                     </p>
                   ))}
                 </div>
@@ -213,7 +214,7 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                     {section.bulletPoints.map((point, bIdx) => (
                       <li key={bIdx} className="flex items-start gap-3 text-base sm:text-lg text-slate-700 leading-relaxed">
                         <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-1" />
-                        <span>{point}</span>
+                        <span><FormattedText text={point} /></span>
                       </li>
                     ))}
                   </ul>
@@ -234,7 +235,9 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                       <Lightbulb className="w-5 h-5 text-indigo-600 shrink-0" />
                       <span>{section.tipBox.title}</span>
                     </div>
-                    <p className="text-slate-700 pl-7 leading-relaxed">{section.tipBox.text}</p>
+                    <p className="text-slate-700 pl-7 leading-relaxed">
+                      <FormattedText text={section.tipBox.text} />
+                    </p>
                   </div>
                 )}
 
@@ -291,7 +294,7 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                       Q: {item.q}
                     </h3>
                     <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
-                      {item.a}
+                      <FormattedText text={item.a} />
                     </p>
                   </div>
                 ))}

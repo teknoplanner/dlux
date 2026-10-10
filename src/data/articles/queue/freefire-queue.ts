@@ -32,7 +32,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Semua HP Android (Update ke-1)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Semua HP Android (Update ke-1)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -43,33 +43,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -115,12 +115,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -191,7 +191,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -202,33 +202,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -274,12 +274,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -350,7 +350,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Vivo Y & V Series (Update ke-3)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Vivo Y & V Series (Update ke-3)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -361,33 +361,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -433,12 +433,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -509,7 +509,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Samsung Galaxy A Series (Update ke-4)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Samsung Galaxy A Series (Update ke-4)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -520,33 +520,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -592,12 +592,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -668,7 +668,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Xiaomi Redmi & Poco (Update ke-5)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Xiaomi Redmi & Poco (Update ke-5)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -679,33 +679,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -751,12 +751,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -827,7 +827,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Infinix Hot & Note (Update ke-6)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Infinix Hot & Note (Update ke-6)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -838,33 +838,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -910,12 +910,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -986,7 +986,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Realme Number & C Series (Update ke-7)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Realme Number & C Series (Update ke-7)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -997,33 +997,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -1069,12 +1069,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -1145,7 +1145,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Tecno Pova & Camon (Update ke-8)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Tecno Pova & Camon (Update ke-8)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1156,33 +1156,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -1228,12 +1228,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -1304,7 +1304,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Asus ROG Phone (Update ke-9)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Asus ROG Phone (Update ke-9)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1315,33 +1315,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -1387,12 +1387,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -1463,7 +1463,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik iQOO Neo & Z Series (Update ke-10)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik iQOO Neo & Z Series (Update ke-10)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1474,33 +1474,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -1546,12 +1546,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -1622,7 +1622,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik M1887 Shotgun (Update ke-11)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik M1887 Shotgun (Update ke-11)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1633,33 +1633,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -1705,12 +1705,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -1781,7 +1781,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik MP40 SMG (Update ke-12)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik MP40 SMG (Update ke-12)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1792,33 +1792,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -1864,12 +1864,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -1940,7 +1940,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Woodpecker & SVD (Update ke-13)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Woodpecker & SVD (Update ke-13)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1951,33 +1951,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -2023,12 +2023,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -2099,7 +2099,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Groza & Scar (Update ke-14)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Groza & Scar (Update ke-14)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2110,33 +2110,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -2182,12 +2182,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -2258,7 +2258,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik AK47 & M4A1 (Update ke-15)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik AK47 & M4A1 (Update ke-15)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2269,33 +2269,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -2341,12 +2341,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -2417,7 +2417,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 2 Jari (Update ke-16)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 2 Jari (Update ke-16)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2428,33 +2428,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -2500,12 +2500,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -2576,7 +2576,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 3 Jari (Update ke-17)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 3 Jari (Update ke-17)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2587,33 +2587,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -2659,12 +2659,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -2735,7 +2735,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 4 Jari (Update ke-18)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 4 Jari (Update ke-18)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2746,33 +2746,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -2818,12 +2818,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -2894,7 +2894,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Fast Gloo Wall (Update ke-19)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Fast Gloo Wall (Update ke-19)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2905,33 +2905,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -2977,12 +2977,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -3053,7 +3053,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Kombinasi Skill Alok (Update ke-20)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Kombinasi Skill Alok (Update ke-20)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3064,33 +3064,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -3136,12 +3136,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -3212,7 +3212,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Tatsuya (Update ke-21)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Tatsuya (Update ke-21)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3223,33 +3223,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -3295,12 +3295,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -3371,7 +3371,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Dimitri (Update ke-22)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Dimitri (Update ke-22)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3382,33 +3382,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -3454,12 +3454,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -3530,7 +3530,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Chrono (Update ke-23)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Chrono (Update ke-23)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3541,33 +3541,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -3613,12 +3613,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -3689,7 +3689,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Homer (Update ke-24)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Homer (Update ke-24)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3700,33 +3700,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -3772,12 +3772,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -3848,7 +3848,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Santino (Update ke-25)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Santino (Update ke-25)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3859,33 +3859,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -3931,12 +3931,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -4007,7 +4007,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Setting DPI Aman (Update ke-26)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Setting DPI Aman (Update ke-26)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4018,33 +4018,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -4090,12 +4090,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -4166,7 +4166,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Clash Squad Ranked (Update ke-27)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Clash Squad Ranked (Update ke-27)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4177,33 +4177,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -4249,12 +4249,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -4325,7 +4325,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Solo vs Squad (Update ke-28)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Solo vs Squad (Update ke-28)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4336,33 +4336,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -4408,12 +4408,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -4484,7 +4484,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Rotasi Map Bermuda (Update ke-29)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Rotasi Map Bermuda (Update ke-29)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4495,33 +4495,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -4567,12 +4567,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -4643,7 +4643,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Grafis Halus 60 FPS (Update ke-30)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Grafis Halus 60 FPS (Update ke-30)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4654,33 +4654,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -4726,12 +4726,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -4802,7 +4802,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Pola Lari Anti Sniper (Update ke-31)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Pola Lari Anti Sniper (Update ke-31)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4813,33 +4813,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -4885,12 +4885,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -4961,7 +4961,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Zona Akhir (Update ke-32)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Zona Akhir (Update ke-32)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4972,33 +4972,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -5044,12 +5044,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -5120,7 +5120,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata AR Meta (Update ke-33)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata AR Meta (Update ke-33)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5131,33 +5131,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -5203,12 +5203,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -5279,7 +5279,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Teknik Drag Shot (Update ke-34)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Teknik Drag Shot (Update ke-34)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5290,33 +5290,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -5362,12 +5362,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -5438,7 +5438,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Guild War Formasi (Update ke-35)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Guild War Formasi (Update ke-35)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5449,33 +5449,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -5521,12 +5521,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -5597,7 +5597,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Mental Juara Booyah (Update ke-36)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Mental Juara Booyah (Update ke-36)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5608,33 +5608,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -5680,12 +5680,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -5756,7 +5756,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Jump Shot Shotgun (Update ke-37)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Jump Shot Shotgun (Update ke-37)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5767,33 +5767,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -5839,12 +5839,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -5915,7 +5915,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Scope 4x Akurat (Update ke-38)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Scope 4x Akurat (Update ke-38)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5926,33 +5926,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -5998,12 +5998,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -6074,7 +6074,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Deteksi Musuh Pet (Update ke-39)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Deteksi Musuh Pet (Update ke-39)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6085,33 +6085,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -6157,12 +6157,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -6233,7 +6233,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Attachment Silencer (Update ke-40)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Attachment Silencer (Update ke-40)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6244,33 +6244,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -6316,12 +6316,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -6392,7 +6392,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Pendaratan Clock Tower (Update ke-41)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Pendaratan Clock Tower (Update ke-41)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6403,33 +6403,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -6475,12 +6475,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -6551,7 +6551,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Jalur Aman Purgatory (Update ke-42)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Jalur Aman Purgatory (Update ke-42)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6562,33 +6562,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -6634,12 +6634,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -6710,7 +6710,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Bertahan di NexTerra (Update ke-43)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Bertahan di NexTerra (Update ke-43)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6721,33 +6721,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -6793,12 +6793,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -6869,7 +6869,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Kombo Kelly & Hayato (Update ke-44)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Kombo Kelly & Hayato (Update ke-44)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6880,33 +6880,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -6952,12 +6952,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -7028,7 +7028,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Tembak Kepala (Update ke-45)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Tembak Kepala (Update ke-45)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7039,33 +7039,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -7111,12 +7111,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -7187,7 +7187,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Uji Kepekaan Touch (Update ke-46)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Uji Kepekaan Touch (Update ke-46)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7198,33 +7198,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -7270,12 +7270,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -7346,7 +7346,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Sensitivitas Layar Licin (Update ke-47)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Sensitivitas Layar Licin (Update ke-47)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7357,33 +7357,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -7429,12 +7429,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -7505,7 +7505,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Aim Merah Jarak Dekat (Update ke-48)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Aim Merah Jarak Dekat (Update ke-48)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7516,33 +7516,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -7588,12 +7588,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -7664,7 +7664,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Kontrol Recoil SMG (Update ke-49)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Kontrol Recoil SMG (Update ke-49)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7675,33 +7675,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -7747,12 +7747,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -7823,7 +7823,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata UMP & MP5 (Update ke-50)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata UMP & MP5 (Update ke-50)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7834,33 +7834,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -7906,12 +7906,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -7982,7 +7982,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Flashbang (Update ke-51)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Flashbang (Update ke-51)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7993,33 +7993,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -8065,12 +8065,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -8141,7 +8141,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Medkit Healing Zona (Update ke-52)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Medkit Healing Zona (Update ke-52)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8152,33 +8152,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -8224,12 +8224,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -8300,7 +8300,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Revive Point Taktik (Update ke-53)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Revive Point Taktik (Update ke-53)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8311,33 +8311,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -8383,12 +8383,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -8459,7 +8459,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Airdrop Looting Cepat (Update ke-54)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Airdrop Looting Cepat (Update ke-54)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8470,33 +8470,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -8542,12 +8542,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -8618,7 +8618,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata Charge Buster (Update ke-55)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata Charge Buster (Update ke-55)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8629,33 +8629,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -8701,12 +8701,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -8777,7 +8777,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Panjat Atap (Update ke-56)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Panjat Atap (Update ke-56)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8788,33 +8788,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -8860,12 +8860,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -8936,7 +8936,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper AWM Tembus Vest (Update ke-57)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper AWM Tembus Vest (Update ke-57)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8947,33 +8947,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -9019,12 +9019,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -9095,7 +9095,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Baju Pelindung Level 4 (Update ke-58)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Baju Pelindung Level 4 (Update ke-58)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9106,33 +9106,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -9178,12 +9178,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -9254,7 +9254,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Helm Anti Headshot (Update ke-59)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Helm Anti Headshot (Update ke-59)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9265,33 +9265,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -9337,12 +9337,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -9413,7 +9413,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Peta Radar Mini (Update ke-60)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Peta Radar Mini (Update ke-60)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9424,33 +9424,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -9496,12 +9496,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -9572,7 +9572,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Suara Langkah Musuh (Update ke-61)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Suara Langkah Musuh (Update ke-61)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9583,33 +9583,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -9655,12 +9655,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -9731,7 +9731,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Setting Tombol Tembak Kiri (Update ke-62)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Setting Tombol Tembak Kiri (Update ke-62)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9742,33 +9742,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -9814,12 +9814,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -9890,7 +9890,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Ukuran Tombol Analog (Update ke-63)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Ukuran Tombol Analog (Update ke-63)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9901,33 +9901,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -9973,12 +9973,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -10049,7 +10049,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Transparansi Tombol HUD (Update ke-64)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Transparansi Tombol HUD (Update ke-64)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10060,33 +10060,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -10132,12 +10132,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -10208,7 +10208,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Peek Semak (Update ke-65)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Peek Semak (Update ke-65)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10219,33 +10219,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -10291,12 +10291,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -10367,7 +10367,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Rusher Duo (Update ke-66)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Rusher Duo (Update ke-66)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10378,33 +10378,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -10450,12 +10450,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -10526,7 +10526,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Support Medis Squad (Update ke-67)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Support Medis Squad (Update ke-67)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10537,33 +10537,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -10609,12 +10609,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -10685,7 +10685,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper Penjaga Belakang (Update ke-68)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper Penjaga Belakang (Update ke-68)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10696,33 +10696,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -10768,12 +10768,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -10844,7 +10844,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Kendaraan Monster Truck (Update ke-69)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Kendaraan Monster Truck (Update ke-69)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10855,33 +10855,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -10927,12 +10927,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -11003,7 +11003,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Zip Line Manuver (Update ke-70)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Zip Line Manuver (Update ke-70)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11014,33 +11014,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -11086,12 +11086,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -11162,7 +11162,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Peluncur Launch Pad (Update ke-71)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Peluncur Launch Pad (Update ke-71)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11173,33 +11173,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -11245,12 +11245,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -11321,7 +11321,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Pintu Rumah Pertahanan (Update ke-72)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Pintu Rumah Pertahanan (Update ke-72)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11332,33 +11332,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -11404,12 +11404,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -11480,7 +11480,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Jendela Tembak Mundur (Update ke-73)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Jendela Tembak Mundur (Update ke-73)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11491,33 +11491,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -11563,12 +11563,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -11639,7 +11639,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Asap Penyelamat (Update ke-74)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Asap Penyelamat (Update ke-74)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11650,33 +11650,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -11722,12 +11722,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -11798,7 +11798,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Lampu Sinyal UAV (Update ke-75)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Lampu Sinyal UAV (Update ke-75)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11809,33 +11809,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -11881,12 +11881,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -11957,7 +11957,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Mesin Penjual Koin (Update ke-76)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Mesin Penjual Koin (Update ke-76)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11968,33 +11968,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -12040,12 +12040,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -12116,7 +12116,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Chip Senjata Level 3 (Update ke-77)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Chip Senjata Level 3 (Update ke-77)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12127,33 +12127,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -12199,12 +12199,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -12275,7 +12275,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Vending Machine Trik (Update ke-78)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Vending Machine Trik (Update ke-78)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12286,33 +12286,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -12358,12 +12358,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -12434,7 +12434,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Armor Plate Pengganti (Update ke-79)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Armor Plate Pengganti (Update ke-79)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12445,33 +12445,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -12517,12 +12517,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -12593,7 +12593,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Darah Putih EP (Update ke-80)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Darah Putih EP (Update ke-80)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12604,33 +12604,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -12676,12 +12676,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -12752,7 +12752,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Inhaler Stamina Cepat (Update ke-81)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Inhaler Stamina Cepat (Update ke-81)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12763,33 +12763,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -12835,12 +12835,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -12911,7 +12911,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Jamur Jamur Level 4 (Update ke-82)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Jamur Jamur Level 4 (Update ke-82)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12922,33 +12922,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -12994,12 +12994,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
@@ -13070,7 +13070,7 @@ export const freefireQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
         "content": [
-          "Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami \"Setting Sensitivitas FF Auto Headshot 2026: Trik Kemenangan Booyah Konsisten (Update ke-83)\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Kemenangan Booyah Konsisten (Update ke-83)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -13081,33 +13081,33 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
         "content": [
-          "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas."
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
         "content": [
-          "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah."
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
         "content": [
-          "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
         ]
       }
     ],
@@ -13153,12 +13153,12 @@ export const freefireQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-          "Standard: Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-          "Standard: 2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-          "Standard: 4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-          "Standard: Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-          "Standard: Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
         ]
       },
       {

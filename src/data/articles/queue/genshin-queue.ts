@@ -31,7 +31,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Spiral Abyss Lantai 12 Komposisi Tim (Edisi 2026 #1)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Spiral Abyss Lantai 12 Komposisi Tim (Edisi 2026 #1)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -42,16 +42,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -65,7 +65,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -111,9 +111,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -183,7 +183,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -194,16 +194,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -217,7 +217,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -263,9 +263,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -335,7 +335,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -346,16 +346,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -369,7 +369,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -415,9 +415,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -487,7 +487,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -498,16 +498,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -521,7 +521,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -567,9 +567,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -639,7 +639,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -650,16 +650,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -673,7 +673,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -719,9 +719,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -791,7 +791,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -802,16 +802,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -825,7 +825,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -871,9 +871,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -943,7 +943,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -954,16 +954,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -977,7 +977,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -1023,9 +1023,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -1095,7 +1095,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1106,16 +1106,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -1129,7 +1129,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -1175,9 +1175,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -1247,7 +1247,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1258,16 +1258,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -1281,7 +1281,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -1327,9 +1327,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -1399,7 +1399,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1410,16 +1410,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -1433,7 +1433,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -1479,9 +1479,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -1551,7 +1551,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1562,16 +1562,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -1585,7 +1585,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -1631,9 +1631,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -1703,7 +1703,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1714,16 +1714,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -1737,7 +1737,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -1783,9 +1783,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -1855,7 +1855,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1866,16 +1866,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -1889,7 +1889,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -1935,9 +1935,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -2007,7 +2007,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2018,16 +2018,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -2041,7 +2041,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -2087,9 +2087,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -2159,7 +2159,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2170,16 +2170,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -2193,7 +2193,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -2239,9 +2239,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -2311,7 +2311,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2322,16 +2322,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -2345,7 +2345,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -2391,9 +2391,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -2463,7 +2463,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2474,16 +2474,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -2497,7 +2497,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -2543,9 +2543,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -2615,7 +2615,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2626,16 +2626,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -2649,7 +2649,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -2695,9 +2695,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -2767,7 +2767,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2778,16 +2778,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -2801,7 +2801,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -2847,9 +2847,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -2919,7 +2919,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2930,16 +2930,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -2953,7 +2953,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -2999,9 +2999,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -3071,7 +3071,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3082,16 +3082,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -3105,7 +3105,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -3151,9 +3151,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -3223,7 +3223,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3234,16 +3234,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -3257,7 +3257,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -3303,9 +3303,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -3375,7 +3375,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3386,16 +3386,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -3409,7 +3409,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -3455,9 +3455,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -3527,7 +3527,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3538,16 +3538,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -3561,7 +3561,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -3607,9 +3607,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -3679,7 +3679,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3690,16 +3690,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -3713,7 +3713,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -3759,9 +3759,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -3831,7 +3831,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3842,16 +3842,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -3865,7 +3865,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -3911,9 +3911,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -3983,7 +3983,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3994,16 +3994,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -4017,7 +4017,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -4063,9 +4063,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -4135,7 +4135,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4146,16 +4146,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -4169,7 +4169,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -4215,9 +4215,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -4287,7 +4287,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4298,16 +4298,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -4321,7 +4321,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -4367,9 +4367,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -4439,7 +4439,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4450,16 +4450,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -4473,7 +4473,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -4519,9 +4519,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -4591,7 +4591,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4602,16 +4602,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -4625,7 +4625,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -4671,9 +4671,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -4743,7 +4743,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4754,16 +4754,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -4777,7 +4777,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -4823,9 +4823,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -4895,7 +4895,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4906,16 +4906,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -4929,7 +4929,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -4975,9 +4975,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -5047,7 +5047,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5058,16 +5058,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -5081,7 +5081,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -5127,9 +5127,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -5199,7 +5199,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5210,16 +5210,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -5233,7 +5233,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -5279,9 +5279,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -5351,7 +5351,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5362,16 +5362,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -5385,7 +5385,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -5431,9 +5431,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -5503,7 +5503,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5514,16 +5514,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -5537,7 +5537,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -5583,9 +5583,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -5655,7 +5655,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5666,16 +5666,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -5689,7 +5689,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -5735,9 +5735,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -5807,7 +5807,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5818,16 +5818,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -5841,7 +5841,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -5887,9 +5887,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -5959,7 +5959,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5970,16 +5970,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -5993,7 +5993,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -6039,9 +6039,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -6111,7 +6111,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6122,16 +6122,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -6145,7 +6145,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -6191,9 +6191,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -6263,7 +6263,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6274,16 +6274,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -6297,7 +6297,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -6343,9 +6343,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -6415,7 +6415,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6426,16 +6426,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -6449,7 +6449,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -6495,9 +6495,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -6567,7 +6567,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6578,16 +6578,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -6601,7 +6601,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -6647,9 +6647,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -6719,7 +6719,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6730,16 +6730,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -6753,7 +6753,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -6799,9 +6799,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -6871,7 +6871,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6882,16 +6882,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -6905,7 +6905,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -6951,9 +6951,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -7023,7 +7023,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7034,16 +7034,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -7057,7 +7057,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -7103,9 +7103,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -7175,7 +7175,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7186,16 +7186,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -7209,7 +7209,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -7255,9 +7255,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -7327,7 +7327,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7338,16 +7338,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -7361,7 +7361,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -7407,9 +7407,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -7479,7 +7479,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7490,16 +7490,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -7513,7 +7513,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -7559,9 +7559,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -7631,7 +7631,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7642,16 +7642,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -7665,7 +7665,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -7711,9 +7711,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -7783,7 +7783,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7794,16 +7794,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -7817,7 +7817,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -7863,9 +7863,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -7935,7 +7935,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7946,16 +7946,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -7969,7 +7969,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -8015,9 +8015,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -8087,7 +8087,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8098,16 +8098,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -8121,7 +8121,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -8167,9 +8167,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -8239,7 +8239,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8250,16 +8250,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -8273,7 +8273,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -8319,9 +8319,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -8391,7 +8391,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8402,16 +8402,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -8425,7 +8425,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -8471,9 +8471,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -8543,7 +8543,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8554,16 +8554,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -8577,7 +8577,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -8623,9 +8623,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -8695,7 +8695,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8706,16 +8706,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -8729,7 +8729,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -8775,9 +8775,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -8847,7 +8847,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8858,16 +8858,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -8881,7 +8881,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -8927,9 +8927,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -8999,7 +8999,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9010,16 +9010,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -9033,7 +9033,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -9079,9 +9079,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -9151,7 +9151,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9162,16 +9162,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -9185,7 +9185,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -9231,9 +9231,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -9303,7 +9303,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9314,16 +9314,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -9337,7 +9337,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -9383,9 +9383,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -9455,7 +9455,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9466,16 +9466,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -9489,7 +9489,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -9535,9 +9535,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -9607,7 +9607,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9618,16 +9618,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -9641,7 +9641,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -9687,9 +9687,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -9759,7 +9759,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9770,16 +9770,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -9793,7 +9793,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -9839,9 +9839,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -9911,7 +9911,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9922,16 +9922,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -9945,7 +9945,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -9991,9 +9991,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -10063,7 +10063,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10074,16 +10074,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -10097,7 +10097,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -10143,9 +10143,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -10215,7 +10215,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10226,16 +10226,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -10249,7 +10249,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -10295,9 +10295,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -10367,7 +10367,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10378,16 +10378,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -10401,7 +10401,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -10447,9 +10447,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -10519,7 +10519,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10530,16 +10530,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -10553,7 +10553,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -10599,9 +10599,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -10671,7 +10671,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10682,16 +10682,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -10705,7 +10705,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -10751,9 +10751,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -10823,7 +10823,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10834,16 +10834,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -10857,7 +10857,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -10903,9 +10903,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -10975,7 +10975,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10986,16 +10986,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -11009,7 +11009,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -11055,9 +11055,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -11127,7 +11127,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11138,16 +11138,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -11161,7 +11161,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -11207,9 +11207,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -11279,7 +11279,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11290,16 +11290,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -11313,7 +11313,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -11359,9 +11359,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -11431,7 +11431,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11442,16 +11442,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -11465,7 +11465,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -11511,9 +11511,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -11583,7 +11583,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11594,16 +11594,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -11617,7 +11617,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -11663,9 +11663,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -11735,7 +11735,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11746,16 +11746,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -11769,7 +11769,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -11815,9 +11815,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -11887,7 +11887,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11898,16 +11898,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -11921,7 +11921,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -11967,9 +11967,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -12039,7 +12039,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12050,16 +12050,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -12073,7 +12073,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -12119,9 +12119,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -12191,7 +12191,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12202,16 +12202,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -12225,7 +12225,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -12271,9 +12271,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -12343,7 +12343,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12354,16 +12354,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -12377,7 +12377,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -12423,9 +12423,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
@@ -12495,7 +12495,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
         "content": [
-          "Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan \"Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83)\" merinci komposisi tim paling solid.",
+          "Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan \"**Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83)**\" merinci komposisi tim paling solid.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12506,16 +12506,16 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Set Artefak / Relic & Rasio Stat Emas",
         "content": [
-          "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus."
+          "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda."
         ]
       },
       {
@@ -12529,7 +12529,7 @@ export const genshinQueueArticles: ArticleItem[] = [
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Strategi Menghadapi Boss & Optimalisasi Waktu",
         "content": [
-          "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+          "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
         ]
       }
     ],
@@ -12575,9 +12575,9 @@ export const genshinQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-          "Standard: Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
         ]
       },
       {

@@ -32,7 +32,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #1)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #1)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -43,9 +43,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -53,21 +53,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -113,9 +113,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -187,7 +187,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #2)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #2)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -198,9 +198,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -208,21 +208,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -268,9 +268,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -342,7 +342,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #3)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #3)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -353,9 +353,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -363,21 +363,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -423,9 +423,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -497,7 +497,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #4)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #4)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -508,9 +508,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -518,21 +518,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -578,9 +578,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -652,7 +652,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #5)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #5)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -663,9 +663,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -673,21 +673,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -733,9 +733,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -807,7 +807,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #6)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #6)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -818,9 +818,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -828,21 +828,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -888,9 +888,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -962,7 +962,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #7)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #7)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -973,9 +973,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -983,21 +983,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -1043,9 +1043,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1117,7 +1117,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #8)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #8)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1128,9 +1128,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1138,21 +1138,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -1198,9 +1198,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1272,7 +1272,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #9)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #9)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1283,9 +1283,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1293,21 +1293,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -1353,9 +1353,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1427,7 +1427,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #10)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #10)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1438,9 +1438,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1448,21 +1448,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -1508,9 +1508,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1582,7 +1582,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #11)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #11)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1593,9 +1593,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1603,21 +1603,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -1663,9 +1663,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1737,7 +1737,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #12)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #12)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1748,9 +1748,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1758,21 +1758,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -1818,9 +1818,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1892,7 +1892,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #13)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #13)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1903,9 +1903,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -1913,21 +1913,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -1973,9 +1973,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2047,7 +2047,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Trigger L1 R1 Tombol Fisik Layar (Ulasan 2026 #14)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Trigger L1 R1 Tombol Fisik Layar (Ulasan 2026 #14)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2058,9 +2058,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2068,21 +2068,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -2128,9 +2128,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2202,7 +2202,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Thumb Grip Analog Karet Anti Slip (Ulasan 2026 #15)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Thumb Grip Analog Karet Anti Slip (Ulasan 2026 #15)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2213,9 +2213,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2223,21 +2223,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -2283,9 +2283,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2357,7 +2357,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pembersih Semprotan Layar Antibakteri (Ulasan 2026 #16)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pembersih Semprotan Layar Antibakteri (Ulasan 2026 #16)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2368,9 +2368,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2378,21 +2378,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -2438,9 +2438,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2512,7 +2512,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Tas Pouch Simpan Aksesoris Gaming (Ulasan 2026 #17)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Tas Pouch Simpan Aksesoris Gaming (Ulasan 2026 #17)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2523,9 +2523,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2533,21 +2533,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -2593,9 +2593,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2667,7 +2667,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kabel LAN RJ45 ke Type-C Internet Stabil (Ulasan 2026 #18)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kabel LAN RJ45 ke Type-C Internet Stabil (Ulasan 2026 #18)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2678,9 +2678,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2688,21 +2688,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -2748,9 +2748,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2822,7 +2822,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Docking Hub 6 in 1 HDMI 4K Monitor (Ulasan 2026 #19)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Docking Hub 6 in 1 HDMI 4K Monitor (Ulasan 2026 #19)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2833,9 +2833,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2843,21 +2843,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -2903,9 +2903,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2977,7 +2977,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Monitor Gaming Portabel 144Hz Type-C (Ulasan 2026 #20)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Monitor Gaming Portabel 144Hz Type-C (Ulasan 2026 #20)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2988,9 +2988,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -2998,21 +2998,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -3058,9 +3058,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3132,7 +3132,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kursi Ergonomis Bantal Punggung Gaming (Ulasan 2026 #21)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kursi Ergonomis Bantal Punggung Gaming (Ulasan 2026 #21)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3143,9 +3143,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3153,21 +3153,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -3213,9 +3213,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3287,7 +3287,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Lampu LED Meja Screenbar Lindungi Mata (Ulasan 2026 #22)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Lampu LED Meja Screenbar Lindungi Mata (Ulasan 2026 #22)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3298,9 +3298,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3308,21 +3308,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -3368,9 +3368,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3442,7 +3442,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Microphone Clip On Noise Cancelling (Ulasan 2026 #23)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Microphone Clip On Noise Cancelling (Ulasan 2026 #23)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3453,9 +3453,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3463,21 +3463,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -3523,9 +3523,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3597,7 +3597,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Webcam Eksternal Streaming Game HP (Ulasan 2026 #24)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Webcam Eksternal Streaming Game HP (Ulasan 2026 #24)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3608,9 +3608,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3618,21 +3618,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -3678,9 +3678,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3752,7 +3752,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kipas Angin Meja Mini USB Senyap (Ulasan 2026 #25)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kipas Angin Meja Mini USB Senyap (Ulasan 2026 #25)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3763,9 +3763,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3773,21 +3773,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -3833,9 +3833,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3907,7 +3907,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kabel Data Braided Kuat Tahan Tarik (Ulasan 2026 #26)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kabel Data Braided Kuat Tahan Tarik (Ulasan 2026 #26)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3918,9 +3918,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -3928,21 +3928,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -3988,9 +3988,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4062,7 +4062,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Adapter Charger GaN 100W Dingin Ringkas (Ulasan 2026 #27)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Adapter Charger GaN 100W Dingin Ringkas (Ulasan 2026 #27)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4073,9 +4073,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4083,21 +4083,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -4143,9 +4143,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4217,7 +4217,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Case HP Lubang Ventilasi Grafena (Ulasan 2026 #28)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Case HP Lubang Ventilasi Grafena (Ulasan 2026 #28)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4228,9 +4228,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4238,21 +4238,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -4298,9 +4298,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4372,7 +4372,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pelekat Magnetik Plat Besi Cooler (Ulasan 2026 #29)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pelekat Magnetik Plat Besi Cooler (Ulasan 2026 #29)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4383,9 +4383,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4393,21 +4393,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -4453,9 +4453,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4527,7 +4527,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pelindung Kamera Belakang HP Anti Gores (Ulasan 2026 #30)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pelindung Kamera Belakang HP Anti Gores (Ulasan 2026 #30)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4538,9 +4538,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4548,21 +4548,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -4608,9 +4608,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4682,7 +4682,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Tester Sensitivitas Layar Sentuh Hz (Ulasan 2026 #31)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Tester Sensitivitas Layar Sentuh Hz (Ulasan 2026 #31)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4693,9 +4693,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4703,21 +4703,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -4763,9 +4763,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4837,7 +4837,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Aplikasi Monitoring Suhu CPU GPU (Ulasan 2026 #32)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Aplikasi Monitoring Suhu CPU GPU (Ulasan 2026 #32)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4848,9 +4848,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4858,21 +4858,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -4918,9 +4918,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -4992,7 +4992,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Setting Developer Options 120 FPS (Ulasan 2026 #33)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Setting Developer Options 120 FPS (Ulasan 2026 #33)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5003,9 +5003,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5013,21 +5013,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -5073,9 +5073,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5147,7 +5147,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Disable Animasi Transisi Percepat HP (Ulasan 2026 #34)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Disable Animasi Transisi Percepat HP (Ulasan 2026 #34)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5158,9 +5158,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5168,21 +5168,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -5228,9 +5228,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5302,7 +5302,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Hapus Cache Tersembunyi Ruang Lega (Ulasan 2026 #35)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Hapus Cache Tersembunyi Ruang Lega (Ulasan 2026 #35)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5313,9 +5313,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5323,21 +5323,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -5383,9 +5383,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5457,7 +5457,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Optimasi RAM Virtual Swap Eksternal (Ulasan 2026 #36)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Optimasi RAM Virtual Swap Eksternal (Ulasan 2026 #36)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5468,9 +5468,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5478,21 +5478,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -5538,9 +5538,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5612,7 +5612,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kalibrasi Baterai HP Supaya Akurat (Ulasan 2026 #37)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kalibrasi Baterai HP Supaya Akurat (Ulasan 2026 #37)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5623,9 +5623,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5633,21 +5633,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -5693,9 +5693,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5767,7 +5767,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Bypass Charging Main Sambil Cas Aman (Ulasan 2026 #38)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Bypass Charging Main Sambil Cas Aman (Ulasan 2026 #38)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5778,9 +5778,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5788,21 +5788,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -5848,9 +5848,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5922,7 +5922,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Mode Jangan Ganggu Game Turbo Aktif (Ulasan 2026 #39)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Mode Jangan Ganggu Game Turbo Aktif (Ulasan 2026 #39)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5933,9 +5933,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -5943,21 +5943,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -6003,9 +6003,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6077,7 +6077,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Setting DNS Cloudflare Internet Cepat (Ulasan 2026 #40)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Setting DNS Cloudflare Internet Cepat (Ulasan 2026 #40)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6088,9 +6088,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6098,21 +6098,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -6158,9 +6158,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6232,7 +6232,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Uji Latensi Bluetooth Audio Delay Test (Ulasan 2026 #41)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Uji Latensi Bluetooth Audio Delay Test (Ulasan 2026 #41)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6243,9 +6243,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6253,21 +6253,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -6313,9 +6313,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6387,7 +6387,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Setting Equalizer Suara Langkah Kaki (Ulasan 2026 #42)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Setting Equalizer Suara Langkah Kaki (Ulasan 2026 #42)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6398,9 +6398,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6408,21 +6408,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -6468,9 +6468,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6542,7 +6542,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pembersih Debu Port Speaker Type-C (Ulasan 2026 #43)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pembersih Debu Port Speaker Type-C (Ulasan 2026 #43)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6553,9 +6553,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6563,21 +6563,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -6623,9 +6623,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6697,7 +6697,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pelindung Kabel Spiral Anti Putus (Ulasan 2026 #44)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pelindung Kabel Spiral Anti Putus (Ulasan 2026 #44)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6708,9 +6708,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6718,21 +6718,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -6778,9 +6778,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6852,7 +6852,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Grip Holder Tangan Ergonomis Nyaman (Ulasan 2026 #45)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Grip Holder Tangan Ergonomis Nyaman (Ulasan 2026 #45)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6863,9 +6863,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -6873,21 +6873,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -6933,9 +6933,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7007,7 +7007,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Gamepad Teleskopik HP Jadi Nintendo Switch (Ulasan 2026 #46)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Gamepad Teleskopik HP Jadi Nintendo Switch (Ulasan 2026 #46)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7018,9 +7018,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7028,21 +7028,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -7088,9 +7088,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7162,7 +7162,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Mouse & Keyboard Converter HP FPS (Ulasan 2026 #47)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Mouse & Keyboard Converter HP FPS (Ulasan 2026 #47)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7173,9 +7173,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7183,21 +7183,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -7243,9 +7243,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7317,7 +7317,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kacamata Anti Radiasi Blue Light (Ulasan 2026 #48)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kacamata Anti Radiasi Blue Light (Ulasan 2026 #48)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7328,9 +7328,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7338,21 +7338,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -7398,9 +7398,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7472,7 +7472,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Matras Meja Deskmat Lebar Halus (Ulasan 2026 #49)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Matras Meja Deskmat Lebar Halus (Ulasan 2026 #49)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7483,9 +7483,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7493,21 +7493,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -7553,9 +7553,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7627,7 +7627,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kabel Aux Audio Speaker Eksternal (Ulasan 2026 #50)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kabel Aux Audio Speaker Eksternal (Ulasan 2026 #50)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7638,9 +7638,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7648,21 +7648,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -7708,9 +7708,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7782,7 +7782,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Power Strip Colokan Listrik Surge Protector (Ulasan 2026 #51)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Power Strip Colokan Listrik Surge Protector (Ulasan 2026 #51)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7793,9 +7793,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7803,21 +7803,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -7863,9 +7863,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7937,7 +7937,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Holder Mobil Vent Ac GPS Dingin (Ulasan 2026 #52)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Holder Mobil Vent Ac GPS Dingin (Ulasan 2026 #52)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7948,9 +7948,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -7958,21 +7958,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -8018,9 +8018,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8092,7 +8092,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pembersih Gel Slime Debu Keyboard (Ulasan 2026 #53)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pembersih Gel Slime Debu Keyboard (Ulasan 2026 #53)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8103,9 +8103,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8113,21 +8113,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -8173,9 +8173,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8247,7 +8247,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Lap Microfiber Kacamata Layar Bersih (Ulasan 2026 #54)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Lap Microfiber Kacamata Layar Bersih (Ulasan 2026 #54)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8258,9 +8258,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8268,21 +8268,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -8328,9 +8328,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8402,7 +8402,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Ring Light Holder Konten Kreator HP (Ulasan 2026 #55)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Ring Light Holder Konten Kreator HP (Ulasan 2026 #55)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8413,9 +8413,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8423,21 +8423,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -8483,9 +8483,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8557,7 +8557,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Green Screen Lipat Portabel Streaming (Ulasan 2026 #56)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Green Screen Lipat Portabel Streaming (Ulasan 2026 #56)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8568,9 +8568,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8578,21 +8578,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -8638,9 +8638,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8712,7 +8712,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Tripod HP Kokoh Ketinggian Fleksibel (Ulasan 2026 #57)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Tripod HP Kokoh Ketinggian Fleksibel (Ulasan 2026 #57)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8723,9 +8723,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8733,21 +8733,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -8793,9 +8793,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8867,7 +8867,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pelindung Sudut Bumper HP Anti Jatuh (Ulasan 2026 #58)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pelindung Sudut Bumper HP Anti Jatuh (Ulasan 2026 #58)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8878,9 +8878,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -8888,21 +8888,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -8948,9 +8948,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9022,7 +9022,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Stiker Skin Belakang HP Tekstur Karbon (Ulasan 2026 #59)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Stiker Skin Belakang HP Tekstur Karbon (Ulasan 2026 #59)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9033,9 +9033,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9043,21 +9043,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -9103,9 +9103,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9177,7 +9177,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pembersih Kontak Cleaner Elektronik (Ulasan 2026 #60)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pembersih Kontak Cleaner Elektronik (Ulasan 2026 #60)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9188,9 +9188,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9198,21 +9198,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -9258,9 +9258,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9332,7 +9332,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Uji Benchmark AnTuTu Geekbench 2026 (Ulasan 2026 #61)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Uji Benchmark AnTuTu Geekbench 2026 (Ulasan 2026 #61)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9343,9 +9343,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9353,21 +9353,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -9413,9 +9413,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9487,7 +9487,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Perbandingan Layar AMOLED vs IPS Game (Ulasan 2026 #62)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Perbandingan Layar AMOLED vs IPS Game (Ulasan 2026 #62)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9498,9 +9498,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9508,21 +9508,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -9568,9 +9568,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9642,7 +9642,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pengaruh Suhu Ruangan Terhadap FPS HP (Ulasan 2026 #63)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pengaruh Suhu Ruangan Terhadap FPS HP (Ulasan 2026 #63)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9653,9 +9653,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9663,21 +9663,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -9723,9 +9723,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9797,7 +9797,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Bahaya Bermain Game Sambil Menidih Cas (Ulasan 2026 #64)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Bahaya Bermain Game Sambil Menidih Cas (Ulasan 2026 #64)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9808,9 +9808,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9818,21 +9818,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -9878,9 +9878,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9952,7 +9952,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Tips Baterai Sehat 3 Tahun Tanpa Gembung (Ulasan 2026 #65)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Tips Baterai Sehat 3 Tahun Tanpa Gembung (Ulasan 2026 #65)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9963,9 +9963,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -9973,21 +9973,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -10033,9 +10033,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10107,7 +10107,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Koneksi WiFi 6 vs Kuota Data 5G Game (Ulasan 2026 #66)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Koneksi WiFi 6 vs Kuota Data 5G Game (Ulasan 2026 #66)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10118,9 +10118,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10128,21 +10128,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -10188,9 +10188,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10262,7 +10262,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Cara Menghindari Ghost Touch Layar Basah (Ulasan 2026 #67)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Cara Menghindari Ghost Touch Layar Basah (Ulasan 2026 #67)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10273,9 +10273,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10283,21 +10283,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -10343,9 +10343,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10417,7 +10417,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pilihan Gear Gaming Hemat Mahasiswa (Ulasan 2026 #68)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pilihan Gear Gaming Hemat Mahasiswa (Ulasan 2026 #68)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10428,9 +10428,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10438,21 +10438,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -10498,9 +10498,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10572,7 +10572,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Review Aksesoris Gaming Resmi Amazon (Ulasan 2026 #69)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Review Aksesoris Gaming Resmi Amazon (Ulasan 2026 #69)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10583,9 +10583,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10593,21 +10593,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -10653,9 +10653,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10727,7 +10727,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Investasi Gear Fisik Tingkatkan Skill (Ulasan 2026 #70)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Investasi Gear Fisik Tingkatkan Skill (Ulasan 2026 #70)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10738,9 +10738,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10748,21 +10748,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -10808,9 +10808,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10882,7 +10882,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #71)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #71)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10893,9 +10893,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -10903,21 +10903,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -10963,9 +10963,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11037,7 +11037,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #72)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #72)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11048,9 +11048,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11058,21 +11058,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -11118,9 +11118,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11192,7 +11192,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #73)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #73)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11203,9 +11203,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11213,21 +11213,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -11273,9 +11273,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11347,7 +11347,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #74)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #74)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11358,9 +11358,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11368,21 +11368,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -11428,9 +11428,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11502,7 +11502,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #75)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #75)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11513,9 +11513,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11523,21 +11523,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -11583,9 +11583,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11657,7 +11657,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #76)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #76)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11668,9 +11668,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11678,21 +11678,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -11738,9 +11738,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11812,7 +11812,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #77)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #77)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11823,9 +11823,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11833,21 +11833,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -11893,9 +11893,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11967,7 +11967,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #78)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #78)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11978,9 +11978,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -11988,21 +11988,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -12048,9 +12048,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12122,7 +12122,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #79)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #79)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12133,9 +12133,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12143,21 +12143,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -12203,9 +12203,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12277,7 +12277,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #80)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #80)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12288,9 +12288,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12298,21 +12298,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -12358,9 +12358,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12432,7 +12432,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #81)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #81)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12443,9 +12443,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12453,21 +12453,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -12513,9 +12513,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12587,7 +12587,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #82)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #82)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12598,9 +12598,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12608,21 +12608,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -12668,9 +12668,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12742,7 +12742,7 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
         "content": [
-          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan \"Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #83)\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
+          "Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan \"**Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #83)**\" mengulas cara menjaga kestabilan sistem pada performa puncak.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12753,9 +12753,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },
@@ -12763,21 +12763,21 @@ export const gearQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
         "content": [
-          "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan."
+          "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
         "content": [
-          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol."
+          "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Kebiasaan Sehat untuk Umur Baterai Smartphone",
         "content": [
-          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+          "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
         ]
       }
     ],
@@ -12823,9 +12823,9 @@ export const gearQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-          "Standard: Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+          "Standard: Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+          "Standard: Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+          "Standard: Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
           "Standard: Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
         ]
       },

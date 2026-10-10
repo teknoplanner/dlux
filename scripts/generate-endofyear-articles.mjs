@@ -647,8 +647,8 @@ function buildHeroContent(heroName, dayNum) {
         id: "analisis-meta-karakter",
         title: `1. Analisis Meta ${heroName} 2026: Mengapa Hero Ini Mendominasi Solo Rank?`,
         content: [
-          `Dalam meta kompetitif Mobile Legends: Bang Bang tahun 2026, ${heroName} menduduki posisi sentral sebagai ${data.role} bertaraf ${data.tier}. Efektivitasnya bertumpu pada perpaduan output damage yang tajam dan fleksibilitas rotasi yang mampu membalikkan tempo pertandingan.`,
-          `Di tangan pemain yang disiplin membaca pergerakan map, ${heroName} mampu memberikan tekanan psikologis besar sejak early game. Penguasaan jalur rotasi dan kalkulasi cooldown skill menjadi pembeda mendasar antara pemain rata-rata dengan Mythical Glory sejati.`
+          `Dalam meta kompetitif *Mobile Legends: Bang Bang* tahun 2026, **${heroName}** menduduki posisi sentral sebagai **${data.role}** bertaraf **${data.tier}**. Efektivitasnya bertumpu pada perpaduan output damage ledakan yang tajam dan fleksibilitas rotasi yang mampu membalikkan tempo pertandingan.`,
+          `Di tangan pemain yang disiplin membaca pergerakan map, **${heroName}** mampu memberikan tekanan psikologis besar sejak *early game*. Penguasaan jalur rotasi dan kalkulasi cooldown skill menjadi pembeda mendasar antara pemain rata-rata dengan *Mythical Glory* sejati.`
         ],
         tipBox: {
           title: "Kunci Kemenangan Utama",
@@ -660,22 +660,22 @@ function buildHeroContent(heroName, dayNum) {
         id: "susunan-item-build-terkuat",
         title: `2. Susunan Item Build ${heroName} Tersakit 2026 (Full Sinergi)`,
         content: [
-          `Untuk memaksimalkan potensi pasif dan scaling damage ${heroName}, susunan 6 item inti berikut dirancang untuk menyeimbangkan penetrasi, damage ledakan, dan daya tahan hidup di pertarungan intens:`,
-          `Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:`
+          `Untuk memaksimalkan potensi pasif dan scaling damage **${heroName}**, susunan 6 item inti berikut dirancang untuk menyeimbangkan penetrasi, damage ledakan, dan daya tahan hidup di pertarungan intens:`,
+          `Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (*power spike*) Anda selalu unggul di setiap fase pertandingan:`
         ],
-        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: ${getItemDesc(item, "id")}`)
+        bulletPoints: data.items.map((item, i) => `${i + 1}. **${item}**: ${getItemDesc(item, "id")}`)
       },
       {
         id: "setting-emblem-dan-spell",
         title: `3. Konfigurasi Emblem, Talent & Battle Spell Rekomendasi Pro`,
         content: [
           `Konfigurasi emblem memainkan peran krusial dalam 5 menit pertama pertandingan:`,
-          `Gunakan ${data.emblem}. Susunan talent ini memberikan kestabilan stat sejak menit pertama dan mempercepat eliminasi objektif Turtle maupun Lord.`,
-          `Untuk Battle Spell, gunakan ${data.spell} sesuai peran Anda di dalam tim.`
+          `Gunakan **${data.emblem}**. Susunan talent ini memberikan kestabilan stat sejak menit pertama dan mempercepat eliminasi objektif Turtle maupun Lord.`,
+          `Untuk Battle Spell, gunakan **${data.spell}** sesuai peran Anda di dalam tim.`
         ],
         tipBox: {
           title: "Peringatan Counter Pick",
-          text: `Waspadai hero counter alami seperti: ${data.counter}. Pastikan hero-hero tersebut sudah terpancing mengeluarkan skill kunci sebelum Anda masuk ke pertempuran.`,
+          text: `Waspadai hero counter alami seperti: **${data.counter}**. Pastikan hero-hero tersebut sudah terpancing mengeluarkan skill kunci sebelum Anda masuk ke pertempuran.`,
           type: "warning"
         }
       },
@@ -683,17 +683,17 @@ function buildHeroContent(heroName, dayNum) {
         id: "mekanika-kombo-dan-rotasi",
         title: `4. Rute Rotasi Map & Mekanika Kombo Skill Paling Mematikan`,
         content: [
-          `Urutan eksekusi kombo paling konsisten: ${data.combo}.`,
-          `Rute Rotasi: Mulai dari pengamanan objektif terdekat pada detik 0:35, lakukan kontes Lithowanderer di sungai, lalu potong jalur rotasi goldlane lawan pada menit 1:30 sebelum Turtle pertama muncul pada menit ke-2.`,
-          `Saat memasuki fase late game, hindari memperlihatkan posisi Anda di minimap sebelum pertempuran besar dimulai. Gunakan semak-semak tanpa visi musuh untuk melancarkan serangan kejutan.`
+          `Urutan eksekusi kombo paling konsisten: **${data.combo}**.`,
+          `**Rute Rotasi**: Mulai dari pengamanan objektif terdekat pada detik **0:35**, lakukan kontes Lithowanderer di sungai, lalu potong jalur rotasi goldlane lawan pada menit **1:30** sebelum Turtle pertama muncul pada menit ke-2.`,
+          `Saat memasuki fase *late game*, hindari memperlihatkan posisi Anda di minimap sebelum pertempuran besar dimulai. Gunakan semak-semak tanpa visi musuh untuk melancarkan serangan kejutan.`
         ]
       },
       {
         id: "tips-konsistensi-dan-kesalahan",
         title: `5. Kesalahan Umum Pemula & Cara Menjaga Win Rate Tinggi`,
         content: [
-          `Kesalahan paling sering terjadi adalah terlalu bernafsu mengejar kill individual (tunnel vision) hingga mengabaikan pertahanan turret atau objektif Lord. Ingatlah bahwa Mobile Legends adalah game penghancuran base, bukan kontes jumlah eliminasi.`,
-          `Selalu perhatikan posisi Roamer dan Midlaner lawan di radar mini sebelum memutuskan untuk melakukan diving ke dalam formasi pertahanan musuh.`
+          `Kesalahan paling sering terjadi adalah terlalu bernafsu mengejar kill individual (*tunnel vision*) hingga mengabaikan pertahanan turret atau objektif Lord. Ingatlah bahwa *Mobile Legends* adalah game penghancuran base, bukan kontes jumlah eliminasi.`,
+          `Selalu perhatikan posisi *Roamer* dan *Midlaner* lawan di radar mini sebelum memutuskan untuk melakukan diving ke dalam formasi pertahanan musuh.`
         ]
       }
     ],
@@ -702,8 +702,8 @@ function buildHeroContent(heroName, dayNum) {
         id: "meta-analysis-character",
         title: `1. 2026 Meta Breakdown: Why ${heroName} Dominates Ranked Lobbies`,
         content: [
-          `In the 2026 competitive landscape of Mobile Legends: Bang Bang, ${heroName} stands firmly as an elite ${data.role} rated at ${data.tier}. Its dominance is rooted in exceptional burst potential and versatile rotation tempo that dictates match outcomes.`,
-          `In the hands of disciplined macro-oriented players, ${heroName} exerts relentless pressure across lanes. Mastering rotation timing and ability cooldowns represents the true dividing line between casual rankers and elite Mythical Glory champions.`
+          `In the 2026 competitive landscape of *Mobile Legends: Bang Bang*, **${heroName}** stands firmly as an elite **${data.role}** rated at **${data.tier}**. Its dominance is rooted in exceptional burst potential and versatile rotation tempo that dictates match outcomes.`,
+          `In the hands of disciplined macro-oriented players, **${heroName}** exerts relentless pressure across lanes. Mastering rotation timing and ability cooldowns represents the true dividing line between casual rankers and elite champions.`
         ],
         tipBox: {
           title: "Core Tactical Secret",
@@ -715,22 +715,22 @@ function buildHeroContent(heroName, dayNum) {
         id: "optimal-equipment-build",
         title: `2. Definitive 2026 Equipment Build for ${heroName}`,
         content: [
-          `To unlock the full damage scaling and survivability of ${heroName}, this 6-item core arsenal harmonizes penetration, sustained burst, and defensive safety:`,
+          `To unlock the full damage scaling and survivability of **${heroName}**, this 6-item core arsenal harmonizes penetration, sustained burst, and defensive safety:`,
           `Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:`
         ],
-        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: ${getItemDesc(item, "en")}`)
+        bulletPoints: data.items.map((item, i) => `${i + 1}. **${item}**: ${getItemDesc(item, "en")}`)
       },
       {
         id: "emblem-and-spell-configuration",
         title: `3. Pro-Grade Emblem, Talent & Battle Spell Configuration`,
         content: [
           `Emblem tuning dictates early-game lane dominance during the first five minutes:`,
-          `Equip ${data.emblem}. This configuration anchors your early baseline stats and expedites Turtle and Lord objective clear speeds.`,
-          `For Battle Spell, lock in ${data.spell} to match your squad's draft tempo.`
+          `Equip **${data.emblem}**. This configuration anchors your early baseline stats and expedites Turtle and Lord objective clear speeds.`,
+          `For Battle Spell, lock in **${data.spell}** to match your squad's draft tempo.`
         ],
         tipBox: {
           title: "Counter Pick Warning",
-          text: `Be vigilant against natural counters: ${data.counter}. Wait for these threats to expend key control skills before committing your dive.`,
+          text: `Be vigilant against natural counters: **${data.counter}**. Wait for these threats to expend key control skills before committing your dive.`,
           type: "warning"
         }
       },
@@ -738,8 +738,8 @@ function buildHeroContent(heroName, dayNum) {
         id: "combo-mechanics-and-rotation",
         title: `4. Decisive Skill Combo Execution & Objective Rotation Blueprint`,
         content: [
-          `Primary execution combo: ${data.combo}.`,
-          `Rotation Path: Clear primary jungle/lane camps by second 0:35, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at 1:30 ahead of the 2:00 Turtle pit emergence.`,
+          `Primary execution combo: **${data.combo}**.`,
+          `**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.`,
           `During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes.`
         ]
       },
@@ -747,8 +747,8 @@ function buildHeroContent(heroName, dayNum) {
         id: "common-pitfalls-and-winrate-discipline",
         title: `5. Frequent Beginner Mistakes & Consistency Habits`,
         content: [
-          `The most prevalent blunder is chasing isolated kills (tunnel vision) while neglecting turret pressure or Lord vision control. Mobile Legends is ultimately a base-siege strategy game, not a kill-count race.`,
-          `Always cross-reference enemy Roamer and Midlaner positions on the mini-radar before committing to aggressive tower dives.`
+          `The most prevalent blunder is chasing isolated kills (*tunnel vision*) while neglecting turret pressure or Lord vision control. *Mobile Legends* is ultimately a base-siege strategy game, not a kill-count race.`,
+          `Always cross-reference enemy *Roamer* and *Midlaner* positions on the mini-radar before committing to aggressive tower dives.`
         ]
       }
     ],
@@ -861,158 +861,158 @@ function buildGeneralSlotContent(slotIndex, title, enTitle, categoryLabel, dayNu
   const configs = {
     1: { // Free Fire
       s1: "Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
-      s1Desc: `Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami "${title}" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.`,
+      s1Desc: `Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami "**${title}**" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.`,
       s2: "Tabel Rekomendasi Angka Sensitivitas Presisi",
       points: [
-        "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
-        "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
-        "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
-        "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
-        "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
-        "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+        "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+        "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+        "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+        "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+        "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+        "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
       ],
       s3: "Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
-      s3Desc: "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas.",
+      s3Desc: "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*).",
       s4: "Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
-      s4Desc: "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah.",
+      s4Desc: "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah.",
       s5: "Sinergi Karakter Meta & Disiplin Rotasi Booyah",
-      s5Desc: "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+      s5Desc: "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
     },
     2: { // Roblox
       s1: "Pemahaman Mekanik Inti & Update Terkini 2026",
-      s1Desc: `Dunia Roblox terus menghadirkan tantangan kompleks di update 2026. Melalui panduan "${title}", Anda akan mempelajari rute tercepat dan rahasia mekanik yang sering dilewatkan pemain biasa.`,
+      s1Desc: `Dunia *Roblox* terus menghadirkan tantangan kompleks di update 2026. Melalui panduan "**${title}**", Anda akan mempelajari rute tercepat dan rahasia mekanik yang sering dilewatkan pemain biasa.`,
       s2: "Langkah Demi Langkah Menyelesaikan Objektif Utama",
       points: [
-        "Fase 1: Persiapan resource dan pengaturan antarmuka grafis ke level optimal.",
-        "Fase 2: Eksekusi rute tercepat dengan memprioritaskan quest bertingkat reward tertinggi.",
-        "Fase 3: Mengoptimalkan penggunaan item utilitas untuk memangkas waktu penyelesaian hingga 50%.",
-        "Fase 4: Evaluasi hasil dan penyimpanan progress akun secara aman dari bug server."
+        "**Fase 1 (Persiapan)**: Pengaturan resource dan antarmuka grafis ke level optimal (*60 FPS*).",
+        "**Fase 2 (Rute Tercepat)**: Memprioritaskan quest bertingkat dengan reward exp dan koin tertinggi.",
+        "**Fase 3 (Item Utilitas)**: Mengoptimalkan penggunaan item utilitas untuk memangkas waktu penyelesaian hingga **50%**.",
+        "**Fase 4 (Penyimpanan)**: Evaluasi hasil dan pengamanan progress akun secara aman dari bug server."
       ],
       s3: "Tier List Kemampuan & Rekomendasi Pilihan Terkuat",
-      s3Desc: "Prioritaskan unit atau kemampuan yang memiliki sinergi area (AoE) dan mobilitas tinggi. Di update terbaru, kemampuan dengan efek crowd control memberikan keuntungan mutlak di server kompetitif.",
+      s3Desc: "Prioritaskan unit atau kemampuan yang memiliki sinergi area (**AoE**) dan mobilitas tinggi. Di update terbaru, kemampuan dengan efek *crowd control* memberikan keuntungan mutlak di server kompetitif.",
       s4: "Trik Rahasia & Mekanisme Efisiensi Grinding Cepat",
-      s4Desc: "Manfaatkan siklus spawn server dan waktu reset harian. Bermain di private server atau bersama rekan guild terbukti melipatgandakan kecepatan perolehan item langka secara terukur.",
+      s4Desc: "Manfaatkan siklus *spawn server* dan waktu reset harian. Bermain di *private server* atau bersama rekan guild terbukti melipatgandakan kecepatan perolehan item langka secara terukur.",
       s5: "Kesalahan Fatal Pemula & Cara Menghindarinya",
-      s5Desc: "Jangan membuang koin atau mata uang game pada gacha tier bawah di awal permainan. Fokuskan investasi resource pada pilar utama yang meningkatkan efisiensi jangka panjang."
+      s5Desc: "Jangan membuang koin atau Robux pada gacha tier bawah di awal permainan. Fokuskan investasi resource pada pilar utama yang meningkatkan efisiensi jangka panjang."
     },
     3: { // Minecraft
       s1: "Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
-      s1Desc: `Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan "${title}" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.`,
+      s1Desc: `Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan "**${title}**" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.`,
       s2: "Daftar Bahan & Peralatan yang Wajib Disiapkan",
       points: [
-        "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-        "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-        "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+        "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+        "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+        "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
         "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
       ],
       s3: "Tutorial Eksekusi Tahap Demi Tahap",
-      s3Desc: "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan.",
+      s3Desc: "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan.",
       s4: "Tips Troubleshooting & Efisiensi Maksimal",
-      s4Desc: "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda.",
+      s4Desc: "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda.",
       s5: "Variasi Desain & Peningkatan Keamanan Fasilitas",
       s5Desc: "Tambahkan sistem alarm lampu redstone dan pintu otomatis anti-creeper untuk menjaga kelangsungan fasilitas jangka panjang."
     },
     4: { // Genshin & Honkai
       s1: "Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
-      s1Desc: `Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan "${title}" merinci komposisi tim paling solid.`,
+      s1Desc: `Tantangan endgame *Spiral Abyss* dan *Memory of Chaos* di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi *internal cooldown* (ICD). Ulasan "**${title}**" merinci komposisi tim paling solid.`,
       s2: "Pilihan Senjata / Light Cone Terbaik (F2P & Bintang 5)",
       points: [
-        "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-        "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
-        "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+        "**Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+        "**Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
+        "**Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
       ],
       s3: "Set Artefak / Relic & Rasio Stat Emas",
-      s3Desc: "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus.",
+      s3Desc: "Jaga rasio **Crit Rate : Crit Damage** pada proporsi emas **1:2** (minimal **60% Crit Rate : 120% Crit Damage**). Pastikan ambang batas **Energy Recharge** terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus tanpa jeda.",
       s4: "Urutan Rotasi Skill Tim Tanpa Jeda",
       s4Desc: "Mulai dari penyalaan shield atau buff pendukung, aplikasikan elemen pemicu, lalu masuki fase carry utama untuk menghabiskan durasi burst saat seluruh buff tim sedang mencapai puncaknya.",
       s5: "Strategi Menghadapi Boss & Optimalisasi Waktu",
-      s5Desc: "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+      s5Desc: "Kenali pola serangan boss lantai 12 dan manfaatkan *iframe* saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
     },
     5: { // EA FC & eFootball
       s1: "Filosofi Formasi & Meta Taktik Pertandingan 2026",
-      s1Desc: `Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan "${title}" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.`,
+      s1Desc: `Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan "**${title}**" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.`,
       s2: "Kriteria Atribut Pemain per Posisi Kunci",
       points: [
-        "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-        "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-        "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-        "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+        "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+        "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+        "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+        "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
       ],
       s3: "Trik Eksekusi Skill Moves & Akurasi Tembakan",
-      s3Desc: "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%.",
+      s3Desc: "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**.",
       s4: "Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
-      s4Desc: "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep.",
+      s4Desc: "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola.",
       s5: "Manajemen Stamina & Pergantian Pemain Babak Kedua",
-      s5Desc: "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+      s5Desc: "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
     },
     6: { // Battle Royale
       s1: "Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
-      s1Desc: `Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan "${title}" mengupas rahasia bermain pro secara mendalam.`,
+      s1Desc: `Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan "**${title}**" mengupas rahasia bermain pro secara mendalam.`,
       s2: "Konfigurasi Sensitivitas Kamera & Sensor Gyroscope",
       points: [
-        "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
-        "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
-        "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
-        "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
-        "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+        "**Third Person No Scope**: **300% - 350%** (*Responsivitas gerak lincah jarak dekat*)",
+        "**Red Dot & Holographic**: **280% - 320%** (*Akurasi semprotan tembakan 20-50 meter*)",
+        "**2x Scope**: **220% - 250%** (*Stabilitas bidikan jarak menengah*)",
+        "**3x Scope (Ubah dari 6x)**: **180% - 210%** (*Kombinasi laser spray paling stabil pada M416*)",
+        "**4x Scope**: **160% - 190%** (*Penembak DMR semi-otomatis*)"
       ],
       s3: "Trik Adu Tembak Jarak Dekat (Close Combat)",
-      s3Desc: "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat.",
+      s3Desc: "Gunakan gerakan **jiggle kiri-kanan** cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah **5 meter**; prioritaskan **hip-fire akurat**.",
       s4: "Taktik Rotasi Zona & Memilih Compound Terbaik",
-      s4Desc: "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta.",
+      s4Desc: "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (*edge playing*) sering kali lebih aman daripada menerobos langsung ke pusat peta.",
       s5: "Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
-      s5Desc: "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+      s5Desc: "Bawa minimal **4 hingga 5 granat asap** (*smoke grenade*) untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
     },
     7: { // Gaming Gear & Hardware
       s1: "Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
-      s1Desc: `Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan "${title}" mengulas cara menjaga kestabilan sistem pada performa puncak.`,
+      s1Desc: `Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (*thermal throttling*). Panduan "**${title}**" mengulas cara menjaga kestabilan sistem pada performa puncak.`,
       s2: "Optimasi Pengaturan Sistem & Refresh Rate Layar",
       points: [
-        "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
-        "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
-        "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+        "Kunci layar pada **90Hz atau 120Hz** di menu tampilan untuk animasi gerakan ultra mulus.",
+        "Aktifkan mode **Touch Sampling Rate** tertinggi di aplikasi game turbo bawaan ponsel.",
+        "Atur skala animasi jendela di menu Opsi Pengembang ke angka **0.5x** untuk respons kilat.",
         "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
       ],
       s3: "Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
-      s3Desc: "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan.",
+      s3Desc: "Saat suhu baterai melewati **42°C**, sistem operasi akan secara otomatis memangkas clock speed prosesor (*throttling*), memicu *drop frame* drastis. Penggunaan pendingin aktif (*phone cooler*) menjaga performa tetap stabil di **60/120 FPS konstan**.",
       s4: "Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
-      s4Desc: "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol.",
+      s4Desc: "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti **sarung jari serat perak** (*finger sleeves*) dan **TWS berlatensi rendah** memangkas jeda audio-visual hingga mendekati nol.",
       s5: "Kebiasaan Sehat untuk Umur Baterai Smartphone",
-      s5Desc: "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+      s5Desc: "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur **bypass charging** jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
     },
     8: { // Kids Tech & Learning
       s1: "Prinsip Edukasi Digital Sehat untuk Anak di Era Modern",
-      s1Desc: `Teknologi dapat menjadi sarana stimulasi kognitif yang luar biasa jika didampingi dengan metode yang tepat. Pembahasan "${title}" merangkum pendekatan terarah bagi orang tua cerdas.`,
+      s1Desc: `Teknologi dapat menjadi sarana stimulasi kognitif yang luar biasa jika didampingi dengan metode yang tepat. Pembahasan "**${title}**" merangkum pendekatan terarah bagi orang tua cerdas.`,
       s2: "Langkah Mengubah Layar Menjadi Media Belajar Interaktif",
       points: [
-        "Pilih aplikasi yang melibatkan interaksi aktif (menyentuh, memecahkan teka-teki, meniru bunyi).",
-        "Tetapkan batas waktu harian terstruktur: 30 hingga 60 menit per sesi.",
-        "Dampingi anak secara langsung untuk mendiskusikan apa yang dilihat di layar (co-viewing).",
+        "Pilih aplikasi yang melibatkan **interaksi aktif** (*menyentuh, memecahkan teka-teki, meniru bunyi*).",
+        "Tetapkan batas waktu harian terstruktur: **30 hingga 60 menit per sesi**.",
+        "Dampingi anak secara langsung untuk mendiskusikan apa yang dilihat di layar (*co-viewing*).",
         "Kombinasikan materi digital dengan aktivitas fisik nyata seperti menggambar atau menyusun balok."
       ],
       s3: "Fitur Keamanan & Perlindungan Privasi Anak di Android",
-      s3Desc: "Gunakan fitur Pin Screen (Sematkan Aplikasi) agar anak tidak dapat keluar dari aplikasi belajar tanpa izin, dan aktifkan batasan waktu otomatis melalui Google Family Link.",
+      s3Desc: "Gunakan fitur **Pin Screen (Sematkan Aplikasi)** agar anak tidak dapat keluar dari aplikasi belajar tanpa izin, dan aktifkan batasan waktu otomatis melalui **Google Family Link**.",
       s4: "Tips Pendampingan Belajar Bersama Tanpa Tantrum",
-      s4Desc: "Beri peringatan waktu 5 menit sebelum durasi layar berakhir. Pengalihan perhatian ke aktivitas fisik yang menyenangkan terbukti efektif mencegah rasa frustrasi saat tablet dimatikan.",
+      s4Desc: "Beri peringatan waktu **5 menit sebelum durasi layar berakhir**. Pengalihan perhatian ke aktivitas fisik yang menyenangkan terbukti efektif mencegah rasa frustrasi saat tablet dimatikan.",
       s5: "Memilih Perangkat yang Aman & Ergonomis",
-      s5Desc: "Gunakan casing berbahan busa EVA tahan banting dan aktifkan fitur pelindung mata (Eye Comfort Shield) untuk menyaring radiasi cahaya biru yang dapat mengganggu pola tidur anak."
+      s5Desc: "Gunakan casing berbahan **busa EVA tahan banting** dan aktifkan fitur pelindung mata (**Eye Comfort Shield**) untuk menyaring radiasi cahaya biru yang dapat mengganggu pola tidur anak."
     },
     9: { // Productivity & PDF Work
       s1: "Transformasi Alur Kerja Paperless: Cepat, Rapi & Efisien",
-      s1Desc: `Era kerja digital menuntut pengelolaan dokumen yang cepat tanpa ketergantungan pada printer fisik. Ulasan "${title}" menyajikan solusi praktis untuk mempercepat administrasi harian.`,
+      s1Desc: `Era kerja digital menuntut pengelolaan dokumen yang cepat tanpa ketergantungan pada printer fisik. Ulasan "**${title}**" menyajikan solusi praktis untuk mempercepat administrasi harian.`,
       s2: "Keunggulan Keamanan: Mengapa Pengolahan Dokumen Offline Mutlak Diperlukan",
       points: [
-        "Privasi 100%: Dokumen rahasia tidak pernah diunggah ke server pihak ketiga di cloud.",
-        "Kecepatan Instan: Pengeditan dan penandatanganan berlangsung seketika tanpa perlu kuota internet.",
-        "Kepatuhan Hukum: Mempertahankan keaslian format berkas dan metadata dokumen asli.",
-        "Bebas Risiko Kebocoran: Data kartu identitas, kontrak, dan laporan keuangan tetap aman di perangkat lokal."
+        "**Privasi 100%**: Dokumen rahasia tidak pernah diunggah ke server pihak ketiga di cloud.",
+        "**Kecepatan Instan**: Pengeditan dan penandatanganan berlangsung seketika tanpa perlu kuota internet.",
+        "**Kepatuhan Hukum**: Mempertahankan keaslian format berkas dan metadata dokumen asli.",
+        "**Bebas Risiko Kebocoran**: Data kartu identitas, kontrak, dan laporan keuangan tetap aman di perangkat lokal."
       ],
       s3: "Tanda Tangan Digital Presisi & Anotasi Dokumen",
-      s3Desc: "Manfaatkan stylus presisi untuk menandatangani berkas PDF secara otentik. Pastikan garis tanda tangan memiliki resolusi tajam setara guratan pulpen fisik.",
+      s3Desc: "Manfaatkan **stylus presisi** untuk menandatangani berkas PDF secara otentik. Pastikan garis tanda tangan memiliki resolusi tajam setara guratan pulpen fisik.",
       s4: "Kompresi Berkas Tanpa Menurunkan Keterbacaan",
-      s4Desc: "Pilih metode kompresi berbasis optimasi aliran vektor (vector stream). Teks tetap jernih dan tajam saat diperbesar meskipun ukuran berkas berkurang hingga 70%.",
+      s4Desc: "Pilih metode kompresi berbasis optimasi aliran vektor (*vector stream*). Teks tetap jernih dan tajam saat diperbesar meskipun ukuran berkas berkurang hingga **70%**.",
       s5: "Tips Membangun Arsip Digital Teratur di Android",
-      s5Desc: "Terapkan sistem penamaan berkas standar berbasis tanggal (YYYY-MM-DD_NamaDokumen) dan simpan salinan cadangan secara terenkripsi untuk kemudahan pencarian di masa depan."
+      s5Desc: "Terapkan sistem penamaan berkas standar berbasis tanggal (`YYYY-MM-DD_NamaDokumen`) dan simpan salinan cadangan secara terenkripsi untuk kemudahan pencarian di masa depan."
     }
   };
 

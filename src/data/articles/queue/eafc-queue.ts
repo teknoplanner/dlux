@@ -31,7 +31,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #1)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #1)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -42,31 +42,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -112,10 +112,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -185,7 +185,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #2)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #2)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -196,31 +196,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -266,10 +266,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -339,7 +339,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #3)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #3)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -350,31 +350,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -420,10 +420,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -493,7 +493,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #4)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #4)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -504,31 +504,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -574,10 +574,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -647,7 +647,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #5)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #5)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -658,31 +658,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -728,10 +728,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -801,7 +801,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Trik Driven Ground Pass Menembus Bek (Update 2026 #6)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Trik Driven Ground Pass Menembus Bek (Update 2026 #6)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -812,31 +812,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -882,10 +882,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -955,7 +955,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Finesse Shot Melengkung Luar Kotak (Update 2026 #7)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Finesse Shot Melengkung Luar Kotak (Update 2026 #7)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -966,31 +966,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -1036,10 +1036,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -1109,7 +1109,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Power Shot Timing Hijau Presisi (Update 2026 #8)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Power Shot Timing Hijau Presisi (Update 2026 #8)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1120,31 +1120,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -1190,10 +1190,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -1263,7 +1263,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Move Heel to Heel Flick (Update 2026 #9)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Move Heel to Heel Flick (Update 2026 #9)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1274,31 +1274,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -1344,10 +1344,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -1417,7 +1417,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Move Lane Change Roll (Update 2026 #10)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Move Lane Change Roll (Update 2026 #10)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1428,31 +1428,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -1498,10 +1498,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -1571,7 +1571,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Move Roulette Berputar Cepat (Update 2026 #11)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Move Roulette Berputar Cepat (Update 2026 #11)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1582,31 +1582,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -1652,10 +1652,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -1725,7 +1725,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Move Rainbow Flick Chip (Update 2026 #12)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Move Rainbow Flick Chip (Update 2026 #12)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1736,31 +1736,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -1806,10 +1806,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -1879,7 +1879,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Jockey Defense Tahan Tombol L2 (Update 2026 #13)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Jockey Defense Tahan Tombol L2 (Update 2026 #13)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1890,31 +1890,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -1960,10 +1960,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -2033,7 +2033,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Second Man Press Jebakan Offside (Update 2026 #14)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Second Man Press Jebakan Offside (Update 2026 #14)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2044,31 +2044,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -2114,10 +2114,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -2187,7 +2187,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Kiper Manual Tutup Sudut Sempit (Update 2026 #15)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Kiper Manual Tutup Sudut Sempit (Update 2026 #15)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2198,31 +2198,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -2268,10 +2268,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -2341,7 +2341,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Umpan Terobosan Lambung L1 Segitiga (Update 2026 #16)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Umpan Terobosan Lambung L1 Segitiga (Update 2026 #16)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2352,31 +2352,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -2422,10 +2422,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -2495,7 +2495,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Crossing Umpan Silang Tiang Jauh (Update 2026 #17)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Crossing Umpan Silang Tiang Jauh (Update 2026 #17)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2506,31 +2506,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -2576,10 +2576,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -2649,7 +2649,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Sundulan Kepala Heading Power (Update 2026 #18)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Sundulan Kepala Heading Power (Update 2026 #18)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2660,31 +2660,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -2730,10 +2730,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -2803,7 +2803,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Tendangan Bebas Free Kick Curve (Update 2026 #19)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Tendangan Bebas Free Kick Curve (Update 2026 #19)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2814,31 +2814,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -2884,10 +2884,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -2957,7 +2957,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Penalti Panenka Tipu Kiper (Update 2026 #20)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Penalti Panenka Tipu Kiper (Update 2026 #20)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2968,31 +2968,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -3038,10 +3038,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -3111,7 +3111,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Tendangan Sudut Corner Kick Glitch (Update 2026 #21)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Tendangan Sudut Corner Kick Glitch (Update 2026 #21)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3122,31 +3122,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -3192,10 +3192,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -3265,7 +3265,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Manajemen Stamina Babak Kedua (Update 2026 #22)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Manajemen Stamina Babak Kedua (Update 2026 #22)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3276,31 +3276,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -3346,10 +3346,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -3419,7 +3419,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Super Sub Penyerang Sayap Cepat (Update 2026 #23)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Super Sub Penyerang Sayap Cepat (Update 2026 #23)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3430,31 +3430,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -3500,10 +3500,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -3573,7 +3573,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Setting Kamera Tele Broadcast Lebar (Update 2026 #24)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Setting Kamera Tele Broadcast Lebar (Update 2026 #24)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3584,31 +3584,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -3654,10 +3654,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -3727,7 +3727,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Setting Tombol Virtual Stick Halus (Update 2026 #25)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Setting Tombol Virtual Stick Halus (Update 2026 #25)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3738,31 +3738,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -3808,10 +3808,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -3881,7 +3881,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik eFootball Formasi Quick Counter (Update 2026 #26)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik eFootball Formasi Quick Counter (Update 2026 #26)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3892,31 +3892,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -3962,10 +3962,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -4035,7 +4035,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik eFootball Trik Possession Game (Update 2026 #27)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik eFootball Trik Possession Game (Update 2026 #27)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4046,31 +4046,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -4116,10 +4116,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -4189,7 +4189,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik eFootball Match-up Defense Intersep (Update 2026 #28)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik eFootball Match-up Defense Intersep (Update 2026 #28)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4200,31 +4200,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -4270,10 +4270,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -4343,7 +4343,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik eFootball Stunner Cross Umpan Maut (Update 2026 #29)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik eFootball Stunner Cross Umpan Maut (Update 2026 #29)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4354,31 +4354,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -4424,10 +4424,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -4497,7 +4497,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik eFootball Stunning Shot Jarum Jam (Update 2026 #30)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik eFootball Stunning Shot Jarum Jam (Update 2026 #30)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4508,31 +4508,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -4578,10 +4578,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -4651,7 +4651,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Farming Koin eFootball Gratis (Update 2026 #31)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Farming Koin eFootball Gratis (Update 2026 #31)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4662,31 +4662,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -4732,10 +4732,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -4805,7 +4805,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Farming FC Points & Gems Efisien (Update 2026 #32)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Farming FC Points & Gems Efisien (Update 2026 #32)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4816,31 +4816,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -4886,10 +4886,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -4959,7 +4959,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Event Division Rivals Rank 1 (Update 2026 #33)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Event Division Rivals Rank 1 (Update 2026 #33)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4970,31 +4970,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -5040,10 +5040,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -5113,7 +5113,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Weekend League Juara 20 Win (Update 2026 #34)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Weekend League Juara 20 Win (Update 2026 #34)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5124,31 +5124,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -5194,10 +5194,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -5267,7 +5267,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Pasar Transfer Trading Pemain (Update 2026 #35)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Pasar Transfer Trading Pemain (Update 2026 #35)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5278,31 +5278,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -5348,10 +5348,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -5421,7 +5421,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Investasi Kartu Rating Tinggi (Update 2026 #36)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Investasi Kartu Rating Tinggi (Update 2026 #36)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5432,31 +5432,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -5502,10 +5502,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -5575,7 +5575,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Evolution Player Kartu Favorit (Update 2026 #37)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Evolution Player Kartu Favorit (Update 2026 #37)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5586,31 +5586,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -5656,10 +5656,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -5729,7 +5729,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Chemistry Squad 33 Penuh (Update 2026 #38)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Chemistry Squad 33 Penuh (Update 2026 #38)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5740,31 +5740,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -5810,10 +5810,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -5883,7 +5883,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Kiper Terbaik Refleks Kucing (Update 2026 #39)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Kiper Terbaik Refleks Kucing (Update 2026 #39)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5894,31 +5894,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -5964,10 +5964,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -6037,7 +6037,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Bek Tengah CB Cepat Anti Terobos (Update 2026 #40)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Bek Tengah CB Cepat Anti Terobos (Update 2026 #40)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6048,31 +6048,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -6118,10 +6118,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -6191,7 +6191,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Gelandang Bertahan CDM Badak (Update 2026 #41)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Gelandang Bertahan CDM Badak (Update 2026 #41)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6202,31 +6202,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -6272,10 +6272,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -6345,7 +6345,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Playmaker CAM Umpan Ajaib (Update 2026 #42)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Playmaker CAM Umpan Ajaib (Update 2026 #42)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6356,31 +6356,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -6426,10 +6426,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -6499,7 +6499,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Sayap Kilat Pace 95+ Lari (Update 2026 #43)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Sayap Kilat Pace 95+ Lari (Update 2026 #43)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6510,31 +6510,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -6580,10 +6580,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -6653,7 +6653,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Striker Monster Finishing 90+ (Update 2026 #44)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Striker Monster Finishing 90+ (Update 2026 #44)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6664,31 +6664,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -6734,10 +6734,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -6807,7 +6807,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Atasi Delay Koneksi Ping Hijau (Update 2026 #45)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Atasi Delay Koneksi Ping Hijau (Update 2026 #45)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6818,31 +6818,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -6888,10 +6888,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -6961,7 +6961,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Main Pakai Stik Bluetooth HP (Update 2026 #46)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Main Pakai Stik Bluetooth HP (Update 2026 #46)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6972,31 +6972,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -7042,10 +7042,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -7115,7 +7115,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Trik Hindari Scripting Comeback (Update 2026 #47)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Trik Hindari Scripting Comeback (Update 2026 #47)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7126,31 +7126,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -7196,10 +7196,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -7269,7 +7269,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Mental Tenang Adu Penalti Final (Update 2026 #48)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Mental Tenang Adu Penalti Final (Update 2026 #48)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7280,31 +7280,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -7350,10 +7350,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -7423,7 +7423,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Analisis Taktik Pep vs Ancelotti (Update 2026 #49)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Analisis Taktik Pep vs Ancelotti (Update 2026 #49)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7434,31 +7434,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -7504,10 +7504,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -7577,7 +7577,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Turnamen Esports Mobile Indo 2026 (Update 2026 #50)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Turnamen Esports Mobile Indo 2026 (Update 2026 #50)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7588,31 +7588,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -7658,10 +7658,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -7731,7 +7731,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 5-2-3 Anti Kebobolan (Update 2026 #51)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 5-2-3 Anti Kebobolan (Update 2026 #51)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7742,31 +7742,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -7812,10 +7812,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -7885,7 +7885,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-4-2 Klasik Solid (Update 2026 #52)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-4-2 Klasik Solid (Update 2026 #52)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7896,31 +7896,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -7966,10 +7966,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -8039,7 +8039,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Trik Dribble R1 Sprint Halus (Update 2026 #53)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Trik Dribble R1 Sprint Halus (Update 2026 #53)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8050,31 +8050,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -8120,10 +8120,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -8193,7 +8193,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Fake Shot Stop Hentikan Bola (Update 2026 #54)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Fake Shot Stop Hentikan Bola (Update 2026 #54)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8204,31 +8204,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -8274,10 +8274,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -8347,7 +8347,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Driven Lobbed Through Ball (Update 2026 #55)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Driven Lobbed Through Ball (Update 2026 #55)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8358,31 +8358,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -8428,10 +8428,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -8501,7 +8501,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Trik Pagar Hidup Melompat (Update 2026 #56)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Trik Pagar Hidup Melompat (Update 2026 #56)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8512,31 +8512,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -8582,10 +8582,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -8655,7 +8655,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Kiper Maju Keluar Kotak (Update 2026 #57)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Kiper Maju Keluar Kotak (Update 2026 #57)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8666,31 +8666,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -8736,10 +8736,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -8809,7 +8809,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Build Squad Budget 1 Juta Koin (Update 2026 #58)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Build Squad Budget 1 Juta Koin (Update 2026 #58)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8820,31 +8820,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -8890,10 +8890,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -8963,7 +8963,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Pemain Muda Wonderkid Murah (Update 2026 #59)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Pemain Muda Wonderkid Murah (Update 2026 #59)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8974,31 +8974,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -9044,10 +9044,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -9117,7 +9117,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Master League Mode Offline (Update 2026 #60)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Master League Mode Offline (Update 2026 #60)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9128,31 +9128,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -9198,10 +9198,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -9271,7 +9271,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Manager Mode Taktik Otomatis (Update 2026 #61)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Manager Mode Taktik Otomatis (Update 2026 #61)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9282,31 +9282,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -9352,10 +9352,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -9425,7 +9425,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Pelatih Taktik Out Wide eFootball (Update 2026 #62)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Pelatih Taktik Out Wide eFootball (Update 2026 #62)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9436,31 +9436,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -9506,10 +9506,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -9579,7 +9579,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Pelatih Long Ball Counter (Update 2026 #63)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Pelatih Long Ball Counter (Update 2026 #63)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9590,31 +9590,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -9660,10 +9660,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -9733,7 +9733,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Progression Points Reset Trik (Update 2026 #64)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Progression Points Reset Trik (Update 2026 #64)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9744,31 +9744,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -9814,10 +9814,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -9887,7 +9887,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Player Skills Tambahan Konami (Update 2026 #65)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Player Skills Tambahan Konami (Update 2026 #65)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9898,31 +9898,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -9968,10 +9968,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -10041,7 +10041,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Double Touch eFootball (Update 2026 #66)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Double Touch eFootball (Update 2026 #66)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10052,31 +10052,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -10122,10 +10122,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -10195,7 +10195,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Marseille Turn Cepat (Update 2026 #67)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Marseille Turn Cepat (Update 2026 #67)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10206,31 +10206,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -10276,10 +10276,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -10349,7 +10349,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill One-Touch Pass Wajib (Update 2026 #68)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill One-Touch Pass Wajib (Update 2026 #68)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10360,31 +10360,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -10430,10 +10430,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -10503,7 +10503,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Interception Bek Terbaik (Update 2026 #69)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Interception Bek Terbaik (Update 2026 #69)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10514,31 +10514,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -10584,10 +10584,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -10657,7 +10657,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Skill Blocker Blokir Tembakan (Update 2026 #70)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Skill Blocker Blokir Tembakan (Update 2026 #70)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10668,31 +10668,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -10738,10 +10738,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -10811,7 +10811,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Server Maintenance Waktu Rutin (Update 2026 #71)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Server Maintenance Waktu Rutin (Update 2026 #71)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10822,31 +10822,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -10892,10 +10892,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -10965,7 +10965,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Pemberian Booster eFootball 2026 (Update 2026 #72)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Pemberian Booster eFootball 2026 (Update 2026 #72)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10976,31 +10976,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -11046,10 +11046,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -11119,7 +11119,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Update Transfer Musim Dingin (Update 2026 #73)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Update Transfer Musim Dingin (Update 2026 #73)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11130,31 +11130,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -11200,10 +11200,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -11273,7 +11273,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Kartu Icon Legenda Sepak Bola (Update 2026 #74)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Kartu Icon Legenda Sepak Bola (Update 2026 #74)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11284,31 +11284,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -11354,10 +11354,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -11427,7 +11427,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Event Co-op Mabar 3v3 Teman (Update 2026 #75)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Event Co-op Mabar 3v3 Teman (Update 2026 #75)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11438,31 +11438,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -11508,10 +11508,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -11581,7 +11581,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Koneksi LAN Kabel via Type-C (Update 2026 #76)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Koneksi LAN Kabel via Type-C (Update 2026 #76)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11592,31 +11592,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -11662,10 +11662,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -11735,7 +11735,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Layar 120Hz Respons Sentuhan Stik (Update 2026 #77)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Layar 120Hz Respons Sentuhan Stik (Update 2026 #77)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11746,31 +11746,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -11816,10 +11816,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -11889,7 +11889,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Turnamen Komunitas Cafe Mabar (Update 2026 #78)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Turnamen Komunitas Cafe Mabar (Update 2026 #78)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11900,31 +11900,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -11970,10 +11970,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -12043,7 +12043,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #79)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #79)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12054,31 +12054,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -12124,10 +12124,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -12197,7 +12197,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #80)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #80)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12208,31 +12208,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -12278,10 +12278,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -12351,7 +12351,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #81)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #81)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12362,31 +12362,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -12432,10 +12432,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -12505,7 +12505,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #82)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #82)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12516,31 +12516,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -12586,10 +12586,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
@@ -12659,7 +12659,7 @@ export const eafcQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Filosofi Formasi & Meta Taktik Pertandingan 2026",
         "content": [
-          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #83)\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
+          "Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan \"**Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #83)**\" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12670,31 +12670,31 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "**Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "**Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "**Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "**Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Trik Eksekusi Skill Moves & Akurasi Tembakan",
         "content": [
-          "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%."
+          "Gunakan **Driven Ground Pass** untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan **Finesse Shot** melengkung dengan power terukur **60-70%**."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
         "content": [
-          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep."
+          "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol **Jockey** untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep bola."
         ]
       },
       {
         "id": "sinergi-lanjutan-dan-kebiasaan-juara",
         "title": "5. Manajemen Stamina & Pergantian Pemain Babak Kedua",
         "content": [
-          "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+          "Lakukan pergantian pemain sayap pada **menit ke-60**. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
         ]
       }
     ],
@@ -12740,10 +12740,10 @@ export const eafcQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
-          "Standard: Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
-          "Standard: Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
-          "Standard: Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+          "Standard: **Bek Tengah (CB)**: Prioritaskan atribut **Pace di atas 85** dan **Defensive Awareness tinggi**.",
+          "Standard: **Gelandang Bertahan (CDM)**: Wajib memiliki work rate **High/High** dan stamina prima untuk menutup ruang umpan.",
+          "Standard: **Sayap (Winger)**: Kecepatan akselerasi tinggi dengan kemampuan crossing atau *finesse shot* akurat.",
+          "Standard: **Penyerang (ST)**: Finishing tajam dengan keunggulan fisik atau *skill moves* bintang 4 ke atas."
         ]
       },
       {

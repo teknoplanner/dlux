@@ -31,7 +31,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Seed Desa Berdampingan Mansion (Update 2026 Seri #1)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Seed Desa Berdampingan Mansion (Update 2026 Seri #1)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -42,9 +42,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -52,14 +52,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -112,9 +112,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -185,7 +185,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Seed Survival Island Ekstrem (Update 2026 Seri #2)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Seed Survival Island Ekstrem (Update 2026 Seri #2)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -196,9 +196,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -206,14 +206,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -266,9 +266,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -339,7 +339,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Iron Golem Otomatis (Update 2026 Seri #3)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Iron Golem Otomatis (Update 2026 Seri #3)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -350,9 +350,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -360,14 +360,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -420,9 +420,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -493,7 +493,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Mob XP 5 Menit Level 30 (Update 2026 Seri #4)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Mob XP 5 Menit Level 30 (Update 2026 Seri #4)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -504,9 +504,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -514,14 +514,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -574,9 +574,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -647,7 +647,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Ancient Debris Netherite Tempat Tidur (Update 2026 Seri #5)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Ancient Debris Netherite Tempat Tidur (Update 2026 Seri #5)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -658,9 +658,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -668,14 +668,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -728,9 +728,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -801,7 +801,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Kalahkan Ender Dragon Panah & Air (Update 2026 Seri #6)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Kalahkan Ender Dragon Panah & Air (Update 2026 Seri #6)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -812,9 +812,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -822,14 +822,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -882,9 +882,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -955,7 +955,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik End City Elytra & Shulker Box (Update 2026 Seri #7)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik End City Elytra & Shulker Box (Update 2026 Seri #7)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -966,9 +966,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -976,14 +976,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -1036,9 +1036,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1109,7 +1109,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Desain Rumah Kayu Estetik Pemula (Update 2026 Seri #8)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Desain Rumah Kayu Estetik Pemula (Update 2026 Seri #8)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1120,9 +1120,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1130,14 +1130,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -1190,9 +1190,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1263,7 +1263,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Dekorasi Interior Modern Kamar (Update 2026 Seri #9)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Dekorasi Interior Modern Kamar (Update 2026 Seri #9)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1274,9 +1274,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1284,14 +1284,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -1344,9 +1344,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1417,7 +1417,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Shaders Minecraft PE Ringan 60 FPS (Update 2026 Seri #10)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Shaders Minecraft PE Ringan 60 FPS (Update 2026 Seri #10)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1428,9 +1428,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1438,14 +1438,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -1498,9 +1498,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1571,7 +1571,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik 7 Addon Bedrock Terbaik (Update 2026 Seri #11)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik 7 Addon Bedrock Terbaik (Update 2026 Seri #11)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1582,9 +1582,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1592,14 +1592,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -1652,9 +1652,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1725,7 +1725,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Pintu Rahasia 2x2 Redstone Piston (Update 2026 Seri #12)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Pintu Rahasia 2x2 Redstone Piston (Update 2026 Seri #12)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1736,9 +1736,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1746,14 +1746,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -1806,9 +1806,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1879,7 +1879,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Brewing Stand Resep Semua Ramuan (Update 2026 Seri #13)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Brewing Stand Resep Semua Ramuan (Update 2026 Seri #13)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -1890,9 +1890,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -1900,14 +1900,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -1960,9 +1960,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2033,7 +2033,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Jinakkan Hewan Peliharaan Serigala (Update 2026 Seri #14)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Jinakkan Hewan Peliharaan Serigala (Update 2026 Seri #14)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2044,9 +2044,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2054,14 +2054,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -2114,9 +2114,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2187,7 +2187,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Villager Trading Hall Mending 1 Zamrud (Update 2026 Seri #15)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Villager Trading Hall Mending 1 Zamrud (Update 2026 Seri #15)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2198,9 +2198,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2208,14 +2208,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -2268,9 +2268,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2341,7 +2341,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Pillager Raid Totem of Undying (Update 2026 Seri #16)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Pillager Raid Totem of Undying (Update 2026 Seri #16)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2352,9 +2352,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2362,14 +2362,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -2422,9 +2422,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2495,7 +2495,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Ancient City Warden Sensor Wool (Update 2026 Seri #17)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Ancient City Warden Sensor Wool (Update 2026 Seri #17)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2506,9 +2506,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2516,14 +2516,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -2576,9 +2576,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2649,7 +2649,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Kapal Karam Peti Harta Karun (Update 2026 Seri #18)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Kapal Karam Peti Harta Karun (Update 2026 Seri #18)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2660,9 +2660,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2670,14 +2670,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -2730,9 +2730,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2803,7 +2803,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Bangun Kastil Batu Megah Benteng (Update 2026 Seri #19)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Bangun Kastil Batu Megah Benteng (Update 2026 Seri #19)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2814,9 +2814,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2824,14 +2824,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -2884,9 +2884,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2957,7 +2957,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Gandum & Wortel Villager (Update 2026 Seri #20)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Gandum & Wortel Villager (Update 2026 Seri #20)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -2968,9 +2968,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -2978,14 +2978,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -3038,9 +3038,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3111,7 +3111,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Kombinasi Enchantment Senjata Armor (Update 2026 Seri #21)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Kombinasi Enchantment Senjata Armor (Update 2026 Seri #21)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3122,9 +3122,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3132,14 +3132,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -3192,9 +3192,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3265,7 +3265,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Peta Kartografi & Navigasi Kompas (Update 2026 Seri #22)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Peta Kartografi & Navigasi Kompas (Update 2026 Seri #22)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3276,9 +3276,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3286,14 +3286,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -3346,9 +3346,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3419,7 +3419,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Jinakkan Kuda & Unta Gurun (Update 2026 Seri #23)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Jinakkan Kuda & Unta Gurun (Update 2026 Seri #23)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3430,9 +3430,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3440,14 +3440,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -3500,9 +3500,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3573,7 +3573,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Tebu & Bambu Observer (Update 2026 Seri #24)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Tebu & Bambu Observer (Update 2026 Seri #24)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3584,9 +3584,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3594,14 +3594,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -3654,9 +3654,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3727,7 +3727,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Woodland Mansion Kalahkan Evoker (Update 2026 Seri #25)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Woodland Mansion Kalahkan Evoker (Update 2026 Seri #25)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3738,9 +3738,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3748,14 +3748,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -3808,9 +3808,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3881,7 +3881,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Bertahan di Bioma Salju Powder (Update 2026 Seri #26)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Bertahan di Bioma Salju Powder (Update 2026 Seri #26)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -3892,9 +3892,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -3902,14 +3902,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -3962,9 +3962,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4035,7 +4035,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Trik Mancing Buku Mitos Sakti (Update 2026 Seri #27)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Trik Mancing Buku Mitos Sakti (Update 2026 Seri #27)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4046,9 +4046,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4056,14 +4056,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -4116,9 +4116,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4189,7 +4189,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Lift Air Soul Sand Gelembung (Update 2026 Seri #28)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Lift Air Soul Sand Gelembung (Update 2026 Seri #28)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4200,9 +4200,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4210,14 +4210,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -4270,9 +4270,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4343,7 +4343,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Setting Grafis HP Kentang 120 FPS (Update 2026 Seri #29)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Setting Grafis HP Kentang 120 FPS (Update 2026 Seri #29)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4354,9 +4354,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4364,14 +4364,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -4424,9 +4424,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4497,7 +4497,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Mabar Realms Server Gratis HP PC (Update 2026 Seri #30)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Mabar Realms Server Gratis HP PC (Update 2026 Seri #30)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4508,9 +4508,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4518,14 +4518,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -4578,9 +4578,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4651,7 +4651,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Emas Nether Piglin Otomatis (Update 2026 Seri #31)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Emas Nether Piglin Otomatis (Update 2026 Seri #31)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4662,9 +4662,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4672,14 +4672,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -4732,9 +4732,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4805,7 +4805,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Raid Emerald Tanpa Batas (Update 2026 Seri #32)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Raid Emerald Tanpa Batas (Update 2026 Seri #32)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4816,9 +4816,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4826,14 +4826,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -4886,9 +4886,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4959,7 +4959,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Slime Chunk Bawah Tanah (Update 2026 Seri #33)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Slime Chunk Bawah Tanah (Update 2026 Seri #33)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -4970,9 +4970,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -4980,14 +4980,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -5040,9 +5040,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5113,7 +5113,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Enderman Void Cepat XP (Update 2026 Seri #34)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Enderman Void Cepat XP (Update 2026 Seri #34)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5124,9 +5124,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5134,14 +5134,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -5194,9 +5194,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5267,7 +5267,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Kayu Otomatis TNT Blast (Update 2026 Seri #35)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Kayu Otomatis TNT Blast (Update 2026 Seri #35)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5278,9 +5278,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5288,14 +5288,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -5348,9 +5348,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5421,7 +5421,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Trial Chambers Kalahkan Breeze (Update 2026 Seri #36)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Trial Chambers Kalahkan Breeze (Update 2026 Seri #36)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5432,9 +5432,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5442,14 +5442,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -5502,9 +5502,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5575,7 +5575,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Senjata Mace Kombo Wind Charge (Update 2026 Seri #37)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Senjata Mace Kombo Wind Charge (Update 2026 Seri #37)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5586,9 +5586,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5596,14 +5596,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -5656,9 +5656,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5729,7 +5729,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Armadillo Scute Armor Serigala (Update 2026 Seri #38)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Armadillo Scute Armor Serigala (Update 2026 Seri #38)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5740,9 +5740,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5750,14 +5750,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -5810,9 +5810,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5883,7 +5883,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Auto Crafter Redstone Fabrikasi (Update 2026 Seri #39)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Auto Crafter Redstone Fabrikasi (Update 2026 Seri #39)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -5894,9 +5894,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -5904,14 +5904,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -5964,9 +5964,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6037,7 +6037,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Copper Bulb Delay Mekanisme (Update 2026 Seri #40)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Copper Bulb Delay Mekanisme (Update 2026 Seri #40)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6048,9 +6048,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6058,14 +6058,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -6118,9 +6118,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6191,7 +6191,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Desain Jembatan Gantung Estetik (Update 2026 Seri #41)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Desain Jembatan Gantung Estetik (Update 2026 Seri #41)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6202,9 +6202,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6212,14 +6212,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -6272,9 +6272,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6345,7 +6345,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Ide Mercusuar Tepi Pantai (Update 2026 Seri #42)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Ide Mercusuar Tepi Pantai (Update 2026 Seri #42)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6356,9 +6356,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6366,14 +6366,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -6426,9 +6426,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6499,7 +6499,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Desain Kincir Angin Pertanian (Update 2026 Seri #43)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Desain Kincir Angin Pertanian (Update 2026 Seri #43)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6510,9 +6510,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6520,14 +6520,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -6580,9 +6580,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6653,7 +6653,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Rumah Bawah Tanah Rahasia (Update 2026 Seri #44)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Rumah Bawah Tanah Rahasia (Update 2026 Seri #44)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6664,9 +6664,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6674,14 +6674,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -6734,9 +6734,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6807,7 +6807,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Bunker Anti Creeper Kaca (Update 2026 Seri #45)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Bunker Anti Creeper Kaca (Update 2026 Seri #45)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6818,9 +6818,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6828,14 +6828,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -6888,9 +6888,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6961,7 +6961,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Kolam Ikan Hias Akuarium Kaca (Update 2026 Seri #46)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Kolam Ikan Hias Akuarium Kaca (Update 2026 Seri #46)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -6972,9 +6972,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -6982,14 +6982,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -7042,9 +7042,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7115,7 +7115,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Taman Bunga Lebah Honey Farm (Update 2026 Seri #47)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Taman Bunga Lebah Honey Farm (Update 2026 Seri #47)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7126,9 +7126,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7136,14 +7136,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -7196,9 +7196,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7269,7 +7269,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Farm Katak Froglight Rawa (Update 2026 Seri #48)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Farm Katak Froglight Rawa (Update 2026 Seri #48)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7280,9 +7280,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7290,14 +7290,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -7350,9 +7350,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7423,7 +7423,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Axolotl Kolam Bioma Lush Cave (Update 2026 Seri #49)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Axolotl Kolam Bioma Lush Cave (Update 2026 Seri #49)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7434,9 +7434,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7444,14 +7444,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -7504,9 +7504,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7577,7 +7577,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Glow Berry Tanaman Hias Cahaya (Update 2026 Seri #50)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Glow Berry Tanaman Hias Cahaya (Update 2026 Seri #50)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7588,9 +7588,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7598,14 +7598,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -7658,9 +7658,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7731,7 +7731,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Amethyst Geode Kristal Suara (Update 2026 Seri #51)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Amethyst Geode Kristal Suara (Update 2026 Seri #51)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7742,9 +7742,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7752,14 +7752,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -7812,9 +7812,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7885,7 +7885,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Deepslate Tambang Berlian Y-58 (Update 2026 Seri #52)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Deepslate Tambang Berlian Y-58 (Update 2026 Seri #52)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -7896,9 +7896,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -7906,14 +7906,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -7966,9 +7966,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8039,7 +8039,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Gua Karst Dripstone Lava Tanpa Batas (Update 2026 Seri #53)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Gua Karst Dripstone Lava Tanpa Batas (Update 2026 Seri #53)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8050,9 +8050,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8060,14 +8060,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -8120,9 +8120,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8193,7 +8193,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Sculk Catalyst XP Generator (Update 2026 Seri #54)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Sculk Catalyst XP Generator (Update 2026 Seri #54)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8204,9 +8204,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8214,14 +8214,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -8274,9 +8274,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8347,7 +8347,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Allay Otomatis Sortir Barang (Update 2026 Seri #55)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Allay Otomatis Sortir Barang (Update 2026 Seri #55)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8358,9 +8358,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8368,14 +8368,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -8428,9 +8428,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8501,7 +8501,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Piston Door 3x3 Kompak Redstone (Update 2026 Seri #56)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Piston Door 3x3 Kompak Redstone (Update 2026 Seri #56)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8512,9 +8512,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8522,14 +8522,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -8582,9 +8582,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8655,7 +8655,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Item Sorter Gudang Otomatis (Update 2026 Seri #57)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Item Sorter Gudang Otomatis (Update 2026 Seri #57)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8666,9 +8666,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8676,14 +8676,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -8736,9 +8736,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8809,7 +8809,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Furnace Smelter Super Cepat (Update 2026 Seri #58)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Furnace Smelter Super Cepat (Update 2026 Seri #58)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8820,9 +8820,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8830,14 +8830,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -8890,9 +8890,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8963,7 +8963,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Brewing Otomatis Potion Generator (Update 2026 Seri #59)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Brewing Otomatis Potion Generator (Update 2026 Seri #59)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -8974,9 +8974,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -8984,14 +8984,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -9044,9 +9044,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9117,7 +9117,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Lonceng Alarm Desa Sensor Cahaya (Update 2026 Seri #60)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Lonceng Alarm Desa Sensor Cahaya (Update 2026 Seri #60)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9128,9 +9128,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9138,14 +9138,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -9198,9 +9198,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9271,7 +9271,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Buku Catatan Lectern Rahasia (Update 2026 Seri #61)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Buku Catatan Lectern Rahasia (Update 2026 Seri #61)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9282,9 +9282,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9292,14 +9292,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -9352,9 +9352,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9425,7 +9425,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Armor Stand Pose Kustom Show (Update 2026 Seri #62)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Armor Stand Pose Kustom Show (Update 2026 Seri #62)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9436,9 +9436,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9446,14 +9446,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -9506,9 +9506,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9579,7 +9579,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Banner Bendera Desain Keren (Update 2026 Seri #63)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Banner Bendera Desain Keren (Update 2026 Seri #63)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9590,9 +9590,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9600,14 +9600,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -9660,9 +9660,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9733,7 +9733,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Pot Bunga Sniffer Biji Kuno (Update 2026 Seri #64)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Pot Bunga Sniffer Biji Kuno (Update 2026 Seri #64)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9744,9 +9744,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9754,14 +9754,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -9814,9 +9814,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9887,7 +9887,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Sniffer Farm Tanaman Purba (Update 2026 Seri #65)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Sniffer Farm Tanaman Purba (Update 2026 Seri #65)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -9898,9 +9898,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -9908,14 +9908,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -9968,9 +9968,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10041,7 +10041,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Armor Trim Pola Keren Baju (Update 2026 Seri #66)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Armor Trim Pola Keren Baju (Update 2026 Seri #66)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10052,9 +10052,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10062,14 +10062,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -10122,9 +10122,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10195,7 +10195,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Netherite Upgrade Template Duplikasi (Update 2026 Seri #67)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Netherite Upgrade Template Duplikasi (Update 2026 Seri #67)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10206,9 +10206,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10216,14 +10216,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -10276,9 +10276,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10349,7 +10349,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Pottery Sherd Arkeologi Pasir (Update 2026 Seri #68)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Pottery Sherd Arkeologi Pasir (Update 2026 Seri #68)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10360,9 +10360,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10370,14 +10370,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -10430,9 +10430,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10503,7 +10503,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Kuas Arkeologi Kuil Gurun (Update 2026 Seri #69)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Kuas Arkeologi Kuil Gurun (Update 2026 Seri #69)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10514,9 +10514,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10524,14 +10524,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -10584,9 +10584,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10657,7 +10657,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Sponge Keringkan Monumen Laut (Update 2026 Seri #70)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Sponge Keringkan Monumen Laut (Update 2026 Seri #70)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10668,9 +10668,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10678,14 +10678,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -10738,9 +10738,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10811,7 +10811,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Kalahkan Elder Guardian Prismarine (Update 2026 Seri #71)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Kalahkan Elder Guardian Prismarine (Update 2026 Seri #71)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10822,9 +10822,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10832,14 +10832,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -10892,9 +10892,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10965,7 +10965,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Conduit Jantung Laut Nafas Air (Update 2026 Seri #72)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Conduit Jantung Laut Nafas Air (Update 2026 Seri #72)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -10976,9 +10976,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -10986,14 +10986,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -11046,9 +11046,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11119,7 +11119,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Beacon Cahaya Kecepatan Haste 2 (Update 2026 Seri #73)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Beacon Cahaya Kecepatan Haste 2 (Update 2026 Seri #73)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11130,9 +11130,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11140,14 +11140,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -11200,9 +11200,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11273,7 +11273,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Wither Boss Trik Bawah Bedrock (Update 2026 Seri #74)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Wither Boss Trik Bawah Bedrock (Update 2026 Seri #74)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11284,9 +11284,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11294,14 +11294,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -11354,9 +11354,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11427,7 +11427,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Wither Skeleton Tengkorak Hitam (Update 2026 Seri #75)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Wither Skeleton Tengkorak Hitam (Update 2026 Seri #75)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11438,9 +11438,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11448,14 +11448,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -11508,9 +11508,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11581,7 +11581,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Nether Fortress Blaze Rod Farm (Update 2026 Seri #76)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Nether Fortress Blaze Rod Farm (Update 2026 Seri #76)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11592,9 +11592,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11602,14 +11602,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -11662,9 +11662,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11735,7 +11735,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Piglin Bartering Emas Mutiara (Update 2026 Seri #77)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Piglin Bartering Emas Mutiara (Update 2026 Seri #77)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11746,9 +11746,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11756,14 +11756,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -11816,9 +11816,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11889,7 +11889,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Ghast Tear Ramuan Regenerasi (Update 2026 Seri #78)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Ghast Tear Ramuan Regenerasi (Update 2026 Seri #78)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -11900,9 +11900,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -11910,14 +11910,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -11970,9 +11970,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12043,7 +12043,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Magma Cream Tahan Api Ramuan (Update 2026 Seri #79)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Magma Cream Tahan Api Ramuan (Update 2026 Seri #79)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12054,9 +12054,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12064,14 +12064,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -12124,9 +12124,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12197,7 +12197,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Phantom Membrane Membran Elytra (Update 2026 Seri #80)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Phantom Membrane Membran Elytra (Update 2026 Seri #80)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12208,9 +12208,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12218,14 +12218,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -12278,9 +12278,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12351,7 +12351,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Turtle Helmet Nafas Air Tambahan (Update 2026 Seri #81)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Turtle Helmet Nafas Air Tambahan (Update 2026 Seri #81)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12362,9 +12362,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12372,14 +12372,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -12432,9 +12432,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12505,7 +12505,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Trident Riptide Terbang Hujan (Update 2026 Seri #82)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Trident Riptide Terbang Hujan (Update 2026 Seri #82)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12516,9 +12516,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12526,14 +12526,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -12586,9 +12586,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12659,7 +12659,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "analisis-mendalam-dan-urgensi",
         "title": "1. Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
         "content": [
-          "Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan \"Panduan Lengkap Minecraft: Trik Minecraft Mastery Guide 2026 (Update 2026 Seri #83)\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
+          "Dalam pembaruan *Minecraft* terbaru, memahami koordinat presisi dan mekanika *tick rate* adalah fondasi utama keberhasilan. Panduan \"**Panduan Lengkap Minecraft: Trik Minecraft Mastery Guide 2026 (Update 2026 Seri #83)**\" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.",
           "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
         ]
       },
@@ -12670,9 +12670,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
         ],
         "bulletPoints": [
-          "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
@@ -12680,14 +12680,14 @@ export const minecraftQueueArticles: ArticleItem[] = [
         "id": "pengaturan-antarmuka-dan-tata-letak",
         "title": "3. Tutorial Eksekusi Tahap Demi Tahap",
         "content": [
-          "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan."
+          "Mulai dari penentuan chunk perbatasan (`F3 + G`), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius **128 blok** telah diberi penerangan."
         ]
       },
       {
         "id": "teknik-eksekusi-dan-taktik-lapangan",
         "title": "4. Tips Troubleshooting & Efisiensi Maksimal",
         "content": [
-          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
+          "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap **Observer** dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda."
         ]
       },
       {
@@ -12740,9 +12740,9 @@ export const minecraftQueueArticles: ArticleItem[] = [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
-          "Standard: Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
-          "Standard: Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+          "Standard: Peralatan utama dengan enchant minimal **Unbreaking III** dan **Mending**.",
+          "Standard: Blok bangunan non-flammable (**Cobblestone / Stone Bricks**) dalam jumlah memadai.",
+          "Standard: Komponen redstone: **Repeater**, **Comparator**, **Observer**, dan **Piston** sesuai kebutuhan desain.",
           "Standard: Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
         ]
       },
