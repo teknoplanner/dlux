@@ -45,18 +45,26 @@ export interface BridgeData {
   p1: THREE.Vector3;
   p2: THREE.Vector3;
   width: number;
-  height: number;
+  arch: number;
 }
 
-function distanceToSegment2D(px: number, pz: number, x1: number, z1: number, x2: number, z2: number): number {
-  const dx = x2 - x1;
-  const dz = z2 - z1;
+function getBridgeHeightAt(px: number, pz: number, br: BridgeData): number | null {
+  const dx = br.p2.x - br.p1.x;
+  const dz = br.p2.z - br.p1.z;
   const lenSq = dx * dx + dz * dz;
-  if (lenSq === 0) return Math.hypot(px - x1, pz - z1);
-  const t = Math.max(0, Math.min(1, ((px - x1) * dx + (pz - z1) * dz) / lenSq));
-  const projX = x1 + t * dx;
-  const projZ = z1 + t * dz;
-  return Math.hypot(px - projX, pz - projZ);
+  if (lenSq === 0) return null;
+  const t = ((px - br.p1.x) * dx + (pz - br.p1.z) * dz) / lenSq;
+  if (t < -0.02 || t > 1.02) return null;
+  const clampedT = Math.max(0, Math.min(1, t));
+  const projX = br.p1.x + clampedT * dx;
+  const projZ = br.p1.z + clampedT * dz;
+  const dist = Math.hypot(px - projX, pz - projZ);
+  if (dist <= br.width / 2 + 0.3) {
+    const baseH = br.p1.y * (1 - clampedT) + br.p2.y * clampedT;
+    const archH = br.arch * 4 * clampedT * (1 - clampedT);
+    return baseH + archH;
+  }
+  return null;
 }
 
 // =============================================================================
@@ -205,7 +213,7 @@ export class WorldEngine {
   private bridges: BridgeData[] = [];
 
   // Movement & Camera Physics
-  public playerPos: THREE.Vector3 = new THREE.Vector3(0, 4.75, 0);
+  public playerPos: THREE.Vector3 = new THREE.Vector3(0, 4.90, 0);
   public playerVel: THREE.Vector3 = new THREE.Vector3(0, 0, 0);
   public playerRotY: number = 0;
   public currentSpeed: number = 0;
@@ -271,7 +279,7 @@ export class WorldEngine {
       name: "Lexa the Explorer",
       title: "Archipelago Navigator",
       island: "Central Plaza",
-      pos: new THREE.Vector3(6, 4.6, 5),
+      pos: new THREE.Vector3(6, 4.80, 5),
       avatar: "🧭",
       dialogue: [
         "Halo Milo! Selamat datang di Coastal Gaming Archipelago!",
@@ -310,7 +318,7 @@ export class WorldEngine {
       name: "Striker Leo",
       title: "Beach Stadium Champion",
       island: "Arcade Soccer Arena",
-      pos: new THREE.Vector3(60, 3.0, 58),
+      pos: new THREE.Vector3(60, 2.60, 58),
       avatar: "⚽",
       dialogue: [
         "Hei Milo! Selamat datang di Arcade Beach Soccer Arena!",
@@ -574,7 +582,7 @@ export class WorldEngine {
     this.createOrganicIsland({
       center: new THREE.Vector3(0, 0, 0),
       radius: 28,
-      height: 3.8,
+      height: 4.80,
       sandColor: 0xfef08a,
       grassColor: 0x4ade80,
     });
@@ -584,7 +592,7 @@ export class WorldEngine {
     this.createOrganicIsland({
       center: new THREE.Vector3(-70, 0, -65),
       radius: 25,
-      height: 5.8,
+      height: 6.60,
       sandColor: 0xfde047,
       grassColor: 0x38bdf8,
     });
@@ -594,7 +602,7 @@ export class WorldEngine {
     this.createOrganicIsland({
       center: new THREE.Vector3(75, 0, -60),
       radius: 26,
-      height: 6.2,
+      height: 7.00,
       sandColor: 0xfde047,
       grassColor: 0xf97316,
     });
@@ -607,7 +615,7 @@ export class WorldEngine {
     this.createOrganicIsland({
       center: new THREE.Vector3(65, 0, 65),
       radius: 27,
-      height: 2.2,
+      height: 2.60,
       sandColor: 0xfef08a,
       grassColor: 0x22c55e,
     });
@@ -620,8 +628,8 @@ export class WorldEngine {
   private createOrganicIsland(cfg: { center: THREE.Vector3; radius: number; height: number; sandColor: number; grassColor: number }) {
     this.createShorelineFoam(cfg.center, cfg.radius);
 
-    // 1. Golden Sand Beach Shelf
-    const sandGeo = new THREE.CylinderGeometry(cfg.radius * 0.92, cfg.radius * 1.3, 2.4, 28);
+    // 1. Golden Sand Beach Shelf (Top face at y = 1.40)
+    const sandGeo = new THREE.CylinderGeometry(cfg.radius * 0.92, cfg.radius * 1.25, 2.0, 28);
     const sandMat = new THREE.MeshStandardMaterial({ color: cfg.sandColor, roughness: 0.9, flatShading: true });
     const sandMesh = new THREE.Mesh(sandGeo, sandMat);
     sandMesh.position.set(cfg.center.x, 0.4, cfg.center.z);
@@ -629,19 +637,21 @@ export class WorldEngine {
     this.scene.add(sandMesh);
 
     // 2. Rich Earthy Soil & Rock Cliff Layer (Tanah & Tebing Alam Cokelat)
-    const soilGeo = new THREE.CylinderGeometry(cfg.radius * 0.82, cfg.radius * 0.98, cfg.height * 0.7, 26);
+    const soilH = Math.max(1.0, cfg.height - 1.2);
+    const soilGeo = new THREE.CylinderGeometry(cfg.radius * 0.82, cfg.radius * 0.96, soilH, 26);
     const soilMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.9, flatShading: true });
     const soilMesh = new THREE.Mesh(soilGeo, soilMat);
-    soilMesh.position.set(cfg.center.x, cfg.height * 0.35 + 0.6, cfg.center.z);
+    soilMesh.position.set(cfg.center.x, 1.2 + soilH / 2, cfg.center.z);
     soilMesh.castShadow = true;
     soilMesh.receiveShadow = true;
     this.scene.add(soilMesh);
 
-    // 3. Lush Green Park Turf Plateau (Rumput Taman Hijau)
-    const hillGeo = new THREE.CylinderGeometry(cfg.radius * 0.74, cfg.radius * 0.84, cfg.height * 0.35, 24);
+    // 3. Lush Green Park Turf Plateau (Top face at exactly cfg.height)
+    const hillH = 0.8;
+    const hillGeo = new THREE.CylinderGeometry(cfg.radius * 0.74, cfg.radius * 0.84, hillH, 24);
     const hillMat = new THREE.MeshStandardMaterial({ color: cfg.grassColor, roughness: 0.8, flatShading: true });
     const hillMesh = new THREE.Mesh(hillGeo, hillMat);
-    hillMesh.position.set(cfg.center.x, cfg.height + 0.65, cfg.center.z);
+    hillMesh.position.set(cfg.center.x, cfg.height - hillH / 2, cfg.center.z);
     hillMesh.castShadow = true;
     hillMesh.receiveShadow = true;
     this.scene.add(hillMesh);
@@ -652,9 +662,9 @@ export class WorldEngine {
       const dist = cfg.radius * 0.76;
       const x = cfg.center.x + Math.cos(angle) * dist;
       const z = cfg.center.z + Math.sin(angle) * dist;
-      this.createPalmTree(x, z, cfg.height + 0.8);
+      this.createPalmTree(x, z, cfg.height);
       if (i % 2 === 0) {
-        this.createBeachRock(x + 2.5, z - 2.5, 0.3);
+        this.createBeachRock(x + 2.5, z - 2.5, 1.4);
       }
     }
   }
@@ -935,30 +945,30 @@ export class WorldEngine {
   private addHubProps(center: THREE.Vector3) {
     // 1. Grand Garden Promenade: Warm Slate & Terracotta Pavers (Bukan Putih Polos!)
     const outerPlaza = new THREE.Mesh(
-      new THREE.CylinderGeometry(11.5, 11.5, 0.22, 32),
+      new THREE.CylinderGeometry(11.5, 11.5, 0.20, 32),
       new THREE.MeshStandardMaterial({ color: 0x78716c, roughness: 0.8 }) // Slate stone paving
     );
-    outerPlaza.position.set(center.x, 4.65, center.z);
+    outerPlaza.position.set(center.x, 4.80, center.z);
     outerPlaza.receiveShadow = true;
     this.scene.add(outerPlaza);
 
     const innerPlaza = new THREE.Mesh(
-      new THREE.CylinderGeometry(7.5, 7.5, 0.26, 28),
+      new THREE.CylinderGeometry(7.5, 7.5, 0.24, 28),
       new THREE.MeshStandardMaterial({ color: 0xc2410c, roughness: 0.75 }) // Terracotta paving
     );
-    innerPlaza.position.set(center.x, 4.67, center.z);
+    innerPlaza.position.set(center.x, 4.80, center.z);
     innerPlaza.receiveShadow = true;
     this.scene.add(innerPlaza);
 
     // Center Garden Ring around Trophy
-    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.7, center.z), 3.2, 12);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.80, center.z), 3.2, 12);
 
     // Golden Trophy on dark granite pedestal
     const pedestal = new THREE.Mesh(
       new THREE.CylinderGeometry(1.1, 1.4, 0.9, 12),
       new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.5 })
     );
-    pedestal.position.set(center.x, 5.15, center.z);
+    pedestal.position.set(center.x, 5.35, center.z);
     pedestal.castShadow = true;
     this.scene.add(pedestal);
 
@@ -966,40 +976,40 @@ export class WorldEngine {
       new THREE.CylinderGeometry(1.3, 0.45, 2.8, 16),
       new THREE.MeshStandardMaterial({ color: 0xf59e0b, metalness: 0.85, roughness: 0.15 })
     );
-    trophy.position.set(center.x, 6.7, center.z);
+    trophy.position.set(center.x, 6.90, center.z);
     trophy.castShadow = true;
     this.scene.add(trophy);
     this.colliders.push({ x: center.x, z: center.z, radius: 1.6, label: "trophy" });
 
     // 2. 4 Radial Cobblestone Roads (Jalan Paving ke Setiap Jembatan!)
-    this.createPathSegment(new THREE.Vector3(-6, 0, -6), new THREE.Vector3(-18, 0, -18), 3.4, 0xa8a29e, 4.6);
-    this.createPathSegment(new THREE.Vector3(6, 0, -6), new THREE.Vector3(18, 0, -16), 3.4, 0xa8a29e, 4.6);
-    this.createPathSegment(new THREE.Vector3(-6, 0, 6), new THREE.Vector3(-16, 0, 18), 3.4, 0xa8a29e, 4.6);
-    this.createPathSegment(new THREE.Vector3(6, 0, 6), new THREE.Vector3(16, 0, 18), 3.4, 0xa8a29e, 4.6);
+    this.createPathSegment(new THREE.Vector3(-6, 0, -6), new THREE.Vector3(-18, 0, -18), 3.4, 0xa8a29e, 4.80);
+    this.createPathSegment(new THREE.Vector3(6, 0, -6), new THREE.Vector3(18, 0, -16), 3.4, 0xa8a29e, 4.80);
+    this.createPathSegment(new THREE.Vector3(-6, 0, 6), new THREE.Vector3(-16, 0, 18), 3.4, 0xa8a29e, 4.80);
+    this.createPathSegment(new THREE.Vector3(6, 0, 6), new THREE.Vector3(16, 0, 18), 3.4, 0xa8a29e, 4.80);
 
     // 3. Flower Beds in 4 Park Quadrants
-    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.6, center.z - 15), 3.0, 9);
-    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.6, center.z + 15), 3.0, 9);
-    this.createGardenFlowerBed(new THREE.Vector3(center.x - 15, 4.6, center.z), 3.0, 9);
-    this.createGardenFlowerBed(new THREE.Vector3(center.x + 15, 4.6, center.z), 3.0, 9);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.80, center.z - 15), 3.0, 9);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.80, center.z + 15), 3.0, 9);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x - 15, 4.80, center.z), 3.0, 9);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x + 15, 4.80, center.z), 3.0, 9);
 
     // 4. Park Shade Trees & Cherry Blossom Trees
-    this.createParkTree(center.x - 10, center.z - 12, 4.6, false);
-    this.createParkTree(center.x + 10, center.z - 12, 4.6, true);
-    this.createParkTree(center.x - 10, center.z + 12, 4.6, true);
-    this.createParkTree(center.x + 10, center.z + 12, 4.6, false);
+    this.createParkTree(center.x - 10, center.z - 12, 4.80, false);
+    this.createParkTree(center.x + 10, center.z - 12, 4.80, true);
+    this.createParkTree(center.x - 10, center.z + 12, 4.80, true);
+    this.createParkTree(center.x + 10, center.z + 12, 4.80, false);
 
     // 5. Wooden Park Benches along the promenade
-    this.createParkBench(center.x - 8, center.z - 5, 4.65, Math.PI / 4);
-    this.createParkBench(center.x + 8, center.z - 5, 4.65, -Math.PI / 4);
-    this.createParkBench(center.x - 8, center.z + 5, 4.65, (3 * Math.PI) / 4);
-    this.createParkBench(center.x + 8, center.z + 5, 4.65, -(3 * Math.PI) / 4);
+    this.createParkBench(center.x - 8, center.z - 5, 4.80, Math.PI / 4);
+    this.createParkBench(center.x + 8, center.z - 5, 4.80, -Math.PI / 4);
+    this.createParkBench(center.x - 8, center.z + 5, 4.80, (3 * Math.PI) / 4);
+    this.createParkBench(center.x + 8, center.z + 5, 4.80, -(3 * Math.PI) / 4);
 
     // 6. Victorian Garden Lampposts
-    this.createGardenLampPost(center.x - 11, center.z - 11, 4.6);
-    this.createGardenLampPost(center.x + 11, center.z - 11, 4.6);
-    this.createGardenLampPost(center.x - 11, center.z + 11, 4.6);
-    this.createGardenLampPost(center.x + 11, center.z + 11, 4.6);
+    this.createGardenLampPost(center.x - 11, center.z - 11, 4.80);
+    this.createGardenLampPost(center.x + 11, center.z - 11, 4.80);
+    this.createGardenLampPost(center.x - 11, center.z + 11, 4.80);
+    this.createGardenLampPost(center.x + 11, center.z + 11, 4.80);
 
     // Pier, Beach Umbrellas, and Ramps
     this.createWoodenPier(new THREE.Vector3(0, 0, -28), 0, 10);
@@ -1149,51 +1159,51 @@ export class WorldEngine {
       new THREE.BoxGeometry(27, 0.12, 38),
       new THREE.MeshStandardMaterial({ color: 0x9a3412, roughness: 0.85 })
     );
-    track.position.set(center.x, 2.28, center.z);
+    track.position.set(center.x, 2.56, center.z);
     track.receiveShadow = true;
     this.scene.add(track);
 
-    // 2. Soccer Pitch Turf
+    // 2. Soccer Pitch Turf (Top face at y = 2.66)
     const pitch = new THREE.Mesh(
       new THREE.BoxGeometry(22, 0.16, 32),
       new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.7 })
     );
-    pitch.position.set(center.x, 2.32, center.z);
+    pitch.position.set(center.x, 2.58, center.z);
     pitch.receiveShadow = true;
     this.scene.add(pitch);
 
     // 3. Center line (Soft white, not glaring)
     const lineMat = new THREE.MeshBasicMaterial({ color: 0xf1f5f9 });
     const centerLine = new THREE.Mesh(new THREE.BoxGeometry(21, 0.18, 0.3), lineMat);
-    centerLine.position.set(center.x, 2.34, center.z);
+    centerLine.position.set(center.x, 2.67, center.z);
     this.scene.add(centerLine);
 
     // 4. Cobblestone Path from bridge (48, 48) to pitch entrance
-    this.createPathSegment(new THREE.Vector3(48, 0, 48), new THREE.Vector3(center.x - 11, 0, center.z), 3.2, 0xa8a29e, 2.3);
+    this.createPathSegment(new THREE.Vector3(48, 0, 48), new THREE.Vector3(center.x - 11, 0, center.z), 3.2, 0xa8a29e, 2.60);
 
     // 5. Spectator Bleachers & Garden amenities
     const benchMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.5 });
     for (let b = 0; b < 3; b++) {
       const bx = center.x - 14 - b * 2.2;
       const bench = new THREE.Mesh(new THREE.BoxGeometry(2.0, 0.6 * (b + 1), 24), benchMat);
-      bench.position.set(bx, 2.3 + (0.6 * (b + 1)) / 2, center.z);
+      bench.position.set(bx, 2.60 + (0.6 * (b + 1)) / 2, center.z);
       bench.castShadow = true;
       this.scene.add(bench);
       this.colliders.push({ x: bx, z: center.z, radius: 1.8, label: "bench" });
     }
 
     // Garden flowerbeds and park trees around stadium
-    this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.3, center.z - 10), 2.5, 7);
-    this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.3, center.z + 10), 2.5, 7);
-    this.createParkTree(center.x - 14, center.z - 14, 2.3, false);
-    this.createParkTree(center.x - 14, center.z + 14, 2.3, true);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.60, center.z - 10), 2.5, 7);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.60, center.z + 10), 2.5, 7);
+    this.createParkTree(center.x - 14, center.z - 14, 2.60, false);
+    this.createParkTree(center.x - 14, center.z + 14, 2.60, true);
 
     // Park benches & Lampposts for spectators
-    this.createParkBench(center.x + 14, center.z, 2.3, -Math.PI / 2);
-    this.createGardenLampPost(center.x - 12, center.z - 12, 2.3);
-    this.createGardenLampPost(center.x - 12, center.z + 12, 2.3);
-    this.createGardenLampPost(center.x + 14, center.z - 12, 2.3);
-    this.createGardenLampPost(center.x + 14, center.z + 12, 2.3);
+    this.createParkBench(center.x + 14, center.z, 2.60, -Math.PI / 2);
+    this.createGardenLampPost(center.x - 12, center.z - 12, 2.60);
+    this.createGardenLampPost(center.x - 12, center.z + 12, 2.60);
+    this.createGardenLampPost(center.x + 14, center.z - 12, 2.60);
+    this.createGardenLampPost(center.x + 14, center.z + 12, 2.60);
   }
 
   private createRamp(pos: THREE.Vector3, rotY: number) {
@@ -1208,64 +1218,147 @@ export class WorldEngine {
   }
 
   // =========================================================================
-  // CONNECTING WOODEN BRIDGES (Archipelago Land Links)
+  // CONNECTING ARCHED WOODEN BRIDGES (Photorealistic Maritime Links)
   // =========================================================================
   private buildConnectingBridges() {
-    // 1. Central Plaza (Hub) <-> MOBA Sanctuary
-    this.createBridgeSegment(new THREE.Vector3(-18, 0, -18), new THREE.Vector3(-52, 0, -50));
+    // 1. Central Plaza (Hub) <-> MOBA Sanctuary (Arched timber trestle)
+    this.createBridgeSegment(new THREE.Vector3(-18, 2.4, -18), new THREE.Vector3(-52, 2.8, -50), 1.2);
     // 2. Central Plaza (Hub) <-> Battle Royale Outpost
-    this.createBridgeSegment(new THREE.Vector3(18, 0, -16), new THREE.Vector3(56, 0, -45));
+    this.createBridgeSegment(new THREE.Vector3(18, 2.4, -16), new THREE.Vector3(56, 3.0, -45), 1.2);
     // 3. Central Plaza (Hub) <-> Voxel Sandbox Bay
-    this.createBridgeSegment(new THREE.Vector3(-16, 0, 18), new THREE.Vector3(-48, 0, 52));
+    this.createBridgeSegment(new THREE.Vector3(-16, 2.4, 18), new THREE.Vector3(-48, 2.2, 52), 1.2);
     // 4. Central Plaza (Hub) <-> Arcade Soccer Arena
-    this.createBridgeSegment(new THREE.Vector3(16, 0, 18), new THREE.Vector3(48, 0, 48));
+    this.createBridgeSegment(new THREE.Vector3(16, 2.4, 18), new THREE.Vector3(48, 2.0, 48), 1.0);
   }
 
-  private createBridgeSegment(p1: THREE.Vector3, p2: THREE.Vector3) {
-    const dist = Math.hypot(p2.x - p1.x, p2.z - p1.z);
-    const angle = Math.atan2(p2.x - p1.x, p2.z - p1.z);
-    const midX = (p1.x + p2.x) / 2;
-    const midZ = (p1.z + p2.z) / 2;
+  private createBridgeSegment(p1: THREE.Vector3, p2: THREE.Vector3, arch: number = 1.2) {
+    const dx = p2.x - p1.x;
+    const dz = p2.z - p1.z;
+    const totalDist = Math.hypot(dx, dz);
+    const yaw = Math.atan2(dx, dz);
+    const width = 4.2;
 
-    const bridgeGroup = new THREE.Group();
-    bridgeGroup.position.set(midX, 1.4, midZ);
-    bridgeGroup.rotation.y = angle;
+    const woodPlankMat = new THREE.MeshStandardMaterial({ color: 0x854d0e, roughness: 0.82 });
+    const woodBeamMat = new THREE.MeshStandardMaterial({ color: 0x451a03, roughness: 0.88 });
+    const woodRailingMat = new THREE.MeshStandardMaterial({ color: 0xa16207, roughness: 0.75 });
+    const ironCollarMat = new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.4, metalness: 0.7 });
+    const lanternMat = new THREE.MeshStandardMaterial({
+      color: 0xfef08a,
+      emissive: 0xfacc15,
+      emissiveIntensity: 0.9,
+      roughness: 0.2,
+    });
+    const stoneAbutmentMat = new THREE.MeshStandardMaterial({ color: 0x64748b, roughness: 0.85 });
 
-    const woodMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.8 });
-    const deck = new THREE.Mesh(new THREE.BoxGeometry(4.0, 0.28, dist), woodMat);
-    deck.receiveShadow = true;
-    bridgeGroup.add(deck);
-
-    const railMat = new THREE.MeshStandardMaterial({ color: 0xb45309, roughness: 0.7 });
-    const railL = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.45, dist), railMat);
-    railL.position.set(-1.9, 0.35, 0);
-    bridgeGroup.add(railL);
-
-    const railR = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.45, dist), railMat);
-    railR.position.set(1.9, 0.35, 0);
-    bridgeGroup.add(railR);
-
-    // Support Pilings & Warm Lanterns
-    const postMat = new THREE.MeshStandardMaterial({ color: 0x451a03, roughness: 0.9 });
-    const lanternMat = new THREE.MeshStandardMaterial({ color: 0xfef08a, emissive: 0xfacc15, emissiveIntensity: 0.8 });
-    const steps = Math.max(3, Math.floor(dist / 14));
-    for (let i = 0; i <= steps; i++) {
-      const zOffset = (i / steps - 0.5) * dist;
-      for (const s of [-1.9, 1.9]) {
-        const post = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.16, 3.2, 8), postMat);
-        post.position.set(s, -0.6, zOffset);
-        bridgeGroup.add(post);
-
-        if (i % 2 === 0) {
-          const lamp = new THREE.Mesh(new THREE.SphereGeometry(0.18, 8, 8), lanternMat);
-          lamp.position.set(s, 0.7, zOffset);
-          bridgeGroup.add(lamp);
-        }
-      }
+    // 1. Stone Abutments at Shore Connections (Pangkal Jembatan Kokoh di Tepi Pantai)
+    for (const pt of [p1, p2]) {
+      const abutment = new THREE.Mesh(new THREE.BoxGeometry(width + 0.6, 2.2, 2.8), stoneAbutmentMat);
+      abutment.position.set(pt.x, pt.y - 1.1, pt.z);
+      abutment.rotation.y = yaw;
+      abutment.receiveShadow = true;
+      abutment.castShadow = true;
+      this.scene.add(abutment);
     }
 
-    this.scene.add(bridgeGroup);
-    this.bridges.push({ p1, p2, width: 4.0, height: 1.4 });
+    // 2. Arched Modular Timber Bays along Span
+    const numSegments = 24;
+    for (let i = 0; i < numSegments; i++) {
+      const t0 = i / numSegments;
+      const t1 = (i + 1) / numSegments;
+      const tMid = (t0 + t1) / 2;
+
+      const y0 = p1.y * (1 - t0) + p2.y * t0 + arch * 4 * t0 * (1 - t0);
+      const y1 = p1.y * (1 - t1) + p2.y * t1 + arch * 4 * t1 * (1 - t1);
+      const yMid = p1.y * (1 - tMid) + p2.y * tMid + arch * 4 * tMid * (1 - tMid);
+
+      const xMid = p1.x + tMid * dx;
+      const zMid = p1.z + tMid * dz;
+
+      const segLen = totalDist / numSegments;
+      const pitch = Math.atan2(y1 - y0, segLen);
+
+      const bay = new THREE.Group();
+      bay.position.set(xMid, yMid, zMid);
+      bay.rotation.y = yaw;
+      bay.rotation.x = -pitch;
+
+      // Longitudinal Heavy Stringer Beams (Balok Gelagar Kayu Penyangga di Bawah)
+      for (const s of [-width / 2 + 0.35, width / 2 - 0.35]) {
+        const stringer = new THREE.Mesh(new THREE.BoxGeometry(0.35, 0.30, segLen + 0.08), woodBeamMat);
+        stringer.position.set(s, -0.20, 0);
+        stringer.castShadow = true;
+        bay.add(stringer);
+      }
+
+      // Individual Crosswise Timber Deck Planks (Papan Kayu Melintang Rapi)
+      const planksPerBay = 3;
+      const plankW = segLen / planksPerBay;
+      for (let p = 0; p < planksPerBay; p++) {
+        const plankZ = (p - (planksPerBay - 1) / 2) * plankW;
+        const plank = new THREE.Mesh(new THREE.BoxGeometry(width, 0.12, plankW * 0.90), woodPlankMat);
+        plank.position.set(0, -0.06, plankZ);
+        plank.receiveShadow = true;
+        bay.add(plank);
+      }
+
+      // Railing Top Handrail & Safety Beam
+      for (const side of [-width / 2 + 0.12, width / 2 - 0.12]) {
+        const handrail = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.10, segLen + 0.05), woodRailingMat);
+        handrail.position.set(side, 0.92, 0);
+        bay.add(handrail);
+
+        const midRail = new THREE.Mesh(new THREE.BoxGeometry(0.10, 0.08, segLen + 0.05), woodRailingMat);
+        midRail.position.set(side, 0.48, 0);
+        bay.add(midRail);
+
+        const post = new THREE.Mesh(new THREE.BoxGeometry(0.15, 1.10, 0.15), woodBeamMat);
+        post.position.set(side, 0.50, 0);
+        post.castShadow = true;
+        bay.add(post);
+
+        const diag1 = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.60, 0.06), woodRailingMat);
+        diag1.position.set(side, 0.48, 0);
+        diag1.rotation.x = Math.PI / 4;
+        bay.add(diag1);
+        const diag2 = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.60, 0.06), woodRailingMat);
+        diag2.position.set(side, 0.48, 0);
+        diag2.rotation.x = -Math.PI / 4;
+        bay.add(diag2);
+      }
+
+      // Heavy Marine Pilings & Nautical Lanterns (Every 4 bays)
+      if (i % 4 === 0 && i > 0 && i < numSegments - 1) {
+        const pilingHeight = yMid + 3.8;
+        for (const side of [-width / 2 + 0.35, width / 2 - 0.35]) {
+          const piling = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.24, pilingHeight, 10), woodBeamMat);
+          piling.position.set(side, -pilingHeight / 2 - 0.18, 0);
+          piling.castShadow = true;
+          bay.add(piling);
+
+          const collar = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.25, 0.18, 10), ironCollarMat);
+          collar.position.set(side, -yMid + 0.1, 0);
+          bay.add(collar);
+        }
+
+        const crossBeam = new THREE.Mesh(new THREE.BoxGeometry(width, 0.26, 0.26), woodBeamMat);
+        crossBeam.position.set(0, -0.48, 0);
+        bay.add(crossBeam);
+
+        for (const side of [-width / 2 + 0.12, width / 2 - 0.12]) {
+          const lampPost = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.40, 0.08), woodBeamMat);
+          lampPost.position.set(side, 1.15, 0);
+          bay.add(lampPost);
+
+          const lanternGlass = new THREE.Mesh(new THREE.DodecahedronGeometry(0.18, 0), lanternMat);
+          lanternGlass.position.set(side, 1.40, 0);
+          bay.add(lanternGlass);
+        }
+      }
+
+      this.scene.add(bay);
+    }
+
+    this.bridges.push({ p1, p2, width, arch });
   }
 
   // =========================================================================
@@ -1382,12 +1475,12 @@ export class WorldEngine {
 
     cat.add(this.headGroup);
 
-    // 3. Articulated Legs
+    // 3. Articulated Legs (Calibrated so paw pads touch ground at exactly y = 0.0)
     const legGeo = new THREE.CylinderGeometry(0.14, 0.13, 0.65, 12);
     const pawGeo = new THREE.SphereGeometry(0.17, 12, 12);
 
     this.leftLeg = new THREE.Group();
-    this.leftLeg.position.set(-0.25, 0.65, 0);
+    this.leftLeg.position.set(-0.25, 0.72, 0);
     const legMeshL = new THREE.Mesh(legGeo, furMat);
     legMeshL.position.y = -0.3;
     legMeshL.castShadow = true;
@@ -1400,7 +1493,7 @@ export class WorldEngine {
     cat.add(this.leftLeg);
 
     this.rightLeg = new THREE.Group();
-    this.rightLeg.position.set(0.25, 0.65, 0);
+    this.rightLeg.position.set(0.25, 0.72, 0);
     const legMeshR = new THREE.Mesh(legGeo, furMat);
     legMeshR.position.y = -0.3;
     legMeshR.castShadow = true;
@@ -1475,6 +1568,14 @@ export class WorldEngine {
       const head = new THREE.Mesh(new THREE.SphereGeometry(0.42, 14, 14), skinMat);
       head.castShadow = true;
       headGroup.add(head);
+
+      // Legs & Boots firmly planted on ground
+      for (const lx of [-0.18, 0.18]) {
+        const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.14, 0.5, 10), darkMat);
+        leg.position.set(lx, 0.25, 0);
+        leg.castShadow = true;
+        group.add(leg);
+      }
 
       let waveArm: THREE.Group | undefined;
       let juggledBall: THREE.Mesh | undefined;
@@ -1573,18 +1674,41 @@ export class WorldEngine {
   private spawnTokens() {
     const tokenGeo = new THREE.CylinderGeometry(0.65, 0.65, 0.12, 16);
     tokenGeo.rotateX(Math.PI / 2);
-    const tokenMat = new THREE.MeshStandardMaterial({ color: 0xfacc15, emissive: 0xeab308, emissiveIntensity: 0.6, metalness: 0.9, roughness: 0.1 });
+    const tokenMat = new THREE.MeshStandardMaterial({
+      color: 0xfacc15,
+      emissive: 0xeab308,
+      emissiveIntensity: 0.65,
+      metalness: 0.9,
+      roughness: 0.1,
+    });
 
     const spawnCoords: [number, number, number][] = [
-      [0, 5.5, -6], [0, 5.5, 6], [-6, 5.5, 0], [6, 5.5, 0],
-      [-25, 2.2, -25], [-45, 2.2, -45], [25, 2.2, -25], [45, 2.2, -45],
-      [-25, 2.2, 25], [-45, 2.2, 45], [25, 2.2, 25], [45, 2.2, 45],
-      [-70, 7.3, -55], [-75, 7.3, -70], [-65, 7.3, -75],
-      [75, 7.8, -50], [80, 7.8, -65], [70, 7.8, -75],
-      [-65, 5.6, 60], [-70, 5.6, 75], [-60, 5.6, 80],
-      [60, 3.2, 55], [70, 3.2, 70], [55, 3.2, 75],
-      [-30, 5.4, 0], [30, 5.4, 0], [55, 5.4, -45], [0, 2.2, -40],
-      [0, 2.2, 40], [-40, 2.2, 0], [40, 2.2, 0], [0, 5.6, 0]
+      // Central Plaza Garden Promenade (6 coins)
+      [0, 6.0, -7], [0, 6.0, 7], [-7, 6.0, 0], [7, 6.0, 0], [-8, 6.0, -8], [8, 6.0, 8],
+
+      // Bridge 1 to MOBA (4 coins along arched wooden walkway)
+      [-24.8, 4.35, -24.4], [-31.6, 4.81, -30.8], [-38.4, 4.89, -37.2], [-45.2, 4.59, -43.6],
+
+      // Bridge 2 to Battle Royale (4 coins along arched wooden walkway)
+      [25.6, 4.39, -21.8], [33.2, 4.89, -27.6], [40.8, 5.01, -33.4], [48.4, 4.75, -39.2],
+
+      // Bridge 3 to Voxel Bay (4 coins along arched wooden walkway)
+      [-22.4, 4.23, 24.8], [-28.8, 4.53, 31.6], [-35.2, 4.49, 38.4], [-41.6, 4.11, 45.2],
+
+      // Bridge 4 to Soccer Arena (4 coins along arched wooden walkway)
+      [22.4, 4.06, 24.0], [28.8, 4.30, 30.0], [35.2, 4.22, 36.0], [41.6, 3.82, 42.0],
+
+      // MOBA Sanctuary (3 coins)
+      [-68, 7.8, -60], [-74, 7.8, -68], [-64, 7.8, -72],
+
+      // Battle Royale Outpost (3 coins)
+      [72, 8.2, -54], [78, 8.2, -66], [68, 8.2, -72],
+
+      // Voxel Bay (2 coins)
+      [-63, 5.8, 65], [-68, 5.8, 74],
+
+      // Arcade Soccer Arena (2 coins)
+      [60, 3.8, 60], [70, 3.8, 70],
     ];
 
     spawnCoords.forEach(([x, y, z]) => {
@@ -1599,17 +1723,28 @@ export class WorldEngine {
   }
 
   private spawnSpeedRings() {
-    const ringGeo = new THREE.TorusGeometry(3.2, 0.25, 8, 24);
-    const ringMat = new THREE.MeshStandardMaterial({ color: 0x06b6d4, emissive: 0x0891b2, emissiveIntensity: 1.0, roughness: 0.1 });
+    // Sized to frame the 4.2m bridge as an arched portal gate (radius 2.3, bottom clears deck by +0.15m)
+    const ringGeo = new THREE.TorusGeometry(2.3, 0.22, 10, 28);
+    const ringMat = new THREE.MeshStandardMaterial({
+      color: 0x06b6d4,
+      emissive: 0x0891b2,
+      emissiveIntensity: 1.0,
+      roughness: 0.1,
+    });
 
-    const ringPositions: [number, number, number, number][] = [
-      [-35, 2.6, -34, -Math.PI / 4],
-      [37, 2.6, -30, Math.PI / 4],
-      [-32, 2.6, 35, Math.PI / 4],
-      [32, 2.6, 33, -Math.PI / 4],
+    // Placed at the apex of each arched bridge, rotated to align with the bridge axis
+    const ringConfigs: [number, number, number, number][] = [
+      // Bridge 1 (NW to MOBA): apex deck y=3.8 -> ring center y=6.25 (bottom at 3.95m, clears 3.8m deck)
+      [-35, 6.25, -34, Math.atan2(-34, -32)],
+      // Bridge 2 (NE to Battle Royale): apex deck y=3.9 -> ring center y=6.35
+      [37, 6.35, -30.5, Math.atan2(38, -29)],
+      // Bridge 3 (SW to Voxel): apex deck y=3.5 -> ring center y=5.95
+      [-32, 5.95, 35, Math.atan2(-32, 34)],
+      // Bridge 4 (SE to Soccer): apex deck y=3.2 -> ring center y=5.65
+      [32, 5.65, 33, Math.atan2(32, 30)],
     ];
 
-    ringPositions.forEach(([x, y, z, rotY]) => {
+    ringConfigs.forEach(([x, y, z, rotY]) => {
       const ring = new THREE.Mesh(ringGeo, ringMat);
       ring.position.set(x, y, z);
       ring.rotation.y = rotY;
@@ -1645,7 +1780,7 @@ export class WorldEngine {
     const soccerTex = createSoccerBallTexture();
     const ballMat = new THREE.MeshStandardMaterial({ map: soccerTex, roughness: 0.35, metalness: 0.1 });
     this.soccerBall = new THREE.Mesh(new THREE.SphereGeometry(1.6, 24, 24), ballMat);
-    this.soccerBall.position.set(pos.x, 3.92, pos.z);
+    this.soccerBall.position.set(pos.x, 4.26, pos.z);
     this.soccerBall.castShadow = true;
     this.scene.add(this.soccerBall);
   }
@@ -1786,7 +1921,7 @@ export class WorldEngine {
     }
 
     if (this.inputs.boost && this.nitro > 0 && this.inputs.forward) {
-      targetSpeed *= 1.5;
+      targetSpeed *= 1.45;
       this.nitro = Math.max(0, this.nitro - 25 * delta);
       this.isBoosting = true;
     } else {
@@ -1794,6 +1929,10 @@ export class WorldEngine {
       this.isBoosting = false;
     }
     this.callbacks.onNitroUpdate?.(this.nitro);
+
+    if (this.onWater) {
+      targetSpeed *= 0.65; // Water drag resistance
+    }
 
     const accelRate = targetSpeed !== 0 ? (targetSpeed > this.currentSpeed ? this.acceleration : this.deceleration) : this.deceleration * 1.6;
     this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, targetSpeed, Math.min(1, accelRate * 0.25 * delta));
@@ -1827,10 +1966,20 @@ export class WorldEngine {
     // 4. Ground Height & Gravity (Firmly planted on terrain/bridges)
     const groundHeight = this.calculateGroundHeight(this.playerPos.x, this.playerPos.z);
 
-    // Jump
-    if (this.inputs.jump && this.isGrounded) {
-      this.playerVel.y = 8.5;
+    // Water state detection (Water plane at y = 0.0; deep ocean returns -0.55)
+    const wasOnWater = this.onWater;
+    this.onWater = groundHeight <= 0.05;
+    if (!wasOnWater && this.onWater) {
+      this.audio.playSplash();
+    }
+
+    // Jump (Can jump off solid ground OR splash jump out of water)
+    if (this.inputs.jump && (this.isGrounded || this.onWater)) {
+      this.playerVel.y = this.onWater ? 7.5 : 8.5;
       this.isGrounded = false;
+      if (this.onWater) {
+        this.audio.playSplash();
+      }
       this.audio.playJump();
     }
 
@@ -1841,16 +1990,13 @@ export class WorldEngine {
         this.playerPos.y = groundHeight;
         this.playerVel.y = 0;
         this.isGrounded = true;
+        if (this.onWater) {
+          this.audio.playSplash();
+        }
       }
     } else {
-      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, groundHeight, 20 * delta);
-    }
-
-    // Water Splash Detection
-    const wasOnWater = this.onWater;
-    this.onWater = groundHeight <= 0.45;
-    if (!wasOnWater && this.onWater) {
-      this.audio.playSplash();
+      const waterBob = this.onWater ? Math.sin(time * 3.5) * 0.04 : 0;
+      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, groundHeight + waterBob, 20 * delta);
     }
 
     // Audio & Speedometer
@@ -1866,15 +2012,74 @@ export class WorldEngine {
     this.playerGroup.rotation.z = this.currentBankZ;
     this.playerGroup.rotation.x = 0;
 
-    // 5. MILO NATURAL RUN & WALK CYCLE CONTROLLER
+    // 5. MILO NATURAL RUN, WALK & SWIMMING CONTROLLER
     const speedRatio = Math.abs(this.currentSpeed) / this.maxSpeed;
 
-    if (!this.isGrounded) {
+    if (this.onWater) {
+      // Swimming in the ocean! (Tenggelam sebatas dada di dalam air & berenang lincah)
+      const swimCycle = time * 7.0;
+      const paddleSwing = Math.sin(swimCycle) * 0.55;
+
+      // Legs kick and paddle back and forth in water
+      if (this.leftLeg) {
+        this.leftLeg.rotation.x = paddleSwing;
+        this.leftLeg.rotation.z = -0.15;
+      }
+      if (this.rightLeg) {
+        this.rightLeg.rotation.x = -paddleSwing;
+        this.rightLeg.rotation.z = 0.15;
+      }
+
+      // Front arms do swimming breaststroke / dog-paddle
+      if (this.leftArm) {
+        this.leftArm.rotation.x = -paddleSwing * 0.8 + 0.3;
+        this.leftArm.rotation.z = 0.25;
+      }
+      if (this.rightArm) {
+        this.rightArm.rotation.x = paddleSwing * 0.8 + 0.3;
+        this.rightArm.rotation.z = -0.25;
+      }
+
+      // Torso tilts slightly forward in swimming pose, bobs with waves
+      this.catMeshGroup.position.y = Math.sin(time * 3.5) * 0.06;
+      this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, -0.22, 8 * delta);
+      this.catMeshGroup.rotation.y = Math.sin(swimCycle * 0.5) * 0.08;
+      this.catMeshGroup.scale.set(1.0, 1.0, 1.0);
+
+      // Tail wags gently above water
+      if (this.tailGroup) {
+        this.tailGroup.rotation.x = 0.75 + Math.sin(time * 4.0) * 0.15;
+        this.tailGroup.rotation.z = Math.sin(time * 5.0) * 0.4;
+      }
+
+      // Water ripples & wake bubbles trailing behind Milo
+      if (this.wakePositions && speedRatio > 0.04) {
+        this.wakePositions[this.nextWakeIdx * 3] = this.playerPos.x + (Math.random() - 0.5) * 0.5;
+        this.wakePositions[this.nextWakeIdx * 3 + 1] = 0.04;
+        this.wakePositions[this.nextWakeIdx * 3 + 2] = this.playerPos.z + (Math.random() - 0.5) * 0.5;
+        this.nextWakeIdx = (this.nextWakeIdx + 1) % 90;
+        if (this.wakeParticles) {
+          this.wakeParticles.geometry.attributes.position.needsUpdate = true;
+        }
+      }
+    } else if (!this.isGrounded) {
       // In air / jumping
-      if (this.leftLeg) this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, -0.45, 12 * delta);
-      if (this.rightLeg) this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, 0.35, 12 * delta);
-      if (this.leftArm) this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.7, 12 * delta);
-      if (this.rightArm) this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.7, 12 * delta);
+      if (this.leftLeg) {
+        this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, -0.45, 12 * delta);
+        this.leftLeg.rotation.z = 0;
+      }
+      if (this.rightLeg) {
+        this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, 0.35, 12 * delta);
+        this.rightLeg.rotation.z = 0;
+      }
+      if (this.leftArm) {
+        this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.7, 12 * delta);
+        this.leftArm.rotation.z = 0;
+      }
+      if (this.rightArm) {
+        this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.7, 12 * delta);
+        this.rightArm.rotation.z = 0;
+      }
       this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, -0.15, 10 * delta);
       this.catMeshGroup.scale.set(0.92, 1.12, 0.92);
     } else if (speedRatio > 0.04) {
@@ -1885,10 +2090,22 @@ export class WorldEngine {
       const legSwing = Math.sin(this.walkCycle) * (0.60 + speedRatio * 0.30);
       const armSwing = -Math.sin(this.walkCycle) * (0.50 + speedRatio * 0.30);
 
-      if (this.leftLeg) this.leftLeg.rotation.x = legSwing;
-      if (this.rightLeg) this.rightLeg.rotation.x = -legSwing;
-      if (this.leftArm) this.leftArm.rotation.x = armSwing;
-      if (this.rightArm) this.rightArm.rotation.x = -armSwing;
+      if (this.leftLeg) {
+        this.leftLeg.rotation.x = legSwing;
+        this.leftLeg.rotation.z = 0;
+      }
+      if (this.rightLeg) {
+        this.rightLeg.rotation.x = -legSwing;
+        this.rightLeg.rotation.z = 0;
+      }
+      if (this.leftArm) {
+        this.leftArm.rotation.x = armSwing;
+        this.leftArm.rotation.z = 0;
+      }
+      if (this.rightArm) {
+        this.rightArm.rotation.x = -armSwing;
+        this.rightArm.rotation.z = 0;
+      }
 
       // Body bounce and squash
       const bounce = Math.abs(Math.sin(this.walkCycle)) * 0.10;
@@ -1908,10 +2125,22 @@ export class WorldEngine {
       }
     } else {
       // Idle standing
-      if (this.leftLeg) this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, 0, 10 * delta);
-      if (this.rightLeg) this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, 0, 10 * delta);
-      if (this.leftArm) this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.05, 10 * delta);
-      if (this.rightArm) this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.05, 10 * delta);
+      if (this.leftLeg) {
+        this.leftLeg.rotation.x = THREE.MathUtils.lerp(this.leftLeg.rotation.x, 0, 10 * delta);
+        this.leftLeg.rotation.z = 0;
+      }
+      if (this.rightLeg) {
+        this.rightLeg.rotation.x = THREE.MathUtils.lerp(this.rightLeg.rotation.x, 0, 10 * delta);
+        this.rightLeg.rotation.z = 0;
+      }
+      if (this.leftArm) {
+        this.leftArm.rotation.x = THREE.MathUtils.lerp(this.leftArm.rotation.x, 0.05, 10 * delta);
+        this.leftArm.rotation.z = 0;
+      }
+      if (this.rightArm) {
+        this.rightArm.rotation.x = THREE.MathUtils.lerp(this.rightArm.rotation.x, 0.05, 10 * delta);
+        this.rightArm.rotation.z = 0;
+      }
 
       const breath = Math.sin(time * 2.8) * 0.035;
       this.catMeshGroup.position.y = breath;
@@ -1943,80 +2172,86 @@ export class WorldEngine {
   }
 
   private calculateGroundHeight(x: number, z: number): number {
-    // 1. Bridges take precedence when over water
-    let bridgeH = -1;
+    // 1. Arched Wooden Bridges take precedence
     for (const br of this.bridges) {
-      const dist = distanceToSegment2D(x, z, br.p1.x, br.p1.z, br.p2.x, br.p2.z);
-      if (dist <= br.width / 2 + 0.2) {
-        bridgeH = Math.max(bridgeH, br.height + 0.14);
+      const bh = getBridgeHeightAt(x, z, br);
+      if (bh !== null) {
+        return bh;
       }
     }
 
     // 2. Pier at Central Plaza
     if (Math.abs(x) < 1.8 && z >= -34 && z <= -23) {
-      bridgeH = Math.max(bridgeH, 0.8);
+      return 0.8;
     }
 
     // 3. Island Terrain Height
-    const islH = this.getIslandHeight(x, z);
-
-    if (bridgeH > 0) {
-      return Math.max(islH, bridgeH);
-    }
-    return islH;
+    return this.getIslandHeight(x, z);
   }
 
   private getIslandHeight(x: number, z: number): number {
     // 1. Central Plaza (0, 0)
     const dHub = Math.hypot(x, z);
-    if (dHub < 36) {
-      if (dHub <= 10.5) return 4.75; // White paved plaza
-      if (dHub <= 21.0) return 4.6;  // Grass plateau
-      if (dHub <= 28.0) {
-        const t = (dHub - 21.0) / 7.0;
-        return 4.6 * (1 - t) + 1.7 * t; // Slope to sand
+    if (dHub < 34) {
+      if (dHub <= 11.5) return 4.90; // Slate and terracotta promenade
+      if (dHub <= 21.0) return 4.80; // Grass park plateau
+      if (dHub <= 26.0) {
+        const t = (dHub - 21.0) / 5.0;
+        return 4.80 * (1 - t) + 1.40 * t; // Slope down to sand beach
       }
-      const t = Math.min(1, (dHub - 28.0) / 7.0);
-      return 1.7 * (1 - t) + 0.3 * t; // Beach to water
+      if (dHub <= 30.5) {
+        const t = (dHub - 26.0) / 4.5;
+        return 1.40 * (1 - t) + (-0.55) * t; // Gentle shoreline into ocean
+      }
+      return -0.55;
     }
 
     // 2. MOBA Sanctuary (-70, -65)
     const dMOBA = Math.hypot(x - (-70), z - (-65));
     if (dMOBA < 34) {
-      if (dMOBA <= 18.5) return 6.6; // High altar plateau
-      if (dMOBA <= 25.0) {
-        const t = (dMOBA - 18.5) / 6.5;
-        return 6.6 * (1 - t) + 1.7 * t;
+      if (dMOBA <= 18.5) return 6.60; // High altar plateau
+      if (dMOBA <= 24.5) {
+        const t = (dMOBA - 18.5) / 6.0;
+        return 6.60 * (1 - t) + 1.40 * t;
       }
-      const t = Math.min(1, (dMOBA - 25.0) / 8.0);
-      return 1.7 * (1 - t) + 0.3 * t;
+      if (dMOBA <= 30.0) {
+        const t = (dMOBA - 24.5) / 5.5;
+        return 1.40 * (1 - t) + (-0.55) * t;
+      }
+      return -0.55;
     }
 
     // 3. Battle Royale Outpost (75, -60)
     const dBR = Math.hypot(x - 75, z - (-60));
     if (dBR < 35) {
-      if (dBR <= 19.2) return 7.0; // Lighthouse plateau
-      if (dBR <= 26.0) {
-        const t = (dBR - 19.2) / 6.8;
-        return 7.0 * (1 - t) + 1.7 * t;
+      if (dBR <= 19.2) return 7.00; // Lighthouse plateau
+      if (dBR <= 25.5) {
+        const t = (dBR - 19.2) / 6.3;
+        return 7.00 * (1 - t) + 1.40 * t;
       }
-      const t = Math.min(1, (dBR - 26.0) / 8.0);
-      return 1.7 * (1 - t) + 0.3 * t;
+      if (dBR <= 31.0) {
+        const t = (dBR - 25.5) / 5.5;
+        return 1.40 * (1 - t) + (-0.55) * t;
+      }
+      return -0.55;
     }
 
     // 4. Arcade Soccer Arena (65, 65)
     const dSoc = Math.hypot(x - 65, z - 65);
     if (dSoc < 35) {
       if (Math.abs(x - 65) <= 11.2 && Math.abs(z - 65) <= 16.2) {
-        return 2.38; // Soccer pitch turf
+        return 2.66; // Soccer pitch turf
       }
-      if (dSoc <= 20.0) return 3.0; // Stadium plateau
-      if (dSoc <= 27.0) {
-        const t = (dSoc - 20.0) / 7.0;
-        return 3.0 * (1 - t) + 1.5 * t;
+      if (dSoc <= 20.0) return 2.60; // Stadium grass plateau
+      if (dSoc <= 25.5) {
+        const t = (dSoc - 20.0) / 5.5;
+        return 2.60 * (1 - t) + 1.40 * t;
       }
-      const t = Math.min(1, (dSoc - 27.0) / 7.0);
-      return 1.5 * (1 - t) + 0.3 * t;
+      if (dSoc <= 31.0) {
+        const t = (dSoc - 25.5) / 5.5;
+        return 1.40 * (1 - t) + (-0.55) * t;
+      }
+      return -0.55;
     }
 
     // 5. Voxel Sandbox Bay (-65, 70)
@@ -2031,10 +2266,12 @@ export class WorldEngine {
           return h * 1.5 + 0.2;
         }
       }
-      return 1.0;
+      if (dVox <= 22) return 1.40;
+      const t = Math.min(1, (dVox - 22) / 5.0);
+      return 1.40 * (1 - t) + (-0.55) * t;
     }
 
-    return 0.3; // Shallow coastal shoreline
+    return -0.55; // Open deep ocean (Milo sinks chest-deep and swims)
   }
 
   private updateCollectibles(time: number) {
@@ -2112,7 +2349,7 @@ export class WorldEngine {
 
       setTimeout(() => {
         if (this.soccerBall) {
-          this.soccerBall.position.set(65, 1.6, 65);
+          this.soccerBall.position.set(65, 4.26, 65);
           this.ballVel.set(0, 0, 0);
         }
       }, 3500);
