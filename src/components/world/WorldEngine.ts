@@ -209,10 +209,10 @@ export class WorldEngine {
   public playerVel: THREE.Vector3 = new THREE.Vector3(0, 0, 0);
   public playerRotY: number = 0;
   public currentSpeed: number = 0;
-  public maxSpeed: number = 24;
-  public acceleration: number = 34;
-  public deceleration: number = 22;
-  public turnSpeed: number = 3.2;
+  public maxSpeed: number = 7.5;
+  public acceleration: number = 16;
+  public deceleration: number = 18;
+  public turnSpeed: number = 2.6;
   public isGrounded: boolean = true;
   public onWater: boolean = false;
   public nitro: number = 100;
@@ -340,9 +340,9 @@ export class WorldEngine {
     this.callbacks = callbacks;
     this.clock = new THREE.Clock();
 
-    // 1. Scene & Environment
+    // 1. Scene & Environment (Tropical Azure Sky Fog, Clear Horizon)
     this.scene = new THREE.Scene();
-    this.scene.fog = new THREE.FogExp2(0xbae6fd, 0.0035);
+    this.scene.fog = new THREE.FogExp2(0x7dd3fc, 0.0022);
 
     // 2. Camera Setup
     const aspect = container.clientWidth / container.clientHeight;
@@ -356,7 +356,7 @@ export class WorldEngine {
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    this.renderer.toneMappingExposure = 1.05;
+    this.renderer.toneMappingExposure = 0.96;
     container.appendChild(this.renderer.domElement);
 
     // 4. Post-processing (UnrealBloomPass for Cinematic Glow)
@@ -366,9 +366,9 @@ export class WorldEngine {
 
     const bloomPass = new UnrealBloomPass(
       new THREE.Vector2(container.clientWidth, container.clientHeight),
-      0.35, // Soft cinematic bloom strength
-      0.35, // Radius
-      0.85  // High threshold so only neon emissive elements bloom
+      0.28, // Soft cinematic bloom strength
+      0.30, // Radius
+      0.88  // High threshold so only neon emissive elements bloom, no water/sky blowout
     );
     this.composer.addPass(bloomPass);
 
@@ -406,14 +406,14 @@ export class WorldEngine {
   // LIGHTING & PHYSICAL SKY SHADER
   // =========================================================================
   private setupLighting() {
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.75);
+    const ambientLight = new THREE.AmbientLight(0xfffbeb, 0.70);
     this.scene.add(ambientLight);
 
-    const hemiLight = new THREE.HemisphereLight(0xe0f2fe, 0x99f6e4, 0.65);
+    const hemiLight = new THREE.HemisphereLight(0x7dd3fc, 0x15803d, 0.60);
     hemiLight.position.set(0, 70, 0);
     this.scene.add(hemiLight);
 
-    const sun = new THREE.DirectionalLight(0xfffbeb, 1.4);
+    const sun = new THREE.DirectionalLight(0xfff7ed, 1.15);
     sun.position.set(85, 115, 65);
     sun.castShadow = true;
     sun.shadow.mapSize.width = 1024;
@@ -483,13 +483,13 @@ export class WorldEngine {
   // PROCEDURAL OCEAN, SHORELINE FOAM & MARITIME BUOYS
   // =========================================================================
   private buildOcean() {
-    this.waterGeometry = new THREE.PlaneGeometry(420, 420, 72, 72);
+    this.waterGeometry = new THREE.PlaneGeometry(550, 550, 80, 80);
     this.waterGeometry.rotateX(-Math.PI / 2);
 
     const waterMat = new THREE.MeshStandardMaterial({
-      color: 0x0284c7,
-      roughness: 0.14,
-      metalness: 0.35,
+      color: 0x0284c7, // Tropical azure ocean
+      roughness: 0.44, // Soft satin water reflection - eliminates blinding mirror glare!
+      metalness: 0.06, // Prevents specular blowout
       flatShading: true,
     });
 
@@ -497,6 +497,15 @@ export class WorldEngine {
     waterMesh.position.y = 0;
     waterMesh.receiveShadow = true;
     this.scene.add(waterMesh);
+
+    // Deep seabed plane (prevents hollow white voids underneath water)
+    const seaBed = new THREE.Mesh(
+      new THREE.PlaneGeometry(550, 550),
+      new THREE.MeshStandardMaterial({ color: 0x0369a1, roughness: 0.9 })
+    );
+    seaBed.rotateX(-Math.PI / 2);
+    seaBed.position.y = -1.2;
+    this.scene.add(seaBed);
 
     // Floating Maritime Channel Buoys (Red & Green)
     const buoyMatRed = new THREE.MeshStandardMaterial({ color: 0xef4444, roughness: 0.3 });
@@ -542,12 +551,12 @@ export class WorldEngine {
   }
 
   private createShorelineFoam(center: THREE.Vector3, radius: number) {
-    const foamGeo = new THREE.RingGeometry(radius * 0.92, radius * 1.28, 36);
+    const foamGeo = new THREE.RingGeometry(radius * 0.92, radius * 1.25, 36);
     foamGeo.rotateX(-Math.PI / 2);
     const foamMat = new THREE.MeshBasicMaterial({
-      color: 0xffffff,
+      color: 0xbae6fd, // Soft seafoam cyan, not blinding white
       transparent: true,
-      opacity: 0.45,
+      opacity: 0.32,
       side: THREE.DoubleSide,
       depthWrite: false,
     });
@@ -611,24 +620,33 @@ export class WorldEngine {
   private createOrganicIsland(cfg: { center: THREE.Vector3; radius: number; height: number; sandColor: number; grassColor: number }) {
     this.createShorelineFoam(cfg.center, cfg.radius);
 
-    // Sand beach shelf
-    const sandGeo = new THREE.CylinderGeometry(cfg.radius * 0.92, cfg.radius * 1.3, 2.6, 28);
+    // 1. Golden Sand Beach Shelf
+    const sandGeo = new THREE.CylinderGeometry(cfg.radius * 0.92, cfg.radius * 1.3, 2.4, 28);
     const sandMat = new THREE.MeshStandardMaterial({ color: cfg.sandColor, roughness: 0.9, flatShading: true });
     const sandMesh = new THREE.Mesh(sandGeo, sandMat);
     sandMesh.position.set(cfg.center.x, 0.4, cfg.center.z);
     sandMesh.receiveShadow = true;
     this.scene.add(sandMesh);
 
-    // Green hill plateau
-    const hillGeo = new THREE.CylinderGeometry(cfg.radius * 0.74, cfg.radius * 0.94, cfg.height, 24);
+    // 2. Rich Earthy Soil & Rock Cliff Layer (Tanah & Tebing Alam Cokelat)
+    const soilGeo = new THREE.CylinderGeometry(cfg.radius * 0.82, cfg.radius * 0.98, cfg.height * 0.7, 26);
+    const soilMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.9, flatShading: true });
+    const soilMesh = new THREE.Mesh(soilGeo, soilMat);
+    soilMesh.position.set(cfg.center.x, cfg.height * 0.35 + 0.6, cfg.center.z);
+    soilMesh.castShadow = true;
+    soilMesh.receiveShadow = true;
+    this.scene.add(soilMesh);
+
+    // 3. Lush Green Park Turf Plateau (Rumput Taman Hijau)
+    const hillGeo = new THREE.CylinderGeometry(cfg.radius * 0.74, cfg.radius * 0.84, cfg.height * 0.35, 24);
     const hillMat = new THREE.MeshStandardMaterial({ color: cfg.grassColor, roughness: 0.8, flatShading: true });
     const hillMesh = new THREE.Mesh(hillGeo, hillMat);
-    hillMesh.position.set(cfg.center.x, cfg.height / 2 + 0.8, cfg.center.z);
+    hillMesh.position.set(cfg.center.x, cfg.height + 0.65, cfg.center.z);
     hillMesh.castShadow = true;
     hillMesh.receiveShadow = true;
     this.scene.add(hillMesh);
 
-    // Palm Trees & Beach Boulders
+    // 4. Palm Trees & Coastal Boulders
     for (let i = 0; i < 7; i++) {
       const angle = (i / 7) * Math.PI * 2;
       const dist = cfg.radius * 0.76;
@@ -679,6 +697,198 @@ export class WorldEngine {
     this.colliders.push({ x, z, radius: 1.1, label: "rock" });
   }
 
+  // =========================================================================
+  // PARK, GARDEN, ROAD & LANDSCAPE PROPS
+  // =========================================================================
+  // Jalan Setapak Paving / Dirt Road
+  private createPathSegment(p1: THREE.Vector3, p2: THREE.Vector3, width: number, color: number, height: number) {
+    const dist = Math.hypot(p2.x - p1.x, p2.z - p1.z);
+    const angle = Math.atan2(p2.x - p1.x, p2.z - p1.z);
+    const midX = (p1.x + p2.x) / 2;
+    const midZ = (p1.z + p2.z) / 2;
+
+    const pathGroup = new THREE.Group();
+    pathGroup.position.set(midX, height + 0.04, midZ);
+    pathGroup.rotation.y = angle;
+
+    const slab = new THREE.Mesh(
+      new THREE.BoxGeometry(width, 0.08, dist),
+      new THREE.MeshStandardMaterial({ color, roughness: 0.82 })
+    );
+    slab.receiveShadow = true;
+    pathGroup.add(slab);
+
+    // Stone road curbs
+    const curbMat = new THREE.MeshStandardMaterial({ color: 0x57534e, roughness: 0.85 });
+    const curbL = new THREE.Mesh(new THREE.BoxGeometry(0.18, 0.12, dist), curbMat);
+    curbL.position.set(-width / 2, 0.03, 0);
+    pathGroup.add(curbL);
+
+    const curbR = new THREE.Mesh(new THREE.BoxGeometry(0.18, 0.12, dist), curbMat);
+    curbR.position.set(width / 2, 0.03, 0);
+    pathGroup.add(curbR);
+
+    this.scene.add(pathGroup);
+  }
+
+  // Taman Bunga & Tanah Subur (Flowerbeds with rich soil & colorful petals)
+  private createGardenFlowerBed(center: THREE.Vector3, radius: number, flowerCount: number = 8) {
+    const bedGroup = new THREE.Group();
+    bedGroup.position.copy(center);
+
+    // Rich Dark Garden Soil (Tanah Subur Hitam Cokelat)
+    const soil = new THREE.Mesh(
+      new THREE.CylinderGeometry(radius, radius * 1.05, 0.16, 18),
+      new THREE.MeshStandardMaterial({ color: 0x3f2305, roughness: 0.95 })
+    );
+    soil.position.y = 0.08;
+    soil.receiveShadow = true;
+    bedGroup.add(soil);
+
+    // Cobblestone curb ring
+    const curb = new THREE.Mesh(
+      new THREE.TorusGeometry(radius, 0.14, 8, 20),
+      new THREE.MeshStandardMaterial({ color: 0x78716c, roughness: 0.8 })
+    );
+    curb.rotateX(Math.PI / 2);
+    curb.position.y = 0.12;
+    bedGroup.add(curb);
+
+    // Low trimmed hedge ring
+    const hedge = new THREE.Mesh(
+      new THREE.TorusGeometry(radius * 0.86, 0.16, 8, 20),
+      new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.75 })
+    );
+    hedge.rotateX(Math.PI / 2);
+    hedge.position.y = 0.20;
+    bedGroup.add(hedge);
+
+    // Colorful blooming flowers
+    const flowerColors = [0xef4444, 0xf59e0b, 0xa855f7, 0x06b6d4, 0xf472b6, 0xec4899];
+    const stemMat = new THREE.MeshStandardMaterial({ color: 0x166534, roughness: 0.8 });
+
+    for (let f = 0; f < flowerCount; f++) {
+      const angle = (f / flowerCount) * Math.PI * 2 + (f % 3) * 0.3;
+      const r = (radius * 0.28) + ((f * 3) % 5) * (radius * 0.1);
+      const fx = Math.cos(angle) * r;
+      const fz = Math.sin(angle) * r;
+
+      const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.32, 6), stemMat);
+      stem.position.set(fx, 0.26, fz);
+      bedGroup.add(stem);
+
+      const petalMat = new THREE.MeshStandardMaterial({ color: flowerColors[f % flowerColors.length], roughness: 0.5 });
+      const bloom = new THREE.Mesh(new THREE.DodecahedronGeometry(0.14, 0), petalMat);
+      bloom.position.set(fx, 0.44, fz);
+      bedGroup.add(bloom);
+    }
+
+    this.scene.add(bedGroup);
+  }
+
+  // Bangku Taman Kayu (Park Wooden Bench)
+  private createParkBench(x: number, z: number, y: number, rotY: number) {
+    const benchGroup = new THREE.Group();
+    benchGroup.position.set(x, y, z);
+    benchGroup.rotation.y = rotY;
+
+    const woodMat = new THREE.MeshStandardMaterial({ color: 0x92400e, roughness: 0.75 });
+    const ironMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.4, metalness: 0.6 });
+
+    for (let s = 0; s < 3; s++) {
+      const plank = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.06, 0.16), woodMat);
+      plank.position.set(0, 0.45, -0.16 + s * 0.16);
+      plank.castShadow = true;
+      benchGroup.add(plank);
+    }
+
+    for (let b = 0; b < 2; b++) {
+      const back = new THREE.Mesh(new THREE.BoxGeometry(1.6, 0.14, 0.06), woodMat);
+      back.position.set(0, 0.65 + b * 0.18, -0.28);
+      back.castShadow = true;
+      benchGroup.add(back);
+    }
+
+    for (const legX of [-0.68, 0.68]) {
+      const leg = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.48, 0.42), ironMat);
+      leg.position.set(legX, 0.24, 0);
+      benchGroup.add(leg);
+
+      const backSupport = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.45, 0.08), ironMat);
+      backSupport.position.set(legX, 0.68, -0.26);
+      benchGroup.add(backSupport);
+    }
+
+    this.scene.add(benchGroup);
+    this.colliders.push({ x, z, radius: 1.0, label: "bench" });
+  }
+
+  // Lampu Taman Hias (Victorian Garden Lamp Post)
+  private createGardenLampPost(x: number, z: number, y: number) {
+    const postGroup = new THREE.Group();
+    postGroup.position.set(x, y, z);
+
+    const ironMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, metalness: 0.7, roughness: 0.35 });
+    const lanternMat = new THREE.MeshStandardMaterial({
+      color: 0xfef08a,
+      emissive: 0xfacc15,
+      emissiveIntensity: 0.85,
+      roughness: 0.2,
+    });
+
+    const base = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.32, 0.35, 8), ironMat);
+    base.position.y = 0.18;
+    postGroup.add(base);
+
+    const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.1, 2.6, 8), ironMat);
+    pole.position.y = 1.6;
+    pole.castShadow = true;
+    postGroup.add(pole);
+
+    const fixture = new THREE.Mesh(new THREE.BoxGeometry(0.38, 0.1, 0.38), ironMat);
+    fixture.position.y = 2.95;
+    postGroup.add(fixture);
+
+    const glass = new THREE.Mesh(new THREE.DodecahedronGeometry(0.22, 0), lanternMat);
+    glass.position.y = 3.12;
+    postGroup.add(glass);
+
+    const cap = new THREE.Mesh(new THREE.ConeGeometry(0.32, 0.22, 6), ironMat);
+    cap.position.y = 3.32;
+    postGroup.add(cap);
+
+    this.scene.add(postGroup);
+    this.colliders.push({ x, z, radius: 0.5, label: "lamppost" });
+  }
+
+  // Pohon Taman Rindang & Pohon Bunga (Lush Park Canopy Trees)
+  private createParkTree(x: number, z: number, y: number, isBlossom: boolean = false) {
+    const trunkMat = new THREE.MeshStandardMaterial({ color: 0x582a0b, roughness: 0.9 });
+    const foliageMat = new THREE.MeshStandardMaterial({
+      color: isBlossom ? 0xf472b6 : 0x16a34a,
+      roughness: 0.7,
+      flatShading: true,
+    });
+
+    const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.45, 2.6, 8), trunkMat);
+    trunk.position.set(x, y + 1.3, z);
+    trunk.castShadow = true;
+    this.scene.add(trunk);
+    this.colliders.push({ x, z, radius: 0.75, label: "tree" });
+
+    for (let c = 0; c < 4; c++) {
+      const angle = (c / 4) * Math.PI * 2;
+      const crown = new THREE.Mesh(new THREE.DodecahedronGeometry(1.4 + (c % 2) * 0.3, 1), foliageMat);
+      crown.position.set(x + Math.cos(angle) * 0.6, y + 2.8 + (c % 2) * 0.5, z + Math.sin(angle) * 0.6);
+      crown.castShadow = true;
+      this.scene.add(crown);
+    }
+    const topCrown = new THREE.Mesh(new THREE.DodecahedronGeometry(1.6, 1), foliageMat);
+    topCrown.position.set(x, y + 3.8, z);
+    topCrown.castShadow = true;
+    this.scene.add(topCrown);
+  }
+
   private createBeachUmbrella(x: number, z: number, y: number, colorA: number, colorB: number) {
     const poleMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0, roughness: 0.3 });
     const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 2.4), poleMat);
@@ -723,25 +933,96 @@ export class WorldEngine {
   }
 
   private addHubProps(center: THREE.Vector3) {
-    const plaza = new THREE.Mesh(new THREE.CylinderGeometry(10, 10, 0.2, 28), new THREE.MeshStandardMaterial({ color: 0xf1f5f9, roughness: 0.4 }));
-    plaza.position.set(center.x, 4.65, center.z);
-    this.scene.add(plaza);
+    // 1. Grand Garden Promenade: Warm Slate & Terracotta Pavers (Bukan Putih Polos!)
+    const outerPlaza = new THREE.Mesh(
+      new THREE.CylinderGeometry(11.5, 11.5, 0.22, 32),
+      new THREE.MeshStandardMaterial({ color: 0x78716c, roughness: 0.8 }) // Slate stone paving
+    );
+    outerPlaza.position.set(center.x, 4.65, center.z);
+    outerPlaza.receiveShadow = true;
+    this.scene.add(outerPlaza);
 
-    const trophy = new THREE.Mesh(new THREE.CylinderGeometry(1.3, 0.45, 2.8, 16), new THREE.MeshStandardMaterial({ color: 0xf59e0b, metalness: 0.85, roughness: 0.15 }));
-    trophy.position.set(center.x, 6.1, center.z);
+    const innerPlaza = new THREE.Mesh(
+      new THREE.CylinderGeometry(7.5, 7.5, 0.26, 28),
+      new THREE.MeshStandardMaterial({ color: 0xc2410c, roughness: 0.75 }) // Terracotta paving
+    );
+    innerPlaza.position.set(center.x, 4.67, center.z);
+    innerPlaza.receiveShadow = true;
+    this.scene.add(innerPlaza);
+
+    // Center Garden Ring around Trophy
+    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.7, center.z), 3.2, 12);
+
+    // Golden Trophy on dark granite pedestal
+    const pedestal = new THREE.Mesh(
+      new THREE.CylinderGeometry(1.1, 1.4, 0.9, 12),
+      new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.5 })
+    );
+    pedestal.position.set(center.x, 5.15, center.z);
+    pedestal.castShadow = true;
+    this.scene.add(pedestal);
+
+    const trophy = new THREE.Mesh(
+      new THREE.CylinderGeometry(1.3, 0.45, 2.8, 16),
+      new THREE.MeshStandardMaterial({ color: 0xf59e0b, metalness: 0.85, roughness: 0.15 })
+    );
+    trophy.position.set(center.x, 6.7, center.z);
     trophy.castShadow = true;
     this.scene.add(trophy);
     this.colliders.push({ x: center.x, z: center.z, radius: 1.6, label: "trophy" });
 
+    // 2. 4 Radial Cobblestone Roads (Jalan Paving ke Setiap Jembatan!)
+    this.createPathSegment(new THREE.Vector3(-6, 0, -6), new THREE.Vector3(-18, 0, -18), 3.4, 0xa8a29e, 4.6);
+    this.createPathSegment(new THREE.Vector3(6, 0, -6), new THREE.Vector3(18, 0, -16), 3.4, 0xa8a29e, 4.6);
+    this.createPathSegment(new THREE.Vector3(-6, 0, 6), new THREE.Vector3(-16, 0, 18), 3.4, 0xa8a29e, 4.6);
+    this.createPathSegment(new THREE.Vector3(6, 0, 6), new THREE.Vector3(16, 0, 18), 3.4, 0xa8a29e, 4.6);
+
+    // 3. Flower Beds in 4 Park Quadrants
+    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.6, center.z - 15), 3.0, 9);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.6, center.z + 15), 3.0, 9);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x - 15, 4.6, center.z), 3.0, 9);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x + 15, 4.6, center.z), 3.0, 9);
+
+    // 4. Park Shade Trees & Cherry Blossom Trees
+    this.createParkTree(center.x - 10, center.z - 12, 4.6, false);
+    this.createParkTree(center.x + 10, center.z - 12, 4.6, true);
+    this.createParkTree(center.x - 10, center.z + 12, 4.6, true);
+    this.createParkTree(center.x + 10, center.z + 12, 4.6, false);
+
+    // 5. Wooden Park Benches along the promenade
+    this.createParkBench(center.x - 8, center.z - 5, 4.65, Math.PI / 4);
+    this.createParkBench(center.x + 8, center.z - 5, 4.65, -Math.PI / 4);
+    this.createParkBench(center.x - 8, center.z + 5, 4.65, (3 * Math.PI) / 4);
+    this.createParkBench(center.x + 8, center.z + 5, 4.65, -(3 * Math.PI) / 4);
+
+    // 6. Victorian Garden Lampposts
+    this.createGardenLampPost(center.x - 11, center.z - 11, 4.6);
+    this.createGardenLampPost(center.x + 11, center.z - 11, 4.6);
+    this.createGardenLampPost(center.x - 11, center.z + 11, 4.6);
+    this.createGardenLampPost(center.x + 11, center.z + 11, 4.6);
+
+    // Pier, Beach Umbrellas, and Ramps
     this.createWoodenPier(new THREE.Vector3(0, 0, -28), 0, 10);
-    this.createBeachUmbrella(center.x - 12, center.z + 18, 0.4, 0xf43f5e, 0x38bdf8);
-    this.createBeachUmbrella(center.x + 12, center.z + 18, 0.4, 0x06b6d4, 0xfbbf24);
+    this.createBeachUmbrella(center.x - 14, center.z + 20, 0.4, 0xf43f5e, 0x0284c7);
+    this.createBeachUmbrella(center.x + 14, center.z + 20, 0.4, 0x06b6d4, 0xf59e0b);
 
     this.createRamp(new THREE.Vector3(-24, 0, 0), Math.PI / 2);
     this.createRamp(new THREE.Vector3(24, 0, 0), -Math.PI / 2);
   }
 
   private addMOBAProps(center: THREE.Vector3) {
+    // Ancient stone road from bridge (-52, -50) to monolith center
+    this.createPathSegment(new THREE.Vector3(-52, 0, -50), new THREE.Vector3(center.x, 0, center.z), 3.6, 0x475569, 6.6);
+
+    // Mystical Garden beds flanking the path
+    this.createGardenFlowerBed(new THREE.Vector3(center.x - 6, 6.6, center.z + 8), 2.8, 8);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x + 8, 6.6, center.z - 6), 2.8, 8);
+
+    // Ancient park benches and stone lanterns
+    this.createParkBench(center.x - 9, center.z - 2, 6.6, Math.PI / 3);
+    this.createGardenLampPost(center.x - 5, center.z - 8, 6.6);
+    this.createGardenLampPost(center.x - 12, center.z + 5, 6.6);
+
     const blade = new THREE.Mesh(
       new THREE.BoxGeometry(0.9, 15, 2.4),
       new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 0.6, metalness: 0.9, roughness: 0.1 })
@@ -775,15 +1056,36 @@ export class WorldEngine {
   }
 
   private addBRProps(center: THREE.Vector3) {
-    const lhBase = new THREE.Mesh(new THREE.CylinderGeometry(2.2, 3.0, 14, 16), new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.5 }));
+    // Dirt & Gravel Road from bridge (56, -45) to lighthouse area
+    this.createPathSegment(new THREE.Vector3(56, 0, -45), new THREE.Vector3(center.x - 4, 0, center.z - 4), 3.6, 0x92400e, 7.0);
+
+    // Lighthouse: Maritime Cream Stone Masonry (Bukan Putih Polos!)
+    const lhBase = new THREE.Mesh(
+      new THREE.CylinderGeometry(2.2, 3.0, 14, 16),
+      new THREE.MeshStandardMaterial({ color: 0xfef3c7, roughness: 0.65 })
+    );
     lhBase.position.set(center.x - 8, 14, center.z - 8);
     lhBase.castShadow = true;
     this.scene.add(lhBase);
     this.colliders.push({ x: center.x - 8, z: center.z - 8, radius: 3.2, label: "lighthouse" });
 
-    const redBand = new THREE.Mesh(new THREE.CylinderGeometry(2.4, 2.6, 3.5, 16), new THREE.MeshStandardMaterial({ color: 0xdc2626, roughness: 0.5 }));
-    redBand.position.set(center.x - 8, 14, center.z - 8);
-    this.scene.add(redBand);
+    // Weather-worn granite base ring
+    const lhStoneBase = new THREE.Mesh(
+      new THREE.CylinderGeometry(3.1, 3.4, 2.5, 16),
+      new THREE.MeshStandardMaterial({ color: 0x475569, roughness: 0.8 })
+    );
+    lhStoneBase.position.set(center.x - 8, 8.25, center.z - 8);
+    lhStoneBase.receiveShadow = true;
+    this.scene.add(lhStoneBase);
+
+    // Red bands
+    const redBand1 = new THREE.Mesh(new THREE.CylinderGeometry(2.4, 2.6, 2.8, 16), new THREE.MeshStandardMaterial({ color: 0xdc2626, roughness: 0.5 }));
+    redBand1.position.set(center.x - 8, 12, center.z - 8);
+    this.scene.add(redBand1);
+
+    const redBand2 = new THREE.Mesh(new THREE.CylinderGeometry(2.2, 2.3, 2.4, 16), new THREE.MeshStandardMaterial({ color: 0xdc2626, roughness: 0.5 }));
+    redBand2.position.set(center.x - 8, 17, center.z - 8);
+    this.scene.add(redBand2);
 
     const lantern = new THREE.Mesh(new THREE.CylinderGeometry(1.6, 1.6, 2.0, 12), new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.3 }));
     lantern.position.set(center.x - 8, 22, center.z - 8);
@@ -805,6 +1107,11 @@ export class WorldEngine {
     chute.position.set(center.x + 6, 13.5, center.z + 6);
     this.scene.add(chute);
 
+    // Park bench & lampposts
+    this.createParkBench(center.x + 2, center.z - 12, 7.0, -Math.PI / 4);
+    this.createGardenLampPost(center.x, center.z - 6, 7.0);
+    this.createParkTree(center.x - 14, center.z + 4, 7.0, false);
+
     this.createRamp(new THREE.Vector3(center.x - 18, 0, center.z + 8), -Math.PI / 4);
   }
 
@@ -812,42 +1119,81 @@ export class WorldEngine {
     this.createShorelineFoam(center, 22);
 
     const voxelMat = new THREE.MeshStandardMaterial({ color: 0x16a34a, roughness: 0.9, flatShading: true });
+    const soilMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.9, flatShading: true });
     const stoneMat = new THREE.MeshStandardMaterial({ color: 0x64748b, roughness: 0.8, flatShading: true });
+
+    // Paved stone road from bridge (-48, 52) to voxel center
+    this.createPathSegment(new THREE.Vector3(-48, 0, 52), new THREE.Vector3(center.x, 0, center.z), 3.2, 0x475569, 4.7);
 
     for (let x = -4; x <= 4; x++) {
       for (let z = -4; z <= 4; z++) {
         const dist = Math.hypot(x, z);
         if (dist > 4.2) continue;
         const h = Math.max(1, 4 - Math.floor(dist * 0.8));
-        const box = new THREE.Mesh(new THREE.BoxGeometry(4.5, h * 1.5, 4.5), dist > 2 ? stoneMat : voxelMat);
+        const mat = dist > 2.8 ? soilMat : dist > 1.4 ? stoneMat : voxelMat;
+        const box = new THREE.Mesh(new THREE.BoxGeometry(4.5, h * 1.5, 4.5), mat);
         box.position.set(center.x + x * 4.6, (h * 1.5) / 2 + 0.2, center.z + z * 4.6);
         box.castShadow = true;
         box.receiveShadow = true;
         this.scene.add(box);
       }
     }
+
+    this.createParkTree(center.x - 6, center.z - 6, 5.0, true);
+    this.createGardenLampPost(center.x + 6, center.z - 6, 4.7);
   }
 
   private addSoccerStadiumProps(center: THREE.Vector3) {
-    const pitch = new THREE.Mesh(new THREE.BoxGeometry(22, 0.15, 32), new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.7 }));
-    pitch.position.set(center.x, 2.3, center.z);
+    // 1. Terracotta / Clay Running Track & Walking Promenade encircling the pitch (Bukan Kosong/Putih!)
+    const track = new THREE.Mesh(
+      new THREE.BoxGeometry(27, 0.12, 38),
+      new THREE.MeshStandardMaterial({ color: 0x9a3412, roughness: 0.85 })
+    );
+    track.position.set(center.x, 2.28, center.z);
+    track.receiveShadow = true;
+    this.scene.add(track);
+
+    // 2. Soccer Pitch Turf
+    const pitch = new THREE.Mesh(
+      new THREE.BoxGeometry(22, 0.16, 32),
+      new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.7 })
+    );
+    pitch.position.set(center.x, 2.32, center.z);
     pitch.receiveShadow = true;
     this.scene.add(pitch);
 
-    const lineMat = new THREE.MeshBasicMaterial({ color: 0xffffff });
+    // 3. Center line (Soft white, not glaring)
+    const lineMat = new THREE.MeshBasicMaterial({ color: 0xf1f5f9 });
     const centerLine = new THREE.Mesh(new THREE.BoxGeometry(21, 0.18, 0.3), lineMat);
-    centerLine.position.set(center.x, 2.32, center.z);
+    centerLine.position.set(center.x, 2.34, center.z);
     this.scene.add(centerLine);
 
+    // 4. Cobblestone Path from bridge (48, 48) to pitch entrance
+    this.createPathSegment(new THREE.Vector3(48, 0, 48), new THREE.Vector3(center.x - 11, 0, center.z), 3.2, 0xa8a29e, 2.3);
+
+    // 5. Spectator Bleachers & Garden amenities
     const benchMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.5 });
     for (let b = 0; b < 3; b++) {
-      const bx = center.x - 13 - b * 2.2;
+      const bx = center.x - 14 - b * 2.2;
       const bench = new THREE.Mesh(new THREE.BoxGeometry(2.0, 0.6 * (b + 1), 24), benchMat);
       bench.position.set(bx, 2.3 + (0.6 * (b + 1)) / 2, center.z);
       bench.castShadow = true;
       this.scene.add(bench);
       this.colliders.push({ x: bx, z: center.z, radius: 1.8, label: "bench" });
     }
+
+    // Garden flowerbeds and park trees around stadium
+    this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.3, center.z - 10), 2.5, 7);
+    this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.3, center.z + 10), 2.5, 7);
+    this.createParkTree(center.x - 14, center.z - 14, 2.3, false);
+    this.createParkTree(center.x - 14, center.z + 14, 2.3, true);
+
+    // Park benches & Lampposts for spectators
+    this.createParkBench(center.x + 14, center.z, 2.3, -Math.PI / 2);
+    this.createGardenLampPost(center.x - 12, center.z - 12, 2.3);
+    this.createGardenLampPost(center.x - 12, center.z + 12, 2.3);
+    this.createGardenLampPost(center.x + 14, center.z - 12, 2.3);
+    this.createGardenLampPost(center.x + 14, center.z + 12, 2.3);
   }
 
   private createRamp(pos: THREE.Vector3, rotY: number) {
@@ -1275,7 +1621,7 @@ export class WorldEngine {
   private spawnSoccerArena() {
     const pos = new THREE.Vector3(65, 0, 65);
 
-    const postMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.25 });
+    const postMat = new THREE.MeshStandardMaterial({ color: 0xd1d5db, roughness: 0.45, metalness: 0.35 });
     const postL = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 3.8), postMat);
     postL.position.set(pos.x - 4, 1.9, pos.z + 12);
     this.scene.add(postL);
@@ -1299,7 +1645,7 @@ export class WorldEngine {
     const soccerTex = createSoccerBallTexture();
     const ballMat = new THREE.MeshStandardMaterial({ map: soccerTex, roughness: 0.35, metalness: 0.1 });
     this.soccerBall = new THREE.Mesh(new THREE.SphereGeometry(1.6, 24, 24), ballMat);
-    this.soccerBall.position.set(pos.x, 1.6, pos.z);
+    this.soccerBall.position.set(pos.x, 3.92, pos.z);
     this.soccerBall.castShadow = true;
     this.scene.add(this.soccerBall);
   }
@@ -1440,7 +1786,7 @@ export class WorldEngine {
     }
 
     if (this.inputs.boost && this.nitro > 0 && this.inputs.forward) {
-      targetSpeed *= 1.6;
+      targetSpeed *= 1.5;
       this.nitro = Math.max(0, this.nitro - 25 * delta);
       this.isBoosting = true;
     } else {
@@ -1483,13 +1829,13 @@ export class WorldEngine {
 
     // Jump
     if (this.inputs.jump && this.isGrounded) {
-      this.playerVel.y = 12.0;
+      this.playerVel.y = 8.5;
       this.isGrounded = false;
       this.audio.playJump();
     }
 
     if (!this.isGrounded) {
-      this.playerVel.y -= 26 * delta;
+      this.playerVel.y -= 22 * delta;
       this.playerPos.y += this.playerVel.y * delta;
       if (this.playerPos.y <= groundHeight) {
         this.playerPos.y = groundHeight;
@@ -1533,11 +1879,11 @@ export class WorldEngine {
       this.catMeshGroup.scale.set(0.92, 1.12, 0.92);
     } else if (speedRatio > 0.04) {
       // Running / Walking on foot
-      const stepRate = this.isBoosting ? 2.4 : 1.6;
+      const stepRate = this.isBoosting ? 2.0 : 1.5;
       this.walkCycle += Math.abs(this.currentSpeed) * stepRate * delta;
 
-      const legSwing = Math.sin(this.walkCycle) * (0.65 + speedRatio * 0.35);
-      const armSwing = -Math.sin(this.walkCycle) * (0.55 + speedRatio * 0.35);
+      const legSwing = Math.sin(this.walkCycle) * (0.60 + speedRatio * 0.30);
+      const armSwing = -Math.sin(this.walkCycle) * (0.50 + speedRatio * 0.30);
 
       if (this.leftLeg) this.leftLeg.rotation.x = legSwing;
       if (this.rightLeg) this.rightLeg.rotation.x = -legSwing;
@@ -1545,19 +1891,19 @@ export class WorldEngine {
       if (this.rightArm) this.rightArm.rotation.x = -armSwing;
 
       // Body bounce and squash
-      const bounce = Math.abs(Math.sin(this.walkCycle)) * 0.12;
+      const bounce = Math.abs(Math.sin(this.walkCycle)) * 0.10;
       this.catMeshGroup.position.y = bounce;
 
-      const squash = Math.sin(this.walkCycle * 2) * 0.05;
+      const squash = Math.sin(this.walkCycle * 2) * 0.04;
       this.catMeshGroup.scale.set(1.0 + squash, 1.0 - squash, 1.0 + squash);
 
       // Natural forward lean into the run (-Z is forward!)
-      const targetLean = -Math.min(0.24, speedRatio * 0.22);
+      const targetLean = -Math.min(0.20, speedRatio * 0.18);
       this.catMeshGroup.rotation.x = THREE.MathUtils.lerp(this.catMeshGroup.rotation.x, targetLean, 10 * delta);
-      this.catMeshGroup.rotation.y = Math.sin(this.walkCycle * 0.5) * 0.06;
+      this.catMeshGroup.rotation.y = Math.sin(this.walkCycle * 0.5) * 0.05;
 
       // Footstep sound on ground contact
-      if (Math.abs(Math.sin(this.walkCycle)) < 0.14) {
+      if (Math.abs(Math.sin(this.walkCycle)) < 0.12) {
         this.audio.playFootstep();
       }
     } else {
@@ -1730,10 +2076,10 @@ export class WorldEngine {
     const dist = this.playerPos.distanceTo(this.soccerBall.position);
     if (dist < 3.2) {
       const pushDir = new THREE.Vector3().subVectors(this.soccerBall.position, this.playerPos).normalize();
-      const impulse = Math.max(Math.abs(this.currentSpeed) * 1.25, 15);
+      const impulse = Math.max(Math.abs(this.currentSpeed) * 1.5, 12);
       this.ballVel.x = pushDir.x * impulse;
       this.ballVel.z = pushDir.z * impulse;
-      this.ballVel.y = 4.8;
+      this.ballVel.y = 4.2;
       this.audio.playKick();
     }
 
@@ -1744,12 +2090,13 @@ export class WorldEngine {
     this.soccerBall.rotation.x += this.ballVel.z * delta * 0.8;
     this.soccerBall.rotation.z -= this.ballVel.x * delta * 0.8;
 
-    if (this.soccerBall.position.y > 1.6) {
-      this.ballVel.y -= 18 * delta;
+    const ballGroundY = this.calculateGroundHeight(this.soccerBall.position.x, this.soccerBall.position.z) + 1.6;
+    if (this.soccerBall.position.y > ballGroundY) {
+      this.ballVel.y -= 20 * delta;
     } else {
-      this.soccerBall.position.y = 1.6;
-      if (Math.abs(this.ballVel.y) > 1.5) {
-        this.ballVel.y = -this.ballVel.y * 0.6;
+      this.soccerBall.position.y = ballGroundY;
+      if (Math.abs(this.ballVel.y) > 1.8) {
+        this.ballVel.y = -this.ballVel.y * 0.52;
       } else {
         this.ballVel.y = 0;
       }
