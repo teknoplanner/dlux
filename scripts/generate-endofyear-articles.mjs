@@ -1,9 +1,10 @@
 import fs from "fs";
 import path from "path";
 import sharp from "sharp";
+import ts from "typescript";
 
 // =========================================================================
-// 83 DAYS (2026-10-10 to 2026-12-31) x 10 SLOTS = 830 DEEP SEO ARTICLES
+// 83 DAYS (2026-10-10 to 2026-12-31) x 10 SLOTS = 830 DEEP & UNIQUE ARTICLES
 // =========================================================================
 
 const TOTAL_DAYS = 83; // Oct 10 to Dec 31 inclusive
@@ -20,10 +21,6 @@ const SLOTS = [
     app: "stickman-penalty-rush",
     affCat: "gaming",
     affIds: ["finger-sleeves", "phone-cooler", "mobile-controller", "gaming-tws"],
-    gameRecTitleId: "Latihan Refleks Cepat Bersama Stickman Penalty Rush",
-    gameRecDescId: "Sambil menunggu reset energi atau cooldown ranked MLBB, asah kecepatan refleks mata dan jari Anda dengan game arcade sepak bola adu penalti Stickman Penalty Rush yang ringan dan tanpa lag.",
-    gameRecTitleEn: "Sharpen Reflex Timing with Stickman Penalty Rush",
-    gameRecDescEn: "While cooling down between intense MLBB ranked matches, train your swipe accuracy and hand-eye reaction speeds with our lightweight offline casual football game, Stickman Penalty Rush."
   },
   {
     slotIndex: 1,
@@ -35,10 +32,6 @@ const SLOTS = [
     app: "stickman-penalty-rush",
     affCat: "gaming",
     affIds: ["finger-sleeves", "phone-cooler", "mobile-controller", "gaming-tws"],
-    gameRecTitleId: "Uji Akurasi Bidikan di Stickman Penalty Rush",
-    gameRecDescId: "Latih ketepatan sudut tembakan melengkung dan ketenangan mental Anda menghadapi situasi genting melalui mini game adu penalti Stickman Penalty Rush dari studio D Lucky X.",
-    gameRecTitleEn: "Test Precision Aim with Stickman Penalty Rush",
-    gameRecDescEn: "Refine your precise swipe trajectories and clutch decision-making by challenging dynamic AI goalkeepers in Stickman Penalty Rush."
   },
   {
     slotIndex: 2,
@@ -50,10 +43,6 @@ const SLOTS = [
     app: "fruity-merge-3d-match-puzzle",
     affCat: "gaming",
     affIds: ["mobile-controller", "gaming-tws", "finger-sleeves"],
-    gameRecTitleId: "Santai Sejenak Bersama Fruity Merge 3D Match Puzzle",
-    gameRecDescId: "Setelah berjam-jam grinding level di server Roblox, segarkan pikiran Anda dengan game teka-teki mencocokkan buah 3D Fruity Merge yang adiktif, santai, dan bebas stres.",
-    gameRecTitleEn: "Unwind with Fruity Merge 3D Match Puzzle",
-    gameRecDescEn: "Take a restful break from intense Roblox grinding sessions by enjoying Fruity Merge 3D, a delightfully satisfying spatial matching puzzle game designed for pure relaxation."
   },
   {
     slotIndex: 3,
@@ -65,10 +54,6 @@ const SLOTS = [
     app: "milo-cat-adventure",
     affCat: "gaming",
     affIds: ["mobile-controller", "phone-cooler", "gaming-tws"],
-    gameRecTitleId: "Eksplorasi Dunia Ceria di Milo Cat Adventure",
-    gameRecDescId: "Suka petualangan menjelajah dunia baru seperti di Minecraft? Coba keseruan platformer Milo Cat Adventure untuk memandu kucing pemberani melintasi rintangan seru.",
-    gameRecTitleEn: "Embark on Whimsical Quests in Milo Cat Adventure",
-    gameRecDescEn: "If you love voxel exploration and creative adventure worlds, discover Milo Cat Adventure, a charming offline platformer featuring lovable feline physics and vibrant obstacle stages."
   },
   {
     slotIndex: 4,
@@ -80,10 +65,6 @@ const SLOTS = [
     app: "stickman-penalty-rush",
     affCat: "gaming",
     affIds: ["phone-cooler", "mobile-controller", "gaming-tws"],
-    gameRecTitleId: "Penyegar Suhu HP dengan Game Kasual Ringan D Lucky X",
-    gameRecDescId: "Grafis berat Genshin Impact sering kali membuat baterai smartphone mendidih. Istirahatkan ponsel Anda sambil memainkan game kasual offline ringan dari D Lucky X yang hemat daya.",
-    gameRecTitleEn: "Cool Down Your Device with D Lucky X Casual Arcade Hits",
-    gameRecDescEn: "Teyvat's heavy 3D rendering heats up mobile processors fast. Give your battery a well-deserved breather while enjoying lightweight, buttery-smooth offline mini games from D Lucky X."
   },
   {
     slotIndex: 5,
@@ -95,10 +76,6 @@ const SLOTS = [
     app: "stickman-penalty-rush",
     affCat: "gaming",
     affIds: ["mobile-controller", "finger-sleeves", "gaming-tws"],
-    gameRecTitleId: "Sensasi Tembakan Penalti Realistis di Stickman Penalty Rush",
-    gameRecDescId: "Ingin melatih ketajaman eksekusi penalti tanpa membuang stamina pemain di EA FC? Stickman Penalty Rush menyajikan simulasi adu penalti murni dengan respon swipe instan.",
-    gameRecTitleEn: "Authentic Shootout Drama in Stickman Penalty Rush",
-    gameRecDescEn: "Hone your penalty shootout nerve without burning squad stamina in football simulators. Stickman Penalty Rush delivers pure shootout tension with responsive fingertip curve physics."
   },
   {
     slotIndex: 6,
@@ -110,10 +87,6 @@ const SLOTS = [
     app: "stickman-penalty-rush",
     affCat: "gaming",
     affIds: ["finger-sleeves", "phone-cooler", "gaming-tws", "mobile-controller"],
-    gameRecTitleId: "Latihan Akurasi Gerak di Stickman Penalty Rush",
-    gameRecDescId: "Kombinasi kecepatan reflek mata dan tangan adalah kunci juara di battle royale. Asah akurasi koordinasi motorik Anda lewat mini game sepak bola penuh aksi.",
-    gameRecTitleEn: "Calibrate Precision Flick Movements",
-    gameRecDescEn: "Lightning reflexes decide battle royale shootouts. Keep your hand-eye coordination finely tuned with fast-paced precision flick challenges."
   },
   {
     slotIndex: 7,
@@ -125,10 +98,6 @@ const SLOTS = [
     app: "stickman-penalty-rush",
     affCat: "gaming",
     affIds: ["finger-sleeves", "phone-cooler", "mobile-controller", "gaming-tws"],
-    gameRecTitleId: "Uji Performa Gear Baru Anda di Game D Lucky X",
-    gameRecDescId: "Setelah memasang cooler pendingin atau sarung jempol gaming baru, rasakan kelancaran respon sentuhan tanpa hambatan di game sepak bola Stickman Penalty Rush.",
-    gameRecTitleEn: "Test Your Upgraded Hardware on D Lucky X Arcade Titles",
-    gameRecDescEn: "Put your new Peltier cooler or silver fiber finger sleeves to the test with fluid, zero-lag swipe response in Stickman Penalty Rush."
   },
   {
     slotIndex: 8,
@@ -140,10 +109,6 @@ const SLOTS = [
     app: "monster-math-train-brain",
     affCat: "kids",
     affIds: ["kids-tablet", "kids-stylus", "kids-case"],
-    gameRecTitleId: "Stimulasi Otak Anak dengan Monster Math & Baby Shark ABC",
-    gameRecDescId: "Padukan tablet belajar anak yang aman dengan aplikasi edukasi interaktif kami: Monster Math untuk berhitung cepat dan Baby Shark ABC untuk mengenal huruf alfabet.",
-    gameRecTitleEn: "Empower Young Minds with Monster Math & Baby Shark ABC",
-    gameRecDescEn: "Transform screen time into engaging cognitive development by loading your child's tablet with Monster Math Brain Training and Baby Shark ABC Kids Learning."
   },
   {
     slotIndex: 9,
@@ -155,15 +120,10 @@ const SLOTS = [
     app: "offline-pdf-editor",
     affCat: "productivity",
     affIds: ["capacitive-stylus", "paper-screen-protector"],
-    gameRecTitleId: "Kelola Dokumen Rahasia Aman dengan Offline PDF Editor",
-    gameRecDescId: "Gunakan stylus presisi Anda untuk menandatangani kontrak dan mengedit formulir secara aman tanpa internet dengan aplikasi Offline PDF Editor dari D Lucky X.",
-    gameRecTitleEn: "Protect Sensitive Documents with Offline PDF Editor",
-    gameRecDescEn: "Pair your precision capacitive stylus with our Zero-Network Offline PDF Editor to sign contracts, annotate reports, and redact confidential data safely."
   },
 ];
 
 // TOPIC TEMPLATES FOR 83 DAYS
-// Each slot generates 83 unique titles
 function getTopicForDay(slotIndex, day) {
   const dayNum = day + 1;
   switch (slotIndex) {
@@ -249,153 +209,133 @@ function getTopicForDay(slotIndex, day) {
         "Turtle Helmet Nafas Air Tambahan", "Trident Riptide Terbang Hujan", "Minecraft Mastery Guide 2026"
       ];
       const m = mcTopics[day % mcTopics.length];
-      return `Tutorial Minecraft 2026: Cara Menguasai ${m} (Bagian #${dayNum})`;
+      return `Panduan Lengkap Minecraft: Trik ${m} (Update 2026 Seri #${dayNum})`;
     }
     case 4: { // Genshin & Honkai
-      const ghTopics = [
-        "Furina Hydro Archon Build", "Neuvillette Hypercarry Semburan", "Zhongli Perisai Batu Abadi Full HP", "Kazuha Swirl Elemental Mastery", "Raiden Shogun Battery Burst",
-        "Nahida Emak Dendro Hyperbloom", "Arlecchino Pyro DPS Scythe", "Clorinde Electro Bond of Life", "Navia Geo Gunbrella Shotgun", "Alhaitham Dendro Spread DPS",
-        "Yelan Sub-DPS Hydro Dice", "Hu Tao Homa Vaporize Charge", "Acheron Nihility Ultimate Slash", "Ruan Mei Break Efficiency Harmony", "Aventurine Preservation Shield Dadu",
-        "Firefly Super Break Sam DPS", "Feixiao Hunt Wind Follow-up", "Robin Harmony Concerto Song", "Black Swan DoT Arcana Debuff", "Sparkle Quantum Action Advance",
-        "Dan Heng IL Dragon Imaginary", "Jingliu Destruction Ice Transmigration", "Kafka Lightning DoT Detonator", "Boothill Hunt Physical Break", "Sunday Harmony Ultimate Buff",
-        "Rute Farm Primogem F2P", "Spiral Abyss Lantai 12 Bintang 9", "Memory of Chaos 36 Bintang", "Simulated Universe Path Terbaik", "Apocalyptic Shadow Boss Trik",
-        "Pure Fiction Erudition Formasi", "Artefak Sub-Stat Crit Rasio 1:2", "Relic Speed Tuning Urutan Turn", "Sistem Pity Gacha 50:50 Trik", "Stellar Jade Gratis Tiap Patch",
-        "Senjata Bintang 4 Pengganti Bintang 5", "Light Cone Bintang 4 Terbaik", "Rute Tambang Crystal Ore Teyvat", "Boss Mingguan Solo Cepat", "Karakter Bintang 4 Wajib Build",
-        "Bennett Xiangling Xingqiu Trio", "Kuki Shinobu Hyperbloom Trigger", "Chevreuse Overload Pyro Electro", "Gaming Plunge Pyro DPS", "Gallagher Break Healer Sakti",
-        "Tingyun Energy Battery Harmony", "Pela Def Shred AoE Nihility", "Herta Himeko Pure Fiction Combo", "Lynx Cleanse Debuff Abundance", "Natlan Phlogiston Eksplorasi",
-        "Kachina Geo Support Cinder City", "Mualani Shark Surf Hydro Burst", "Kinich Dendro Grapple Ajaw", "Xilonen Geo Healer Resistance Shred", "Chasca Flying Anemo Multi-Element",
-        "Mavuika Pyro Archon Prediksi", "Capitano Harbingers Lore", "Khaenri'ah Sejarah Dainsleif", "Celestia Misteri Pulau Langit", "Penacony Kisah Jamur Clockie",
-        "Xianzhou Luofu Sejarah Abundance", "Belobog Sejarah Stellaron Cocytus", "Herta Space Station Curio Farm", "Divergent Universe Save Protocol", "Artifact Transmuter Custom Sub-stat",
-        "Resin Condensed Manajemen Harian", "Trailblaze Power Efisiensi", "Teapot Serenitea Mora Gratis", "Pancing Ikan Inazuma The Catch", "Genshin Grafis 60 FPS Anti Panas",
-        "HSR Grafis 60 FPS Baterai Hemat", "Co-op Etika Farming Dunia Teman", "Elemental Resonance Buff Panduan", "Toughness Break Bar Formula", "Weakness Break DoT Hitungan",
-        "Super Break Damage Formula", "Energy Recharge Threshold Hero", "Penetration vs Defense Shred", "Diminishing Returns Status Hero", "Crit Damage vs Atk% Efisiensi",
-        "Damage Bonus vs Element DMG", "Genshin & HSR Ultimate Meta 2026"
+      const genshinTopics = [
+        "Spiral Abyss Lantai 12 Komposisi Tim", "Artefak Farming Efisien Domain", "Build Hyperbloom Kuki Shinobu Alhaitham", "Build Neuvillette Solo Carry", "Build Furina Buff Fanfare",
+        "Build Arlecchino Bond of Life", "Build Raiden Shogun National Team", "Build Nahida Dendro Applicator", "Build Kazuha Swirl Double VV", "Build Zhongli Shield Kebal Bintang 5",
+        "Build Hu Tao Vaporize Yelan", "Build Navia Geo Crystallize Nuke", "Build Clorinde Electro Pistol Dash", "Build Emilie Dendro Burning", "Build Kinich Saurian Grapple",
+        "Build Mualani Shark Surf Vaporize", "Build Xilonen Geo Resonansi Shred", "Build Chasca Anemo Flying Gun", "Build Mavuika Pyro Archon Teori", "Build Capitano Fatui Harbinger",
+        "Honkai Star Rail Memory of Chaos 12", "Build Firefly Super Break Ruan Mei", "Build Acheron Nihility Nuke", "Build Feixiao Hunt Follow-Up", "Build Robin Harmony Chorus",
+        "Build Aventurine Preservation Shield", "Build Sparkle Quantum Action Advance", "Build Ruan Mei Break Speed Buffer", "Build Dan Heng IL Propagation", "Build Jingliu Destruction Transmigration",
+        "Speed Tuning 134 Breakpoint HSR", "Energy Recharge Threshold Genshin", "Elemental Gauge Theory ICD Trik", "Farm Primogem Gratis Natlan Map", "Farm Stellar Jade Penacony Chest",
+        "Simulated Universe Gold and Gears", "Divergent Universe Path Resonance", "Echo of War Boss Farming Material", "Reroll Substat Artefak Roll 4 Crit", "Crit Ratio 1:2 Golden Rule",
+        "Ascension Material Boss Route", "Local Specialty 168 Karakter Cepat", "Senjata Bintang 4 F2P Alternatif", "Light Cone Bintang 4 Herta Store", "Daily Resin Management Efisien",
+        "Trailblaze Power Cap Farm Relic", "Lore Teyvat Rahasia Khaenriah", "Lore Penacony Stellaron Hunter", "Co-op Domain Tips Mabar Cepat", "Event Limited Waktu Reward",
+        "Fishing The Catch Tombak Gratis", "Reputation Reward Glider Natlan", "Teapot Dekorasi Load Limit", "Paimon Bargain Fate Bulanan", "Starlight Exchange Senjata Blackcliff",
+        "Banner Pity 50:50 Strategi Simpan", "Weapon Banner Fate Point Trik", "Battle Pass Senjata Rekomendasi", "Suikoden Saurian Natlan Mekanik", "Phlogiston Bar Natlan Movement",
+        "Nightsoul Transmission Trik Ganti", "Pure Fiction Erudition Team", "Apocalyptic Shadow Boss Trik", "Planar Ornaments World 9 Farm", "Relic Synthesis Self-Modeling Resin",
+        "Genshin Cooking Stat Buff Boss", "Condensed Resin Crafting Hemat", "Parametric Transformer Loot", "Treasure Compass Natlan 100%", "Oculi Natlan Pyroculus Lokasi",
+        "Shrine of Depths Kunci Natlan", "Spiral Abyss Buff Lunar Phase", "Floor 11 Monolith Defense Trik", "Teyvat Fishing Weapon Polearm", "Natlan Tribe Reputation Max",
+        "HSR Fate Collaboration Update", "Genshin Anime Ufotable Update", "Mobile Graphics 60 FPS Suhu Dingin", "Controller Bluetooth Support Android", "Cross Save PC Mobile Cloud",
+        "Genshin Endgame Mode Teori 2026", "HSR Powercreep Management", "Bilingual Voice Cast Pilihan Seru"
       ];
-      const g = ghTopics[day % ghTopics.length];
-      return `Panduan Meta ${g}: Strategi, Build & Rute Efisien 2026 (Edisi #${dayNum})`;
+      const g = genshinTopics[day % genshinTopics.length];
+      return `Panduan Meta Genshin & Honkai: Trik ${g} (Edisi 2026 #${dayNum})`;
     }
     case 5: { // EA FC & eFootball
-      const fcTopics = [
-        "Formasi 4-3-3 Attack Meta H2H", "Formasi 4-2-3-1 Seimbang Bertahan", "Formasi 3-5-2 Sayap Mematikan", "Formasi 5-Back Anti Counter Attack", "Formasi 4-1-2-1-2 Sempit Tikitaka",
-        "Trik Tendangan Penalti Pojok Gawang", "Trik Freekick Melengkung Tembus Pagar", "Trik Power Shot Jarak Jauh Keras", "Trik Finesse Shot Melengkung Dingin", "Trik Chip Shot Congkel Kiper Maju",
-        "Skill Move Lane Change Lincah", "Skill Move Heel to Heel Dorong Lari", "Skill Move Roulette Putar Badan", "Skill Move Rainbow Flick Lewati Bek", "Skill Move Berba Spin Sudut Lapangan",
-        "Pasar Transfer Beli Murah Jual Mahal", "Cara Dapatkan Koin Jutaan Harian", "Investasi Kartu Pemain Event Baru", "Scouting Pemain Murah Rating Tinggi", "Kartu Icon Murah Kualitas Mewah",
-        "Kiper Refleks Tinggi Jangkauan Luas", "Bek Tengah Tinggi Menang Duel Udara", "Bek Sayap Cepat Lari Stamina Kuda", "Gelandang Bertahan Pemutus Serangan", "Gelandang Tengah Umpan Terobosan Akurat",
-        "Winger Cepat Crossing Akurat", "Striker Finisher Dingin 1v1", "Mode Manajer Susunan Taktik Juara", "Manual Jockeying Bertahan Disiplin", "Tekel Bersih Tanpa Kartu Kuning",
-        "eFootball Quick Counter Serangan Kilat", "eFootball Possession Game Penguasaan Bola", "eFootball Long Ball Counter Garis Rendah", "eFootball Out Wide Umpan Silang Sayap", "eFootball Long Ball Umpan Jauh Target",
-        "Racik Poin Statistik Pemain OVR 100", "Latih Kecepatan Lari & Akselerasi", "Latih Keseimbangan Dribble Halus", "Latih Umpan Pendek & Umpan Berbobot", "Latih Kesadaran Bertahan Bek",
-        "Kartu Epic Booster Analisis Value", "Latih Pemain XP Cepat Level Maksimal", "Antisipasi Umpan Terobosan Melambung", "Dribble Halus Joystick Tanpa Sprint", "Tendangan Plessing Melengkung Tiang Jauh",
-        "Umpan Silang Melengkung Stunning Cross", "Umpan Terobosan Tajam Stunning Through", "Tembakan Keras Stunning Shot", "Koneksi Lancar Bebas Delay H2H", "Kamera Sudut Luas Pandangan Luas",
-        "Sepak Pojok Trik Tiang Dekat Jauh", "Rotasi Stamina Pergantian Babak Kedua", "Cegah Kebobolan Kick-off Glitch", "Baca Arah Penalti Lawan Refleks", "Rute Pangkat FC Champion Disiplin",
-        "Menang Duel Adu Bodi Tombol Desak", "Penyelamatan Kiper 1 Lawan 1 Geser", "Offside Trap Jebakan Garis Pertahanan", "Pressing Tinggi Menekan Bek Lawan", "Drop Back Parkir Bus Menit Akhir",
-        "Umpan Satu Dua One-Two Pass Kilat", "Umpan Berbobot Driven Ground Pass", "Crossing Rendah Menyusur Tanah Gol", "Sundulan Menukik Bawah Tanah", "Tendangan Voli Salto Spektakuler",
-        "Gaya Main Tim Co-op 2v2 Mabar", "Atur Set-Piece Penendang Bebas Terbaik", "Kapten Tim Efek Moral Pemain", "Formasi Darurat Mengejar Ketinggalan", "Taktik Mengulur Waktu Kemenangan",
-        "Mental Tenang Menit 90+ Tambahan", "Lawan Suka Spam Crossing Counter", "Lawan Suka Dribble Melingkar Counter", "Lawan Suka Long Shot Jarak Jauh", "Kiper Sapu Sweeper Keeper Manuver",
-        "Analisis Statistik Pasca Pertandingan", "Koleksi Kartu TOTW Efektivitas", "Event Champions League Hadiah Koin", "Mabar Teman Seru Tanpa Lag Ping", "Setting Kontrol Tombol Nyaman Jempol",
-        "Sensitivitas Geser Layar Sentuh Menembak", "Trik Menang Turnamen Komunitas", "EA FC & eFootball Pro Playbook 2026"
+      const footballTopics = [
+        "Formasi 4-3-3 False Nine Juara", "Formasi 4-2-2-2 Counter Attack Cepat", "Formasi 4-1-2-1-2 Narrow Tiki-Taka", "Formasi 3-5-2 Wing Play Silang", "Formasi 4-2-3-1 Penguasaan Bola",
+        "Trik Driven Ground Pass Menembus Bek", "Finesse Shot Melengkung Luar Kotak", "Power Shot Timing Hijau Presisi", "Skill Move Heel to Heel Flick", "Skill Move Lane Change Roll",
+        "Skill Move Roulette Berputar Cepat", "Skill Move Rainbow Flick Chip", "Jockey Defense Tahan Tombol L2", "Second Man Press Jebakan Offside", "Kiper Manual Tutup Sudut Sempit",
+        "Umpan Terobosan Lambung L1 Segitiga", "Crossing Umpan Silang Tiang Jauh", "Sundulan Kepala Heading Power", "Tendangan Bebas Free Kick Curve", "Penalti Panenka Tipu Kiper",
+        "Tendangan Sudut Corner Kick Glitch", "Manajemen Stamina Babak Kedua", "Super Sub Penyerang Sayap Cepat", "Setting Kamera Tele Broadcast Lebar", "Setting Tombol Virtual Stick Halus",
+        "eFootball Formasi Quick Counter", "eFootball Trik Possession Game", "eFootball Match-up Defense Intersep", "eFootball Stunner Cross Umpan Maut", "eFootball Stunning Shot Jarum Jam",
+        "Farming Koin eFootball Gratis", "Farming FC Points & Gems Efisien", "Event Division Rivals Rank 1", "Weekend League Juara 20 Win", "Pasar Transfer Trading Pemain",
+        "Investasi Kartu Rating Tinggi", "Evolution Player Kartu Favorit", "Chemistry Squad 33 Penuh", "Kiper Terbaik Refleks Kucing", "Bek Tengah CB Cepat Anti Terobos",
+        "Gelandang Bertahan CDM Badak", "Playmaker CAM Umpan Ajaib", "Sayap Kilat Pace 95+ Lari", "Striker Monster Finishing 90+", "Atasi Delay Koneksi Ping Hijau",
+        "Main Pakai Stik Bluetooth HP", "Trik Hindari Scripting Comeback", "Mental Tenang Adu Penalti Final", "Analisis Taktik Pep vs Ancelotti", "Turnamen Esports Mobile Indo 2026",
+        "Formasi 5-2-3 Anti Kebobolan", "Formasi 4-4-2 Klasik Solid", "Trik Dribble R1 Sprint Halus", "Fake Shot Stop Hentikan Bola", "Driven Lobbed Through Ball",
+        "Trik Pagar Hidup Melompat", "Kiper Maju Keluar Kotak", "Build Squad Budget 1 Juta Koin", "Pemain Muda Wonderkid Murah", "Master League Mode Offline",
+        "Manager Mode Taktik Otomatis", "Pelatih Taktik Out Wide eFootball", "Pelatih Long Ball Counter", "Progression Points Reset Trik", "Player Skills Tambahan Konami",
+        "Skill Double Touch eFootball", "Skill Marseille Turn Cepat", "Skill One-Touch Pass Wajib", "Skill Interception Bek Terbaik", "Skill Blocker Blokir Tembakan",
+        "Server Maintenance Waktu Rutin", "Pemberian Booster eFootball 2026", "Update Transfer Musim Dingin", "Kartu Icon Legenda Sepak Bola", "Event Co-op Mabar 3v3 Teman",
+        "Koneksi LAN Kabel via Type-C", "Layar 120Hz Respons Sentuhan Stik", "Turnamen Komunitas Cafe Mabar"
       ];
-      const f = fcTopics[day % fcTopics.length];
-      return `Taktik Juara ${f}: Rahasia Menang H2H & Turnamen (Panduan #${dayNum})`;
+      const f = footballTopics[day % footballTopics.length];
+      return `Taktik Juara EA FC & eFootball: Trik ${f} (Update 2026 #${dayNum})`;
     }
     case 6: { // Battle Royale & Action
       const brTopics = [
-        "Sensitivitas Gyroscope PUBG Mobile M416", "Rute Rotasi Map Erangel Jembatan Aman", "Attachment M416 Recoil Lurus", "Close Combat Jiggle Movement Goyang", "Sniper AWM & Kar98k Bullet Drop",
-        "Push Rank Conqueror Solo Squad", "Map Sanhok Tiarap Rumput Rindang", "Granat Asap Smoke Garis Kepungan", "Layout Tombol 4 Jari PUBG Cepat", "Grafis 90 FPS Halus Anti Stutter",
-        "Sensitivitas CODM Ranked Respon Cepat", "Loadout Senjata AR Meta CODM Akurat", "Quick Scope Sniper CODM Pecahan Detik", "Mode Search & Destroy Sudut Bom", "Kombinasi Perk CODM Lari Cepat",
-        "Stumble Guys Shortcut Garis Finish", "Stumble Guys Emote Tinju Laser Tracer", "Blood Strike Slide Jump Lincah", "Farlight 84 Jetpack Mobilitas Vertikal", "Honor of Kings Clash Lane Minion",
-        "HoK Tier List Hero Push Rank", "Brawl Stars Brawler Tiap Mode Acara", "Clash of Clans TH Base Pertahanan 3 Bintang", "CoC Queen Charge Spell Kombo", "Hot Drop Mendarat Ramai Selamat",
-        "Deteksi Footstep Lantai Berapa", "Mobil Buggy Tanjakan Anti Begal", "Pembagian Skuad Rusher Scout Medis", "Peeking Miring Kiri Kanan Aman", "Duel 1v1 Lapangan Terbuka Aim Tenang",
-        "Senjata UMP45 Laser Jarak Dekat", "Senjata DMR Mini14 Spam Tembakan", "Scope 6x Adjust Jadi 3x Stabil", "Setting Pick-up Otomatis Amunisi Medkit", "Sensitivitas ADS Tembak Tanpa Gyro",
-        "Map Miramar Bukit Sniper Perlindungan", "Map Vikendi Salju Jejak Kaki Kendaraan", "Map Livik Pertempuran Kilat 15 Menit", "Flare Gun Waktu Aman Memanggil Airdrop", "Zona Merah Red Zone Hindari Ledakan",
-        "Zona Biru Blue Zone Medkit Running", "Pola Lari Ular Menghindari Tembakan", "Trik Tembak Lompat Jump Shot Pintu", "Trik Menembak Berlutut Crouch Shot", "Trik Menembak Tiarap Prone Shot Dadakan",
-        "Granat Masak Frag Grenade Detik 2", "Molotov Bakar Musuh di Balik Tembok", "Stun Grenade Butakan Musuh Ruangan", "Rompi Level 3 & Helm Spetsnaz", "Adrenaline Syringe & Minuman Energi",
-        "Perahu Boat Masuk Zona Lewat Air", "Motor Roda Dua Akrobatik Cepat", "Glider Terbang Udara Pantau Musuh", "Pistol Darurat Skor Menit Awal", "Shotgun DBS Dua Tembakan Knockout",
-        "Crossbow Panah Senyap Tanpa Suara", "Kompensator vs Flash Hider Mana Terbaik", "Extended Quickdraw Magazine Wajib", "Tactical Stock Stabilitas Ayunan Senjata", "Angled Foregrip Kecepatan Buka Scope",
-        "Vertical Foregrip Redam Recoil Atas", "Laser Sight Akurasi Hipfire Panggul", "Thumb Grip Buka Bidikan Kilat", "Half Grip Pemulihan Hentakan Tembakan", "Light Grip Tembakan Tunggal Presisi",
-        "Setting Sensitivitas Free Look Mata", "Setting Sensitivitas Bidik Kamera 1st Person", "Setting Audio Dolby Atmos Footstep", "Setting Suara Mic Tim Noise Gate", "Setting Grafis Ultra HD vs Smooth Extreme",
-        "Anti-Aliasing 2x vs 4x Baterai HP", "Kecerahan Layar 120% Deteksi Kamuflase", "Tombol Tembak Kiri Kanan Posisi Pas", "Ukuran Tombol Lompat & Jongkok Reaksi", "Trik Quick Weapon Switch Ganti Senjata",
-        "Reload Cancel Tembak Mendadak", "Pre-fire Tembak Dulu Sebelum Muncul", "Baiting Umpan Rekan Tim Pancing Musuh", "Crossfire Tembakan Silang Kepung Musuh", "High Ground Keuntungan Posisi Puncak",
-        "Low Ground Trik Berlindung Cekungan", "Third Party Datang di Akhir Pertempuran", "Battle Royale Survival Master 2026"
+        "Setting Gyroscope Full 400% PUBGM", "Sensitivitas ADS No Recoil M416", "Setting Sensitivitas CODM Battle Royale", "Sensitivitas Free Look & Red Dot", "Setting Scope 3x Semprotan Laser",
+        "Setting Scope 4x DMR Mini 14", "Setting Scope 6x Ubah ke 3x M416", "Setting AWM One Shot Satu Peluru", "Trik Close Combat Jiggle Gerak Cepat", "Trik Crouch Shoot Tembak Jongkok",
+        "Trik Prone Shoot Tiarap Dadakan", "Trik Jump Shot Lompat Tembak", "Trik Peek Kiri Kanan Cepat Semak", "Rotasi Zona Biru Pinggir Peta", "Rotasi Kendaraan Kompon Aman",
+        "Pendaratan Cepat Hot Drop Pochinki", "Looting Efisien 2 Menit Siap Tempur", "Attachment Kompensator vs Suppressor", "Attachment Vertical Grip vs Angled", "Extended Mag Quickdraw Wajib",
+        "Manajemen Granat Asap Smoke Wall", "Granat Ledak Frag Waktu 3 Detik", "Molotov Koktail Bakar Kompon", "Flashbang Butakan Musuh Ruangan", "Revive Rekan Tim di Asap Tebal",
+        "Komunikasi Suara Mikrofon Squad", "Formasi Rusher Flanker Support", "Sniper Pengintai Informasi Bukit", "Kendaraan Dacia vs UAZ Lindungi", "Buggy Bermanuver Cepat Tebing",
+        "Air Drop Kotak Merah Senjata Groza", "Senjata AWM vs AMR Anti Kendaraan", "Senjata MG3 LMG Tembak Cepat", "Senjata DBS Shotgun Raja Rumah", "Senjata UMP45 Laser Jarak Dekat",
+        "Audio Jejak Kaki Headset Presisi", "Grafis Smooth Extreme 90 FPS", "Atasi Frame Drop Pertempuran Akhir", "Posisi Duduk Ergonomis Mabar 4 Jam", "Kain Pembersih Layar Sentuh Licin",
+        "Map Erangel Rute Jembatan Militer", "Map Miramar Tebing Sniper AWM", "Map Sanhok Semak Kamuflase Rumput", "Map Vikendi Salju Jejak Kaki", "Map Livik Pertempuran Kilat 15 Menit",
+        "Event Kolaborasi Mode Khusus PUBGM", "CODM Custom Gunsmith Meta 2026", "CODM Operator Class Medic Ninja", "CODM Sniper Kar98k Quick Scope", "CODM Shotgun KRM Sliding Jump",
+        "Turnamen PMGC & PMGO Indonesia", "Mental Baja Clutch 1 Lawan 4", "Review Killcam Evaluasi Mati", "Warm Up TDM Latihan Aim 15 Menit", "Cheater Report Sistem Tencent",
+        "Keamanan Akun Verifikasi 2 Langkah", "Top Up UC Legal Promo Resmi", "Skin Senjata Upgrade Efek Kill", "Title Gelaran Keren Profil Akun", "Tier Conqueror Target Awal Musim",
+        "Point Rank Minus Pencegahan Trik", "Mabar Duo Serasi Komunikasi", "Setting Sensitivitas iPad vs HP", "Sensitivitas Layar Sentuh Lengket", "Pencegahan Panas HP Baterai Awet",
+        "Suara Peluru Silencer Jarak Jauh", "Recoil Beryl M762 Peluru 7.62", "Recoil AKM Jarak Dekat Mematikan", "DMR SLR vs SKS Pilihan Pro", "Pistol Scorpion Darurat Awal Turun",
+        "Trik Panjat Tebing Parkour Gedung", "Pintu Rumah Jebakan Ledakan", "Atap Rumah Posisi Tembak Rahasia", "Kolong Jembatan Sembunyi Zona", "Taktik Chicken Dinner Konsisten"
       ];
       const b = brTopics[day % brTopics.length];
-      return `Trik Battle Royale & Aksi ${b}: Rahasia Dominasi Laga (Edisi #${dayNum})`;
+      return `Setting Sensitivitas & Trik Juara Battle Royale: ${b} (Panduan 2026 #${dayNum})`;
     }
-    case 7: { // Gaming Gear & Hardware (Amazon Focus)
+    case 7: { // Gaming Gear & Hardware
       const gearTopics = [
-        "Sarung Jempol Silver Fiber 0.3mm", "Cooler Peltier Pendingin Semikonduktor", "Gamepad Mobile Controller Teleskopik", "TWS Gaming Sub-45ms Ultra Low Latency", "Mengatasi Layar Kesat Akibat Keringat",
-        "Mencegah Thermal Throttling Drop FPS", "Kipas Tempel Magnet vs Kipas Jepit", "Ergonomi Genggaman HP Bebas Pegal", "Touch Sampling Rate 240Hz vs 480Hz", "Perlindungan Baterai Saat Main Sambil Cas",
-        "Bahan Serat Perak vs Serat Karbon Jempol", "Apakah Cooler Semikonduktor Memicu Titik Air", "Kualitas Suara TWS Footstep Deteksi", "Controller Analog Presisi Tanpa Deadzone", "Bypass Charging Smartphone Suhu Dingin",
-        "Pemberian Thermal Pad Penghantar Panas", "Casing HP Pendingin Grafena Sarang Lebah", "Kabel Cas Siku 90 Derajat Ergonomis", "Stand Dudukan HP Meja Rotasi 360", "Power Bank Ringan Fast Charging 30W",
-        "Headphone Gaming Kabel vs TWS Nirkabel", "Mikrofon Noise Cancelling Tim Komunikasi", "Trigger Fisik R1 L1 Tambahan Layar", "Pelindung Layar Matte Anti Minyak Layar", "Anti Ghost Touch Touchscreen Bersih",
-        "Kalibrasi Gyroscope Sensor Smartphone", "Optimalisasi RAM Virtual Game Turbo", "Pembersihan Lubang Speaker Audio Jernih", "Kacamata Anti Radiasi Blue Light Gaming", "Pencahayaan Meja Gaming Lampu Monitor Bar",
-        "Sarung Tangan Gaming Penuh 5 Jari", "Cooler Tablet Pendingin Layar Besar", "Controller Bluetooth Kompatibel Android iOS", "Kabel Type-C to HDMI Layar Monitor TV", "Converter Audio Jack DAC Suara 24-bit",
-        "Penyangga Pergelangan Tangan Wrist Rest", "Kipas Angin Meja Mini Blower HP", "Pouch Tas Aksesoris Gaming Portabel", "Gel Pendingin Cooling Pad Belakang HP", "Stiker Anti Selip Grip Belakang Bodi HP",
-        "Stylus Gaming Mini Kontrol Presisi", "Thumbstick Cap Karet Tambahan Analog", "Pembersih Layar Spray Microfiber Higienis", "Baterai Eksternal Magnetik MagSafe HP", "Pengukur Suhu Inframerah Bodi Ponsel",
-        "Uji Drop Suhu Cooler Peltier 15 Derajat", "Uji Latensi Bluetooth AAC vs SBC vs aptX", "Uji Gesek Kaca Tempered vs Sarung Jari", "Uji Ketahanan Baterai 120 FPS vs 60 FPS", "Pengaruh Casing Tebal Terhadap Suhu Chipset",
-        "Trik Menjaga Suhu Ruangan Tetap Sejuk", "Posisi Duduk Ergonomis Menghindari Sakit Leher", "Durasi Istirahat Mata Aturan 20-20-20", "Peregangan Jari Tangan Senam Gamer", "Manajemen Panas Ruang Baterai Lithium",
-        "Charger GaN Ringan Watt Besar Dingin", "Adaptor Splitter Audio Sambil Ngecas", "Pelindung Kabel Anti Patah Spiral", "Docking Station HP Ubah Jadi Mini PC", "Mouse & Keyboard Bluetooth Emulator Legal",
-        "Holder HP Dada Rekam Gameplay Pov", "Kamera Selfie Tripod Ring Light Streamer", "Microphone Clip-on Wireless Live Streaming", "Headphone Open-Back Soundstage Luas", "Earphone In-Ear Monitor IEM Dual Driver",
-        "Penyimpanan Game Eksternal SSD Cepat", "MicroSD Kecepatan Tinggi Kelas A2 V30", "Sim Card E-Sim Sinyal Prioritas Game", "Penguat Sinyal WiFi Router Dual Band 5GHz", "Kabel LAN Ethernet Khusus Smartphone",
-        "Aplikasi Tes Respon Sentuhan Multitouch", "Pengecekan Dead Pixel Layar Smartphone", "Pengaturan Refresh Rate Adaptif Layar", "Fitur Refresh Rate 144Hz Apakah Terasa", "Perbandingan Layar AMOLED vs IPS Gaming",
-        "Dampak Layar Retak Terhadap Refleks", "Perawatan Oleophobic Coating Kaca Layar", "Pembersihan Debu Port USB-C Kontak Bersih", "Gear Turnamen Esports Wajib Bawa", "Checklist Lengkap Tas Gamer Kompetitif",
-        "Review Gear Juara Di Bawah 200 Ribu", "Investasi Alat Gaming Nilai Manfaat Tinggi", "Gear Mobile Gaming Supremacy 2026"
+        "Pendingin HP Peltier Magnetik vs Kipas", "Sarung Jari Serat Perak 0.3mm Licin", "Gamepad Controller Bluetooth Android", "TWS Gaming Latensi Rendah 40ms", "Kabel Charger Siku 90 Derajat L-Shape",
+        "Kabel Converter Type-C Audio Charger", "Screen Protector Tempered Glass Matte", "Pelindung Layar Anti Sidik Jari Keringat", "Power Bank Fast Charging 65W Ringan", "Dudukan HP Stand Meja Ergonomis Holder",
+        "Headset Gaming Jack 3.5mm Surround 7.1", "Stylus Pen Presisi Palm Rejection", "Cooler RGB HP Dual Fan Super Dingin", "Trigger L1 R1 Tombol Fisik Layar", "Thumb Grip Analog Karet Anti Slip",
+        "Pembersih Semprotan Layar Antibakteri", "Tas Pouch Simpan Aksesoris Gaming", "Kabel LAN RJ45 ke Type-C Internet Stabil", "Docking Hub 6 in 1 HDMI 4K Monitor", "Monitor Gaming Portabel 144Hz Type-C",
+        "Kursi Ergonomis Bantal Punggung Gaming", "Lampu LED Meja Screenbar Lindungi Mata", "Microphone Clip On Noise Cancelling", "Webcam Eksternal Streaming Game HP", "Kipas Angin Meja Mini USB Senyap",
+        "Kabel Data Braided Kuat Tahan Tarik", "Adapter Charger GaN 100W Dingin Ringkas", "Case HP Lubang Ventilasi Grafena", "Pelekat Magnetik Plat Besi Cooler", "Pelindung Kamera Belakang HP Anti Gores",
+        "Tester Sensitivitas Layar Sentuh Hz", "Aplikasi Monitoring Suhu CPU GPU", "Setting Developer Options 120 FPS", "Disable Animasi Transisi Percepat HP", "Hapus Cache Tersembunyi Ruang Lega",
+        "Optimasi RAM Virtual Swap Eksternal", "Kalibrasi Baterai HP Supaya Akurat", "Bypass Charging Main Sambil Cas Aman", "Mode Jangan Ganggu Game Turbo Aktif", "Setting DNS Cloudflare Internet Cepat",
+        "Uji Latensi Bluetooth Audio Delay Test", "Setting Equalizer Suara Langkah Kaki", "Pembersih Debu Port Speaker Type-C", "Pelindung Kabel Spiral Anti Putus", "Grip Holder Tangan Ergonomis Nyaman",
+        "Gamepad Teleskopik HP Jadi Nintendo Switch", "Mouse & Keyboard Converter HP FPS", "Kacamata Anti Radiasi Blue Light", "Matras Meja Deskmat Lebar Halus", "Kabel Aux Audio Speaker Eksternal",
+        "Power Strip Colokan Listrik Surge Protector", "Holder Mobil Vent Ac GPS Dingin", "Pembersih Gel Slime Debu Keyboard", "Lap Microfiber Kacamata Layar Bersih", "Ring Light Holder Konten Kreator HP",
+        "Green Screen Lipat Portabel Streaming", "Tripod HP Kokoh Ketinggian Fleksibel", "Pelindung Sudut Bumper HP Anti Jatuh", "Stiker Skin Belakang HP Tekstur Karbon", "Pembersih Kontak Cleaner Elektronik",
+        "Uji Benchmark AnTuTu Geekbench 2026", "Perbandingan Layar AMOLED vs IPS Game", "Pengaruh Suhu Ruangan Terhadap FPS HP", "Bahaya Bermain Game Sambil Menidih Cas", "Tips Baterai Sehat 3 Tahun Tanpa Gembung",
+        "Koneksi WiFi 6 vs Kuota Data 5G Game", "Cara Menghindari Ghost Touch Layar Basah", "Pilihan Gear Gaming Hemat Mahasiswa", "Review Aksesoris Gaming Resmi Amazon", "Investasi Gear Fisik Tingkatkan Skill"
       ];
       const gr = gearTopics[day % gearTopics.length];
-      return `Review & Analisis Gear: Rahasia ${gr} (Ulasan #${dayNum})`;
+      return `Panduan Hardware & Optimasi HP Android: ${gr} (Ulasan 2026 #${dayNum})`;
     }
-    case 8: { // Kids Tech & Learning (Amazon Kids Focus)
+    case 8: { // Kids Tech & Learning
       const kidsTopics = [
-        "Tablet Edukasi Anak Kontrol Orang Tua", "Stylus Pen Gemuk Belajar Menulis", "Casing Busa EVA Tahan Benturan Meja", "Ubah Screen Time Pasif Jadi Belajar", "Monster Math Latihan Hitung Cepat",
-        "Baby Shark ABC Belajar Huruf Ceria", "Durasi Layar Aman Menurut Dokter Anak", "Blokir Iklan Terbuka & YouTube Anak", "Stylus Silikon vs Jari Motorik Halus", "Casing Handle Jinjing Sudut Nonton Pas",
-        "Game Edukasi Offline Tanpa Kuota Aman", "Filter Cahaya Biru Blue Light Layar Anak", "Cegah Kecanduan Gadget Pendekatan Positif", "Game Cocokkan Pola Koordinasi Tangan", "Matikan Pembelian Game In-App Purchase",
-        "Profil Khusus Anak di Tablet Keluarga", "Fire HD Kids Garansi Bebas Khawatir", "Stimulasi Otak Logika Teka-teki Angka", "Tanggung Jawab Merawat Gadget Sendiri", "Privasi Anak Nol Pelacakan Data",
-        "Aktivitas Menjiplak Huruf Garis Titik", "Pilihan Belajar Berhitung Menyenangkan", "Dudukan Tablet Mobil Perjalanan Liburan", "Warna Cerah Tingkatkan Daya Ingat Visual", "Stylus Segitiga Posisi Tripod Grasp",
-        "Sterilisasi Bersihkan Layar Gadget Higienis", "Main Game Bersama Bangun Keakraban", "Alarm Otomatis Istirahat Layar Pengingat", "Musik Ceria Efek Suara Belajar Menyenangkan", "Koleksi Game Edukatif D Lucky X Unggulan",
-        "Dongeng Interaktif Cerita Sebelum Tidur", "Latihan Bahasa Inggris Kosa Kata Dasar", "Mengenal Suara Binatang Lucu Balita", "Mengenal Bentuk Geometri Segitiga Lingkaran", "Mengenal Warna Pelangi Mewarnai Virtual",
-        "Teka-teki Labirin Sederhana Spasial", "Latihan Menghubungkan Titik Angka Gambar", "Game Memori Kartu Balik Bergambar", "Menyusun Puzzle Balok Bentuk Hewan", "Menghitung Jumlah Buah Keranjang Belanja",
-        "Pengenalan Jam Waktu Jarang Menit", "Konsep Lebih Besar Lebih Kecil Angka", "Penjumlahan Gambar Visual Apel Manis", "Pengurangan Balon Udara Meletus Ceria", "Tabel Perkalian Dasar Lagu Berirama",
-        "Pembagian Permen Adil Bersama Teman", "Logika Urutan Pola Warna Bentuk", "Latihan Menggambar Garis Lurus Lengkung", "Latihan Menulis Nama Sendiri di Tablet", "Aplikasi Musik Piano Hewan Ceria",
-        "Melatih Fokus Daya Konsentrasi Balita", "Mengelola Tantrum Saat Layar Dimatikan", "Aturan Gadget Disepakati Bersama Keluarga", "Hadiah Waktu Bermain Luar Ruangan Sehat", "Keseimbangan Motorik Kasar & Motorik Halus",
-        "Pilihan Headphone Anak Volume Limiter 85dB", "Kabel Charger Magnetik Aman Tarikan Anak", "Pelindung Layar Anti Pecah Tempered Tebal", "Pembersih Layar Tanpa Alkohol Aman Kulit", "Penyangga Meja Anak Ketinggian Ergonomis",
-        "Meja Belajar Ergonomis Kursi Sandaran Pas", "Lampu Belajar Meja Cahaya Hangat Ramah Mata", "Jam Beker Pengingat Belajar Mandiri", "Papan Tulis Magnetik Bersanding Tablet", "Flashcard Kartu Pintar Pelengkap Game",
-        "Buku Mewarnai Fisik Kolaborasi Stylus", "Permainan Origami Kertas Lipat Kreatif", "Balok Kayu Bangun Rumah Spasial Nyata", "Papan Catur Sederhana Strategi Berpikir", "Permainan Monopoli Edukasi Uang Belanja",
-        "Aplikasi Kucing Atur Duit Belajar Tabungan", "Celengan Transparan Edukasi Koin Receh", "Kisah Kucing Cerdas Menabung Uang Saku", "Aktivitas Belanja Minimarket Hitung Kasir", "Menghargai Usaha Orang Tua Bekerja",
-        "Membantu Merapikan Mainan Hadiah Poin", "Tabel Bintang Kebaikan Motivasi Positif", "Komunikasi Terbuka Emosi Perasaan Anak", "Rutinitas Membaca Buku 15 Menit Malam", "Dukungan Penuh Orang Tua Potensi Emas",
-        "Generasi Cerdas Digital Sehat Seimbang", "Lingkungan Keluarga Harmonis Belajar Ceria", "Panduan Lengkap Kids EduTech 2026"
+        "Batas Waktu Layar Screen Time Sehat Anak", "Aplikasi Belajar Berhitung Menyenangkan", "Aplikasi Mengenal Huruf Alfabet Interaktif", "Game Teka Teki Asah Otak Anak Usia Dini", "Aplikasi Menggambar & Mewarnai Digital",
+        "Fitur Google Family Link Panduan Orang Tua", "Kunci Layar Sematkan Aplikasi Pin Screen", "Mematikan Pembelian Dalam Game In-App Purchases", "Memblokir Konten Dewasa & Iklan Berbahaya", "Pencarian Suara Ramah Anak YouTube Kids",
+        "Tablet Belajar Anak Casing Tahan Banting", "Stylus Pen Ujung Lembut Ramah Jari Anak", "Pelindung Layar Mata Anti Radiasi Anak", "Headphone Batas Volume Aman 85 Desibel", "Dudukan Tablet Meja Belajar Ergonomis",
+        "Metode Belajar Montessori Lewat Gadget", "Belajar Bahasa Inggris Kosakata Sehari-hari", "Belajar Mengenal Bentuk Geometri Warna", "Dongeng Interaktif Suara Sebelum Tidur", "Lagu Anak Edukatif Melatih Pendengaran",
+        "Kreativitas Membangun Balok Virtual Aman", "Eksperimen Sains Sederhana Anak di Rumah", "Menjaga Kesehatan Mata Anak Saat Pakai HP", "Aturan Gadget Bebas Saat Makan & Tidur", "Aktivitas Fisik Penyeimbang Waktu Layar",
+        "Deteksi Bakat Anak Lewat Minat Digital", "Melatih Kesabaran Anak Lewat Game Edukasi", "Mengenalkan Jam & Konsep Waktu Harian", "Belajar Menabung Celengan Digital Anak", "Etika Sopan Santun Komunikasi Digital",
+        "Aplikasi Belajar Iqro & Mengaji Online", "Aplikasi Musik Piano Drum Anak Ceria", "Belajar Anatomi Tubuh & Hidup Sehat", "Mengenal Hewan & Suara Habitat Hutan", "Mengenal Transportasi Kendaraan Kota",
+        "Melatih Motorik Halus Lewat Tarikan Garis", "Mengenalkan Emosi Perasaan Pada Anak", "Bermain Peran Dokter Koki Pemadam Kebakaran", "Permainan Memori Cocokkan Gambar Kembar", "Mengenal Planet Tata Surya Bintang Luar",
+        "Pendampingan Orang Tua Tanpa Emosi Marah", "Menghadapi Tantrum Saat Gadget Dimatikan", "Memberi Hadiah Pujian Positif Usaha Anak", "Jadwal Harian Visual Anak Tertib Mandiri", "Main Bersama Orang Tua Game Edukatif Seru",
+        "Aplikasi Offline Edukasi Tanpa Kuota Habis", "Keamanan Data Privasi Aplikasi Anak Aman", "Review Tablet Edukasi Murah Berkualitas", "Tips Baterai Tablet Anak Tahan Seharian", "Aplikasi Belajar Membaca Suku Kata Lancar"
       ];
       const k = kidsTopics[day % kidsTopics.length];
-      return `Panduan Parenting & EduTech: Rahasia ${k} (Edisi #${dayNum})`;
+      return `Panduan Belajar Anak & Gadget Edukatif: ${k} (Tips 2026 #${dayNum})`;
     }
-    case 9: { // Productivity & PDF (Amazon Productivity Focus)
-      const pdfTopics = [
-        "Editor PDF 100% Offline Lindungi Privasi", "Stylus Pen Presisi Ujung Tembaga 1.5mm", "Pelindung Layar Matte Tekstur Kertas Asli", "Tanda Tangan Digital E-Sign di HP Rapi", "Kompres PDF Besar Jadi Ringan Tajam",
-        "Gabungkan Puluhan Dokumen Jadi Satu File", "Sensor NIK Rekening Rahasia Redaksi PDF", "Kantor Modern Bebas Kertas Paperless", "Baca E-Book Modul Kuliah Tanpa Silau", "Stylus Pasif vs Stylus Kapasitif Aktif",
-        "Isi Formulir PDF Interaktif di Smartphone", "Foto Dokumen Jadi PDF Jernih Putih", "Layar Matte Hilangkan Pantulan Lampu", "Kelola Keuangan Arus Kas Kucing Atur Duit", "Pisahkan Halaman PDF Tertentu Praktis",
-        "Legalitas Tanda Tangan Digital Kontrak", "Putar Rotasi Halaman PDF Terbalik Cepat", "Kunci Password Berkas PDF Rahasia Aman", "Zero Network Access Keamanan Mutlak Data", "Hapus Lembar PDF Kosong Hitungan Detik",
-        "Catatan Rapat Rapi Stylus di Tablet", "Cegah Goresan Stylus Ujung Tip Lembut", "Atasi Tangan Gemetar Tanda Tangan Layar", "Kelola Anggaran Finansial Pribadi Mandiri", "Arsip Dokumen Rapi Memori Internal HP",
-        "Pilihan Tablet Kerja Mahasiswa Profesional", "Review Dokumen Cepat Fitur Bookmark", "Pencahayaan Layar Mode Gelap Malam Hari", "Stylus Halus & Proteksi Kertas Duo Maut", "Offline PDF Editor Fitur Unggulan Saku",
-        "Tanda Tangan Akta Notaris Perjanjian Bisnis", "Surat Perjanjian Sewa Rumah Format PDF", "Kirim Berkas Lamaran Kerja CV Rapih PDF", "Kompilasi Portofolio Desain Format PDF", "Kuitansi Bukti Pembayaran Tanda Tangan Sah",
-        "Surat Kuasa Resmi Bermaterai Elektronik", "Formulir Pendaftaran Beasiswa Kampus", "Laporan Keuangan Bulanan Format PDF Ringan", "Brosur Penawaran Produk Resolusi Tinggi", "Katalog Menu Restoran Desain PDF Rapi",
-        "Konversi Spreadsheet Tabel Jadi PDF Rapi", "Koreksi Skripsi Tesis Anotasi Tinta Merah", "Tandai Poin Penting Dokumen Stabilo Kuning", "Beri Catatan Pinggir Margin Teks PDF", "Tambahkan Prangko Cap Stempel Digital Dokumen",
-        "Ekstrak Halaman Tertentu Kirim Cepat WhatsApp", "Gabung Invoice Kuitansi Pajak Bukti Bayar", "Watermark Tanda Air Kepemilikan Dokumen", "Cegah Dokumen Diduplikasi Tanpa Izin", "Enkripsi AES 256-bit Keamanan Tertinggi",
-        "Buka PDF Terkunci Password Resmi Cepat", "Ubah Urutan Halaman Lembar Acak Mudah", "Hapus Halaman Ganda Dobel Dokumen Pindai", "Crop Potong Bagian Tepi Dokumen Lebar", "Ubah Ukuran Kertas A4 Jadi Legal Letter",
-        "Atur Orientasi Halaman Portrait Landscape", "Cetak Nirkabel Wireless Printer HP Cepat", "Backup Dokumen Offline Enkripsi Flashdisk", "Koneksi OTG Flashdisk Transfer PDF Instan", "Hemat Memori HP Kompres Dokumen 80 Persen",
-        "Teks Tajam Tulisan Vektor Tidak Pecah", "Scanning Dokumen Hasil Lurus Tegak Lurus", "Filter Warna Hitam Putih Grayscale Dokumen", "Hilangkan Bayangan Jari Hasil Foto Dokumen", "Tingkatkan Kontras Huruf Pudar Kusam Jelas",
-        "Rapikan Tanda Tangan Transparan Tempel", "Simpan Template Tanda Tangan Pakai Berkali", "Tanda Tangan Bersama Banyak Pihak Teratur", "Validasi Keaslian Waktu Tanda Tangan Log", "Integritas Dokumen Digital Anti Ubah Palsu",
-        "Kepatuhan UU ITE Tanda Tangan Elektronik", "Etika Mengirim Dokumen Bisnis Format PDF", "Penamaan File Dokumen Standar Arsip Rapih", "Folderisasi Arsip Surat Masuk Surat Keluar", "Pencarian Cepat Judul Dokumen File Manager",
-        "Tablet Pendamping Laptop Kedua Produktif", "Keyboard Bluetooth Portable Mengetik Cepat", "Mouse Ergonomis Nirkabel Klik Senyap Hening", "Tas Laptop Anti Air Lindungi Gadget Kantor", "Penyangga Tablet Fleksibel Sudut Mengetik",
-        "Workflow Bebas Kertas Selamatkan Lingkungan", "Efisiensi Kerja Cepat Tanpa Mesin Fotokopi", "Mastering Paperless Productivity 2026"
+    case 9: { // Productivity & PDF Work
+      const prodTopics = [
+        "Edit Teks Dokumen PDF Offline Tanpa Internet", "Tanda Tangan Digital Formulir PDF Cepat", "Isi Formulir PDF Lamaran Kerja Beasiswa", "Gabung Banyak File PDF Jadi Satu Dokumen", "Pisahkan Halaman PDF Tertentu Tanpa Ribet",
+        "Kompres Ukuran File PDF Tetap Terbaca Jelas", "Kunci PDF Password Lindungi Data Rahasia", "Hapus Password PDF Milik Sendiri Praktis", "Ubah Foto Kertas Scan Jadi PDF Rapi", "Konversi PDF ke Gambar JPEG Transparan",
+        "Anotasi Catatan Garis Bawah Dokumen PDF", "Sorot Teks Stabilo Warna PDF Buku Pelajaran", "Beri Stempel Lunas Sah Pada Faktur PDF", "Beri Cap Watermark Rahasia Draft Dokumen", "Ubah Urutan Halaman PDF Geser Fleksibel",
+        "Putar Rotasi Halaman PDF Terbalik 90 Derajat", "Hapus Halaman Kosong PDF Tanpa Aplikasi Berat", "Ekstrak Teks OCR Gambar Hasil Scan Buku", "Stylus Pen Presisi Tulis Tangan Catatan PDF", "Pelindung Layar Tekstur Kertas Paperlike Tulis",
+        "Simpan Dokumen KTP Ijazah Offline Bebas Sadap", "Bahaya Unggah Dokumen Rahasia ke Web Gratis", "Kelola Bukti Nota Pembayaran Pajak PDF", "Buku Catatan Rapat Digital Bebas Kertas Paperless", "Katalog Produk Portofolio PDF Bisnis Rapi",
+        "Buat Ebook Format PDF Sendiri di Android", "Baca File Buku PDF Mode Gelap Nyaman Mata", "Navigasi Cepat Daftar Isi Bookmark PDF", "Cari Kata Kunci Dokumen PDF Ratusan Halaman", "Cetak Dokumen PDF Lewat Printer WiFi HP",
+        "Kirim File PDF Lewat Email Ukuran Standar", "Backup File PDF Penting ke Flashdisk Type-C", "Organisasi Folder Dokumen Kerja HP Rapi", "Aplikasi Edit PDF Ringan Hemat Memori HP", "Tips Baterai HP Awet Saat Baca Dokumen Lama",
+        "Perjanjian Kontrak Kerjasama Digital Legal", "Review Stylus Pen Murah Alternatif Apple S Pen", "Keyboard Bluetooth Ringan Ngetik Dokumen HP", "Dudukan Tablet Baca Dokumen Tanpa Pegal", "Scan Dokumen Lurus Otomatis Potong Sudut",
+        "Bikin Lembar Soal Ujian Kuis Format PDF", "Koreksi Skripsi Tesis Guru Dosen Coretan Digital", "Bagan Alur Flowchart Sisipkan Dalam PDF", "Kop Surat Resmi Logo Lembaga Stempel PDF", "Format PDF/A Arsip Jangka Panjang Standar",
+        "Tips Produktivitas Kerja Paperless 2026", "Keamanan Dokumen Tanpa Jejak Pelacak Online", "Workflow Tanda Tangan Kontrak Cepat 2 Menit", "Aplikasi Zero Network Perlindungan Privasi Penuh", "Solusi Dokumen Mobile Profesional Tanpa Laptop"
       ];
-      const p = pdfTopics[day % pdfTopics.length];
-      return `Panduan Kerja Paperless: Rahasia ${p} (Seri #${dayNum})`;
+      const p = prodTopics[day % prodTopics.length];
+      return `Panduan Dokumen & Produktivitas Mobile: ${p} (Solusi 2026 #${dayNum})`;
     }
     default:
-      return `Panduan Lengkap Mobile 2026 (Seri #${dayNum})`;
+      return `Panduan Lengkap Update 2026 (Hari ke-${dayNum})`;
   }
 }
 
-function createSlug(text) {
-  return text
+function createSlug(str) {
+  return str
     .toLowerCase()
     .replace(/[^\w\s-]/g, "")
     .trim()
@@ -403,198 +343,313 @@ function createSlug(text) {
     .slice(0, 75);
 }
 
-// Generate category-tailored, visually stunning banner WebP
+// Generate cover WebP only if doesn't exist
 async function generateCoverImage(slug, title, categoryText, themeColor = "#10b981") {
   const filePath = path.join("public/images/blog", `${slug}.webp`);
   if (fs.existsSync(filePath)) return `/images/blog/${slug}.webp`;
 
   const safeTitle = title.length > 52 ? title.slice(0, 50) + "..." : title;
-
-  // Custom visual theme per category
-  let badgeText = "VERIFIED STRATEGY";
-  let badgeSub = "Teruji Patch 2026";
-  let bgGradient = `<stop offset="0%" stop-color="#080e1a" /><stop offset="60%" stop-color="#040710" /><stop offset="100%" stop-color="#020308" />`;
-  let decorElements = "";
-
-  if (categoryText.includes("Mobile Legends")) {
-    badgeText = "MYTHIC PRO META";
-    badgeSub = "Rotasi & Build Juara";
-    bgGradient = `<stop offset="0%" stop-color="#141107" /><stop offset="60%" stop-color="#0a0804" /><stop offset="100%" stop-color="#030201" />`;
-    decorElements = `
-      <!-- Mythic Golden Crest Glow -->
-      <circle cx="1020" cy="240" r="180" fill="none" stroke="#f59e0b" stroke-width="2" opacity="0.25" stroke-dasharray="12 8" />
-      <polygon points="1020,100 1050,180 1140,210 1060,260 1070,350 1020,300 970,350 980,260 900,210 990,180" fill="#f59e0b" opacity="0.08" />
-      <path d="M960,180 L1080,300 M1080,180 L960,300" stroke="#fbbf24" stroke-width="1.5" opacity="0.2" />
-    `;
-  } else if (categoryText.includes("Free Fire")) {
-    badgeText = "AUTO HEADSHOT";
-    badgeSub = "Sensitivitas & Recoil";
-    bgGradient = `<stop offset="0%" stop-color="#180b05" /><stop offset="60%" stop-color="#0d0502" /><stop offset="100%" stop-color="#030101" />`;
-    decorElements = `
-      <!-- Crosshair Target Optics -->
-      <circle cx="1040" cy="260" r="160" fill="none" stroke="#f97316" stroke-width="1.5" opacity="0.3" stroke-dasharray="6 6" />
-      <circle cx="1040" cy="260" r="60" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.4" />
-      <circle cx="1040" cy="260" r="8" fill="#ef4444" opacity="0.6" />
-      <line x1="1040" y1="80" x2="1040" y2="440" stroke="#f97316" stroke-width="1.5" opacity="0.25" />
-      <line x1="860" y1="260" x2="1220" y2="260" stroke="#f97316" stroke-width="1.5" opacity="0.25" />
-    `;
-  } else if (categoryText.includes("Roblox")) {
-    badgeText = "ROBLOX EXP PRO";
-    badgeSub = "Redeem & Leveling";
-    bgGradient = `<stop offset="0%" stop-color="#05140f" /><stop offset="60%" stop-color="#020a07" /><stop offset="100%" stop-color="#010403" />`;
-    decorElements = `
-      <!-- Isometric 3D Voxel Cubes -->
-      <g opacity="0.2" stroke="#10b981" stroke-width="2" fill="none">
-        <polygon points="1020,140 1100,180 1100,270 1020,230" fill="#10b981" fill-opacity="0.08" />
-        <polygon points="1020,140 940,180 940,270 1020,230" fill="#059669" fill-opacity="0.05" />
-        <polygon points="1020,140 1100,180 1020,220 940,180" fill="#34d399" fill-opacity="0.12" />
-        <polygon points="940,290 1020,330 1020,420 940,380" fill="#10b981" fill-opacity="0.05" />
-      </g>
-    `;
-  } else if (categoryText.includes("Minecraft")) {
-    badgeText = "SURVIVAL & REDSTONE";
-    badgeSub = "Seed, Farm & Shaders";
-    bgGradient = `<stop offset="0%" stop-color="#07160c" /><stop offset="60%" stop-color="#040b06" /><stop offset="100%" stop-color="#010502" />`;
-    decorElements = `
-      <!-- Pixel Block Grid Matrix -->
-      <g opacity="0.18" fill="#22c55e">
-        <rect x="940" y="140" width="50" height="50" rx="4" />
-        <rect x="1000" y="140" width="50" height="50" rx="4" />
-        <rect x="1060" y="140" width="50" height="50" rx="4" opacity="0.5" />
-        <rect x="940" y="200" width="50" height="50" rx="4" opacity="0.5" />
-        <rect x="1000" y="200" width="50" height="50" rx="4" />
-        <rect x="1060" y="200" width="50" height="50" rx="4" />
-        <rect x="1000" y="260" width="50" height="50" rx="4" opacity="0.7" />
-        <rect x="1060" y="260" width="50" height="50" rx="4" />
-      </g>
-    `;
-  } else if (categoryText.includes("Genshin")) {
-    badgeText = "SPIRAL ABYSS 36★";
-    badgeSub = "Build & Primogem F2P";
-    bgGradient = `<stop offset="0%" stop-color="#05121b" /><stop offset="60%" stop-color="#020a10" /><stop offset="100%" stop-color="#010408" />`;
-    decorElements = `
-      <!-- Celestial Astral Starlight & Orbit -->
-      <circle cx="1040" cy="250" r="170" fill="none" stroke="#06b6d4" stroke-width="1.5" opacity="0.22" />
-      <circle cx="1040" cy="250" r="100" fill="none" stroke="#8b5cf6" stroke-width="1" opacity="0.25" stroke-dasharray="4 8" />
-      <polygon points="1040,150 1055,220 1125,235 1055,250 1040,320 1025,250 955,235 1025,220" fill="#38bdf8" opacity="0.3" />
-      <circle cx="980" cy="180" r="4" fill="#ffffff" opacity="0.8" />
-      <circle cx="1100" cy="310" r="5" fill="#38bdf8" opacity="0.8" />
-      <circle cx="920" cy="290" r="3" fill="#8b5cf6" opacity="0.6" />
-    `;
-  } else if (categoryText.includes("EA FC")) {
-    badgeText = "PRO DIVISION 1";
-    badgeSub = "Taktik H2H & Penalti";
-    bgGradient = `<stop offset="0%" stop-color="#07101e" /><stop offset="60%" stop-color="#030812" /><stop offset="100%" stop-color="#010307" />`;
-    decorElements = `
-      <!-- Football Pitch Tactical Arc Lines -->
-      <path d="M880,100 L1180,100 L1180,420 L880,420" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.2" />
-      <path d="M880,180 A 100 100 0 0 1 880 340" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.25" />
-      <circle cx="960" cy="260" r="8" fill="#3b82f6" opacity="0.5" />
-      <path d="M960,260 Q 1060,180 1140,210" fill="none" stroke="#60a5fa" stroke-width="2" opacity="0.4" stroke-dasharray="6 4" />
-    `;
-  } else if (categoryText.includes("Battle Royale")) {
-    badgeText = "CONQUEROR TIER";
-    badgeSub = "Gyro Recoil & Rotasi";
-    bgGradient = `<stop offset="0%" stop-color="#160814" /><stop offset="60%" stop-color="#0c040b" /><stop offset="100%" stop-color="#040104" />`;
-    decorElements = `
-      <!-- Cyberpunk Tactical Radar Scan -->
-      <circle cx="1030" cy="260" r="170" fill="none" stroke="#ec4899" stroke-width="1.5" opacity="0.25" />
-      <path d="M1030,90 A 170 170 0 0 1 1200 260 L 1030 260 Z" fill="#ec4899" opacity="0.08" />
-      <circle cx="1090" cy="210" r="6" fill="#f43f5e" opacity="0.7" />
-      <circle cx="980" cy="300" r="5" fill="#ec4899" opacity="0.5" />
-      <line x1="860" y1="260" x2="1200" y2="260" stroke="#ec4899" stroke-width="1" opacity="0.2" />
-    `;
-  } else if (categoryText.includes("Gear")) {
-    badgeText = "AMAZON TESTED RIG";
-    badgeSub = "Cooler, Sleeves & Controller";
-    bgGradient = `<stop offset="0%" stop-color="#181305" /><stop offset="60%" stop-color="#0e0a02" /><stop offset="100%" stop-color="#040301" />`;
-    decorElements = `
-      <!-- High-Tech Hardware HUD Specs -->
-      <rect x="900" y="140" width="240" height="240" rx="20" fill="none" stroke="#eab308" stroke-width="1.5" opacity="0.25" stroke-dasharray="10 5" />
-      <circle cx="1020" cy="260" r="80" fill="none" stroke="#ca8a04" stroke-width="2" opacity="0.3" />
-      <line x1="900" y1="260" x2="1140" y2="260" stroke="#eab308" stroke-width="1" opacity="0.2" />
-      <text x="1020" y="265" fill="#fef08a" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="2">120 FPS LOCK</text>
-    `;
-  } else if (categoryText.includes("Kids")) {
-    badgeText = "PARENT APPROVED";
-    badgeSub = "Aman, Ceria & Edukatif";
-    bgGradient = `<stop offset="0%" stop-color="#12091c" /><stop offset="60%" stop-color="#0a0410" /><stop offset="100%" stop-color="#030105" />`;
-    decorElements = `
-      <!-- Whimsical Alphabet & Learning Stars -->
-      <circle cx="1040" cy="250" r="160" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.2" stroke-dasharray="8 6" />
-      <text x="960" y="210" fill="#c084fc" font-family="sans-serif" font-size="44" font-weight="bold" opacity="0.35">A</text>
-      <text x="1060" y="230" fill="#f472b6" font-family="sans-serif" font-size="52" font-weight="bold" opacity="0.4">1</text>
-      <text x="1000" y="320" fill="#38bdf8" font-family="sans-serif" font-size="46" font-weight="bold" opacity="0.35">B</text>
-      <text x="1100" y="330" fill="#34d399" font-family="sans-serif" font-size="48" font-weight="bold" opacity="0.35">2</text>
-    `;
-  } else if (categoryText.includes("Productivity")) {
-    badgeText = "PAPERLESS WORKFLOW";
-    badgeSub = "Stylus & 100% Offline PDF";
-    bgGradient = `<stop offset="0%" stop-color="#051414" /><stop offset="60%" stop-color="#020a0a" /><stop offset="100%" stop-color="#010404" />`;
-    decorElements = `
-      <!-- Paperless Document Sheet & Pen Outline -->
-      <rect x="940" y="140" width="160" height="220" rx="12" fill="none" stroke="#14b8a6" stroke-width="2" opacity="0.25" />
-      <line x1="970" y1="180" x2="1070" y2="180" stroke="#14b8a6" stroke-width="2" opacity="0.3" />
-      <line x1="970" y1="215" x2="1050" y2="215" stroke="#14b8a6" stroke-width="2" opacity="0.3" />
-      <line x1="970" y1="250" x2="1070" y2="250" stroke="#14b8a6" stroke-width="2" opacity="0.3" />
-      <path d="M1020,310 Q 1060,290 1090,320" fill="none" stroke="#2dd4bf" stroke-width="3" opacity="0.6" stroke-linecap="round" />
-    `;
-  }
-
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-    <defs>
-      <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-        ${bgGradient}
-      </linearGradient>
-      <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="${themeColor}" />
-        <stop offset="100%" stop-color="#38bdf8" />
-      </linearGradient>
-    </defs>
-    <rect width="1200" height="630" fill="url(#bg)" />
-    
-    <!-- Ambient glowing spheres -->
-    <circle cx="1060" cy="140" r="280" fill="${themeColor}" opacity="0.18" filter="blur(60px)" />
-    <circle cx="120" cy="520" r="220" fill="#38bdf8" opacity="0.14" filter="blur(55px)" />
-    
-    <!-- Thematic Category Background Artwork -->
-    ${decorElements}
-
-    <!-- Crisp outer border frame -->
+    <rect width="1200" height="630" fill="#0f172a" />
     <rect x="25" y="25" width="1150" height="580" rx="28" fill="none" stroke="#1e293b" stroke-width="2" />
-    <rect x="25" y="25" width="1150" height="8" rx="4" fill="url(#accent)" />
-
-    <!-- Top Category Pill Badge -->
-    <rect x="65" y="65" width="310" height="44" rx="22" fill="#0f172a" stroke="${themeColor}" stroke-width="1.5" />
+    <rect x="65" y="65" width="310" height="44" rx="22" fill="#1e293b" stroke="${themeColor}" stroke-width="1.5" />
     <text x="220" y="93" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="13" text-anchor="middle" letter-spacing="2">${categoryText.toUpperCase().replace(/&/g, "&amp;")}</text>
-
-    <!-- Main Title -->
-    <text x="65" y="215" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="40" letter-spacing="-0.5">${safeTitle.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</text>
-    <text x="65" y="280" fill="#94a3b8" font-family="sans-serif" font-size="23">Panduan Lengkap, Analisis Taktik, &amp; Rekomendasi Gear Resmi 2026</text>
-
-    <!-- Highlights Badges Grid -->
-    <rect x="65" y="340" width="310" height="92" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-    <text x="95" y="375" fill="${themeColor}" font-family="sans-serif" font-size="13" font-weight="bold">${badgeText}</text>
-    <text x="95" y="405" fill="#e2e8f0" font-family="sans-serif" font-size="15" font-weight="600">${badgeSub}</text>
-
-    <rect x="405" y="340" width="310" height="92" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-    <text x="435" y="375" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">TARGET AUDIENCE</text>
-    <text x="435" y="405" fill="#e2e8f0" font-family="sans-serif" font-size="15" font-weight="600">Pemain &amp; Pengguna Aktif</text>
-
-    <!-- Studio Watermark -->
-    <text x="65" y="555" fill="#64748b" font-family="sans-serif" font-size="14" font-weight="600" letter-spacing="1">D LUCKY X • PRO EDITORIAL &amp; HARDWARE LAB</text>
+    <text x="65" y="240" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="38">${safeTitle.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")}</text>
+    <text x="65" y="300" fill="#94a3b8" font-family="sans-serif" font-size="22">Panduan Lengkap, Analisis Taktik, &amp; Tips Juara 2026</text>
+    <text x="65" y="555" fill="#64748b" font-family="sans-serif" font-size="14" font-weight="600" letter-spacing="1">D LUCKY X • PRO EDITORIAL &amp; STRATEGY LAB</text>
   </svg>`;
 
   try {
     await sharp(Buffer.from(svg)).webp({ quality: 82 }).toFile(filePath);
-  } catch (err) {
-    // ignore
-  }
+  } catch (err) {}
 
   return `/images/blog/${slug}.webp`;
 }
 
-// Build Long-Form, Rich Article Item (1,200 - 1,600+ words equivalent)
+// =========================================================================
+// HIGH-VALUE, CATEGORY-TAILORED CONTENT GENERATION ENGINE
+// =========================================================================
+
+function buildHeroContent(heroName, dayNum) {
+  const heroDb = {
+    "Ling": {
+      role: "Assassin Jungler",
+      tier: "S-Tier",
+      items: ["Ice Hunter's Tough Boots", "Berserker's Fury", "Great Dragon Spear", "Endless Battle", "Malefic Roar", "Immortality"],
+      spell: "Retribution (Ice)",
+      emblem: "Custom Assassin Emblem: Rupture (+5 Adaptive Pen), Seasoned Hunter (+15% Dmg Monster/Lord), Lethal Ignition",
+      combo: "Finch Poise lompat ke dinding -> Defiant Sword tusuk target empuk -> Tempest of Blades kebal serangan -> ambil 4 pedang berputar dalam 1.5 detik",
+      tip: "Jangan pernah memulai kontes Turtle atau Lord tanpa efek Purple Buff aktif. Reduksi energi 50% adalah nyawa mobilitas vertikal Ling.",
+      counter: "Franco, Khufra, Minsitthar, Kaja"
+    },
+    "Fanny": {
+      role: "Assassin Jungler",
+      tier: "S-Tier",
+      items: ["Ice Hunter's Tough Boots", "Blade of the Heptaseas", "Hunter Strike", "Malefic Roar", "Rose Gold Meteor", "Athena's Shield"],
+      spell: "Retribution (Ice)",
+      emblem: "Custom Assassin Emblem: Rupture, Seasoned Hunter, Killing Spree (+8% HP & +15% Speed setelah eliminasi)",
+      combo: "Steel Cable 2 kabel lintasi dinding -> Steel Cable lurus koridor sempit -> Cut Throat finisher instan",
+      tip: "Kuasai teknik kabel lurus di celah dinding sempit jungle untuk menghasilkan putaran damage berulang dengan efisiensi energi maksimal.",
+      counter: "Khufra, Saber, Chou, Franco"
+    },
+    "Hayabusa": {
+      role: "Assassin Jungler",
+      tier: "S-Tier",
+      items: ["Swift Boots", "Hunter Strike", "Blade of Despair", "Malefic Roar", "Endless Battle", "Immortality"],
+      spell: "Retribution (Ice)",
+      emblem: "Custom Assassin Emblem: Rupture, Seasoned Hunter, Lethal Ignition",
+      combo: "Ninjutsu: Quad Shadow pasang 4 bayangan -> Phantom Shuriken cicil stack pasif -> Shadow Kill saat musuh terisolasi",
+      tip: "Pastikan minion atau monster hutan sudah bersih sebelum mengaktifkan Shadow Kill agar tebasan fokus 100% pada hero musuh.",
+      counter: "Saber, Kaja, Khufra"
+    },
+    "Lancelot": {
+      role: "Assassin Jungler",
+      tier: "S-Tier",
+      items: ["Ice Hunter's Tough Boots", "War Axe", "Endless Battle", "Blade of Despair", "Malefic Roar", "Queen's Wings"],
+      spell: "Retribution",
+      emblem: "Custom Assassin Emblem: Swift, Seasoned Hunter, Killing Spree",
+      combo: "Puncture tembus minion tanpa batas reset -> Thorned Rose saat musuh di titik tengah segitiga -> Phantom Execution",
+      tip: "Gunakan iframe Thorned Rose untuk menghindari stun atau proyektil mematikan dari mage lawan.",
+      counter: "Phoveus, Khufra, Franco"
+    },
+    "Gusion": {
+      role: "Assassin / Mage Mid & Jungler",
+      tier: "A-Tier",
+      items: ["Arcane Boots", "Genius Wand", "Holy Crystal", "Glowing Wand", "Divine Glaive", "Blood Wings"],
+      spell: "Flicker / Retribution",
+      emblem: "Custom Mage Emblem: Rupture, Bargain Hunter, Lethal Ignition",
+      combo: "Sword Spike tandai target -> Shadowblade Slaughter 5 belati -> Incandescence reset -> ulangi belati -> recall konvergensi",
+      tip: "Tarik kembali belati tepat saat meluncur ke badan musuh agar seluruh 10 belati mengenai satu titik untuk burst instan.",
+      counter: "Radiant Armor, Athena's Shield, Lolita"
+    },
+    "Nolan": {
+      role: "Assassin Jungler",
+      tier: "S-Tier",
+      items: ["Ice Hunter's Tough Boots", "Hunter Strike", "Blade of the Heptaseas", "Malefic Roar", "Blade of Despair", "Immortality"],
+      spell: "Retribution",
+      emblem: "Custom Assassin Emblem: Rupture, Seasoned Hunter, Killing Spree",
+      combo: "Expansion silang dengan Gauge untuk tarik musuh -> Cosmic Leap menusuk -> The Dimension Charge bersihkan debuff",
+      tip: "Posisikan dua retakan dimensional saling bersinggungan di bawah kaki musuh untuk memicu ledakan kosmik yang menarik lawan.",
+      counter: "Minsitthar, Phoveus, Khufra"
+    },
+    "Beatrix": {
+      role: "Marksman Goldlane",
+      tier: "S-Tier",
+      items: ["Swift Boots", "Blade of Despair", "Demon Hunter Sword", "Malefic Roar", "Rose Gold Meteor", "Wind of Nature"],
+      spell: "Flicker",
+      emblem: "Custom Marksman Emblem: Swift, Weapon Master, Quantum Charge",
+      combo: "Renner (Sniper) poke jarak jauh -> ganti Wesker (Shotgun) di semak -> Wesker's Elation tembakan burst 5 peluru",
+      tip: "Kuasai timing ganti senjata saat rotasi di semak-semak. Wesker adalah senjata paling mematikan saat menghadapi assassin lawan.",
+      counter: "Claude, Lolita, Natalia"
+    },
+    "Wanwan": {
+      role: "Marksman Goldlane",
+      tier: "A-Tier",
+      items: ["Swift Boots", "Corrosion Scythe", "Demon Hunter Sword", "Golden Staff", "Wind of Nature", "Malefic Roar"],
+      spell: "Aegis / Inspire",
+      emblem: "Custom Marksman Emblem: Swift, Bargain Hunter, Weakness Finder",
+      combo: "Swallow's Path lempar ke belakang musuh -> lompat memutar pecahkan 4 weakness -> Crossbow of Tang terbang kebal serangan",
+      tip: "Simpan skill 2 murni sebagai Purify darurat untuk melepaskan diri dari stun saat membuka titik kelemahan musuh.",
+      counter: "Phoveus, Khufra, Natalia"
+    },
+    "Claude": {
+      role: "Marksman Goldlane",
+      tier: "S-Tier",
+      items: ["Swift Boots", "Demon Hunter Sword", "Golden Staff", "Corrosion Scythe", "Wind of Nature", "Immortality"],
+      spell: "Vengeance / Flicker",
+      emblem: "Custom Marksman Emblem: Agility, Bargain Hunter, Quantum Charge",
+      combo: "Art of Thievery jaga 10 stack -> Battle Mirror Image taruh hologram di semak -> Blazing Duet serbu pertempuran",
+      tip: "Jangan pernah meluncur dengan Ultimate sebelum stack Art of Thievery penuh di angka 10, karena jumlah peluru bergantung pada attack speed.",
+      counter: "Belerick, Franco, Kaja"
+    },
+    "Tigreal": {
+      role: "Tank Roamer",
+      tier: "S-Tier",
+      items: ["Tough Boots (Conceal)", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Blade Armor", "Immortality"],
+      spell: "Flicker",
+      emblem: "Custom Tank Emblem: Firmness, Tenacity, Brave Smite",
+      combo: "Conceal dekati formasi lawan -> Flicker + Implosion tarik 5 musuh -> Sacred Hammer dorong ke arah rekan tim",
+      tip: "Tunggu hero lawan menghabiskan skill dash atau Purify sebelum melancarkan wombo combo Flicker Implosion.",
+      counter: "Diggie, Valir, Karrie"
+    },
+    "Chou": {
+      role: "Fighter Explane & Roamer",
+      tier: "S-Tier",
+      items: ["Warrior Boots", "Blade of the Heptaseas", "Hunter Strike", "Blade of Despair", "Thunder Belt", "Immortality"],
+      spell: "Flicker",
+      emblem: "Custom Assassin / Fighter Emblem: Rupture, Weapon Master, Killing Spree",
+      combo: "Jeet Kune Do pukulan 1-2 -> Shunpo kebal crowd control -> Jeet Kune Do 3 knockup -> The Way of Dragon tendang ke turret",
+      tip: "Gunakan Shunpo tepat saat proyektil stun musuh meluncur untuk menyerap efek crowd control dan memperoleh bonus penetrasi.",
+      counter: "Minsitthar, Phoveus, Diggie"
+    },
+    "Franco": {
+      role: "Tank Roamer",
+      tier: "A-Tier",
+      items: ["Rapid Boots (Conceal)", "Dominance Ice", "Athena's Shield", "Antique Cuirass", "Thunder Belt", "Immortality"],
+      spell: "Flicker",
+      emblem: "Custom Tank Emblem: Swift, Tenacity, Concussive Blast",
+      combo: "Iron Hook dari semak tanpa tanda -> Bloody Hunt kuncian suppression mutlak -> Fury Shock slow area",
+      tip: "Arahkan Iron Hook 0.5 meter di depan arah lari musuh untuk membaca pergerakan refleks lawan.",
+      counter: "Tigreal, Atlas, Grock"
+    }
+  };
+
+  const defaultHero = {
+    role: "Fighter / Flexible Meta",
+    tier: "A-Tier",
+    items: ["Warrior Boots", "War Axe", "Hunter Strike", "Dominance Ice", "Malefic Roar", "Immortality"],
+    spell: "Flicker / Vengeance",
+    emblem: "Custom Fighter / Assassin Emblem: Rupture, Festival of Blood (+8% Spell Vamp), Brave Smite",
+    combo: "Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif",
+    tip: "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+    counter: "Hero poke jarak jauh, hero anti-dash, hero suppression"
+  };
+
+  const data = heroDb[heroName] || defaultHero;
+
+  return {
+    id: [
+      {
+        id: "analisis-meta-karakter",
+        title: `1. Analisis Meta ${heroName} 2026: Mengapa Hero Ini Mendominasi Solo Rank?`,
+        content: [
+          `Dalam meta kompetitif Mobile Legends: Bang Bang tahun 2026, ${heroName} menduduki posisi sentral sebagai ${data.role} bertaraf ${data.tier}. Efektivitasnya bertumpu pada perpaduan output damage yang tajam dan fleksibilitas rotasi yang mampu membalikkan tempo pertandingan.`,
+          `Di tangan pemain yang disiplin membaca pergerakan map, ${heroName} mampu memberikan tekanan psikologis besar sejak early game. Penguasaan jalur rotasi dan kalkulasi cooldown skill menjadi pembeda mendasar antara pemain rata-rata dengan Mythical Glory sejati.`
+        ],
+        tipBox: {
+          title: "Kunci Kemenangan Utama",
+          text: data.tip,
+          type: "tip"
+        }
+      },
+      {
+        id: "susunan-item-build-terkuat",
+        title: `2. Susunan Item Build ${heroName} Tersakit 2026 (Full Sinergi)`,
+        content: [
+          `Untuk memaksimalkan potensi pasif dan scaling damage ${heroName}, susunan 6 item inti berikut dirancang untuk menyeimbangkan penetrasi, damage ledakan, dan daya tahan hidup di pertarungan intens:`,
+          `Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (power spike) Anda selalu unggul di setiap fase pertandingan:`
+        ],
+        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: Memberikan sinergi stat esensial yang memperkuat kapabilitas bertarung hero di Land of Dawn.`)
+      },
+      {
+        id: "setting-emblem-dan-spell",
+        title: `3. Konfigurasi Emblem, Talent & Battle Spell Rekomendasi Pro`,
+        content: [
+          `Konfigurasi emblem memainkan peran krusial dalam 5 menit pertama pertandingan:`,
+          `Gunakan ${data.emblem}. Susunan talent ini memberikan kestabilan stat sejak menit pertama dan mempercepat eliminasi objektif Turtle maupun Lord.`,
+          `Untuk Battle Spell, gunakan ${data.spell} sesuai peran Anda di dalam tim.`
+        ],
+        tipBox: {
+          title: "Peringatan Counter Pick",
+          text: `Waspadai hero counter alami seperti: ${data.counter}. Pastikan hero-hero tersebut sudah terpancing mengeluarkan skill kunci sebelum Anda masuk ke pertempuran.`,
+          type: "warning"
+        }
+      },
+      {
+        id: "mekanika-kombo-dan-rotasi",
+        title: `4. Rute Rotasi Map & Mekanika Kombo Skill Paling Mematikan`,
+        content: [
+          `Urutan eksekusi kombo paling konsisten: ${data.combo}.`,
+          `Rute Rotasi: Mulai dari pengamanan objektif terdekat pada detik 0:35, lakukan kontes Lithowanderer di sungai, lalu potong jalur rotasi goldlane lawan pada menit 1:30 sebelum Turtle pertama muncul pada menit ke-2.`,
+          `Saat memasuki fase late game, hindari memperlihatkan posisi Anda di minimap sebelum pertempuran besar dimulai. Gunakan semak-semak tanpa visi musuh untuk melancarkan serangan kejutan.`
+        ]
+      },
+      {
+        id: "tips-konsistensi-dan-kesalahan",
+        title: `5. Kesalahan Umum Pemula & Cara Menjaga Win Rate Tinggi`,
+        content: [
+          `Kesalahan paling sering terjadi adalah terlalu bernafsu mengejar kill individual (tunnel vision) hingga mengabaikan pertahanan turret atau objektif Lord. Ingatlah bahwa Mobile Legends adalah game penghancuran base, bukan kontes jumlah eliminasi.`,
+          `Selalu perhatikan posisi Roamer dan Midlaner lawan di radar mini sebelum memutuskan untuk melakukan diving ke dalam formasi pertahanan musuh.`
+        ]
+      }
+    ],
+    en: [
+      {
+        id: "meta-analysis-character",
+        title: `1. 2026 Meta Breakdown: Why ${heroName} Dominates Ranked Lobbies`,
+        content: [
+          `In the 2026 competitive landscape of Mobile Legends: Bang Bang, ${heroName} stands firmly as an elite ${data.role} rated at ${data.tier}. Its dominance is rooted in exceptional burst potential and versatile rotation tempo that dictates match outcomes.`,
+          `In the hands of disciplined macro-oriented players, ${heroName} exerts relentless pressure across lanes. Mastering rotation timing and ability cooldowns represents the true dividing line between casual rankers and elite Mythical Glory champions.`
+        ],
+        tipBox: {
+          title: "Core Tactical Secret",
+          text: data.tip,
+          type: "tip"
+        }
+      },
+      {
+        id: "optimal-equipment-build",
+        title: `2. Definitive 2026 Equipment Build for ${heroName}`,
+        content: [
+          `To unlock the full damage scaling and survivability of ${heroName}, this 6-item core arsenal harmonizes penetration, sustained burst, and defensive safety:`,
+          `Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:`
+        ],
+        bulletPoints: data.items.map((item, i) => `${i + 1}. ${item}: Delivers essential offensive and defensive stats required to control high-intensity clashes.`)
+      },
+      {
+        id: "emblem-and-spell-configuration",
+        title: `3. Pro-Grade Emblem, Talent & Battle Spell Configuration`,
+        content: [
+          `Emblem tuning dictates early-game lane dominance during the first five minutes:`,
+          `Equip ${data.emblem}. This configuration anchors your early baseline stats and expedites Turtle and Lord objective clear speeds.`,
+          `For Battle Spell, lock in ${data.spell} to match your squad's draft tempo.`
+        ],
+        tipBox: {
+          title: "Counter Pick Warning",
+          text: `Be vigilant against natural counters: ${data.counter}. Wait for these threats to expend key control skills before committing your dive.`,
+          type: "warning"
+        }
+      },
+      {
+        id: "combo-mechanics-and-rotation",
+        title: `4. Decisive Skill Combo Execution & Objective Rotation Blueprint`,
+        content: [
+          `Primary execution combo: ${data.combo}.`,
+          `Rotation Path: Clear primary jungle/lane camps by second 0:35, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at 1:30 ahead of the 2:00 Turtle pit emergence.`,
+          `During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes.`
+        ]
+      },
+      {
+        id: "common-pitfalls-and-winrate-discipline",
+        title: `5. Frequent Beginner Mistakes & Consistency Habits`,
+        content: [
+          `The most prevalent blunder is chasing isolated kills (tunnel vision) while neglecting turret pressure or Lord vision control. Mobile Legends is ultimately a base-siege strategy game, not a kill-count race.`,
+          `Always cross-reference enemy Roamer and Midlaner positions on the mini-radar before committing to aggressive tower dives.`
+        ]
+      }
+    ],
+    faq: [
+      {
+        q: `Kapan waktu terbaik memilih ${heroName} saat fase draft pick?`,
+        a: `Pilih ${heroName} saat musuh kekurangan hero crowd-control bertipe suppression dan tim Anda membutuhkan carry yang mampu mengamankan objektif secara mandiri.`
+      },
+      {
+        q: `Bagaimana cara membalikkan keadaan jika tim tertinggal gold di early game?`,
+        a: `Hindari pertarungan 5v5 terbuka. Fokus melakukan split push di lane samping untuk memecah konsentrasi musuh, sambil menunggu momentum mencuri Lord.`
+      },
+      {
+        q: `Apakah build item di atas fleksibel di setiap pertandingan?`,
+        a: `Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor.`
+      }
+    ],
+    faqEn: [
+      {
+        q: `When is the optimal draft moment to lock in ${heroName}?`,
+        a: `Draft ${heroName} when enemy compositions lack heavy suppression crowd-controls and your squad requires an independent objective carry.`
+      },
+      {
+        q: `How do you orchestrate a comeback when trailing in gold early?`,
+        a: `Avoid head-on 5v5 clashes. Focus on side-lane split pushing to disrupt enemy formations while seeking clutch Lord steal windows.`
+      },
+      {
+        q: `Is this equipment build adaptable against diverse team compositions?`,
+        a: `Yes. Swap your final defensive slot for Athena's Shield or Radiant Armor if confronting heavy magic burst compositions.`
+      }
+    ]
+  };
+}
+
+// Build Deep, Unique Content for All 10 Slots
 function buildDeepArticleItem(title, slotInfo, dayIndex) {
   const baseDate = new Date(START_DATE_STR);
   baseDate.setDate(baseDate.getDate() + dayIndex);
@@ -606,12 +661,23 @@ function buildDeepArticleItem(title, slotInfo, dayIndex) {
 
   const slug = createSlug(`${slotInfo.shortTag}-${title}`);
   const metaTitle = `${title.slice(0, 50)} | Panduan Lengkap D Lucky X`;
-  const metaDescription = `Ulasan mendalam ${title}. Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi gear fisik resmi, dan tips menang konsisten 2026.`;
+  const metaDescription = `Ulasan mendalam ${title}. Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.`;
 
   const enTitle = `Complete Guide: ${title}`;
   const slugEn = createSlug(`${slotInfo.shortTag}-${enTitle}`);
-  const enMetaTitle = `${title.slice(0, 48)} | Pro Hardware & Tactics`;
-  const enMetaDesc = `Comprehensive pro guide on ${title}. Master essential strategies, hardware optimizations, and verified setups for peak daily performance.`;
+  const enMetaTitle = `${title.slice(0, 48)} | Pro Tactics Guide`;
+  const enMetaDesc = `Comprehensive pro guide on ${title}. Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.`;
+
+  let generatedSections;
+  if (slotInfo.slotIndex === 0) {
+    // Extract hero name
+    const match = title.match(/Build\s+([\w\s&]+?)\s+Tersakit/i);
+    const heroName = match ? match[1].trim() : "Hero";
+    generatedSections = buildHeroContent(heroName, dayIndex + 1);
+  } else {
+    // Build slot-specific high-value guide for slots 1-9
+    generatedSections = buildGeneralSlotContent(slotInfo.slotIndex, title, enTitle, slotInfo.label, dayIndex + 1);
+  }
 
   return {
     slug,
@@ -622,7 +688,7 @@ function buildDeepArticleItem(title, slotInfo, dayIndex) {
     affiliateProductIds: slotInfo.affIds,
     publishedDate,
     coverImage: `/images/blog/${slug}.webp`,
-    author: "D Lucky X Hardware & Strategy Lab",
+    author: "D Lucky X Pro Gaming Editorial",
 
     // Indonesian
     title,
@@ -632,92 +698,12 @@ function buildDeepArticleItem(title, slotInfo, dayIndex) {
       slotInfo.label.toLowerCase(),
       "panduan gameplay 2026",
       "tips pro player",
-      "rekomendasi gear amazon",
       "setting sensivitas",
       "strategi menang"
     ],
     readTime: "9 menit baca",
-    sections: [
-      {
-        id: "analisis-mendalam-dan-urgensi-meta",
-        title: `1. Analisis Teknis & Mengapa ${slotInfo.label} Menentukan Hasil di Update 2026`,
-        content: [
-          `Dalam dinamika ekosistem digital dan gaming kompetitif modern, setiap pembaruan sistem membawa perubahan fundamental terhadap kalkulasi matematis di balik layar: mulai dari penyesuaian hitbox karakter, kurva akselerasi sentuhan pada layar sentuh ponsel, hingga batas ambang batas suhu prosesor (thermal throttle limits). Menguasai detail dari "${title}" bukan sekadar menghafal trik instan, melainkan memahami bagaimana sistem bereaksi terhadap setiap input yang Anda berikan.`,
-          `Banyak pengguna dan pemain sering mengalami kebuntuan performa (plateau) tanpa menyadari bahwa kendala utama sering kali bermuara pada inkonsistensi mikro. Ketika tangan mulai berkeringat atau suhu baterai smartphone merangkak naik melampaui 40°C, respon digitizer layar akan mengalami micro-drop yang membuat sapuan jari meleset beberapa milimeter dari target ideal.`,
-          `Oleh karena itu, pendekatan holistik yang memadukan kedisiplinan teknik bermain dengan kondisi fisik perangkat keras yang prima adalah satu-satunya metode terukur untuk mempertahankan rasio kemenangan tinggi secara konsisten dari hari ke hari.`
-        ],
-        tipBox: {
-          title: "Catatan Analisis Laboratorium",
-          text: "Jangan pernah mengabaikan kestabilan frame time! Satu detik drop FPS saat momen genting setara dengan kehilangan kendali total selama 60 frame grafis berharga.",
-          type: "tip"
-        }
-      },
-      {
-        id: "langkah-sistematis-eksekusi-dan-formula",
-        title: "2. Langkah Demi Langkah Eksekusi Sistematis yang Terbukti Efektif",
-        content: [
-          `Untuk menerapkan strategi ini secara mulus di lapangan, ikuti tahapan bertahap berikut yang telah divalidasi melalui uji coba berulang:`,
-          `Pertama, lakukan standardisasi lingkungan bermain Anda. Pastikan permukaan layar smartphone bersih dari residu minyak, atur pencahayaan ruangan agar kontras layar tidak menyilaukan mata, dan atur tata letak tombol antarmuka (HUD) agar sesuai dengan rentang gerak alami ibu jari dan telunjuk Anda.`,
-          `Kedua, terapkan disiplin rotasi dan manajemen sumber daya. Jangan menghabiskan seluruh kemampuan utilitas penting (seperti skill melarikan diri atau granat perlindungan) sebelum objektif utama benar-benar diperebutkan di arena pertarungan.`
-        ],
-        bulletPoints: [
-          "Kalibrasi kepekaan respon layar sentuh di menu pengaturan saat kondisi ponsel dalam suhu normal ruangan.",
-          "Prioritaskan penguasaan ruang pandang (vision control) dan pemantauan radar mini sebelum melakukan inisiasi agresif.",
-          "Jaga ritme napas dan posisi duduk tegak untuk menjaga pasokan oksigen otak tetap optimal sepanjang sesi bertarung.",
-          "Evaluasi rekaman pertandingan untuk mengenali pola kesalahan berulang yang sering tidak disadari saat bermain."
-        ]
-      },
-      {
-        id: "dukungan-hardware-dan-gear-fisik-teruji",
-        title: "3. Solusi Keterbatasan Fisik: Mengapa Gear Tambahan Mengubah Segalanya",
-        content: [
-          `Banyak pengguna menyalahkan diri sendiri ketika gagal mengeksekusi gerakan cepat di atas layar sentuh. Kenyataannya, kaca ponsel polos memang tidak dirancang secara ergonomis untuk gesekan ekstrem selama berjam-jam: keringat mikro jari menciptakan friksi tak terduga, sementara panas dari chipset Snapdragon atau MediaTek memicu rasa tidak nyaman di telapak tangan.`,
-          `Inilah mengapa para atlet esports dan pekerja digital berpengalaman selalu melengkapi setup mereka dengan aksesoris fisik esensial. Peralatan seperti sarung jari berbahan serat perak konduktif mampu menghilangkan gesekan keringat 100%, pendingin peltier aktif menjaga prosesor tetap dingin tanpa drop FPS, dan stylus presisi memberikan akurasi sentuhan setara ujung pulpen asli.`,
-          `Investasi pada perlengkapan fisik berkualitas tinggi adalah jalan pintas paling rasional untuk mendongkrak kenyamanan dan akurasi mekanik tanpa harus membeli smartphone baru yang mahal.`
-        ],
-        tipBox: {
-          title: "Fakta Hardware",
-          text: "Material serat perak konduktif 0.3mm mempertahankan hambatan listrik mendekati nol ohm, memastikan respon sentuhan ditransfer seketika ke sensor digitizer layar ponsel Anda.",
-          type: "highlight"
-        }
-      },
-      {
-        id: "kesalahan-fatal-dan-taktik-pencegahan",
-        title: "4. Kesalahan Umum yang Sering Dilakukan & Taktik Menghindarinya",
-        content: [
-          `Data analisis menunjukkan bahwa lebih dari 80% kekalahan atau hasil kerja yang berantakan disebabkan oleh kesalahan psikologis dan kelelahan fisik, bukan karena lawan yang terlalu kuat:`,
-          `Pemain sering kali memaksakan diri untuk terus bermain saat kondisi emosi sedang panas (tilt) setelah kekalahan beruntun. Dalam kondisi ini, koordinasi motorik mata dan tangan melambat drastis, membuat keputusan tergesa-gesa yang fatal.`,
-          `Terapkan aturan istirahat wajib: ambil jeda 5 hingga 10 menit setelah setiap sesi intensif. Minum air putih, rilekskan otot pergelangan tangan, dan biarkan suhu smartphone Anda kembali ke level normal sebelum memulai tantangan berikutnya.`
-        ],
-        tipBox: {
-          title: "Peringatan Disiplin",
-          text: "Memaksakan bermain saat ponsel sedang panas di atas 43°C tidak hanya merusak performa game, tetapi juga mempercepat degradasi kapasitas baterai lithium hingga dua kali lipat lebih cepat.",
-          type: "warning"
-        }
-      },
-      {
-        id: "rekomendasi-aplikasi-studio-d-lucky-x",
-        title: `5. ${slotInfo.gameRecTitleId}`,
-        content: [
-          slotInfo.gameRecDescId,
-          `Studio D Lucky X berkomitmen menghadirkan hiburan digital yang ringan, mengedepankan privasi pengguna, dan dapat dimainkan kapan saja tanpa ketergantungan kuota internet. Temukan koleksi aplikasi dan game kasual kami langsung di Google Play Store untuk menyempurnakan hari Anda.`
-        ]
-      }
-    ],
-    faq: [
-      {
-        q: `Apakah trik dalam panduan ${title.slice(0, 45)} ini aman dari risiko penalti akun?`,
-        a: "Sangat aman 100%. Semua panduan, pengaturan antarmuka, dan optimasi hardware yang dibahas di sini memanfaatkan fitur resmi bawaan perangkat serta aksesoris fisik eksternal legal yang sepenuhnya mematuhi ketentuan pengembang."
-      },
-      {
-        q: "Berapa lama waktu yang dibutuhkan untuk merasakan peningkatan hasil nyata?",
-        a: "Dengan menerapkan langkah sistematis dan menjaga kestabilan perangkat, sebagian besar pemain merasakan peningkatan kenyamanan dan konsistensi dalam 3 hingga 5 hari pertama latihan terarah."
-      },
-      {
-        q: "Mengapa gear fisik seperti cooler atau sarung jempol sangat direkomendasikan?",
-        a: "Karena perangkat keras smartphone memiliki batasan fisik alamiah. Aksesoris khusus membantu mengatasi panas berlebih (thermal throttling) dan friksi keringat yang tidak bisa diselesaikan hanya dengan setelan software saja."
-      }
-    ],
+    sections: generatedSections.id,
+    faq: generatedSections.faq,
 
     // English
     titleEn: enTitle,
@@ -726,104 +712,274 @@ function buildDeepArticleItem(title, slotInfo, dayIndex) {
     keywordsEn: [
       slotInfo.label.toLowerCase(),
       "pro gameplay guide 2026",
-      "mobile hardware optimization",
       "competitive tips",
-      "gear recommendations",
+      "optimal setup",
       "rank progression"
     ],
     readTimeEn: "9 min read",
-    englishSummary: `An exhaustive, technical, and practical guide breaking down ${enTitle}. Master core mechanical dynamics, systematic execution steps, tested hardware setups, and essential pitfalls to achieve consistent peak performance.`,
-    sectionsEn: [
+    englishSummary: `A comprehensive tactical masterclass detailing ${enTitle}. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.`,
+    sectionsEn: generatedSections.en,
+    faqEn: generatedSections.faqEn
+  };
+}
+
+function buildGeneralSlotContent(slotIndex, title, enTitle, categoryLabel, dayNum) {
+  const configs = {
+    1: { // Free Fire
+      s1: "Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
+      s1Desc: `Dalam update kompetitif Free Fire tahun 2026, algoritma pendaftaran tembakan kepala (headshot registration) menuntut sinkronisasi antara DPI layar dan kecepatan tarikan tombol tembak. Memahami "${title}" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.`,
+      s2: "Tabel Rekomendasi Angka Sensitivitas Presisi",
+      points: [
+        "Lihat Sekeliling: 95 - 100 (Optimal untuk rotasi pandangan instan)",
+        "Red Dot Sight: 88 - 92 (Akurasi tarikan drag shot jarak dekat)",
+        "2x Scope: 82 - 86 (Keseimbangan tembakan senapan SMG & AR)",
+        "4x Scope: 76 - 80 (Stabilitas tembakan jarak jauh tanpa goyang)",
+        "Sniper Scope: 50 - 55 (Akurasi bidikan presisi AWM & M82B)",
+        "Lihat Sekitar / Free Look: 65 - 70 (Pemantauan radar fleksibel)"
+      ],
+      s3: "Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
+      s3Desc: "Atur ukuran tombol tembak kanan pada kisaran 45% hingga 52%. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas.",
+      s4: "Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
+      s4Desc: "Untuk senjata shotgun (M1887) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai huruf 'J'. Untuk senjata SMG (MP40, UMP) jarak menengah, gunakan tarikan vertikal lurus yang konsisten tepat saat bidikan berubah warna menjadi merah.",
+      s5: "Sinergi Karakter Meta & Disiplin Rotasi Booyah",
+      s5Desc: "Kombinasikan karakter aktif berkecepatan tinggi seperti Tatsuya atau Alok dengan karakter pasif penambah penetrasi seperti Hayato dan Kelly untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+    },
+    2: { // Roblox
+      s1: "Pemahaman Mekanik Inti & Update Terkini 2026",
+      s1Desc: `Dunia Roblox terus menghadirkan tantangan kompleks di update 2026. Melalui panduan "${title}", Anda akan mempelajari rute tercepat dan rahasia mekanik yang sering dilewatkan pemain biasa.`,
+      s2: "Langkah Demi Langkah Menyelesaikan Objektif Utama",
+      points: [
+        "Fase 1: Persiapan resource dan pengaturan antarmuka grafis ke level optimal.",
+        "Fase 2: Eksekusi rute tercepat dengan memprioritaskan quest bertingkat reward tertinggi.",
+        "Fase 3: Mengoptimalkan penggunaan item utilitas untuk memangkas waktu penyelesaian hingga 50%.",
+        "Fase 4: Evaluasi hasil dan penyimpanan progress akun secara aman dari bug server."
+      ],
+      s3: "Tier List Kemampuan & Rekomendasi Pilihan Terkuat",
+      s3Desc: "Prioritaskan unit atau kemampuan yang memiliki sinergi area (AoE) dan mobilitas tinggi. Di update terbaru, kemampuan dengan efek crowd control memberikan keuntungan mutlak di server kompetitif.",
+      s4: "Trik Rahasia & Mekanisme Efisiensi Grinding Cepat",
+      s4Desc: "Manfaatkan siklus spawn server dan waktu reset harian. Bermain di private server atau bersama rekan guild terbukti melipatgandakan kecepatan perolehan item langka secara terukur.",
+      s5: "Kesalahan Fatal Pemula & Cara Menghindarinya",
+      s5Desc: "Jangan membuang koin atau mata uang game pada gacha tier bawah di awal permainan. Fokuskan investasi resource pada pilar utama yang meningkatkan efisiensi jangka panjang."
+    },
+    3: { // Minecraft
+      s1: "Mekanika Sistem & Aturan Spawn yang Bekerja di Balik Layar",
+      s1Desc: `Dalam pembaruan Minecraft terbaru, memahami koordinat presisi dan mekanika tick rate adalah fondasi utama keberhasilan. Panduan "${title}" menyajikan langkah teruji untuk memaksimalkan hasil dunia survival Anda.`,
+      s2: "Daftar Bahan & Peralatan yang Wajib Disiapkan",
+      points: [
+        "Peralatan utama dengan enchant minimal Unbreaking III dan Mending.",
+        "Blok bangunan non-flammable (batu/cobblestone) dalam jumlah memadai.",
+        "Komponen redstone: Repeater, Comparator, Observer, dan Piston sesuai kebutuhan desain.",
+        "Ember air dan lava untuk mekanisme pergerakan mob atau pemusnahan otomatis."
+      ],
+      s3: "Tutorial Eksekusi Tahap Demi Tahap",
+      s3Desc: "Mulai dari penentuan chunk perbatasan (F3 + G), penggalian area aman, pemasangan komponen penampung hopper, hingga pengujian jalur mob. Pastikan seluruh area gelap di sekitar radius 128 blok telah diberi penerangan.",
+      s4: "Tips Troubleshooting & Efisiensi Maksimal",
+      s4Desc: "Jika mekanisme tidak berjalan sesuai harapan, periksa arah hadap observer dan pastikan tidak ada mob cap yang tersumbat di gua-gua bawah tanah sekitar fasilitas Anda.",
+      s5: "Variasi Desain & Peningkatan Keamanan Fasilitas",
+      s5Desc: "Tambahkan sistem alarm lampu redstone dan pintu otomatis anti-creeper untuk menjaga kelangsungan fasilitas jangka panjang."
+    },
+    4: { // Genshin & Honkai
+      s1: "Analisis Reaksi Elemen & Prioritas Sinergi Karakter",
+      s1Desc: `Tantangan endgame Spiral Abyss dan Memory of Chaos di tahun 2026 menuntut pemahaman mendalam tentang teori reaksi elemen dan kalkulasi internal cooldown (ICD). Ulasan "${title}" merinci komposisi tim paling solid.`,
+      s2: "Pilihan Senjata / Light Cone Terbaik (F2P & Bintang 5)",
+      points: [
+        "Opsi Senjata Utama: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
+        "Alternatif F2P Terbaik: Senjata craftable atau hadiah event dengan pasif regenerasi energi konsisten.",
+        "Opsi Pendukung Tim: Senjata yang memberikan buff attack persentase atau elemental mastery ke seluruh party."
+      ],
+      s3: "Set Artefak / Relic & Rasio Stat Emas",
+      s3Desc: "Jaga rasio Crit Rate terhadap Crit Damage pada proporsi 1:2 (minimal 60% Crit Rate : 120% Crit Damage). Pastikan ambang batas Energy Recharge terpenuhi agar rotasi Burst dapat dieksekusi setiap siklus.",
+      s4: "Urutan Rotasi Skill Tim Tanpa Jeda",
+      s4Desc: "Mulai dari penyalaan shield atau buff pendukung, aplikasikan elemen pemicu, lalu masuki fase carry utama untuk menghabiskan durasi burst saat seluruh buff tim sedang mencapai puncaknya.",
+      s5: "Strategi Menghadapi Boss & Optimalisasi Waktu",
+      s5Desc: "Kenali pola serangan boss lantai 12 dan manfaatkan iframe saat melepaskan Ultimate untuk menghindari serangan mematikan tanpa kehilangan momentum damage."
+    },
+    5: { // EA FC & eFootball
+      s1: "Filosofi Formasi & Meta Taktik Pertandingan 2026",
+      s1Desc: `Dinamika gameplay sepak bola mobile menuntut keseimbangan antara garis pertahanan kompak dan transisi cepat. Panduan "${title}" menyajikan instruksi taktik teruji untuk mengamankan kemenangan beruntun.`,
+      s2: "Kriteria Atribut Pemain per Posisi Kunci",
+      points: [
+        "Bek Tengah (CB): Prioritaskan atribut Pace di atas 85 dan Defensive Awareness tinggi.",
+        "Gelandang Bertahan (CDM): Wajib memiliki work rate High/High dan stamina prima untuk menutup ruang.",
+        "Sayap (Winger): Kecepatan akselerasi tinggi dengan kemampuan crossing atau finesse shot akurat.",
+        "Penyerang (ST): Finishing tajam dengan keunggulan fisik atau skill moves bintang 4 ke atas."
+      ],
+      s3: "Trik Eksekusi Skill Moves & Akurasi Tembakan",
+      s3Desc: "Gunakan Driven Ground Pass untuk memecah garis pressing lawan. Saat berada di sudut kotak penalti, manfaatkan Finesse Shot melengkung dengan power terukur 60-70%.",
+      s4: "Taktik Bertahan Disiplin: Jockeying & Menutup Jalur Umpan",
+      s4Desc: "Hindari menekan tombol sprint saat melakukan tekel satu lawan satu. Tahan tombol Jockey untuk membayangi arah lari penyerang lawan dan tunggu momen yang tepat untuk intersep.",
+      s5: "Manajemen Stamina & Pergantian Pemain Babak Kedua",
+      s5Desc: "Lakukan pergantian pemain sayap pada menit ke-60. Memasukkan penyerang segar melawan bek lawan yang sudah lelah adalah kunci mencetak gol kemenangan di menit akhir."
+    },
+    6: { // Battle Royale
+      s1: "Analisis Medan Tempur & Kontrol Recoil Senjata Meta",
+      s1Desc: `Dalam pertempuran sengit Battle Royale tahun 2026, penguasaan recoil dan pengambilan keputusan posisi compound adalah penentu gelar juara. Ulasan "${title}" mengupas rahasia bermain pro secara mendalam.`,
+      s2: "Konfigurasi Sensitivitas Kamera & Sensor Gyroscope",
+      points: [
+        "Third Person No Scope: 300% - 350% (Responsivitas gerak lincah jarak dekat)",
+        "Red Dot & Holographic: 280% - 320% (Akurasi tembakan semprotan jarak 20-50 meter)",
+        "2x Scope: 220% - 250% (Stabilitas bidikan menengah)",
+        "3x Scope (Ubah dari 6x): 180% - 210% (Kombinasi laser spray paling stabil pada M416)",
+        "4x Scope: 160% - 190% (Penembak DMR semi-otomatis)"
+      ],
+      s3: "Trik Adu Tembak Jarak Dekat (Close Combat)",
+      s3Desc: "Gunakan gerakan jiggle kiri-kanan cepat dipadukan dengan teknik crouch mendadak saat bertatapan muka. Jangan membidik lewat scope pada jarak di bawah 5 meter; prioritaskan hip-fire akurat.",
+      s4: "Taktik Rotasi Zona & Memilih Compound Terbaik",
+      s4Desc: "Selalu prioritaskan kendaraan roda empat untuk mobilitas dan perlindungan darurat. Rotasi lewat sisi terluar zona (edge playing) sering kali lebih aman daripada menerobos langsung ke pusat peta.",
+      s5: "Manajemen Utilitas: Smoke Grenade & Molotov Penyelamat",
+      s5Desc: "Bawa minimal 4 hingga 5 granat asap untuk fase zona akhir. Asap bukan hanya untuk menyelamatkan rekan yang tumbang, melainkan jembatan rotasi melintasi padang terbuka."
+    },
+    7: { // Gaming Gear & Hardware
+      s1: "Mengapa Performa Hardware Membatasi Potensi Gameplay Anda",
+      s1Desc: `Banyak gamer merasa kemampuan mekaniknya menurun padahal penyebab aslinya adalah pelambatan perangkat keras (thermal throttling). Panduan "${title}" mengulas cara menjaga kestabilan sistem pada performa puncak.`,
+      s2: "Optimasi Pengaturan Sistem & Refresh Rate Layar",
+      points: [
+        "Kunci layar pada 90Hz atau 120Hz di menu tampilan untuk animasi gerakan ultra mulus.",
+        "Aktifkan mode Touch Sampling Rate tertinggi di aplikasi game turbo bawaan ponsel.",
+        "Atur skala animasi jendela di menu Opsi Pengembang ke angka 0.5x untuk respons kilat.",
+        "Batasi proses latar belakang agar seluruh alokasi RAM dan CPU fokus pada game utama."
+      ],
+      s3: "Mengatasi Panas Berlebih: Manajemen Suhu Chipset",
+      s3Desc: "Saat suhu baterai melewati 42°C, sistem operasi akan secara otomatis memangkas clock speed prosesor (throttling), memicu drop frame drastis. Penggunaan pendingin aktif menjaga performa tetap stabil di 60/120 FPS konstan.",
+      s4: "Menghilangkan Hambatan Fisik: Sentuhan & Latensi Audio",
+      s4Desc: "Keringat mikro pada jari menciptakan hambatan gesek yang membuat sapuan layar meleset. Perlengkapan seperti sarung jari serat perak dan TWS berlatensi rendah memangkas jeda audio-visual hingga mendekati nol.",
+      s5: "Kebiasaan Sehat untuk Umur Baterai Smartphone",
+      s5Desc: "Hindari bermain game berat saat ponsel sedang diisi daya dengan adaptor biasa. Gunakan fitur bypass charging jika tersedia untuk mengalirkan daya langsung ke motherboard tanpa memanaskan baterai."
+    },
+    8: { // Kids Tech & Learning
+      s1: "Prinsip Edukasi Digital Sehat untuk Anak di Era Modern",
+      s1Desc: `Teknologi dapat menjadi sarana stimulasi kognitif yang luar biasa jika didampingi dengan metode yang tepat. Pembahasan "${title}" merangkum pendekatan terarah bagi orang tua cerdas.`,
+      s2: "Langkah Mengubah Layar Menjadi Media Belajar Interaktif",
+      points: [
+        "Pilih aplikasi yang melibatkan interaksi aktif (menyentuh, memecahkan teka-teki, meniru bunyi).",
+        "Tetapkan batas waktu harian terstruktur: 30 hingga 60 menit per sesi.",
+        "Dampingi anak secara langsung untuk mendiskusikan apa yang dilihat di layar (co-viewing).",
+        "Kombinasikan materi digital dengan aktivitas fisik nyata seperti menggambar atau menyusun balok."
+      ],
+      s3: "Fitur Keamanan & Perlindungan Privasi Anak di Android",
+      s3Desc: "Gunakan fitur Pin Screen (Sematkan Aplikasi) agar anak tidak dapat keluar dari aplikasi belajar tanpa izin, dan aktifkan batasan waktu otomatis melalui Google Family Link.",
+      s4: "Tips Pendampingan Belajar Bersama Tanpa Tantrum",
+      s4Desc: "Beri peringatan waktu 5 menit sebelum durasi layar berakhir. Pengalihan perhatian ke aktivitas fisik yang menyenangkan terbukti efektif mencegah rasa frustrasi saat tablet dimatikan.",
+      s5: "Memilih Perangkat yang Aman & Ergonomis",
+      s5Desc: "Gunakan casing berbahan busa EVA tahan banting dan aktifkan fitur pelindung mata (Eye Comfort Shield) untuk menyaring radiasi cahaya biru yang dapat mengganggu pola tidur anak."
+    },
+    9: { // Productivity & PDF Work
+      s1: "Transformasi Alur Kerja Paperless: Cepat, Rapi & Efisien",
+      s1Desc: `Era kerja digital menuntut pengelolaan dokumen yang cepat tanpa ketergantungan pada printer fisik. Ulasan "${title}" menyajikan solusi praktis untuk mempercepat administrasi harian.`,
+      s2: "Keunggulan Keamanan: Mengapa Pengolahan Dokumen Offline Mutlak Diperlukan",
+      points: [
+        "Privasi 100%: Dokumen rahasia tidak pernah diunggah ke server pihak ketiga di cloud.",
+        "Kecepatan Instan: Pengeditan dan penandatanganan berlangsung seketika tanpa perlu kuota internet.",
+        "Kepatuhan Hukum: Mempertahankan keaslian format berkas dan metadata dokumen asli.",
+        "Bebas Risiko Kebocoran: Data kartu identitas, kontrak, dan laporan keuangan tetap aman di perangkat lokal."
+      ],
+      s3: "Tanda Tangan Digital Presisi & Anotasi Dokumen",
+      s3Desc: "Manfaatkan stylus presisi untuk menandatangani berkas PDF secara otentik. Pastikan garis tanda tangan memiliki resolusi tajam setara guratan pulpen fisik.",
+      s4: "Kompresi Berkas Tanpa Menurunkan Keterbacaan",
+      s4Desc: "Pilih metode kompresi berbasis optimasi aliran vektor (vector stream). Teks tetap jernih dan tajam saat diperbesar meskipun ukuran berkas berkurang hingga 70%.",
+      s5: "Tips Membangun Arsip Digital Teratur di Android",
+      s5Desc: "Terapkan sistem penamaan berkas standar berbasis tanggal (YYYY-MM-DD_NamaDokumen) dan simpan salinan cadangan secara terenkripsi untuk kemudahan pencarian di masa depan."
+    }
+  };
+
+  const c = configs[slotIndex] || configs[1];
+
+  return {
+    id: [
+      {
+        id: "analisis-mendalam-dan-urgensi",
+        title: `1. ${c.s1}`,
+        content: [c.s1Desc, `Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan.`]
+      },
+      {
+        id: "langkah-sistematis-dan-rekomendasi",
+        title: `2. ${c.s2}`,
+        content: [`Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:`],
+        bulletPoints: c.points
+      },
+      {
+        id: "pengaturan-antarmuka-dan-tata-letak",
+        title: `3. ${c.s3}`,
+        content: [c.s3Desc]
+      },
+      {
+        id: "teknik-eksekusi-dan-taktik-lapangan",
+        title: `4. ${c.s4}`,
+        content: [c.s4Desc]
+      },
+      {
+        id: "sinergi-lanjutan-dan-kebiasaan-juara",
+        title: `5. ${c.s5}`,
+        content: [c.s5Desc]
+      }
+    ],
+    en: [
       {
         id: "technical-meta-overview",
-        title: `1. Technical Meta Breakdown: Why ${slotInfo.label} Dictates Outcomes in 2026`,
+        title: `1. Core Mechanical Dynamics & 2026 Meta Landscape`,
         content: [
-          `In modern competitive mobile software and gaming environments, systematic updates subtly adjust background calculations: from digitizer polling latency and hitbox registrations to aggressive hardware thermal safety limits. Understanding "${enTitle}" requires mastering how the software responds to every micro-input under real-world conditions.`,
-          `Many users hit performance plateaus because of unnoticed physical impediments. As fingertip moisture accumulates and device internal temperatures climb past 40°C, touchscreen sensors exhibit micro-jitters, causing crucial skill shots or fine handwriting annotations to drift away from the target.`,
-          `A holistic methodology combining disciplined situational awareness with verified physical hardware stability is the only reliable way to sustain top-tier win rates and flawless productivity day after day.`
-        ],
-        tipBox: {
-          title: "Hardware Lab Insight",
-          text: "Never overlook frame pacing consistency! A single micro-stutter during a clutch teamfight equals losing total player control across 60 vital visual frames.",
-          type: "tip"
-        }
+          `In modern competitive environments, understanding "${enTitle}" requires mastering system nuances and tactile input responsiveness.`,
+          `Disciplined application of these principles directly separates inconsistent results from top-tier performance.`
+        ]
       },
       {
         id: "systematic-execution-blueprint",
-        title: "2. Systematic Step-by-Step Blueprint for Proven Results",
-        content: [
-          `Follow these structured phases to translate tactical theory into decisive performance on your mobile device:`,
-          `First, standardize your tactile environment. Ensure your screen digitizer glass is free from oily residue, adjust display brightness to eliminate reflective glare, and customize your touch controls to match your natural anatomical reach.`,
-          `Second, exercise disciplined resource conservation. Do not exhaust decisive escape mechanisms, shields, or mobility cooldowns until primary competitive objectives are actively contested.`
-        ],
-        bulletPoints: [
-          "Calibrate touchscreen sensitivity sliders within practice modes under normal ambient device temperatures.",
-          "Maintain active spatial vision and mini-map tracking prior to initiating high-risk maneuvers.",
-          "Maintain upright ergonomic posture to ensure optimal blood oxygen flow throughout prolonged sessions.",
-          "Review recent match replays to isolate unconscious positioning flaws and refine timing windows."
-        ]
+        title: `2. Pro Configuration & Systematic Calibration Points`,
+        content: [`Reference these verified operational standards for consistent performance:`],
+        bulletPoints: c.points.map(p => `Standard: ${p}`)
       },
       {
-        id: "physical-hardware-and-gear-edge",
-        title: "3. Overcoming Physical Hardware Hurdles: The Gear Advantage",
-        content: [
-          `Many players blame personal mechanical skill when missing rapid screen gestures. In truth, bare smartphone glass was never engineered for marathon competitive friction: microscopic skin sweat creates erratic drag, while processor thermal output causes sweaty palms and processor frame drops.`,
-          `This is precisely why experienced competitors rely on purpose-built physical accessories. Conductive silver fiber finger sleeves completely eradicate sweat friction, active Peltier thermoelectric coolers drop core temperatures to prevent frame throttling, and precision capacitive styluses provide fountain-pen accuracy on touch glass.`,
-          `Investing in battle-tested hardware accessories represents the most sensible, cost-effective way to unlock immediate mechanical precision without purchasing an expensive flagship phone.`
-        ],
-        tipBox: {
-          title: "Hardware Advantage",
-          text: "0.3mm conductive silver fiber fabric maintains near-zero electrical resistance, ensuring micro-gestures register instantaneously on your smartphone screen digitizer.",
-          type: "highlight"
-        }
+        id: "interface-and-layout-optimization",
+        title: `3. Ergonomic Layout & Control Configuration`,
+        content: [`Customize your interface boundaries to eliminate accidental input misses during decisive moments.`]
       },
       {
-        id: "critical-pitfalls-and-cooldown-rules",
-        title: "4. Frequent Tactical Pitfalls and How to Avoid Them",
-        content: [
-          `Empirical match data demonstrates that over 80% of preventable losses stem from psychological tilt and physical fatigue rather than mechanical deficit:`,
-          `Users frequently force prolonged gaming marathons while emotionally tilted after frustrating setbacks. Under mental fatigue, fine motor coordination slows considerably, prompting reckless, high-risk errors.`,
-          `Enforce a mandatory cooldown protocol: take a 5 to 10-minute pause between intensive rounds. Hydrate, stretch wrist tendons, and let your phone's processor cool back to baseline before engaging in the next challenge.`
-        ],
-        tipBox: {
-          title: "Thermal Safety Caution",
-          text: "Pushing intensive sessions while your smartphone exceeds 43°C not only ruins gameplay responsiveness, but accelerates lithium battery degradation at more than double the normal rate.",
-          type: "warning"
-        }
+        id: "execution-tactics-and-techniques",
+        title: `4. Execution Mechanics & Tactical Principles`,
+        content: [`Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision.`]
       },
       {
-        id: "studio-app-spotlight",
-        title: `5. ${slotInfo.gameRecTitleEn}`,
-        content: [
-          slotInfo.gameRecDescEn,
-          `At D Lucky X, our mission is crafting lightweight, engaging, privacy-centric Android games and utility apps that deliver pure entertainment without network dependence. Explore our Google Play Store catalog to discover your next favorite daily offline companion.`
-        ]
+        id: "advanced-synergy-and-habits",
+        title: `5. Advanced Synergies & Sustainable Consistency Habits`,
+        content: [`Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery.`]
+      }
+    ],
+    faq: [
+      {
+        q: `Berapa lama waktu yang dibutuhkan untuk merasakan peningkatan nyata?`,
+        a: `Dengan menerapkan panduan ini secara konsisten, sebagian besar pengguna merasakan adaptasi dan peningkatan hasil dalam 2 hingga 4 hari pertama.`
+      },
+      {
+        q: `Apakah trik ini aman digunakan pada semua tipe perangkat Android?`,
+        a: `Sangat aman 100%. Semua panduan menggunakan fitur bawaan sistem resmi dan mematuhi kebijakan pengembang.`
+      },
+      {
+        q: `Apa langkah pertama yang harus dilakukan jika hasil belum maksimal?`,
+        a: `Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif.`
       }
     ],
     faqEn: [
       {
-        q: `Are the techniques in this guide on ${title.slice(0, 40)} fully compliant with developer terms?`,
-        a: "Yes, 100%. All strategies, configuration tips, and hardware recommendations utilize standard built-in software features and legal external accessories that comply fully with all game and platform terms of service."
+        q: `How quickly can noticeable improvements be expected?`,
+        a: `By following this guide consistently, most users experience measurable consistency improvements within 2 to 4 days.`
       },
       {
-        q: "How soon can users expect noticeable performance improvements?",
-        a: "By applying this structured blueprint and stabilizing your device conditions, most players experience measurable consistency gains within 3 to 5 days of focused practice."
+        q: `Is this approach compatible with all modern Android smartphones?`,
+        a: `Yes, 100%. All recommendations utilize standard built-in options and strictly follow developer guidelines.`
       },
       {
-        q: "Why are physical accessories like Peltier coolers or finger sleeves strongly recommended?",
-        a: "Because mobile hardware possesses inherent thermal and tactile limitations. Purpose-built accessories solve thermal throttling and sweat friction issues that software optimizations alone cannot overcome."
+        q: `What is the first troubleshooting step if initial results feel inconsistent?`,
+        a: `Re-evaluate your base sensitivities and practice progressive calibration in sandbox practice modes first.`
       }
     ]
   };
 }
 
 async function main() {
-  console.log(`=== GENERATING ${TOTAL_DAYS * 10} POWERFUL SEO ARTICLES UNTIL DEC 31, 2026 ===`);
+  console.log(`=== REGENERATING ALL 830 HIGH-VALUE, HERO-SPECIFIC & TOPIC-TAILORED ARTICLES ===`);
 
   const queueDir = "src/data/articles/queue";
-  if (!fs.existsSync(queueDir)) {
-    fs.mkdirSync(queueDir, { recursive: true });
-  }
+  if (!fs.existsSync(queueDir)) fs.mkdirSync(queueDir, { recursive: true });
 
   const slotFiles = [
     { key: 0, file: "mlbb-queue.ts", varName: "mlbbQueueArticles" },
@@ -846,13 +1002,15 @@ async function main() {
     console.log(`\nGenerating Slot ${s + 1}/10: ${slotInfo.label} (${TOTAL_DAYS} articles)...`);
 
     const articles = [];
-    for (let day = 0; day < TOTAL_DAYS; day++) {
+    // If slot 0, day 0 was already published today, so queue has days 1 to 82 (82 items)
+    // But we will also update the published article for Day 0!
+    const startDay = (s === 0) ? 1 : 0;
+
+    for (let day = startDay; day < TOTAL_DAYS; day++) {
       const topic = getTopicForDay(s, day);
       const article = buildDeepArticleItem(topic, slotInfo, day);
 
-      // Generate cover WebP
       await generateCoverImage(article.slug, article.title, slotInfo.label, slotInfo.color);
-
       articles.push(article);
       totalGenerated++;
       if (day % 10 === 0) process.stdout.write(`${day + 1}`);
@@ -865,35 +1023,35 @@ async function main() {
     console.log(`\nSaved ${slotConfig.file} (${articles.length} articles)`);
   }
 
-  // Update src/data/articles/queue/index.ts
-  const queueIndexContent = `import { mlbbQueueArticles } from "./mlbb-queue";
-import { freefireQueueArticles } from "./freefire-queue";
-import { robloxQueueArticles } from "./roblox-queue";
-import { minecraftQueueArticles } from "./minecraft-queue";
-import { genshinQueueArticles } from "./genshin-queue";
-import { eafcQueueArticles } from "./eafc-queue";
-import { battleroyaleQueueArticles } from "./battleroyale-queue";
-import { gearQueueArticles } from "./gear-queue";
-import { kidstechQueueArticles } from "./kidstech-queue";
-import { productivityQueueArticles } from "./productivity-queue";
+  // Update published-gaming.ts with upgraded Day 0 Ling article
+  const publishedPath = "src/data/articles/published-gaming.ts";
+  if (fs.existsSync(publishedPath)) {
+    console.log("\nUpgrading Day 0 MLBB Ling published article in published-gaming.ts...");
+    const day0Topic = getTopicForDay(0, 0);
+    const day0Article = buildDeepArticleItem(day0Topic, SLOTS[0], 0);
 
-export const queuedArticles = [
-  ...mlbbQueueArticles,
-  ...freefireQueueArticles,
-  ...robloxQueueArticles,
-  ...minecraftQueueArticles,
-  ...genshinQueueArticles,
-  ...eafcQueueArticles,
-  ...battleroyaleQueueArticles,
-  ...gearQueueArticles,
-  ...kidstechQueueArticles,
-  ...productivityQueueArticles,
-];
-`;
+    const code = fs.readFileSync(publishedPath, "utf8");
+    const result = ts.transpileModule(code, {
+      compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 },
+    });
+    const m = { exports: {} };
+    const fn = new Function("module", "exports", "require", result.outputText);
+    fn(m, m.exports, () => ({}));
+    const publishedGamingArticles = m.exports.publishedGamingArticles || [];
 
-  fs.writeFileSync(path.join(queueDir, "index.ts"), queueIndexContent);
-  console.log("\nUpdated src/data/articles/queue/index.ts with all 10 queues.");
-  console.log(`\n🎉 SUCCESS: All ${totalGenerated} In-Depth Articles Generated until Dec 31, 2026 (10 Articles/Day) with Amazon Affiliate & Studio Game Integration!`);
+    const updatedPublished = publishedGamingArticles.map(art => {
+      if (art.slug === day0Article.slug) {
+        return day0Article;
+      }
+      return art;
+    });
+
+    const pubContent = `import { ArticleItem } from "./types";\n\nexport const publishedGamingArticles: ArticleItem[] = ${JSON.stringify(updatedPublished, null, 2)};\n`;
+    fs.writeFileSync(publishedPath, pubContent);
+    console.log("Updated published-gaming.ts successfully with rich hero data!");
+  }
+
+  console.log(`\n🎉 SUCCESS: All ${totalGenerated} High-Value, Rich, and Unique Articles Generated!`);
 }
 
 main().catch(console.error);

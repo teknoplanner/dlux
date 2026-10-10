@@ -238,10 +238,6 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
                   </div>
                 )}
 
-                {/* Mid-Article Inline App CTA (After 2nd Section) */}
-                {idx === 1 && targetApp && (
-                  <AppCtaBanner app={targetApp} variant="inline" lang="en" />
-                )}
               </div>
             ))}
           </main>
