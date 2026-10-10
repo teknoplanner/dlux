@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { Play, Menu, X, Gamepad2, Sparkles, BookOpen, Home } from "lucide-react";
+import { Play, Menu, X, Gamepad2, Sparkles, BookOpen, Home, Compass } from "lucide-react";
 import { developer } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 import { BrandLogo } from "@/components/ui/BrandLogo";
@@ -60,6 +60,14 @@ export const Navbar: React.FC = () => {
               Home
             </Link>
             <Link
+              href="/world"
+              className="inline-flex items-center gap-1.5 text-sm font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
+            >
+              <Compass className="w-4 h-4 text-emerald-600" />
+              World
+              <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700">3D</span>
+            </Link>
+            <Link
               href="/#featured"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
@@ -115,6 +123,17 @@ export const Navbar: React.FC = () => {
           >
             <Home className="w-4 h-4 text-emerald-600" />
             Home
+          </Link>
+          <Link
+            href="/world"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between text-sm font-bold text-emerald-600 hover:text-emerald-700 py-2.5 border-b border-slate-100"
+          >
+            <div className="flex items-center gap-3">
+              <Compass className="w-4 h-4 text-emerald-600" />
+              World 3D
+            </div>
+            <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700">Play Now</span>
           </Link>
           <Link
             href="/#featured"
