@@ -628,28 +628,35 @@ export class WorldEngine {
   private createOrganicIsland(cfg: { center: THREE.Vector3; radius: number; height: number; sandColor: number; grassColor: number }) {
     this.createShorelineFoam(cfg.center, cfg.radius);
 
-    // 1. Golden Sand Beach Shelf (Top face at y = 1.40)
-    const sandGeo = new THREE.CylinderGeometry(cfg.radius * 0.92, cfg.radius * 1.25, 2.0, 28);
+    // 1. Golden Sand Beach Shelf (Top face at y = 1.30)
+    const sandGeo = new THREE.CylinderGeometry(cfg.radius * 0.94, cfg.radius * 1.25, 2.0, 36);
     const sandMat = new THREE.MeshStandardMaterial({ color: cfg.sandColor, roughness: 0.9, flatShading: true });
     const sandMesh = new THREE.Mesh(sandGeo, sandMat);
-    sandMesh.position.set(cfg.center.x, 0.4, cfg.center.z);
+    sandMesh.position.set(cfg.center.x, 0.3, cfg.center.z);
     sandMesh.receiveShadow = true;
     this.scene.add(sandMesh);
 
-    // 2. Rich Earthy Soil & Rock Cliff Layer (Tanah & Tebing Alam Cokelat)
-    const soilH = Math.max(1.0, cfg.height - 1.2);
-    const soilGeo = new THREE.CylinderGeometry(cfg.radius * 0.82, cfg.radius * 0.96, soilH, 26);
+    // 2. Rich Earthy Soil & Rock Cliff Layer (Tanah Cokelat - Berhenti 0.85m di Bawah Rumput agar Tidak Z-Fight!)
+    const soilTop = cfg.height - 0.85;
+    const soilBottom = 1.0;
+    const soilH = Math.max(0.6, soilTop - soilBottom);
+    const soilGeo = new THREE.CylinderGeometry(cfg.radius * 0.82, cfg.radius * 0.96, soilH, 36);
     const soilMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.9, flatShading: true });
     const soilMesh = new THREE.Mesh(soilGeo, soilMat);
-    soilMesh.position.set(cfg.center.x, 1.2 + soilH / 2, cfg.center.z);
+    soilMesh.position.set(cfg.center.x, soilBottom + soilH / 2, cfg.center.z);
     soilMesh.castShadow = true;
     soilMesh.receiveShadow = true;
     this.scene.add(soilMesh);
 
-    // 3. Lush Green Park Turf Plateau (Top face at exactly cfg.height)
-    const hillH = 0.8;
-    const hillGeo = new THREE.CylinderGeometry(cfg.radius * 0.74, cfg.radius * 0.84, hillH, 24);
-    const hillMat = new THREE.MeshStandardMaterial({ color: cfg.grassColor, roughness: 0.8, flatShading: true });
+    // 3. Lush Green Park Turf Plateau (Rumput Hijau Halus - Satu-satunya Permukaan di y = cfg.height)
+    const hillH = 1.0;
+    const hillGeo = new THREE.CylinderGeometry(cfg.radius * 0.88, cfg.radius * 0.94, hillH, 36);
+    const hillMat = new THREE.MeshStandardMaterial({
+      color: cfg.grassColor,
+      roughness: 0.88,
+      metalness: 0.0,
+      flatShading: false, // Smooth shading anti-flicker
+    });
     const hillMesh = new THREE.Mesh(hillGeo, hillMat);
     hillMesh.position.set(cfg.center.x, cfg.height - hillH / 2, cfg.center.z);
     hillMesh.castShadow = true;
@@ -659,12 +666,12 @@ export class WorldEngine {
     // 4. Palm Trees & Coastal Boulders
     for (let i = 0; i < 7; i++) {
       const angle = (i / 7) * Math.PI * 2;
-      const dist = cfg.radius * 0.76;
+      const dist = cfg.radius * 0.84;
       const x = cfg.center.x + Math.cos(angle) * dist;
       const z = cfg.center.z + Math.sin(angle) * dist;
       this.createPalmTree(x, z, cfg.height);
       if (i % 2 === 0) {
-        this.createBeachRock(x + 2.5, z - 2.5, 1.4);
+        this.createBeachRock(x + 2.5, z - 2.5, 1.3);
       }
     }
   }
@@ -1222,13 +1229,13 @@ export class WorldEngine {
   // =========================================================================
   private buildConnectingBridges() {
     // 1. Central Plaza (Hub) <-> MOBA Sanctuary (Arched timber trestle)
-    this.createBridgeSegment(new THREE.Vector3(-18, 2.4, -18), new THREE.Vector3(-52, 2.8, -50), 1.2);
+    this.createBridgeSegment(new THREE.Vector3(-18, 4.80, -18), new THREE.Vector3(-52, 6.60, -50), 1.6);
     // 2. Central Plaza (Hub) <-> Battle Royale Outpost
-    this.createBridgeSegment(new THREE.Vector3(18, 2.4, -16), new THREE.Vector3(56, 3.0, -45), 1.2);
+    this.createBridgeSegment(new THREE.Vector3(18, 4.80, -16), new THREE.Vector3(56, 7.00, -45), 1.6);
     // 3. Central Plaza (Hub) <-> Voxel Sandbox Bay
-    this.createBridgeSegment(new THREE.Vector3(-16, 2.4, 18), new THREE.Vector3(-48, 2.2, 52), 1.2);
+    this.createBridgeSegment(new THREE.Vector3(-16, 4.80, 18), new THREE.Vector3(-48, 4.70, 52), 1.4);
     // 4. Central Plaza (Hub) <-> Arcade Soccer Arena
-    this.createBridgeSegment(new THREE.Vector3(16, 2.4, 18), new THREE.Vector3(48, 2.0, 48), 1.0);
+    this.createBridgeSegment(new THREE.Vector3(16, 4.80, 18), new THREE.Vector3(48, 2.60, 48), 1.0);
   }
 
   private createBridgeSegment(p1: THREE.Vector3, p2: THREE.Vector3, arch: number = 1.2) {
@@ -1250,10 +1257,10 @@ export class WorldEngine {
     });
     const stoneAbutmentMat = new THREE.MeshStandardMaterial({ color: 0x64748b, roughness: 0.85 });
 
-    // 1. Stone Abutments at Shore Connections (Pangkal Jembatan Kokoh di Tepi Pantai)
+    // 1. Stone Abutments at Shore Connections (Pangkal Jembatan Kokoh Menyatu Sempurna dengan Jalan)
     for (const pt of [p1, p2]) {
-      const abutment = new THREE.Mesh(new THREE.BoxGeometry(width + 0.6, 2.2, 2.8), stoneAbutmentMat);
-      abutment.position.set(pt.x, pt.y - 1.1, pt.z);
+      const abutment = new THREE.Mesh(new THREE.BoxGeometry(width + 0.6, 2.6, 3.8), stoneAbutmentMat);
+      abutment.position.set(pt.x, pt.y - 1.3, pt.z);
       abutment.rotation.y = yaw;
       abutment.receiveShadow = true;
       abutment.castShadow = true;
@@ -1328,7 +1335,7 @@ export class WorldEngine {
 
       // Heavy Marine Pilings & Nautical Lanterns (Every 4 bays)
       if (i % 4 === 0 && i > 0 && i < numSegments - 1) {
-        const pilingHeight = yMid + 3.8;
+        const pilingHeight = yMid + 4.8;
         for (const side of [-width / 2 + 0.35, width / 2 - 0.35]) {
           const piling = new THREE.Mesh(new THREE.CylinderGeometry(0.20, 0.24, pilingHeight, 10), woodBeamMat);
           piling.position.set(side, -pilingHeight / 2 - 0.18, 0);
@@ -1687,16 +1694,16 @@ export class WorldEngine {
       [0, 6.0, -7], [0, 6.0, 7], [-7, 6.0, 0], [7, 6.0, 0], [-8, 6.0, -8], [8, 6.0, 8],
 
       // Bridge 1 to MOBA (4 coins along arched wooden walkway)
-      [-24.8, 4.35, -24.4], [-31.6, 4.81, -30.8], [-38.4, 4.89, -37.2], [-45.2, 4.59, -43.6],
+      [-24.8, 7.28, -24.4], [-31.6, 8.16, -30.8], [-38.4, 8.52, -37.2], [-45.2, 8.36, -43.6],
 
       // Bridge 2 to Battle Royale (4 coins along arched wooden walkway)
-      [25.6, 4.39, -21.8], [33.2, 4.89, -27.6], [40.8, 5.01, -33.4], [48.4, 4.75, -39.2],
+      [25.6, 7.36, -21.8], [33.2, 8.32, -27.6], [40.8, 8.76, -33.4], [48.4, 8.68, -39.2],
 
       // Bridge 3 to Voxel Bay (4 coins along arched wooden walkway)
-      [-22.4, 4.23, 24.8], [-28.8, 4.53, 31.6], [-35.2, 4.49, 38.4], [-41.6, 4.11, 45.2],
+      [-22.4, 6.78, 24.8], [-28.8, 7.20, 31.6], [-35.2, 7.18, 38.4], [-41.6, 6.72, 45.2],
 
       // Bridge 4 to Soccer Arena (4 coins along arched wooden walkway)
-      [22.4, 4.06, 24.0], [28.8, 4.30, 30.0], [35.2, 4.22, 36.0], [41.6, 3.82, 42.0],
+      [22.4, 6.10, 24.0], [28.8, 5.98, 30.0], [35.2, 5.54, 36.0], [41.6, 4.78, 42.0],
 
       // MOBA Sanctuary (3 coins)
       [-68, 7.8, -60], [-74, 7.8, -68], [-64, 7.8, -72],
@@ -1734,14 +1741,14 @@ export class WorldEngine {
 
     // Placed at the apex of each arched bridge, rotated to align with the bridge axis
     const ringConfigs: [number, number, number, number][] = [
-      // Bridge 1 (NW to MOBA): apex deck y=3.8 -> ring center y=6.25 (bottom at 3.95m, clears 3.8m deck)
-      [-35, 6.25, -34, Math.atan2(-34, -32)],
-      // Bridge 2 (NE to Battle Royale): apex deck y=3.9 -> ring center y=6.35
-      [37, 6.35, -30.5, Math.atan2(38, -29)],
-      // Bridge 3 (SW to Voxel): apex deck y=3.5 -> ring center y=5.95
-      [-32, 5.95, 35, Math.atan2(-32, 34)],
-      // Bridge 4 (SE to Soccer): apex deck y=3.2 -> ring center y=5.65
-      [32, 5.65, 33, Math.atan2(32, 30)],
+      // Bridge 1 (NW to MOBA): apex deck y=7.30 -> ring center y=9.75 (bottom at 7.45m, clears 7.30m deck)
+      [-35, 9.75, -34, Math.atan2(-34, -32)],
+      // Bridge 2 (NE to Battle Royale): apex deck y=7.50 -> ring center y=9.95 (bottom at 7.65m, clears 7.50m deck)
+      [37, 9.95, -30.5, Math.atan2(38, -29)],
+      // Bridge 3 (SW to Voxel): apex deck y=6.15 -> ring center y=8.60 (bottom at 6.30m, clears 6.15m deck)
+      [-32, 8.60, 35, Math.atan2(-32, 34)],
+      // Bridge 4 (SE to Soccer): apex deck y=4.70 -> ring center y=7.15 (bottom at 4.85m, clears 4.70m deck)
+      [32, 7.15, 33, Math.atan2(32, 30)],
     ];
 
     ringConfigs.forEach(([x, y, z, rotY]) => {
@@ -2194,13 +2201,13 @@ export class WorldEngine {
     const dHub = Math.hypot(x, z);
     if (dHub < 34) {
       if (dHub <= 11.5) return 4.90; // Slate and terracotta promenade
-      if (dHub <= 21.0) return 4.80; // Grass park plateau
-      if (dHub <= 26.0) {
-        const t = (dHub - 21.0) / 5.0;
+      if (dHub <= 24.5) return 4.80; // Grass park plateau (Menyambung langsung ke jembatan)
+      if (dHub <= 28.5) {
+        const t = (dHub - 24.5) / 4.0;
         return 4.80 * (1 - t) + 1.40 * t; // Slope down to sand beach
       }
-      if (dHub <= 30.5) {
-        const t = (dHub - 26.0) / 4.5;
+      if (dHub <= 32.0) {
+        const t = (dHub - 28.5) / 3.5;
         return 1.40 * (1 - t) + (-0.55) * t; // Gentle shoreline into ocean
       }
       return -0.55;
@@ -2209,13 +2216,13 @@ export class WorldEngine {
     // 2. MOBA Sanctuary (-70, -65)
     const dMOBA = Math.hypot(x - (-70), z - (-65));
     if (dMOBA < 34) {
-      if (dMOBA <= 18.5) return 6.60; // High altar plateau
-      if (dMOBA <= 24.5) {
-        const t = (dMOBA - 18.5) / 6.0;
+      if (dMOBA <= 22.5) return 6.60; // High altar plateau
+      if (dMOBA <= 27.5) {
+        const t = (dMOBA - 22.5) / 5.0;
         return 6.60 * (1 - t) + 1.40 * t;
       }
-      if (dMOBA <= 30.0) {
-        const t = (dMOBA - 24.5) / 5.5;
+      if (dMOBA <= 32.0) {
+        const t = (dMOBA - 27.5) / 4.5;
         return 1.40 * (1 - t) + (-0.55) * t;
       }
       return -0.55;
@@ -2224,13 +2231,13 @@ export class WorldEngine {
     // 3. Battle Royale Outpost (75, -60)
     const dBR = Math.hypot(x - 75, z - (-60));
     if (dBR < 35) {
-      if (dBR <= 19.2) return 7.00; // Lighthouse plateau
-      if (dBR <= 25.5) {
-        const t = (dBR - 19.2) / 6.3;
+      if (dBR <= 23.5) return 7.00; // Lighthouse plateau
+      if (dBR <= 28.5) {
+        const t = (dBR - 23.5) / 5.0;
         return 7.00 * (1 - t) + 1.40 * t;
       }
-      if (dBR <= 31.0) {
-        const t = (dBR - 25.5) / 5.5;
+      if (dBR <= 33.0) {
+        const t = (dBR - 28.5) / 4.5;
         return 1.40 * (1 - t) + (-0.55) * t;
       }
       return -0.55;
@@ -2242,13 +2249,13 @@ export class WorldEngine {
       if (Math.abs(x - 65) <= 11.2 && Math.abs(z - 65) <= 16.2) {
         return 2.66; // Soccer pitch turf
       }
-      if (dSoc <= 20.0) return 2.60; // Stadium grass plateau
-      if (dSoc <= 25.5) {
-        const t = (dSoc - 20.0) / 5.5;
+      if (dSoc <= 23.0) return 2.60; // Stadium grass plateau
+      if (dSoc <= 28.0) {
+        const t = (dSoc - 23.0) / 5.0;
         return 2.60 * (1 - t) + 1.40 * t;
       }
-      if (dSoc <= 31.0) {
-        const t = (dSoc - 25.5) / 5.5;
+      if (dSoc <= 32.5) {
+        const t = (dSoc - 28.0) / 4.5;
         return 1.40 * (1 - t) + (-0.55) * t;
       }
       return -0.55;
