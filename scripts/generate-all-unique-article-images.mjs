@@ -158,33 +158,63 @@ async function generateUniqueCoverImage({
   const safeTitle2 = escapeXml(title2 || "");
   const safeSubtitle = escapeXml(subtitle);
 
-  // Gradient: Top 50% is 100% transparent. Only bottom 30% has dark gradient for clean text readability.
+  const hasTitle2 = Boolean(safeTitle2 && safeTitle2.trim().length > 0);
+  const cardW = 960;
+  const cardH = hasTitle2 ? 172 : 138;
+  const startX = Math.round((width - cardW) / 2);
+  const startY = 36;
+  const centerX = Math.round(width / 2);
+
+  const title1Y = hasTitle2 ? startY + 68 : startY + 76;
+  const title2Y = startY + 106;
+  const subtitleY = hasTitle2 ? startY + 142 : startY + 112;
+
+  // Modern Architectural Editorial Layout (Top-Center, Translucent, Anti-Slop Ornaments)
   const svg = `
   <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#050814" stop-opacity="0.0" />
-        <stop offset="50%" stop-color="#050814" stop-opacity="0.0" />
-        <stop offset="72%" stop-color="#050814" stop-opacity="0.65" />
-        <stop offset="88%" stop-color="#050814" stop-opacity="0.88" />
-        <stop offset="100%" stop-color="#050814" stop-opacity="0.96" />
+      <!-- Translucent Dark Glass Backdrop -->
+      <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#050a14" stop-opacity="0.78" />
+        <stop offset="100%" stop-color="#02060f" stop-opacity="0.62" />
       </linearGradient>
     </defs>
-    
-    <rect width="${width}" height="${height}" fill="url(#overlay)" />
 
-    <!-- Bottom Typography Block in English (Clean top: NO top badges) -->
-    <text x="50" y="${height - (safeTitle2 ? 130 : 90)}" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="42" letter-spacing="0.5">${safeTitle1}</text>
-    ${safeTitle2 ? `<text x="50" y="${height - 82}" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="42" letter-spacing="0.5">${safeTitle2}</text>` : ""}
-    <text x="50" y="${height - 40}" fill="#94a3b8" font-family="sans-serif" font-weight="bold" font-size="20">${safeSubtitle}</text>
+    <!-- Translucent Top-Center Card Container -->
+    <rect x="${startX}" y="${startY}" width="${cardW}" height="${cardH}" rx="12" ry="12" fill="url(#cardBg)" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.2" />
 
-    <!-- Bottom Accent Line -->
-    <rect x="0" y="${height - 6}" width="${width}" height="6" fill="${themeColor}" />
+    <!-- Top Accent Hairline -->
+    <line x1="${startX + 120}" y1="${startY}" x2="${startX + cardW - 120}" y2="${startY}" stroke="${themeColor}" stroke-opacity="0.85" stroke-width="2" />
+
+    <!-- Architectural Corner Framing Brackets (Anti-Slop Craft) -->
+    <!-- Top-Left -->
+    <path d="M ${startX - 12} ${startY + 20} L ${startX - 12} ${startY - 12} L ${startX + 20} ${startY - 12}" fill="none" stroke="${themeColor}" stroke-width="2" stroke-opacity="0.85" />
+    <!-- Top-Right -->
+    <path d="M ${startX + cardW + 12} ${startY + 20} L ${startX + cardW + 12} ${startY - 12} L ${startX + cardW - 20} ${startY - 12}" fill="none" stroke="${themeColor}" stroke-width="2" stroke-opacity="0.85" />
+    <!-- Bottom-Left -->
+    <path d="M ${startX - 12} ${startY + cardH - 20} L ${startX - 12} ${startY + cardH + 12} L ${startX + 20} ${startY + cardH + 12}" fill="none" stroke="${themeColor}" stroke-width="2" stroke-opacity="0.85" />
+    <!-- Bottom-Right -->
+    <path d="M ${startX + cardW + 12} ${startY + cardH - 20} L ${startX + cardW + 12} ${startY + cardH + 12} L ${startX + cardW - 20} ${startY + cardH + 12}" fill="none" stroke="${themeColor}" stroke-width="2" stroke-opacity="0.85" />
+
+    <!-- Editorial Kicker with Dividers -->
+    <line x1="${centerX - 280}" y1="${startY + 26}" x2="${centerX - 140}" y2="${startY + 26}" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1" />
+    <text x="${centerX}" y="${startY + 30}" text-anchor="middle" fill="${themeColor}" font-family="sans-serif" font-weight="bold" font-size="11" letter-spacing="3.5">PRO STRATEGY GUIDE // 2026 EDITION</text>
+    <line x1="${centerX + 140}" y1="${startY + 26}" x2="${centerX + 280}" y2="${startY + 26}" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1" />
+
+    <!-- Main Headline Typography in English -->
+    <text x="${centerX}" y="${title1Y}" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="31" letter-spacing="0.5">${safeTitle1}</text>
+    ${hasTitle2 ? `<text x="${centerX}" y="${title2Y}" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="31" letter-spacing="0.5">${safeTitle2}</text>` : ""}
+
+    <!-- Subtitle Spec Line -->
+    <text x="${centerX}" y="${subtitleY}" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-weight="500" font-size="14" letter-spacing="1.2">${safeSubtitle}</text>
+
+    <!-- Subtle Center Bottom Notch Mark -->
+    <circle cx="${centerX}" cy="${startY + cardH}" r="3" fill="${themeColor}" />
   </svg>`;
 
   await sharp(bgBuffer)
     .composite([{ input: Buffer.from(svg), top: 0, left: 0 }])
-    .webp({ quality: 82, effort: 5 })
+    .webp({ quality: 84, effort: 5 })
     .toFile(destPath);
 }
 
