@@ -13,11 +13,6 @@ export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Hide Navbar when playing game on /world route
-  if (pathname === "/world" || pathname?.startsWith("/world/")) {
-    return null;
-  }
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -34,6 +29,11 @@ export const Navbar: React.FC = () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, []);
+
+  // Hide Navbar when playing game on /world route (AFTER all hooks)
+  if (pathname === "/world" || pathname?.startsWith("/world/")) {
+    return null;
+  }
 
   return (
     <header

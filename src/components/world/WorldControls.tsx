@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { ArrowUp, ArrowDown, ArrowLeft, ArrowRight, Zap, ArrowBigUp } from "lucide-react";
+import { ArrowUp, ArrowDown, ArrowLeft, ArrowRight, Zap, ArrowBigUp, MessageSquare } from "lucide-react";
 import { WorldEngine } from "./WorldEngine";
 
 interface WorldControlsProps {
@@ -89,7 +89,6 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
     };
   }, [engine, onInteract]);
 
-  // Touch handlers for mobile buttons
   const setInput = (key: keyof WorldEngine["inputs"], val: boolean) => {
     if (engine) {
       engine.inputs[key] = val;
@@ -101,74 +100,76 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
 
   if (!isTouchDevice) {
     return (
-      <div className="absolute bottom-6 left-6 pointer-events-none hidden md:flex items-center gap-2 bg-slate-950/60 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-white/10 text-xs font-mono text-slate-300 shadow-lg">
-        <span className="font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20">WASD / ↑↓←→</span>
-        <span>Gerak</span>
-        <span className="text-slate-600">•</span>
-        <span className="font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20">SPACE</span>
-        <span>Lompat</span>
-        <span className="text-slate-600">•</span>
-        <span className="font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20">SHIFT</span>
-        <span>Nitro</span>
-        <span className="text-slate-600">•</span>
-        <span className="font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20">E</span>
-        <span>Interaksi</span>
+      <div className="absolute bottom-6 left-6 pointer-events-none hidden md:flex items-center gap-2.5 bg-slate-900/90 backdrop-blur-md px-5 py-3 rounded-2xl border border-white/20 text-xs font-mono text-slate-300 shadow-[0_6px_20px_rgba(0,0,0,0.6)]">
+        <span className="font-black text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20 shadow-inner">WASD / ↑↓←→</span>
+        <span className="text-slate-300 font-bold">GERAK</span>
+        <span className="text-slate-600 font-black">•</span>
+        <span className="font-black text-white bg-slate-800 px-2 py-0.5 rounded border border-white/20 shadow-inner">SPACE</span>
+        <span className="text-slate-300 font-bold">LOMPAT</span>
+        <span className="text-slate-600 font-black">•</span>
+        <span className="font-black text-cyan-400 bg-slate-800 px-2 py-0.5 rounded border border-cyan-400/30 shadow-inner">SHIFT</span>
+        <span className="text-cyan-300 font-bold">NITRO</span>
+        <span className="text-slate-600 font-black">•</span>
+        <span className="font-black text-amber-400 bg-slate-800 px-2 py-0.5 rounded border border-amber-400/30 shadow-inner">E</span>
+        <span className="text-amber-300 font-bold">AKSI</span>
       </div>
     );
   }
 
-  // Mobile On-Screen Virtual Touch Controls
+  // =========================================================================
+  // ARCADE CONSOLE TOUCH CONTROLLER (MOBILE / TABLET)
+  // =========================================================================
   return (
     <div className="fixed inset-0 pointer-events-none z-30 select-none">
-      {/* Left Steering Pad */}
+      {/* Left Arcade D-Pad */}
       <div className="absolute bottom-8 left-6 pointer-events-auto flex flex-col items-center gap-2">
         <button
           onTouchStart={() => setInput("forward", true)}
           onTouchEnd={() => setInput("forward", false)}
-          className="w-14 h-14 rounded-2xl bg-slate-900/80 active:bg-emerald-600 backdrop-blur-md border border-white/20 flex items-center justify-center text-white shadow-xl active:scale-95 transition-transform"
+          className="w-16 h-16 rounded-2xl bg-slate-900/90 active:bg-emerald-500 border border-white/20 active:border-emerald-300 flex items-center justify-center text-white shadow-[0_5px_0_#020617] active:translate-y-1 active:shadow-none transition-all"
         >
-          <ArrowUp className="w-6 h-6" />
+          <ArrowUp className="w-8 h-8 text-emerald-400" />
         </button>
         <div className="flex gap-2">
           <button
             onTouchStart={() => setInput("left", true)}
             onTouchEnd={() => setInput("left", false)}
-            className="w-14 h-14 rounded-2xl bg-slate-900/80 active:bg-emerald-600 backdrop-blur-md border border-white/20 flex items-center justify-center text-white shadow-xl active:scale-95 transition-transform"
+            className="w-16 h-16 rounded-2xl bg-slate-900/90 active:bg-emerald-500 border border-white/20 active:border-emerald-300 flex items-center justify-center text-white shadow-[0_5px_0_#020617] active:translate-y-1 active:shadow-none transition-all"
           >
-            <ArrowLeft className="w-6 h-6" />
+            <ArrowLeft className="w-8 h-8 text-emerald-400" />
           </button>
           <button
             onTouchStart={() => setInput("backward", true)}
             onTouchEnd={() => setInput("backward", false)}
-            className="w-14 h-14 rounded-2xl bg-slate-900/80 active:bg-emerald-600 backdrop-blur-md border border-white/20 flex items-center justify-center text-white shadow-xl active:scale-95 transition-transform"
+            className="w-16 h-16 rounded-2xl bg-slate-900/90 active:bg-emerald-500 border border-white/20 active:border-emerald-300 flex items-center justify-center text-white shadow-[0_5px_0_#020617] active:translate-y-1 active:shadow-none transition-all"
           >
-            <ArrowDown className="w-6 h-6" />
+            <ArrowDown className="w-8 h-8 text-emerald-400" />
           </button>
           <button
             onTouchStart={() => setInput("right", true)}
             onTouchEnd={() => setInput("right", false)}
-            className="w-14 h-14 rounded-2xl bg-slate-900/80 active:bg-emerald-600 backdrop-blur-md border border-white/20 flex items-center justify-center text-white shadow-xl active:scale-95 transition-transform"
+            className="w-16 h-16 rounded-2xl bg-slate-900/90 active:bg-emerald-500 border border-white/20 active:border-emerald-300 flex items-center justify-center text-white shadow-[0_5px_0_#020617] active:translate-y-1 active:shadow-none transition-all"
           >
-            <ArrowRight className="w-6 h-6" />
+            <ArrowRight className="w-8 h-8 text-emerald-400" />
           </button>
         </div>
       </div>
 
-      {/* Right Action Buttons */}
-      <div className="absolute bottom-8 right-6 pointer-events-auto flex flex-col items-end gap-3">
+      {/* Right Arcade Action Buttons */}
+      <div className="absolute bottom-8 right-6 pointer-events-auto flex flex-col items-end gap-3.5">
         <button
           onTouchStart={() => setInput("boost", true)}
           onTouchEnd={() => setInput("boost", false)}
-          className="w-16 h-16 rounded-full bg-cyan-600/90 active:bg-cyan-500 backdrop-blur-md border border-cyan-300/40 flex items-center justify-center text-white font-bold shadow-xl active:scale-90 transition-transform"
+          className="w-18 h-18 p-4 rounded-3xl bg-gradient-to-tr from-cyan-600 to-teal-400 border-t border-white/40 border-b-4 border-cyan-900 shadow-[0_6px_20px_rgba(6,182,212,0.5)] active:border-b-0 active:translate-y-1 flex items-center justify-center text-slate-950 font-black transition-all"
         >
-          <Zap className="w-7 h-7 fill-current" />
+          <Zap className="w-8 h-8 fill-current" />
         </button>
         <button
           onTouchStart={() => setInput("jump", true)}
           onTouchEnd={() => setInput("jump", false)}
-          className="w-16 h-16 rounded-full bg-emerald-600/90 active:bg-emerald-500 backdrop-blur-md border border-emerald-300/40 flex items-center justify-center text-white font-bold shadow-xl active:scale-90 transition-transform"
+          className="w-18 h-18 p-4 rounded-3xl bg-gradient-to-tr from-emerald-500 to-teal-300 border-t border-white/40 border-b-4 border-emerald-900 shadow-[0_6px_20px_rgba(16,185,129,0.5)] active:border-b-0 active:translate-y-1 flex items-center justify-center text-slate-950 font-black transition-all"
         >
-          <ArrowBigUp className="w-8 h-8 fill-current" />
+          <ArrowBigUp className="w-9 h-9 fill-current" />
         </button>
       </div>
     </div>
