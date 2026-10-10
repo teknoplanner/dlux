@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Volume2, VolumeX, Maximize2, Minimize2, Smartphone, Compass, Sparkles, HelpCircle, Trophy } from "lucide-react";
+import Link from "next/link";
+import { Volume2, VolumeX, Maximize2, Minimize2, Smartphone, Compass, Sparkles, HelpCircle, Trophy, ArrowLeft } from "lucide-react";
 import { NPCData } from "./WorldEngine";
 
 interface WorldHUDProps {
@@ -34,11 +35,32 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
 
+  React.useEffect(() => {
+    const handleFSChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+    document.addEventListener("fullscreenchange", handleFSChange);
+    document.addEventListener("webkitfullscreenchange", handleFSChange);
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFSChange);
+      document.removeEventListener("webkitfullscreenchange", handleFSChange);
+    };
+  }, []);
+
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen().then(() => setIsFullscreen(true)).catch(() => {});
+      const elem = document.documentElement;
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen().catch(() => {});
+      } else if ((elem as any).webkitRequestFullscreen) {
+        (elem as any).webkitRequestFullscreen();
+      }
     } else {
-      document.exitFullscreen().then(() => setIsFullscreen(false)).catch(() => {});
+      if (document.exitFullscreen) {
+        document.exitFullscreen().catch(() => {});
+      } else if ((document as any).webkitExitFullscreen) {
+        (document as any).webkitExitFullscreen();
+      }
     }
   };
 
@@ -48,16 +70,21 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
       {/* TOP BAR                                                          */}
       {/* ================================================================= */}
       <div className="p-4 sm:p-6 flex items-start justify-between">
-        {/* Brand Pill (Top-Left) */}
-        <div className="pointer-events-auto flex items-center gap-2.5 px-4 py-2 rounded-2xl bg-slate-900/80 backdrop-blur-md border border-white/15 text-white shadow-lg">
-          <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
-          <span className="font-extrabold font-display tracking-tight text-sm sm:text-base">
+        {/* Brand Pill with Exit/Home Link (Top-Left) */}
+        <Link
+          href="/"
+          className="pointer-events-auto flex items-center gap-2.5 px-3.5 py-2 rounded-2xl bg-slate-900/80 hover:bg-slate-800 backdrop-blur-md border border-white/15 text-white shadow-lg active:scale-95 transition-all group"
+          title="Keluar ke Web Utama"
+        >
+          <ArrowLeft className="w-4 h-4 text-emerald-400 group-hover:-translate-x-0.5 transition-transform" />
+          <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+          <span className="font-extrabold font-display tracking-tight text-xs sm:text-sm">
             D LUCKY <span className="text-emerald-400">WORLD</span>
           </span>
           <span className="text-[10px] font-mono uppercase tracking-widest px-1.5 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
-            3D LIVE
+            3D
           </span>
-        </div>
+        </Link>
 
         {/* Current Location Pill (Top-Center) */}
         <div className="hidden sm:flex items-center gap-2 px-5 py-2 rounded-2xl bg-slate-900/80 backdrop-blur-md border border-white/15 text-white shadow-lg animate-in fade-in duration-300">

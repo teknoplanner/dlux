@@ -2,14 +2,21 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Play, Menu, X, Gamepad2, Sparkles, BookOpen, Home, Compass } from "lucide-react";
 import { developer } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 import { BrandLogo } from "@/components/ui/BrandLogo";
 
 export const Navbar: React.FC = () => {
+  const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  // Hide Navbar when playing game on /world route
+  if (pathname === "/world" || pathname?.startsWith("/world/")) {
+    return null;
+  }
 
   useEffect(() => {
     const handleScroll = () => {

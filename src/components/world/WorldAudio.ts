@@ -14,6 +14,10 @@ export class WorldAudio {
     // AudioContext will be initialized on the first user interaction
   }
 
+  public init(): void {
+    this.initContext();
+  }
+
   private initContext(): AudioContext | null {
     if (this.ctx) {
       if (this.ctx.state === "suspended") {

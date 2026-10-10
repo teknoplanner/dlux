@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
   Mail,
   ExternalLink,
@@ -17,6 +20,12 @@ import { apps, developer } from "@/data/apps";
 import { BrandLogo } from "@/components/ui/BrandLogo";
 
 export const Footer: React.FC = () => {
+  const pathname = usePathname();
+
+  // Hide Footer when playing game on /world route
+  if (pathname === "/world" || pathname?.startsWith("/world/")) {
+    return null;
+  }
   return (
     <footer className="bg-[#070c18] text-slate-400 relative overflow-hidden border-t border-slate-800/80">
       {/* Decorative top ambient glow */}
