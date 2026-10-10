@@ -174,7 +174,7 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
 
           {/* Main Featured Cover Image */}
           {article.coverImage && (
-            <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-slate-900">
+            <div className="relative w-full aspect-[16/9] rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-slate-900">
               <Image
                 src={article.coverImage}
                 alt={article.titleEn}
