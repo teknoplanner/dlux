@@ -125,7 +125,14 @@ export const WorldGameCanvas: React.FC = () => {
   }, []);
 
   const handleEnterWorld = async (fullscreen: boolean) => {
-    if (fullscreen) {
+    const isMobile =
+      typeof window !== "undefined" &&
+      ("ontouchstart" in window ||
+        navigator.maxTouchPoints > 0 ||
+        window.matchMedia("(pointer: coarse)").matches ||
+        window.innerWidth < 1024);
+
+    if (fullscreen && !isMobile) {
       try {
         const elem = document.documentElement;
         if (elem.requestFullscreen) {
@@ -136,6 +143,15 @@ export const WorldGameCanvas: React.FC = () => {
       } catch (err) {
         console.warn("Fullscreen request dismissed or unsupported:", err);
       }
+    } else if (isMobile && typeof document !== "undefined" && document.fullscreenElement) {
+      // If mobile browser happens to be in fullscreen mode, cleanly exit so no intrusive browser popup shows
+      try {
+        if (document.exitFullscreen) {
+          await document.exitFullscreen();
+        } else if ((document as any).webkitExitFullscreen) {
+          (document as any).webkitExitFullscreen();
+        }
+      } catch {}
     }
     audioRef.current?.init();
     audioRef.current?.playCoin();
@@ -275,7 +291,7 @@ export const WorldGameCanvas: React.FC = () => {
               <button
                 type="button"
                 onClick={() => handleEnterWorld(false)}
-                className="w-full py-2.5 px-4 rounded-lg bg-slate-900/90 hover:bg-slate-800 border-t border-slate-700 border-b-[3px] border-slate-950 active:border-b-0 active:translate-y-[3px] text-xs font-mono font-bold text-slate-300 hover:text-white transition-all cursor-pointer flex items-center justify-center gap-2"
+                className="hidden sm:flex w-full py-2.5 px-4 rounded-lg bg-slate-900/90 hover:bg-slate-800 border-t border-slate-700 border-b-[3px] border-slate-950 active:border-b-0 active:translate-y-[3px] text-xs font-mono font-bold text-slate-300 hover:text-white transition-all cursor-pointer items-center justify-center gap-2"
               >
                 <Gamepad2 className="w-4 h-4 text-slate-400" />
                 <span>PLAY IN WINDOWED MODE</span>

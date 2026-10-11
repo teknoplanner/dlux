@@ -132,7 +132,10 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
   return (
     <div className="fixed inset-0 pointer-events-none z-20 select-none touch-none">
       {/* Left Arcade D-Pad */}
-      <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 pointer-events-auto flex flex-col items-center gap-1.5 sm:gap-2">
+      <div
+        className="absolute bottom-12 left-4 sm:bottom-14 sm:left-6 pointer-events-auto flex flex-col items-center gap-1.5 sm:gap-2"
+        style={{ bottom: "max(3.25rem, calc(env(safe-area-inset-bottom, 0px) + 2.25rem))" }}
+      >
         <button
           type="button"
           onTouchStart={(e) => { e.preventDefault(); setInput("forward", true); }}
@@ -190,7 +193,10 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
       </div>
 
       {/* Right Arcade Action Buttons */}
-      <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 pointer-events-auto flex flex-col items-end gap-2 sm:gap-2.5">
+      <div
+        className="absolute bottom-12 right-4 sm:bottom-14 sm:right-6 pointer-events-auto flex flex-col items-end gap-2.5 sm:gap-3"
+        style={{ bottom: "max(3.25rem, calc(env(safe-area-inset-bottom, 0px) + 2.25rem))" }}
+      >
         <button
           type="button"
           onTouchStart={(e) => { e.preventDefault(); setInput("boost", true); }}

@@ -274,7 +274,10 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
       {/* PROXIMITY NPC ARCADE ACTION PROMPT                               */}
       {/* ================================================================= */}
       {activeNPC && (
-        <div className="absolute bottom-28 sm:bottom-24 inset-x-0 flex justify-center pointer-events-auto animate-in slide-in-from-bottom-4 duration-300 px-4">
+        <div
+          className="absolute bottom-48 sm:bottom-36 inset-x-0 flex justify-center pointer-events-auto animate-in slide-in-from-bottom-4 duration-300 px-4"
+          style={{ bottom: "max(11rem, calc(env(safe-area-inset-bottom, 0px) + 9rem))" }}
+        >
           <button
             onClick={onInteractNPC}
             className="group px-4 py-2.5 sm:px-7 sm:py-3.5 rounded-full bg-slate-900/95 hover:bg-cyan-600 border-2 border-cyan-400/60 text-white font-black text-xs sm:text-base shadow-[0_8px_25px_rgba(6,182,212,0.4)] flex items-center gap-2 sm:gap-3 active:scale-95 transition-all cursor-pointer max-w-sm"

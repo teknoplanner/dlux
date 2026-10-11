@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function WorldPage() {
   return (
-    <main className="w-screen h-screen overflow-hidden bg-slate-950 relative select-none">
+    <main className="fixed inset-0 w-screen h-screen h-[100dvh] overflow-hidden bg-slate-950 select-none">
       <WorldGameCanvas />
     </main>
   );
