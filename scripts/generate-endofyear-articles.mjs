@@ -2090,8 +2090,8 @@ async function main() {
 
   let totalGenerated = 0;
 
-  // Track all Day 0 articles across all 10 slots
-  const day0ArticlesBySlug = new Map();
+  // Track all published articles across slots
+  const publishedArticlesBySlug = new Map();
 
   for (let s = 0; s < SLOTS.length; s++) {
     const slotInfo = SLOTS[s];
@@ -2099,16 +2099,18 @@ async function main() {
     console.log(`\nGenerating Slot ${s + 1}/10: ${slotInfo.label} (${TOTAL_DAYS} articles)...`);
 
     const articles = [];
-    // Day 0 for slots 0-5 have already been published into published-gaming.ts,
-    // so queue only retains days 1 to 82 for those slots.
-    // Slots 6-9 day 0 are still in queue.
-    const startDay = (s <= 5) ? 1 : 0;
+    // Day 0 & Day 1 for slots 0-1 (MLBB, Free Fire) are published into published-gaming.ts.
+    // Day 0 for slots 2-9 are published into published-gaming.ts.
+    const startDay = (s <= 1) ? 2 : 1;
 
-    // Always generate Day 0 to store in day0ArticlesBySlug for published-gaming update
-    const day0TopicInfo = getTopicForDay(s, 0);
-    const day0Article = buildDeepArticleItem(day0TopicInfo, slotInfo, 0);
-    await generateCoverImage(day0Article.slug, day0Article.title, slotInfo.label, slotInfo.color);
-    day0ArticlesBySlug.set(day0Article.slug, day0Article);
+    // Always generate published days to store in publishedArticlesBySlug for published-gaming update
+    const pubDays = (s <= 1) ? [0, 1] : [0];
+    for (const pDay of pubDays) {
+      const pTopicInfo = getTopicForDay(s, pDay);
+      const pArticle = buildDeepArticleItem(pTopicInfo, slotInfo, pDay);
+      await generateCoverImage(pArticle.slug, pArticle.title, slotInfo.label, slotInfo.color);
+      publishedArticlesBySlug.set(pArticle.slug, pArticle);
+    }
 
     for (let day = startDay; day < TOTAL_DAYS; day++) {
       const topicInfo = getTopicForDay(s, day);
@@ -2143,9 +2145,9 @@ async function main() {
 
     const updatedPublished = publishedGamingArticles.map(art => {
       const cleanSlug = art.slug.replace(/-+$/, "");
-      for (const [sKey, repl] of day0ArticlesBySlug.entries()) {
+      for (const [sKey, repl] of publishedArticlesBySlug.entries()) {
         if (art.slug === sKey || cleanSlug === sKey.replace(/-+$/, "")) {
-          console.log(`  Updating published Day 0 article: ${art.slug}`);
+          console.log(`  Updating published article: ${art.slug}`);
           return {
             ...repl,
             slug: art.slug,
