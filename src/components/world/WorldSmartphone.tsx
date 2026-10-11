@@ -77,13 +77,13 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
   const playerMapPos = worldToMap(playerPos.x, playerPos.z);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-md animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/75 backdrop-blur-md animate-in fade-in duration-200">
       {/* Smartphone Device Frame */}
-      <div className="relative w-full max-w-[360px] h-[640px] bg-slate-900 border-4 border-slate-700/80 rounded-[44px] shadow-2xl overflow-hidden flex flex-col text-white">
+      <div className="relative w-full max-w-[360px] sm:max-w-[380px] max-h-[92dvh] h-[640px] bg-slate-900 border-2 sm:border-4 border-slate-700/80 rounded-3xl sm:rounded-[44px] shadow-2xl overflow-hidden flex flex-col text-white">
         {/* Device Notch & Status Bar */}
-        <div className="h-10 px-6 pt-3 flex items-center justify-between text-[11px] font-mono text-slate-400 border-b border-white/5 bg-slate-950/80">
+        <div className="h-9 sm:h-10 px-5 sm:px-6 pt-2 sm:pt-3 flex items-center justify-between text-[11px] font-mono text-slate-400 border-b border-white/5 bg-slate-950/80 shrink-0">
           <span className="font-bold text-white">09:41</span>
-          <div className="w-16 h-4 bg-slate-900 rounded-full mx-auto" />
+          <div className="w-14 sm:w-16 h-3.5 sm:h-4 bg-slate-900 rounded-full mx-auto" />
           <div className="flex items-center gap-1.5">
             <Wifi className="w-3 h-3 text-cyan-400" />
             <Battery className="w-3.5 h-3.5 text-emerald-400" />
@@ -91,9 +91,9 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
         </div>
 
         {/* Smartphone Header */}
-        <div className="px-5 py-3 flex items-center justify-between bg-slate-900 border-b border-white/10">
+        <div className="px-4 sm:px-5 py-2.5 sm:py-3 flex items-center justify-between bg-slate-900 border-b border-white/10 shrink-0">
           <div>
-            <h3 className="text-base font-bold font-display tracking-tight text-white flex items-center gap-1.5">
+            <h3 className="text-sm sm:text-base font-bold font-display tracking-tight text-white flex items-center gap-1.5">
               <span>D Lucky OS</span>
               <span className="text-[10px] px-1.5 py-0.2 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">
                 PRO
@@ -103,6 +103,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
           </div>
           <button
             onClick={onClose}
+            aria-label="Close Smartphone Hub"
             className="p-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white transition-colors"
           >
             <X className="w-4 h-4" />
@@ -110,11 +111,11 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
         </div>
 
         {/* Tab Content Area */}
-        <div className="flex-1 overflow-y-auto p-4 space-y-4">
+        <div className="flex-1 overflow-y-auto p-3.5 sm:p-4 space-y-3.5 sm:space-y-4">
           {/* TAB 1: GPS MINIMAP & FAST TRAVEL */}
           {activeTab === "map" && (
-            <div className="space-y-4">
-              <div className="relative w-full aspect-square rounded-3xl bg-sky-950/90 border border-cyan-400/30 overflow-hidden shadow-inner">
+            <div className="space-y-3 sm:space-y-4">
+              <div className="relative w-full aspect-square max-h-[220px] sm:max-h-[280px] rounded-2xl sm:rounded-3xl bg-sky-950/90 border border-cyan-400/30 overflow-hidden shadow-inner mx-auto">
                 {/* Stylized Archipelago SVG Map */}
                 <svg className="w-full h-full" viewBox={`0 0 ${mapWidth} ${mapHeight}`}>
                   {/* Water grid */}
@@ -286,7 +287,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
         </div>
 
         {/* Bottom Smartphone Navigation Bar */}
-        <div className="h-16 px-4 bg-slate-950 border-t border-white/10 grid grid-cols-4 items-center">
+        <div className="h-14 sm:h-16 px-4 bg-slate-950 border-t border-white/10 grid grid-cols-4 items-center shrink-0">
           <button
             onClick={() => setActiveTab("map")}
             className={`flex flex-col items-center gap-1 text-[10px] font-bold ${

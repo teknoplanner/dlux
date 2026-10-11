@@ -67,14 +67,6 @@ export const Navbar: React.FC = () => {
               Home
             </Link>
             <Link
-              href="/world"
-              className="inline-flex items-center gap-1.5 text-sm font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
-            >
-              <Compass className="w-4 h-4 text-emerald-600" />
-              World
-              <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700">3D</span>
-            </Link>
-            <Link
               href="/#featured"
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
@@ -91,6 +83,14 @@ export const Navbar: React.FC = () => {
               className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
             >
               Gear
+            </Link>
+            <Link
+              href="/world"
+              className="inline-flex items-center gap-1.5 text-sm font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
+            >
+              <Compass className="w-4 h-4 text-emerald-600" />
+              World
+              <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700">3D</span>
             </Link>
           </nav>
 
@@ -132,17 +132,6 @@ export const Navbar: React.FC = () => {
             Home
           </Link>
           <Link
-            href="/world"
-            onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center justify-between text-sm font-bold text-emerald-600 hover:text-emerald-700 py-2.5 border-b border-slate-100"
-          >
-            <div className="flex items-center gap-3">
-              <Compass className="w-4 h-4 text-emerald-600" />
-              World 3D
-            </div>
-            <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700">Play Now</span>
-          </Link>
-          <Link
             href="/#featured"
             onClick={() => setMobileMenuOpen(false)}
             className="flex items-center gap-3 text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
@@ -165,6 +154,17 @@ export const Navbar: React.FC = () => {
           >
             <Gamepad2 className="w-4 h-4 text-cyan-600" />
             Gear
+          </Link>
+          <Link
+            href="/world"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between text-sm font-bold text-emerald-600 hover:text-emerald-700 py-2.5 border-b border-slate-100"
+          >
+            <div className="flex items-center gap-3">
+              <Compass className="w-4 h-4 text-emerald-600" />
+              World 3D
+            </div>
+            <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700">Play Now</span>
           </Link>
           <div className="pt-2">
             <Button

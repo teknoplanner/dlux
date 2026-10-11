@@ -153,6 +153,14 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link
+                  href="/world"
+                  className="hover:text-emerald-400 text-slate-400 transition-colors flex items-center gap-2"
+                >
+                  World 3D Interactive
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/#about"
                   className="hover:text-white text-slate-400 transition-colors flex items-center gap-2"
                 >

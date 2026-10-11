@@ -266,8 +266,9 @@ export const WorldGameCanvas: React.FC = () => {
                 className="w-full group relative py-4 px-6 rounded-xl bg-gradient-to-b from-emerald-400 via-emerald-500 to-emerald-600 hover:from-emerald-300 hover:to-emerald-500 text-slate-950 font-black tracking-wider uppercase border-t-2 border-emerald-200 border-b-[6px] border-emerald-900 active:border-b-0 active:translate-y-[6px] shadow-[0_8px_20px_rgba(16,185,129,0.35)] transition-all cursor-pointer flex items-center justify-center gap-3"
               >
                 <Play className="w-5 h-5 fill-slate-950" />
-                <span className="text-lg sm:text-xl font-display font-black tracking-widest">
-                  PRESS START • FULLSCREEN
+                <span className="text-base sm:text-xl font-display font-black tracking-widest">
+                  <span className="hidden sm:inline">PRESS START • FULLSCREEN</span>
+                  <span className="sm:hidden">START ADVENTURE</span>
                 </span>
               </button>
 
@@ -286,7 +287,8 @@ export const WorldGameCanvas: React.FC = () => {
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
               <span>FREE PLAY</span>
               <span className="text-slate-600">•</span>
-              <span>PRESS <kbd className="px-1.5 py-0.5 rounded bg-slate-800 text-slate-200 border border-slate-700 font-bold">F</kbd> FOR FULLSCREEN</span>
+              <span className="hidden sm:inline">PRESS <kbd className="px-1.5 py-0.5 rounded bg-slate-800 text-slate-200 border border-slate-700 font-bold">F</kbd> FOR FULLSCREEN</span>
+              <span className="sm:hidden">TOUCH &amp; GAMEPAD SUPPORTED</span>
             </div>
           </div>
         </div>

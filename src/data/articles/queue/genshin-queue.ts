@@ -3,7 +3,7 @@ import { ArticleItem } from "../types";
 export const genshinQueueArticles: ArticleItem[] = [
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-artefak-farming-efisien-domain-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-artefak-farming-efi",
+    "slugEn": "genshin-honkai-meta-efficient-artifact-domain-resin-management-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -83,9 +83,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Artefak Farm | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Efficient Artifact Domain Resin Management (2026 Edition #2)",
+    "metaTitleEn": "Genshin Meta: Efficient Artifact Domain Resin | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Efficient Artifact Domain Resin Management. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -94,47 +94,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Efficient Artifact Domain Resin Management. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Efficient Artifact Domain Resin Management (2026 Edition #2)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -155,7 +155,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-hyperbloom-kuki-shinobu-alha",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-hyperbloom-ku",
+    "slugEn": "genshin-honkai-meta-alhaitham-kuki-shinobu-hyperbloom-synergy-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -235,9 +235,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Hyperb | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Alhaitham & Kuki Shinobu Hyperbloom Synergy (2026 Edition #3)",
+    "metaTitleEn": "Genshin Meta: Alhaitham & Kuki Shinobu | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Alhaitham & Kuki Shinobu Hyperbloom Synergy. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -246,47 +246,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Alhaitham & Kuki Shinobu Hyperbloom Synergy. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Alhaitham & Kuki Shinobu Hyperbloom Synergy (2026 Edition #3)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -307,7 +307,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-neuvillette-solo-carry-edisi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-neuvillette-s",
+    "slugEn": "genshin-honkai-meta-neuvillette-solo-hydro-hypercarry-build-2026-edition-4",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -387,9 +387,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Neuvil | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Neuvillette Solo Hydro Hypercarry Build (2026 Edition #4)",
+    "metaTitleEn": "Genshin Meta: Neuvillette Solo Hydro | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Neuvillette Solo Hydro Hypercarry Build. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -398,47 +398,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Neuvillette Solo Hydro Hypercarry Build. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Neuvillette Solo Hydro Hypercarry Build (2026 Edition #4)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -459,7 +459,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-furina-buff-fanfare-edisi-20",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-furina-buff-f",
+    "slugEn": "genshin-honkai-meta-furina-fanfare-buffer-sub-dps-build-2026-edition-5",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -539,9 +539,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Furina | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Furina Fanfare Buffer & Sub-DPS Build (2026 Edition #5)",
+    "metaTitleEn": "Genshin Meta: Furina Fanfare Buffer & Sub-DPS | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Furina Fanfare Buffer & Sub-DPS Build. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -550,47 +550,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Furina Fanfare Buffer & Sub-DPS Build. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Furina Fanfare Buffer & Sub-DPS Build (2026 Edition #5)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -611,7 +611,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-arlecchino-bond-of-life-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-arlecchino-bo",
+    "slugEn": "genshin-honkai-meta-arlecchino-bond-of-life-pyro-hypercarry-build-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -691,9 +691,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Arlecc | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Arlecchino Bond of Life Pyro Hypercarry Build (2026 Edition #6)",
+    "metaTitleEn": "Genshin Meta: Arlecchino Bond of Life Pyro | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Arlecchino Bond of Life Pyro Hypercarry Build. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -702,47 +702,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Arlecchino Bond of Life Pyro Hypercarry Build. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Arlecchino Bond of Life Pyro Hypercarry Build (2026 Edition #6)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -763,7 +763,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-raiden-shogun-national-team-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-raiden-shogun",
+    "slugEn": "genshin-honkai-meta-raiden-shogun-rational-team-cycling-2026-edition-7",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -843,9 +843,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Raiden | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Raiden Shogun Rational Team Cycling (2026 Edition #7)",
+    "metaTitleEn": "Genshin Meta: Raiden Shogun Rational Team | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Raiden Shogun Rational Team Cycling. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -854,47 +854,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Raiden Shogun Rational Team Cycling. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Raiden Shogun Rational Team Cycling (2026 Edition #7)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -915,7 +915,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-nahida-dendro-applicator-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-nahida-dendro",
+    "slugEn": "genshin-honkai-meta-nahida-dendro-application-tri-karma-setup-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -995,9 +995,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Nahida | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Nahida Dendro Application & Tri-Karma Setup (2026 Edition #8)",
+    "metaTitleEn": "Genshin Meta: Nahida Dendro Application & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Nahida Dendro Application & Tri-Karma Setup. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -1006,47 +1006,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Nahida Dendro Application & Tri-Karma Setup. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Nahida Dendro Application & Tri-Karma Setup (2026 Edition #8)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -1067,7 +1067,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-kazuha-swirl-double-vv-edisi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-kazuha-swirl-",
+    "slugEn": "genshin-honkai-meta-kaedehara-kazuha-double-swirl-viridescent-venerer-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1147,9 +1147,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Kazuha | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Kaedehara Kazuha Double Swirl Viridescent Venerer (2026 Edition #9)",
+    "metaTitleEn": "Genshin Meta: Kaedehara Kazuha Double Swirl | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Kaedehara Kazuha Double Swirl Viridescent Venerer. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -1158,47 +1158,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Kaedehara Kazuha Double Swirl Viridescent Venerer. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Kaedehara Kazuha Double Swirl Viridescent Venerer (2026 Edition #9)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -1219,7 +1219,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-zhongli-shield-kebal-bintang",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-zhongli-shiel",
+    "slugEn": "genshin-honkai-meta-zhongli-unbreakable-shield-resistance-shred-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1299,9 +1299,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Zhongl | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Zhongli Unbreakable Shield & Resistance Shred (2026 Edition #10)",
+    "metaTitleEn": "Genshin Meta: Zhongli Unbreakable Shield & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Zhongli Unbreakable Shield & Resistance Shred. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -1310,47 +1310,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Zhongli Unbreakable Shield & Resistance Shred. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Zhongli Unbreakable Shield & Resistance Shred (2026 Edition #10)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -1371,7 +1371,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-hu-tao-vaporize-yelan-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-hu-tao-vapori",
+    "slugEn": "genshin-honkai-meta-hu-tao-yelan-high-multiplier-vaporize-team-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1451,9 +1451,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Hu Tao | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Hu Tao & Yelan High-Multiplier Vaporize Team (2026 Edition #11)",
+    "metaTitleEn": "Genshin Meta: Hu Tao & Yelan High-Multiplier | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Hu Tao & Yelan High-Multiplier Vaporize Team. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -1462,47 +1462,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Hu Tao & Yelan High-Multiplier Vaporize Team. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Hu Tao & Yelan High-Multiplier Vaporize Team (2026 Edition #11)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -1523,7 +1523,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-navia-geo-crystallize-nuke-e",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-navia-geo-cry",
+    "slugEn": "genshin-honkai-meta-navia-crystallize-gunbrella-shotgun-nuke-2026-edition-1",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1603,9 +1603,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Navia  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Navia Crystallize Gunbrella Shotgun Nuke (2026 Edition #12)",
+    "metaTitleEn": "Genshin Meta: Navia Crystallize Gunbrella | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Navia Crystallize Gunbrella Shotgun Nuke. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -1614,47 +1614,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Navia Crystallize Gunbrella Shotgun Nuke. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Navia Crystallize Gunbrella Shotgun Nuke (2026 Edition #12)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -1675,7 +1675,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-clorinde-electro-pistol-dash",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-clorinde-elec",
+    "slugEn": "genshin-honkai-meta-clorinde-electro-pistol-thrust-dash-mechanics-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1755,9 +1755,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Clorin | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Clorinde Electro Pistol Thrust & Dash Mechanics (2026 Edition #13)",
+    "metaTitleEn": "Genshin Meta: Clorinde Electro Pistol Thrust | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Clorinde Electro Pistol Thrust & Dash Mechanics. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -1766,47 +1766,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Clorinde Electro Pistol Thrust & Dash Mechanics. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Clorinde Electro Pistol Thrust & Dash Mechanics (2026 Edition #13)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -1827,7 +1827,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-emilie-dendro-burning-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-emilie-dendro",
+    "slugEn": "genshin-honkai-meta-emilie-dendro-burning-sub-dps-harmonization-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1907,9 +1907,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Emilie | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Emilie Dendro Burning Sub-DPS Harmonization (2026 Edition #14)",
+    "metaTitleEn": "Genshin Meta: Emilie Dendro Burning Sub-DPS | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Emilie Dendro Burning Sub-DPS Harmonization. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -1918,47 +1918,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Emilie Dendro Burning Sub-DPS Harmonization. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Emilie Dendro Burning Sub-DPS Harmonization (2026 Edition #14)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -1979,7 +1979,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-kinich-saurian-grapple-edisi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-kinich-sauria",
+    "slugEn": "genshin-honkai-meta-kinich-saurian-grapple-nightsoul-cannon-2026-edition-15",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2059,9 +2059,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Kinich | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Kinich Saurian Grapple & Nightsoul Cannon (2026 Edition #15)",
+    "metaTitleEn": "Genshin Meta: Kinich Saurian Grapple & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Kinich Saurian Grapple & Nightsoul Cannon. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -2070,47 +2070,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Kinich Saurian Grapple & Nightsoul Cannon. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Kinich Saurian Grapple & Nightsoul Cannon (2026 Edition #15)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -2131,7 +2131,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-mualani-shark-surf-vaporize-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-mualani-shark",
+    "slugEn": "genshin-honkai-meta-mualani-shark-surfing-vaporize-burst-2026-edition-16",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2211,9 +2211,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Mualan | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Mualani Shark-Surfing Vaporize Burst (2026 Edition #16)",
+    "metaTitleEn": "Genshin Meta: Mualani Shark-Surfing Vaporize | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Mualani Shark-Surfing Vaporize Burst. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -2222,47 +2222,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Mualani Shark-Surfing Vaporize Burst. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Mualani Shark-Surfing Vaporize Burst (2026 Edition #16)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -2283,7 +2283,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-xilonen-geo-resonansi-shred-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-xilonen-geo-r",
+    "slugEn": "genshin-honkai-meta-xilonen-geo-resonance-resistance-shred-2026-edition-17",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2363,9 +2363,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Xilone | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Xilonen Geo Resonance Resistance Shred (2026 Edition #17)",
+    "metaTitleEn": "Genshin Meta: Xilonen Geo Resonance | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Xilonen Geo Resonance Resistance Shred. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -2374,47 +2374,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Xilonen Geo Resonance Resistance Shred. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Xilonen Geo Resonance Resistance Shred (2026 Edition #17)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -2435,7 +2435,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-chasca-anemo-flying-gun-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-chasca-anemo-",
+    "slugEn": "genshin-honkai-meta-chasca-anemo-aerial-recon-multi-element-burst-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2515,9 +2515,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Chasca | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Chasca Anemo Aerial Recon & Multi-Element Burst (2026 Edition #18)",
+    "metaTitleEn": "Genshin Meta: Chasca Anemo Aerial Recon & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Chasca Anemo Aerial Recon & Multi-Element Burst. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -2526,47 +2526,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Chasca Anemo Aerial Recon & Multi-Element Burst. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Chasca Anemo Aerial Recon & Multi-Element Burst (2026 Edition #18)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -2587,7 +2587,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-mavuika-pyro-archon-teori-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-mavuika-pyro-",
+    "slugEn": "genshin-honkai-meta-mavuika-pyro-archon-team-synergy-predictions-2026-editi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2667,9 +2667,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Mavuik | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Mavuika Pyro Archon Team Synergy Predictions (2026 Edition #19)",
+    "metaTitleEn": "Genshin Meta: Mavuika Pyro Archon Team | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Mavuika Pyro Archon Team Synergy Predictions. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -2678,47 +2678,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Mavuika Pyro Archon Team Synergy Predictions. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Mavuika Pyro Archon Team Synergy Predictions (2026 Edition #19)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -2739,7 +2739,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-capitano-fatui-harbinger-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-capitano-fatu",
+    "slugEn": "genshin-honkai-meta-capitano-harbinger-combat-meta-analysis-2026-edition-20",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2819,9 +2819,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Capita | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Capitano Harbinger Combat Meta Analysis (2026 Edition #20)",
+    "metaTitleEn": "Genshin Meta: Capitano Harbinger Combat Meta | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Capitano Harbinger Combat Meta Analysis. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -2830,47 +2830,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Capitano Harbinger Combat Meta Analysis. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Capitano Harbinger Combat Meta Analysis (2026 Edition #20)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -2891,7 +2891,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-honkai-star-rail-memory-of-chaos-1",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-honkai-star-rail-me",
+    "slugEn": "genshin-honkai-meta-honkai-star-rail-memory-of-chaos-floor-12-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2971,9 +2971,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Honkai Star  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Honkai Star Rail Memory of Chaos Floor 12 (2026 Edition #21)",
+    "metaTitleEn": "Genshin Meta: Honkai Star Rail Memory of | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Honkai Star Rail Memory of Chaos Floor 12. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -2982,47 +2982,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Honkai Star Rail Memory of Chaos Floor 12. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Honkai Star Rail Memory of Chaos Floor 12 (2026 Edition #21)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -3043,7 +3043,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-firefly-super-break-ruan-mei",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-firefly-super",
+    "slugEn": "genshin-honkai-meta-firefly-ruan-mei-super-break-harmony-2026-edition-22",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3123,9 +3123,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Firefl | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Firefly & Ruan Mei Super Break Harmony (2026 Edition #22)",
+    "metaTitleEn": "Genshin Meta: Firefly & Ruan Mei Super Break | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Firefly & Ruan Mei Super Break Harmony. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -3134,47 +3134,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Firefly & Ruan Mei Super Break Harmony. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Firefly & Ruan Mei Super Break Harmony (2026 Edition #22)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -3195,7 +3195,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-acheron-nihility-nuke-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-acheron-nihil",
+    "slugEn": "genshin-honkai-meta-acheron-nihility-debuff-stacking-nuke-2026-edition-23",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3275,9 +3275,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Achero | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Acheron Nihility Debuff Stacking Nuke (2026 Edition #23)",
+    "metaTitleEn": "Genshin Meta: Acheron Nihility Debuff | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Acheron Nihility Debuff Stacking Nuke. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -3286,47 +3286,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Acheron Nihility Debuff Stacking Nuke. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Acheron Nihility Debuff Stacking Nuke (2026 Edition #23)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -3347,7 +3347,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-feixiao-hunt-follow-up-edisi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-feixiao-hunt-",
+    "slugEn": "genshin-honkai-meta-feixiao-hunt-follow-up-attack-speed-synergy-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3427,9 +3427,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Feixia | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Feixiao Hunt Follow-Up Attack Speed Synergy (2026 Edition #24)",
+    "metaTitleEn": "Genshin Meta: Feixiao Hunt Follow-Up Attack | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Feixiao Hunt Follow-Up Attack Speed Synergy. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -3438,47 +3438,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Feixiao Hunt Follow-Up Attack Speed Synergy. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Feixiao Hunt Follow-Up Attack Speed Synergy (2026 Edition #24)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -3499,7 +3499,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-robin-harmony-chorus-edisi-2",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-robin-harmony",
+    "slugEn": "genshin-honkai-meta-robin-harmony-concerto-team-action-advance-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3579,9 +3579,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Robin  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Robin Harmony Concerto Team Action Advance (2026 Edition #25)",
+    "metaTitleEn": "Genshin Meta: Robin Harmony Concerto Team | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Robin Harmony Concerto Team Action Advance. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -3590,47 +3590,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Robin Harmony Concerto Team Action Advance. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Robin Harmony Concerto Team Action Advance (2026 Edition #25)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -3651,7 +3651,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-aventurine-preservation-shie",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-aventurine-pr",
+    "slugEn": "genshin-honkai-meta-aventurine-stacked-coin-shields-blind-bet-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3731,9 +3731,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Aventu | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Aventurine Stacked Coin Shields & Blind Bet (2026 Edition #26)",
+    "metaTitleEn": "Genshin Meta: Aventurine Stacked Coin Shields | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Aventurine Stacked Coin Shields & Blind Bet. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -3742,47 +3742,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Aventurine Stacked Coin Shields & Blind Bet. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Aventurine Stacked Coin Shields & Blind Bet (2026 Edition #26)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -3803,7 +3803,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-sparkle-quantum-action-advan",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-sparkle-quant",
+    "slugEn": "genshin-honkai-meta-sparkle-quantum-skill-point-action-advance-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3883,9 +3883,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Sparkl | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Sparkle Quantum Skill Point & Action Advance (2026 Edition #27)",
+    "metaTitleEn": "Genshin Meta: Sparkle Quantum Skill Point & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Sparkle Quantum Skill Point & Action Advance. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -3894,47 +3894,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Sparkle Quantum Skill Point & Action Advance. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Sparkle Quantum Skill Point & Action Advance (2026 Edition #27)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -3955,7 +3955,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-ruan-mei-break-speed-buffer-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-ruan-mei-brea",
+    "slugEn": "genshin-honkai-meta-ruan-mei-break-efficiency-speed-amplification-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4035,9 +4035,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Ruan M | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Ruan Mei Break Efficiency & Speed Amplification (2026 Edition #28)",
+    "metaTitleEn": "Genshin Meta: Ruan Mei Break Efficiency & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Ruan Mei Break Efficiency & Speed Amplification. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -4046,47 +4046,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Ruan Mei Break Efficiency & Speed Amplification. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Ruan Mei Break Efficiency & Speed Amplification (2026 Edition #28)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -4107,7 +4107,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-dan-heng-il-propagation-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-dan-heng-il-p",
+    "slugEn": "genshin-honkai-meta-dan-heng-imbibitor-lunae-propagation-3-sp-burst-2026-ed",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4187,9 +4187,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Dan He | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Dan Heng Imbibitor Lunae Propagation 3-SP Burst (2026 Edition #29)",
+    "metaTitleEn": "Genshin Meta: Dan Heng Imbibitor Lunae | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Dan Heng Imbibitor Lunae Propagation 3-SP Burst. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -4198,47 +4198,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Dan Heng Imbibitor Lunae Propagation 3-SP Burst. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Dan Heng Imbibitor Lunae Propagation 3-SP Burst (2026 Edition #29)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -4259,7 +4259,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-build-jingliu-destruction-transmig",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-build-jingliu-destr",
+    "slugEn": "genshin-honkai-meta-jingliu-destruction-spectral-transmigration-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4339,9 +4339,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Build Jingli | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Jingliu Destruction Spectral Transmigration (2026 Edition #30)",
+    "metaTitleEn": "Genshin Meta: Jingliu Destruction Spectral | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Jingliu Destruction Spectral Transmigration. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -4350,47 +4350,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Jingliu Destruction Spectral Transmigration. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Jingliu Destruction Spectral Transmigration (2026 Edition #30)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -4411,7 +4411,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-speed-tuning-134-breakpoint-hsr-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-speed-tuning-134-br",
+    "slugEn": "genshin-honkai-meta-honkai-star-rail-134-speed-breakpoint-tuning-2026-editi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4491,9 +4491,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Speed Tuning | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Honkai Star Rail 134 Speed Breakpoint Tuning (2026 Edition #31)",
+    "metaTitleEn": "Genshin Meta: Honkai Star Rail 134 Speed | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Honkai Star Rail 134 Speed Breakpoint Tuning. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -4502,47 +4502,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Honkai Star Rail 134 Speed Breakpoint Tuning. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Honkai Star Rail 134 Speed Breakpoint Tuning (2026 Edition #31)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -4563,7 +4563,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-energy-recharge-threshold-genshin-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-energy-recharge-thr",
+    "slugEn": "genshin-honkai-meta-genshin-impact-energy-recharge-threshold-benchmarks-202",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4643,9 +4643,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Energy Recha | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Genshin Impact Energy Recharge Threshold Benchmarks (2026 Edition #32)",
+    "metaTitleEn": "Genshin Meta: Genshin Impact Energy Recharge | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Genshin Impact Energy Recharge Threshold Benchmarks. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -4654,47 +4654,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Genshin Impact Energy Recharge Threshold Benchmarks. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Genshin Impact Energy Recharge Threshold Benchmarks (2026 Edition #32)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -4715,7 +4715,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-elemental-gauge-theory-icd-trik-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-elemental-gauge-the",
+    "slugEn": "genshin-honkai-meta-elemental-gauge-theory-icd-aura-application-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4795,9 +4795,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Elemental Ga | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Elemental Gauge Theory & ICD Aura Application (2026 Edition #33)",
+    "metaTitleEn": "Genshin Meta: Elemental Gauge Theory & ICD | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Elemental Gauge Theory & ICD Aura Application. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -4806,47 +4806,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Elemental Gauge Theory & ICD Aura Application. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Elemental Gauge Theory & ICD Aura Application (2026 Edition #33)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -4867,7 +4867,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-farm-primogem-gratis-natlan-map-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-farm-primogem-grati",
+    "slugEn": "genshin-honkai-meta-free-primogems-exploration-route-in-natlan-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4947,9 +4947,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Farm Primoge | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Free Primogems Exploration Route in Natlan (2026 Edition #34)",
+    "metaTitleEn": "Genshin Meta: Free Primogems Exploration | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Free Primogems Exploration Route in Natlan. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -4958,47 +4958,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Free Primogems Exploration Route in Natlan. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Free Primogems Exploration Route in Natlan (2026 Edition #34)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -5019,7 +5019,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-farm-stellar-jade-penacony-chest-e",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-farm-stellar-jade-p",
+    "slugEn": "genshin-honkai-meta-penacony-chest-route-for-free-stellar-jades-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5099,9 +5099,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Farm Stellar | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Penacony Chest Route for Free Stellar Jades (2026 Edition #35)",
+    "metaTitleEn": "Genshin Meta: Penacony Chest Route for Free | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Penacony Chest Route for Free Stellar Jades. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -5110,47 +5110,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Penacony Chest Route for Free Stellar Jades. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Penacony Chest Route for Free Stellar Jades (2026 Edition #35)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -5171,7 +5171,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-simulated-universe-gold-and-gears-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-simulated-universe-",
+    "slugEn": "genshin-honkai-meta-simulated-universe-gold-gears-dice-customization-2026-e",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5251,9 +5251,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Simulated Un | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Simulated Universe Gold & Gears Dice Customization (2026 Edition #36)",
+    "metaTitleEn": "Genshin Meta: Simulated Universe Gold & Gears | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Simulated Universe Gold & Gears Dice Customization. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -5262,47 +5262,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Simulated Universe Gold & Gears Dice Customization. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Simulated Universe Gold & Gears Dice Customization (2026 Edition #36)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -5323,7 +5323,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-divergent-universe-path-resonance-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-divergent-universe-",
+    "slugEn": "genshin-honkai-meta-divergent-universe-equations-path-resonances-2026-editi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5403,9 +5403,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Divergent Un | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Divergent Universe Equations & Path Resonances (2026 Edition #37)",
+    "metaTitleEn": "Genshin Meta: Divergent Universe Equations & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Divergent Universe Equations & Path Resonances. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -5414,47 +5414,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Divergent Universe Equations & Path Resonances. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Divergent Universe Equations & Path Resonances (2026 Edition #37)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -5475,7 +5475,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-echo-of-war-boss-farming-material-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-echo-of-war-boss-fa",
+    "slugEn": "genshin-honkai-meta-echo-of-war-weekly-boss-material-optimization-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5555,9 +5555,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Echo of War  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Echo of War Weekly Boss Material Optimization (2026 Edition #38)",
+    "metaTitleEn": "Genshin Meta: Echo of War Weekly Boss | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Echo of War Weekly Boss Material Optimization. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -5566,47 +5566,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Echo of War Weekly Boss Material Optimization. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Echo of War Weekly Boss Material Optimization (2026 Edition #38)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -5627,7 +5627,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-reroll-substat-artefak-roll-4-crit",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-reroll-substat-arte",
+    "slugEn": "genshin-honkai-meta-artifact-substat-rolling-4-crit-upgrade-priorities-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5707,9 +5707,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Reroll Subst | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Artifact Substat Rolling & 4-Crit Upgrade Priorities (2026 Edition #39)",
+    "metaTitleEn": "Genshin Meta: Artifact Substat Rolling & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Artifact Substat Rolling & 4-Crit Upgrade Priorities. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -5718,47 +5718,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Artifact Substat Rolling & 4-Crit Upgrade Priorities. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Artifact Substat Rolling & 4-Crit Upgrade Priorities (2026 Edition #39)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -5779,7 +5779,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-crit-ratio-12-golden-rule-edisi-20",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-crit-ratio-12-golde",
+    "slugEn": "genshin-honkai-meta-the-12-golden-crit-ratio-60120-to-80160-2026-edition-40",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5859,9 +5859,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Crit Ratio 1 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: The 1:2 Golden Crit Ratio (60/120 to 80/160) (2026 Edition #40)",
+    "metaTitleEn": "Genshin Meta: The 1:2 Golden Crit Ratio | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on The 1:2 Golden Crit Ratio (60/120 to 80/160). Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -5870,47 +5870,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: The 1:2 Golden Crit Ratio (60/120 to 80/160). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: The 1:2 Golden Crit Ratio (60/120 to 80/160) (2026 Edition #40)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -5931,7 +5931,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-ascension-material-boss-route-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-ascension-material-",
+    "slugEn": "genshin-honkai-meta-fast-boss-routes-for-character-ascension-materials-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6011,9 +6011,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Ascension Ma | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Fast Boss Routes for Character Ascension Materials (2026 Edition #41)",
+    "metaTitleEn": "Genshin Meta: Fast Boss Routes for Character | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Fast Boss Routes for Character Ascension Materials. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -6022,47 +6022,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Fast Boss Routes for Character Ascension Materials. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Fast Boss Routes for Character Ascension Materials (2026 Edition #41)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -6083,7 +6083,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-local-specialty-168-karakter-cepat",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-local-specialty-168",
+    "slugEn": "genshin-honkai-meta-168-local-specialty-collection-route-optimization-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6163,9 +6163,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Local Specia | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: 168 Local Specialty Collection Route Optimization (2026 Edition #42)",
+    "metaTitleEn": "Genshin Meta: 168 Local Specialty Collection | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on 168 Local Specialty Collection Route Optimization. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -6174,47 +6174,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: 168 Local Specialty Collection Route Optimization. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: 168 Local Specialty Collection Route Optimization (2026 Edition #42)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -6235,7 +6235,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-senjata-bintang-4-f2p-alternatif-e",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-senjata-bintang-4-f",
+    "slugEn": "genshin-honkai-meta-best-f2p-4-star-weapon-alternatives-2026-edition-43",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6315,9 +6315,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Senjata Bint | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Best F2P 4-Star Weapon Alternatives (2026 Edition #43)",
+    "metaTitleEn": "Genshin Meta: Best F2P 4-Star Weapon | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Best F2P 4-Star Weapon Alternatives. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -6326,47 +6326,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Best F2P 4-Star Weapon Alternatives. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Best F2P 4-Star Weapon Alternatives (2026 Edition #43)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -6387,7 +6387,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-light-cone-bintang-4-herta-store-e",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-light-cone-bintang-",
+    "slugEn": "genshin-honkai-meta-best-4-star-light-cones-herta-store-priorities-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6467,9 +6467,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Light Cone B | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Best 4-Star Light Cones & Herta Store Priorities (2026 Edition #44)",
+    "metaTitleEn": "Genshin Meta: Best 4-Star Light Cones & Herta | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Best 4-Star Light Cones & Herta Store Priorities. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -6478,47 +6478,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Best 4-Star Light Cones & Herta Store Priorities. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Best 4-Star Light Cones & Herta Store Priorities (2026 Edition #44)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -6539,7 +6539,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-daily-resin-management-efisien-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-daily-resin-managem",
+    "slugEn": "genshin-honkai-meta-daily-resin-condensed-resin-spending-discipline-2026-ed",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6619,9 +6619,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Daily Resin  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Daily Resin & Condensed Resin Spending Discipline (2026 Edition #45)",
+    "metaTitleEn": "Genshin Meta: Daily Resin & Condensed Resin | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Daily Resin & Condensed Resin Spending Discipline. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -6630,47 +6630,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Daily Resin & Condensed Resin Spending Discipline. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Daily Resin & Condensed Resin Spending Discipline (2026 Edition #45)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -6691,7 +6691,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-trailblaze-power-cap-farm-relic-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-trailblaze-power-ca",
+    "slugEn": "genshin-honkai-meta-trailblaze-power-efficiency-cavern-relic-farming-2026-e",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6771,9 +6771,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Trailblaze P | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Trailblaze Power Efficiency & Cavern Relic Farming (2026 Edition #46)",
+    "metaTitleEn": "Genshin Meta: Trailblaze Power Efficiency & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Trailblaze Power Efficiency & Cavern Relic Farming. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -6782,47 +6782,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Trailblaze Power Efficiency & Cavern Relic Farming. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Trailblaze Power Efficiency & Cavern Relic Farming (2026 Edition #46)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -6843,7 +6843,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-lore-teyvat-rahasia-khaenriah-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-lore-teyvat-rahasia",
+    "slugEn": "genshin-honkai-meta-teyvat-lore-mysteries-khaenriah-ancient-dynasties-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6923,9 +6923,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Lore Teyvat  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Teyvat Lore Mysteries: Khaenri'ah & Ancient Dynasties (2026 Edition #47)",
+    "metaTitleEn": "Genshin Meta: Teyvat Lore Mysteries: | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Teyvat Lore Mysteries: Khaenri'ah & Ancient Dynasties. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -6934,47 +6934,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Teyvat Lore Mysteries: Khaenri'ah & Ancient Dynasties. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Teyvat Lore Mysteries: Khaenri'ah & Ancient Dynasties (2026 Edition #47)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -6995,7 +6995,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-lore-penacony-stellaron-hunter-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-lore-penacony-stell",
+    "slugEn": "genshin-honkai-meta-penacony-stellaron-hunter-motives-destiny-lore-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7075,9 +7075,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Lore Penacon | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Penacony Stellaron Hunter Motives & Destiny Lore (2026 Edition #48)",
+    "metaTitleEn": "Genshin Meta: Penacony Stellaron Hunter | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Penacony Stellaron Hunter Motives & Destiny Lore. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -7086,47 +7086,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Penacony Stellaron Hunter Motives & Destiny Lore. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Penacony Stellaron Hunter Motives & Destiny Lore (2026 Edition #48)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -7147,7 +7147,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-co-op-domain-tips-mabar-cepat-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-co-op-domain-tips-m",
+    "slugEn": "genshin-honkai-meta-fast-co-op-artifact-domain-farming-routines-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7227,9 +7227,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Co-op Domain | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Fast Co-Op Artifact Domain Farming Routines (2026 Edition #49)",
+    "metaTitleEn": "Genshin Meta: Fast Co-Op Artifact Domain | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Fast Co-Op Artifact Domain Farming Routines. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -7238,47 +7238,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Fast Co-Op Artifact Domain Farming Routines. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Fast Co-Op Artifact Domain Farming Routines (2026 Edition #49)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -7299,7 +7299,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-event-limited-waktu-reward-edisi-2",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-event-limited-waktu",
+    "slugEn": "genshin-honkai-meta-limited-time-event-rewards-crown-prioritization-2026-ed",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7379,9 +7379,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Event Limite | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Limited-Time Event Rewards & Crown Prioritization (2026 Edition #50)",
+    "metaTitleEn": "Genshin Meta: Limited-Time Event Rewards & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Limited-Time Event Rewards & Crown Prioritization. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -7390,47 +7390,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Limited-Time Event Rewards & Crown Prioritization. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Limited-Time Event Rewards & Crown Prioritization (2026 Edition #50)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -7451,7 +7451,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-fishing-the-catch-tombak-gratis-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-fishing-the-catch-t",
+    "slugEn": "genshin-honkai-meta-fishing-route-to-unlock-r5-the-catch-polearm-2026-editi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7531,9 +7531,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Fishing The  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Fishing Route to Unlock R5 'The Catch' Polearm (2026 Edition #51)",
+    "metaTitleEn": "Genshin Meta: Fishing Route to Unlock R5 'The | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Fishing Route to Unlock R5 'The Catch' Polearm. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -7542,47 +7542,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Fishing Route to Unlock R5 'The Catch' Polearm. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Fishing Route to Unlock R5 'The Catch' Polearm (2026 Edition #51)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -7603,7 +7603,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-reputation-reward-glider-natlan-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-reputation-reward-g",
+    "slugEn": "genshin-honkai-meta-natlan-city-reputation-wind-glider-unlocks-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7683,9 +7683,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Reputation R | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Natlan City Reputation & Wind Glider Unlocks (2026 Edition #52)",
+    "metaTitleEn": "Genshin Meta: Natlan City Reputation & Wind | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Natlan City Reputation & Wind Glider Unlocks. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -7694,47 +7694,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Natlan City Reputation & Wind Glider Unlocks. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Natlan City Reputation & Wind Glider Unlocks (2026 Edition #52)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -7755,7 +7755,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-teapot-dekorasi-load-limit-edisi-2",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-teapot-dekorasi-loa",
+    "slugEn": "genshin-honkai-meta-serenitea-pot-load-limit-coin-generation-2026-edition-5",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7835,9 +7835,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Teapot Dekor | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Serenitea Pot Load Limit & Coin Generation (2026 Edition #53)",
+    "metaTitleEn": "Genshin Meta: Serenitea Pot Load Limit & Coin | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Serenitea Pot Load Limit & Coin Generation. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -7846,47 +7846,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Serenitea Pot Load Limit & Coin Generation. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Serenitea Pot Load Limit & Coin Generation (2026 Edition #53)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -7907,7 +7907,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-paimon-bargain-fate-bulanan-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-paimon-bargain-fate",
+    "slugEn": "genshin-honkai-meta-paimons-bargains-monthly-intertwined-fate-shop-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7987,9 +7987,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Paimon Barga | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Paimon's Bargains Monthly Intertwined Fate Shop (2026 Edition #54)",
+    "metaTitleEn": "Genshin Meta: Paimon's Bargains Monthly | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Paimon's Bargains Monthly Intertwined Fate Shop. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -7998,47 +7998,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Paimon's Bargains Monthly Intertwined Fate Shop. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Paimon's Bargains Monthly Intertwined Fate Shop (2026 Edition #54)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -8059,7 +8059,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-starlight-exchange-senjata-blackcl",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-starlight-exchange-",
+    "slugEn": "genshin-honkai-meta-starlight-exchange-blackcliff-weapon-investment-2026-ed",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8139,9 +8139,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Starlight Ex | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Starlight Exchange Blackcliff Weapon Investment (2026 Edition #55)",
+    "metaTitleEn": "Genshin Meta: Starlight Exchange Blackcliff | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Starlight Exchange Blackcliff Weapon Investment. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -8150,47 +8150,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Starlight Exchange Blackcliff Weapon Investment. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Starlight Exchange Blackcliff Weapon Investment (2026 Edition #55)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -8211,7 +8211,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-banner-pity-5050-strategi-simpan-e",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-banner-pity-5050-st",
+    "slugEn": "genshin-honkai-meta-gacha-pity-management-5050-guarantee-strategies-2026-ed",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8291,9 +8291,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Banner Pity  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Gacha Pity Management & 50:50 Guarantee Strategies (2026 Edition #56)",
+    "metaTitleEn": "Genshin Meta: Gacha Pity Management & 50:50 | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Gacha Pity Management & 50:50 Guarantee Strategies. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -8302,47 +8302,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Gacha Pity Management & 50:50 Guarantee Strategies. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Gacha Pity Management & 50:50 Guarantee Strategies (2026 Edition #56)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -8363,7 +8363,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-weapon-banner-fate-point-trik-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-weapon-banner-fate-",
+    "slugEn": "genshin-honkai-meta-epitomized-path-fate-point-strategy-on-weapon-banners-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8443,9 +8443,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Weapon Banne | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Epitomized Path Fate Point Strategy on Weapon Banners (2026 Edition #57)",
+    "metaTitleEn": "Genshin Meta: Epitomized Path Fate Point | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Epitomized Path Fate Point Strategy on Weapon Banners. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -8454,47 +8454,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Epitomized Path Fate Point Strategy on Weapon Banners. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Epitomized Path Fate Point Strategy on Weapon Banners (2026 Edition #57)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -8515,7 +8515,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-battle-pass-senjata-rekomendasi-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-battle-pass-senjata",
+    "slugEn": "genshin-honkai-meta-battle-pass-4-star-weapon-selection-priorities-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8595,9 +8595,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Battle Pass  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Battle Pass 4-Star Weapon Selection Priorities (2026 Edition #58)",
+    "metaTitleEn": "Genshin Meta: Battle Pass 4-Star Weapon | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Battle Pass 4-Star Weapon Selection Priorities. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -8606,47 +8606,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Battle Pass 4-Star Weapon Selection Priorities. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Battle Pass 4-Star Weapon Selection Priorities (2026 Edition #58)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -8667,7 +8667,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-suikoden-saurian-natlan-mekanik-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-suikoden-saurian-na",
+    "slugEn": "genshin-honkai-meta-natlan-saurian-transformation-travel-mechanics-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8747,9 +8747,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Suikoden Sau | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Natlan Saurian Transformation & Travel Mechanics (2026 Edition #59)",
+    "metaTitleEn": "Genshin Meta: Natlan Saurian Transformation & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Natlan Saurian Transformation & Travel Mechanics. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -8758,47 +8758,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Natlan Saurian Transformation & Travel Mechanics. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Natlan Saurian Transformation & Travel Mechanics (2026 Edition #59)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -8819,7 +8819,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-phlogiston-bar-natlan-movement-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-phlogiston-bar-natl",
+    "slugEn": "genshin-honkai-meta-phlogiston-energy-bar-management-in-natlan-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8899,9 +8899,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Phlogiston B | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Phlogiston Energy Bar Management in Natlan (2026 Edition #60)",
+    "metaTitleEn": "Genshin Meta: Phlogiston Energy Bar | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Phlogiston Energy Bar Management in Natlan. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -8910,47 +8910,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Phlogiston Energy Bar Management in Natlan. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Phlogiston Energy Bar Management in Natlan (2026 Edition #60)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -8971,7 +8971,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-nightsoul-transmission-trik-ganti-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-nightsoul-transmiss",
+    "slugEn": "genshin-honkai-meta-nightsoul-transmission-character-swapping-tech-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9051,9 +9051,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Nightsoul Tr | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Nightsoul Transmission Character Swapping Tech (2026 Edition #61)",
+    "metaTitleEn": "Genshin Meta: Nightsoul Transmission | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Nightsoul Transmission Character Swapping Tech. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -9062,47 +9062,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Nightsoul Transmission Character Swapping Tech. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Nightsoul Transmission Character Swapping Tech (2026 Edition #61)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -9123,7 +9123,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-pure-fiction-erudition-team-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-pure-fiction-erudit",
+    "slugEn": "genshin-honkai-meta-pure-fiction-erudition-high-score-waveclearing-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9203,9 +9203,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Pure Fiction | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Pure Fiction Erudition High-Score Waveclearing (2026 Edition #62)",
+    "metaTitleEn": "Genshin Meta: Pure Fiction Erudition | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Pure Fiction Erudition High-Score Waveclearing. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -9214,47 +9214,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Pure Fiction Erudition High-Score Waveclearing. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Pure Fiction Erudition High-Score Waveclearing (2026 Edition #62)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -9275,7 +9275,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-apocalyptic-shadow-boss-trik-edisi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-apocalyptic-shadow-",
+    "slugEn": "genshin-honkai-meta-apocalyptic-shadow-boss-break-strategy-2026-edition-63",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9355,9 +9355,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Apocalyptic  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Apocalyptic Shadow Boss Break Strategy (2026 Edition #63)",
+    "metaTitleEn": "Genshin Meta: Apocalyptic Shadow Boss Break | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Apocalyptic Shadow Boss Break Strategy. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -9366,47 +9366,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Apocalyptic Shadow Boss Break Strategy. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Apocalyptic Shadow Boss Break Strategy (2026 Edition #63)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -9427,7 +9427,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-planar-ornaments-world-9-farm-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-planar-ornaments-wo",
+    "slugEn": "genshin-honkai-meta-planar-ornaments-world-9-immersion-extraction-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9507,9 +9507,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Planar Ornam | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Planar Ornaments World 9 Immersion Extraction (2026 Edition #64)",
+    "metaTitleEn": "Genshin Meta: Planar Ornaments World 9 | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Planar Ornaments World 9 Immersion Extraction. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -9518,47 +9518,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Planar Ornaments World 9 Immersion Extraction. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Planar Ornaments World 9 Immersion Extraction (2026 Edition #64)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -9579,7 +9579,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-relic-synthesis-self-modeling-resi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-relic-synthesis-sel",
+    "slugEn": "genshin-honkai-meta-self-modeling-resin-crafting-priorities-for-relics-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9659,9 +9659,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Relic Synthe | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Self-Modeling Resin Crafting Priorities for Relics (2026 Edition #65)",
+    "metaTitleEn": "Genshin Meta: Self-Modeling Resin Crafting | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Self-Modeling Resin Crafting Priorities for Relics. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -9670,47 +9670,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Self-Modeling Resin Crafting Priorities for Relics. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Self-Modeling Resin Crafting Priorities for Relics (2026 Edition #65)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -9731,7 +9731,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-genshin-cooking-stat-buff-boss-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-genshin-cooking-sta",
+    "slugEn": "genshin-honkai-meta-consumable-food-buff-stacking-for-weekly-bosses-2026-ed",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9811,9 +9811,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Genshin Cook | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Consumable Food Buff Stacking for Weekly Bosses (2026 Edition #66)",
+    "metaTitleEn": "Genshin Meta: Consumable Food Buff Stacking | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Consumable Food Buff Stacking for Weekly Bosses. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -9822,47 +9822,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Consumable Food Buff Stacking for Weekly Bosses. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Consumable Food Buff Stacking for Weekly Bosses (2026 Edition #66)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -9883,7 +9883,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-condensed-resin-crafting-hemat-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-condensed-resin-cra",
+    "slugEn": "genshin-honkai-meta-condensed-resin-crafting-time-saving-routines-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9963,9 +9963,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Condensed Re | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Condensed Resin Crafting & Time-Saving Routines (2026 Edition #67)",
+    "metaTitleEn": "Genshin Meta: Condensed Resin Crafting & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Condensed Resin Crafting & Time-Saving Routines. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -9974,47 +9974,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Condensed Resin Crafting & Time-Saving Routines. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Condensed Resin Crafting & Time-Saving Routines (2026 Edition #67)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -10035,7 +10035,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-parametric-transformer-loot-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-parametric-transfor",
+    "slugEn": "genshin-honkai-meta-parametric-transformer-input-materials-best-loot-2026-e",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10115,9 +10115,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Parametric T | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Parametric Transformer Input Materials & Best Loot (2026 Edition #68)",
+    "metaTitleEn": "Genshin Meta: Parametric Transformer Input | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Parametric Transformer Input Materials & Best Loot. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -10126,47 +10126,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Parametric Transformer Input Materials & Best Loot. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Parametric Transformer Input Materials & Best Loot (2026 Edition #68)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -10187,7 +10187,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-treasure-compass-natlan-100-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-treasure-compass-na",
+    "slugEn": "genshin-honkai-meta-natlan-treasure-compass-for-100-map-completion-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10267,9 +10267,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Treasure Com | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Natlan Treasure Compass for 100% Map Completion (2026 Edition #69)",
+    "metaTitleEn": "Genshin Meta: Natlan Treasure Compass for | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Natlan Treasure Compass for 100% Map Completion. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -10278,47 +10278,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Natlan Treasure Compass for 100% Map Completion. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Natlan Treasure Compass for 100% Map Completion (2026 Edition #69)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -10339,7 +10339,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-oculi-natlan-pyroculus-lokasi-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-oculi-natlan-pyrocu",
+    "slugEn": "genshin-honkai-meta-all-natlan-pyroculus-locations-collection-routes-2026-e",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10419,9 +10419,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Oculi Natlan | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: All Natlan Pyroculus Locations & Collection Routes (2026 Edition #70)",
+    "metaTitleEn": "Genshin Meta: All Natlan Pyroculus Locations | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on All Natlan Pyroculus Locations & Collection Routes. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -10430,47 +10430,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: All Natlan Pyroculus Locations & Collection Routes. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: All Natlan Pyroculus Locations & Collection Routes (2026 Edition #70)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -10491,7 +10491,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-shrine-of-depths-kunci-natlan-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-shrine-of-depths-ku",
+    "slugEn": "genshin-honkai-meta-natlan-shrine-of-depths-keys-luxurious-chests-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10571,9 +10571,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Shrine of De | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Natlan Shrine of Depths Keys & Luxurious Chests (2026 Edition #71)",
+    "metaTitleEn": "Genshin Meta: Natlan Shrine of Depths Keys & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Natlan Shrine of Depths Keys & Luxurious Chests. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -10582,47 +10582,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Natlan Shrine of Depths Keys & Luxurious Chests. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Natlan Shrine of Depths Keys & Luxurious Chests (2026 Edition #71)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -10643,7 +10643,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-spiral-abyss-buff-lunar-phase-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-spiral-abyss-buff-l",
+    "slugEn": "genshin-honkai-meta-exploiting-lunar-phase-blessings-in-spiral-abyss-2026-e",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10723,9 +10723,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Spiral Abyss | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Exploiting Lunar Phase Blessings in Spiral Abyss (2026 Edition #72)",
+    "metaTitleEn": "Genshin Meta: Exploiting Lunar Phase | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Exploiting Lunar Phase Blessings in Spiral Abyss. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -10734,47 +10734,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Exploiting Lunar Phase Blessings in Spiral Abyss. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Exploiting Lunar Phase Blessings in Spiral Abyss (2026 Edition #72)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -10795,7 +10795,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-floor-11-monolith-defense-trik-edi",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-floor-11-monolith-d",
+    "slugEn": "genshin-honkai-meta-floor-11-monolith-defense-crowd-control-taunts-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10875,9 +10875,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Floor 11 Mon | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Floor 11 Monolith Defense Crowd-Control Taunts (2026 Edition #73)",
+    "metaTitleEn": "Genshin Meta: Floor 11 Monolith Defense | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Floor 11 Monolith Defense Crowd-Control Taunts. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -10886,47 +10886,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Floor 11 Monolith Defense Crowd-Control Taunts. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Floor 11 Monolith Defense Crowd-Control Taunts (2026 Edition #73)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -10947,7 +10947,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-teyvat-fishing-weapon-polearm-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-teyvat-fishing-weap",
+    "slugEn": "genshin-honkai-meta-teyvat-fishing-hotspots-achievement-rewards-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11027,9 +11027,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Teyvat Fishi | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Teyvat Fishing Hotspots & Achievement Rewards (2026 Edition #74)",
+    "metaTitleEn": "Genshin Meta: Teyvat Fishing Hotspots & | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Teyvat Fishing Hotspots & Achievement Rewards. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -11038,47 +11038,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Teyvat Fishing Hotspots & Achievement Rewards. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Teyvat Fishing Hotspots & Achievement Rewards (2026 Edition #74)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -11099,7 +11099,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-natlan-tribe-reputation-max-edisi-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-natlan-tribe-reputa",
+    "slugEn": "genshin-honkai-meta-maxing-natlan-tribal-reputation-expeditions-2026-editio",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11179,9 +11179,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Natlan Tribe | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Maxing Natlan Tribal Reputation Expeditions (2026 Edition #75)",
+    "metaTitleEn": "Genshin Meta: Maxing Natlan Tribal Reputation | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Maxing Natlan Tribal Reputation Expeditions. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -11190,47 +11190,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Maxing Natlan Tribal Reputation Expeditions. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Maxing Natlan Tribal Reputation Expeditions (2026 Edition #75)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -11251,7 +11251,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-hsr-fate-collaboration-update-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-hsr-fate-collaborat",
+    "slugEn": "genshin-honkai-meta-honkai-star-rail-x-fate-collaboration-overview-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11331,9 +11331,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik HSR Fate Col | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Honkai Star Rail x Fate Collaboration Overview (2026 Edition #76)",
+    "metaTitleEn": "Genshin Meta: Honkai Star Rail x Fate | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Honkai Star Rail x Fate Collaboration Overview. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -11342,47 +11342,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Honkai Star Rail x Fate Collaboration Overview. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Honkai Star Rail x Fate Collaboration Overview (2026 Edition #76)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -11403,7 +11403,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-genshin-anime-ufotable-update-edis",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-genshin-anime-ufota",
+    "slugEn": "genshin-honkai-meta-genshin-impact-anime-animation-milestones-2026-edition",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11483,9 +11483,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Genshin Anim | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Genshin Impact Anime Animation Milestones (2026 Edition #77)",
+    "metaTitleEn": "Genshin Meta: Genshin Impact Anime Animation | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Genshin Impact Anime Animation Milestones. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -11494,47 +11494,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Genshin Impact Anime Animation Milestones. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Genshin Impact Anime Animation Milestones (2026 Edition #77)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -11555,7 +11555,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-mobile-graphics-60-fps-suhu-dingin",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-mobile-graphics-60-",
+    "slugEn": "genshin-honkai-meta-mobile-graphics-configuration-for-cool-60-fps-2026-edit",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11635,9 +11635,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Mobile Graph | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Mobile Graphics Configuration for Cool 60 FPS (2026 Edition #78)",
+    "metaTitleEn": "Genshin Meta: Mobile Graphics Configuration | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Mobile Graphics Configuration for Cool 60 FPS. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -11646,47 +11646,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Mobile Graphics Configuration for Cool 60 FPS. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Mobile Graphics Configuration for Cool 60 FPS (2026 Edition #78)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -11707,7 +11707,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-controller-bluetooth-support-andro",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-controller-bluetoot",
+    "slugEn": "genshin-honkai-meta-bluetooth-controller-mapping-for-android-gacha-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11787,9 +11787,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Controller B | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Bluetooth Controller Mapping for Android Gacha (2026 Edition #79)",
+    "metaTitleEn": "Genshin Meta: Bluetooth Controller Mapping | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Bluetooth Controller Mapping for Android Gacha. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -11798,47 +11798,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Bluetooth Controller Mapping for Android Gacha. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Bluetooth Controller Mapping for Android Gacha (2026 Edition #79)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -11859,7 +11859,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-cross-save-pc-mobile-cloud-edisi-2",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-cross-save-pc-mobil",
+    "slugEn": "genshin-honkai-meta-cross-save-sync-between-pc-mobile-cloud-platforms-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11939,9 +11939,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Cross Save P | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Cross-Save Sync Between PC, Mobile & Cloud Platforms (2026 Edition #80)",
+    "metaTitleEn": "Genshin Meta: Cross-Save Sync Between PC, | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Cross-Save Sync Between PC, Mobile & Cloud Platforms. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -11950,47 +11950,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Cross-Save Sync Between PC, Mobile & Cloud Platforms. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Cross-Save Sync Between PC, Mobile & Cloud Platforms (2026 Edition #80)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -12011,7 +12011,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-genshin-endgame-mode-teori-2026-ed",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-genshin-endgame-mod",
+    "slugEn": "genshin-honkai-meta-genshin-impact-permanent-endgame-modes-roadmap-2026-edi",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12091,9 +12091,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Genshin Endg | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Genshin Impact Permanent Endgame Modes Roadmap (2026 Edition #81)",
+    "metaTitleEn": "Genshin Meta: Genshin Impact Permanent | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Genshin Impact Permanent Endgame Modes Roadmap. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -12102,47 +12102,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Genshin Impact Permanent Endgame Modes Roadmap. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Genshin Impact Permanent Endgame Modes Roadmap (2026 Edition #81)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -12163,7 +12163,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-hsr-powercreep-management-edisi-20",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-hsr-powercreep-mana",
+    "slugEn": "genshin-honkai-meta-honkai-star-rail-roster-longevity-powercreep-prep-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12243,9 +12243,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik HSR Powercre | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Honkai Star Rail Roster Longevity & Powercreep Prep (2026 Edition #82)",
+    "metaTitleEn": "Genshin Meta: Honkai Star Rail Roster | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Honkai Star Rail Roster Longevity & Powercreep Prep. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -12254,47 +12254,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Honkai Star Rail Roster Longevity & Powercreep Prep. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Honkai Star Rail Roster Longevity & Powercreep Prep (2026 Edition #82)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],
@@ -12315,7 +12315,7 @@ export const genshinQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "genshin-panduan-meta-genshin-honkai-trik-bilingual-voice-cast-pilihan-seru-",
-    "slugEn": "genshin-complete-guide-panduan-meta-genshin-honkai-trik-bilingual-voice-cas",
+    "slugEn": "genshin-honkai-meta-audio-settings-japanese-english-chinese-voiceovers-2026",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12395,9 +12395,9 @@ export const genshinQueueArticles: ArticleItem[] = [
         "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
       }
     ],
-    "titleEn": "Complete Guide: Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83)",
-    "metaTitleEn": "Panduan Meta Genshin & Honkai: Trik Bilingual Vo | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Genshin & Honkai Meta Guide: Audio Settings: Japanese, English & Chinese Voiceovers (2026 Edition #83)",
+    "metaTitleEn": "Genshin Meta: Audio Settings: Japanese, | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 meta breakdown for Genshin Impact & Honkai Star Rail on Audio Settings: Japanese, English & Chinese Voiceovers. Master optimal team compositions, rotations, and builds.",
     "keywordsEn": [
       "genshin & honkai",
       "pro gameplay guide 2026",
@@ -12406,47 +12406,47 @@ export const genshinQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing Genshin & Honkai Meta Guide: Audio Settings: Japanese, English & Chinese Voiceovers. Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
     "sectionsEn": [
       {
         "id": "technical-meta-overview",
-        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "title": "1. Elemental Reaction Dynamics & Character Synergy Priority",
         "content": [
-          "In modern competitive environments, understanding \"Complete Guide: Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83)\" requires mastering system nuances and tactile input responsiveness.",
+          "High-level endgame challenges in Spiral Abyss and Memory of Chaos demand a deep grasp of elemental gauge theory and Internal Cooldown (ICD) mechanics. This analysis on \"Genshin & Honkai Meta Guide: Audio Settings: Japanese, English & Chinese Voiceovers (2026 Edition #83)\" details optimal team synergy.",
           "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
         ]
       },
       {
         "id": "systematic-execution-blueprint",
-        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "title": "2. Top Weapon & Light Cone Selections (F2P & 5-Star Options)",
         "content": [
           "Reference these verified operational standards for consistent performance:"
         ],
         "bulletPoints": [
-          "Standard: **Opsi Senjata Utama**: Memberikan peningkatan stat kritis dan multiplier damage tertinggi.",
-          "Standard: **Alternatif F2P Terbaik**: Senjata craftable atau hadiah event dengan pasif regenerasi energi (*Energy Recharge*) konsisten.",
-          "Standard: **Opsi Pendukung Tim**: Senjata yang memberikan buff attack persentase atau *Elemental Mastery* ke seluruh party."
+          "**Best-in-Slot Premium Options**: Maximize critical multipliers and unique talent scaling bonuses.",
+          "**Top F2P Craftable Alternatives**: Readily accessible weapons providing reliable Energy Recharge and burst cycling.",
+          "**Team Utility Support Options**: Weapons that bestow party-wide Attack percentage or Elemental Mastery buffs."
         ]
       },
       {
         "id": "interface-and-layout-optimization",
-        "title": "3. Ergonomic Layout & Control Configuration",
+        "title": "3. Artifact / Relic Sets & The Golden Stat Ratio",
         "content": [
-          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+          "Maintain a strict **1:2 Crit Rate to Crit Damage ratio** (aiming for at least 60% Crit Rate to 120% Crit Damage). Ensure Energy Recharge thresholds are met so team burst rotations cycle seamlessly without downtime."
         ]
       },
       {
         "id": "execution-tactics-and-techniques",
-        "title": "4. Execution Mechanics & Tactical Principles",
+        "title": "4. Seamless Team Ability Rotation Sequencing",
         "content": [
-          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+          "Begin by activating defensive shields and off-field buffs, apply enabling aura elements, and enter your main carry phase to maximize damage output while all team buffs remain active."
         ]
       },
       {
         "id": "advanced-synergy-and-habits",
-        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "title": "5. Boss Encounter Strategies & Execution Windows",
         "content": [
-          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+          "Learn Floor 12 boss telegraph animations and exploit burst animation iframes to shrug off lethal incoming attacks without compromising offensive tempo."
         ]
       }
     ],

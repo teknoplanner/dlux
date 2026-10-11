@@ -8,11 +8,11 @@ interface WorldLoadingScreenProps {
 }
 
 const GAME_TIPS = [
-  "💡 TIP: Hold SHIFT to activate Nitro Boost and sprint dash across bridges!",
+  "💡 TIP: Use Nitro Boost (SHIFT / Boost button) to sprint dash across bridges!",
   "💡 TIP: Strike the giant soccer ball at the Beach Arena to score spectacular goals!",
   "💡 TIP: Dive into the open ocean to swim gracefully across the archipelago!",
   "💡 TIP: Complete arcade challenges on each island to earn Gold Tokens & EXP!",
-  "💡 TIP: Open the Smartphone Hub in the bottom-right corner for Minimap GPS & Fast Travel!",
+  "💡 TIP: Tap MAP at the top-right for Archipelago Minimap GPS & Fast Travel!",
   "💡 TIP: Collect all 30 Gold Tokens across the islands to become the Archipelago Champion!",
 ];
 

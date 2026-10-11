@@ -228,11 +228,11 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
               {isLastLine ? (
                 <>
                   <CheckCircle2 className="w-4 h-4 text-slate-950" />
-                  <span>FINISH [E]</span>
+                  <span>FINISH<span className="hidden sm:inline"> [E]</span></span>
                 </>
               ) : (
                 <>
-                  <span>NEXT [E]</span>
+                  <span>NEXT<span className="hidden sm:inline"> [E]</span></span>
                   <ChevronRight className="w-4 h-4 text-slate-950 group-hover:translate-x-1 transition-transform" />
                 </>
               )}

@@ -85,17 +85,17 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
       {/* ================================================================= */}
       {/* TOP ARCADE HUD BAR                                               */}
       {/* ================================================================= */}
-      <div className="p-4 sm:p-6 flex items-start justify-between">
+      <div className="p-3 sm:p-6 flex items-start justify-between gap-2">
         {/* Arcade Exit / Pause Button (Top-Left) */}
         <button
           onClick={handleExitGame}
-          className="pointer-events-auto group flex items-center gap-2.5 px-4 py-2.5 rounded-2xl bg-slate-900/90 hover:bg-red-950/90 border border-white/20 hover:border-red-500/50 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
+          className="pointer-events-auto group flex items-center gap-1.5 sm:gap-2.5 px-3 py-2 sm:px-4 sm:py-2.5 rounded-xl sm:rounded-2xl bg-slate-900/90 hover:bg-red-950/90 border border-white/20 hover:border-red-500/50 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
           title="Exit Game to Web"
         >
-          <ArrowLeft className="w-4 h-4 text-emerald-400 group-hover:text-red-400 group-hover:-translate-x-1 transition-transform" />
-          <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 group-hover:bg-red-400 animate-pulse" />
+          <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400 group-hover:text-red-400 group-hover:-translate-x-1 transition-transform" />
+          <div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-emerald-400 group-hover:bg-red-400 animate-pulse" />
           <span className="font-black font-display tracking-wider text-xs sm:text-sm">
-            EXIT <span className="text-emerald-400 group-hover:text-red-400">GAME</span>
+            EXIT<span className="hidden sm:inline"> <span className="text-emerald-400 group-hover:text-red-400">GAME</span></span>
           </span>
         </button>
 
@@ -108,15 +108,25 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
         </div>
 
         {/* Top-Right Player Stats & Tactile Utility Buttons */}
-        <div className="pointer-events-auto flex items-center gap-2 sm:gap-3">
+        <div className="pointer-events-auto flex items-center gap-1.5 sm:gap-2.5">
           {/* 3D Coin Counter Pill */}
-          <div className="flex items-center gap-2 px-4 py-2 rounded-2xl bg-gradient-to-r from-amber-950/90 to-yellow-950/90 backdrop-blur-md border border-amber-400/50 text-amber-300 font-black text-sm shadow-[0_4px_12px_rgba(245,158,11,0.25)]">
-            <span className="text-base animate-bounce">🪙</span>
-            <span className="font-mono text-base">{coins}</span>
-            <span className="text-amber-500/80 text-xs font-mono">/ {totalCoins}</span>
+          <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-xl sm:rounded-2xl bg-gradient-to-r from-amber-950/90 to-yellow-950/90 backdrop-blur-md border border-amber-400/50 text-amber-300 font-black text-xs sm:text-sm shadow-[0_4px_12px_rgba(245,158,11,0.25)]">
+            <span className="text-sm sm:text-base animate-bounce">🪙</span>
+            <span className="font-mono text-xs sm:text-base">{coins}</span>
+            <span className="text-amber-500/80 text-[10px] sm:text-xs font-mono">/ {totalCoins}</span>
           </div>
 
-          {/* Arcade Tachometer & Nitro Bar */}
+          {/* Dedicated Map & Quest Hub Button in Top Bar (Always reachable, never obstructs controls) */}
+          <button
+            onClick={onOpenPhone}
+            aria-label="Open Map & Quest Hub"
+            className="flex items-center gap-1.5 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl sm:rounded-2xl bg-gradient-to-r from-indigo-600 via-cyan-600 to-indigo-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-black text-xs border border-cyan-400/50 shadow-[0_4px_12px_rgba(99,102,241,0.35)] active:scale-95 transition-all cursor-pointer"
+          >
+            <Smartphone className="w-3.5 h-3.5 text-cyan-200" />
+            <span className="font-mono text-xs">MAP</span>
+          </button>
+
+          {/* Arcade Tachometer & Nitro Bar (Desktop only) */}
           <div className="hidden md:flex flex-col items-end gap-1 px-4 py-1.5 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-white/20 text-white shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
             <div className="flex items-center gap-1.5 text-xs font-mono font-black">
               <span className="text-cyan-400 text-sm">{speedKmH}</span>
@@ -137,16 +147,16 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           <button
             onClick={onToggleMute}
             aria-label="Toggle Sound"
-            className="p-2.5 sm:p-3 rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
+            className="p-2 sm:p-2.5 rounded-xl sm:rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
           >
-            {isMuted ? <VolumeX className="w-4 h-4 text-red-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
+            {isMuted ? <VolumeX className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-red-400" /> : <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400" />}
           </button>
 
           {/* Fullscreen Toggle */}
           <button
             onClick={toggleFullscreen}
             aria-label="Toggle Fullscreen"
-            className="hidden sm:flex p-2.5 sm:p-3 rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
+            className="hidden sm:flex p-2.5 rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
           >
             {isFullscreen ? <Minimize2 className="w-4 h-4 text-cyan-400" /> : <Maximize2 className="w-4 h-4 text-white" />}
           </button>
@@ -155,9 +165,9 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           <button
             onClick={() => setShowHelp(true)}
             aria-label="Help & Guide"
-            className="p-2.5 sm:p-3 rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
+            className="p-2 sm:p-2.5 rounded-xl sm:rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
           >
-            <HelpCircle className="w-4 h-4 text-cyan-400" />
+            <HelpCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-cyan-400" />
           </button>
         </div>
       </div>
@@ -264,33 +274,36 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
       {/* PROXIMITY NPC ARCADE ACTION PROMPT                               */}
       {/* ================================================================= */}
       {activeNPC && (
-        <div className="absolute bottom-28 inset-x-0 flex justify-center pointer-events-auto animate-in slide-in-from-bottom-4 duration-300">
+        <div className="absolute bottom-28 sm:bottom-24 inset-x-0 flex justify-center pointer-events-auto animate-in slide-in-from-bottom-4 duration-300 px-4">
           <button
             onClick={onInteractNPC}
-            className="group px-7 py-3.5 rounded-full bg-slate-900/95 hover:bg-cyan-600 border-2 border-cyan-400/60 text-white font-black text-sm sm:text-base shadow-[0_8px_25px_rgba(6,182,212,0.4)] flex items-center gap-3 active:scale-95 transition-all cursor-pointer"
+            className="group px-4 py-2.5 sm:px-7 sm:py-3.5 rounded-full bg-slate-900/95 hover:bg-cyan-600 border-2 border-cyan-400/60 text-white font-black text-xs sm:text-base shadow-[0_8px_25px_rgba(6,182,212,0.4)] flex items-center gap-2 sm:gap-3 active:scale-95 transition-all cursor-pointer max-w-sm"
           >
-            <span className="text-2xl animate-pulse">{activeNPC.avatar}</span>
-            <span className="tracking-wide">TALK TO {activeNPC.name.toUpperCase()}</span>
-            <span className="px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-black font-mono text-xs shadow-inner">
+            <span className="text-xl sm:text-2xl animate-pulse">{activeNPC.avatar}</span>
+            <span className="tracking-wide truncate">TALK TO {activeNPC.name.toUpperCase()}</span>
+            <span className="hidden sm:inline-block px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-black font-mono text-xs shadow-inner">
               [E]
+            </span>
+            <span className="sm:hidden px-2 py-0.5 rounded-md bg-cyan-500 text-slate-950 font-black font-mono text-[10px]">
+              TAP
             </span>
           </button>
         </div>
       )}
 
       {/* ================================================================= */}
-      {/* VIRTUAL SMARTPHONE GADGET TRIGGER (Bottom-Right)                  */}
+      {/* VIRTUAL SMARTPHONE GADGET TRIGGER (Desktop Only - Bottom-Right)  */}
       {/* ================================================================= */}
-      <div className="absolute bottom-6 right-6 pointer-events-auto">
+      <div className="hidden md:block absolute bottom-6 right-6 pointer-events-auto">
         <button
           onClick={onOpenPhone}
-          className="group relative flex items-center gap-3 px-6 py-4 rounded-3xl bg-gradient-to-r from-indigo-600 via-cyan-600 to-indigo-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-black text-sm sm:text-base border-t border-white/40 border-b-4 border-indigo-900 active:border-b-0 active:translate-y-1 shadow-[0_8px_24px_rgba(99,102,241,0.45)] transition-all cursor-pointer"
+          className="group relative flex items-center gap-3 px-5 py-3 rounded-2xl bg-gradient-to-r from-indigo-600 via-cyan-600 to-indigo-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-black text-sm border-t border-white/40 border-b-4 border-indigo-900 active:border-b-0 active:translate-y-1 shadow-[0_8px_24px_rgba(99,102,241,0.45)] transition-all cursor-pointer"
         >
-          <Smartphone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
+          <Smartphone className="w-4 h-4 group-hover:rotate-12 transition-transform" />
           <span className="tracking-wide">PHONE HUB &amp; MAP</span>
-          <span className="flex h-3 w-3 relative">
+          <span className="flex h-2.5 w-2.5 relative">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-300 opacity-75" />
-            <span className="relative inline-flex rounded-full h-3 w-3 bg-cyan-400" />
+            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-cyan-400" />
           </span>
         </button>
       </div>

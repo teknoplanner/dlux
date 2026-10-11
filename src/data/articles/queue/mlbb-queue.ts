@@ -3,7 +3,7 @@ import { ArticleItem } from "../types";
 export const mlbbQueueArticles: ArticleItem[] = [
   {
     "slug": "mlbb-build-fanny-tersakit-rotasi-meta-solo-rank-2026-hari-ke-2",
-    "slugEn": "mlbb-complete-guide-build-fanny-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-fanny-build-solo-rank-rotation-2026-day-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -50,11 +50,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Ice Hunter's Tough Boots**: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
-          "2. **Blade of the Heptaseas**: Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "2. **Blade of the Heptaseas**: Memberikan bonus damage burst pada serangan dasar pertama setelah tidak terkena hit selama 5 detik.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
           "4. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
-          "5. **Rose Gold Meteor**: Membuka perisai sihir darurat dan lifesteal saat darah sekarat untuk membalikkan keadaan duel.",
-          "6. **Athena's Shield**: Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh."
+          "5. **Rose Gold Meteor**: Menciptakan shield sihir darurat dan lifesteal ekstra saat darah sekarat di bawah 30%.",
+          "6. **Athena's Shield**: Mengurangi damage sihir ledakan (burst magic) sebesar 25% selama beberapa detik pertama serangan."
         ]
       },
       {
@@ -103,9 +103,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2)",
-    "metaTitleEn": "Build Fanny Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Fanny Build & Solo Rank Meta Rotation 2026 (Day #2)",
+    "metaTitleEn": "Best Fanny Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Fanny build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -114,7 +114,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Fanny build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -125,7 +125,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai teknik kabel lurus di celah dinding sempit jungle untuk menghasilkan putaran damage berulang dengan efisiensi energi maksimal.",
+          "text": "Master straight cable trajectories in narrow jungle corridors to maximize damage cycling with optimal energy efficiency.",
           "type": "tip"
         }
       },
@@ -138,11 +138,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Ice Hunter's Tough Boots**: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
-          "2. **Blade of the Heptaseas**: Unleashes devastating ambush burst and slow on the first basic attack from concealment.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "2. **Blade of the Heptaseas**: Delivers ambush burst damage on the first basic attack after remaining out of combat for 5 seconds.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
           "4. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
-          "5. **Rose Gold Meteor**: Deploys a protective lifeline shield and bonus lifesteal when falling below 30% HP.",
-          "6. **Athena's Shield**: Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits."
+          "5. **Rose Gold Meteor**: Deploys an emergency magic shield and bonus lifesteal when health drops below 30%.",
+          "6. **Athena's Shield**: Reduces incoming burst magic damage by 25% for several critical seconds."
         ]
       },
       {
@@ -163,7 +163,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Steel Cable 2 kabel lintasi dinding -> Steel Cable lurus koridor sempit -> Cut Throat finisher instan**.",
+          "Primary execution combo: **Steel Cable dual-wire wall traverse -> straight cable thrust through tight corridor -> Cut Throat instant execute**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -194,7 +194,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-hayabusa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-3",
-    "slugEn": "mlbb-complete-guide-build-hayabusa-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-hayabusa-build-solo-rank-rotation-2026-day-3",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -241,8 +241,8 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
-          "2. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "3. **Blade of Despair**: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "2. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "3. **Blade of Despair**: Pemberi Physical Attack tertinggi (+160) dengan pasif ekstra 25% damage saat target sekarat di bawah 50% HP.",
           "4. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "5. **Endless Battle**: Memicu True Damage tambahan pasca penggunaan skill, physical lifesteal, dan reduksi cooldown.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
@@ -294,9 +294,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Hayabusa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-3)",
-    "metaTitleEn": "Build Hayabusa Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Hayabusa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-3). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Hayabusa Build & Solo Rank Meta Rotation 2026 (Day #3)",
+    "metaTitleEn": "Best Hayabusa Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Hayabusa build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -305,7 +305,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Hayabusa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-3). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Hayabusa build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -316,7 +316,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Pastikan minion atau monster hutan sudah bersih sebelum mengaktifkan Shadow Kill agar tebasan fokus 100% pada hero musuh.",
+          "text": "Ensure nearby minions and jungle creeps are fully cleared before unleashing Shadow Kill so all strikes concentrate 100% on the enemy hero.",
           "type": "tip"
         }
       },
@@ -329,8 +329,8 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
-          "2. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "3. **Blade of Despair**: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "2. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "3. **Blade of Despair**: Delivers maximum +160 Physical Attack with a 25% damage amplifier against low-health targets.",
           "4. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "5. **Endless Battle**: Triggers scaling True Damage following ability casts, paired with physical lifesteal and CDR.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
@@ -354,7 +354,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Ninjutsu: Quad Shadow pasang 4 bayangan -> Phantom Shuriken cicil stack pasif -> Shadow Kill saat musuh terisolasi**.",
+          "Primary execution combo: **Ninjutsu: Quad Shadow to deploy 4 shadow markers -> Phantom Shuriken to stack passive marks -> Shadow Kill when target is isolated**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -385,7 +385,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-lancelot-tersakit-rotasi-meta-solo-rank-2026-hari-ke-4",
-    "slugEn": "mlbb-complete-guide-build-lancelot-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-lancelot-build-solo-rank-rotation-2026-day-4",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -432,11 +432,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Ice Hunter's Tough Boots**: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
           "3. **Endless Battle**: Memicu True Damage tambahan pasca penggunaan skill, physical lifesteal, dan reduksi cooldown.",
-          "4. **Blade of Despair**: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "4. **Blade of Despair**: Pemberi Physical Attack tertinggi (+160) dengan pasif ekstra 25% damage saat target sekarat di bawah 50% HP.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
-          "6. **Queen's Wings**: Memberikan reduksi damage drastis dan peningkatan spell vamp darurat saat HP berada di bawah 40%."
+          "6. **Queen's Wings**: Memicu damage reduction masif dan reset cooldown skill saat HP berada di titik kritis."
         ]
       },
       {
@@ -485,9 +485,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Lancelot Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-4)",
-    "metaTitleEn": "Build Lancelot Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Lancelot Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-4). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Lancelot Build & Solo Rank Meta Rotation 2026 (Day #4)",
+    "metaTitleEn": "Best Lancelot Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Lancelot build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -496,7 +496,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Lancelot Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-4). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Lancelot build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -507,7 +507,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Gunakan iframe Thorned Rose untuk menghindari stun atau proyektil mematikan dari mage lawan.",
+          "text": "Utilize the iframe invulnerability window of Thorned Rose to evade enemy stun projectiles and lethal burst abilities.",
           "type": "tip"
         }
       },
@@ -520,11 +520,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Ice Hunter's Tough Boots**: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
           "3. **Endless Battle**: Triggers scaling True Damage following ability casts, paired with physical lifesteal and CDR.",
-          "4. **Blade of Despair**: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "4. **Blade of Despair**: Delivers maximum +160 Physical Attack with a 25% damage amplifier against low-health targets.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
-          "6. **Queen's Wings**: Grants massive damage mitigation and emergency spell vamp surge when dropped below 40% HP."
+          "6. **Queen's Wings**: Triggers massive damage reduction and skill cooldown resets when health hits critical thresholds."
         ]
       },
       {
@@ -545,7 +545,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Puncture tembus minion tanpa batas reset -> Thorned Rose saat musuh di titik tengah segitiga -> Phantom Execution**.",
+          "Primary execution combo: **Puncture reset dash through minion waves -> Thorned Rose centered on target triangle -> Phantom Execution finisher**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -576,7 +576,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-gusion-tersakit-rotasi-meta-solo-rank-2026-hari-ke-5",
-    "slugEn": "mlbb-complete-guide-build-gusion-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-gusion-build-solo-rank-rotation-2026-day-5",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -623,11 +623,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Arcane Boots**: Memberikan +10 Magic Penetration untuk menembus pertahanan sihir lawan di menit awal.",
-          "2. **Genius Wand**: Mengurangi magic defense musuh secara bertingkat untuk memaksimalkan burst damage di awal pertempuran.",
-          "3. **Holy Crystal**: Meningkatkan magic power secara eksponensial sebesar 21%-35% berbasis scaling level hero.",
-          "4. **Glowing Wand**: Membakar musuh dengan persentase HP target secara berkelanjutan dan memangkas efek heal musuh.",
-          "5. **Divine Glaive**: Penetrasi magic berbasis 40% dari total magic defense musuh untuk menembus tank ber-Athena Shield.",
-          "6. **Blood Wings**: Item puncak mage yang memberikan tambahan shield pelindung masif berbasis total magic power Anda."
+          "2. **Genius Wand**: Mengikis Magic Defense lawan secara bertumpuk setiap kali skill sihir mengenai target.",
+          "3. **Holy Crystal**: Memberikan lonjakan Magic Power persentase scaling yang melipatgandakan output damage penyihir.",
+          "4. **Glowing Wand**: Memberikan efek bakar terus menerus berbasis persentase HP lawan dan mengurangi efek regenerasi darah.",
+          "5. **Divine Glaive**: Penetrasi sihir persentase tertinggi untuk menembus Tank yang membeli Radiant Armor atau Athena.",
+          "6. **Blood Wings**: Memberikan shield tebal yang beregenerasi otomatis dan lonjakan Magic Power tertinggi di late game."
         ]
       },
       {
@@ -676,9 +676,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Gusion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-5)",
-    "metaTitleEn": "Build Gusion Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Gusion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-5). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Gusion Build & Solo Rank Meta Rotation 2026 (Day #5)",
+    "metaTitleEn": "Best Gusion Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Gusion build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -687,7 +687,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Gusion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-5). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Gusion build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -698,7 +698,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Tarik kembali belati tepat saat meluncur ke badan musuh agar seluruh 10 belati mengenai satu titik untuk burst instan.",
+          "text": "Recall your daggers right as you dash into the target so all 10 blades converge simultaneously for instant burst damage.",
           "type": "tip"
         }
       },
@@ -711,11 +711,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Arcane Boots**: Provides flat +10 Magic Penetration to pierce early enemy magic resistance.",
-          "2. **Genius Wand**: Strips enemy magic defense progressively to amplify magic burst during skirmishes.",
-          "3. **Holy Crystal**: Exponentially amplifies total magic power by 21%-35% scaling with hero level.",
-          "4. **Glowing Wand**: Burns targets for percentage max HP over time while reducing enemy healing recovery.",
-          "5. **Divine Glaive**: Penetrates 40% enemy magic defense to vaporize heavily shielded frontline tanks.",
-          "6. **Blood Wings**: The pinnacle mage equipment providing a massive scaling shield based on total magic power."
+          "2. **Genius Wand**: Progressively shreds enemy Magic Defense with each connecting magical ability.",
+          "3. **Holy Crystal**: Bestows percentage-scaling Magic Power to exponentially amplify mage spell damage.",
+          "4. **Glowing Wand**: Applies continuous percentage HP burn while cutting enemy healing regeneration.",
+          "5. **Divine Glaive**: Maximum percentage magic penetration tailored to melt tanks building heavy magic resistance.",
+          "6. **Blood Wings**: Grants a thick auto-regenerating shield alongside massive late-game Magic Power."
         ]
       },
       {
@@ -736,7 +736,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Sword Spike tandai target -> Shadowblade Slaughter 5 belati -> Incandescence reset -> ulangi belati -> recall konvergensi**.",
+          "Primary execution combo: **Sword Spike to tag target -> Shadowblade Slaughter 5 daggers -> Incandescence reset -> recast daggers -> dagger recall convergence**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -767,7 +767,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-nolan-tersakit-rotasi-meta-solo-rank-2026-hari-ke-6",
-    "slugEn": "mlbb-complete-guide-build-nolan-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-nolan-build-solo-rank-rotation-2026-day-6",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -814,10 +814,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Ice Hunter's Tough Boots**: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
-          "2. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "3. **Blade of the Heptaseas**: Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
+          "2. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "3. **Blade of the Heptaseas**: Memberikan bonus damage burst pada serangan dasar pertama setelah tidak terkena hit selama 5 detik.",
           "4. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
-          "5. **Blade of Despair**: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
+          "5. **Blade of Despair**: Pemberi Physical Attack tertinggi (+160) dengan pasif ekstra 25% damage saat target sekarat di bawah 50% HP.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
@@ -867,9 +867,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Nolan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-6)",
-    "metaTitleEn": "Build Nolan Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Nolan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-6). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Nolan Build & Solo Rank Meta Rotation 2026 (Day #6)",
+    "metaTitleEn": "Best Nolan Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Nolan build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -878,7 +878,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Nolan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-6). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Nolan build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -889,7 +889,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Posisikan dua retakan dimensional saling bersinggungan di bawah kaki musuh untuk memicu ledakan kosmik yang menarik lawan.",
+          "text": "Cross two dimensional rifts directly beneath the enemy's feet to trigger cosmic fracture implosions that pull them in.",
           "type": "tip"
         }
       },
@@ -902,10 +902,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Ice Hunter's Tough Boots**: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
-          "2. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "3. **Blade of the Heptaseas**: Unleashes devastating ambush burst and slow on the first basic attack from concealment.",
+          "2. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "3. **Blade of the Heptaseas**: Delivers ambush burst damage on the first basic attack after remaining out of combat for 5 seconds.",
           "4. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
-          "5. **Blade of Despair**: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
+          "5. **Blade of Despair**: Delivers maximum +160 Physical Attack with a 25% damage amplifier against low-health targets.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
@@ -927,7 +927,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Expansion silang dengan Gauge untuk tarik musuh -> Cosmic Leap menusuk -> The Dimension Charge bersihkan debuff**.",
+          "Primary execution combo: **Expansion intersecting with Gauge to pull targets -> Cosmic Leap thrust -> The Dimension Charge to cleanse CC**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -958,7 +958,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-beatrix-tersakit-rotasi-meta-solo-rank-2026-hari-ke-7",
-    "slugEn": "mlbb-complete-guide-build-beatrix-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-beatrix-build-solo-rank-rotation-2026-day-7",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1005,11 +1005,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
-          "2. **Blade of Despair**: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
-          "3. **Demon Hunter Sword**: Senjata utama penghancur tank berkat pasif damage berbasis 8% dari sisa HP target saat ini.",
+          "2. **Blade of Despair**: Pemberi Physical Attack tertinggi (+160) dengan pasif ekstra 25% damage saat target sekarat di bawah 50% HP.",
+          "3. **Demon Hunter Sword**: Memberikan damage berbasis persentase HP musuh saat ini, senjata penghancur hero berdarah tebal.",
           "4. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
-          "5. **Rose Gold Meteor**: Membuka perisai sihir darurat dan lifesteal saat darah sekarat untuk membalikkan keadaan duel.",
-          "6. **Wind of Nature**: Tombol keselamatan darurat yang memberikan kekebalan mutlak terhadap seluruh physical damage selama 2 detik."
+          "5. **Rose Gold Meteor**: Menciptakan shield sihir darurat dan lifesteal ekstra saat darah sekarat di bawah 30%.",
+          "6. **Wind of Nature**: Memberikan kekebalan total dari semua damage fisik selama 2 detik untuk bertahan dari assassin lawan."
         ]
       },
       {
@@ -1058,9 +1058,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Beatrix Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-7)",
-    "metaTitleEn": "Build Beatrix Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Beatrix Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-7). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Beatrix Build & Solo Rank Meta Rotation 2026 (Day #7)",
+    "metaTitleEn": "Best Beatrix Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Beatrix build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -1069,7 +1069,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Beatrix Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-7). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Beatrix build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -1080,7 +1080,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai timing ganti senjata saat rotasi di semak-semak. Wesker adalah senjata paling mematikan saat menghadapi assassin lawan.",
+          "text": "Master weapon-swapping timing while maneuvering in bushes. Wesker shotgun is your deadliest self-defense against diving assassins.",
           "type": "tip"
         }
       },
@@ -1093,11 +1093,11 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
-          "2. **Blade of Despair**: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
-          "3. **Demon Hunter Sword**: The premier tank-melter dealing bonus damage scaling with 8% of target current HP.",
+          "2. **Blade of Despair**: Delivers maximum +160 Physical Attack with a 25% damage amplifier against low-health targets.",
+          "3. **Demon Hunter Sword**: Deals percentage current-HP damage per strike, acting as the premier anti-tank shredder.",
           "4. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
-          "5. **Rose Gold Meteor**: Deploys a protective lifeline shield and bonus lifesteal when falling below 30% HP.",
-          "6. **Wind of Nature**: Clutch active immunity granting total physical damage invulnerability for 2 seconds in duels."
+          "5. **Rose Gold Meteor**: Deploys an emergency magic shield and bonus lifesteal when health drops below 30%.",
+          "6. **Wind of Nature**: Grants complete physical damage immunity for 2 seconds to survive lethal assassin dives."
         ]
       },
       {
@@ -1118,7 +1118,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Renner (Sniper) poke jarak jauh -> ganti Wesker (Shotgun) di semak -> Wesker's Elation tembakan burst 5 peluru**.",
+          "Primary execution combo: **Renner long-range sniper poke -> switch to Wesker in bush -> Wesker's Elation 5-shot point-blank burst**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -1149,7 +1149,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-wanwan-tersakit-rotasi-meta-solo-rank-2026-hari-ke-8",
-    "slugEn": "mlbb-complete-guide-build-wanwan-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-wanwan-build-solo-rank-rotation-2026-day-8",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1196,10 +1196,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
-          "2. **Corrosion Scythe**: Meningkatkan attack speed kumulatif dan memberikan efek slow bertingkat yang mengunci langkah lari lawan.",
-          "3. **Demon Hunter Sword**: Senjata utama penghancur tank berkat pasif damage berbasis 8% dari sisa HP target saat ini.",
-          "4. **Golden Staff**: Mengonversi critical chance menjadi attack speed tinggi dan memicu efek basic attack ganda setiap 3 pukulan.",
-          "5. **Wind of Nature**: Tombol keselamatan darurat yang memberikan kekebalan mutlak terhadap seluruh physical damage selama 2 detik.",
+          "2. **Corrosion Scythe**: Memberikan efek slow pada serangan dasar dan meningkatkan attack speed secara akumulatif.",
+          "3. **Demon Hunter Sword**: Memberikan damage berbasis persentase HP musuh saat ini, senjata penghancur hero berdarah tebal.",
+          "4. **Golden Staff**: Mengonversi Critical Chance menjadi attack speed dan melipatgandakan aktivasi pasif basic attack.",
+          "5. **Wind of Nature**: Memberikan kekebalan total dari semua damage fisik selama 2 detik untuk bertahan dari assassin lawan.",
           "6. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal."
         ]
       },
@@ -1249,9 +1249,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Wanwan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-8)",
-    "metaTitleEn": "Build Wanwan Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Wanwan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-8). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Wanwan Build & Solo Rank Meta Rotation 2026 (Day #8)",
+    "metaTitleEn": "Best Wanwan Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Wanwan build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -1260,7 +1260,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Wanwan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-8). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Wanwan build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -1271,7 +1271,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Simpan skill 2 murni sebagai Purify darurat untuk melepaskan diri dari stun saat membuka titik kelemahan musuh.",
+          "text": "Save Needles in Flowers strictly as an emergency Purify to cleanse hard CC while breaking enemy weakness marks.",
           "type": "tip"
         }
       },
@@ -1284,10 +1284,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
-          "2. **Corrosion Scythe**: Accelerates stacking attack speed and inflicts stacking slows to tether fleeing targets.",
-          "3. **Demon Hunter Sword**: The premier tank-melter dealing bonus damage scaling with 8% of target current HP.",
-          "4. **Golden Staff**: Converts critical chance into attack speed and activates double basic attack on-hits.",
-          "5. **Wind of Nature**: Clutch active immunity granting total physical damage invulnerability for 2 seconds in duels.",
+          "2. **Corrosion Scythe**: Applies slowing debuffs on basic attacks while stacking attack speed exponentially.",
+          "3. **Demon Hunter Sword**: Deals percentage current-HP damage per strike, acting as the premier anti-tank shredder.",
+          "4. **Golden Staff**: Converts Critical Chance into pure attack speed while tripling on-hit passive activations.",
+          "5. **Wind of Nature**: Grants complete physical damage immunity for 2 seconds to survive lethal assassin dives.",
           "6. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters."
         ]
       },
@@ -1309,7 +1309,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Swallow's Path lempar ke belakang musuh -> lompat memutar pecahkan 4 weakness -> Crossbow of Tang terbang kebal serangan**.",
+          "Primary execution combo: **Swallow's Path behind enemy -> circular hopping dashes to break 4 weakness vitals -> Crossbow of Tang aerial invulnerability**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -1340,7 +1340,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-claude-tersakit-rotasi-meta-solo-rank-2026-hari-ke-9",
-    "slugEn": "mlbb-complete-guide-build-claude-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-claude-build-solo-rank-rotation-2026-day-9",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1387,10 +1387,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Meningkatkan attack speed dasar sebesar 15% untuk mempercepat akumulasi pasif serangan.",
-          "2. **Demon Hunter Sword**: Senjata utama penghancur tank berkat pasif damage berbasis 8% dari sisa HP target saat ini.",
-          "3. **Golden Staff**: Mengonversi critical chance menjadi attack speed tinggi dan memicu efek basic attack ganda setiap 3 pukulan.",
-          "4. **Corrosion Scythe**: Meningkatkan attack speed kumulatif dan memberikan efek slow bertingkat yang mengunci langkah lari lawan.",
-          "5. **Wind of Nature**: Tombol keselamatan darurat yang memberikan kekebalan mutlak terhadap seluruh physical damage selama 2 detik.",
+          "2. **Demon Hunter Sword**: Memberikan damage berbasis persentase HP musuh saat ini, senjata penghancur hero berdarah tebal.",
+          "3. **Golden Staff**: Mengonversi Critical Chance menjadi attack speed dan melipatgandakan aktivasi pasif basic attack.",
+          "4. **Corrosion Scythe**: Memberikan efek slow pada serangan dasar dan meningkatkan attack speed secara akumulatif.",
+          "5. **Wind of Nature**: Memberikan kekebalan total dari semua damage fisik selama 2 detik untuk bertahan dari assassin lawan.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
@@ -1440,9 +1440,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Claude Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-9)",
-    "metaTitleEn": "Build Claude Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Claude Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-9). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Claude Build & Solo Rank Meta Rotation 2026 (Day #9)",
+    "metaTitleEn": "Best Claude Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Claude build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -1451,7 +1451,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Claude Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-9). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Claude build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -1462,7 +1462,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Jangan pernah meluncur dengan Ultimate sebelum stack Art of Thievery penuh di angka 10, karena jumlah peluru bergantung pada attack speed.",
+          "text": "Never dive with Blazing Duet before stacking Art of Thievery to maximum 10 stacks, as total ultimate bullet count scales with attack speed.",
           "type": "tip"
         }
       },
@@ -1475,10 +1475,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Swift Boots**: Boosts baseline attack speed by 15% to accelerate basic attack passive charges.",
-          "2. **Demon Hunter Sword**: The premier tank-melter dealing bonus damage scaling with 8% of target current HP.",
-          "3. **Golden Staff**: Converts critical chance into attack speed and activates double basic attack on-hits.",
-          "4. **Corrosion Scythe**: Accelerates stacking attack speed and inflicts stacking slows to tether fleeing targets.",
-          "5. **Wind of Nature**: Clutch active immunity granting total physical damage invulnerability for 2 seconds in duels.",
+          "2. **Demon Hunter Sword**: Deals percentage current-HP damage per strike, acting as the premier anti-tank shredder.",
+          "3. **Golden Staff**: Converts Critical Chance into pure attack speed while tripling on-hit passive activations.",
+          "4. **Corrosion Scythe**: Applies slowing debuffs on basic attacks while stacking attack speed exponentially.",
+          "5. **Wind of Nature**: Grants complete physical damage immunity for 2 seconds to survive lethal assassin dives.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
@@ -1500,7 +1500,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Art of Thievery jaga 10 stack -> Battle Mirror Image taruh hologram di semak -> Blazing Duet serbu pertempuran**.",
+          "Primary execution combo: **Maintain 10 stacks of Art of Thievery -> Battle Mirror Image clone in bush -> Blazing Duet dive into teamfight**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -1531,7 +1531,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-brody-tersakit-rotasi-meta-solo-rank-2026-hari-ke-10",
-    "slugEn": "mlbb-complete-guide-build-brody-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-brody-build-solo-rank-rotation-2026-day-10",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1578,9 +1578,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -1631,9 +1631,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Brody Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-10)",
-    "metaTitleEn": "Build Brody Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Brody Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-10). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Brody Build & Solo Rank Meta Rotation 2026 (Day #10)",
+    "metaTitleEn": "Best Brody Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Brody build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -1642,7 +1642,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Brody Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-10). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Brody build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -1653,7 +1653,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -1666,9 +1666,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -1683,7 +1683,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -1691,7 +1691,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -1722,7 +1722,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-moskov-tersakit-rotasi-meta-solo-rank-2026-hari-ke-11",
-    "slugEn": "mlbb-complete-guide-build-moskov-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-moskov-build-solo-rank-rotation-2026-day-11",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1769,9 +1769,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -1822,9 +1822,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Moskov Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-11)",
-    "metaTitleEn": "Build Moskov Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Moskov Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-11). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Moskov Build & Solo Rank Meta Rotation 2026 (Day #11)",
+    "metaTitleEn": "Best Moskov Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Moskov build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -1833,7 +1833,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Moskov Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-11). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Moskov build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -1844,7 +1844,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -1857,9 +1857,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -1874,7 +1874,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -1882,7 +1882,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -1913,7 +1913,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-karrie-tersakit-rotasi-meta-solo-rank-2026-hari-ke-12",
-    "slugEn": "mlbb-complete-guide-build-karrie-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-karrie-build-solo-rank-rotation-2026-day-12",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -1960,9 +1960,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -2013,9 +2013,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Karrie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-12)",
-    "metaTitleEn": "Build Karrie Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Karrie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-12). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Karrie Build & Solo Rank Meta Rotation 2026 (Day #12)",
+    "metaTitleEn": "Best Karrie Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Karrie build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -2024,7 +2024,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Karrie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-12). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Karrie build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -2035,7 +2035,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -2048,9 +2048,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -2065,7 +2065,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -2073,7 +2073,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -2104,7 +2104,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-tigreal-tersakit-rotasi-meta-solo-rank-2026-hari-ke-13",
-    "slugEn": "mlbb-complete-guide-build-tigreal-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-tigreal-build-solo-rank-rotation-2026-day-13",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2151,10 +2151,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Tough Boots (Conceal)**: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
-          "2. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
-          "3. **Athena's Shield**: Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh.",
-          "4. **Antique Cuirass**: Memangkas physical attack musuh yang menyerang Anda hingga 24%, efektif meredam assassin lawan.",
-          "5. **Blade Armor**: Memantulkan 20% damage serangan fisik kembali ke penyerang dan memangkas critical damage lawan sebesar 20%.",
+          "2. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
+          "3. **Athena's Shield**: Mengurangi damage sihir ledakan (burst magic) sebesar 25% selama beberapa detik pertama serangan.",
+          "4. **Antique Cuirass**: Memangkas persentase Physical Attack musuh saat Anda terkena skill fisik bertubi-tubi.",
+          "5. **Blade Armor**: Memantulkan damage serangan fisik kembali ke penyerang dan memangkas Critical Damage musuh.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
@@ -2204,9 +2204,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Tigreal Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-13)",
-    "metaTitleEn": "Build Tigreal Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Tigreal Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-13). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Tigreal Build & Solo Rank Meta Rotation 2026 (Day #13)",
+    "metaTitleEn": "Best Tigreal Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Tigreal build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -2215,7 +2215,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Tigreal Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-13). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Tigreal build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -2226,7 +2226,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Tunggu hero lawan menghabiskan skill dash atau Purify sebelum melancarkan wombo combo Flicker Implosion.",
+          "text": "Wait for enemy carries to expend their mobility dashes or Purify spells before committing your Flicker into Implosion combo.",
           "type": "tip"
         }
       },
@@ -2239,10 +2239,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Tough Boots (Conceal)**: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
-          "2. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
-          "3. **Athena's Shield**: Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits.",
-          "4. **Antique Cuirass**: Reduces enemy physical attack by up to 24% when struck by physical abilities.",
-          "5. **Blade Armor**: Reflects 20% incoming basic attack damage and reduces enemy critical damage by 20%.",
+          "2. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
+          "3. **Athena's Shield**: Reduces incoming burst magic damage by 25% for several critical seconds.",
+          "4. **Antique Cuirass**: Progressively diminishes enemy Physical Attack upon receiving incoming physical skill hits.",
+          "5. **Blade Armor**: Reflects incoming physical basic attack damage while dampening incoming Critical Damage.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
@@ -2264,7 +2264,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Conceal dekati formasi lawan -> Flicker + Implosion tarik 5 musuh -> Sacred Hammer dorong ke arah rekan tim**.",
+          "Primary execution combo: **Conceal approach -> Flicker + Implosion 5-man vacuum pull -> Sacred Hammer push toward allied carries**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -2295,7 +2295,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-khufra-tersakit-rotasi-meta-solo-rank-2026-hari-ke-14",
-    "slugEn": "mlbb-complete-guide-build-khufra-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-khufra-build-solo-rank-rotation-2026-day-14",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2342,9 +2342,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -2395,9 +2395,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Khufra Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-14)",
-    "metaTitleEn": "Build Khufra Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Khufra Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-14). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Khufra Build & Solo Rank Meta Rotation 2026 (Day #14)",
+    "metaTitleEn": "Best Khufra Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Khufra build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -2406,7 +2406,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Khufra Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-14). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Khufra build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -2417,7 +2417,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -2430,9 +2430,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -2447,7 +2447,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -2455,7 +2455,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -2486,7 +2486,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-minotaur-tersakit-rotasi-meta-solo-rank-2026-hari-ke-15",
-    "slugEn": "mlbb-complete-guide-build-minotaur-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-minotaur-build-solo-rank-rotation-2026-day-15",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2533,9 +2533,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -2586,9 +2586,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Minotaur Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-15)",
-    "metaTitleEn": "Build Minotaur Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Minotaur Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-15). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Minotaur Build & Solo Rank Meta Rotation 2026 (Day #15)",
+    "metaTitleEn": "Best Minotaur Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Minotaur build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -2597,7 +2597,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Minotaur Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-15). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Minotaur build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -2608,7 +2608,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -2621,9 +2621,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -2638,7 +2638,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -2646,7 +2646,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -2677,7 +2677,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-franco-tersakit-rotasi-meta-solo-rank-2026-hari-ke-16",
-    "slugEn": "mlbb-complete-guide-build-franco-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-franco-build-solo-rank-rotation-2026-day-16",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2724,10 +2724,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Rapid Boots (Conceal)**: Memberikan movement speed tertinggi untuk rotasi roaming kilat melintasi seluruh lane.",
-          "2. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
-          "3. **Athena's Shield**: Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh.",
-          "4. **Antique Cuirass**: Memangkas physical attack musuh yang menyerang Anda hingga 24%, efektif meredam assassin lawan.",
-          "5. **Thunder Belt**: Memberikan True Damage berbasis HP maksimal dan efek slow area setelah melancarkan kemampuan skill.",
+          "2. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
+          "3. **Athena's Shield**: Mengurangi damage sihir ledakan (burst magic) sebesar 25% selama beberapa detik pertama serangan.",
+          "4. **Antique Cuirass**: Memangkas persentase Physical Attack musuh saat Anda terkena skill fisik bertubi-tubi.",
+          "5. **Thunder Belt**: Memberikan True Damage berbasis HP dan efek slow area setelah penggunaan skill, serta menambah defense permanen.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
@@ -2777,9 +2777,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Franco Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-16)",
-    "metaTitleEn": "Build Franco Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Franco Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-16). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Franco Build & Solo Rank Meta Rotation 2026 (Day #16)",
+    "metaTitleEn": "Best Franco Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Franco build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -2788,7 +2788,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Franco Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-16). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Franco build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -2799,7 +2799,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Arahkan Iron Hook 0.5 meter di depan arah lari musuh untuk membaca pergerakan refleks lawan.",
+          "text": "Lead your Iron Hook approximately half a meter ahead of the enemy's moving vector to predict their reaction pattern.",
           "type": "tip"
         }
       },
@@ -2812,10 +2812,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Rapid Boots (Conceal)**: Delivers maximum out-of-combat movement speed for lightning-fast cross-map rotations.",
-          "2. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
-          "3. **Athena's Shield**: Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits.",
-          "4. **Antique Cuirass**: Reduces enemy physical attack by up to 24% when struck by physical abilities.",
-          "5. **Thunder Belt**: Channels scaling True Damage based on max HP and an AoE slow following skill casts.",
+          "2. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
+          "3. **Athena's Shield**: Reduces incoming burst magic damage by 25% for several critical seconds.",
+          "4. **Antique Cuirass**: Progressively diminishes enemy Physical Attack upon receiving incoming physical skill hits.",
+          "5. **Thunder Belt**: Deals HP-scaling True Damage with an area slow while permanently stacking hybrid defenses.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
@@ -2837,7 +2837,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Iron Hook dari semak tanpa tanda -> Bloody Hunt kuncian suppression mutlak -> Fury Shock slow area**.",
+          "Primary execution combo: **Iron Hook from unspotted bush -> Bloody Hunt absolute suppression lock -> Fury Shock area slow**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -2868,7 +2868,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-chou-tersakit-rotasi-meta-solo-rank-2026-hari-ke-17",
-    "slugEn": "mlbb-complete-guide-build-chou-tersakit-rotasi-meta-solo-rank-2026-hari-ke-",
+    "slugEn": "mlbb-best-chou-build-solo-rank-rotation-2026-day-17",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -2915,10 +2915,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **Blade of the Heptaseas**: Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Blade of Despair**: Item ofensif puncak dengan +160 Physical Attack dan bonus damage 25% saat musuh memiliki HP di bawah 50%.",
-          "5. **Thunder Belt**: Memberikan True Damage berbasis HP maksimal dan efek slow area setelah melancarkan kemampuan skill.",
+          "2. **Blade of the Heptaseas**: Memberikan bonus damage burst pada serangan dasar pertama setelah tidak terkena hit selama 5 detik.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Blade of Despair**: Pemberi Physical Attack tertinggi (+160) dengan pasif ekstra 25% damage saat target sekarat di bawah 50% HP.",
+          "5. **Thunder Belt**: Memberikan True Damage berbasis HP dan efek slow area setelah penggunaan skill, serta menambah defense permanen.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
       },
@@ -2968,9 +2968,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Chou Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-17)",
-    "metaTitleEn": "Build Chou Tersakit & Rotasi Meta Solo Rank 2026 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Chou Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-17). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Chou Build & Solo Rank Meta Rotation 2026 (Day #17)",
+    "metaTitleEn": "Best Chou Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Chou build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -2979,7 +2979,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Chou Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-17). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Chou build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -2990,7 +2990,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Gunakan Shunpo tepat saat proyektil stun musuh meluncur untuk menyerap efek crowd control dan memperoleh bonus penetrasi.",
+          "text": "Time Shunpo right as incoming enemy stun projectiles travel to absorb crowd control and gain bonus physical penetration.",
           "type": "tip"
         }
       },
@@ -3003,10 +3003,10 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **Blade of the Heptaseas**: Unleashes devastating ambush burst and slow on the first basic attack from concealment.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Blade of Despair**: The ultimate offensive finisher offering +160 Physical Attack and +25% execution damage on low-HP targets.",
-          "5. **Thunder Belt**: Channels scaling True Damage based on max HP and an AoE slow following skill casts.",
+          "2. **Blade of the Heptaseas**: Delivers ambush burst damage on the first basic attack after remaining out of combat for 5 seconds.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Blade of Despair**: Delivers maximum +160 Physical Attack with a 25% damage amplifier against low-health targets.",
+          "5. **Thunder Belt**: Deals HP-scaling True Damage with an area slow while permanently stacking hybrid defenses.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
       },
@@ -3028,7 +3028,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Jeet Kune Do pukulan 1-2 -> Shunpo kebal crowd control -> Jeet Kune Do 3 knockup -> The Way of Dragon tendang ke turret**.",
+          "Primary execution combo: **Jeet Kune Do strikes 1-2 -> Shunpo CC immunity slide -> Jeet Kune Do 3 knockup -> The Way of Dragon kick into turret**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -3059,7 +3059,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-yu-zhong-tersakit-rotasi-meta-solo-rank-2026-hari-ke-18",
-    "slugEn": "mlbb-complete-guide-build-yu-zhong-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-yu-zhong-build-solo-rank-rotation-2026-day-18",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3106,9 +3106,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -3159,9 +3159,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Yu Zhong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-18)",
-    "metaTitleEn": "Build Yu Zhong Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Yu Zhong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-18). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Yu Zhong Build & Solo Rank Meta Rotation 2026 (Day #18)",
+    "metaTitleEn": "Best Yu Zhong Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Yu Zhong build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -3170,7 +3170,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Yu Zhong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-18). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Yu Zhong build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -3181,7 +3181,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -3194,9 +3194,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -3211,7 +3211,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -3219,7 +3219,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -3250,7 +3250,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-paquito-tersakit-rotasi-meta-solo-rank-2026-hari-ke-19",
-    "slugEn": "mlbb-complete-guide-build-paquito-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-paquito-build-solo-rank-rotation-2026-day-19",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3297,9 +3297,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -3350,9 +3350,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Paquito Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-19)",
-    "metaTitleEn": "Build Paquito Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Paquito Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-19). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Paquito Build & Solo Rank Meta Rotation 2026 (Day #19)",
+    "metaTitleEn": "Best Paquito Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Paquito build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -3361,7 +3361,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Paquito Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-19). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Paquito build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -3372,7 +3372,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -3385,9 +3385,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -3402,7 +3402,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -3410,7 +3410,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -3441,7 +3441,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-terizla-tersakit-rotasi-meta-solo-rank-2026-hari-ke-20",
-    "slugEn": "mlbb-complete-guide-build-terizla-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-terizla-build-solo-rank-rotation-2026-day-20",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3488,9 +3488,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -3541,9 +3541,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Terizla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-20)",
-    "metaTitleEn": "Build Terizla Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Terizla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-20). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Terizla Build & Solo Rank Meta Rotation 2026 (Day #20)",
+    "metaTitleEn": "Best Terizla Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Terizla build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -3552,7 +3552,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Terizla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-20). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Terizla build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -3563,7 +3563,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -3576,9 +3576,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -3593,7 +3593,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -3601,7 +3601,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -3632,7 +3632,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-cici-tersakit-rotasi-meta-solo-rank-2026-hari-ke-21",
-    "slugEn": "mlbb-complete-guide-build-cici-tersakit-rotasi-meta-solo-rank-2026-hari-ke-",
+    "slugEn": "mlbb-best-cici-build-solo-rank-rotation-2026-day-21",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3679,9 +3679,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -3732,9 +3732,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Cici Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-21)",
-    "metaTitleEn": "Build Cici Tersakit & Rotasi Meta Solo Rank 2026 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Cici Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-21). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Cici Build & Solo Rank Meta Rotation 2026 (Day #21)",
+    "metaTitleEn": "Best Cici Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Cici build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -3743,7 +3743,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Cici Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-21). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Cici build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -3754,7 +3754,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -3767,9 +3767,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -3784,7 +3784,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -3792,7 +3792,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -3823,7 +3823,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-lunox-tersakit-rotasi-meta-solo-rank-2026-hari-ke-22",
-    "slugEn": "mlbb-complete-guide-build-lunox-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-lunox-build-solo-rank-rotation-2026-day-22",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -3870,9 +3870,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -3923,9 +3923,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Lunox Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-22)",
-    "metaTitleEn": "Build Lunox Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Lunox Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-22). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Lunox Build & Solo Rank Meta Rotation 2026 (Day #22)",
+    "metaTitleEn": "Best Lunox Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Lunox build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -3934,7 +3934,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Lunox Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-22). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Lunox build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -3945,7 +3945,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -3958,9 +3958,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -3975,7 +3975,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -3983,7 +3983,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -4014,7 +4014,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-kagura-tersakit-rotasi-meta-solo-rank-2026-hari-ke-23",
-    "slugEn": "mlbb-complete-guide-build-kagura-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-kagura-build-solo-rank-rotation-2026-day-23",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4061,9 +4061,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -4114,9 +4114,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Kagura Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-23)",
-    "metaTitleEn": "Build Kagura Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Kagura Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-23). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Kagura Build & Solo Rank Meta Rotation 2026 (Day #23)",
+    "metaTitleEn": "Best Kagura Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Kagura build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -4125,7 +4125,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Kagura Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-23). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Kagura build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -4136,7 +4136,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -4149,9 +4149,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -4166,7 +4166,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -4174,7 +4174,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -4205,7 +4205,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-novaria-tersakit-rotasi-meta-solo-rank-2026-hari-ke-24",
-    "slugEn": "mlbb-complete-guide-build-novaria-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-novaria-build-solo-rank-rotation-2026-day-24",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4252,9 +4252,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -4305,9 +4305,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Novaria Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-24)",
-    "metaTitleEn": "Build Novaria Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Novaria Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-24). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Novaria Build & Solo Rank Meta Rotation 2026 (Day #24)",
+    "metaTitleEn": "Best Novaria Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Novaria build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -4316,7 +4316,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Novaria Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-24). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Novaria build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -4327,7 +4327,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -4340,9 +4340,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -4357,7 +4357,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -4365,7 +4365,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -4396,7 +4396,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-zhuxin-tersakit-rotasi-meta-solo-rank-2026-hari-ke-25",
-    "slugEn": "mlbb-complete-guide-build-zhuxin-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-zhuxin-build-solo-rank-rotation-2026-day-25",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4443,9 +4443,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -4496,9 +4496,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Zhuxin Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-25)",
-    "metaTitleEn": "Build Zhuxin Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Zhuxin Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-25). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Zhuxin Build & Solo Rank Meta Rotation 2026 (Day #25)",
+    "metaTitleEn": "Best Zhuxin Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Zhuxin build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -4507,7 +4507,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Zhuxin Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-25). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Zhuxin build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -4518,7 +4518,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -4531,9 +4531,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -4548,7 +4548,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -4556,7 +4556,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -4587,7 +4587,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-mathilda-tersakit-rotasi-meta-solo-rank-2026-hari-ke-26",
-    "slugEn": "mlbb-complete-guide-build-mathilda-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-mathilda-build-solo-rank-rotation-2026-day-26",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4634,9 +4634,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -4687,9 +4687,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Mathilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-26)",
-    "metaTitleEn": "Build Mathilda Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Mathilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-26). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Mathilda Build & Solo Rank Meta Rotation 2026 (Day #26)",
+    "metaTitleEn": "Best Mathilda Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Mathilda build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -4698,7 +4698,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Mathilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-26). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Mathilda build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -4709,7 +4709,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -4722,9 +4722,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -4739,7 +4739,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -4747,7 +4747,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -4778,7 +4778,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-diggie-tersakit-rotasi-meta-solo-rank-2026-hari-ke-27",
-    "slugEn": "mlbb-complete-guide-build-diggie-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-diggie-build-solo-rank-rotation-2026-day-27",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -4825,9 +4825,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -4878,9 +4878,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Diggie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-27)",
-    "metaTitleEn": "Build Diggie Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Diggie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-27). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Diggie Build & Solo Rank Meta Rotation 2026 (Day #27)",
+    "metaTitleEn": "Best Diggie Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Diggie build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -4889,7 +4889,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Diggie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-27). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Diggie build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -4900,7 +4900,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -4913,9 +4913,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -4930,7 +4930,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -4938,7 +4938,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -4969,7 +4969,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-fredrinn-tersakit-rotasi-meta-solo-rank-2026-hari-ke-28",
-    "slugEn": "mlbb-complete-guide-build-fredrinn-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-fredrinn-build-solo-rank-rotation-2026-day-28",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5016,9 +5016,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -5069,9 +5069,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Fredrinn Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-28)",
-    "metaTitleEn": "Build Fredrinn Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Fredrinn Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-28). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Fredrinn Build & Solo Rank Meta Rotation 2026 (Day #28)",
+    "metaTitleEn": "Best Fredrinn Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Fredrinn build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -5080,7 +5080,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Fredrinn Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-28). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Fredrinn build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -5091,7 +5091,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -5104,9 +5104,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -5121,7 +5121,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -5129,7 +5129,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -5160,7 +5160,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-baxia-tersakit-rotasi-meta-solo-rank-2026-hari-ke-29",
-    "slugEn": "mlbb-complete-guide-build-baxia-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-baxia-build-solo-rank-rotation-2026-day-29",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5207,9 +5207,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -5260,9 +5260,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Baxia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-29)",
-    "metaTitleEn": "Build Baxia Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Baxia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-29). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Baxia Build & Solo Rank Meta Rotation 2026 (Day #29)",
+    "metaTitleEn": "Best Baxia Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Baxia build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -5271,7 +5271,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Baxia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-29). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Baxia build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -5282,7 +5282,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -5295,9 +5295,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -5312,7 +5312,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -5320,7 +5320,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -5351,7 +5351,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-akai-tersakit-rotasi-meta-solo-rank-2026-hari-ke-30",
-    "slugEn": "mlbb-complete-guide-build-akai-tersakit-rotasi-meta-solo-rank-2026-hari-ke-",
+    "slugEn": "mlbb-best-akai-build-solo-rank-rotation-2026-day-30",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5398,9 +5398,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -5451,9 +5451,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Akai Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-30)",
-    "metaTitleEn": "Build Akai Tersakit & Rotasi Meta Solo Rank 2026 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Akai Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-30). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Akai Build & Solo Rank Meta Rotation 2026 (Day #30)",
+    "metaTitleEn": "Best Akai Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Akai build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -5462,7 +5462,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Akai Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-30). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Akai build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -5473,7 +5473,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -5486,9 +5486,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -5503,7 +5503,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -5511,7 +5511,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -5542,7 +5542,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-arlott-tersakit-rotasi-meta-solo-rank-2026-hari-ke-31",
-    "slugEn": "mlbb-complete-guide-build-arlott-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-arlott-build-solo-rank-rotation-2026-day-31",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5589,9 +5589,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -5642,9 +5642,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Arlott Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-31)",
-    "metaTitleEn": "Build Arlott Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Arlott Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-31). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Arlott Build & Solo Rank Meta Rotation 2026 (Day #31)",
+    "metaTitleEn": "Best Arlott Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Arlott build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -5653,7 +5653,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Arlott Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-31). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Arlott build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -5664,7 +5664,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -5677,9 +5677,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -5694,7 +5694,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -5702,7 +5702,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -5733,7 +5733,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-lapu-lapu-tersakit-rotasi-meta-solo-rank-2026-hari-ke-32",
-    "slugEn": "mlbb-complete-guide-build-lapu-lapu-tersakit-rotasi-meta-solo-rank-2026-har",
+    "slugEn": "mlbb-best-lapu-lapu-build-solo-rank-rotation-2026-day-32",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5780,9 +5780,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -5833,9 +5833,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-32)",
-    "metaTitleEn": "Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-32). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Lapu-Lapu Build & Solo Rank Meta Rotation 2026 (Day #32)",
+    "metaTitleEn": "Best Lapu-Lapu Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Lapu-Lapu build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -5844,7 +5844,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-32). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Lapu-Lapu build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -5855,7 +5855,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -5868,9 +5868,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -5885,7 +5885,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -5893,7 +5893,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -5924,7 +5924,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-joy-tersakit-rotasi-meta-solo-rank-2026-hari-ke-33",
-    "slugEn": "mlbb-complete-guide-build-joy-tersakit-rotasi-meta-solo-rank-2026-hari-ke-3",
+    "slugEn": "mlbb-best-joy-build-solo-rank-rotation-2026-day-33",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -5971,9 +5971,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -6024,9 +6024,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Joy Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-33)",
-    "metaTitleEn": "Build Joy Tersakit & Rotasi Meta Solo Rank 2026  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Joy Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-33). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Joy Build & Solo Rank Meta Rotation 2026 (Day #33)",
+    "metaTitleEn": "Best Joy Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Joy build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -6035,7 +6035,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Joy Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-33). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Joy build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -6046,7 +6046,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -6059,9 +6059,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -6076,7 +6076,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -6084,7 +6084,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -6115,7 +6115,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-benedetta-tersakit-rotasi-meta-solo-rank-2026-hari-ke-34",
-    "slugEn": "mlbb-complete-guide-build-benedetta-tersakit-rotasi-meta-solo-rank-2026-har",
+    "slugEn": "mlbb-best-benedetta-build-solo-rank-rotation-2026-day-34",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6162,9 +6162,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -6215,9 +6215,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Benedetta Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-34)",
-    "metaTitleEn": "Build Benedetta Tersakit & Rotasi Meta Solo Rank | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Benedetta Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-34). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Benedetta Build & Solo Rank Meta Rotation 2026 (Day #34)",
+    "metaTitleEn": "Best Benedetta Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Benedetta build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -6226,7 +6226,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Benedetta Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-34). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Benedetta build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -6237,7 +6237,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -6250,9 +6250,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -6267,7 +6267,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -6275,7 +6275,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -6306,7 +6306,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-natalia-tersakit-rotasi-meta-solo-rank-2026-hari-ke-35",
-    "slugEn": "mlbb-complete-guide-build-natalia-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-natalia-build-solo-rank-rotation-2026-day-35",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6353,9 +6353,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -6406,9 +6406,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Natalia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-35)",
-    "metaTitleEn": "Build Natalia Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Natalia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-35). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Natalia Build & Solo Rank Meta Rotation 2026 (Day #35)",
+    "metaTitleEn": "Best Natalia Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Natalia build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -6417,7 +6417,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Natalia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-35). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Natalia build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -6428,7 +6428,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -6441,9 +6441,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -6458,7 +6458,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -6466,7 +6466,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -6497,7 +6497,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-helcurt-tersakit-rotasi-meta-solo-rank-2026-hari-ke-36",
-    "slugEn": "mlbb-complete-guide-build-helcurt-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-helcurt-build-solo-rank-rotation-2026-day-36",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6544,9 +6544,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -6597,9 +6597,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Helcurt Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-36)",
-    "metaTitleEn": "Build Helcurt Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Helcurt Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-36). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Helcurt Build & Solo Rank Meta Rotation 2026 (Day #36)",
+    "metaTitleEn": "Best Helcurt Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Helcurt build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -6608,7 +6608,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Helcurt Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-36). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Helcurt build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -6619,7 +6619,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -6632,9 +6632,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -6649,7 +6649,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -6657,7 +6657,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -6688,7 +6688,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-saber-tersakit-rotasi-meta-solo-rank-2026-hari-ke-37",
-    "slugEn": "mlbb-complete-guide-build-saber-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-saber-build-solo-rank-rotation-2026-day-37",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6735,9 +6735,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -6788,9 +6788,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Saber Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-37)",
-    "metaTitleEn": "Build Saber Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Saber Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-37). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Saber Build & Solo Rank Meta Rotation 2026 (Day #37)",
+    "metaTitleEn": "Best Saber Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Saber build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -6799,7 +6799,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Saber Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-37). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Saber build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -6810,7 +6810,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -6823,9 +6823,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -6840,7 +6840,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -6848,7 +6848,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -6879,7 +6879,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-karina-tersakit-rotasi-meta-solo-rank-2026-hari-ke-38",
-    "slugEn": "mlbb-complete-guide-build-karina-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-karina-build-solo-rank-rotation-2026-day-38",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -6926,9 +6926,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -6979,9 +6979,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Karina Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-38)",
-    "metaTitleEn": "Build Karina Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Karina Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-38). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Karina Build & Solo Rank Meta Rotation 2026 (Day #38)",
+    "metaTitleEn": "Best Karina Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Karina build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -6990,7 +6990,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Karina Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-38). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Karina build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -7001,7 +7001,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -7014,9 +7014,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -7031,7 +7031,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -7039,7 +7039,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -7070,7 +7070,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-harley-tersakit-rotasi-meta-solo-rank-2026-hari-ke-39",
-    "slugEn": "mlbb-complete-guide-build-harley-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-harley-build-solo-rank-rotation-2026-day-39",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7117,9 +7117,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -7170,9 +7170,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Harley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-39)",
-    "metaTitleEn": "Build Harley Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Harley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-39). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Harley Build & Solo Rank Meta Rotation 2026 (Day #39)",
+    "metaTitleEn": "Best Harley Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Harley build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -7181,7 +7181,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Harley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-39). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Harley build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -7192,7 +7192,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -7205,9 +7205,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -7222,7 +7222,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -7230,7 +7230,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -7261,7 +7261,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-cyclops-tersakit-rotasi-meta-solo-rank-2026-hari-ke-40",
-    "slugEn": "mlbb-complete-guide-build-cyclops-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-cyclops-build-solo-rank-rotation-2026-day-40",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7308,9 +7308,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -7361,9 +7361,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Cyclops Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-40)",
-    "metaTitleEn": "Build Cyclops Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Cyclops Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-40). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Cyclops Build & Solo Rank Meta Rotation 2026 (Day #40)",
+    "metaTitleEn": "Best Cyclops Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Cyclops build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -7372,7 +7372,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Cyclops Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-40). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Cyclops build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -7383,7 +7383,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -7396,9 +7396,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -7413,7 +7413,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -7421,7 +7421,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -7452,7 +7452,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-vale-tersakit-rotasi-meta-solo-rank-2026-hari-ke-41",
-    "slugEn": "mlbb-complete-guide-build-vale-tersakit-rotasi-meta-solo-rank-2026-hari-ke-",
+    "slugEn": "mlbb-best-vale-build-solo-rank-rotation-2026-day-41",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7499,9 +7499,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -7552,9 +7552,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Vale Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-41)",
-    "metaTitleEn": "Build Vale Tersakit & Rotasi Meta Solo Rank 2026 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Vale Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-41). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Vale Build & Solo Rank Meta Rotation 2026 (Day #41)",
+    "metaTitleEn": "Best Vale Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Vale build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -7563,7 +7563,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Vale Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-41). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Vale build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -7574,7 +7574,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -7587,9 +7587,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -7604,7 +7604,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -7612,7 +7612,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -7643,7 +7643,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-pharsa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-42",
-    "slugEn": "mlbb-complete-guide-build-pharsa-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-pharsa-build-solo-rank-rotation-2026-day-42",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7690,9 +7690,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -7743,9 +7743,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Pharsa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-42)",
-    "metaTitleEn": "Build Pharsa Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Pharsa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-42). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Pharsa Build & Solo Rank Meta Rotation 2026 (Day #42)",
+    "metaTitleEn": "Best Pharsa Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Pharsa build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -7754,7 +7754,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Pharsa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-42). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Pharsa build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -7765,7 +7765,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -7778,9 +7778,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -7795,7 +7795,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -7803,7 +7803,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -7834,7 +7834,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-yve-tersakit-rotasi-meta-solo-rank-2026-hari-ke-43",
-    "slugEn": "mlbb-complete-guide-build-yve-tersakit-rotasi-meta-solo-rank-2026-hari-ke-4",
+    "slugEn": "mlbb-best-yve-build-solo-rank-rotation-2026-day-43",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -7881,9 +7881,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -7934,9 +7934,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Yve Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-43)",
-    "metaTitleEn": "Build Yve Tersakit & Rotasi Meta Solo Rank 2026  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Yve Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-43). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Yve Build & Solo Rank Meta Rotation 2026 (Day #43)",
+    "metaTitleEn": "Best Yve Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Yve build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -7945,7 +7945,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Yve Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-43). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Yve build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -7956,7 +7956,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -7969,9 +7969,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -7986,7 +7986,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -7994,7 +7994,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -8025,7 +8025,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-xavier-tersakit-rotasi-meta-solo-rank-2026-hari-ke-44",
-    "slugEn": "mlbb-complete-guide-build-xavier-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-xavier-build-solo-rank-rotation-2026-day-44",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8072,9 +8072,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -8125,9 +8125,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Xavier Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-44)",
-    "metaTitleEn": "Build Xavier Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Xavier Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-44). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Xavier Build & Solo Rank Meta Rotation 2026 (Day #44)",
+    "metaTitleEn": "Best Xavier Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Xavier build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -8136,7 +8136,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Xavier Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-44). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Xavier build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -8147,7 +8147,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -8160,9 +8160,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -8177,7 +8177,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -8185,7 +8185,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -8216,7 +8216,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-cecilion-tersakit-rotasi-meta-solo-rank-2026-hari-ke-45",
-    "slugEn": "mlbb-complete-guide-build-cecilion-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-cecilion-build-solo-rank-rotation-2026-day-45",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8263,9 +8263,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -8316,9 +8316,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Cecilion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-45)",
-    "metaTitleEn": "Build Cecilion Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Cecilion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-45). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Cecilion Build & Solo Rank Meta Rotation 2026 (Day #45)",
+    "metaTitleEn": "Best Cecilion Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Cecilion build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -8327,7 +8327,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Cecilion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-45). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Cecilion build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -8338,7 +8338,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -8351,9 +8351,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -8368,7 +8368,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -8376,7 +8376,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -8407,7 +8407,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-lylia-tersakit-rotasi-meta-solo-rank-2026-hari-ke-46",
-    "slugEn": "mlbb-complete-guide-build-lylia-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-lylia-build-solo-rank-rotation-2026-day-46",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8454,9 +8454,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -8507,9 +8507,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Lylia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-46)",
-    "metaTitleEn": "Build Lylia Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Lylia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-46). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Lylia Build & Solo Rank Meta Rotation 2026 (Day #46)",
+    "metaTitleEn": "Best Lylia Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Lylia build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -8518,7 +8518,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Lylia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-46). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Lylia build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -8529,7 +8529,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -8542,9 +8542,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -8559,7 +8559,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -8567,7 +8567,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -8598,7 +8598,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-kadita-tersakit-rotasi-meta-solo-rank-2026-hari-ke-47",
-    "slugEn": "mlbb-complete-guide-build-kadita-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-kadita-build-solo-rank-rotation-2026-day-47",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8645,9 +8645,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -8698,9 +8698,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Kadita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-47)",
-    "metaTitleEn": "Build Kadita Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Kadita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-47). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Kadita Build & Solo Rank Meta Rotation 2026 (Day #47)",
+    "metaTitleEn": "Best Kadita Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Kadita build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -8709,7 +8709,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Kadita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-47). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Kadita build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -8720,7 +8720,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -8733,9 +8733,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -8750,7 +8750,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -8758,7 +8758,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -8789,7 +8789,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-lesley-tersakit-rotasi-meta-solo-rank-2026-hari-ke-48",
-    "slugEn": "mlbb-complete-guide-build-lesley-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-lesley-build-solo-rank-rotation-2026-day-48",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -8836,9 +8836,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -8889,9 +8889,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Lesley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-48)",
-    "metaTitleEn": "Build Lesley Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Lesley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-48). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Lesley Build & Solo Rank Meta Rotation 2026 (Day #48)",
+    "metaTitleEn": "Best Lesley Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Lesley build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -8900,7 +8900,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Lesley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-48). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Lesley build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -8911,7 +8911,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -8924,9 +8924,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -8941,7 +8941,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -8949,7 +8949,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -8980,7 +8980,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-clint-tersakit-rotasi-meta-solo-rank-2026-hari-ke-49",
-    "slugEn": "mlbb-complete-guide-build-clint-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-clint-build-solo-rank-rotation-2026-day-49",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9027,9 +9027,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -9080,9 +9080,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Clint Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-49)",
-    "metaTitleEn": "Build Clint Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Clint Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-49). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Clint Build & Solo Rank Meta Rotation 2026 (Day #49)",
+    "metaTitleEn": "Best Clint Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Clint build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -9091,7 +9091,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Clint Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-49). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Clint build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -9102,7 +9102,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -9115,9 +9115,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -9132,7 +9132,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -9140,7 +9140,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -9171,7 +9171,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-granger-tersakit-rotasi-meta-solo-rank-2026-hari-ke-50",
-    "slugEn": "mlbb-complete-guide-build-granger-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-granger-build-solo-rank-rotation-2026-day-50",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9218,9 +9218,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -9271,9 +9271,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Granger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-50)",
-    "metaTitleEn": "Build Granger Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Granger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-50). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Granger Build & Solo Rank Meta Rotation 2026 (Day #50)",
+    "metaTitleEn": "Best Granger Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Granger build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -9282,7 +9282,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Granger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-50). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Granger build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -9293,7 +9293,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -9306,9 +9306,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -9323,7 +9323,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -9331,7 +9331,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -9362,7 +9362,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-bruno-tersakit-rotasi-meta-solo-rank-2026-hari-ke-51",
-    "slugEn": "mlbb-complete-guide-build-bruno-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-bruno-build-solo-rank-rotation-2026-day-51",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9409,9 +9409,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -9462,9 +9462,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Bruno Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-51)",
-    "metaTitleEn": "Build Bruno Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Bruno Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-51). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Bruno Build & Solo Rank Meta Rotation 2026 (Day #51)",
+    "metaTitleEn": "Best Bruno Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Bruno build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -9473,7 +9473,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Bruno Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-51). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Bruno build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -9484,7 +9484,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -9497,9 +9497,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -9514,7 +9514,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -9522,7 +9522,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -9553,7 +9553,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-irithel-tersakit-rotasi-meta-solo-rank-2026-hari-ke-52",
-    "slugEn": "mlbb-complete-guide-build-irithel-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-irithel-build-solo-rank-rotation-2026-day-52",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9600,9 +9600,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -9653,9 +9653,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Irithel Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-52)",
-    "metaTitleEn": "Build Irithel Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Irithel Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-52). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Irithel Build & Solo Rank Meta Rotation 2026 (Day #52)",
+    "metaTitleEn": "Best Irithel Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Irithel build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -9664,7 +9664,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Irithel Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-52). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Irithel build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -9675,7 +9675,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -9688,9 +9688,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -9705,7 +9705,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -9713,7 +9713,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -9744,7 +9744,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-popol-kupa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-53",
-    "slugEn": "mlbb-complete-guide-build-popol-kupa-tersakit-rotasi-meta-solo-rank-2026-ha",
+    "slugEn": "mlbb-best-popol-kupa-build-solo-rank-rotation-2026-day-53",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9791,9 +9791,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -9844,9 +9844,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Popol & Kupa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-53)",
-    "metaTitleEn": "Build Popol & Kupa Tersakit & Rotasi Meta Solo R | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Popol & Kupa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-53). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Popol & Kupa Build & Solo Rank Meta Rotation 2026 (Day #53)",
+    "metaTitleEn": "Best Popol & Kupa Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Popol & Kupa build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -9855,7 +9855,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Popol & Kupa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-53). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Popol & Kupa build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -9866,7 +9866,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -9879,9 +9879,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -9896,7 +9896,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -9904,7 +9904,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -9935,7 +9935,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-melissa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-54",
-    "slugEn": "mlbb-complete-guide-build-melissa-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-melissa-build-solo-rank-rotation-2026-day-54",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9982,9 +9982,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -10035,9 +10035,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Melissa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-54)",
-    "metaTitleEn": "Build Melissa Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Melissa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-54). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Melissa Build & Solo Rank Meta Rotation 2026 (Day #54)",
+    "metaTitleEn": "Best Melissa Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Melissa build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -10046,7 +10046,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Melissa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-54). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Melissa build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -10057,7 +10057,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -10070,9 +10070,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -10087,7 +10087,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -10095,7 +10095,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -10126,7 +10126,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-natan-tersakit-rotasi-meta-solo-rank-2026-hari-ke-55",
-    "slugEn": "mlbb-complete-guide-build-natan-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-natan-build-solo-rank-rotation-2026-day-55",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10173,9 +10173,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -10226,9 +10226,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Natan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-55)",
-    "metaTitleEn": "Build Natan Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Natan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-55). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Natan Build & Solo Rank Meta Rotation 2026 (Day #55)",
+    "metaTitleEn": "Best Natan Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Natan build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -10237,7 +10237,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Natan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-55). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Natan build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -10248,7 +10248,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -10261,9 +10261,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -10278,7 +10278,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -10286,7 +10286,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -10317,7 +10317,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-miya-tersakit-rotasi-meta-solo-rank-2026-hari-ke-56",
-    "slugEn": "mlbb-complete-guide-build-miya-tersakit-rotasi-meta-solo-rank-2026-hari-ke-",
+    "slugEn": "mlbb-best-miya-build-solo-rank-rotation-2026-day-56",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10364,9 +10364,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -10417,9 +10417,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Miya Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-56)",
-    "metaTitleEn": "Build Miya Tersakit & Rotasi Meta Solo Rank 2026 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Miya Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-56). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Miya Build & Solo Rank Meta Rotation 2026 (Day #56)",
+    "metaTitleEn": "Best Miya Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Miya build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -10428,7 +10428,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Miya Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-56). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Miya build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -10439,7 +10439,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -10452,9 +10452,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -10469,7 +10469,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -10477,7 +10477,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -10508,7 +10508,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-layla-tersakit-rotasi-meta-solo-rank-2026-hari-ke-57",
-    "slugEn": "mlbb-complete-guide-build-layla-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-layla-build-solo-rank-rotation-2026-day-57",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10555,9 +10555,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -10608,9 +10608,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Layla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-57)",
-    "metaTitleEn": "Build Layla Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Layla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-57). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Layla Build & Solo Rank Meta Rotation 2026 (Day #57)",
+    "metaTitleEn": "Best Layla Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Layla build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -10619,7 +10619,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Layla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-57). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Layla build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -10630,7 +10630,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -10643,9 +10643,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -10660,7 +10660,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -10668,7 +10668,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -10699,7 +10699,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-hanabi-tersakit-rotasi-meta-solo-rank-2026-hari-ke-58",
-    "slugEn": "mlbb-complete-guide-build-hanabi-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-hanabi-build-solo-rank-rotation-2026-day-58",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10746,9 +10746,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -10799,9 +10799,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Hanabi Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-58)",
-    "metaTitleEn": "Build Hanabi Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Hanabi Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-58). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Hanabi Build & Solo Rank Meta Rotation 2026 (Day #58)",
+    "metaTitleEn": "Best Hanabi Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Hanabi build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -10810,7 +10810,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Hanabi Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-58). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Hanabi build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -10821,7 +10821,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -10834,9 +10834,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -10851,7 +10851,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -10859,7 +10859,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -10890,7 +10890,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-edith-tersakit-rotasi-meta-solo-rank-2026-hari-ke-59",
-    "slugEn": "mlbb-complete-guide-build-edith-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-edith-build-solo-rank-rotation-2026-day-59",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10937,9 +10937,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -10990,9 +10990,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Edith Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-59)",
-    "metaTitleEn": "Build Edith Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Edith Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-59). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Edith Build & Solo Rank Meta Rotation 2026 (Day #59)",
+    "metaTitleEn": "Best Edith Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Edith build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -11001,7 +11001,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Edith Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-59). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Edith build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -11012,7 +11012,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -11025,9 +11025,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -11042,7 +11042,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -11050,7 +11050,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -11081,7 +11081,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-gatotkaca-tersakit-rotasi-meta-solo-rank-2026-hari-ke-60",
-    "slugEn": "mlbb-complete-guide-build-gatotkaca-tersakit-rotasi-meta-solo-rank-2026-har",
+    "slugEn": "mlbb-best-gatotkaca-build-solo-rank-rotation-2026-day-60",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11128,9 +11128,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -11181,9 +11181,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Gatotkaca Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-60)",
-    "metaTitleEn": "Build Gatotkaca Tersakit & Rotasi Meta Solo Rank | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Gatotkaca Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-60). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Gatotkaca Build & Solo Rank Meta Rotation 2026 (Day #60)",
+    "metaTitleEn": "Best Gatotkaca Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Gatotkaca build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -11192,7 +11192,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Gatotkaca Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-60). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Gatotkaca build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -11203,7 +11203,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -11216,9 +11216,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -11233,7 +11233,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -11241,7 +11241,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -11272,7 +11272,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-grock-tersakit-rotasi-meta-solo-rank-2026-hari-ke-61",
-    "slugEn": "mlbb-complete-guide-build-grock-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-grock-build-solo-rank-rotation-2026-day-61",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11319,9 +11319,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -11372,9 +11372,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Grock Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-61)",
-    "metaTitleEn": "Build Grock Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Grock Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-61). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Grock Build & Solo Rank Meta Rotation 2026 (Day #61)",
+    "metaTitleEn": "Best Grock Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Grock build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -11383,7 +11383,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Grock Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-61). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Grock build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -11394,7 +11394,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -11407,9 +11407,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -11424,7 +11424,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -11432,7 +11432,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -11463,7 +11463,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-atlas-tersakit-rotasi-meta-solo-rank-2026-hari-ke-62",
-    "slugEn": "mlbb-complete-guide-build-atlas-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-atlas-build-solo-rank-rotation-2026-day-62",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11510,9 +11510,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -11563,9 +11563,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Atlas Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-62)",
-    "metaTitleEn": "Build Atlas Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Atlas Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-62). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Atlas Build & Solo Rank Meta Rotation 2026 (Day #62)",
+    "metaTitleEn": "Best Atlas Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Atlas build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -11574,7 +11574,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Atlas Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-62). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Atlas build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -11585,7 +11585,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -11598,9 +11598,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -11615,7 +11615,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -11623,7 +11623,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -11654,7 +11654,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-belerick-tersakit-rotasi-meta-solo-rank-2026-hari-ke-63",
-    "slugEn": "mlbb-complete-guide-build-belerick-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-belerick-build-solo-rank-rotation-2026-day-63",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11701,9 +11701,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -11754,9 +11754,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Belerick Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-63)",
-    "metaTitleEn": "Build Belerick Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Belerick Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-63). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Belerick Build & Solo Rank Meta Rotation 2026 (Day #63)",
+    "metaTitleEn": "Best Belerick Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Belerick build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -11765,7 +11765,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Belerick Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-63). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Belerick build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -11776,7 +11776,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -11789,9 +11789,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -11806,7 +11806,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -11814,7 +11814,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -11845,7 +11845,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-hylos-tersakit-rotasi-meta-solo-rank-2026-hari-ke-64",
-    "slugEn": "mlbb-complete-guide-build-hylos-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-hylos-build-solo-rank-rotation-2026-day-64",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11892,9 +11892,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -11945,9 +11945,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Hylos Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-64)",
-    "metaTitleEn": "Build Hylos Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Hylos Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-64). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Hylos Build & Solo Rank Meta Rotation 2026 (Day #64)",
+    "metaTitleEn": "Best Hylos Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Hylos build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -11956,7 +11956,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Hylos Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-64). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Hylos build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -11967,7 +11967,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -11980,9 +11980,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -11997,7 +11997,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -12005,7 +12005,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -12036,7 +12036,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-lolita-tersakit-rotasi-meta-solo-rank-2026-hari-ke-65",
-    "slugEn": "mlbb-complete-guide-build-lolita-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-lolita-build-solo-rank-rotation-2026-day-65",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12083,9 +12083,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -12136,9 +12136,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Lolita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-65)",
-    "metaTitleEn": "Build Lolita Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Lolita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-65). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Lolita Build & Solo Rank Meta Rotation 2026 (Day #65)",
+    "metaTitleEn": "Best Lolita Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Lolita build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -12147,7 +12147,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Lolita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-65). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Lolita build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -12158,7 +12158,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -12171,9 +12171,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -12188,7 +12188,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -12196,7 +12196,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -12227,7 +12227,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-johnson-tersakit-rotasi-meta-solo-rank-2026-hari-ke-66",
-    "slugEn": "mlbb-complete-guide-build-johnson-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-johnson-build-solo-rank-rotation-2026-day-66",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12274,9 +12274,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -12327,9 +12327,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Johnson Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-66)",
-    "metaTitleEn": "Build Johnson Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Johnson Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-66). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Johnson Build & Solo Rank Meta Rotation 2026 (Day #66)",
+    "metaTitleEn": "Best Johnson Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Johnson build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -12338,7 +12338,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Johnson Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-66). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Johnson build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -12349,7 +12349,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -12362,9 +12362,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -12379,7 +12379,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -12387,7 +12387,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -12418,7 +12418,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-ruby-tersakit-rotasi-meta-solo-rank-2026-hari-ke-67",
-    "slugEn": "mlbb-complete-guide-build-ruby-tersakit-rotasi-meta-solo-rank-2026-hari-ke-",
+    "slugEn": "mlbb-best-ruby-build-solo-rank-rotation-2026-day-67",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12465,9 +12465,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -12518,9 +12518,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-67)",
-    "metaTitleEn": "Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-67). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Ruby Build & Solo Rank Meta Rotation 2026 (Day #67)",
+    "metaTitleEn": "Best Ruby Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Ruby build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -12529,7 +12529,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-67). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Ruby build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -12540,7 +12540,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -12553,9 +12553,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -12570,7 +12570,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -12578,7 +12578,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -12609,7 +12609,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-alpha-tersakit-rotasi-meta-solo-rank-2026-hari-ke-68",
-    "slugEn": "mlbb-complete-guide-build-alpha-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-alpha-build-solo-rank-rotation-2026-day-68",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12656,9 +12656,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -12709,9 +12709,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Alpha Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-68)",
-    "metaTitleEn": "Build Alpha Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Alpha Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-68). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Alpha Build & Solo Rank Meta Rotation 2026 (Day #68)",
+    "metaTitleEn": "Best Alpha Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Alpha build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -12720,7 +12720,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Alpha Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-68). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Alpha build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -12731,7 +12731,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -12744,9 +12744,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -12761,7 +12761,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -12769,7 +12769,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -12800,7 +12800,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-martis-tersakit-rotasi-meta-solo-rank-2026-hari-ke-69",
-    "slugEn": "mlbb-complete-guide-build-martis-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-martis-build-solo-rank-rotation-2026-day-69",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -12847,9 +12847,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -12900,9 +12900,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Martis Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-69)",
-    "metaTitleEn": "Build Martis Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Martis Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-69). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Martis Build & Solo Rank Meta Rotation 2026 (Day #69)",
+    "metaTitleEn": "Best Martis Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Martis build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -12911,7 +12911,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Martis Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-69). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Martis build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -12922,7 +12922,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -12935,9 +12935,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -12952,7 +12952,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -12960,7 +12960,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -12991,7 +12991,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-thamuz-tersakit-rotasi-meta-solo-rank-2026-hari-ke-70",
-    "slugEn": "mlbb-complete-guide-build-thamuz-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-thamuz-build-solo-rank-rotation-2026-day-70",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -13038,9 +13038,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -13091,9 +13091,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Thamuz Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-70)",
-    "metaTitleEn": "Build Thamuz Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Thamuz Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-70). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Thamuz Build & Solo Rank Meta Rotation 2026 (Day #70)",
+    "metaTitleEn": "Best Thamuz Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Thamuz build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -13102,7 +13102,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Thamuz Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-70). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Thamuz build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -13113,7 +13113,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -13126,9 +13126,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -13143,7 +13143,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -13151,7 +13151,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -13182,7 +13182,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-dyrroth-tersakit-rotasi-meta-solo-rank-2026-hari-ke-71",
-    "slugEn": "mlbb-complete-guide-build-dyrroth-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-dyrroth-build-solo-rank-rotation-2026-day-71",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -13229,9 +13229,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -13282,9 +13282,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Dyrroth Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-71)",
-    "metaTitleEn": "Build Dyrroth Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Dyrroth Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-71). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Dyrroth Build & Solo Rank Meta Rotation 2026 (Day #71)",
+    "metaTitleEn": "Best Dyrroth Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Dyrroth build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -13293,7 +13293,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Dyrroth Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-71). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Dyrroth build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -13304,7 +13304,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -13317,9 +13317,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -13334,7 +13334,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -13342,7 +13342,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -13373,7 +13373,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-silvanna-tersakit-rotasi-meta-solo-rank-2026-hari-ke-72",
-    "slugEn": "mlbb-complete-guide-build-silvanna-tersakit-rotasi-meta-solo-rank-2026-hari",
+    "slugEn": "mlbb-best-silvanna-build-solo-rank-rotation-2026-day-72",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -13420,9 +13420,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -13473,9 +13473,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Silvanna Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-72)",
-    "metaTitleEn": "Build Silvanna Tersakit & Rotasi Meta Solo Rank  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Silvanna Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-72). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Silvanna Build & Solo Rank Meta Rotation 2026 (Day #72)",
+    "metaTitleEn": "Best Silvanna Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Silvanna build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -13484,7 +13484,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Silvanna Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-72). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Silvanna build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -13495,7 +13495,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -13508,9 +13508,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -13525,7 +13525,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -13533,7 +13533,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -13564,7 +13564,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-guinevere-tersakit-rotasi-meta-solo-rank-2026-hari-ke-73",
-    "slugEn": "mlbb-complete-guide-build-guinevere-tersakit-rotasi-meta-solo-rank-2026-har",
+    "slugEn": "mlbb-best-guinevere-build-solo-rank-rotation-2026-day-73",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -13611,9 +13611,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -13664,9 +13664,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Guinevere Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-73)",
-    "metaTitleEn": "Build Guinevere Tersakit & Rotasi Meta Solo Rank | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Guinevere Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-73). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Guinevere Build & Solo Rank Meta Rotation 2026 (Day #73)",
+    "metaTitleEn": "Best Guinevere Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Guinevere build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -13675,7 +13675,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Guinevere Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-73). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Guinevere build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -13686,7 +13686,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -13699,9 +13699,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -13716,7 +13716,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -13724,7 +13724,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -13755,7 +13755,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-badang-tersakit-rotasi-meta-solo-rank-2026-hari-ke-74",
-    "slugEn": "mlbb-complete-guide-build-badang-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-badang-build-solo-rank-rotation-2026-day-74",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -13802,9 +13802,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -13855,9 +13855,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Badang Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-74)",
-    "metaTitleEn": "Build Badang Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Badang Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-74). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Badang Build & Solo Rank Meta Rotation 2026 (Day #74)",
+    "metaTitleEn": "Best Badang Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Badang build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -13866,7 +13866,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Badang Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-74). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Badang build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -13877,7 +13877,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -13890,9 +13890,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -13907,7 +13907,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -13915,7 +13915,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -13946,7 +13946,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-leomord-tersakit-rotasi-meta-solo-rank-2026-hari-ke-75",
-    "slugEn": "mlbb-complete-guide-build-leomord-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-leomord-build-solo-rank-rotation-2026-day-75",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -13993,9 +13993,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -14046,9 +14046,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Leomord Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-75)",
-    "metaTitleEn": "Build Leomord Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Leomord Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-75). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Leomord Build & Solo Rank Meta Rotation 2026 (Day #75)",
+    "metaTitleEn": "Best Leomord Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Leomord build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -14057,7 +14057,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Leomord Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-75). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Leomord build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -14068,7 +14068,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -14081,9 +14081,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -14098,7 +14098,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -14106,7 +14106,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -14137,7 +14137,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-aldous-tersakit-rotasi-meta-solo-rank-2026-hari-ke-76",
-    "slugEn": "mlbb-complete-guide-build-aldous-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-aldous-build-solo-rank-rotation-2026-day-76",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -14184,9 +14184,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -14237,9 +14237,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Aldous Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-76)",
-    "metaTitleEn": "Build Aldous Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Aldous Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-76). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Aldous Build & Solo Rank Meta Rotation 2026 (Day #76)",
+    "metaTitleEn": "Best Aldous Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Aldous build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -14248,7 +14248,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Aldous Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-76). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Aldous build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -14259,7 +14259,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -14272,9 +14272,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -14289,7 +14289,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -14297,7 +14297,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -14328,7 +14328,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-jawhead-tersakit-rotasi-meta-solo-rank-2026-hari-ke-77",
-    "slugEn": "mlbb-complete-guide-build-jawhead-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-jawhead-build-solo-rank-rotation-2026-day-77",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -14375,9 +14375,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -14428,9 +14428,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Jawhead Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-77)",
-    "metaTitleEn": "Build Jawhead Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Jawhead Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-77). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Jawhead Build & Solo Rank Meta Rotation 2026 (Day #77)",
+    "metaTitleEn": "Best Jawhead Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Jawhead build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -14439,7 +14439,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Jawhead Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-77). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Jawhead build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -14450,7 +14450,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -14463,9 +14463,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -14480,7 +14480,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -14488,7 +14488,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -14519,7 +14519,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-roger-tersakit-rotasi-meta-solo-rank-2026-hari-ke-78",
-    "slugEn": "mlbb-complete-guide-build-roger-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-roger-build-solo-rank-rotation-2026-day-78",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -14566,9 +14566,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -14619,9 +14619,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Roger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-78)",
-    "metaTitleEn": "Build Roger Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Roger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-78). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Roger Build & Solo Rank Meta Rotation 2026 (Day #78)",
+    "metaTitleEn": "Best Roger Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Roger build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -14630,7 +14630,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Roger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-78). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Roger build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -14641,7 +14641,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -14654,9 +14654,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -14671,7 +14671,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -14679,7 +14679,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -14710,7 +14710,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-sun-tersakit-rotasi-meta-solo-rank-2026-hari-ke-79",
-    "slugEn": "mlbb-complete-guide-build-sun-tersakit-rotasi-meta-solo-rank-2026-hari-ke-7",
+    "slugEn": "mlbb-best-sun-build-solo-rank-rotation-2026-day-79",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -14757,9 +14757,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -14810,9 +14810,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Sun Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-79)",
-    "metaTitleEn": "Build Sun Tersakit & Rotasi Meta Solo Rank 2026  | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Sun Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-79). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Sun Build & Solo Rank Meta Rotation 2026 (Day #79)",
+    "metaTitleEn": "Best Sun Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Sun build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -14821,7 +14821,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Sun Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-79). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Sun build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -14832,7 +14832,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -14845,9 +14845,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -14862,7 +14862,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -14870,7 +14870,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -14901,7 +14901,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-argus-tersakit-rotasi-meta-solo-rank-2026-hari-ke-80",
-    "slugEn": "mlbb-complete-guide-build-argus-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-argus-build-solo-rank-rotation-2026-day-80",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -14948,9 +14948,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -15001,9 +15001,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Argus Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-80)",
-    "metaTitleEn": "Build Argus Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Argus Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-80). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Argus Build & Solo Rank Meta Rotation 2026 (Day #80)",
+    "metaTitleEn": "Best Argus Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Argus build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -15012,7 +15012,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Argus Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-80). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Argus build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -15023,7 +15023,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -15036,9 +15036,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -15053,7 +15053,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -15061,7 +15061,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -15092,7 +15092,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-alucard-tersakit-rotasi-meta-solo-rank-2026-hari-ke-81",
-    "slugEn": "mlbb-complete-guide-build-alucard-tersakit-rotasi-meta-solo-rank-2026-hari-",
+    "slugEn": "mlbb-best-alucard-build-solo-rank-rotation-2026-day-81",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -15139,9 +15139,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -15192,9 +15192,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Alucard Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-81)",
-    "metaTitleEn": "Build Alucard Tersakit & Rotasi Meta Solo Rank 2 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Alucard Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-81). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Alucard Build & Solo Rank Meta Rotation 2026 (Day #81)",
+    "metaTitleEn": "Best Alucard Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Alucard build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -15203,7 +15203,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Alucard Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-81). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Alucard build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -15214,7 +15214,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -15227,9 +15227,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -15244,7 +15244,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -15252,7 +15252,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -15283,7 +15283,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-zilong-tersakit-rotasi-meta-solo-rank-2026-hari-ke-82",
-    "slugEn": "mlbb-complete-guide-build-zilong-tersakit-rotasi-meta-solo-rank-2026-hari-k",
+    "slugEn": "mlbb-best-zilong-build-solo-rank-rotation-2026-day-82",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -15330,9 +15330,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -15383,9 +15383,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Zilong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-82)",
-    "metaTitleEn": "Build Zilong Tersakit & Rotasi Meta Solo Rank 20 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Zilong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-82). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Zilong Build & Solo Rank Meta Rotation 2026 (Day #82)",
+    "metaTitleEn": "Best Zilong Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Zilong build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -15394,7 +15394,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Zilong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-82). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Zilong build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -15405,7 +15405,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -15418,9 +15418,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -15435,7 +15435,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -15443,7 +15443,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
@@ -15474,7 +15474,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
   },
   {
     "slug": "mlbb-build-hilda-tersakit-rotasi-meta-solo-rank-2026-hari-ke-83",
-    "slugEn": "mlbb-complete-guide-build-hilda-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "slugEn": "mlbb-best-hilda-build-solo-rank-rotation-2026-day-83",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -15521,9 +15521,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Meningkatkan physical defense bertingkat setiap kali menerima serangan fisik lawan.",
-          "2. **War Axe**: Mengumpulkan stack physical attack, cooldown reduction, dan true damage berkelanjutan saat duel panjang.",
-          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
-          "4. **Dominance Ice**: Menurunkan attack speed hero sekitar dan memangkas efek regenerasi darah serta shield musuh sebesar 50%.",
+          "2. **War Axe**: Memberikan tumpukan attack dan penetration berkelanjutan serta True Damage saat pasif penuh.",
+          "3. **Hunter Strike**: Memicu lonjakan movement speed 50% setelah memberikan damage 5 kali berturut-turut ke hero lawan.",
+          "4. **Dominance Ice**: Mengurangi attack speed lawan di sekitar sebesar 70% dan memangkas regenerasi HP/shield musuh hingga 50%.",
           "5. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
           "6. **Immortality**: Memberikan asuransi bangkit kembali dengan 16% HP dan shield pelindung untuk meloloskan diri atau counter attack."
         ]
@@ -15574,9 +15574,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
       }
     ],
-    "titleEn": "Complete Guide: Build Hilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-83)",
-    "metaTitleEn": "Build Hilda Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
-    "metaDescriptionEn": "Comprehensive pro guide on Build Hilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-83). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "titleEn": "Mobile Legends: Best Hilda Build & Solo Rank Meta Rotation 2026 (Day #83)",
+    "metaTitleEn": "Best Hilda Build 2026: Solo Rank Meta Guide | D Lucky X",
+    "metaDescriptionEn": "Comprehensive 2026 Hilda build guide in Mobile Legends: Bang Bang. Discover core burst item synergy, custom emblem configurations, execution combos, and solo rank rotation tips.",
     "keywordsEn": [
       "mobile legends",
       "pro gameplay guide 2026",
@@ -15585,7 +15585,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
       "rank progression"
     ],
     "readTimeEn": "9 min read",
-    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Hilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-83). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "englishSummary": "A comprehensive tactical masterclass detailing the definitive 2026 Hilda build in Mobile Legends: Bang Bang. Master pro itemization curves, emblem setups, decisive mechanical combos, and solo queue rotations to reach Mythical Glory.",
     "sectionsEn": [
       {
         "id": "meta-analysis-character",
@@ -15596,7 +15596,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Core Tactical Secret",
-          "text": "Kuasai freeze lane di menit awal untuk membuat offlaner musuh tertinggal gold dan level dari tim Anda.",
+          "text": "Master minion wave freezing in early laning to starve the enemy offlaner of gold and experience.",
           "type": "tip"
         }
       },
@@ -15609,9 +15609,9 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "bulletPoints": [
           "1. **Warrior Boots**: Progressively stacks physical defense upon receiving incoming physical hits.",
-          "2. **War Axe**: Builds sustained physical attack, CDR, and ramping True Damage throughout extended skirmishes.",
-          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
-          "4. **Dominance Ice**: Aura slows enemy attack speed and cuts incoming enemy healing and shielding by 50%.",
+          "2. **War Axe**: Stacks progressive attack power and penetration, unleashing True Damage at maximum battle stacks.",
+          "3. **Hunter Strike**: Triggers a 50% movement speed surge after dealing damage 5 consecutive times to enemy heroes.",
+          "4. **Dominance Ice**: Reduces nearby enemy attack speed by 70% and cuts healing/shield regeneration by 50%.",
           "5. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
           "6. **Immortality**: Grants resurrection with 16% HP and a temporary shield for clutch escape or counter-attack."
         ]
@@ -15626,7 +15626,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         ],
         "tipBox": {
           "title": "Counter Pick Warning",
-          "text": "Be vigilant against natural counters: **Hero poke jarak jauh, hero anti-dash, hero suppression**. Wait for these threats to expend key control skills before committing your dive.",
+          "text": "Be vigilant against natural counters: **Long-range poke heroes, anti-dash grounding specialists, and instant suppression locks**. Wait for these threats to expend key control skills before committing your dive.",
           "type": "warning"
         }
       },
@@ -15634,7 +15634,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
         "id": "combo-mechanics-and-rotation",
         "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
         "content": [
-          "Primary execution combo: **Inisiasi skill dash pembuka -> cicil damage dengan skill area -> aktifkan ultimate saat musuh berkumpul di objektif**.",
+          "Primary execution combo: **Initiate with forward mobility dash -> soften targets with AoE abilities -> unleash Ultimate once enemies gather around objectives**.",
           "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
           "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
         ]
