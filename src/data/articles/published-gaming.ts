@@ -1779,5 +1779,355 @@ export const publishedGamingArticles: ArticleItem[] = [
         "a": "Re-evaluate your base sensitivities and practice progressive calibration in sandbox practice modes first."
       }
     ]
+  },
+  {
+    "slug": "mlbb-build-fanny-tersakit-rotasi-meta-solo-rank-2026-hari-ke-2",
+    "slugEn": "mlbb-complete-guide-build-fanny-tersakit-rotasi-meta-solo-rank-2026-hari-ke",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "finger-sleeves",
+      "phone-cooler",
+      "mobile-controller",
+      "gaming-tws"
+    ],
+    "publishedDate": "2026-10-11T06:30:00+07:00",
+    "coverImage": "/images/blog/mlbb-build-fanny-tersakit-rotasi-meta-solo-rank-2026-hari-ke-2.webp",
+    "author": "D Lucky X Pro Gaming Editorial",
+    "title": "Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2)",
+    "metaTitle": "Build Fanny Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaDescription": "Ulasan mendalam Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
+    "keywords": [
+      "mobile legends",
+      "panduan gameplay 2026",
+      "tips pro player",
+      "setting sensivitas",
+      "strategi menang"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "analisis-meta-karakter",
+        "title": "1. Analisis Meta Fanny 2026: Mengapa Hero Ini Mendominasi Solo Rank?",
+        "content": [
+          "Dalam meta kompetitif *Mobile Legends: Bang Bang* tahun 2026, **Fanny** menduduki posisi sentral sebagai **Assassin Jungler** bertaraf **S-Tier**. Efektivitasnya bertumpu pada perpaduan output damage ledakan yang tajam dan fleksibilitas rotasi yang mampu membalikkan tempo pertandingan.",
+          "Di tangan pemain yang disiplin membaca pergerakan map, **Fanny** mampu memberikan tekanan psikologis besar sejak *early game*. Penguasaan jalur rotasi dan kalkulasi cooldown skill menjadi pembeda mendasar antara pemain rata-rata dengan *Mythical Glory* sejati."
+        ],
+        "tipBox": {
+          "title": "Kunci Kemenangan Utama",
+          "text": "Kuasai teknik kabel lurus di celah dinding sempit jungle untuk menghasilkan putaran damage berulang dengan efisiensi energi maksimal.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "susunan-item-build-terkuat",
+        "title": "2. Susunan Item Build Fanny Tersakit 2026 (Full Sinergi)",
+        "content": [
+          "Untuk memaksimalkan potensi pasif dan scaling damage **Fanny**, susunan 6 item inti berikut dirancang untuk menyeimbangkan penetrasi, damage ledakan, dan daya tahan hidup di pertarungan intens:",
+          "Gunakan urutan pembelian item berikut secara disiplin agar kurva kekuatan (*power spike*) Anda selalu unggul di setiap fase pertandingan:"
+        ],
+        "bulletPoints": [
+          "1. **Ice Hunter's Tough Boots**: Memangkas durasi crowd control (stun/slow) lawan sebesar 30% dan menambah pertahanan sihir krusial.",
+          "2. **Blade of the Heptaseas**: Memicu burst damage fisik masif dan efek slow pada serangan pertama setelah keluar dari persembunyian.",
+          "3. **Hunter Strike**: Memberikan +15 Physical Penetration dan bonus movement speed 50% setelah mendaratkan 5 serangan beruntun.",
+          "4. **Malefic Roar**: Penetrasi armor berbasis persentase armor fisik lawan, mutlak dibutuhkan untuk merontokkan hero tebal.",
+          "5. **Rose Gold Meteor**: Membuka perisai sihir darurat dan lifesteal saat darah sekarat untuk membalikkan keadaan duel.",
+          "6. **Athena's Shield**: Menyerap 25% ledakan magic damage selama beberapa detik saat menerima serangan kombo mage musuh."
+        ]
+      },
+      {
+        "id": "setting-emblem-dan-spell",
+        "title": "3. Konfigurasi Emblem, Talent & Battle Spell Rekomendasi Pro",
+        "content": [
+          "Konfigurasi emblem memainkan peran krusial dalam 5 menit pertama pertandingan:",
+          "Gunakan **Custom Assassin Emblem: Rupture, Seasoned Hunter, Killing Spree (+8% HP & +15% Speed setelah eliminasi)**. Susunan talent ini memberikan kestabilan stat sejak menit pertama dan mempercepat eliminasi objektif Turtle maupun Lord.",
+          "Untuk Battle Spell, gunakan **Retribution (Ice)** sesuai peran Anda di dalam tim."
+        ],
+        "tipBox": {
+          "title": "Peringatan Counter Pick",
+          "text": "Waspadai hero counter alami seperti: **Khufra, Saber, Chou, Franco**. Pastikan hero-hero tersebut sudah terpancing mengeluarkan skill kunci sebelum Anda masuk ke pertempuran.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "mekanika-kombo-dan-rotasi",
+        "title": "4. Rute Rotasi Map & Mekanika Kombo Skill Paling Mematikan",
+        "content": [
+          "Urutan eksekusi kombo paling konsisten: **Steel Cable 2 kabel lintasi dinding -> Steel Cable lurus koridor sempit -> Cut Throat finisher instan**.",
+          "**Rute Rotasi**: Mulai dari pengamanan objektif terdekat pada detik **0:35**, lakukan kontes Lithowanderer di sungai, lalu potong jalur rotasi goldlane lawan pada menit **1:30** sebelum Turtle pertama muncul pada menit ke-2.",
+          "Saat memasuki fase *late game*, hindari memperlihatkan posisi Anda di minimap sebelum pertempuran besar dimulai. Gunakan semak-semak tanpa visi musuh untuk melancarkan serangan kejutan."
+        ]
+      },
+      {
+        "id": "tips-konsistensi-dan-kesalahan",
+        "title": "5. Kesalahan Umum Pemula & Cara Menjaga Win Rate Tinggi",
+        "content": [
+          "Kesalahan paling sering terjadi adalah terlalu bernafsu mengejar kill individual (*tunnel vision*) hingga mengabaikan pertahanan turret atau objektif Lord. Ingatlah bahwa *Mobile Legends* adalah game penghancuran base, bukan kontes jumlah eliminasi.",
+          "Selalu perhatikan posisi *Roamer* dan *Midlaner* lawan di radar mini sebelum memutuskan untuk melakukan diving ke dalam formasi pertahanan musuh."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kapan waktu terbaik memilih Fanny saat fase draft pick?",
+        "a": "Pilih Fanny saat musuh kekurangan hero crowd-control bertipe suppression dan tim Anda membutuhkan carry yang mampu mengamankan objektif secara mandiri."
+      },
+      {
+        "q": "Bagaimana cara membalikkan keadaan jika tim tertinggal gold di early game?",
+        "a": "Hindari pertarungan 5v5 terbuka. Fokus melakukan split push di lane samping untuk memecah konsentrasi musuh, sambil menunggu momentum mencuri Lord."
+      },
+      {
+        "q": "Apakah build item di atas fleksibel di setiap pertandingan?",
+        "a": "Sangat fleksibel. Jika tim musuh didominasi magic damage, ganti item pertahanan fisik penutup dengan Athena's Shield atau Radiant Armor."
+      }
+    ],
+    "titleEn": "Complete Guide: Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2)",
+    "metaTitleEn": "Build Fanny Tersakit & Rotasi Meta Solo Rank 202 | Pro Tactics Guide",
+    "metaDescriptionEn": "Comprehensive pro guide on Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "keywordsEn": [
+      "mobile legends",
+      "pro gameplay guide 2026",
+      "competitive tips",
+      "optimal setup",
+      "rank progression"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "sectionsEn": [
+      {
+        "id": "meta-analysis-character",
+        "title": "1. 2026 Meta Breakdown: Why Fanny Dominates Ranked Lobbies",
+        "content": [
+          "In the 2026 competitive landscape of *Mobile Legends: Bang Bang*, **Fanny** stands firmly as an elite **Assassin Jungler** rated at **S-Tier**. Its dominance is rooted in exceptional burst potential and versatile rotation tempo that dictates match outcomes.",
+          "In the hands of disciplined macro-oriented players, **Fanny** exerts relentless pressure across lanes. Mastering rotation timing and ability cooldowns represents the true dividing line between casual rankers and elite champions."
+        ],
+        "tipBox": {
+          "title": "Core Tactical Secret",
+          "text": "Kuasai teknik kabel lurus di celah dinding sempit jungle untuk menghasilkan putaran damage berulang dengan efisiensi energi maksimal.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "optimal-equipment-build",
+        "title": "2. Definitive 2026 Equipment Build for Fanny",
+        "content": [
+          "To unlock the full damage scaling and survivability of **Fanny**, this 6-item core arsenal harmonizes penetration, sustained burst, and defensive safety:",
+          "Prioritize this itemization curve to stay ahead of power spikes at every stage of the match:"
+        ],
+        "bulletPoints": [
+          "1. **Ice Hunter's Tough Boots**: Reduces incoming crowd-control duration by 30% while providing vital early magic resistance.",
+          "2. **Blade of the Heptaseas**: Unleashes devastating ambush burst and slow on the first basic attack from concealment.",
+          "3. **Hunter Strike**: Provides flat +15 Physical Penetration and a 50% movement speed burst after 5 consecutive strikes.",
+          "4. **Malefic Roar**: Scales percentage physical penetration to pierce high-armor tanks and bulky frontline fighters.",
+          "5. **Rose Gold Meteor**: Deploys a protective lifeline shield and bonus lifesteal when falling below 30% HP.",
+          "6. **Athena's Shield**: Absorbs 25% of incoming magic burst damage for 3 seconds upon taking initial magic hits."
+        ]
+      },
+      {
+        "id": "emblem-and-spell-configuration",
+        "title": "3. Pro-Grade Emblem, Talent & Battle Spell Configuration",
+        "content": [
+          "Emblem tuning dictates early-game lane dominance during the first five minutes:",
+          "Equip **Custom Assassin Emblem: Rupture, Seasoned Hunter, Killing Spree (+8% HP & +15% Speed setelah eliminasi)**. This configuration anchors your early baseline stats and expedites Turtle and Lord objective clear speeds.",
+          "For Battle Spell, lock in **Retribution (Ice)** to match your squad's draft tempo."
+        ],
+        "tipBox": {
+          "title": "Counter Pick Warning",
+          "text": "Be vigilant against natural counters: **Khufra, Saber, Chou, Franco**. Wait for these threats to expend key control skills before committing your dive.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "combo-mechanics-and-rotation",
+        "title": "4. Decisive Skill Combo Execution & Objective Rotation Blueprint",
+        "content": [
+          "Primary execution combo: **Steel Cable 2 kabel lintasi dinding -> Steel Cable lurus koridor sempit -> Cut Throat finisher instan**.",
+          "**Rotation Blueprint**: Clear primary jungle/lane camps by second **0:35**, contest the river Lithowanderer, and execute a lethal flank onto the enemy goldlane carry at **1:30** ahead of the **2:00** Turtle pit emergence.",
+          "During late-game scenarios, maintain strict fog-of-war concealment. Conceal your presence in unspotted brushes to unleash game-winning ambush strikes."
+        ]
+      },
+      {
+        "id": "common-pitfalls-and-winrate-discipline",
+        "title": "5. Frequent Beginner Mistakes & Consistency Habits",
+        "content": [
+          "The most prevalent blunder is chasing isolated kills (*tunnel vision*) while neglecting turret pressure or Lord vision control. *Mobile Legends* is ultimately a base-siege strategy game, not a kill-count race.",
+          "Always cross-reference enemy *Roamer* and *Midlaner* positions on the mini-radar before committing to aggressive tower dives."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When is the optimal draft moment to lock in Fanny?",
+        "a": "Draft Fanny when enemy compositions lack heavy suppression crowd-controls and your squad requires an independent objective carry."
+      },
+      {
+        "q": "How do you orchestrate a comeback when trailing in gold early?",
+        "a": "Avoid head-on 5v5 clashes. Focus on side-lane split pushing to disrupt enemy formations while seeking clutch Lord steal windows."
+      },
+      {
+        "q": "Is this equipment build adaptable against diverse team compositions?",
+        "a": "Yes. Swap your final defensive slot for Athena's Shield or Radiant Armor if confronting heavy magic burst compositions."
+      }
+    ]
+  },
+  {
+    "slug": "freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-oppo-reno-a-series",
+    "slugEn": "freefire-complete-guide-setting-sensitivitas-ff-auto-headshot-2026-trik-opp",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "finger-sleeves",
+      "phone-cooler",
+      "mobile-controller",
+      "gaming-tws"
+    ],
+    "publishedDate": "2026-10-11T08:15:00+07:00",
+    "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-oppo-reno-a-series.webp",
+    "author": "D Lucky X Pro Gaming Editorial",
+    "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik O | Panduan Lengkap D Lucky X",
+    "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
+    "keywords": [
+      "free fire",
+      "panduan gameplay 2026",
+      "tips pro player",
+      "setting sensivitas",
+      "strategi menang"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "analisis-mendalam-dan-urgensi",
+        "title": "1. Dinamika Recoil & Analisis Respon Sensitivitas di Patch 2026",
+        "content": [
+          "Dalam update kompetitif *Free Fire* tahun 2026, algoritma pendaftaran tembakan kepala (*headshot registration*) menuntut sinkronisasi antara **DPI layar** dan kecepatan tarikan tombol tembak. Memahami \"**Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)**\" memberikan keunggulan presisi saat baku tembak jarak dekat maupun menengah.",
+          "Penerapan disiplin pada aspek ini merupakan pembeda nyata antara hasil amatir dengan performa profesional yang teruji di lapangan."
+        ]
+      },
+      {
+        "id": "langkah-sistematis-dan-rekomendasi",
+        "title": "2. Tabel Rekomendasi Angka Sensitivitas Presisi",
+        "content": [
+          "Berikut adalah poin-poin acuan yang telah divalidasi untuk memberikan hasil optimal:"
+        ],
+        "bulletPoints": [
+          "**Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "**Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "**2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "**4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "**Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "**Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
+        ]
+      },
+      {
+        "id": "pengaturan-antarmuka-dan-tata-letak",
+        "title": "3. Tata Letak Tombol HUD & Ukuran Tombol Tembak Kanan",
+        "content": [
+          "Atur ukuran tombol tembak kanan pada kisaran **45% hingga 52%**. Posisikan sedikit lebih rendah di area kanan bawah layar untuk memberikan ruang sapuan jempol yang cukup saat melakukan tarikan ke atas (*drag shot*)."
+        ]
+      },
+      {
+        "id": "teknik-eksekusi-dan-taktik-lapangan",
+        "title": "4. Teknik Eksekusi Drag Shot: Trik Huruf 'J' vs Tarikan Lurus",
+        "content": [
+          "Untuk senjata shotgun (**M1887**) jarak sangat dekat, gunakan teknik tarikan melengkung menyerupai **huruf 'J'**. Untuk senjata SMG (**MP40, UMP**) jarak menengah, gunakan **tarikan vertikal lurus** yang konsisten tepat saat bidikan berubah warna menjadi merah."
+        ]
+      },
+      {
+        "id": "sinergi-lanjutan-dan-kebiasaan-juara",
+        "title": "5. Sinergi Karakter Meta & Disiplin Rotasi Booyah",
+        "content": [
+          "Kombinasikan karakter aktif berkecepatan tinggi seperti **Tatsuya** atau **Alok** dengan karakter pasif penambah penetrasi seperti **Hayato** dan **Kelly** untuk memastikan setiap peluru yang mendarat menghasilkan damage maksimal."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa lama waktu yang dibutuhkan untuk merasakan peningkatan nyata?",
+        "a": "Dengan menerapkan panduan ini secara konsisten, sebagian besar pengguna merasakan adaptasi dan peningkatan hasil dalam 2 hingga 4 hari pertama."
+      },
+      {
+        "q": "Apakah trik ini aman digunakan pada semua tipe perangkat Android?",
+        "a": "Sangat aman 100%. Semua panduan menggunakan fitur bawaan sistem resmi dan mematuhi kebijakan pengembang."
+      },
+      {
+        "q": "Apa langkah pertama yang harus dilakukan jika hasil belum maksimal?",
+        "a": "Evaluasi kembali sensitivitas dan lakukan kalibrasi bertahap di mode latihan sebelum terjun ke pertandingan kompetitif."
+      }
+    ],
+    "titleEn": "Complete Guide: Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)",
+    "metaTitleEn": "Setting Sensitivitas FF Auto Headshot 2026: Trik | Pro Tactics Guide",
+    "metaDescriptionEn": "Comprehensive pro guide on Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2). Master essential strategies, proven mechanics, and verified setups for peak performance in 2026.",
+    "keywordsEn": [
+      "free fire",
+      "pro gameplay guide 2026",
+      "competitive tips",
+      "optimal setup",
+      "rank progression"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "A comprehensive tactical masterclass detailing Complete Guide: Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2). Learn exact mechanics, pro settings, step-by-step execution workflows, and critical mistakes to avoid.",
+    "sectionsEn": [
+      {
+        "id": "technical-meta-overview",
+        "title": "1. Core Mechanical Dynamics & 2026 Meta Landscape",
+        "content": [
+          "In modern competitive environments, understanding \"Complete Guide: Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)\" requires mastering system nuances and tactile input responsiveness.",
+          "Disciplined application of these principles directly separates inconsistent results from top-tier performance."
+        ]
+      },
+      {
+        "id": "systematic-execution-blueprint",
+        "title": "2. Pro Configuration & Systematic Calibration Points",
+        "content": [
+          "Reference these verified operational standards for consistent performance:"
+        ],
+        "bulletPoints": [
+          "Standard: **Lihat Sekeliling**: **95 - 100** (*Optimal untuk rotasi pandangan instan*)",
+          "Standard: **Red Dot Sight**: **88 - 92** (*Akurasi tarikan drag shot jarak dekat*)",
+          "Standard: **2x Scope**: **82 - 86** (*Keseimbangan tembakan senapan SMG & AR*)",
+          "Standard: **4x Scope**: **76 - 80** (*Stabilitas tembakan jarak jauh tanpa goyang*)",
+          "Standard: **Sniper Scope**: **50 - 55** (*Akurasi bidikan presisi AWM & M82B*)",
+          "Standard: **Lihat Sekitar / Free Look**: **65 - 70** (*Pemantauan radar fleksibel*)"
+        ]
+      },
+      {
+        "id": "interface-and-layout-optimization",
+        "title": "3. Ergonomic Layout & Control Configuration",
+        "content": [
+          "Customize your interface boundaries to eliminate accidental input misses during decisive moments."
+        ]
+      },
+      {
+        "id": "execution-tactics-and-techniques",
+        "title": "4. Execution Mechanics & Tactical Principles",
+        "content": [
+          "Apply smooth, progressive gestures rather than rushed movements to maintain sub-millimeter precision."
+        ]
+      },
+      {
+        "id": "advanced-synergy-and-habits",
+        "title": "5. Advanced Synergies & Sustainable Consistency Habits",
+        "content": [
+          "Cultivate structured review habits and enforce proper physical ergonomic postures for long-term mastery."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How quickly can noticeable improvements be expected?",
+        "a": "By following this guide consistently, most users experience measurable consistency improvements within 2 to 4 days."
+      },
+      {
+        "q": "Is this approach compatible with all modern Android smartphones?",
+        "a": "Yes, 100%. All recommendations utilize standard built-in options and strictly follow developer guidelines."
+      },
+      {
+        "q": "What is the first troubleshooting step if initial results feel inconsistent?",
+        "a": "Re-evaluate your base sensitivities and practice progressive calibration in sandbox practice modes first."
+      }
+    ]
   }
 ];
