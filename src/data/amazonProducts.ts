@@ -12,6 +12,12 @@ export interface AmazonProduct {
   features: string[];
   featuresEn: string[];
   iconType: "sparkles" | "fan" | "gamepad" | "headphones" | "tablet" | "pen" | "shield";
+  rating?: number;
+  reviewsCount?: string;
+  ribbon?: string;
+  ribbonEn?: string;
+  editorNote?: string;
+  editorNoteEn?: string;
 }
 
 export const amazonProducts: AmazonProduct[] = [
@@ -27,6 +33,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Anti-Keringat & Licin",
     badgeEn: "Anti-Friction & Sweat Control",
     url: "https://amzn.to/4drxCT5",
+    rating: 4.8,
+    reviewsCount: "4,500+",
+    ribbon: "⚡ Paling Populer • Anti-Keringat",
+    ribbonEn: "⚡ Most Popular • Zero Friction",
+    editorNote: "Solusi termurah & paling efektif saat bermain berjam-jam agar jari tidak kesat atau lengket.",
+    editorNoteEn: "The most cost-effective upgrade to eliminate friction and missed swipes during high-intensity matches.",
     features: [
       "Bahan perak 0.3mm super tipis & bersirkulasi udara tinggi",
       "Mengatasi layar kesat akibat tangan basah dan berkeringat",
@@ -50,6 +62,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Pendingin Suhu Aktif",
     badgeEn: "Active Thermal Cooling",
     url: "https://amzn.to/3VrYsV4",
+    rating: 4.9,
+    reviewsCount: "3,200+",
+    ribbon: "🔥 Pilihan Editor • Dingin Instan",
+    ribbonEn: "🔥 Editor's Choice • Instant Chill",
+    editorNote: "Wajib dimiliki jika smartphone Anda mulai panas, lag, atau layarnya meredup setelah 20 menit bermain.",
+    editorNoteEn: "Essential hardware if your smartphone throttles, drops FPS, or dims screen brightness under thermal load.",
     features: [
       "Pendinginan instan dalam 30 detik untuk cegah overheating",
       "Kipas turbofan senyap tanpa mengganggu audio mic open mic",
@@ -73,6 +91,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Kontrol Ergonomis",
     badgeEn: "Ergonomic Handheld Grip",
     url: "https://amzn.to/3VAMtog",
+    rating: 4.7,
+    reviewsCount: "1,800+",
+    ribbon: "🎮 Sensasi Konsol Portabel",
+    ribbonEn: "🎮 Handheld Console Grip",
+    editorNote: "Grip mantap yang ergonomis, menghilangkan pegal di pergelangan tangan saat sesi bermain panjang.",
+    editorNoteEn: "Natural ergonomic grip that eliminates wrist and finger fatigue during long gaming sessions.",
     features: [
       "Analog stik bebas drift dan tombol trigger ultra responsif",
       "Koneksi minim delay dengan dukungan pass-through charging",
@@ -96,6 +120,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Audio Responsif <45ms",
     badgeEn: "Low-Latency Audio (<45ms)",
     url: "https://amzn.to/4j7NbTz",
+    rating: 4.8,
+    reviewsCount: "2,900+",
+    ribbon: "🎧 Audio Gaming <45ms Delay",
+    ribbonEn: "🎧 Sub-45ms Zero Delay",
+    editorNote: "Sinkronisasi suara tembakan dan langkah kaki musuh terjadi tepat waktu tanpa jeda terasa.",
+    editorNoteEn: "Real-time positional audio ensures you hear enemy footsteps before they appear on your screen.",
     features: [
       "Mode gaming khusus dengan delay audio di bawah 45ms",
       "Dual microphone peredam bising untuk koordinasi tim yang jernih",
@@ -121,6 +151,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Tablet Belajar & Edukasi",
     badgeEn: "Educational Kids Tablet",
     url: "https://amzn.to/4j8GXTt",
+    rating: 4.8,
+    reviewsCount: "5,100+",
+    ribbon: "⭐ Pilihan Utama Orang Tua",
+    ribbonEn: "⭐ Parent's Top Pick",
+    editorNote: "Orang tua bisa mengatur batas jam main per hari dan memblokir konten internet yang belum layak usia.",
+    editorNoteEn: "Complete parental peace of mind with customizable screen timers and age-appropriate content filters.",
     features: [
       "Casing bumper tebal tahan benturan dan bantingan",
       "Dashboard kontrol orang tua untuk membatasi durasi main anak",
@@ -144,6 +180,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Stylus Motorik Anak",
     badgeEn: "Ergonomic Kids Stylus",
     url: "https://amzn.to/4yFqOdb",
+    rating: 4.9,
+    reviewsCount: "1,400+",
+    ribbon: "✏️ Melatih Motorik Balita",
+    ribbonEn: "✏️ Toddler Motor Skill Builder",
+    editorNote: "Membiasakan posisi tiga jari anak memegang pensil secara alami sebelum masuk sekolah TK/SD.",
+    editorNoteEn: "Gently trains the correct tripod pencil grasp before kids transition to traditional stationery.",
     features: [
       "Grip tebal ergonomis melatih posisi memegang pensil yang benar",
       "Ujung silikon lembut anti-gores aman untuk semua permukaan layar",
@@ -167,6 +209,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Casing Tahan Benturan",
     badgeEn: "Drop-Proof Bumper Case",
     url: "https://amzn.to/4j9fJMx",
+    rating: 4.9,
+    reviewsCount: "6,200+",
+    ribbon: "🛡️ Tahan Benturan Ekstrem",
+    ribbonEn: "🛡️ Heavy-Duty Shockproof",
+    editorNote: "Busa tebal meredam benturan saat tablet tidak sengaja dilempar atau jatuh dari kursi tinggi.",
+    editorNoteEn: "Dense shock-absorbing foam protects tablet glass even when dropped face-down on hard tile floors.",
     features: [
       "Material busa EVA tebal tidak beracun dan menyerap guncangan",
       "Handle jinjing multifungsi yang dapat ditekuk menjadi kickstand nonton",
@@ -192,6 +240,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Stylus Presisi E-Sign",
     badgeEn: "Precision E-Signature Stylus",
     url: "https://amzn.to/4ibSJLJ",
+    rating: 4.8,
+    reviewsCount: "3,800+",
+    ribbon: "🖋️ Rekomendasi E-Sign PDF",
+    ribbonEn: "🖋️ Top E-Signature Pick",
+    editorNote: "Membuat tanda tangan di dokumen PDF tampak tajam dan alami layaknya tanda tangan dengan pena tinta.",
+    editorNoteEn: "Allows clean, professional contract signatures on PDF documents without pixelated finger smudges.",
     features: [
       "Ujung runcing 1.5mm presisi tinggi tanpa goresan terputus",
       "Tombol on/off instan tanpa perlu pengaturan bluetooth rumit",
@@ -215,6 +269,12 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Tekstur Kertas Alami",
     badgeEn: "Matte Paper-Feel Surface",
     url: "https://amzn.to/4AXREyG",
+    rating: 4.7,
+    reviewsCount: "2,700+",
+    ribbon: "📄 Sensasi Kertas Asli",
+    ribbonEn: "📄 Authentic Paper Texture",
+    editorNote: "Menghilangkan pantulan lampu ruangan serta memberi hambatan gesekan yang pas saat menulis di tablet.",
+    editorNoteEn: "Reduces distracting overhead glare and creates natural tactile drag for precise handwriting and sketching.",
     features: [
       "Koefisien gesekan menyerupai kertas mencegah stylus tergelincir",
       "Lapisan matte anti-silau nyaman dipandang di ruangan terang",
