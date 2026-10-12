@@ -63,6 +63,8 @@ export const ScreenshotCarousel: React.FC<ScreenshotCarouselProps> = ({
               src={src}
               alt={`${appName} screenshot ${index + 1}`}
               fill
+              sizes="(max-width: 640px) 280px, (max-width: 768px) 380px, 460px"
+              loading="lazy"
               className="object-cover group-hover/item:scale-105 transition-transform duration-500"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent opacity-0 group-hover/item:opacity-100 transition-opacity flex items-end justify-between p-4">

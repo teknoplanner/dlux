@@ -13,7 +13,8 @@
     "check-apps": "node scripts/check-apps.mjs",
     "sync:playstore": "node scripts/sync-playstore-metrics.mjs",
     "seo:ping": "node scripts/ping-search-engines.mjs",
-    "publish:queue": "node scripts/publish-daily-queue.mjs"
+    "publish:queue": "node scripts/publish-daily-queue.mjs",
+    "optimize-images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^9.106.0",

@@ -100,26 +100,31 @@ export default function RootLayout({
           title="D Lucky X Blog RSS Feed"
           href="/feed.xml"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* Preload critical font subsets for instant paint */}
         <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
+          rel="preload"
+          href="/fonts/poppins-400.woff2"
+          as="font"
+          type="font/woff2"
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
-          rel="stylesheet"
+          rel="preload"
+          href="/fonts/space-grotesk-700.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
-        {/* Google Analytics tag (gtag.js) */}
+        {/* Google Analytics tag (gtag.js) loaded during browser idle */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-G3F8G23FGB"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

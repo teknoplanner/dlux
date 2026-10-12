@@ -6,29 +6,22 @@ import { Float, OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 import { SceneFallback } from "./SceneFallback";
 
-// Crystalline Glass/Prism Material with Iridescent Refraction
+// High-Performance Crystalline Material with Crisp Specular Clearcoat (No Framebuffer Copy Overhead)
 function PrismCrystalMaterial({ isHovered }: { isHovered?: boolean }) {
   return (
     <meshPhysicalMaterial
-      color="#ffffff"
-      roughness={isHovered ? 0.04 : 0.08}
-      metalness={0.12}
-      transmission={0.88}
-      ior={1.54}
-      thickness={1.4}
-      specularColor="#38bdf8"
-      specularIntensity={1.0}
+      color="#f8fafc"
+      roughness={isHovered ? 0.06 : 0.14}
+      metalness={0.18}
       clearcoat={1.0}
       clearcoatRoughness={0.08}
-      iridescence={0.75}
-      iridescenceIOR={1.38}
-      attenuationColor="#e0f2fe"
-      attenuationDistance={1.2}
+      reflectivity={0.9}
       transparent
-      opacity={0.95}
+      opacity={0.9}
     />
   );
 }
+
 
 // Single Hexagonal Crystal Arm with Dendritic Branches
 function CrystalArm({
@@ -152,35 +145,35 @@ function CrystallizeStructure({ isHovered }: { isHovered: boolean }) {
   );
 }
 
-// Ambient Floating Prismatic Spores / Ice Dust
+// Ambient Floating Prismatic Spores / Ice Dust (Optimized lightweight particle count)
 function FloatingPrismaticDust() {
-  const dustCount = 32;
+  const dustCount = 8;
   const particles = useMemo(() => {
     return Array.from({ length: dustCount }, () => ({
       position: [
-        (Math.random() - 0.5) * 11,
-        (Math.random() - 0.5) * 8,
-        (Math.random() - 0.5) * 5 - 1,
+        (Math.random() - 0.5) * 10,
+        (Math.random() - 0.5) * 7,
+        (Math.random() - 0.5) * 4 - 1,
       ] as [number, number, number],
-      scale: 0.06 + Math.random() * 0.12,
-      speed: 1.0 + Math.random() * 1.5,
+      scale: 0.07 + Math.random() * 0.1,
+      speed: 0.8 + Math.random() * 1.0,
     }));
   }, []);
 
   return (
     <>
       {particles.map((p, idx) => (
-        <Float key={idx} speed={p.speed} rotationIntensity={0.6} floatIntensity={0.8} position={p.position}>
+        <Float key={idx} speed={p.speed} rotationIntensity={0.4} floatIntensity={0.6} position={p.position}>
           <mesh scale={p.scale}>
             <octahedronGeometry args={[1, 0]} />
             <meshStandardMaterial
               color={idx % 3 === 0 ? "#38bdf8" : idx % 3 === 1 ? "#10b981" : "#ffffff"}
-              roughness={0.15}
+              roughness={0.2}
               metalness={0.2}
               emissive={idx % 3 === 0 ? "#0284c7" : "#059669"}
-              emissiveIntensity={0.25}
+              emissiveIntensity={0.2}
               transparent
-              opacity={0.7}
+              opacity={0.65}
             />
           </mesh>
         </Float>
@@ -209,7 +202,7 @@ function CrystalStage() {
         document.body.style.cursor = "auto";
       }}
     >
-      <Float speed={1.8} rotationIntensity={0.15} floatIntensity={0.35}>
+      <Float speed={1.2} rotationIntensity={0.12} floatIntensity={0.25}>
         <CrystallizeStructure isHovered={isHovered} />
       </Float>
 
@@ -234,11 +227,20 @@ export default function HeroSceneClient() {
 
     if (!containerRef.current) return;
     const observer = new IntersectionObserver(
-      ([entry]) => setIsInView(entry.isIntersecting),
+      ([entry]) => setIsInView(entry.isIntersecting && !document.hidden),
       { threshold: 0.1 }
     );
     observer.observe(containerRef.current);
-    return () => observer.disconnect();
+
+    const handleVisibility = () => {
+      setIsInView(!document.hidden);
+    };
+    document.addEventListener("visibilitychange", handleVisibility);
+
+    return () => {
+      observer.disconnect();
+      document.removeEventListener("visibilitychange", handleVisibility);
+    };
   }, []);
 
   if (!hasWebGL) {
@@ -252,12 +254,12 @@ export default function HeroSceneClient() {
     >
       <Canvas
         camera={{ position: [0, 0, 6.2], fov: 45 }}
-        dpr={[1, 1.5]}
+        dpr={[1, 1.25]}
         frameloop={isInView ? "always" : "never"}
         gl={{
           antialias: true,
           alpha: true,
-          powerPreference: "high-performance",
+          powerPreference: "default",
         }}
         className="w-full h-full cursor-grab active:cursor-grabbing"
       >
