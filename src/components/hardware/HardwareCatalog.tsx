@@ -222,6 +222,8 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
           const features = isEn ? product.featuresEn : product.features;
           const ribbon = isEn ? product.ribbonEn : product.ribbon;
           const editorNote = isEn ? product.editorNoteEn : product.editorNote;
+          const showShopee = isIndonesia && Boolean(product.shopeeUrl);
+          const targetUrl = showShopee ? product.shopeeUrl! : product.url;
 
           return (
             <div
@@ -264,16 +266,18 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
                   </div>
                 </div>
 
-                {/* Role Badge + Amazon Label */}
+                {/* Role Badge + Marketplace Platform Label */}
                 <div className="flex items-center justify-between gap-2 pt-1">
                   <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-bold text-stone-800 bg-stone-100 border border-stone-200/80">
                     {getProductIcon(product.iconType)}
                     <span className="truncate max-w-[170px]">{badge}</span>
                   </span>
 
-                  <span className="inline-flex items-center gap-1 text-xs text-stone-500 font-semibold">
-                    <ShoppingBag className="w-3.5 h-3.5 text-amber-600" />
-                    <span>Amazon</span>
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold">
+                    <ShoppingBag className={`w-3.5 h-3.5 ${showShopee ? "text-[#ee4d2d]" : "text-amber-600"}`} />
+                    <span className={showShopee ? "text-[#ee4d2d]" : "text-stone-500"}>
+                      {showShopee ? "Shopee" : "Amazon"}
+                    </span>
                   </span>
                 </div>
 
@@ -456,21 +460,23 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
         </div>
       </section>
 
-      {/* Amazon Associates Editorial Disclosure */}
+      {/* Editorial Transparency Disclosure */}
       <div className="p-5 sm:p-6 rounded-2xl bg-stone-100/80 border border-stone-200/90 text-xs sm:text-sm text-stone-600 leading-relaxed flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-2xs">
         <div className="space-y-1">
           <p>
             <span className="font-bold text-stone-800">
-              {isEn ? "Editorial Transparency Disclosure:" : "Transparansi Afiliasi Amazon:"}
+              {isEn ? "Editorial Transparency Disclosure:" : "Transparansi Afiliasi:"}
             </span>{" "}
             {isEn
               ? "As an Amazon Associate, D Lucky X earns a small commission from qualifying purchases through our links at no additional cost to you. We only curate gear tested for real-world gaming, child safety, and mobile productivity."
+              : isIndonesia
+              ? "D Lucky X berpartisipasi dalam program afiliasi Shopee & Amazon untuk memperoleh komisi dari pembelian melalui tautan resmi tanpa biaya tambahan untuk Anda. Kami hanya memilih dan menguji aksesoris yang terbukti handal untuk kenyamanan bermain, keamanan anak, dan produktivitas."
               : "Sebagai Amazon Associate, D Lucky X memperoleh komisi dari pembelian yang memenuhi syarat tanpa biaya tambahan untuk Anda. Kami hanya memilih dan menguji aksesoris yang terbukti handal untuk kenyamanan bermain, keamanan anak, dan produktivitas."}
           </p>
         </div>
         <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-stone-200 text-xs font-mono text-stone-700 shadow-2xs shrink-0 font-bold">
           <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-          <span>Verified Amazon Links</span>
+          <span>{isIndonesia ? "Tautan Resmi Shopee & Amazon" : "Verified Official Links"}</span>
         </span>
       </div>
     </div>

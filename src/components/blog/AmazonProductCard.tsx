@@ -206,10 +206,10 @@ export const AmazonGearShowcase: React.FC<AmazonGearShowcaseProps> = ({
           </span>{" "}
           {isEn
             ? "When you buy through links on our site, we may earn an affiliate commission at no extra cost to you."
-            : "Sebagai Amazon Associate, kami memperoleh komisi dari pembelian yang memenuhi syarat tanpa biaya tambahan untuk Anda."}
+            : "Kami berpartisipasi dalam program afiliasi Shopee & Amazon untuk memperoleh komisi dari pembelian tanpa biaya tambahan untuk Anda."}
         </p>
         <span className="text-stone-400 font-mono">
-          {isEn ? "Direct Amazon Storefront" : "Tautan Resmi Toko Amazon"}
+          {isEn ? "Direct Amazon Storefront" : "Tautan Resmi Toko"}
         </span>
       </div>
     </section>
