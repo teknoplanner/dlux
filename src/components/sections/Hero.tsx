@@ -29,23 +29,23 @@ export const Hero: React.FC = () => {
       return;
     }
 
-    // On desktop, defer 3D loading until the browser main thread is idle
+    // On desktop, load 3D crystal on first user interaction (pointermove, scroll, keydown)
     const enable3D = () => {
       setShouldLoad3D(true);
+      cleanup();
     };
 
-    if ("requestIdleCallback" in window) {
-      const idleId = (window as unknown as { requestIdleCallback: (cb: () => void, opts: { timeout: number }) => number }).requestIdleCallback(
-        enable3D,
-        { timeout: 3500 }
-      );
-      return () => {
-        (window as unknown as { cancelIdleCallback: (id: number) => void }).cancelIdleCallback(idleId);
-      };
-    } else {
-      const timer = setTimeout(enable3D, 2500);
-      return () => clearTimeout(timer);
-    }
+    const cleanup = () => {
+      window.removeEventListener("pointermove", enable3D);
+      window.removeEventListener("scroll", enable3D);
+      window.removeEventListener("keydown", enable3D);
+    };
+
+    window.addEventListener("pointermove", enable3D, { once: true, passive: true });
+    window.addEventListener("scroll", enable3D, { once: true, passive: true });
+    window.addEventListener("keydown", enable3D, { once: true, passive: true });
+
+    return cleanup;
   }, []);
 
   return (
