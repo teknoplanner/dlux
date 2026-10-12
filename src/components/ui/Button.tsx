@@ -56,13 +56,14 @@ export const Button: React.FC<ButtonProps> = ({
           target="_blank"
           rel="noopener noreferrer"
           className={combinedClasses}
+          {...(props as any)}
         >
           {children}
         </a>
       );
     }
     return (
-      <Link href={href} className={combinedClasses}>
+      <Link href={href} className={combinedClasses} {...(props as any)}>
         {children}
       </Link>
     );

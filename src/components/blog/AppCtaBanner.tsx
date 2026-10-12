@@ -1,9 +1,12 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Play, Star, ShieldCheck, ExternalLink } from "lucide-react";
 import { AppItem } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
+import { trackPlayStoreClick } from "@/lib/analytics";
 
 interface AppCtaBannerProps {
   app: AppItem;
@@ -60,6 +63,7 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({
               external
               variant="primary"
               size="sm"
+              onClick={() => trackPlayStoreClick(app.slug, app.name, "banner_inline")}
               className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold shadow-md w-full sm:w-auto justify-center"
             >
               <Play className="w-3.5 h-3.5 fill-current" />
@@ -117,6 +121,7 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({
             external
             variant="primary"
             size="lg"
+            onClick={() => trackPlayStoreClick(app.slug, app.name, "banner_bottom")}
             className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold shadow-lg justify-center gap-2 text-sm"
           >
             <Play className="w-4 h-4 fill-current" />

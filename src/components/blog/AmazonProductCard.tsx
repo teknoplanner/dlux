@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import {
@@ -13,6 +15,7 @@ import {
   ShoppingBag,
 } from "lucide-react";
 import { AmazonProduct } from "@/data/amazonProducts";
+import { trackAmazonClick } from "@/lib/analytics";
 
 interface AmazonProductCardProps {
   product: AmazonProduct;
@@ -112,6 +115,7 @@ export const AmazonProductCard: React.FC<AmazonProductCardProps> = ({
           href={product.url}
           target="_blank"
           rel="sponsored noopener noreferrer"
+          onClick={() => trackAmazonClick(product.id, name, "gear_showcase")}
           className="w-full sm:w-auto ml-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-stone-900 hover:bg-stone-800 text-white font-medium text-sm transition-colors shadow-xs group/btn"
         >
           <span>{isEn ? "Check on Amazon" : "Lihat di Amazon"}</span>
@@ -241,6 +245,7 @@ export const AmazonInlineCallout: React.FC<AmazonInlineCalloutProps> = ({
             href={product.url}
             target="_blank"
             rel="sponsored noopener noreferrer"
+            onClick={() => trackAmazonClick(product.id, name, "inline_callout")}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-xs group"
           >
             <span>{isEn ? "Check Price on Amazon" : "Cek Promo di Amazon"}</span>

@@ -9,6 +9,7 @@ import {
   HelpCircle,
   CheckCircle2,
   Lightbulb,
+  ChevronRight,
 } from "lucide-react";
 import { articles, getArticleBySlug, getRelatedArticles } from "@/data/articles";
 import { apps, developer } from "@/data/apps";
@@ -49,6 +50,10 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const article = getArticleBySlug(params.slug);
   if (!article) return { title: "Article Not Found" };
 
+  const ogImageUrl = article.coverImage.startsWith("http")
+    ? article.coverImage
+    : `${developer.website}${article.coverImage.startsWith("/") ? "" : "/"}${article.coverImage}`;
+
   return {
     title: `${article.metaTitleEn} | D Lucky X`,
     description: article.metaDescriptionEn,
@@ -63,7 +68,14 @@ export function generateMetadata({ params }: PageProps): Metadata {
     openGraph: {
       title: article.metaTitleEn,
       description: article.metaDescriptionEn,
-      images: [{ url: article.coverImage }],
+      images: [
+        {
+          url: ogImageUrl,
+          width: 1200,
+          height: 630,
+          alt: article.titleEn,
+        },
+      ],
       type: "article",
       publishedTime: article.publishedDate,
       authors: [article.author],
@@ -72,7 +84,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
       card: "summary_large_image",
       title: article.metaTitleEn,
       description: article.metaDescriptionEn,
-      images: [article.coverImage],
+      images: [ogImageUrl],
     },
   };
 }
@@ -146,6 +158,23 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
 
           {/* Article Header */}
           <header className="space-y-5">
+            {/* Visual Breadcrumbs */}
+            <nav aria-label="Breadcrumb" className="flex items-center flex-wrap gap-1.5 text-xs text-slate-500 font-medium">
+              <Link href="/" className="hover:text-emerald-600 transition-colors">
+                Home
+              </Link>
+              <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+              <Link href="/en/blog" className="hover:text-emerald-600 transition-colors">
+                Blog
+              </Link>
+              <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+              <span className="capitalize text-slate-700 font-semibold">{article.category}</span>
+              <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0 hidden sm:inline-block" />
+              <span className="text-slate-400 truncate max-w-[240px] hidden sm:inline-block">
+                {article.titleEn}
+              </span>
+            </nav>
+
             <div className="flex flex-wrap items-center gap-3">
               <Badge variant="purple">
                 {article.category.toUpperCase()}

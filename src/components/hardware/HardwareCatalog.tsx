@@ -25,6 +25,7 @@ import {
   Truck,
 } from "lucide-react";
 import { amazonProducts, AmazonProduct } from "@/data/amazonProducts";
+import { trackAmazonClick } from "@/lib/analytics";
 
 interface HardwareCatalogProps {
   lang?: "id" | "en";
@@ -317,6 +318,7 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
                   href={product.url}
                   target="_blank"
                   rel="sponsored noopener noreferrer"
+                  onClick={() => trackAmazonClick(product.id, name, "hardware_catalog")}
                   className="w-full inline-flex items-center justify-between gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-amber-500 via-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-sm hover:shadow-md active:scale-98 group/btn"
                 >
                   <span className="flex items-center gap-1.5">

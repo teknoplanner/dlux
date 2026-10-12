@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Play, X, ShoppingBag, ExternalLink, ShieldCheck } from "lucide-react";
 import { AppItem } from "@/data/apps";
 import { AmazonProduct } from "@/data/amazonProducts";
+import { trackAmazonClick, trackPlayStoreClick } from "@/lib/analytics";
 
 interface MobileFloatingCtaProps {
   app?: AppItem;
@@ -82,6 +83,7 @@ export const MobileFloatingCta: React.FC<MobileFloatingCtaProps> = ({
               href={app.playUrl}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackPlayStoreClick(app.slug, app.name, "mobile_floating_cta")}
               className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs shadow-md transition-all active:scale-95"
             >
               <Play className="w-3 h-3 fill-current" />
@@ -141,6 +143,7 @@ export const MobileFloatingCta: React.FC<MobileFloatingCtaProps> = ({
               href={affiliateProduct.url}
               target="_blank"
               rel="sponsored noopener noreferrer"
+              onClick={() => trackAmazonClick(affiliateProduct.id, name, "mobile_floating_cta")}
               className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs shadow-md transition-all active:scale-95"
             >
               <ShoppingBag className="w-3 h-3 fill-current" />
