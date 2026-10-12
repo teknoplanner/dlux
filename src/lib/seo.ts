@@ -1,5 +1,6 @@
 import { AppItem, developer } from "@/data/apps";
 import { ArticleItem } from "@/data/articles";
+import { AmazonProduct } from "@/data/amazonProducts";
 
 export function generateOrganizationSchema() {
   return {
@@ -167,3 +168,63 @@ export function generateAppsItemListSchema(items: AppItem[]) {
     })),
   };
 }
+
+export function generateHardwareItemListSchema(
+  products: AmazonProduct[],
+  lang: "id" | "en" = "id"
+) {
+  const isEn = lang === "en";
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: isEn
+      ? "Field-Tested Smartphone & Tablet Hardware Gear"
+      : "Koleksi Gear & Aksesoris Fisik Smartphone Teruji",
+    description: isEn
+      ? "Curated hardware accessories tested for mobile gaming, child safety, and precision PDF e-signatures."
+      : "Aksesoris fisik pilihan yang diuji untuk kenyamanan gaming mobile, proteksi tablet anak, dan tanda tangan digital PDF.",
+    url: `${developer.website}/${isEn ? "en/gear" : "gear"}/`,
+    numberOfItems: products.length,
+    itemListElement: products.map((prod, index) => {
+      const name = isEn ? prod.nameEn : prod.name;
+      const tagline = isEn ? prod.taglineEn : prod.tagline;
+      return {
+        "@type": "ListItem",
+        position: index + 1,
+        item: {
+          "@type": "Product",
+          name,
+          description: tagline,
+          image: `${developer.website}${prod.image}`,
+          url: prod.url,
+          brand: {
+            "@type": "Brand",
+            name: "Amazon Verified Hardware",
+          },
+          ...(prod.rating
+            ? {
+                aggregateRating: {
+                  "@type": "AggregateRating",
+                  ratingValue: prod.rating.toString(),
+                  reviewCount: prod.reviewsCount?.replace(/[^0-9]/g, "") || "100",
+                  bestRating: "5",
+                  worstRating: "1",
+                },
+              }
+            : {}),
+          offers: {
+            "@type": "Offer",
+            availability: "https://schema.org/InStock",
+            priceCurrency: "USD",
+            url: prod.url,
+            seller: {
+              "@type": "Organization",
+              name: "Amazon",
+            },
+          },
+        },
+      };
+    }),
+  };
+}
+

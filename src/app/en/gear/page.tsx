@@ -14,8 +14,12 @@ import {
   Languages,
 } from "lucide-react";
 import { developer } from "@/data/apps";
+import { amazonProducts } from "@/data/amazonProducts";
 import { HardwareCatalog } from "@/components/hardware/HardwareCatalog";
-import { generateBreadcrumbSchema } from "@/lib/seo";
+import {
+  generateBreadcrumbSchema,
+  generateHardwareItemListSchema,
+} from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Field-Tested Gear & Accessories | D Lucky X",
@@ -43,12 +47,17 @@ export default function EnglishGearPage() {
     { name: "Home", url: `${developer.website}/` },
     { name: "Gear", url: `${developer.website}/en/gear/` },
   ]);
+  const hardwareItemListLd = generateHardwareItemListSchema(amazonProducts, "en");
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(hardwareItemListLd) }}
       />
       <div className="pt-20 sm:pt-24 md:pt-28 pb-20 sm:pb-24 relative overflow-hidden bg-[#fafaf9]">
         {/* Background ambient lighting */}

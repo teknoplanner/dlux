@@ -16,6 +16,7 @@ import { apps, developer } from "@/data/apps";
 import { Badge } from "@/components/ui/Badge";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { AppCtaBanner } from "@/components/blog/AppCtaBanner";
+import { MobileFloatingCta } from "@/components/blog/MobileFloatingCta";
 import { ArticleCard } from "@/components/blog/ArticleCard";
 import { LanguageSwitcher } from "@/components/blog/LanguageSwitcher";
 import { FormattedText } from "@/components/blog/FormattedText";
@@ -368,6 +369,13 @@ export default function ArticleDetailPage({ params }: PageProps) {
           )}
         </div>
       </div>
+
+      {/* Mobile Contextual Floating Conversion Bar */}
+      <MobileFloatingCta
+        app={targetApp}
+        affiliateProduct={affiliateProducts[0]}
+        lang="id"
+      />
     </>
   );
 }
