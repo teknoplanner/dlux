@@ -19,6 +19,10 @@ import {
   HelpCircle,
   Flame,
   Zap,
+  Check,
+  PenLine,
+  FileText,
+  Truck,
 } from "lucide-react";
 import { amazonProducts, AmazonProduct } from "@/data/amazonProducts";
 
@@ -82,13 +86,37 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
     }
   };
 
+  const getRibbonIcon = (productId: string) => {
+    switch (productId) {
+      case "finger-sleeves":
+        return <Zap className="w-3 h-3 text-stone-950 shrink-0" />;
+      case "phone-cooler":
+        return <Flame className="w-3 h-3 text-stone-950 shrink-0" />;
+      case "mobile-controller":
+        return <Gamepad2 className="w-3 h-3 text-stone-950 shrink-0" />;
+      case "gaming-tws":
+        return <Headphones className="w-3 h-3 text-stone-950 shrink-0" />;
+      case "kids-tablet":
+        return <Star className="w-3 h-3 text-stone-950 fill-stone-950 shrink-0" />;
+      case "kids-stylus":
+        return <PenTool className="w-3 h-3 text-stone-950 shrink-0" />;
+      case "kids-case":
+        return <ShieldCheck className="w-3 h-3 text-stone-950 shrink-0" />;
+      case "capacitive-stylus":
+        return <PenLine className="w-3 h-3 text-stone-950 shrink-0" />;
+      case "paper-screen-protector":
+      default:
+        return <FileText className="w-3 h-3 text-stone-950 shrink-0" />;
+    }
+  };
+
   const problemSolutions = [
     {
       problemId: "phone-cooler",
       category: "gaming",
       problem: isEn
-        ? "Phone runs scorching hot & drops frames after 20 mins of gaming?"
-        : "HP cepat panas & layar patah-patah setelah 20 menit bermain game?",
+        ? "Phone runs scorching hot and drops frames after 20 mins of gaming?"
+        : "HP cepat panas dan layar patah-patah setelah 20 menit bermain game?",
       solution: isEn
         ? "Active Peltier Semiconductor Cooler — Drops temps up to 15°C in seconds."
         : "Kipas Semikonduktor Peltier — Dinginkan suhu instan hingga belasan derajat.",
@@ -102,8 +130,8 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
         ? "Sweaty fingers causing missed analog swipes and skill aiming errors?"
         : "Jari kesat atau basah keringat sehingga arah analog sering meleset?",
       solution: isEn
-        ? "0.3mm Silver Fiber Sleeves — Restores zero-friction screen glide 100%."
-        : "Sarung Jempol Serat Perak 0.3mm — Menjaga layar tetap licin & responsif.",
+        ? "0.3mm Silver Fiber Sleeves — Restores zero-friction screen glide 100%. "
+        : "Sarung Jempol Serat Perak 0.3mm — Menjaga layar tetap licin dan responsif.",
       icon: Zap,
       color: "border-sky-200 bg-sky-50/50 text-sky-950",
     },
@@ -116,7 +144,7 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
       solution: isEn
         ? "1.5mm Fine Copper Tip Stylus — Precise, ink-like digital signature strokes."
         : "Stylus Pen Presisi 1.5mm — Goresan tanda tangan rapi layaknya pulpen asli.",
-      icon: PenTool,
+      icon: PenLine,
       color: "border-indigo-200 bg-indigo-50/50 text-indigo-950",
     },
     {
@@ -126,7 +154,7 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
         ? "Worried toddlers will accidentally crack or throw the family tablet?"
         : "Khawatir layar tablet pecah dibanting atau tidak sengaja dijatuhkan anak?",
       solution: isEn
-        ? "Heavy-Duty Dense EVA Foam Bumper — Extreme drop & shock absorbing protection."
+        ? "Heavy-Duty Dense EVA Foam Bumper — Extreme drop and shock absorbing protection."
         : "Casing Busa EVA Tebal — Meredam benturan lantai keras dari segala sudut.",
       icon: ShieldCheck,
       color: "border-emerald-200 bg-emerald-50/50 text-emerald-950",
@@ -198,11 +226,12 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
               key={product.id}
               className="group rounded-3xl bg-white border border-stone-200/90 p-5 sm:p-6 shadow-xs hover:border-amber-400/80 hover:shadow-xl transition-all duration-300 flex flex-col justify-between relative overflow-hidden"
             >
-              {/* Top Highlight Ribbon */}
+              {/* Top Highlight Ribbon with Lucide SVG Icon */}
               {ribbon && (
                 <div className="absolute top-4 left-4 z-20 pointer-events-none">
-                  <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-[11px] font-extrabold bg-amber-500 text-stone-950 shadow-md tracking-tight">
-                    {ribbon}
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-extrabold bg-amber-500 text-stone-950 shadow-md tracking-tight">
+                    {getRibbonIcon(product.id)}
+                    <span>{ribbon}</span>
                   </span>
                 </div>
               )}
@@ -221,7 +250,7 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
                   <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-stone-950/80 to-transparent pointer-events-none" />
 
                   {/* Rating Badge on bottom-right of image */}
-                  <div className="absolute bottom-2.5 right-2.5 z-10 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-stone-950/85 backdrop-blur-md text-amber-400 text-xs font-bold border border-white/10 shadow-sm">
+                  <div className="absolute bottom-2.5 right-2.5 z-10 flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-stone-950/85 backdrop-blur-md text-amber-400 text-xs font-bold border border-white/10 shadow-sm">
                     <Star className="w-3.5 h-3.5 fill-current" />
                     <span>{product.rating ? product.rating.toFixed(1) : "4.8"}</span>
                     {product.reviewsCount && (
@@ -298,8 +327,14 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
                 </a>
 
                 <div className="flex items-center justify-between text-[11px] text-stone-400 font-mono pt-0.5">
-                  <span>✓ {isEn ? "Official Listing" : "Tautan Resmi"}</span>
-                  <span>{isEn ? "Fast Shipping" : "Garansi Terpercaya"}</span>
+                  <span className="inline-flex items-center gap-1">
+                    <Check className="w-3 h-3 text-emerald-600" />
+                    <span>{isEn ? "Official Listing" : "Tautan Resmi"}</span>
+                  </span>
+                  <span className="inline-flex items-center gap-1">
+                    <Truck className="w-3 h-3 text-amber-600" />
+                    <span>{isEn ? "Fast Shipping" : "Garansi Terpercaya"}</span>
+                  </span>
                 </div>
               </div>
             </div>

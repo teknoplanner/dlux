@@ -14,6 +14,7 @@ import {
   CheckCircle2,
   FileText,
   Languages,
+  Globe,
 } from "lucide-react";
 import { AppItem, developer } from "@/data/apps";
 
@@ -36,23 +37,25 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
         <div className="inline-flex p-1 rounded-xl bg-slate-100 border border-slate-200 shrink-0 self-start sm:self-auto">
           <button
             onClick={() => setLang("id")}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               lang === "id"
                 ? "bg-white text-slate-900 shadow-xs"
                 : "text-slate-600 hover:text-slate-900"
             }`}
           >
-            🇮🇩 Bahasa Indonesia (Resmi)
+            <Globe className="w-3.5 h-3.5 text-slate-700" />
+            <span>Bahasa Indonesia (Resmi)</span>
           </button>
           <button
             onClick={() => setLang("en")}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               lang === "en"
                 ? "bg-white text-slate-900 shadow-xs"
                 : "text-slate-600 hover:text-slate-900"
             }`}
           >
-            🇬🇧 English
+            <Languages className="w-3.5 h-3.5 text-slate-500" />
+            <span>English</span>
           </button>
         </div>
       </div>

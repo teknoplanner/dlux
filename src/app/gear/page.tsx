@@ -10,6 +10,8 @@ import {
   ShieldCheck,
   CheckCircle2,
   Flame,
+  Globe,
+  Languages,
 } from "lucide-react";
 import { developer } from "@/data/apps";
 import { HardwareCatalog } from "@/components/hardware/HardwareCatalog";
@@ -53,7 +55,7 @@ export default function GearPage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[550px] bg-gradient-to-b from-amber-100/30 via-cyan-100/20 to-transparent blur-3xl pointer-events-none select-none" />
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-10 sm:space-y-12">
-          {/* Top Bar: Back & Language Switcher */}
+          {/* Top Bar: Back & Language Switcher with Lucide Icons */}
           <div className="flex items-center justify-between gap-3 pb-4 border-b border-stone-200/70">
             <Link
               href="/"
@@ -66,7 +68,7 @@ export default function GearPage() {
 
             <div className="inline-flex items-center p-1 rounded-xl bg-stone-100 border border-stone-200 text-xs font-semibold shrink-0">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white text-stone-900 shadow-2xs font-bold">
-                <span>🇮🇩</span>
+                <Globe className="w-3.5 h-3.5 text-stone-700" />
                 <span className="hidden sm:inline">Bahasa Indonesia</span>
                 <span className="sm:hidden">ID</span>
               </span>
@@ -74,7 +76,7 @@ export default function GearPage() {
                 href="/en/gear"
                 className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-stone-600 hover:text-stone-900 transition-all font-medium"
               >
-                <span>🇬🇧</span>
+                <Languages className="w-3.5 h-3.5 text-stone-400" />
                 <span className="hidden sm:inline">English</span>
                 <span className="sm:hidden">EN</span>
               </Link>
@@ -96,19 +98,19 @@ export default function GearPage() {
               Software optimal punya batas fisik. Kami menguji aksesoris smartphone &amp; tablet pilihan untuk mencegah thermal throttling, menjaga sentuhan jari tetap licin anti-keringat, memproteksi tablet anak, dan memastikan tanda tangan PDF presisi.
             </p>
 
-            {/* Trust Points Badges */}
+            {/* Trust Points Badges with Lucide Icons */}
             <div className="flex flex-wrap items-center justify-center gap-2.5 pt-2 text-xs font-bold text-stone-700">
-              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-stone-100 border border-stone-200/80">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-100 border border-stone-200/80">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                100% Verified Amazon Store
+                <span>100% Verified Amazon Store</span>
               </span>
-              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-stone-100 border border-stone-200/80">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-100 border border-stone-200/80">
                 <CheckCircle2 className="w-3.5 h-3.5 text-amber-600" />
-                Diuji Langsung di Perangkat
+                <span>Diuji Langsung di Perangkat</span>
               </span>
-              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-stone-100 border border-stone-200/80">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-stone-100 border border-stone-200/80">
                 <Flame className="w-3.5 h-3.5 text-orange-600" />
-                Bebas Panas &amp; Lag
+                <span>Bebas Panas &amp; Lag</span>
               </span>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Metadata } from "next";
-import { ArrowLeft, BookOpen, Sparkles, Compass } from "lucide-react";
+import { ArrowLeft, BookOpen, Sparkles, Compass, Globe, Languages } from "lucide-react";
 import { articles } from "@/data/articles";
 import { developer } from "@/data/apps";
 import { ArticleCard } from "@/components/blog/ArticleCard";
@@ -63,7 +63,7 @@ export default function BlogHubPage() {
               href="/blog"
               className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg bg-white text-slate-900 shadow-2xs font-bold transition-all"
             >
-              <span>🇮🇩</span>
+              <Globe className="w-3.5 h-3.5 text-slate-700" />
               <span className="hidden sm:inline">Bahasa Indonesia</span>
               <span className="sm:hidden font-semibold">ID</span>
             </Link>
@@ -71,7 +71,7 @@ export default function BlogHubPage() {
               href="/en/blog"
               className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition-all"
             >
-              <span>🇬🇧</span>
+              <Languages className="w-3.5 h-3.5 text-slate-400" />
               <span className="hidden sm:inline">English</span>
               <span className="sm:hidden font-semibold">EN</span>
             </Link>

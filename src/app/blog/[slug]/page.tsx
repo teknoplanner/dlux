@@ -202,7 +202,7 @@ export default function ArticleDetailPage({ params }: PageProps) {
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
                 <div className="flex items-center gap-2 text-sky-900 font-bold text-xs font-mono uppercase tracking-wider">
                   <Globe2 className="w-4 h-4 text-sky-600 shrink-0" />
-                  <span>🇬🇧 English Quick Summary</span>
+                  <span>English Quick Summary</span>
                 </div>
                 <Link
                   href={`/en/blog/${article.slugEn}`}

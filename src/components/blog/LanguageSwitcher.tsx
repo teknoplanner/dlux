@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { Globe, ArrowRight, ArrowLeft } from "lucide-react";
+import { Globe, Languages, ArrowRight, ArrowLeft } from "lucide-react";
 
 interface LanguageSwitcherProps {
   currentLang: "id" | "en";
@@ -115,7 +115,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
                 : "text-slate-600 hover:text-slate-900"
             }`}
           >
-            <span>🇮🇩</span>
+            <Globe className="w-3.5 h-3.5 text-slate-700" />
             <span className="hidden sm:inline">Bahasa Indonesia</span>
             <span className="sm:hidden font-semibold">ID</span>
           </Link>
@@ -129,7 +129,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
                 : "text-slate-600 hover:text-slate-900"
             }`}
           >
-            <span>🇬🇧</span>
+            <Languages className="w-3.5 h-3.5 text-slate-500" />
             <span className="hidden sm:inline">English</span>
             <span className="sm:hidden font-semibold">EN</span>
           </Link>
