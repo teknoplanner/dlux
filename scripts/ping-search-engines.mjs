@@ -10,9 +10,13 @@ async function pingSearchEngines() {
   console.log(`Target Domain: https://${host}`);
   console.log(`Sitemap: ${sitemapUrl}`);
 
-  // Extract URLs from out/sitemap.xml or public
+  // Extract URLs from out/sitemap.xml or public/sitemap.xml
   let urls = [];
-  const sitemapPath = fs.existsSync("out/sitemap.xml") ? "out/sitemap.xml" : null;
+  const sitemapPath = fs.existsSync("out/sitemap.xml")
+    ? "out/sitemap.xml"
+    : fs.existsSync("public/sitemap.xml")
+    ? "public/sitemap.xml"
+    : null;
 
   if (sitemapPath) {
     const xml = fs.readFileSync(sitemapPath, "utf-8");

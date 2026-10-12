@@ -27,7 +27,10 @@ import {
   getAmazonProductsByCategory,
   getAmazonProductsByIds,
 } from "@/data/amazonProducts";
-import { AmazonGearShowcase } from "@/components/blog/AmazonProductCard";
+import {
+  AmazonGearShowcase,
+  AmazonInlineCallout,
+} from "@/components/blog/AmazonProductCard";
 
 interface PageProps {
   params: {
@@ -198,56 +201,67 @@ export default function EnglishArticleDetailPage({ params }: PageProps) {
           {/* Article Main Body Content - Enlarged for Easy Reading */}
           <main className="space-y-8 sm:space-y-12 text-slate-800 text-base sm:text-lg leading-relaxed sm:leading-8">
             {article.sectionsEn.map((section, idx) => (
-              <div key={section.id} className="space-y-4 sm:space-y-5">
-                <h2
-                  id={section.id}
-                  className="text-xl sm:text-2xl md:text-3xl font-bold font-display text-slate-900 scroll-mt-28 border-b border-slate-200/70 pb-3"
-                >
-                  {section.title}
-                </h2>
+              <React.Fragment key={section.id}>
+                <div className="space-y-4 sm:space-y-5">
+                  <h2
+                    id={section.id}
+                    className="text-xl sm:text-2xl md:text-3xl font-bold font-display text-slate-900 scroll-mt-28 border-b border-slate-200/70 pb-3"
+                  >
+                    {section.title}
+                  </h2>
 
-                <div className="space-y-4 text-slate-700">
-                  {section.content.map((paragraph, pIdx) => (
-                    <p key={pIdx} className="leading-relaxed sm:leading-8 text-base sm:text-lg text-slate-700">
-                      <FormattedText text={paragraph} />
-                    </p>
-                  ))}
+                  <div className="space-y-4 text-slate-700">
+                    {section.content.map((paragraph, pIdx) => (
+                      <p key={pIdx} className="leading-relaxed sm:leading-8 text-base sm:text-lg text-slate-700">
+                        <FormattedText text={paragraph} />
+                      </p>
+                    ))}
+                  </div>
+
+                  {/* Optional Bullet Points */}
+                  {section.bulletPoints && section.bulletPoints.length > 0 && (
+                    <ul className="space-y-2.5 pl-1 pt-2">
+                      {section.bulletPoints.map((point, bIdx) => (
+                        <li key={bIdx} className="flex items-start gap-3 text-base sm:text-lg text-slate-700 leading-relaxed">
+                          <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-1" />
+                          <span><FormattedText text={point} /></span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {/* Optional Tip / Highlight Box */}
+                  {section.tipBox && (
+                    <div
+                      className={`p-4 sm:p-6 rounded-2xl border text-base sm:text-lg leading-relaxed space-y-2 my-5 sm:my-6 ${
+                        section.tipBox.type === "highlight"
+                          ? "bg-cyan-50/70 border-cyan-200 text-cyan-950"
+                          : section.tipBox.type === "warning"
+                          ? "bg-amber-50/70 border-amber-200 text-amber-950"
+                          : "bg-indigo-50/70 border-indigo-200 text-indigo-950"
+                      }`}
+                    >
+                      <div className="flex items-center gap-2 font-bold font-display">
+                        <Lightbulb className="w-5 h-5 text-indigo-600 shrink-0" />
+                        <span>{section.tipBox.title}</span>
+                      </div>
+                      <p className="text-slate-700 pl-0 sm:pl-7 leading-relaxed">
+                        <FormattedText text={section.tipBox.text} />
+                      </p>
+                    </div>
+                  )}
                 </div>
 
-                {/* Optional Bullet Points */}
-                {section.bulletPoints && section.bulletPoints.length > 0 && (
-                  <ul className="space-y-2.5 pl-1 pt-2">
-                    {section.bulletPoints.map((point, bIdx) => (
-                      <li key={bIdx} className="flex items-start gap-3 text-base sm:text-lg text-slate-700 leading-relaxed">
-                        <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-1" />
-                        <span><FormattedText text={point} /></span>
-                      </li>
-                    ))}
-                  </ul>
+                {/* Inline App CTA Banner after Section 1 */}
+                {idx === 0 && targetApp && (
+                  <AppCtaBanner app={targetApp} variant="inline" lang="en" />
                 )}
 
-                {/* Optional Tip / Highlight Box */}
-                {section.tipBox && (
-                  <div
-                    className={`p-4 sm:p-6 rounded-2xl border text-base sm:text-lg leading-relaxed space-y-2 my-5 sm:my-6 ${
-                      section.tipBox.type === "highlight"
-                        ? "bg-cyan-50/70 border-cyan-200 text-cyan-950"
-                        : section.tipBox.type === "warning"
-                        ? "bg-amber-50/70 border-amber-200 text-amber-950"
-                        : "bg-indigo-50/70 border-indigo-200 text-indigo-950"
-                    }`}
-                  >
-                    <div className="flex items-center gap-2 font-bold font-display">
-                      <Lightbulb className="w-5 h-5 text-indigo-600 shrink-0" />
-                      <span>{section.tipBox.title}</span>
-                    </div>
-                    <p className="text-slate-700 pl-0 sm:pl-7 leading-relaxed">
-                      <FormattedText text={section.tipBox.text} />
-                    </p>
-                  </div>
+                {/* Inline Amazon Gear Callout after Section 2 */}
+                {idx === 1 && affiliateProducts.length > 0 && (
+                  <AmazonInlineCallout product={affiliateProducts[0]} lang="en" />
                 )}
-
-              </div>
+              </React.Fragment>
             ))}
           </main>
 

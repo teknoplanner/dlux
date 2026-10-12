@@ -187,3 +187,68 @@ export const AmazonGearShowcase: React.FC<AmazonGearShowcaseProps> = ({
     </section>
   );
 };
+
+interface AmazonInlineCalloutProps {
+  product: AmazonProduct;
+  lang?: "en" | "id";
+}
+
+export const AmazonInlineCallout: React.FC<AmazonInlineCalloutProps> = ({
+  product,
+  lang = "en",
+}) => {
+  const isEn = lang === "en";
+  const name = isEn ? product.nameEn : product.name;
+  const tagline = isEn ? product.taglineEn : product.tagline;
+  const badge = isEn ? product.badgeEn : product.badge;
+
+  return (
+    <aside className="my-8 rounded-2xl bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-transparent border border-amber-300/70 p-4 sm:p-5 shadow-xs relative overflow-hidden">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="flex items-center gap-3.5">
+          {product.image && (
+            <div className="relative w-16 h-16 rounded-xl overflow-hidden border border-amber-300/80 shadow-2xs shrink-0 bg-stone-900">
+              <Image
+                src={product.image}
+                alt={name}
+                fill
+                className="object-cover"
+                sizes="64px"
+              />
+            </div>
+          )}
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] font-mono uppercase tracking-wider text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md border border-amber-300/80 font-bold inline-flex items-center gap-1">
+                <ShoppingBag className="w-3 h-3 text-amber-800" />
+                {badge}
+              </span>
+              <span className="text-xs text-amber-800 font-medium hidden sm:inline">
+                {isEn ? "Tested Physical Accessory" : "Perangkat Fisik Teruji"}
+              </span>
+            </div>
+            <h4 className="text-sm sm:text-base font-bold text-stone-900 leading-snug">
+              {name}
+            </h4>
+            <p className="text-xs sm:text-sm text-stone-600 line-clamp-1">
+              {tagline}
+            </p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2 w-full sm:w-auto shrink-0">
+          <a
+            href={product.url}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-xs group"
+          >
+            <span>{isEn ? "Check Price on Amazon" : "Cek Promo di Amazon"}</span>
+            <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+          </a>
+        </div>
+      </div>
+    </aside>
+  );
+};
+

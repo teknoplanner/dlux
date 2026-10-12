@@ -72,3 +72,8 @@ jobs:
         if: steps.publish_step.outputs.has_changes == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Ping Search Engines (IndexNow)
+        if: steps.publish_step.outputs.has_changes == 'true'
+        run: node scripts/ping-search-engines.mjs || true
+

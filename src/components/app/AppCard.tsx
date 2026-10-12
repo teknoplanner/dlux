@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Play, Info, Star, Download } from "lucide-react";
+import { Play, Info, Star, Download, ShieldCheck } from "lucide-react";
 import { AppItem } from "@/data/apps";
 
 interface AppCardProps {
@@ -112,6 +112,22 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
           <p className="text-xs sm:text-sm text-slate-600 line-clamp-2 leading-relaxed">
             {app.tagline}
           </p>
+
+          {/* Highlight Value-Prop Pills */}
+          <div className="flex flex-wrap items-center gap-1.5 pt-1">
+            {app.tags.slice(0, 2).map((tag, i) => (
+              <span
+                key={i}
+                className="inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-semibold bg-slate-100 text-slate-700 border border-slate-200/80"
+              >
+                {tag}
+              </span>
+            ))}
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200/80">
+              <ShieldCheck className="w-3 h-3 text-emerald-600" />
+              100% Free
+            </span>
+          </div>
         </div>
       </div>
 
@@ -130,10 +146,10 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
             href={app.playUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-bold text-white shadow-sm transition-colors"
+            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-xs hover:shadow-md transition-all active:scale-95 group/btn"
           >
             <Play className="w-3 h-3 fill-current text-white" />
-            Google Play
+            <span>Install Free</span>
           </a>
         </div>
       </div>
