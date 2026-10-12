@@ -12,21 +12,32 @@ async function optimizeFolder(dir) {
       const stats = fs.statSync(fullPath);
       const originalSize = stats.size;
 
-      // Only optimize if > 30KB
-      if (originalSize > 30 * 1024) {
-        try {
-          const image = sharp(fullPath);
-          const meta = await image.metadata();
+      try {
+        const image = sharp(fullPath);
+        const meta = await image.metadata();
 
-          let pipeline = sharp(fullPath);
-          if (entry.name.startsWith("screenshot") && meta.width && meta.width > 720) {
-            pipeline = pipeline.resize({ width: 720, withoutEnlargement: true });
-          } else if (entry.name.startsWith("icon") && meta.width && meta.width > 256) {
-            pipeline = pipeline.resize({ width: 256, withoutEnlargement: true });
+        let pipeline = sharp(fullPath);
+        let shouldProcess = false;
+
+        if (entry.name.startsWith("screenshot")) {
+          if (meta.width && meta.width > 580) {
+            pipeline = pipeline.resize({ width: 580, withoutEnlargement: true });
+            shouldProcess = true;
+          } else if (originalSize > 50 * 1024) {
+            shouldProcess = true;
           }
+        } else if (entry.name.startsWith("icon")) {
+          if (meta.width && meta.width > 128) {
+            pipeline = pipeline.resize({ width: 128, height: 128, fit: "cover" });
+            shouldProcess = true;
+          } else if (originalSize > 15 * 1024) {
+            shouldProcess = true;
+          }
+        }
 
+        if (shouldProcess) {
           const buffer = await pipeline
-            .webp({ quality: 80, effort: 6 })
+            .webp({ quality: 75, effort: 6 })
             .toBuffer();
 
           if (buffer.length < originalSize) {
@@ -35,9 +46,9 @@ async function optimizeFolder(dir) {
               `Optimized ${path.relative("public", fullPath)}: ${(originalSize / 1024).toFixed(1)} KB -> ${(buffer.length / 1024).toFixed(1)} KB (-${(((originalSize - buffer.length) / originalSize) * 100).toFixed(0)}%)`
             );
           }
-        } catch (err) {
-          console.warn(`Could not optimize ${fullPath}:`, err.message);
         }
+      } catch (err) {
+        console.warn(`Could not optimize ${fullPath}:`, err.message);
       }
     }
   }

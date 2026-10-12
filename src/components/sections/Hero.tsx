@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
     <section className="relative min-h-[88vh] flex items-center justify-center pt-24 pb-16 overflow-hidden bg-[#fafaf9]">
       {/* Zero-JS Native GPU Ambient Kinetic Backdrop (Instant FCP/LCP, 0ms TBT) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none select-none">
-        <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[550px] sm:w-[750px] h-[350px] bg-gradient-to-tr from-emerald-400/20 via-sky-400/25 to-purple-400/15 blur-3xl rounded-full opacity-75 animate-pulse" />
+        <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[550px] sm:w-[750px] h-[350px] bg-gradient-to-tr from-emerald-400/20 via-sky-400/25 to-purple-400/15 blur-3xl rounded-full opacity-80" />
         <div className="absolute top-1/3 left-1/4 w-[300px] h-[260px] bg-emerald-400/15 blur-3xl rounded-full" />
         <div className="absolute top-1/4 right-1/4 w-[320px] h-[280px] bg-sky-400/15 blur-3xl rounded-full" />
       </div>
@@ -65,11 +65,11 @@ export const Hero: React.FC = () => {
       )}
 
       {/* Full-width transparent scrim spreading across the entire hero section */}
-      <div className="absolute inset-0 z-[5] pointer-events-none bg-gradient-to-b from-[#fafaf9]/20 via-white/50 to-[#fafaf9]/90 backdrop-blur-[2px]" />
+      <div className="absolute inset-0 z-[5] pointer-events-none bg-gradient-to-b from-[#fafaf9]/10 via-white/50 to-[#fafaf9]/90" />
 
       {/* Hero Foreground Content - full width flow without boxed borders */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 relative z-10 text-center pointer-events-none">
-        <h1 className="text-5xl sm:text-7xl md:text-8xl font-extrabold font-display tracking-tight text-slate-950 leading-[1.05] mb-5">
+        <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold font-display tracking-tight text-slate-950 leading-[1.05] mb-5">
           Engaging Games.<br />
           Useful Apps.
         </h1>
