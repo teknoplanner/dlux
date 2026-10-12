@@ -147,7 +147,7 @@ export const AmazonGearShowcase: React.FC<AmazonGearShowcaseProps> = ({
     : "Pengaturan game punya batas fisik. Aksesoris teruji ini membantu menjaga sentuhan tetap licin, meredam panas perangkat, dan memangkas delay audio.";
 
   return (
-    <section className="my-10 rounded-2xl bg-stone-50/80 border border-stone-200 p-6 sm:p-8 space-y-6 shadow-xs">
+    <section className="my-8 sm:my-10 rounded-2xl bg-stone-50/80 border border-stone-200 p-5 sm:p-8 space-y-5 sm:space-y-6 shadow-xs">
       {/* Header */}
       <div className="space-y-2 border-b border-stone-200/80 pb-4">
         <span className="text-xs font-semibold tracking-wider uppercase text-stone-500 font-mono block">

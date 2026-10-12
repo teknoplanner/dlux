@@ -19,25 +19,25 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({
   const isEn = lang === "en";
 
   return (
-    <nav className="rounded-2xl bg-slate-50 border border-slate-200 p-5 my-6">
+    <nav className="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-5 my-5 sm:my-6">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between text-left font-bold font-display text-slate-900 text-base focus:outline-none"
+        className="w-full flex items-center justify-between text-left font-bold font-display text-slate-900 text-sm sm:text-base focus:outline-none"
         aria-expanded={isOpen}
       >
         <span className="flex items-center gap-2">
-          <ListCollapse className="w-4 h-4 text-indigo-600" />
+          <ListCollapse className="w-4 h-4 text-indigo-600 shrink-0" />
           <span>{isEn ? "Table of Contents" : "Daftar Isi Panduan"}</span>
         </span>
         <ChevronDown
-          className={`w-4 h-4 text-slate-500 transition-transform duration-200 ${
+          className={`w-4 h-4 text-slate-500 transition-transform duration-200 shrink-0 ${
             isOpen ? "rotate-180" : ""
           }`}
         />
       </button>
 
       {isOpen && (
-        <ul className="mt-4 space-y-2.5 text-sm sm:text-base border-t border-slate-200/70 pt-3.5">
+        <ul className="mt-3.5 space-y-2 sm:space-y-2.5 text-xs sm:text-sm md:text-base border-t border-slate-200/70 pt-3">
           {sections.map((sec) => (
             <li key={sec.id}>
               <a

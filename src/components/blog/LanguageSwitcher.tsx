@@ -2,13 +2,16 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { Globe, ArrowRight } from "lucide-react";
+import { Globe, ArrowRight, ArrowLeft } from "lucide-react";
 
 interface LanguageSwitcherProps {
   currentLang: "id" | "en";
   slug?: string;
   slugId?: string;
   slugEn?: string;
+  backHref?: string;
+  backLabel?: string;
+  backLabelMobile?: string;
 }
 
 export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
@@ -16,6 +19,9 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
   slug = "",
   slugId,
   slugEn,
+  backHref,
+  backLabel,
+  backLabelMobile,
 }) => {
   const [showAutoSuggest, setShowAutoSuggest] = useState(false);
 
@@ -58,7 +64,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
               Visiting from outside Indonesia? This article is available in full English.
             </span>
           </div>
-          <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
+          <div className="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end flex-wrap">
             <button
               onClick={() => {
                 setShowAutoSuggest(false);
@@ -80,33 +86,54 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
         </div>
       )}
 
-      {/* Manual Language Toggle Pill */}
-      <div className="inline-flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 text-xs font-medium">
-        <Link
-          href={`/blog/${finalSlugId}`}
-          onClick={() => setManualPreference("id")}
-          className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-lg transition-all ${
-            currentLang === "id"
-              ? "bg-white text-slate-900 shadow-2xs font-bold"
-              : "text-slate-600 hover:text-slate-900"
-          }`}
-        >
-          <span>🇮🇩</span>
-          <span>Bahasa Indonesia</span>
-        </Link>
+      {/* Top Nav Bar: Optional Back Link + Manual Language Toggle Pill */}
+      <div className="flex items-center justify-between gap-3 pb-3 border-b border-slate-200/60">
+        {backHref ? (
+          <Link
+            href={backHref}
+            className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors shrink-0"
+          >
+            <ArrowLeft className="w-4 h-4 shrink-0" />
+            <span className="hidden sm:inline">
+              {backLabel || (currentLang === "id" ? "Kembali ke Blog" : "Back to Blog")}
+            </span>
+            <span className="sm:hidden font-medium">
+              {backLabelMobile || (currentLang === "id" ? "Blog" : "Blog")}
+            </span>
+          </Link>
+        ) : (
+          <div />
+        )}
 
-        <Link
-          href={`/en/blog/${finalSlugEn}`}
-          onClick={() => setManualPreference("en")}
-          className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-lg transition-all ${
-            currentLang === "en"
-              ? "bg-white text-slate-900 shadow-2xs font-bold"
-              : "text-slate-600 hover:text-slate-900"
-          }`}
-        >
-          <span>🇬🇧</span>
-          <span>English Version</span>
-        </Link>
+        <div className="inline-flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 text-xs font-medium shrink-0">
+          <Link
+            href={`/blog/${finalSlugId}`}
+            onClick={() => setManualPreference("id")}
+            className={`inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg transition-all ${
+              currentLang === "id"
+                ? "bg-white text-slate-900 shadow-2xs font-bold"
+                : "text-slate-600 hover:text-slate-900"
+            }`}
+          >
+            <span>🇮🇩</span>
+            <span className="hidden sm:inline">Bahasa Indonesia</span>
+            <span className="sm:hidden font-semibold">ID</span>
+          </Link>
+
+          <Link
+            href={`/en/blog/${finalSlugEn}`}
+            onClick={() => setManualPreference("en")}
+            className={`inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg transition-all ${
+              currentLang === "en"
+                ? "bg-white text-slate-900 shadow-2xs font-bold"
+                : "text-slate-600 hover:text-slate-900"
+            }`}
+          >
+            <span>🇬🇧</span>
+            <span className="hidden sm:inline">English</span>
+            <span className="sm:hidden font-semibold">EN</span>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -54,7 +54,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   if (featured) {
     return (
       <article className="group relative rounded-3xl bg-white border border-slate-200/90 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-0">
-        <div className="lg:col-span-5 relative bg-slate-900 min-h-[240px] lg:min-h-full overflow-hidden flex flex-col justify-between p-6 sm:p-8">
+        <div className="lg:col-span-5 relative bg-slate-900 min-h-[240px] lg:min-h-full overflow-hidden flex flex-col justify-between p-5 sm:p-7 md:p-8">
           {article.coverImage && (
             <Image
               src={article.coverImage}
@@ -108,7 +108,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
           </div>
         </div>
 
-        <div className="lg:col-span-7 p-6 sm:p-10 flex flex-col justify-between space-y-5">
+        <div className="lg:col-span-7 p-5 sm:p-8 lg:p-10 flex flex-col justify-between space-y-4 sm:space-y-5">
           <div className="space-y-3">
             <div className="flex items-center gap-2">
               <Badge variant={getCategoryBadgeVariant(article.category)}>
@@ -117,12 +117,12 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
             </div>
 
             <Link href={href}>
-              <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900 group-hover:text-indigo-600 transition-colors leading-tight">
+              <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold font-display text-slate-900 group-hover:text-indigo-600 transition-colors leading-tight">
                 {title}
               </h3>
             </Link>
 
-            <p className="text-sm text-slate-600 line-clamp-3 leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 line-clamp-3 leading-relaxed">
               {description}
             </p>
           </div>
@@ -156,7 +156,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
         </Link>
       )}
 
-      <div className="p-6 sm:p-7 space-y-4">
+      <div className="p-5 sm:p-6 space-y-3.5">
         {/* Card Header with Badges */}
         <div className="flex items-center justify-between gap-2">
           <Badge variant={getCategoryBadgeVariant(article.category)}>
@@ -171,19 +171,19 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
 
         {/* Title */}
         <Link href={href} className="block">
-          <h3 className="text-lg sm:text-xl font-bold font-display text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug line-clamp-2">
+          <h3 className="text-base sm:text-lg lg:text-xl font-bold font-display text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug line-clamp-2">
             {title}
           </h3>
         </Link>
 
         {/* Snippet */}
-        <p className="text-sm sm:text-base text-slate-600 line-clamp-3 leading-relaxed">
+        <p className="text-sm text-slate-600 line-clamp-3 leading-relaxed">
           {description}
         </p>
       </div>
 
       {/* Card Footer */}
-      <div className="p-6 sm:p-7 pt-0 mt-auto space-y-3">
+      <div className="p-5 sm:p-6 pt-0 mt-auto space-y-3">
         {targetApp && (
           <div className="p-2.5 rounded-2xl bg-slate-50 border border-slate-200/80 flex items-center gap-2.5">
             <div className="relative w-8 h-8 rounded-xl overflow-hidden border border-slate-200 shrink-0">

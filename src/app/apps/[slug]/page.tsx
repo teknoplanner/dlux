@@ -94,7 +94,7 @@ export default function AppDetailPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
-      <div className="pt-28 pb-20 relative overflow-hidden bg-[#fafaf9]">
+      <div className="pt-20 sm:pt-24 md:pt-28 pb-20 relative overflow-hidden bg-[#fafaf9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           {/* Breadcrumb */}
           <div className="mb-8">

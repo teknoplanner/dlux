@@ -39,32 +39,35 @@ export default function EnglishGearPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
-      <div className="pt-32 pb-24 relative overflow-hidden bg-[#fafaf9]">
+      <div className="pt-20 sm:pt-24 md:pt-28 pb-20 sm:pb-24 relative overflow-hidden bg-[#fafaf9]">
         {/* Background ambient lighting */}
-        <div className="absolute top-20 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-b from-indigo-100/30 via-cyan-100/20 to-transparent blur-3xl pointer-events-none" />
+        <div className="absolute top-12 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-b from-indigo-100/30 via-cyan-100/20 to-transparent blur-3xl pointer-events-none" />
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8 sm:space-y-10">
           {/* Top Bar: Back & Language Switcher */}
-          <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="flex items-center justify-between gap-3 pb-3 border-b border-slate-200/60">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
+              className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-medium text-slate-500 hover:text-slate-900 transition-colors shrink-0"
             >
-              <ArrowLeft className="w-4 h-4" />
-              Back to Home
+              <ArrowLeft className="w-4 h-4 shrink-0" />
+              <span className="hidden sm:inline">Back to Home</span>
+              <span className="sm:hidden font-medium">Home</span>
             </Link>
 
-            <div className="inline-flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 text-xs font-medium">
+            <div className="inline-flex items-center p-1 rounded-xl bg-slate-100 border border-slate-200/80 text-xs font-medium shrink-0">
               <Link
                 href="/gear"
-                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition-all"
+                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg text-slate-600 hover:text-slate-900 transition-all"
               >
                 <span>🇮🇩</span>
-                <span>Bahasa Indonesia</span>
+                <span className="hidden sm:inline">Bahasa Indonesia</span>
+                <span className="sm:hidden font-semibold">ID</span>
               </Link>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-white text-slate-900 shadow-2xs font-bold">
+              <span className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 rounded-lg bg-white text-slate-900 shadow-2xs font-bold">
                 <span>🇬🇧</span>
-                <span>English</span>
+                <span className="hidden sm:inline">English</span>
+                <span className="sm:hidden font-semibold">EN</span>
               </span>
             </div>
           </div>

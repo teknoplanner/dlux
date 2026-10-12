@@ -72,14 +72,14 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({
   }
 
   return (
-    <div className="my-10 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 text-white p-7 sm:p-10 shadow-lg border border-slate-800 relative overflow-hidden">
+    <div className="my-8 sm:my-10 rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 text-white p-5 sm:p-8 md:p-10 shadow-lg border border-slate-800 relative overflow-hidden">
       {/* Visual neon blurs */}
       <div className="absolute top-0 right-0 w-72 h-72 bg-indigo-500/15 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
-          <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-3xl overflow-hidden border-2 border-white/20 shadow-xl shrink-0 bg-slate-800">
+      <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 sm:gap-8">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5">
+          <div className="relative w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-2xl sm:rounded-3xl overflow-hidden border-2 border-white/20 shadow-xl shrink-0 bg-slate-800">
             <Image
               src={app.icon}
               alt={app.name}
@@ -101,7 +101,7 @@ export const AppCtaBanner: React.FC<AppCtaBannerProps> = ({
               </div>
             </div>
 
-            <h3 className="text-2xl sm:text-3xl font-extrabold font-display text-white">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold font-display text-white">
               {app.name}
             </h3>
 
