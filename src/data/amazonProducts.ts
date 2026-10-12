@@ -8,6 +8,7 @@ export interface AmazonProduct {
   badge: string;
   badgeEn: string;
   url: string;
+  shopeeUrl?: string;
   image: string;
   features: string[];
   featuresEn: string[];
@@ -33,6 +34,7 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Anti-Keringat & Licin",
     badgeEn: "Anti-Friction & Sweat Control",
     url: "https://amzn.to/4drxCT5",
+    shopeeUrl: "https://s.shopee.co.id/5VW2Garkg9",
     rating: 4.8,
     reviewsCount: "4,500+",
     ribbon: "Paling Populer • Anti-Keringat",
@@ -62,6 +64,7 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Pendingin Suhu Aktif",
     badgeEn: "Active Thermal Cooling",
     url: "https://amzn.to/3VrYsV4",
+    shopeeUrl: "https://s.shopee.co.id/9APKdHFE3A",
     rating: 4.9,
     reviewsCount: "3,200+",
     ribbon: "Pilihan Editor • Dingin Instan",
@@ -91,6 +94,7 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Kontrol Ergonomis",
     badgeEn: "Ergonomic Handheld Grip",
     url: "https://amzn.to/3VAMtog",
+    shopeeUrl: "https://s.shopee.co.id/9pf1Qas2vh",
     rating: 4.7,
     reviewsCount: "1,800+",
     ribbon: "Sensasi Konsol Portabel",
@@ -120,6 +124,7 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Audio Responsif <45ms",
     badgeEn: "Low-Latency Audio (<45ms)",
     url: "https://amzn.to/4j7NbTz",
+    shopeeUrl: "https://s.shopee.co.id/7VH6eLZrvu",
     rating: 4.8,
     reviewsCount: "2,900+",
     ribbon: "Audio Gaming <45ms Delay",
@@ -151,6 +156,7 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Tablet Belajar & Edukasi",
     badgeEn: "Educational Kids Tablet",
     url: "https://amzn.to/4j8GXTt",
+    shopeeUrl: "https://s.shopee.co.id/7AeGFlfci7",
     rating: 4.8,
     reviewsCount: "5,100+",
     ribbon: "Pilihan Utama Orang Tua",
@@ -180,6 +186,7 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Stylus Motorik Anak",
     badgeEn: "Ergonomic Kids Stylus",
     url: "https://amzn.to/4yFqOdb",
+    shopeeUrl: "https://s.shopee.co.id/9V2B267wtf",
     rating: 4.9,
     reviewsCount: "1,400+",
     ribbon: "Melatih Motorik Balita",
@@ -209,6 +216,7 @@ export const amazonProducts: AmazonProduct[] = [
     badge: "Casing Tahan Benturan",
     badgeEn: "Drop-Proof Bumper Case",
     url: "https://amzn.to/4j9fJMx",
+    shopeeUrl: "https://s.shopee.co.id/20wA6Ls32e",
     rating: 4.9,
     reviewsCount: "6,200+",
     ribbon: "Tahan Benturan Ekstrem",

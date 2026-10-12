@@ -25,7 +25,8 @@ import {
   Truck,
 } from "lucide-react";
 import { amazonProducts, AmazonProduct } from "@/data/amazonProducts";
-import { trackAmazonClick } from "@/lib/analytics";
+import { trackAmazonClick, trackShopeeClick } from "@/lib/analytics";
+import { useIsIndonesia } from "@/lib/geo";
 
 interface HardwareCatalogProps {
   lang?: "id" | "en";
@@ -34,6 +35,7 @@ interface HardwareCatalogProps {
 export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" }) => {
   const [activeCategory, setActiveCategory] = useState<"all" | "gaming" | "kids" | "productivity">("all");
   const isEn = lang === "en";
+  const isIndonesia = useIsIndonesia(lang);
 
   const categories = [
     {
@@ -312,33 +314,82 @@ export const HardwareCatalog: React.FC<HardwareCatalogProps> = ({ lang = "id" })
                 </ul>
               </div>
 
-              {/* Action Button: Amazon High-Conversion Vibrant Gold Button */}
-              <div className="pt-4 mt-4 border-t border-stone-100 space-y-2">
-                <a
-                  href={product.url}
-                  target="_blank"
-                  rel="sponsored noopener noreferrer"
-                  onClick={() => trackAmazonClick(product.id, name, "hardware_catalog")}
-                  className="w-full inline-flex items-center justify-between gap-2 px-4 py-3 rounded-xl bg-gradient-to-r from-amber-500 via-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-sm hover:shadow-md active:scale-98 group/btn"
-                >
-                  <span className="flex items-center gap-1.5">
-                    <ShoppingBag className="w-4 h-4 fill-stone-950/20" />
-                    <span>{isEn ? "Check Price on Amazon" : "Cek Promo di Amazon"}</span>
-                  </span>
-                  <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-0.5 transition-transform" />
-                </a>
+              {/* Action Button: Shopee Vibrant Orange (if ID) or Amazon Vibrant Gold (if Global) */}
+              {(() => {
+                const showShopee = isIndonesia && Boolean(product.shopeeUrl);
+                const targetUrl = showShopee ? product.shopeeUrl! : product.url;
 
-                <div className="flex items-center justify-between text-[11px] text-stone-400 font-mono pt-0.5">
-                  <span className="inline-flex items-center gap-1">
-                    <Check className="w-3 h-3 text-emerald-600" />
-                    <span>{isEn ? "Official Listing" : "Tautan Resmi"}</span>
-                  </span>
-                  <span className="inline-flex items-center gap-1">
-                    <Truck className="w-3 h-3 text-amber-600" />
-                    <span>{isEn ? "Fast Shipping" : "Garansi Terpercaya"}</span>
-                  </span>
-                </div>
-              </div>
+                return (
+                  <div className="pt-4 mt-4 border-t border-stone-100 space-y-2">
+                    <a
+                      href={targetUrl}
+                      target="_blank"
+                      rel="sponsored noopener noreferrer"
+                      onClick={() => {
+                        if (showShopee) {
+                          trackShopeeClick(product.id, name, "hardware_catalog");
+                        } else {
+                          trackAmazonClick(product.id, name, "hardware_catalog");
+                        }
+                      }}
+                      className={`w-full inline-flex items-center justify-between gap-2 px-4 py-3 rounded-xl font-bold text-xs sm:text-sm transition-all shadow-sm hover:shadow-md active:scale-98 group/btn ${
+                        showShopee
+                          ? "bg-gradient-to-r from-orange-500 via-[#ee4d2d] to-orange-600 hover:from-orange-600 hover:to-[#d73211] text-white"
+                          : "bg-gradient-to-r from-amber-500 via-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950"
+                      }`}
+                    >
+                      <span className="flex items-center gap-1.5">
+                        <ShoppingBag className={`w-4 h-4 ${showShopee ? "fill-white/20" : "fill-stone-950/20"}`} />
+                        <span>
+                          {showShopee
+                            ? "Beli di Shopee"
+                            : isEn
+                            ? "Check Price on Amazon"
+                            : "Cek Promo di Amazon"}
+                        </span>
+                      </span>
+                      <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-0.5 transition-transform" />
+                    </a>
+
+                    <div className="flex items-center justify-between text-[11px] text-stone-400 font-mono pt-0.5">
+                      <span className="inline-flex items-center gap-1">
+                        <Check className="w-3 h-3 text-emerald-600" />
+                        <span>
+                          {showShopee
+                            ? "Shopee Mall / Star"
+                            : isEn
+                            ? "Official Listing"
+                            : "Tautan Resmi"}
+                        </span>
+                      </span>
+                      <span className="inline-flex items-center gap-1">
+                        <Truck className={`w-3 h-3 ${showShopee ? "text-orange-500" : "text-amber-600"}`} />
+                        <span>
+                          {showShopee
+                            ? "Bisa COD & Gratis Ongkir"
+                            : isEn
+                            ? "Fast Shipping"
+                            : "Garansi Terpercaya"}
+                        </span>
+                      </span>
+                    </div>
+
+                    {showShopee && (
+                      <div className="text-center pt-0.5">
+                        <a
+                          href={product.url}
+                          target="_blank"
+                          rel="sponsored noopener noreferrer"
+                          onClick={() => trackAmazonClick(product.id, name, "hardware_catalog_secondary")}
+                          className="text-[11px] text-stone-400 hover:text-stone-700 underline transition-colors"
+                        >
+                          {isEn ? "Or check Amazon listing" : "Atau cek listing Amazon (Internasional)"}
+                        </a>
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
             </div>
           );
         })}

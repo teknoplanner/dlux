@@ -5,7 +5,8 @@ import Image from "next/image";
 import { Play, X, ShoppingBag, ExternalLink, ShieldCheck } from "lucide-react";
 import { AppItem } from "@/data/apps";
 import { AmazonProduct } from "@/data/amazonProducts";
-import { trackAmazonClick, trackPlayStoreClick } from "@/lib/analytics";
+import { trackAmazonClick, trackShopeeClick, trackPlayStoreClick } from "@/lib/analytics";
+import { useIsIndonesia } from "@/lib/geo";
 
 interface MobileFloatingCtaProps {
   app?: AppItem;
@@ -21,6 +22,7 @@ export const MobileFloatingCta: React.FC<MobileFloatingCtaProps> = ({
   const [isVisible, setIsVisible] = useState(false);
   const [isDismissed, setIsDismissed] = useState(false);
   const isEn = lang === "en";
+  const isIndonesia = useIsIndonesia(lang);
 
   useEffect(() => {
     if (isDismissed) return;
@@ -103,8 +105,10 @@ export const MobileFloatingCta: React.FC<MobileFloatingCtaProps> = ({
     );
   }
 
-  // Secondary: promote featured Amazon gear if no target app
+  // Secondary: promote featured Amazon or Shopee gear if no target app
   if (affiliateProduct) {
+    const showShopee = isIndonesia && Boolean(affiliateProduct.shopeeUrl);
+    const targetUrl = showShopee ? affiliateProduct.shopeeUrl! : affiliateProduct.url;
     const name = isEn ? affiliateProduct.nameEn : affiliateProduct.name;
     const badge = isEn ? affiliateProduct.badgeEn : affiliateProduct.badge;
 
@@ -113,11 +117,17 @@ export const MobileFloatingCta: React.FC<MobileFloatingCtaProps> = ({
         aria-label={isEn ? "Recommended hardware accessory" : "Rekomendasi perangkat aksesoris"}
         className="fixed bottom-4 left-3 right-3 sm:left-auto sm:right-6 sm:max-w-md z-40 transition-all duration-300 animate-in fade-in slide-in-from-bottom-5"
       >
-        <div className="flex items-center justify-between gap-3 p-2.5 sm:p-3 rounded-2xl bg-stone-950/95 backdrop-blur-md border border-amber-500/40 text-white shadow-2xl">
+        <div className={`flex items-center justify-between gap-3 p-2.5 sm:p-3 rounded-2xl backdrop-blur-md text-white shadow-2xl ${
+          showShopee
+            ? "bg-stone-950/95 border border-orange-500/40"
+            : "bg-stone-950/95 border border-amber-500/40"
+        }`}>
           {/* Product Icon + Title */}
           <div className="flex items-center gap-2.5 min-w-0 flex-1">
             {affiliateProduct.image && (
-              <div className="relative w-10 h-10 rounded-xl overflow-hidden border border-amber-400/40 shrink-0 bg-stone-900 shadow-xs">
+              <div className={`relative w-10 h-10 rounded-xl overflow-hidden border shrink-0 bg-stone-900 shadow-xs ${
+                showShopee ? "border-orange-400/40" : "border-amber-400/40"
+              }`}>
                 <Image
                   src={affiliateProduct.image}
                   alt={name}
@@ -128,7 +138,11 @@ export const MobileFloatingCta: React.FC<MobileFloatingCtaProps> = ({
               </div>
             )}
             <div className="min-w-0 flex-1">
-              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-amber-400 bg-amber-950/80 px-1.5 py-0.2 rounded border border-amber-800/80">
+              <span className={`text-[10px] font-mono font-bold uppercase tracking-wider px-1.5 py-0.2 rounded border ${
+                showShopee
+                  ? "text-orange-400 bg-orange-950/80 border-orange-800/80"
+                  : "text-amber-400 bg-amber-950/80 border-amber-800/80"
+              }`}>
                 {badge}
               </span>
               <h4 className="text-xs sm:text-sm font-bold text-white truncate leading-tight mt-0.5">
@@ -140,14 +154,24 @@ export const MobileFloatingCta: React.FC<MobileFloatingCtaProps> = ({
           {/* Action Button + Dismiss */}
           <div className="flex items-center gap-1.5 shrink-0">
             <a
-              href={affiliateProduct.url}
+              href={targetUrl}
               target="_blank"
               rel="sponsored noopener noreferrer"
-              onClick={() => trackAmazonClick(affiliateProduct.id, name, "mobile_floating_cta")}
-              className="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs shadow-md transition-all active:scale-95"
+              onClick={() => {
+                if (showShopee) {
+                  trackShopeeClick(affiliateProduct.id, name, "mobile_floating_cta");
+                } else {
+                  trackAmazonClick(affiliateProduct.id, name, "mobile_floating_cta");
+                }
+              }}
+              className={`inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl font-bold text-xs shadow-md transition-all active:scale-95 ${
+                showShopee
+                  ? "bg-[#ee4d2d] hover:bg-[#d73211] text-white"
+                  : "bg-amber-500 hover:bg-amber-400 text-stone-950"
+              }`}
             >
               <ShoppingBag className="w-3 h-3 fill-current" />
-              <span>{isEn ? "Check Amazon" : "Cek Promo"}</span>
+              <span>{showShopee ? "Shopee" : isEn ? "Check Amazon" : "Cek Promo"}</span>
             </a>
 
             <button

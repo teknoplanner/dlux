@@ -15,7 +15,8 @@ import {
   ShoppingBag,
 } from "lucide-react";
 import { AmazonProduct } from "@/data/amazonProducts";
-import { trackAmazonClick } from "@/lib/analytics";
+import { trackAmazonClick, trackShopeeClick } from "@/lib/analytics";
+import { useIsIndonesia } from "@/lib/geo";
 
 interface AmazonProductCardProps {
   product: AmazonProduct;
@@ -27,6 +28,9 @@ export const AmazonProductCard: React.FC<AmazonProductCardProps> = ({
   lang = "en",
 }) => {
   const isEn = lang === "en";
+  const isIndonesia = useIsIndonesia(lang);
+  const showShopee = isIndonesia && Boolean(product.shopeeUrl);
+  const targetUrl = showShopee ? product.shopeeUrl! : product.url;
   const name = isEn ? product.nameEn : product.name;
   const tagline = isEn ? product.taglineEn : product.tagline;
   const badge = isEn ? product.badgeEn : product.badge;
@@ -76,8 +80,8 @@ export const AmazonProductCard: React.FC<AmazonProductCardProps> = ({
           </span>
 
           <span className="inline-flex items-center gap-1 text-xs text-stone-500">
-            <ShoppingBag className="w-3.5 h-3.5 text-stone-400" />
-            <span>Amazon</span>
+            <ShoppingBag className={`w-3.5 h-3.5 ${showShopee ? "text-orange-500" : "text-stone-400"}`} />
+            <span>{showShopee ? "Shopee" : "Amazon"}</span>
           </span>
         </div>
 
@@ -108,17 +112,37 @@ export const AmazonProductCard: React.FC<AmazonProductCardProps> = ({
       {/* Action Footer */}
       <div className="pt-4 mt-4 border-t border-stone-100 flex items-center justify-between gap-3">
         <span className="text-xs text-stone-400 font-mono hidden sm:inline">
-          {isEn ? "Amazon Official Listing" : "Tautan Resmi Amazon"}
+          {showShopee
+            ? "Shopee Mall / Star Seller"
+            : isEn
+            ? "Amazon Official Listing"
+            : "Tautan Resmi Amazon"}
         </span>
 
         <a
-          href={product.url}
+          href={targetUrl}
           target="_blank"
           rel="sponsored noopener noreferrer"
-          onClick={() => trackAmazonClick(product.id, name, "gear_showcase")}
-          className="w-full sm:w-auto ml-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-stone-900 hover:bg-stone-800 text-white font-medium text-sm transition-colors shadow-xs group/btn"
+          onClick={() => {
+            if (showShopee) {
+              trackShopeeClick(product.id, name, "gear_showcase");
+            } else {
+              trackAmazonClick(product.id, name, "gear_showcase");
+            }
+          }}
+          className={`w-full sm:w-auto ml-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm transition-colors shadow-xs group/btn ${
+            showShopee
+              ? "bg-[#ee4d2d] hover:bg-[#d73211] text-white font-bold"
+              : "bg-stone-900 hover:bg-stone-800 text-white"
+          }`}
         >
-          <span>{isEn ? "Check on Amazon" : "Lihat di Amazon"}</span>
+          <span>
+            {showShopee
+              ? "Beli di Shopee"
+              : isEn
+              ? "Check on Amazon"
+              : "Lihat di Amazon"}
+          </span>
           <ExternalLink className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
         </a>
       </div>
@@ -202,6 +226,9 @@ export const AmazonInlineCallout: React.FC<AmazonInlineCalloutProps> = ({
   lang = "en",
 }) => {
   const isEn = lang === "en";
+  const isIndonesia = useIsIndonesia(lang);
+  const showShopee = isIndonesia && Boolean(product.shopeeUrl);
+  const targetUrl = showShopee ? product.shopeeUrl! : product.url;
   const name = isEn ? product.nameEn : product.name;
   const tagline = isEn ? product.taglineEn : product.tagline;
   const badge = isEn ? product.badgeEn : product.badge;
@@ -223,12 +250,20 @@ export const AmazonInlineCallout: React.FC<AmazonInlineCalloutProps> = ({
           )}
           <div className="space-y-1">
             <div className="flex items-center gap-2">
-              <span className="text-[10px] font-mono uppercase tracking-wider text-amber-900 bg-amber-100 px-2 py-0.5 rounded-md border border-amber-300/80 font-bold inline-flex items-center gap-1">
-                <ShoppingBag className="w-3 h-3 text-amber-800" />
+              <span className={`text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-md border font-bold inline-flex items-center gap-1 ${
+                showShopee
+                  ? "text-orange-950 bg-orange-100 border-orange-300/80"
+                  : "text-amber-900 bg-amber-100 border-amber-300/80"
+              }`}>
+                <ShoppingBag className={`w-3 h-3 ${showShopee ? "text-orange-700" : "text-amber-800"}`} />
                 {badge}
               </span>
-              <span className="text-xs text-amber-800 font-medium hidden sm:inline">
-                {isEn ? "Tested Physical Accessory" : "Perangkat Fisik Teruji"}
+              <span className={`text-xs font-medium hidden sm:inline ${showShopee ? "text-orange-800" : "text-amber-800"}`}>
+                {showShopee
+                  ? "Rekomendasi Shopee Terpercaya"
+                  : isEn
+                  ? "Tested Physical Accessory"
+                  : "Perangkat Fisik Teruji"}
               </span>
             </div>
             <h4 className="text-sm sm:text-base font-bold text-stone-900 leading-snug">
@@ -242,13 +277,29 @@ export const AmazonInlineCallout: React.FC<AmazonInlineCalloutProps> = ({
 
         <div className="flex items-center gap-2 w-full sm:w-auto shrink-0">
           <a
-            href={product.url}
+            href={targetUrl}
             target="_blank"
             rel="sponsored noopener noreferrer"
-            onClick={() => trackAmazonClick(product.id, name, "inline_callout")}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-xs group"
+            onClick={() => {
+              if (showShopee) {
+                trackShopeeClick(product.id, name, "inline_callout");
+              } else {
+                trackAmazonClick(product.id, name, "inline_callout");
+              }
+            }}
+            className={`w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all shadow-xs group ${
+              showShopee
+                ? "bg-gradient-to-r from-orange-500 to-[#ee4d2d] hover:from-orange-600 hover:to-[#d73211] text-white"
+                : "bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950"
+            }`}
           >
-            <span>{isEn ? "Check Price on Amazon" : "Cek Promo di Amazon"}</span>
+            <span>
+              {showShopee
+                ? "Cek Promo di Shopee"
+                : isEn
+                ? "Check Price on Amazon"
+                : "Cek Promo di Amazon"}
+            </span>
             <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
           </a>
         </div>

@@ -188,6 +188,8 @@ export function generateHardwareItemListSchema(
     itemListElement: products.map((prod, index) => {
       const name = isEn ? prod.nameEn : prod.name;
       const tagline = isEn ? prod.taglineEn : prod.tagline;
+      const isShopee = !isEn && Boolean(prod.shopeeUrl);
+      const productUrl = isShopee ? prod.shopeeUrl! : prod.url;
       return {
         "@type": "ListItem",
         position: index + 1,
@@ -196,10 +198,10 @@ export function generateHardwareItemListSchema(
           name,
           description: tagline,
           image: `${developer.website}${prod.image}`,
-          url: prod.url,
+          url: productUrl,
           brand: {
             "@type": "Brand",
-            name: "Amazon Verified Hardware",
+            name: isShopee ? "Shopee Verified Store" : "Amazon Verified Hardware",
           },
           ...(prod.rating
             ? {
@@ -215,11 +217,11 @@ export function generateHardwareItemListSchema(
           offers: {
             "@type": "Offer",
             availability: "https://schema.org/InStock",
-            priceCurrency: "USD",
-            url: prod.url,
+            priceCurrency: isShopee ? "IDR" : "USD",
+            url: productUrl,
             seller: {
               "@type": "Organization",
-              name: "Amazon",
+              name: isShopee ? "Shopee" : "Amazon",
             },
           },
         },

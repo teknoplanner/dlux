@@ -18,6 +18,15 @@ export function trackAmazonClick(productId: string, productName: string, source:
   });
 }
 
+export function trackShopeeClick(productId: string, productName: string, source: string) {
+  trackEvent("shopee_click", {
+    product_id: productId,
+    product_name: productName,
+    source,
+    page_path: typeof window !== "undefined" ? window.location.pathname : "",
+  });
+}
+
 export function trackPlayStoreClick(appSlug: string, appName: string, source: string) {
   trackEvent("playstore_click", {
     app_slug: appSlug,
