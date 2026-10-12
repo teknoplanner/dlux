@@ -124,12 +124,14 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
-        {/* Google Analytics tag (gtag.js) loaded during browser idle */}
+      </head>
+      <body className="bg-[#fafaf9] text-slate-900 font-sans antialiased min-h-screen flex flex-col selection:bg-slate-900 selection:text-white">
+        {/* Google Analytics tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-G3F8G23FGB"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="lazyOnload">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -138,8 +140,6 @@ export default function RootLayout({
             gtag('config', 'G-G3F8G23FGB');
           `}
         </Script>
-      </head>
-      <body className="bg-[#fafaf9] text-slate-900 font-sans antialiased min-h-screen flex flex-col selection:bg-slate-900 selection:text-white">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
