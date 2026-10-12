@@ -1627,7 +1627,7 @@ function buildDeepArticleItem(topicInfo, slotInfo, dayIndex) {
     affiliateProductIds: slotInfo.affIds,
     publishedDate,
     coverImage: `/images/blog/${slug}.webp`,
-    author: "D Lucky X Pro Gaming Editorial",
+    author: "D Lucky X Editorial",
 
     // Indonesian
     title,

@@ -269,7 +269,7 @@ function buildArticleItem(info, index, totalInGroup, categoryLabel, groupColor, 
     category: "gaming",
     publishedDate,
     coverImage: `/images/blog/${slug}.webp`,
-    author: "D Lucky X Gaming Editorial",
+    author: "D Lucky X Editorial",
 
     // Indonesian
     title,
