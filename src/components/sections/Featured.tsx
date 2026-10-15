@@ -195,6 +195,7 @@ export const Featured: React.FC = () => {
                 <ScreenshotCarousel
                   screenshots={currentApp.screenshots}
                   appName={currentApp.name}
+                  heightClass="h-[260px] sm:h-[320px] md:h-[360px]"
                 />
               </div>
             </div>
