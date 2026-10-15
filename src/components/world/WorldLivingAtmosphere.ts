@@ -23,6 +23,8 @@ export interface Pedestrian {
 export interface CruisingBoat {
   group: THREE.Group;
   type: "sailboat" | "motorboat" | "rowboat";
+  waypoints?: THREE.Vector3[];
+  currentWaypointIdx?: number;
   radiusX: number;
   radiusZ: number;
   centerX: number;
@@ -159,8 +161,9 @@ export class WorldLivingAtmosphere {
     });
 
     // C. Pondok Es Kelapa Muda Pantai (Central Plaza Beach / Sand Shelf)
+    const rikoY = this.getGroundHeight(12.0, -18.0);
     this.createMarketStall({
-      pos: new THREE.Vector3(12.0, 1.40, -18.0),
+      pos: new THREE.Vector3(12.0, rikoY, -18.0),
       rotY: -1.2,
       awningColor1: 0x059669, // Emerald
       awningColor2: 0xfef3c7, // Warm ivory
@@ -173,7 +176,7 @@ export class WorldLivingAtmosphere {
       name: "Riko si Barista Pantai",
       title: "Ahli Minuman Tropis",
       island: "Central Plaza Beach",
-      pos: new THREE.Vector3(12.0, 1.40, -18.0),
+      pos: new THREE.Vector3(12.0, rikoY, -18.0),
       avatar: "🥥",
       dialogue: [
         "Yo Milo! Capek habis keliling kepulauan dan cetak gol di Beach Stadium?",
@@ -191,8 +194,10 @@ export class WorldLivingAtmosphere {
     signText: string;
     stallType: "fruit" | "potion" | "coconut";
   }) {
+    const groundY = this.getGroundHeight(cfg.pos.x, cfg.pos.z);
+    const actualY = Math.max(cfg.pos.y, groundY);
     const stallGroup = new THREE.Group();
-    stallGroup.position.copy(cfg.pos);
+    stallGroup.position.set(cfg.pos.x, actualY, cfg.pos.z);
     stallGroup.rotation.y = cfg.rotY;
 
     // 1. Wooden Counter Table
@@ -427,8 +432,9 @@ export class WorldLivingAtmosphere {
     });
 
     // Spot 2: Coastal Rock Fisherman Joko at Battle Royale Outpost Bluffs
+    const jokoY = this.getGroundHeight(56.0, -63.0);
     this.createRockFisherman({
-      pos: new THREE.Vector3(56.0, 1.40, -63.0),
+      pos: new THREE.Vector3(56.0, jokoY, -63.0),
       rotY: 0.8,
       name: "Joko",
     });
@@ -438,7 +444,7 @@ export class WorldLivingAtmosphere {
       name: "Joko si Pemancing Karang",
       title: "Nelayan Pesisir Outpost",
       island: "Battle Royale Outpost",
-      pos: new THREE.Vector3(56.0, 1.40, -63.0),
+      pos: new THREE.Vector3(56.0, jokoY, -63.0),
       avatar: "🐟",
       dialogue: [
         "Halo Milo! Di tebing karang Outpost ini airnya dalam dan ikannya gesit-gesit!",
@@ -574,8 +580,10 @@ export class WorldLivingAtmosphere {
   }
 
   private createRockFisherman(cfg: { pos: THREE.Vector3; rotY: number; name: string }) {
+    const groundY = this.getGroundHeight(cfg.pos.x, cfg.pos.z);
+    const actualY = Math.max(cfg.pos.y, groundY);
     const group = new THREE.Group();
-    group.position.copy(cfg.pos);
+    group.position.set(cfg.pos.x, actualY, cfg.pos.z);
     group.rotation.y = cfg.rotY;
 
     // Standing Fisherman
@@ -614,46 +622,79 @@ export class WorldLivingAtmosphere {
   }
 
   // ===========================================================================
-  // 3. BOATS (ADA PERAHU JUGA DI LAUT)
+  // 3. BOATS (ADA PERAHU JUGA DI LAUT - RUTE BEBAS TABRAKAN PULAU)
   // ===========================================================================
   private spawnBoats() {
     // A. Perahu Layar Utama "Dewi Samudra" (The Grand Sloop)
+    // Berlayar di Samudra Luas mengelilingi kepulauan (clearance aman 35m+ dari daratan & jembatan)
     this.createSailboat({
-      centerX: 5,
-      centerZ: -5,
-      radiusX: 95,
-      radiusZ: 85,
-      speed: 0.11,
+      waypoints: [
+        new THREE.Vector3(0, 0.18, -145),     // Teluk Utara Lepas (antara Kuil MOBA & Outpost)
+        new THREE.Vector3(125, 0.18, -115),   // Tebing Timur Laut (jauh di luar mercusuar BR)
+        new THREE.Vector3(145, 0.18, 0),      // Selat Samudra Timur
+        new THREE.Vector3(120, 0.18, 120),    // Laut Tenggara (jauh di luar Stadion Sepak Bola)
+        new THREE.Vector3(0, 0.18, 145),      // Samudra Selatan Lepas
+        new THREE.Vector3(-120, 0.18, 120),   // Laut Barat Daya (jauh di luar Voxel Bay)
+        new THREE.Vector3(-145, 0.18, 0),     // Selat Samudra Barat
+        new THREE.Vector3(-125, 0.18, -115),  // Laut Barat Laut (jauh di luar Kuil MOBA)
+      ],
+      speed: 6.2,
       phase: 0,
       sailColor1: 0x06b6d4, // Vibrant cyan
       sailColor2: 0xf97316, // Vibrant orange
     });
 
     // B. Perahu Motor Nelayan (Fishing Motorboat)
+    // Berpatroli di Teluk Utara di depan Dermaga Pancing Pak Mamat (100% air dalam, bebas pulau)
     this.createMotorboat({
-      centerX: -5,
-      centerZ: 35,
-      radiusX: 75,
-      radiusZ: 55,
-      speed: 0.15,
-      phase: Math.PI,
+      waypoints: [
+        new THREE.Vector3(28, 0.18, -50),
+        new THREE.Vector3(0, 0.18, -52),
+        new THREE.Vector3(-28, 0.18, -50),
+        new THREE.Vector3(-32, 0.18, -78),
+        new THREE.Vector3(0, 0.18, -96),
+        new THREE.Vector3(32, 0.18, -78),
+      ],
+      speed: 6.0,
+      phase: 0,
+      hullColor: 0x0284c7,
     });
 
-    // C. Perahu Dayung Bersandar di Dermaga (Moored Rowboat)
+    // C. Perahu Katamaran Turis (South Bay Lagoon Cruiser)
+    // Berpatroli di Laguna Selatan antara Central Plaza, Voxel Bay & Stadion (100% air dalam)
+    this.createMotorboat({
+      waypoints: [
+        new THREE.Vector3(-24, 0.18, 52),
+        new THREE.Vector3(0, 0.18, 55),
+        new THREE.Vector3(24, 0.18, 52),
+        new THREE.Vector3(28, 0.18, 78),
+        new THREE.Vector3(0, 0.18, 92),
+        new THREE.Vector3(-28, 0.18, 78),
+      ],
+      speed: 5.4,
+      phase: Math.PI,
+      hullColor: 0x059669,
+    });
+
+    // D. Perahu Dayung Bersandar di Dermaga (Moored Rowboat)
     this.createMooredRowboat(new THREE.Vector3(2.6, 0.15, -28.0));
   }
 
   private createSailboat(cfg: {
-    centerX: number;
-    centerZ: number;
-    radiusX: number;
-    radiusZ: number;
+    waypoints?: THREE.Vector3[];
+    centerX?: number;
+    centerZ?: number;
+    radiusX?: number;
+    radiusZ?: number;
     speed: number;
     phase: number;
     sailColor1: number;
     sailColor2: number;
   }) {
     const boat = new THREE.Group();
+    if (cfg.waypoints && cfg.waypoints.length > 0) {
+      boat.position.copy(cfg.waypoints[0]);
+    }
 
     // 1. Sleek Wooden Hull with pointed bow and flat transom stern
     const hullMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.7 });
@@ -760,29 +801,40 @@ export class WorldLivingAtmosphere {
     this.boats.push({
       group: boat,
       type: "sailboat",
-      radiusX: cfg.radiusX,
-      radiusZ: cfg.radiusZ,
-      centerX: cfg.centerX,
-      centerZ: cfg.centerZ,
+      waypoints: cfg.waypoints,
+      currentWaypointIdx: 0,
+      radiusX: cfg.radiusX ?? 0,
+      radiusZ: cfg.radiusZ ?? 0,
+      centerX: cfg.centerX ?? 0,
+      centerZ: cfg.centerZ ?? 0,
       speed: cfg.speed,
       phase: cfg.phase,
     });
   }
 
   private createMotorboat(cfg: {
-    centerX: number;
-    centerZ: number;
-    radiusX: number;
-    radiusZ: number;
+    waypoints?: THREE.Vector3[];
+    centerX?: number;
+    centerZ?: number;
+    radiusX?: number;
+    radiusZ?: number;
     speed: number;
     phase: number;
+    hullColor?: number;
   }) {
     const boat = new THREE.Group();
+    if (cfg.waypoints && cfg.waypoints.length > 0) {
+      boat.position.copy(cfg.waypoints[0]);
+    }
 
     // Wooden hull
+    const hullMat = new THREE.MeshStandardMaterial({
+      color: cfg.hullColor ?? 0x0284c7,
+      roughness: 0.6,
+    });
     const hull = new THREE.Mesh(
       new THREE.BoxGeometry(2.0, 0.7, 4.6),
-      new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.6 })
+      hullMat
     );
     hull.position.y = 0.35;
     boat.add(hull);
@@ -827,10 +879,12 @@ export class WorldLivingAtmosphere {
     this.boats.push({
       group: boat,
       type: "motorboat",
-      radiusX: cfg.radiusX,
-      radiusZ: cfg.radiusZ,
-      centerX: cfg.centerX,
-      centerZ: cfg.centerZ,
+      waypoints: cfg.waypoints,
+      currentWaypointIdx: 0,
+      radiusX: cfg.radiusX ?? 0,
+      radiusZ: cfg.radiusZ ?? 0,
+      centerX: cfg.centerX ?? 0,
+      centerZ: cfg.centerZ ?? 0,
       speed: cfg.speed,
       phase: cfg.phase,
     });
@@ -1215,7 +1269,39 @@ export class WorldLivingAtmosphere {
         return;
       }
 
-      // Cruising trajectory
+      // 1. Waypoint Navigation (Guaranteed Collision-Free Open Sea Routes)
+      if (boat.waypoints && boat.waypoints.length > 0) {
+        const wpIdx = boat.currentWaypointIdx ?? 0;
+        const target = boat.waypoints[wpIdx];
+        const curPos = boat.group.position;
+
+        const dirX = target.x - curPos.x;
+        const dirZ = target.z - curPos.z;
+        const dist = Math.hypot(dirX, dirZ);
+
+        if (dist < 5.0) {
+          boat.currentWaypointIdx = (wpIdx + 1) % boat.waypoints.length;
+        } else {
+          const moveStep = boat.speed * delta;
+          curPos.x += (dirX / dist) * moveStep;
+          curPos.z += (dirZ / dist) * moveStep;
+
+          // Smooth nautical yaw turning without snapping
+          const targetYaw = Math.atan2(dirX, dirZ);
+          let angleDiff = targetYaw - boat.group.rotation.y;
+          while (angleDiff > Math.PI) angleDiff -= Math.PI * 2;
+          while (angleDiff < -Math.PI) angleDiff += Math.PI * 2;
+          boat.group.rotation.y += angleDiff * Math.min(1, 2.5 * delta);
+        }
+
+        // Realistic ocean swell & gentle wave roll
+        curPos.y = 0.18 + Math.sin(time * 2.4 + boat.phase) * 0.08;
+        boat.group.rotation.z = Math.sin(time * 2.0 + boat.phase) * 0.035;
+        boat.group.rotation.x = Math.cos(time * 1.6 + boat.phase) * 0.02;
+        return;
+      }
+
+      // 2. Fallback Elliptical trajectory
       const t = time * boat.speed + boat.phase;
       const x = boat.centerX + Math.cos(t) * boat.radiusX;
       const z = boat.centerZ + Math.sin(t) * boat.radiusZ;
@@ -1227,8 +1313,8 @@ export class WorldLivingAtmosphere {
 
       boat.group.position.set(x, 0.18 + Math.sin(time * 2.5 + boat.phase) * 0.10, z);
       boat.group.rotation.y = heading;
-      boat.group.rotation.z = Math.sin(time * 2.2) * 0.04; // Natural roll
-      boat.group.rotation.x = Math.cos(time * 1.8) * 0.02; // Pitch
+      boat.group.rotation.z = Math.sin(time * 2.2) * 0.04;
+      boat.group.rotation.x = Math.cos(time * 1.8) * 0.02;
     });
   }
 

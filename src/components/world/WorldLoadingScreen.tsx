@@ -1,30 +1,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Sparkles, Compass, ThumbsUp, Star, CheckCircle, ArrowRight, ShieldCheck, Gamepad2 } from "lucide-react";
+import { Sparkles, Compass, ArrowRight, Gamepad2, Shield, Radio, Trophy, Zap, Anchor } from "lucide-react";
 import { WorldLang, detectUserLanguage, WORLD_STRINGS } from "./worldI18n";
 
 interface WorldLoadingScreenProps {
   onFinishLoading: () => void;
   lang?: WorldLang;
 }
-
-const ROBLOX_STYLE_TIPS = [
-  "Sprint across stone bridges by holding [SHIFT] on keyboard or tapping [SPRINT] on mobile!",
-  "Kick the giant soccer ball at Beach Stadium into the net to score a spectacular GOAL!",
-  "Walk straight into the ocean—Milo will automatically swim smoothly across the reefs!",
-  "Press [M] anytime to open your Map & Fast Travel to any discovered island instantly!",
-  "Meet island villagers like Mang Ujang at the fruit stall and Pak Mamat at the fishing dock!",
-  "Find all 30 hidden Gold Tokens scattered across the archipelago to become the Champion!",
-];
-
-const LOADING_STATUSES = [
-  "Connecting to D Lucky World Server...",
-  "Loading 3D Terrain, Beaches & Palms...",
-  "Spawning Island Residents & Market Stalls...",
-  "Preparing Ocean Currents & Wildlife...",
-  "Experience Ready! Launching Adventure...",
-];
 
 export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinishLoading, lang: propLang }) => {
   const [lang] = useState<WorldLang>(() => propLang || detectUserLanguage());
@@ -36,17 +19,30 @@ export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinish
   const onFinishRef = React.useRef(onFinishLoading);
   onFinishRef.current = onFinishLoading;
 
+  // Keyboard shortcut (Enter or Space) to skip loading when ready
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.code === "Enter" || e.code === "Space") {
+        e.preventDefault();
+        setProgress(100);
+        onFinishRef.current?.();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
   useEffect(() => {
     let completed = false;
     const startTime = Date.now();
-    const duration = 1400; // Smooth 1.4s load
+    const duration = 1600; // Smooth 1.6s cinematic loading
 
     const interval = setInterval(() => {
       if (completed) return;
       const elapsed = Date.now() - startTime;
       const rawPct = Math.min(100, Math.floor((elapsed / duration) * 100));
 
-      // Ease-out curve
+      // Ease-out cinematic curve
       const easedPct = Math.min(
         100,
         Math.floor(100 * Math.sin((rawPct / 100) * (Math.PI / 2)))
@@ -65,7 +61,7 @@ export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinish
         clearInterval(interval);
         setTimeout(() => {
           onFinishRef.current?.();
-        }, 150);
+        }, 180);
       }
     }, 25);
 
@@ -75,11 +71,11 @@ export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinish
     };
   }, [t]);
 
-  // Cycle tips every 2.6s
+  // Cycle tips periodically
   useEffect(() => {
     const tipInterval = setInterval(() => {
       setTipIdx((prev) => (prev + 1) % t.loading.tips.length);
-    }, 2600);
+    }, 2800);
     return () => clearInterval(tipInterval);
   }, [t]);
 
@@ -89,123 +85,174 @@ export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinish
   };
 
   return (
-    <div className="absolute inset-0 z-50 bg-[#0d1117] flex flex-col justify-between p-4 sm:p-8 text-white select-none overflow-hidden animate-in fade-out duration-300">
-      {/* Background Graphic with Stylized Sunbeam & Mesh Pattern */}
+    <div className="absolute inset-0 z-50 bg-[#030914] flex flex-col justify-between p-4 sm:p-8 text-white select-none overflow-hidden animate-in fade-out duration-300">
+      {/* 1. Cinematic Background: Oceanic Nebula, Sunburst Rays & Nautical Grids */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-emerald-500/15 rounded-full blur-[140px]" />
-        <div className="absolute -bottom-40 right-1/4 w-[600px] h-[400px] bg-cyan-500/10 rounded-full blur-[140px]" />
-        <div className="absolute inset-0 bg-[radial-gradient(#1e293b_1px,transparent_1px)] [background-size:24px_24px] opacity-40" />
+        {/* Core Glowing Sun Flare & Ocean Atmosphere */}
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] bg-gradient-to-b from-teal-500/20 via-cyan-600/10 to-transparent rounded-full blur-[130px]" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1100px] h-[350px] bg-gradient-to-t from-emerald-600/15 via-teal-900/10 to-transparent rounded-full blur-[140px]" />
+
+        {/* Nautical Cartographic Rings & Compass Rays */}
+        <svg
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[720px] opacity-15 stroke-teal-400"
+          viewBox="0 0 100 100"
+          fill="none"
+        >
+          <circle cx="50" cy="50" r="48" strokeWidth="0.3" strokeDasharray="2,2" />
+          <circle cx="50" cy="50" r="38" strokeWidth="0.5" />
+          <circle cx="50" cy="50" r="28" strokeWidth="0.2" strokeDasharray="1,3" />
+          <line x1="50" y1="2" x2="50" y2="98" strokeWidth="0.3" />
+          <line x1="2" y1="50" x2="98" y2="50" strokeWidth="0.3" />
+          <polygon points="50,6 52,14 48,14" fill="#2dd4bf" />
+        </svg>
+
+        {/* Ambient Subtle Tech Grid */}
+        <div className="absolute inset-0 bg-[radial-gradient(#0e7490_1px,transparent_1px)] [background-size:32px_32px] opacity-25" />
+
+        {/* Vignette Edge Shading */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_40%,#020611_95%)]" />
       </div>
 
-      {/* Top Header Bar (Roblox Experience Style) */}
-      <div className="relative z-10 w-full flex items-center justify-between">
-        <div className="flex items-center gap-2.5">
-          {/* Roblox-style App Icon / Square Emblem */}
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-500 to-teal-400 p-0.5 shadow-md flex items-center justify-center">
-            <div className="w-full h-full bg-[#161b22] rounded-[10px] flex items-center justify-center">
-              <Gamepad2 className="w-5 h-5 text-emerald-400" />
+      {/* 2. Top Header Bar: Studio Crest & Skip Action */}
+      <header className="relative z-10 w-full flex items-center justify-between">
+        {/* Studio Crest */}
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-amber-400 via-teal-500 to-cyan-500 p-0.5 shadow-[0_0_20px_rgba(45,212,191,0.35)]">
+            <div className="w-full h-full bg-[#071322] rounded-[14px] flex items-center justify-center">
+              <Gamepad2 className="w-5 h-5 text-teal-400" />
             </div>
           </div>
           <div>
-            <div className="flex items-center gap-1.5">
-              <span className="font-extrabold text-sm sm:text-base text-white tracking-tight">
-                D Lucky World 3D
+            <div className="flex items-center gap-2">
+              <span className="font-black text-xs sm:text-sm text-white tracking-widest font-display uppercase">
+                DLUCKYX STUDIOS
               </span>
-              <span className="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-[10px] font-bold">
-                {t.common.experience}
+              <span className="px-1.5 py-0.2 rounded-full bg-teal-500/20 text-teal-300 border border-teal-400/30 text-[9px] font-mono font-bold">
+                PROD
               </span>
             </div>
-            <p className="text-xs text-slate-400 font-medium">{t.common.byStudio}</p>
+            <p className="text-[10px] text-slate-400 font-mono tracking-wider">
+              GLOBAL EXPEDITION ENGINE • 60 FPS
+            </p>
           </div>
         </div>
 
-        {/* Skip button */}
+        {/* Skip button with enter hint */}
         <button
           type="button"
           onClick={handleSkip}
-          className="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-900 border border-slate-700 text-xs font-bold text-slate-200 hover:text-white transition-all flex items-center gap-1.5 shadow-sm cursor-pointer"
+          className="group px-4 py-2 rounded-xl bg-slate-900/90 hover:bg-teal-950/80 active:bg-slate-950 border border-teal-500/30 hover:border-teal-400/70 text-xs font-bold text-slate-200 hover:text-white transition-all flex items-center gap-2 shadow-[0_4px_16px_rgba(0,0,0,0.5)] cursor-pointer"
         >
-          <span>{t.common.skip}</span>
-          <ArrowRight className="w-3.5 h-3.5 text-emerald-400" />
+          <span className="font-mono text-[11px] tracking-wider uppercase">{t.common.skip}</span>
+          <span className="hidden sm:inline-block px-1.5 py-0.5 rounded bg-slate-800 text-[9px] font-mono text-slate-300 border border-white/10 group-hover:border-teal-400/40">
+            ENTER ↵
+          </span>
+          <ArrowRight className="w-3.5 h-3.5 text-teal-400 group-hover:translate-x-0.5 transition-transform" />
         </button>
-      </div>
+      </header>
 
-      {/* Centerpiece: Roblox Style Experience Cover Card */}
-      <div className="relative z-10 w-full max-w-lg mx-auto my-auto bg-[#161b22]/95 border-2 border-slate-700/80 rounded-3xl p-5 sm:p-7 shadow-[0_20px_50px_rgba(0,0,0,0.8)] backdrop-blur-md space-y-5">
-        {/* Experience Thumbnail Banner */}
-        <div className="relative w-full h-36 sm:h-44 rounded-2xl overflow-hidden bg-gradient-to-tr from-emerald-900 via-teal-800 to-sky-900 border border-white/10 shadow-inner flex flex-col justify-end p-4">
-          {/* Decorative Sun & Islands Silhouette */}
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-teal-400/20 via-transparent to-black/60" />
+      {/* 3. Center Hero Stage: Grand Game Title & Animated Mascot Spotlight */}
+      <main className="relative z-10 w-full max-w-xl mx-auto my-auto flex flex-col items-center text-center space-y-6">
+        {/* Hero Character Emblem Stage */}
+        <div className="relative flex items-center justify-center">
+          {/* Pulsating Glowing Celestial Rings */}
+          <div className="absolute w-44 h-44 rounded-full bg-gradient-to-tr from-teal-500/30 via-amber-400/20 to-cyan-400/20 blur-xl animate-pulse" />
+          <div className="absolute w-36 h-36 rounded-full border border-teal-400/30 animate-[spin_12s_linear_infinite]" />
+          <div className="absolute w-40 h-40 rounded-full border border-dashed border-amber-400/30 animate-[spin_20s_linear_infinite_reverse]" />
 
-          {/* Tropical Island Badge */}
-          <div className="relative z-10 flex items-center justify-between">
-            <div className="space-y-0.5">
-              <span className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-500 text-slate-950 font-black text-[10px] tracking-wide uppercase shadow">
-                ★ OFFICIAL 3D EXPEDITION
-              </span>
-              <h2 className="text-2xl sm:text-3xl font-black text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] tracking-tight">
-                D LUCKY WORLD <span className="text-amber-400">3D</span>
-              </h2>
+          {/* Floating Gold Coin Orbits */}
+          <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-gradient-to-tr from-amber-500 to-yellow-300 border-2 border-yellow-100 shadow-[0_0_15px_#f59e0b] flex items-center justify-center text-xs animate-bounce">
+            🪙
+          </div>
+          <div className="absolute -bottom-2 -left-2 w-7 h-7 rounded-full bg-gradient-to-tr from-teal-400 to-cyan-300 border border-white/60 shadow-[0_0_12px_#2dd4bf] flex items-center justify-center text-xs">
+            ✨
+          </div>
+
+          {/* Milo Astronaut Hero Avatar Card */}
+          <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-3xl bg-gradient-to-b from-[#0b253e] via-[#071727] to-[#040e19] border-2 border-teal-400/60 shadow-[0_15px_40px_rgba(0,0,0,0.8),inset_0_0_20px_rgba(45,212,191,0.25)] flex items-center justify-center">
+            <span className="text-5xl sm:text-6xl select-none filter drop-shadow-[0_8px_16px_rgba(0,0,0,0.6)]">
+              🐱
+            </span>
+            {/* Astronaut Helmet Visor Highlight Sheen */}
+            <div className="absolute inset-1.5 rounded-[22px] border border-cyan-400/40 pointer-events-none bg-gradient-to-tr from-transparent via-cyan-400/10 to-white/20" />
+            <div className="absolute bottom-2 px-2.5 py-0.5 rounded-full bg-slate-950/80 border border-teal-400/50 text-[9px] font-mono font-bold text-teal-300">
+              MILO • HERO
             </div>
           </div>
         </div>
 
-        {/* Experience Creator & Metadata Pills (Roblox Style) */}
-        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-3">
-          <div className="flex items-center gap-2">
-            <span className="font-bold text-xs sm:text-sm text-slate-200">DLUCKYX GAMES</span>
-            <CheckCircle className="w-4 h-4 text-sky-400 fill-sky-400/20" />
+        {/* Grand Title Logo Typography */}
+        <div className="space-y-2">
+          {/* Top Tagline Pill */}
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-teal-500/20 via-amber-400/15 to-teal-500/20 border border-teal-400/40 shadow-sm">
+            <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-spin" style={{ animationDuration: "6s" }} />
+            <span className="text-[10px] sm:text-xs font-black font-mono tracking-widest text-teal-200 uppercase">
+              COASTAL ARCHIPELAGO EXPEDITION
+            </span>
+            <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-spin" style={{ animationDuration: "6s" }} />
           </div>
 
-          <div className="flex items-center gap-2 text-xs font-bold">
-            <div className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-800/80 text-emerald-400 border border-slate-700">
-              <ThumbsUp className="w-3.5 h-3.5" />
-              <span>98%</span>
-            </div>
-            <div className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-800/80 text-amber-400 border border-slate-700">
-              <Star className="w-3.5 h-3.5 fill-current" />
-              <span>4.9</span>
-            </div>
-            <div className="px-2.5 py-1 rounded-lg bg-slate-800/80 text-cyan-300 border border-slate-700">
-              3D Adventure
-            </div>
-          </div>
+          {/* Grand Emblazoned 3D Title */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white font-display drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] flex items-center justify-center gap-3">
+            <span>D LUCKY WORLD</span>
+            <span className="px-2.5 py-0.5 rounded-xl bg-gradient-to-tr from-amber-400 via-yellow-300 to-amber-500 text-slate-950 text-2xl sm:text-3xl font-black shadow-[0_0_24px_rgba(245,158,11,0.6)] border-t border-white/60">
+              3D
+            </span>
+          </h1>
+
+          {/* Subtitle / Island Description */}
+          <p className="text-xs sm:text-sm text-slate-300 font-medium max-w-md mx-auto leading-relaxed drop-shadow-sm">
+            {lang === "id"
+              ? "Jelajahi pulau tropis, arungi lautan biru, temui warga kepulauan, dan kumpulkan 30 Koin Emas!"
+              : "Explore tropical islands, cruise across azure oceans, meet island villagers, and collect all 30 Gold Tokens!"}
+          </p>
         </div>
+      </main>
 
-        {/* Loading Progress Section (Roblox Chunky Bar) */}
-        <div className="space-y-2.5">
-          <div className="flex items-center justify-between text-xs sm:text-sm">
-            <span className="font-bold text-slate-300 flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
+      {/* 4. Bottom Game Loading Console: Progress Bar, Status & Rotating Gameplay Tips */}
+      <footer className="relative z-10 w-full max-w-xl mx-auto space-y-3.5">
+        {/* Status Line: Current Loading Task & Percentage */}
+        <div className="flex items-center justify-between text-xs sm:text-sm font-mono">
+          <div className="flex items-center gap-2.5 text-teal-300 font-bold">
+            <span className="relative flex h-2.5 w-2.5">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75" />
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-teal-500" />
+            </span>
+            <span className="tracking-wide text-[11px] sm:text-xs truncate max-w-[280px] sm:max-w-none">
               {statusText}
             </span>
-            <span className="font-black text-emerald-400 bg-slate-900 px-2 py-0.5 rounded-lg border border-emerald-500/30">
-              {progress}%
-            </span>
           </div>
 
-          {/* Chunky Roblox-Style Progress Bar */}
-          <div className="w-full h-4 sm:h-5 bg-slate-900 rounded-full border-2 border-slate-700 p-0.5 overflow-hidden shadow-inner">
-            <div
-              className="h-full bg-gradient-to-r from-emerald-500 via-teal-400 to-green-400 rounded-full transition-all duration-75 relative shadow-[0_0_12px_rgba(16,185,129,0.5)]"
-              style={{ width: `${progress}%` }}
-            >
-              {/* Highlight Glow Edge */}
-              <div className="absolute right-0 top-0 bottom-0 w-3 bg-white/80 rounded-full blur-[0.5px]" />
-            </div>
+          <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-lg bg-[#071322] border border-teal-500/40 text-teal-300 font-black text-xs sm:text-sm shadow-inner">
+            <span>{progress}%</span>
           </div>
         </div>
-      </div>
 
-      {/* Bottom Roblox Tip Banner */}
-      <div className="relative z-10 w-full max-w-lg mx-auto bg-[#161b22]/90 border border-slate-800 rounded-2xl p-3 sm:p-3.5 flex items-center gap-3 shadow-md">
-        <div className="w-7 h-7 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
-          <Sparkles className="w-4 h-4" />
+        {/* Sleek AAA Game Loading Bar */}
+        <div className="relative w-full h-4 sm:h-5 bg-[#050f1a] rounded-full border-2 border-teal-500/40 p-0.5 overflow-hidden shadow-[inset_0_2px_8px_rgba(0,0,0,0.8),0_0_20px_rgba(45,212,191,0.2)]">
+          {/* Animated Glow Track */}
+          <div
+            className="h-full bg-gradient-to-r from-teal-500 via-emerald-400 to-cyan-300 rounded-full transition-all duration-75 relative shadow-[0_0_16px_rgba(45,212,191,0.7)]"
+            style={{ width: `${progress}%` }}
+          >
+            {/* Pulsating Leading-Edge Spark */}
+            <div className="absolute right-0 top-0 bottom-0 w-3 bg-white rounded-full shadow-[0_0_10px_#ffffff] blur-[0.5px]" />
+          </div>
         </div>
-        <p className="text-xs text-slate-300 font-medium leading-snug line-clamp-2">
-          <strong className="text-white">Tip:</strong> {t.loading.tips[tipIdx]}
-        </p>
-      </div>
+
+        {/* Pro Rotating Gameplay Tip Card */}
+        <div className="bg-[#071322]/90 backdrop-blur-md border border-teal-500/25 rounded-2xl px-4 py-2.5 flex items-center gap-3 shadow-[0_8px_24px_rgba(0,0,0,0.6)]">
+          <div className="w-7 h-7 rounded-xl bg-amber-400/15 border border-amber-400/30 text-amber-300 flex items-center justify-center shrink-0">
+            <Compass className="w-4 h-4" />
+          </div>
+          <p className="text-[11px] sm:text-xs text-slate-300 leading-snug font-sans">
+            <strong className="text-amber-300 font-semibold uppercase tracking-wider font-mono mr-1">
+              [TIP]:
+            </strong>
+            {t.loading.tips[tipIdx]}
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };
