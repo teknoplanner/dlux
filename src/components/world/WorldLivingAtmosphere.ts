@@ -1,18 +1,20 @@
 "use client";
 
 import * as THREE from "three";
+import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader.js";
 import { NPCData, SolidCollider } from "./WorldEngine";
+import { WorldCharacterManager } from "./WorldCharacterManager";
 
 // =============================================================================
 // TYPES & DATA STRUCTURES
 // =============================================================================
 export interface Pedestrian {
   group: THREE.Group;
-  legL: THREE.Mesh;
-  legR: THREE.Mesh;
-  armL: THREE.Mesh;
-  armR: THREE.Mesh;
-  head: THREE.Group;
+  legL?: THREE.Mesh;
+  legR?: THREE.Mesh;
+  armL?: THREE.Mesh;
+  armR?: THREE.Mesh;
+  head?: THREE.Group;
   waypoints: THREE.Vector3[];
   currentWaypointIdx: number;
   speed: number;
@@ -22,8 +24,14 @@ export interface Pedestrian {
 
 export interface CruisingBoat {
   group: THREE.Group;
+  hullGroup?: THREE.Group;
   type: "sailboat" | "motorboat" | "rowboat";
   waypoints?: THREE.Vector3[];
+  spline?: THREE.CatmullRomCurve3;
+  splineLength?: number;
+  splineProgress?: number;
+  currentYaw?: number;
+  turnBank?: number;
   currentWaypointIdx?: number;
   radiusX: number;
   radiusZ: number;
@@ -72,6 +80,7 @@ export class WorldLivingAtmosphere {
   private colliders: SolidCollider[];
   private registerNPC: (npc: NPCData) => void;
   private getGroundHeight: (x: number, z: number) => number;
+  private characterManager: WorldCharacterManager | null = null;
 
   // Living World entities
   public pedestrians: Pedestrian[] = [];
@@ -87,19 +96,38 @@ export class WorldLivingAtmosphere {
   private skinMat = new THREE.MeshStandardMaterial({ color: 0xfed7aa, roughness: 0.7 });
   private goldMat = new THREE.MeshStandardMaterial({ color: 0xfacc15, roughness: 0.3, metalness: 0.7 });
 
+  // 3D Model Assets Loader (from folder assets/3d/boat)
+  private fbxLoader = new FBXLoader();
+  private boatPrototype: THREE.Group | null = null;
+  private rodPrototype: THREE.Group | null = null;
+  private pendingBoatClones: Array<{
+    group: THREE.Group;
+    scale: number;
+    hullColor?: number;
+    cabinColor?: number;
+    rotYOffset?: number;
+  }> = [];
+  private pendingRodClones: Array<{
+    group: THREE.Group;
+    scale: number;
+  }> = [];
+
   constructor(
     scene: THREE.Scene,
     colliders: SolidCollider[],
     registerNPC: (npc: NPCData) => void,
-    getGroundHeight: (x: number, z: number) => number
+    getGroundHeight: (x: number, z: number) => number,
+    characterManager: WorldCharacterManager | null = null
   ) {
     this.scene = scene;
     this.colliders = colliders;
     this.registerNPC = registerNPC;
     this.getGroundHeight = getGroundHeight;
+    this.characterManager = characterManager;
   }
 
   public init() {
+    this.load3DAssets();
     this.spawnMarketStallsAndVendors();
     this.spawnFishermen();
     this.spawnBoats();
@@ -108,14 +136,130 @@ export class WorldLivingAtmosphere {
     this.spawnDolphins();
   }
 
+  private load3DAssets() {
+    this.fbxLoader.load(
+      "/assets/3d/boat/Fisher_Boat.fbx",
+      (fbx) => {
+        this.boatPrototype = fbx;
+        // Process any queued boat attachments
+        this.pendingBoatClones.forEach((req) => {
+          this.attachBoatMesh(req.group, req.scale, req.hullColor, req.cabinColor, req.rotYOffset);
+        });
+        this.pendingBoatClones = [];
+      },
+      undefined,
+      (err) => {
+        console.warn("Could not load /assets/3d/boat/Fisher_Boat.fbx", err);
+      }
+    );
+
+    this.fbxLoader.load(
+      "/assets/3d/boat/Fishing_Rod.fbx",
+      (fbx) => {
+        this.rodPrototype = fbx;
+        // Process any queued rod attachments
+        this.pendingRodClones.forEach((req) => {
+          this.attachRodMesh(req.group, req.scale);
+        });
+        this.pendingRodClones = [];
+      },
+      undefined,
+      (err) => {
+        console.warn("Could not load /assets/3d/boat/Fishing_Rod.fbx", err);
+      }
+    );
+  }
+
+  private attachBoatMesh(
+    targetGroup: THREE.Group,
+    scale: number = 0.013,
+    hullColor?: number,
+    cabinColor?: number,
+    rotYOffset: number = -Math.PI / 2
+  ) {
+    if (!this.boatPrototype) return;
+    const model = this.boatPrototype.clone(true);
+    // FBX length is along X (+X bow). Rotate -Math.PI / 2 around Y so bow points along +Z sailing direction!
+    model.rotation.y = rotYOffset;
+    model.scale.set(scale, scale, scale);
+    model.position.set(0, 0.04, 0);
+
+    model.traverse((child) => {
+      if ((child as THREE.Mesh).isMesh) {
+        const mesh = child as THREE.Mesh;
+        mesh.castShadow = true;
+        mesh.receiveShadow = true;
+        if (hullColor) {
+          mesh.material = new THREE.MeshStandardMaterial({
+            color: hullColor,
+            roughness: 0.55,
+            metalness: 0.15,
+          });
+        }
+      }
+    });
+
+    targetGroup.add(model);
+  }
+
+  private queueOrAttachBoat(
+    targetGroup: THREE.Group,
+    scale: number = 0.013,
+    hullColor?: number,
+    cabinColor?: number,
+    rotYOffset: number = -Math.PI / 2
+  ) {
+    if (this.boatPrototype) {
+      this.attachBoatMesh(targetGroup, scale, hullColor, cabinColor, rotYOffset);
+    } else {
+      this.pendingBoatClones.push({
+        group: targetGroup,
+        scale,
+        hullColor,
+        cabinColor,
+        rotYOffset,
+      });
+    }
+  }
+
+  private attachRodMesh(targetGroup: THREE.Group, scale: number = 0.012) {
+    if (!this.rodPrototype) return;
+    const model = this.rodPrototype.clone(true);
+    model.scale.set(scale, scale, scale);
+    model.rotation.set(Math.PI / 4.8, 0, 0);
+    model.position.set(0, 0, 0);
+
+    model.traverse((child) => {
+      if ((child as THREE.Mesh).isMesh) {
+        const mesh = child as THREE.Mesh;
+        mesh.castShadow = true;
+        mesh.material = new THREE.MeshStandardMaterial({
+          color: 0x92400e,
+          roughness: 0.45,
+          metalness: 0.25,
+        });
+      }
+    });
+
+    targetGroup.add(model);
+  }
+
+  private queueOrAttachRod(targetGroup: THREE.Group, scale: number = 0.012) {
+    if (this.rodPrototype) {
+      this.attachRodMesh(targetGroup, scale);
+    } else {
+      this.pendingRodClones.push({ group: targetGroup, scale });
+    }
+  }
+
   // ===========================================================================
   // 1. MARKET STALLS & VENDORS (ADA YANG BERDAGANG)
   // ===========================================================================
   private spawnMarketStallsAndVendors() {
-    // A. Toko Buah Tropis Mang Ujang (Central Plaza)
+    // A. Toko Buah Tropis Mang Ujang (Central Plaza - West lawn arcade, facing inward toward plaza center)
     this.createMarketStall({
-      pos: new THREE.Vector3(-9.5, 4.80, 11.5),
-      rotY: 0.35,
+      pos: new THREE.Vector3(-8.0, 4.80, 2.5),
+      rotY: Math.atan2(8.0, -2.5), // Faces inward toward center (0, 0)
       awningColor1: 0xef4444, // Red
       awningColor2: 0xfef08a, // Cream yellow
       signText: "🍎 BUAH SEGAR",
@@ -127,7 +271,7 @@ export class WorldLivingAtmosphere {
       name: "Mang Ujang",
       title: "Pedagang Buah Tropis",
       island: "Central Plaza",
-      pos: new THREE.Vector3(-9.5, 4.80, 11.5),
+      pos: new THREE.Vector3(-8.0, 4.80, 2.5),
       avatar: "🍉",
       dialogue: [
         "Halo Milo! Wah, segar banget kan udara pulau hari ini?",
@@ -136,10 +280,10 @@ export class WorldLivingAtmosphere {
       ],
     });
 
-    // B. Kios Ramuan & Elixir Alchemist Luna (Dekat Akses Jembatan MOBA)
+    // B. Kios Ramuan & Elixir Alchemist Luna (Central Plaza - West lawn arcade, facing inward toward plaza center)
     this.createMarketStall({
-      pos: new THREE.Vector3(-13.5, 4.80, -9.0),
-      rotY: -0.65,
+      pos: new THREE.Vector3(-8.0, 4.80, -2.5),
+      rotY: Math.atan2(8.0, 2.5), // Faces inward toward center (0, 0)
       awningColor1: 0x7e22ce, // Purple
       awningColor2: 0xfacc15, // Gold
       signText: "🧪 ELIXIR & RAMUAN",
@@ -151,7 +295,7 @@ export class WorldLivingAtmosphere {
       name: "Alchemist Luna",
       title: "Peracik Elixir Ajaib",
       island: "Central Plaza",
-      pos: new THREE.Vector3(-13.5, 4.80, -9.0),
+      pos: new THREE.Vector3(-8.0, 4.80, -2.5),
       avatar: "🧪",
       dialogue: [
         "Salam, penjelajah Milo! Butuh ramuan peningkat kelincahan?",
@@ -160,11 +304,11 @@ export class WorldLivingAtmosphere {
       ],
     });
 
-    // C. Pondok Es Kelapa Muda Pantai (Central Plaza Beach / Sand Shelf)
-    const rikoY = this.getGroundHeight(12.0, -18.0);
+    // C. Pondok Es Kelapa Muda Pantai (Central Plaza - North promenade lawn overlooking pier, facing inward)
+    const rikoY = this.getGroundHeight(6.5, -10.0);
     this.createMarketStall({
-      pos: new THREE.Vector3(12.0, rikoY, -18.0),
-      rotY: -1.2,
+      pos: new THREE.Vector3(6.5, rikoY, -10.0),
+      rotY: Math.atan2(-6.5, 10.0), // Faces inward toward promenade
       awningColor1: 0x059669, // Emerald
       awningColor2: 0xfef3c7, // Warm ivory
       signText: "🥥 ES KELAPA PANTAI",
@@ -176,7 +320,7 @@ export class WorldLivingAtmosphere {
       name: "Riko si Barista Pantai",
       title: "Ahli Minuman Tropis",
       island: "Central Plaza Beach",
-      pos: new THREE.Vector3(12.0, rikoY, -18.0),
+      pos: new THREE.Vector3(6.5, rikoY, -10.0),
       avatar: "🥥",
       dialogue: [
         "Yo Milo! Capek habis keliling kepulauan dan cetak gol di Beach Stadium?",
@@ -338,67 +482,25 @@ export class WorldLivingAtmosphere {
       }
     }
 
-    // 5. Vendor Chibi Figure behind the counter (Z = -0.55)
+    // 5. Vendor 3D KayKit Character behind counter (Z = -0.65)
     const vendorGroup = new THREE.Group();
-    vendorGroup.position.set(0, 0, -0.6);
+    vendorGroup.position.set(0, 0, -0.65);
+    // Counter faces +Z, vendor faces +Z
+    vendorGroup.rotation.y = 0;
 
-    // Body
-    const vendorBodyMat = new THREE.MeshStandardMaterial({
-      color: cfg.stallType === "fruit" ? 0x16a34a : cfg.stallType === "potion" ? 0x6b21a8 : 0x0284c7,
-      roughness: 0.6,
-    });
-    const vendorBody = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.38, 0.85, 12), vendorBodyMat);
-    vendorBody.position.y = 0.85;
-    vendorGroup.add(vendorBody);
-
-    // Apron or sash
-    const apron = new THREE.Mesh(new THREE.BoxGeometry(0.42, 0.55, 0.08), this.whiteMat);
-    apron.position.set(0, 0.8, 0.22);
-    vendorGroup.add(apron);
-
-    // Head
-    const vendorHead = new THREE.Mesh(new THREE.SphereGeometry(0.38, 18, 18), this.skinMat);
-    vendorHead.position.y = 1.5;
-    vendorGroup.add(vendorHead);
-
-    // Hat / Bandana
-    if (cfg.stallType === "fruit") {
-      const bandana = new THREE.Mesh(
-        new THREE.CylinderGeometry(0.4, 0.4, 0.15, 14),
-        new THREE.MeshStandardMaterial({ color: 0xd97706 })
-      );
-      bandana.position.y = 1.75;
-      vendorGroup.add(bandana);
-    } else if (cfg.stallType === "potion") {
-      const wizardHat = new THREE.Mesh(
-        new THREE.ConeGeometry(0.55, 0.85, 12),
-        new THREE.MeshStandardMaterial({ color: 0x4c1d95 })
-      );
-      wizardHat.position.y = 1.95;
-      wizardHat.rotation.x = -0.15;
-      vendorGroup.add(wizardHat);
-    } else {
-      // Sunglasses
-      const shades = new THREE.Mesh(
-        new THREE.BoxGeometry(0.45, 0.12, 0.15),
-        new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.2 })
-      );
-      shades.position.set(0, 1.52, 0.35);
-      vendorGroup.add(shades);
+    if (this.characterManager) {
+      const tint = cfg.stallType === "fruit" ? 0x16a34a : cfg.stallType === "potion" ? 0x7e22ce : 0x0284c7;
+      this.characterManager.spawnCharacter({
+        id: `vendor_${cfg.stallType}`,
+        name: `Vendor ${cfg.stallType}`,
+        pos: new THREE.Vector3(0, 0, 0),
+        rotY: 0,
+        scale: 1.35,
+        tintColor: tint,
+        initialAnim: cfg.stallType === "fruit" ? "Interact" : "Idle_A",
+        targetGroup: vendorGroup,
+      });
     }
-
-    // Waving Hand
-    const armMat = vendorBodyMat;
-    const waveArm = new THREE.Group();
-    waveArm.position.set(0.42, 1.15, 0);
-    const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.07, 0.45), armMat);
-    arm.position.y = 0.2;
-    arm.rotation.z = -0.4;
-    waveArm.add(arm);
-    const hand = new THREE.Mesh(new THREE.SphereGeometry(0.09, 8, 8), this.skinMat);
-    hand.position.set(0.12, 0.42, 0);
-    waveArm.add(hand);
-    vendorGroup.add(waveArm);
 
     stallGroup.add(vendorGroup);
 
@@ -410,10 +512,10 @@ export class WorldLivingAtmosphere {
   // 2. FISHERMEN (ADA YANG SEDANG MANCING)
   // ===========================================================================
   private spawnFishermen() {
-    // Spot 1: Pak Mamat sitting at Central Plaza Pier
+    // Spot 1: Pak Mamat sitting at Central Plaza North Pier facing open sea (North / -Z)
     this.createPierFisherman({
       pos: new THREE.Vector3(0, 0.80, -32.5),
-      rotY: 0,
+      rotY: Math.PI,
       name: "Pak Mamat",
     });
 
@@ -430,28 +532,6 @@ export class WorldLivingAtmosphere {
         "Suara deburan ombak dan semilir angin laut bikin hati tenang dan pikiran jernih."
       ],
     });
-
-    // Spot 2: Coastal Rock Fisherman Joko at Battle Royale Outpost Bluffs
-    const jokoY = this.getGroundHeight(56.0, -63.0);
-    this.createRockFisherman({
-      pos: new THREE.Vector3(56.0, jokoY, -63.0),
-      rotY: 0.8,
-      name: "Joko",
-    });
-
-    this.registerNPC({
-      id: "joko",
-      name: "Joko si Pemancing Karang",
-      title: "Nelayan Pesisir Outpost",
-      island: "Battle Royale Outpost",
-      pos: new THREE.Vector3(56.0, jokoY, -63.0),
-      avatar: "🐟",
-      dialogue: [
-        "Halo Milo! Di tebing karang Outpost ini airnya dalam dan ikannya gesit-gesit!",
-        "Tadi barusan ada perahu layar melintas di depan karang, keren banget ya!",
-        "Hati-hati waktu sprint di tebing karang, jangan sampai jatuh ke laut!"
-      ],
-    });
   }
 
   private createPierFisherman(cfg: { pos: THREE.Vector3; rotY: number; name: string }) {
@@ -459,67 +539,35 @@ export class WorldLivingAtmosphere {
     group.position.copy(cfg.pos);
     group.rotation.y = cfg.rotY;
 
-    // Body sitting on the dock edge (Z = 0)
-    const bodyMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.7 });
-    const body = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.34, 0.75, 12), bodyMat);
-    body.position.set(0, 0.42, 0);
-    group.add(body);
-
-    // Legs dangling over the pier edge (front is -Z)
-    const pantsMat = new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.8 });
-    for (const lx of [-0.14, 0.14]) {
-      const upperLeg = new THREE.Mesh(new THREE.BoxGeometry(0.16, 0.16, 0.45), pantsMat);
-      upperLeg.position.set(lx, 0.12, -0.2);
-      group.add(upperLeg);
-
-      const lowerLeg = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.45, 0.14), pantsMat);
-      lowerLeg.position.set(lx, -0.15, -0.42);
-      group.add(lowerLeg);
-
-      const boot = new THREE.Mesh(new THREE.BoxGeometry(0.16, 0.14, 0.22), this.darkWoodMat);
-      boot.position.set(lx, -0.36, -0.46);
-      group.add(boot);
+    if (this.characterManager) {
+      this.characterManager.spawnCharacter({
+        id: "fisherman_pier",
+        name: cfg.name,
+        pos: new THREE.Vector3(0, 0, 0),
+        rotY: 0,
+        scale: 1.35,
+        tintColor: 0x0284c7,
+        initialAnim: "Idle_B",
+        targetGroup: group,
+      });
     }
 
-    // Head
-    const head = new THREE.Mesh(new THREE.SphereGeometry(0.36, 16, 16), this.skinMat);
-    head.position.set(0, 0.98, 0);
-    group.add(head);
-
-    // Conical Straw Fisherman Hat (Caping bambu)
-    const strawMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.85 });
-    const hat = new THREE.Mesh(new THREE.ConeGeometry(0.68, 0.32, 16), strawMat);
-    hat.position.set(0, 1.25, 0);
-    group.add(hat);
-
-    // Bamboo Fishing Rod held in hands, angled forward towards -Z
+    // 3D Fishing Rod from folder assets/3d/boat
     const rodGroup = new THREE.Group();
-    rodGroup.position.set(0.25, 0.55, -0.2);
-    rodGroup.rotation.x = -Math.PI / 4.5;
-
-    const bambooMat = new THREE.MeshStandardMaterial({ color: 0xa16207, roughness: 0.6 });
-    const rod = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.05, 3.8, 8), bambooMat);
-    rod.position.set(0, 1.8, 0);
-    rodGroup.add(rod);
-
-    // Reel
-    const reel = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.12, 10), this.goldMat);
-    reel.position.set(0.05, 0.4, 0);
-    reel.rotation.z = Math.PI / 2;
-    rodGroup.add(reel);
-
+    rodGroup.position.set(0.28, 0.85, 0.35);
+    this.queueOrAttachRod(rodGroup, 0.013);
     group.add(rodGroup);
 
-    // Fishing Tackle Box & Bucket beside him
+    // Fishing Tackle Box & Bucket behind him on the pier deck (-Z in local space)
     const box = new THREE.Mesh(new THREE.BoxGeometry(0.55, 0.35, 0.4), new THREE.MeshStandardMaterial({ color: 0xd97706 }));
-    box.position.set(0.7, 0.18, 0.3);
+    box.position.set(0.65, 0.18, -0.65);
     group.add(box);
 
     const bucket = new THREE.Mesh(
       new THREE.CylinderGeometry(0.24, 0.2, 0.45, 12),
       new THREE.MeshStandardMaterial({ color: 0x64748b, metalness: 0.5, roughness: 0.4 })
     );
-    bucket.position.set(-0.7, 0.22, 0.3);
+    bucket.position.set(-0.65, 0.22, -0.65);
     group.add(bucket);
 
     // Fish tail sticking out of bucket!
@@ -527,11 +575,15 @@ export class WorldLivingAtmosphere {
       new THREE.ConeGeometry(0.12, 0.3, 6),
       new THREE.MeshStandardMaterial({ color: 0x38bdf8 })
     );
-    fishTail.position.set(-0.7, 0.48, 0.3);
+    fishTail.position.set(-0.65, 0.48, -0.65);
     fishTail.rotation.z = 0.4;
     group.add(fishTail);
 
     this.scene.add(group);
+
+    // Calculate rod tip in world space
+    const localTip = new THREE.Vector3(0.28, 0.85 + 3.7 * Math.cos(Math.PI / 4.8), 0.35 + 3.7 * Math.sin(Math.PI / 4.8));
+    const worldTip = localTip.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), cfg.rotY).add(group.position);
 
     // Fishing Line & Floating Bobber on the water
     const bobber = new THREE.Mesh(
@@ -545,14 +597,15 @@ export class WorldLivingAtmosphere {
     );
     bobberWhite.position.y = -0.08;
     bobber.add(bobberWhite);
-    bobber.position.set(cfg.pos.x, 0.15, cfg.pos.z - 6.0);
+
+    const forwardDir = new THREE.Vector3(0, 0, 1).applyAxisAngle(new THREE.Vector3(0, 1, 0), cfg.rotY);
+    const bobberPos = group.position.clone().add(forwardDir.clone().multiplyScalar(6.5));
+    bobberPos.y = 0.15;
+    bobber.position.copy(bobberPos);
     this.scene.add(bobber);
 
     // Line from rod tip to bobber
-    const lineGeo = new THREE.BufferGeometry().setFromPoints([
-      new THREE.Vector3(cfg.pos.x + 0.25, cfg.pos.y + 2.8, cfg.pos.z - 2.8),
-      bobber.position,
-    ]);
+    const lineGeo = new THREE.BufferGeometry().setFromPoints([worldTip, bobber.position]);
     const lineMat = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.65 });
     const line = new THREE.Line(lineGeo, lineMat);
     this.scene.add(line);
@@ -569,7 +622,7 @@ export class WorldLivingAtmosphere {
 
     this.fishingSpots.push({
       group,
-      rodTip: new THREE.Vector3(cfg.pos.x + 0.25, cfg.pos.y + 2.8, cfg.pos.z - 2.8),
+      rodTip: worldTip,
       bobber,
       line,
       jumpingFish,
@@ -586,46 +639,105 @@ export class WorldLivingAtmosphere {
     group.position.set(cfg.pos.x, actualY, cfg.pos.z);
     group.rotation.y = cfg.rotY;
 
-    // Standing Fisherman
-    const bodyMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.7 });
-    const body = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.36, 0.9, 12), bodyMat);
-    body.position.y = 0.9;
-    group.add(body);
-
-    for (const lx of [-0.15, 0.15]) {
-      const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.14, 0.6, 8), this.darkWoodMat);
-      leg.position.set(lx, 0.3, 0);
-      group.add(leg);
+    if (this.characterManager) {
+      this.characterManager.spawnCharacter({
+        id: "fisherman_rock",
+        name: cfg.name,
+        pos: new THREE.Vector3(0, 0, 0),
+        rotY: 0,
+        scale: 1.35,
+        tintColor: 0xd97706,
+        initialAnim: "Idle_A",
+        targetGroup: group,
+      });
     }
 
-    const head = new THREE.Mesh(new THREE.SphereGeometry(0.36, 16, 16), this.skinMat);
-    head.position.y = 1.55;
-    group.add(head);
+    // Bamboo Fishing Rod held in hands, angled forward towards the sea (+Z in group local space)
+    const rodGroup = new THREE.Group();
+    rodGroup.position.set(0.28, 0.85, 0.35);
+    rodGroup.rotation.x = Math.PI / 4.8;
 
-    const bucketHat = new THREE.Mesh(
-      new THREE.CylinderGeometry(0.42, 0.45, 0.22, 14),
-      new THREE.MeshStandardMaterial({ color: 0x065f46 })
-    );
-    bucketHat.position.y = 1.75;
-    group.add(bucketHat);
+    const bambooMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.6 });
+    const rod = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.045, 4.0, 8), bambooMat);
+    rod.position.set(0, 1.9, 0);
+    rodGroup.add(rod);
 
-    // Fishing rod pointing to open sea
-    const rod = new THREE.Mesh(
-      new THREE.CylinderGeometry(0.02, 0.04, 4.2, 8),
-      new THREE.MeshStandardMaterial({ color: 0x78350f })
+    const reel = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.12, 10), this.goldMat);
+    reel.position.set(0.05, 0.4, 0);
+    reel.rotation.z = Math.PI / 2;
+    rodGroup.add(reel);
+
+    group.add(rodGroup);
+
+    // Fishing Tackle Box & Bucket behind him on the rock (-Z in local space)
+    const box = new THREE.Mesh(new THREE.BoxGeometry(0.55, 0.35, 0.4), new THREE.MeshStandardMaterial({ color: 0x92400e }));
+    box.position.set(0.65, 0.18, -0.65);
+    group.add(box);
+
+    const bucket = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.24, 0.2, 0.45, 12),
+      new THREE.MeshStandardMaterial({ color: 0x475569, metalness: 0.5, roughness: 0.4 })
     );
-    rod.position.set(0.35, 1.8, -1.5);
-    rod.rotation.x = -Math.PI / 4;
-    group.add(rod);
+    bucket.position.set(-0.65, 0.22, -0.65);
+    group.add(bucket);
 
     this.scene.add(group);
+
+    // Calculate rod tip in world space
+    const localTip = new THREE.Vector3(0.28, 0.85 + 3.9 * Math.cos(Math.PI / 4.8), 0.35 + 3.9 * Math.sin(Math.PI / 4.8));
+    const worldTip = localTip.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), cfg.rotY).add(group.position);
+
+    // Floating bobber in the sea below the cliff
+    const forwardDir = new THREE.Vector3(0, 0, 1).applyAxisAngle(new THREE.Vector3(0, 1, 0), cfg.rotY);
+    const bobber = new THREE.Mesh(
+      new THREE.SphereGeometry(0.15, 12, 12),
+      new THREE.MeshStandardMaterial({ color: 0xf59e0b, roughness: 0.3 })
+    );
+    const bobberWhite = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.14, 0.02, 0.12, 10),
+      this.whiteMat
+    );
+    bobberWhite.position.y = -0.08;
+    bobber.add(bobberWhite);
+
+    const bobberPos = group.position.clone().add(forwardDir.clone().multiplyScalar(7.5));
+    bobberPos.y = 0.15;
+    bobber.position.copy(bobberPos);
+    this.scene.add(bobber);
+
+    // Fishing line from rod tip down to bobber
+    const lineGeo = new THREE.BufferGeometry().setFromPoints([worldTip, bobber.position]);
+    const lineMat = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.65 });
+    const line = new THREE.Line(lineGeo, lineMat);
+    this.scene.add(line);
+
+    // Animated Jumping Fish near the bobber
+    const fishGeo = new THREE.ConeGeometry(0.16, 0.6, 6);
+    fishGeo.rotateZ(Math.PI / 2);
+    const jumpingFish = new THREE.Mesh(
+      fishGeo,
+      new THREE.MeshStandardMaterial({ color: 0x10b981, metalness: 0.4, roughness: 0.3 })
+    );
+    jumpingFish.visible = false;
+    this.scene.add(jumpingFish);
+
+    this.fishingSpots.push({
+      group,
+      rodTip: worldTip,
+      bobber,
+      line,
+      jumpingFish,
+      fishTimer: 5.5,
+      isFishJumping: false,
+      fishProgress: 0,
+    });
   }
 
   // ===========================================================================
   // 3. BOATS (ADA PERAHU JUGA DI LAUT - RUTE BEBAS TABRAKAN PULAU)
   // ===========================================================================
   private spawnBoats() {
-    // A. Perahu Layar Utama "Dewi Samudra" (The Grand Sloop)
+    // A. Perahu Utama Samudra "Dewi Samudra" (The Grand Oceanic Cruiser - NO SAILS, NON-BLUE)
     // Berlayar di Samudra Luas mengelilingi kepulauan (clearance aman 35m+ dari daratan & jembatan)
     this.createSailboat({
       waypoints: [
@@ -638,13 +750,12 @@ export class WorldLivingAtmosphere {
         new THREE.Vector3(-145, 0.18, 0),     // Selat Samudra Barat
         new THREE.Vector3(-125, 0.18, -115),  // Laut Barat Laut (jauh di luar Kuil MOBA)
       ],
-      speed: 6.2,
+      speed: 6.8,
       phase: 0,
-      sailColor1: 0x06b6d4, // Vibrant cyan
-      sailColor2: 0xf97316, // Vibrant orange
+      hullColor: 0x92400e, // Rich warm mahogany wood (NON-BLUE)
     });
 
-    // B. Perahu Motor Nelayan (Fishing Motorboat)
+    // B. Perahu Motor Nelayan (Fishing Motorboat - NON-BLUE)
     // Berpatroli di Teluk Utara di depan Dermaga Pancing Pak Mamat (100% air dalam, bebas pulau)
     this.createMotorboat({
       waypoints: [
@@ -655,12 +766,12 @@ export class WorldLivingAtmosphere {
         new THREE.Vector3(0, 0.18, -96),
         new THREE.Vector3(32, 0.18, -78),
       ],
-      speed: 6.0,
+      speed: 6.2,
       phase: 0,
-      hullColor: 0x0284c7,
+      hullColor: 0xc2410c, // Safety terracotta amber nautical hull (NON-BLUE)
     });
 
-    // C. Perahu Katamaran Turis (South Bay Lagoon Cruiser)
+    // C. Perahu Turis Laguna (South Bay Lagoon Cruiser - NON-BLUE)
     // Berpatroli di Laguna Selatan antara Central Plaza, Voxel Bay & Stadion (100% air dalam)
     this.createMotorboat({
       waypoints: [
@@ -671,12 +782,12 @@ export class WorldLivingAtmosphere {
         new THREE.Vector3(0, 0.18, 92),
         new THREE.Vector3(-28, 0.18, 78),
       ],
-      speed: 5.4,
+      speed: 5.6,
       phase: Math.PI,
-      hullColor: 0x059669,
+      hullColor: 0x059669, // Emerald sea green hull (NON-BLUE)
     });
 
-    // D. Perahu Dayung Bersandar di Dermaga (Moored Rowboat)
+    // D. Perahu Dayung Bersandar di Dermaga (Moored Rowboat - NON-BLUE)
     this.createMooredRowboat(new THREE.Vector3(2.6, 0.15, -28.0));
   }
 
@@ -688,89 +799,34 @@ export class WorldLivingAtmosphere {
     radiusZ?: number;
     speed: number;
     phase: number;
-    sailColor1: number;
-    sailColor2: number;
+    hullColor?: number;
   }) {
     const boat = new THREE.Group();
-    if (cfg.waypoints && cfg.waypoints.length > 0) {
+    const hullGroup = new THREE.Group();
+    boat.add(hullGroup);
+
+    let spline: THREE.CatmullRomCurve3 | undefined;
+    let splineLength: number | undefined;
+    let splineProgress: number = 0;
+
+    if (cfg.waypoints && cfg.waypoints.length > 2) {
+      spline = new THREE.CatmullRomCurve3(cfg.waypoints, true, "catmullrom", 0.5);
+      splineLength = spline.getLength();
+      splineProgress = (cfg.phase / (Math.PI * 2)) % 1.0;
+      const initialPt = spline.getPointAt(splineProgress);
+      boat.position.set(initialPt.x, 0.18, initialPt.z);
+    } else if (cfg.waypoints && cfg.waypoints.length > 0) {
       boat.position.copy(cfg.waypoints[0]);
     }
 
-    // 1. Sleek Wooden Hull with pointed bow and flat transom stern
-    const hullMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.7 });
-    const hull = new THREE.Mesh(new THREE.ConeGeometry(1.6, 6.5, 16), hullMat);
-    hull.rotation.x = Math.PI / 2;
-    hull.rotation.z = Math.PI;
-    hull.scale.set(1.0, 1.0, 0.45);
-    hull.position.set(0, 0.25, 0);
-    hull.castShadow = true;
-    boat.add(hull);
+    // 1. Authentic 3D Boat model from folder assets/3d/boat (Rich Mahogany / Non-blue)
+    this.queueOrAttachBoat(hullGroup, 0.016, cfg.hullColor ?? 0x92400e);
 
-    // Teak Deck
-    const deckMat = new THREE.MeshStandardMaterial({ color: 0xfde047, roughness: 0.8 });
-    const deck = new THREE.Mesh(new THREE.BoxGeometry(2.4, 0.15, 5.5), deckMat);
-    deck.position.set(0, 0.55, 0.2);
-    deck.receiveShadow = true;
-    boat.add(deck);
-
-    // Cabin Hatch
-    const cabin = new THREE.Mesh(new THREE.BoxGeometry(1.4, 0.65, 1.8), this.darkWoodMat);
-    cabin.position.set(0, 0.9, -0.4);
-    boat.add(cabin);
-
-    // 2. Tall Timber Mast & Rigging
-    const mast = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.14, 7.8, 10), this.darkWoodMat);
-    mast.position.set(0, 4.2, 0.4);
-    mast.castShadow = true;
-    boat.add(mast);
-
-    // Boom horizontal spar
-    const boom = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 4.2, 8), this.darkWoodMat);
-    boom.position.set(0, 1.5, 2.2);
-    boom.rotation.x = Math.PI / 2;
-    boat.add(boom);
-
-    // 3. Large Curved Triangular Mainsail with Two-tone stripes
-    const sailGeo = new THREE.BufferGeometry();
-    const sailVertices = new Float32Array([
-      // Triangle: Top of mast, tack at boom, clew at boom end
-      0, 7.5, 0.4,
-      0, 1.6, 0.4,
-      0, 1.6, 4.2,
-    ]);
-    sailGeo.setAttribute("position", new THREE.BufferAttribute(sailVertices, 3));
-    sailGeo.computeVertexNormals();
-
-    const sailMat = new THREE.MeshStandardMaterial({
-      color: cfg.sailColor1,
-      roughness: 0.5,
-      side: THREE.DoubleSide,
-    });
-    const mainsail = new THREE.Mesh(sailGeo, sailMat);
-    boat.add(mainsail);
-
-    // Front Jib Sail
-    const jibGeo = new THREE.BufferGeometry();
-    const jibVertices = new Float32Array([
-      0, 6.2, 0.4,
-      0, 0.7, -3.2,
-      0, 0.7, 0.2,
-    ]);
-    jibGeo.setAttribute("position", new THREE.BufferAttribute(jibVertices, 3));
-    jibGeo.computeVertexNormals();
-    const jibMat = new THREE.MeshStandardMaterial({
-      color: cfg.sailColor2,
-      roughness: 0.5,
-      side: THREE.DoubleSide,
-    });
-    const jibSail = new THREE.Mesh(jibGeo, jibMat);
-    boat.add(jibSail);
-
-    // 4. Captain at the Helm (Steering)
+    // 2. Captain at the Helm (Steering the oceanic cruiser)
     const captain = new THREE.Group();
     captain.position.set(0, 0.55, 2.2);
 
-    const capBody = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.3, 0.7, 10), new THREE.MeshStandardMaterial({ color: 0x0284c7 }));
+    const capBody = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.3, 0.7, 10), new THREE.MeshStandardMaterial({ color: 0x475569 }));
     capBody.position.y = 0.35;
     captain.add(capBody);
 
@@ -785,23 +841,29 @@ export class WorldLivingAtmosphere {
     capHat.position.y = 1.08;
     captain.add(capHat);
 
-    boat.add(captain);
+    hullGroup.add(captain);
 
-    // Orange Lifebuoy rings on the hull
+    // 3. Orange Lifebuoy rings on the hull
     const buoyMat = new THREE.MeshStandardMaterial({ color: 0xf97316, roughness: 0.4 });
     for (const bx of [-1.25, 1.25]) {
       const buoy = new THREE.Mesh(new THREE.TorusGeometry(0.28, 0.08, 8, 16), buoyMat);
       buoy.position.set(bx, 0.5, 0.8);
       buoy.rotation.y = Math.PI / 2;
-      boat.add(buoy);
+      hullGroup.add(buoy);
     }
 
     this.scene.add(boat);
 
     this.boats.push({
       group: boat,
+      hullGroup,
       type: "sailboat",
       waypoints: cfg.waypoints,
+      spline,
+      splineLength,
+      splineProgress,
+      currentYaw: 0,
+      turnBank: 0,
       currentWaypointIdx: 0,
       radiusX: cfg.radiusX ?? 0,
       radiusZ: cfg.radiusZ ?? 0,
@@ -823,63 +885,38 @@ export class WorldLivingAtmosphere {
     hullColor?: number;
   }) {
     const boat = new THREE.Group();
-    if (cfg.waypoints && cfg.waypoints.length > 0) {
+    const hullGroup = new THREE.Group();
+    boat.add(hullGroup);
+
+    let spline: THREE.CatmullRomCurve3 | undefined;
+    let splineLength: number | undefined;
+    let splineProgress: number = 0;
+
+    if (cfg.waypoints && cfg.waypoints.length > 2) {
+      spline = new THREE.CatmullRomCurve3(cfg.waypoints, true, "catmullrom", 0.5);
+      splineLength = spline.getLength();
+      splineProgress = (cfg.phase / (Math.PI * 2)) % 1.0;
+      const initialPt = spline.getPointAt(splineProgress);
+      boat.position.set(initialPt.x, 0.18, initialPt.z);
+    } else if (cfg.waypoints && cfg.waypoints.length > 0) {
       boat.position.copy(cfg.waypoints[0]);
     }
 
-    // Wooden hull
-    const hullMat = new THREE.MeshStandardMaterial({
-      color: cfg.hullColor ?? 0x0284c7,
-      roughness: 0.6,
-    });
-    const hull = new THREE.Mesh(
-      new THREE.BoxGeometry(2.0, 0.7, 4.6),
-      hullMat
-    );
-    hull.position.y = 0.35;
-    boat.add(hull);
-
-    // Pointed bow
-    const bow = new THREE.Mesh(
-      new THREE.ConeGeometry(1.2, 1.8, 4),
-      new THREE.MeshStandardMaterial({ color: 0x0369a1, roughness: 0.6 })
-    );
-    bow.position.set(0, 0.35, -2.8);
-    bow.rotation.y = Math.PI / 4;
-    bow.rotation.x = Math.PI / 2;
-    boat.add(bow);
-
-    // Canvas Sun Canopy
-    const canopyRoof = new THREE.Mesh(
-      new THREE.BoxGeometry(2.1, 0.08, 2.8),
-      new THREE.MeshStandardMaterial({ color: 0xfacc15, roughness: 0.7 })
-    );
-    canopyRoof.position.set(0, 1.8, 0.2);
-    boat.add(canopyRoof);
-
-    // Canopy frame poles
-    for (const px of [-0.95, 0.95]) {
-      for (const pz of [-1.0, 1.4]) {
-        const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.04, 1.2, 6), this.whiteMat);
-        pole.position.set(px, 1.25, pz);
-        boat.add(pole);
-      }
-    }
-
-    // Outboard motor at the back
-    const motor = new THREE.Mesh(
-      new THREE.BoxGeometry(0.4, 0.75, 0.4),
-      new THREE.MeshStandardMaterial({ color: 0x1e293b, metalness: 0.8, roughness: 0.3 })
-    );
-    motor.position.set(0, 0.4, 2.4);
-    boat.add(motor);
+    // Authentic 3D Boat model from folder assets/3d/boat (NON-BLUE)
+    this.queueOrAttachBoat(hullGroup, 0.0135, cfg.hullColor ?? 0xc2410c);
 
     this.scene.add(boat);
 
     this.boats.push({
       group: boat,
+      hullGroup,
       type: "motorboat",
       waypoints: cfg.waypoints,
+      spline,
+      splineLength,
+      splineProgress,
+      currentYaw: 0,
+      turnBank: 0,
       currentWaypointIdx: 0,
       radiusX: cfg.radiusX ?? 0,
       radiusZ: cfg.radiusZ ?? 0,
@@ -892,33 +929,19 @@ export class WorldLivingAtmosphere {
 
   private createMooredRowboat(pos: THREE.Vector3) {
     const boat = new THREE.Group();
+    const hullGroup = new THREE.Group();
+    boat.add(hullGroup);
     boat.position.copy(pos);
     boat.rotation.y = 0.2;
 
-    const hull = new THREE.Mesh(
-      new THREE.CylinderGeometry(0.8, 0.6, 3.2, 8),
-      this.woodMat
-    );
-    hull.rotation.x = Math.PI / 2;
-    hull.scale.set(1.0, 0.5, 1.0);
-    boat.add(hull);
-
-    // Oars
-    for (const ox of [-0.6, 0.6]) {
-      const oar = new THREE.Mesh(
-        new THREE.CylinderGeometry(0.03, 0.03, 2.2, 6),
-        this.darkWoodMat
-      );
-      oar.position.set(ox, 0.3, 0);
-      oar.rotation.z = ox * 0.4;
-      oar.rotation.y = 0.3;
-      boat.add(oar);
-    }
+    // Authentic 3D Boat model from folder assets/3d/boat, resting anchored at the pier (Rustic Teak Wood)
+    this.queueOrAttachBoat(hullGroup, 0.0115, 0x78350f, undefined, -Math.PI / 2 + 0.15);
 
     this.scene.add(boat);
 
     this.boats.push({
       group: boat,
+      hullGroup,
       type: "rowboat",
       radiusX: 0,
       radiusZ: 0,
@@ -1038,94 +1061,24 @@ export class WorldLivingAtmosphere {
     const group = new THREE.Group();
     group.position.copy(cfg.waypoints[0]);
 
-    // Torso
-    const shirtMat = new THREE.MeshStandardMaterial({ color: cfg.shirtColor, roughness: 0.65 });
-    const torso = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.32, 0.75, 10), shirtMat);
-    torso.position.y = 0.85;
-    torso.castShadow = true;
-    group.add(torso);
-
-    // Legs
-    const pantsMat = new THREE.MeshStandardMaterial({ color: cfg.pantsColor, roughness: 0.7 });
-    const legL = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.11, 0.52, 8), pantsMat);
-    legL.position.set(-0.14, 0.28, 0);
-    legL.castShadow = true;
-    group.add(legL);
-
-    const legR = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.11, 0.52, 8), pantsMat);
-    legR.position.set(0.14, 0.28, 0);
-    legR.castShadow = true;
-    group.add(legR);
-
-    // Arms
-    const armL = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.06, 0.5, 6), shirtMat);
-    armL.position.set(-0.35, 0.8, 0);
-    group.add(armL);
-
-    const armR = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.06, 0.5, 6), shirtMat);
-    armR.position.set(0.35, 0.8, 0);
-    group.add(armR);
-
-    // Head
-    const headGroup = new THREE.Group();
-    headGroup.position.set(0, 1.45, 0);
-
-    const head = new THREE.Mesh(new THREE.SphereGeometry(0.32, 14, 14), this.skinMat);
-    head.castShadow = true;
-    headGroup.add(head);
-
-    // Hair
-    const hairMat = new THREE.MeshStandardMaterial({ color: cfg.hairColor, roughness: 0.8 });
-    const hair = new THREE.Mesh(new THREE.SphereGeometry(0.34, 12, 12, 0, Math.PI * 2, 0, Math.PI / 1.7), hairMat);
-    hair.position.set(0, 0.06, 0);
-    headGroup.add(hair);
-
-    // Hat Accessory
-    if (cfg.hat === "sunhat") {
-      const sunhat = new THREE.Mesh(
-        new THREE.CylinderGeometry(0.55, 0.55, 0.06, 16),
-        new THREE.MeshStandardMaterial({ color: 0xfef08a })
-      );
-      sunhat.position.y = 0.26;
-      headGroup.add(sunhat);
-    } else if (cfg.hat === "headband") {
-      const headband = new THREE.Mesh(
-        new THREE.CylinderGeometry(0.35, 0.35, 0.08, 14),
-        new THREE.MeshStandardMaterial({ color: 0x0284c7 })
-      );
-      headband.position.y = 0.12;
-      headGroup.add(headband);
-    } else if (cfg.hat === "beret") {
-      const beret = new THREE.Mesh(
-        new THREE.CylinderGeometry(0.42, 0.36, 0.12, 12),
-        new THREE.MeshStandardMaterial({ color: 0xbe123c })
-      );
-      beret.position.set(0.08, 0.28, 0);
-      beret.rotation.z = -0.2;
-      headGroup.add(beret);
-    } else if (cfg.hat === "cap") {
-      const cap = new THREE.Mesh(
-        new THREE.CylinderGeometry(0.35, 0.36, 0.14, 12),
-        new THREE.MeshStandardMaterial({ color: 0x0369a1 })
-      );
-      cap.position.y = 0.25;
-      headGroup.add(cap);
-      const visor = new THREE.Mesh(new THREE.BoxGeometry(0.36, 0.04, 0.28), new THREE.MeshStandardMaterial({ color: 0x0369a1 }));
-      visor.position.set(0, 0.18, -0.32);
-      headGroup.add(visor);
+    if (this.characterManager) {
+      // Spawn authentic KayKit 3D humanoid character with Walking_A skeletal animation
+      this.characterManager.spawnCharacter({
+        id: `ped_${cfg.name.toLowerCase()}`,
+        name: cfg.name,
+        pos: new THREE.Vector3(0, 0, 0),
+        rotY: 0,
+        scale: 1.35,
+        tintColor: cfg.shirtColor,
+        initialAnim: "Walking_A",
+        targetGroup: group,
+      });
     }
-
-    group.add(headGroup);
 
     this.scene.add(group);
 
     this.pedestrians.push({
       group,
-      legL,
-      legR,
-      armL,
-      armR,
-      head: headGroup,
       waypoints: cfg.waypoints,
       currentWaypointIdx: 0,
       speed: cfg.speed,
@@ -1262,14 +1215,67 @@ export class WorldLivingAtmosphere {
   private updateBoats(delta: number, time: number) {
     this.boats.forEach((boat) => {
       if (boat.type === "rowboat") {
-        // Moored bobbing
+        // Moored bobbing at pier
         boat.group.position.y = 0.15 + Math.sin(time * 2.8) * 0.06;
-        boat.group.rotation.z = Math.sin(time * 2.2) * 0.04;
-        boat.group.rotation.x = Math.cos(time * 1.8) * 0.03;
+        if (boat.hullGroup) {
+          boat.hullGroup.rotation.z = Math.sin(time * 2.2) * 0.04;
+          boat.hullGroup.rotation.x = Math.cos(time * 1.8) * 0.03;
+        } else {
+          boat.group.rotation.z = Math.sin(time * 2.2) * 0.04;
+          boat.group.rotation.x = Math.cos(time * 1.8) * 0.03;
+        }
         return;
       }
 
-      // 1. Waypoint Navigation (Guaranteed Collision-Free Open Sea Routes)
+      // 1. Spline-based Smooth Cruising (Guaranteed Silky Curve, Zero Crabbing, Natural Banking)
+      if (boat.spline && boat.splineLength && boat.splineLength > 0) {
+        const deltaProgress = (boat.speed * delta) / boat.splineLength;
+        boat.splineProgress = ((boat.splineProgress ?? 0) + deltaProgress) % 1.0;
+
+        const currentPt = boat.spline.getPointAt(boat.splineProgress);
+        const tangent = boat.spline.getTangentAt(boat.splineProgress);
+
+        boat.group.position.set(currentPt.x, 0.18, currentPt.z);
+
+        // Desired yaw heading from velocity tangent
+        const targetYaw = Math.atan2(tangent.x, tangent.z);
+        if (boat.currentYaw === undefined) {
+          boat.currentYaw = targetYaw;
+        } else {
+          let diff = targetYaw - boat.currentYaw;
+          while (diff > Math.PI) diff -= Math.PI * 2;
+          while (diff < -Math.PI) diff += Math.PI * 2;
+
+          // Silky smooth nautical yaw rate
+          const turnFactor = Math.min(1, 4.5 * delta);
+          boat.currentYaw += diff * turnFactor;
+
+          // Natural banking roll into turns (boat leans inwards along curved trajectory)
+          const turnRate = diff / Math.max(delta, 0.001);
+          const targetBank = THREE.MathUtils.clamp(-turnRate * 0.08, -0.15, 0.15);
+          boat.turnBank = THREE.MathUtils.lerp(boat.turnBank ?? 0, targetBank, 5 * delta);
+        }
+
+        boat.group.rotation.y = boat.currentYaw;
+
+        // Wave dynamics & heave on hullGroup
+        const heaveY = Math.sin(time * 2.4 + boat.phase) * 0.07;
+        const waveRoll = Math.sin(time * 2.0 + boat.phase) * 0.035 + (boat.turnBank ?? 0);
+        const wavePitch = Math.cos(time * 1.6 + boat.phase) * 0.025 + 0.015; // slight nose rise when cruising
+
+        if (boat.hullGroup) {
+          boat.hullGroup.position.y = heaveY;
+          boat.hullGroup.rotation.z = waveRoll;
+          boat.hullGroup.rotation.x = wavePitch;
+        } else {
+          boat.group.position.y = 0.18 + heaveY;
+          boat.group.rotation.z = waveRoll;
+          boat.group.rotation.x = wavePitch;
+        }
+        return;
+      }
+
+      // 2. Fallback Waypoint Navigation if spline not available
       if (boat.waypoints && boat.waypoints.length > 0) {
         const wpIdx = boat.currentWaypointIdx ?? 0;
         const target = boat.waypoints[wpIdx];
@@ -1286,35 +1292,36 @@ export class WorldLivingAtmosphere {
           curPos.x += (dirX / dist) * moveStep;
           curPos.z += (dirZ / dist) * moveStep;
 
-          // Smooth nautical yaw turning without snapping
           const targetYaw = Math.atan2(dirX, dirZ);
           let angleDiff = targetYaw - boat.group.rotation.y;
           while (angleDiff > Math.PI) angleDiff -= Math.PI * 2;
           while (angleDiff < -Math.PI) angleDiff += Math.PI * 2;
-          boat.group.rotation.y += angleDiff * Math.min(1, 2.5 * delta);
+          boat.group.rotation.y += angleDiff * Math.min(1, 3.5 * delta);
         }
 
-        // Realistic ocean swell & gentle wave roll
-        curPos.y = 0.18 + Math.sin(time * 2.4 + boat.phase) * 0.08;
-        boat.group.rotation.z = Math.sin(time * 2.0 + boat.phase) * 0.035;
-        boat.group.rotation.x = Math.cos(time * 1.6 + boat.phase) * 0.02;
+        curPos.y = 0.18 + Math.sin(time * 2.4 + boat.phase) * 0.07;
+        if (boat.hullGroup) {
+          boat.hullGroup.rotation.z = Math.sin(time * 2.0 + boat.phase) * 0.035;
+          boat.hullGroup.rotation.x = Math.cos(time * 1.6 + boat.phase) * 0.025;
+        }
         return;
       }
 
-      // 2. Fallback Elliptical trajectory
+      // 3. Fallback Elliptical trajectory
       const t = time * boat.speed + boat.phase;
       const x = boat.centerX + Math.cos(t) * boat.radiusX;
       const z = boat.centerZ + Math.sin(t) * boat.radiusZ;
 
-      // Tangent direction for yaw heading
       const dx = -Math.sin(t) * boat.radiusX;
       const dz = Math.cos(t) * boat.radiusZ;
       const heading = Math.atan2(dx, dz);
 
       boat.group.position.set(x, 0.18 + Math.sin(time * 2.5 + boat.phase) * 0.10, z);
       boat.group.rotation.y = heading;
-      boat.group.rotation.z = Math.sin(time * 2.2) * 0.04;
-      boat.group.rotation.x = Math.cos(time * 1.8) * 0.02;
+      if (boat.hullGroup) {
+        boat.hullGroup.rotation.z = Math.sin(time * 2.2) * 0.04;
+        boat.hullGroup.rotation.x = Math.cos(time * 1.8) * 0.02;
+      }
     });
   }
 
@@ -1343,19 +1350,24 @@ export class WorldLivingAtmosphere {
 
       // Terrain / Bridge Height attachment
       const groundY = this.getGroundHeight(curPos.x, curPos.z);
+      curPos.y = groundY;
+
       ped.walkCycle += ped.speed * delta * 4.2;
 
-      // Realistic Walking limb swing & body bounce
-      const legSwing = Math.sin(ped.walkCycle) * 0.55;
-      const armSwing = -Math.sin(ped.walkCycle) * 0.45;
-
-      ped.legL.rotation.x = legSwing;
-      ped.legR.rotation.x = -legSwing;
-      ped.armL.rotation.x = armSwing;
-      ped.armR.rotation.x = -armSwing;
-
-      curPos.y = groundY + Math.abs(Math.sin(ped.walkCycle)) * 0.08;
-      ped.head.rotation.y = Math.sin(ped.walkCycle * 0.5) * 0.08;
+      // Limb swing for legacy procedural meshes (if present)
+      if (ped.legL && ped.legR) {
+        const legSwing = Math.sin(ped.walkCycle) * 0.55;
+        ped.legL.rotation.x = legSwing;
+        ped.legR.rotation.x = -legSwing;
+      }
+      if (ped.armL && ped.armR) {
+        const armSwing = -Math.sin(ped.walkCycle) * 0.45;
+        ped.armL.rotation.x = armSwing;
+        ped.armR.rotation.x = -armSwing;
+      }
+      if (ped.head) {
+        ped.head.rotation.y = Math.sin(ped.walkCycle * 0.5) * 0.08;
+      }
     });
   }
 

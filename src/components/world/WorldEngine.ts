@@ -6,6 +6,10 @@ import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPa
 import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
 import { WorldAudio } from "./WorldAudio";
 import { WorldLivingAtmosphere } from "./WorldLivingAtmosphere";
+import { WorldNatureManager } from "./WorldNatureManager";
+import { WorldHexManager } from "./WorldHexManager";
+import { WorldBuildingManager } from "./WorldBuildingManager";
+import { WorldCharacterManager } from "./WorldCharacterManager";
 
 export interface ActiveMinigame {
   id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt";
@@ -453,6 +457,15 @@ export class WorldEngine {
   private currentPitchX: number = 0;
   private cameraLookAt: THREE.Vector3 = new THREE.Vector3(0, 5.8, 0);
 
+  // Mouse / Pointer Camera Orbit & Pan Controls
+  public cameraOrbitYaw: number = 0;        // Horizontal orbit offset relative to player (radians)
+  public cameraOrbitPitch: number = 0;      // Vertical elevation pitch offset (radians)
+  public cameraDistanceScale: number = 1.0; // Zoom multiplier (0.65x to 1.75x)
+  private isPointerOrbiting: boolean = false;
+  private lastPointerX: number = 0;
+  private lastPointerY: number = 0;
+  private pointerMovedDist: number = 0;
+
   // Environment Meshes
   private waterGeometry: THREE.PlaneGeometry | null = null;
   private clouds: THREE.Group[] = [];
@@ -487,12 +500,24 @@ export class WorldEngine {
   // Living World System (Pedestrians, Market Vendors, Fishermen, Cruising Boats, Wildlife)
   private livingAtmosphere: WorldLivingAtmosphere | null = null;
 
+  // 3D Nature Asset Manager (KayKit Forest Nature Pack 3D Models: Trees, Boulders, Foliage)
+  private natureManager: WorldNatureManager | null = null;
+
+  // 3D Medieval Hexagon Asset Manager (KayKit Medieval Hexagon: Ground & Water Blocks)
+  private hexManager: WorldHexManager | null = null;
+
+  // 3D Medieval Buildings & Architecture Manager (KayKit Medieval Hexagon Pack: Houses, Taverns, Windmill, Market)
+  private buildingManager: WorldBuildingManager | null = null;
+
+  // 3D Animated Humanoid Character Manager (KayKit Character Animations 1.1: Rigged Humanoid NPCs)
+  private characterManager: WorldCharacterManager | null = null;
+
   // POIs
   public pois: IslandPOI[] = [
     { id: "hub", name: "Central Plaza", pos: new THREE.Vector3(0, 4.80, 8.0), desc: "The vibrant heart of the archipelago", tag: "START" },
     { id: "moba", name: "MOBA Sanctuary", pos: new THREE.Vector3(-70, 6.6, -65), desc: "Ancient Champions Monolith & Amethyst Crystal", tag: "ARENA" },
     { id: "br", name: "Battle Royale Outpost", pos: new THREE.Vector3(75, 7.0, -60), desc: "Coastal Lighthouse, Airdrop & Cliff Boardwalk", tag: "SURVIVAL" },
-    { id: "voxel", name: "Voxel Sandbox Bay", pos: new THREE.Vector3(-65, 4.7, 70), desc: "Terraced Cubic Hills & Pixel Palms", tag: "SANDBOX" },
+    { id: "voxel", name: "Hexagon Sandbox Bay", pos: new THREE.Vector3(-65, 4.7, 70), desc: "Medieval Hexagon Terraces, Crystal Lagoon & Waterlilies", tag: "SANDBOX" },
     { id: "soccer", name: "Arcade Soccer Arena", pos: new THREE.Vector3(65, 2.38, 65), desc: "Beach Stadium, Bleachers & Giant Ball", tag: "SPORTS" },
   ];
 
@@ -554,6 +579,19 @@ export class WorldEngine {
         instructions: "Recover 3 Tactical Airdrop Crates along the Outpost cliffs before time runs out!",
         badge: "📦 SURVIVAL ACE",
       },
+    },
+    {
+      id: "kai",
+      name: "Kai the Builder",
+      title: "Master Mason of Hex Bay",
+      island: "Hexagon Sandbox Bay",
+      pos: new THREE.Vector3(-60, 4.80, 65),
+      avatar: "🧱",
+      dialogue: [
+        "Welcome to Hexagon Sandbox Bay, Milo!",
+        "Every single terrace and lake step here is crafted from modular 3D medieval hexagon blocks.",
+        "Take a stroll along the crystal lagoon, inspect the stone chalets, and enjoy the architecture!"
+      ],
     },
     {
       id: "leo",
@@ -621,7 +659,7 @@ export class WorldEngine {
     // 3. WebGL Renderer with Tone Mapping & Soft Shadows
     this.renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
     this.renderer.setSize(container.clientWidth, container.clientHeight);
-    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    this.renderer.setPixelRatio(Math.min(typeof window !== "undefined" ? window.devicePixelRatio : 1, 1.5));
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -656,30 +694,130 @@ export class WorldEngine {
     this.playerGroup.add(this.catMeshGroup);
     this.scene.add(this.playerGroup);
 
-    // 7. Spawn Collectibles, Soccer Arena & Animated NPCs
+    // 7. Initialize 3D Character Manager
+    this.characterManager = new WorldCharacterManager(this.scene);
+
+    // 8. 3D Medieval Hexagon Blocks (Build world terrain FIRST so all ground queries are exact)
+    this.hexManager = new WorldHexManager(this.scene, this.colliders);
+    this.hexManager.buildHexWorld();
+
+    // 9. Collectibles, Soccer Arena & Animated Quest NPCs
     this.spawnTokens();
-    this.spawnSpeedRings();
     this.spawnSoccerArena();
     this.spawnAnimatedNPCs();
     this.setupParticles();
 
-    // 8. Living World: Pedestrians, Market Vendors, Fishermen, Cruising Boats & Wildlife
+    // 10. 3D Medieval Buildings & Houses (Facing inward toward village squares, safe from cliffs)
+    this.buildingManager = new WorldBuildingManager(
+      this.scene,
+      this.colliders,
+      (x: number, z: number) => this.calculateGroundHeight(x, z)
+    );
+    this.buildingManager.buildAllHouses();
+
+    // 11. 3D Stylized Nature Models (Rooted firmly in soil, zero floating, clear of roads)
+    this.natureManager = new WorldNatureManager(
+      this.scene,
+      this.colliders,
+      (x: number, z: number) => this.calculateGroundHeight(x, z)
+    );
+    this.natureManager.decorateAllIslands();
+
+    // 12. Living World: Pedestrians, Market Vendors, Fishermen, Cruising Boats & Wildlife
     this.livingAtmosphere = new WorldLivingAtmosphere(
       this.scene,
       this.colliders,
       (npc: NPCData) => {
         this.npcs.push(npc);
       },
-      (x: number, z: number) => this.calculateGroundHeight(x, z)
+      (x: number, z: number) => this.calculateGroundHeight(x, z),
+      this.characterManager
     );
     this.livingAtmosphere.init();
 
-    // 9. Event Listeners
+    // 13. Event Listeners
     window.addEventListener("resize", this.onWindowResize);
+    document.addEventListener("visibilitychange", this.onVisibilityChange);
+    this.setupPointerControls();
 
-    // 9. Start Loop
+    // 14. Start Loop
     this.isRunning = true;
     this.animate();
+  }
+
+  // =========================================================================
+  // MOUSE / POINTER CAMERA CONTROLS
+  // =========================================================================
+  private onPointerDown = (e: PointerEvent) => {
+    // Only capture primary button (0) or secondary button (2)
+    if (e.button !== 0 && e.button !== 2) return;
+    this.isPointerOrbiting = true;
+    this.lastPointerX = e.clientX;
+    this.lastPointerY = e.clientY;
+    this.pointerMovedDist = 0;
+  };
+
+  private onPointerMove = (e: PointerEvent) => {
+    if (!this.isPointerOrbiting) return;
+    const dx = e.clientX - this.lastPointerX;
+    const dy = e.clientY - this.lastPointerY;
+    this.lastPointerX = e.clientX;
+    this.lastPointerY = e.clientY;
+    this.pointerMovedDist += Math.hypot(dx, dy);
+
+    // Orbit sensitivity: dragging right orbits camera to the right around character
+    this.cameraOrbitYaw -= dx * 0.0055;
+    // Dragging down lowers elevation, dragging up raises elevation
+    this.cameraOrbitPitch = THREE.MathUtils.clamp(
+      this.cameraOrbitPitch - dy * 0.004,
+      -0.35,
+      0.65
+    );
+  };
+
+  private onPointerUp = () => {
+    this.isPointerOrbiting = false;
+  };
+
+  private onWheel = (e: WheelEvent) => {
+    e.preventDefault();
+    this.cameraDistanceScale = THREE.MathUtils.clamp(
+      this.cameraDistanceScale + e.deltaY * 0.0008,
+      0.65,
+      1.75
+    );
+  };
+
+  private onDoubleClick = () => {
+    // Quick double click resets camera POV to default
+    this.cameraOrbitYaw = 0;
+    this.cameraOrbitPitch = 0;
+    this.cameraDistanceScale = 1.0;
+  };
+
+  private onContextMenu = (e: MouseEvent) => {
+    // Prevent default context menu on right click drag
+    e.preventDefault();
+  };
+
+  private setupPointerControls() {
+    this.container.addEventListener("pointerdown", this.onPointerDown);
+    window.addEventListener("pointermove", this.onPointerMove);
+    window.addEventListener("pointerup", this.onPointerUp);
+    window.addEventListener("pointercancel", this.onPointerUp);
+    this.container.addEventListener("wheel", this.onWheel, { passive: false });
+    this.container.addEventListener("dblclick", this.onDoubleClick);
+    this.container.addEventListener("contextmenu", this.onContextMenu);
+  }
+
+  private removePointerControls() {
+    this.container.removeEventListener("pointerdown", this.onPointerDown);
+    window.removeEventListener("pointermove", this.onPointerMove);
+    window.removeEventListener("pointerup", this.onPointerUp);
+    window.removeEventListener("pointercancel", this.onPointerUp);
+    this.container.removeEventListener("wheel", this.onWheel);
+    this.container.removeEventListener("dblclick", this.onDoubleClick);
+    this.container.removeEventListener("contextmenu", this.onContextMenu);
   }
 
   // =========================================================================
@@ -763,7 +901,7 @@ export class WorldEngine {
   // PROCEDURAL OCEAN, SHORELINE FOAM & MARITIME BUOYS
   // =========================================================================
   private buildOcean() {
-    this.waterGeometry = new THREE.PlaneGeometry(550, 550, 80, 80);
+    this.waterGeometry = new THREE.PlaneGeometry(550, 550, 44, 44);
     this.waterGeometry.rotateX(-Math.PI / 2);
 
     const waterMat = new THREE.MeshStandardMaterial({
@@ -900,90 +1038,13 @@ export class WorldEngine {
   private createOrganicIsland(cfg: { center: THREE.Vector3; radius: number; height: number; sandColor: number; grassColor: number }) {
     this.createShorelineFoam(cfg.center, cfg.radius);
 
-    // 1. Golden Sand Beach Shelf (Top face at y = 1.30)
+    // 1. Golden Sand Beach Shelf at sea level (Top face at y = 1.30, submerged in ocean perimeter)
     const sandGeo = new THREE.CylinderGeometry(cfg.radius * 0.94, cfg.radius * 1.25, 2.0, 36);
     const sandMat = new THREE.MeshStandardMaterial({ color: cfg.sandColor, roughness: 0.9, flatShading: true });
     const sandMesh = new THREE.Mesh(sandGeo, sandMat);
     sandMesh.position.set(cfg.center.x, 0.3, cfg.center.z);
     sandMesh.receiveShadow = true;
     this.scene.add(sandMesh);
-
-    // 2. Rich Earthy Soil & Rock Cliff Layer (Tanah Cokelat - Berhenti 0.85m di Bawah Rumput agar Tidak Z-Fight!)
-    const soilTop = cfg.height - 0.85;
-    const soilBottom = 1.0;
-    const soilH = Math.max(0.6, soilTop - soilBottom);
-    const soilGeo = new THREE.CylinderGeometry(cfg.radius * 0.82, cfg.radius * 0.96, soilH, 36);
-    const soilMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.9, flatShading: true });
-    const soilMesh = new THREE.Mesh(soilGeo, soilMat);
-    soilMesh.position.set(cfg.center.x, soilBottom + soilH / 2, cfg.center.z);
-    soilMesh.castShadow = true;
-    soilMesh.receiveShadow = true;
-    this.scene.add(soilMesh);
-
-    // 3. Lush Green Park Turf Plateau (Rumput Hijau Halus - Satu-satunya Permukaan di y = cfg.height)
-    const hillH = 1.0;
-    const hillGeo = new THREE.CylinderGeometry(cfg.radius * 0.88, cfg.radius * 0.94, hillH, 36);
-    const hillMat = new THREE.MeshStandardMaterial({
-      color: cfg.grassColor,
-      roughness: 0.88,
-      metalness: 0.0,
-      flatShading: false, // Smooth shading anti-flicker
-    });
-    const hillMesh = new THREE.Mesh(hillGeo, hillMat);
-    hillMesh.position.set(cfg.center.x, cfg.height - hillH / 2, cfg.center.z);
-    hillMesh.castShadow = true;
-    hillMesh.receiveShadow = true;
-    this.scene.add(hillMesh);
-
-    // 4. Palm Trees & Coastal Boulders
-    for (let i = 0; i < 7; i++) {
-      const angle = (i / 7) * Math.PI * 2;
-      const dist = cfg.radius * 0.84;
-      const x = cfg.center.x + Math.cos(angle) * dist;
-      const z = cfg.center.z + Math.sin(angle) * dist;
-      this.createPalmTree(x, z, cfg.height);
-      if (i % 2 === 0) {
-        this.createBeachRock(x + 2.5, z - 2.5, 1.3);
-      }
-    }
-  }
-
-  private createPalmTree(x: number, z: number, y: number) {
-    const trunkMat = new THREE.MeshStandardMaterial({ color: 0x854d0e, roughness: 0.85 });
-    const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.38, 3.8, 8), trunkMat);
-    trunk.position.set(x, y + 1.9, z);
-    trunk.rotation.z = (Math.random() - 0.5) * 0.22;
-    trunk.castShadow = true;
-    this.scene.add(trunk);
-    this.colliders.push({ x, z, radius: 0.65, label: "palm" });
-
-    const leavesMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.65, flatShading: true });
-    for (let j = 0; j < 5; j++) {
-      const leaf = new THREE.Mesh(new THREE.ConeGeometry(1.3, 2.4, 5), leavesMat);
-      leaf.position.set(x, y + 4.0, z);
-      leaf.rotation.z = Math.PI / 3.2;
-      leaf.rotation.y = (j / 5) * Math.PI * 2;
-      leaf.castShadow = true;
-      this.scene.add(leaf);
-    }
-
-    const nutMat = new THREE.MeshStandardMaterial({ color: 0x582a0b, roughness: 0.8 });
-    for (let k = 0; k < 3; k++) {
-      const nut = new THREE.Mesh(new THREE.SphereGeometry(0.18, 6, 6), nutMat);
-      nut.position.set(x + (k - 1) * 0.22, y + 3.7, z + (k % 2 === 0 ? 0.22 : -0.22));
-      this.scene.add(nut);
-    }
-  }
-
-  private createBeachRock(x: number, z: number, y: number) {
-    const rockMat = new THREE.MeshStandardMaterial({ color: 0x64748b, roughness: 0.85, flatShading: true });
-    const rock = new THREE.Mesh(new THREE.DodecahedronGeometry(0.9 + Math.random() * 0.5, 0), rockMat);
-    rock.position.set(x, y, z);
-    rock.rotation.set(Math.random(), Math.random(), Math.random());
-    rock.castShadow = true;
-    rock.receiveShadow = true;
-    this.scene.add(rock);
-    this.colliders.push({ x, z, radius: 1.1, label: "rock" });
   }
 
   // =========================================================================
@@ -1151,34 +1212,6 @@ export class WorldEngine {
     this.colliders.push({ x, z, radius: 0.5, label: "lamppost" });
   }
 
-  // Pohon Taman Rindang & Pohon Bunga (Lush Park Canopy Trees)
-  private createParkTree(x: number, z: number, y: number, isBlossom: boolean = false) {
-    const trunkMat = new THREE.MeshStandardMaterial({ color: 0x582a0b, roughness: 0.9 });
-    const foliageMat = new THREE.MeshStandardMaterial({
-      color: isBlossom ? 0xf472b6 : 0x16a34a,
-      roughness: 0.7,
-      flatShading: true,
-    });
-
-    const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.45, 2.6, 8), trunkMat);
-    trunk.position.set(x, y + 1.3, z);
-    trunk.castShadow = true;
-    this.scene.add(trunk);
-    this.colliders.push({ x, z, radius: 0.75, label: "tree" });
-
-    for (let c = 0; c < 4; c++) {
-      const angle = (c / 4) * Math.PI * 2;
-      const crown = new THREE.Mesh(new THREE.DodecahedronGeometry(1.4 + (c % 2) * 0.3, 1), foliageMat);
-      crown.position.set(x + Math.cos(angle) * 0.6, y + 2.8 + (c % 2) * 0.5, z + Math.sin(angle) * 0.6);
-      crown.castShadow = true;
-      this.scene.add(crown);
-    }
-    const topCrown = new THREE.Mesh(new THREE.DodecahedronGeometry(1.6, 1), foliageMat);
-    topCrown.position.set(x, y + 3.8, z);
-    topCrown.castShadow = true;
-    this.scene.add(topCrown);
-  }
-
   private createBeachUmbrella(x: number, z: number, y: number, colorA: number, colorB: number) {
     const poleMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0, roughness: 0.3 });
     const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 2.4), poleMat);
@@ -1240,26 +1273,7 @@ export class WorldEngine {
     innerPlaza.receiveShadow = true;
     this.scene.add(innerPlaza);
 
-    // Center Garden Ring around Trophy
-    this.createGardenFlowerBed(new THREE.Vector3(center.x, 4.80, center.z), 3.2, 12);
-
-    // Golden Trophy on dark granite pedestal
-    const pedestal = new THREE.Mesh(
-      new THREE.CylinderGeometry(1.1, 1.4, 0.9, 12),
-      new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.5 })
-    );
-    pedestal.position.set(center.x, 5.35, center.z);
-    pedestal.castShadow = true;
-    this.scene.add(pedestal);
-
-    const trophy = new THREE.Mesh(
-      new THREE.CylinderGeometry(1.3, 0.45, 2.8, 16),
-      new THREE.MeshStandardMaterial({ color: 0xf59e0b, metalness: 0.85, roughness: 0.15 })
-    );
-    trophy.position.set(center.x, 6.90, center.z);
-    trophy.castShadow = true;
-    this.scene.add(trophy);
-    this.colliders.push({ type: "circle", x: center.x, z: center.z, radius: 3.3, label: "central_flowerbed" });
+    // Center plaza is kept wide, open, and unobstructed for smooth exploration and gathering
 
     // 2. 4 Radial Cobblestone Roads (Jalan Paving ke Setiap Jembatan!)
     this.createPathSegment(new THREE.Vector3(-6, 0, -6), new THREE.Vector3(-18, 0, -18), 3.4, 0xa8a29e, 4.80);
@@ -1273,13 +1287,7 @@ export class WorldEngine {
     this.createGardenFlowerBed(new THREE.Vector3(center.x - 15, 4.80, center.z), 3.0, 9);
     this.createGardenFlowerBed(new THREE.Vector3(center.x + 15, 4.80, center.z), 3.0, 9);
 
-    // 4. Park Shade Trees & Cherry Blossom Trees
-    this.createParkTree(center.x - 10, center.z - 12, 4.80, false);
-    this.createParkTree(center.x + 10, center.z - 12, 4.80, true);
-    this.createParkTree(center.x - 10, center.z + 12, 4.80, true);
-    this.createParkTree(center.x + 10, center.z + 12, 4.80, false);
-
-    // 5. Wooden Park Benches along the promenade
+    // 4. Wooden Park Benches along the promenade
     this.createParkBench(center.x - 8, center.z - 5, 4.80, Math.PI / 4);
     this.createParkBench(center.x + 8, center.z - 5, 4.80, -Math.PI / 4);
     this.createParkBench(center.x - 8, center.z + 5, 4.80, (3 * Math.PI) / 4);
@@ -1312,37 +1320,6 @@ export class WorldEngine {
     this.createParkBench(center.x - 9, center.z - 2, 6.6, Math.PI / 3);
     this.createGardenLampPost(center.x - 5, center.z - 8, 6.6);
     this.createGardenLampPost(center.x - 12, center.z + 5, 6.6);
-
-    const blade = new THREE.Mesh(
-      new THREE.BoxGeometry(0.9, 15, 2.4),
-      new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 0.6, metalness: 0.9, roughness: 0.1 })
-    );
-    blade.position.set(center.x, 10.5, center.z);
-    blade.rotation.z = 0.15;
-    blade.castShadow = true;
-    this.scene.add(blade);
-    this.colliders.push({ type: "box", minX: center.x - 0.8, maxX: center.x + 0.8, minZ: center.z - 1.6, maxZ: center.z + 1.6, label: "monolith" });
-
-    this.mobaCrystal = new THREE.Mesh(
-      new THREE.OctahedronGeometry(2.4, 0),
-      new THREE.MeshStandardMaterial({ color: 0xa855f7, emissive: 0x9333ea, emissiveIntensity: 0.9, metalness: 0.8, roughness: 0.1 })
-    );
-    this.mobaCrystal.position.set(center.x + 8, 8.5, center.z + 6);
-    this.mobaCrystal.castShadow = true;
-    this.scene.add(this.mobaCrystal);
-    this.colliders.push({ x: center.x + 8, z: center.z + 6, radius: 1.5, label: "crystal" });
-
-    const ruinMat = new THREE.MeshStandardMaterial({ color: 0x94a3b8, roughness: 0.8 });
-    for (let p = 0; p < 4; p++) {
-      const angle = (p / 4) * Math.PI * 2;
-      const px = center.x + Math.cos(angle) * 12;
-      const pz = center.z + Math.sin(angle) * 12;
-      const pillar = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.6, 4.5, 8), ruinMat);
-      pillar.position.set(px, 7.5, pz);
-      pillar.castShadow = true;
-      this.scene.add(pillar);
-      this.colliders.push({ x: px, z: pz, radius: 0.85, label: "pillar" });
-    }
   }
 
   private addBRProps(center: THREE.Vector3) {
@@ -1387,20 +1364,9 @@ export class WorldEngine {
     this.lighthouseBeam.rotation.x = Math.PI / 2;
     this.scene.add(this.lighthouseBeam);
 
-    const crate = new THREE.Mesh(new THREE.BoxGeometry(3.5, 3.5, 3.5), new THREE.MeshStandardMaterial({ color: 0xdc2626, roughness: 0.6 }));
-    crate.position.set(center.x + 6, 8.8, center.z + 6);
-    crate.castShadow = true;
-    this.scene.add(crate);
-    this.colliders.push({ type: "box", minX: center.x + 6 - 1.9, maxX: center.x + 6 + 1.9, minZ: center.z + 6 - 1.9, maxZ: center.z + 6 + 1.9, label: "crate" });
-
-    const chute = new THREE.Mesh(new THREE.ConeGeometry(5.5, 2.8, 14, 1, true), new THREE.MeshStandardMaterial({ color: 0xfacc15, side: THREE.DoubleSide }));
-    chute.position.set(center.x + 6, 13.5, center.z + 6);
-    this.scene.add(chute);
-
     // Park bench & lampposts
     this.createParkBench(center.x + 2, center.z - 12, 7.0, -Math.PI / 4);
     this.createGardenLampPost(center.x, center.z - 6, 7.0);
-    this.createParkTree(center.x - 14, center.z + 4, 7.0, false);
 
     this.createRamp(new THREE.Vector3(center.x - 18, 0, center.z + 8), -Math.PI / 4);
   }
@@ -1408,12 +1374,8 @@ export class WorldEngine {
   private createVoxelIsland(center: THREE.Vector3) {
     this.createShorelineFoam(center, 22);
 
-    const voxelMat = new THREE.MeshStandardMaterial({ color: 0x16a34a, roughness: 0.9, flatShading: true });
-    const soilMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.9, flatShading: true });
-    const stoneMat = new THREE.MeshStandardMaterial({ color: 0x64748b, roughness: 0.8, flatShading: true });
-
     // 1. Solid Stone Arrival Quay & Foundation directly under Bridge Touchdown (-48, 52)
-    // Ensures seamless physical ground connecting bridge abutment directly into Voxel island
+    // Ensures seamless physical ground connecting bridge abutment directly into Hexagon island
     const quayMat = new THREE.MeshStandardMaterial({ color: 0x475569, roughness: 0.85, flatShading: true });
     const arrivalQuay = new THREE.Mesh(new THREE.BoxGeometry(8.5, 5.2, 9.5), quayMat);
     arrivalQuay.position.set(-48, 2.1, 52); // Top surface flush at y = 4.70, anchored to seabed at y = -0.5
@@ -1421,31 +1383,11 @@ export class WorldEngine {
     arrivalQuay.castShadow = true;
     this.scene.add(arrivalQuay);
 
-    const bridgeStairs = new THREE.Mesh(new THREE.BoxGeometry(7.5, 4.8, 8.5), voxelMat);
-    bridgeStairs.position.set(-54, 2.3, 59); // Top surface flush at y = 4.70
-    bridgeStairs.receiveShadow = true;
-    bridgeStairs.castShadow = true;
-    this.scene.add(bridgeStairs);
+    // Paved stone road from bridge (-48, 52) to island arrival promenade
+    this.createPathSegment(new THREE.Vector3(-48, 0, 52), new THREE.Vector3(center.x + 8, 0, center.z - 8), 4.2, 0x475569, 4.7);
 
-    // Paved stone road from bridge (-48, 52) to voxel center
-    this.createPathSegment(new THREE.Vector3(-48, 0, 52), new THREE.Vector3(center.x, 0, center.z), 4.2, 0x475569, 4.7);
-
-    for (let x = -4; x <= 4; x++) {
-      for (let z = -4; z <= 4; z++) {
-        const dist = Math.hypot(x, z);
-        if (dist > 4.2) continue;
-        const h = Math.max(1, 4 - Math.floor(dist * 0.8));
-        const mat = dist > 2.8 ? soilMat : dist > 1.4 ? stoneMat : voxelMat;
-        const box = new THREE.Mesh(new THREE.BoxGeometry(4.5, h * 1.5, 4.5), mat);
-        box.position.set(center.x + x * 4.6, (h * 1.5) / 2 + 0.2, center.z + z * 4.6);
-        box.castShadow = true;
-        box.receiveShadow = true;
-        this.scene.add(box);
-      }
-    }
-
-    this.createParkTree(center.x - 6, center.z - 6, 5.0, true);
-    this.createGardenLampPost(center.x + 6, center.z - 6, 4.7);
+    // Garden Lamp Post near arrival promenade
+    this.createGardenLampPost(center.x + 8, center.z - 6, 4.7);
   }
 
   private addSoccerStadiumProps(center: THREE.Vector3) {
@@ -1494,11 +1436,9 @@ export class WorldEngine {
       });
     }
 
-    // Garden flowerbeds and park trees around stadium
+    // Garden flowerbeds around stadium
     this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.60, center.z - 10), 2.5, 7);
     this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.60, center.z + 10), 2.5, 7);
-    this.createParkTree(center.x - 14, center.z - 14, 2.60, false);
-    this.createParkTree(center.x - 14, center.z + 14, 2.60, true);
 
     // Park benches & Lampposts for spectators
     this.createParkBench(center.x + 14, center.z, 2.60, -Math.PI / 2);
@@ -1854,364 +1794,75 @@ export class WorldEngine {
   }
 
   // =========================================================================
-  // ANIMATED 3D CHIBI NPCS
+  // ANIMATED 3D KAYKIT HUMANOID NPCS
   // =========================================================================
   private spawnAnimatedNPCs() {
+    const defaultRotY: Record<string, number> = {
+      lexa: 0.15,
+      valen: 0.85,
+      jax: -0.75,
+      kai: 0.20,
+      leo: 0.45,
+    };
+
+    const tintColors: Record<string, number> = {
+      lexa: 0xf59e0b, // Adventurer Amber
+      valen: 0x6366f1, // Knight Indigo
+      jax: 0x10b981,   // Ranger Emerald
+      kai: 0x0ea5e9,   // Builder Sky Blue
+      leo: 0xef4444,   // Striker Coral Red
+    };
+
+    const initialAnims: Record<string, string> = {
+      lexa: "Idle_A",
+      valen: "Idle_B",
+      jax: "Idle_A",
+      kai: "Idle_A",
+      leo: "Idle_B",
+    };
+
     this.npcs.forEach((npc) => {
+      npc.pos.y = this.calculateGroundHeight(npc.pos.x, npc.pos.z);
       const group = new THREE.Group();
       group.position.copy(npc.pos);
+      const rotY = defaultRotY[npc.id] ?? 0;
 
-      // Set natural posed orientation (facing scenic post)
-      const defaultRotY: Record<string, number> = {
-        lexa: 0.15,
-        valen: 0.85,
-        jax: -0.75,
-        leo: 0.45,
-      };
-      group.rotation.y = defaultRotY[npc.id] ?? 0;
-
-      const darkMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.5 });
-      const goldMat = new THREE.MeshStandardMaterial({ color: 0xfacc15, metalness: 0.8, roughness: 0.2 });
-      const whiteMat = new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.4 });
-
-      // Head Group (Natural posed head, doesn't swivel towards player)
-      const headGroup = new THREE.Group();
-      headGroup.position.set(0, 1.7, 0);
-
-      // Procedural Anime Face Texture mapped to front (-Z)
-      const faceTex = createNPCFaceTexture(npc.id);
-      faceTex.needsUpdate = true;
-      const faceMat = new THREE.MeshStandardMaterial({ map: faceTex, roughness: 0.65 });
-      const head = new THREE.Mesh(new THREE.SphereGeometry(0.44, 24, 24), faceMat);
-      head.rotation.y = Math.PI / 2; // Centers texture directly towards -Z (front)
-      head.castShadow = true;
-      headGroup.add(head);
-
-      // Legs & Boots firmly planted on ground
-      for (const lx of [-0.18, 0.18]) {
-        const leg = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.14, 0.52, 12), darkMat);
-        leg.position.set(lx, 0.26, 0);
-        leg.castShadow = true;
-        group.add(leg);
-
-        const boot = new THREE.Mesh(new THREE.BoxGeometry(0.24, 0.18, 0.36), darkMat);
-        boot.position.set(lx, 0.09, -0.06);
-        group.add(boot);
+      // Spawn authentic KayKit rigged 3D character with skeletal animation
+      if (this.characterManager) {
+        this.characterManager.spawnCharacter({
+          id: npc.id,
+          name: npc.name,
+          pos: npc.pos,
+          rotY,
+          scale: 1.45,
+          tintColor: tintColors[npc.id],
+          initialAnim: initialAnims[npc.id] || "Idle_A",
+          targetGroup: group,
+        });
       }
 
-      let waveArm: THREE.Group | undefined;
+      // Sports prop for Leo (Mini Soccer Ball on the turf)
       let juggledBall: THREE.Mesh | undefined;
-
-      if (npc.id === "lexa") {
-        // --- LEXA: THE ARCHIPELAGO NAVIGATOR & ADVENTURER ---
-        const hairMat = new THREE.MeshStandardMaterial({ color: 0x92400e, roughness: 0.7 });
-
-        // Hair Back volume
-        const hairBack = new THREE.Mesh(new THREE.SphereGeometry(0.47, 16, 16, 0, Math.PI, 0, Math.PI), hairMat);
-        hairBack.position.set(0, 0, 0.08);
-        hairBack.rotation.x = -Math.PI / 2;
-        headGroup.add(hairBack);
-
-        // Front layered bangs
-        for (const bx of [-0.22, 0, 0.22]) {
-          const bang = new THREE.Mesh(new THREE.BoxGeometry(0.15, 0.22, 0.1), hairMat);
-          bang.position.set(bx, 0.24, -0.4);
-          bang.rotation.z = bx * 0.4;
-          bang.rotation.x = -0.2;
-          headGroup.add(bang);
-        }
-
-        // Side hair locks
-        for (const sx of [-0.42, 0.42]) {
-          const lock = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.03, 0.42, 8), hairMat);
-          lock.position.set(sx, -0.05, -0.15);
-          headGroup.add(lock);
-        }
-
-        // Explorer Safari Hat with wide brim, leather strap & gold compass buckle
-        const vestMat = new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.7 });
-        const hatBrim = new THREE.Mesh(new THREE.CylinderGeometry(0.72, 0.72, 0.06, 24), vestMat);
-        hatBrim.position.y = 0.34;
-        headGroup.add(hatBrim);
-
-        const hatCrown = new THREE.Mesh(new THREE.CylinderGeometry(0.40, 0.46, 0.36, 16), vestMat);
-        hatCrown.position.y = 0.53;
-        headGroup.add(hatCrown);
-
-        const hatBand = new THREE.Mesh(new THREE.CylinderGeometry(0.465, 0.465, 0.08, 16), darkMat);
-        hatBand.position.y = 0.39;
-        headGroup.add(hatBand);
-
-        const compassBuckle = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.05, 12), goldMat);
-        compassBuckle.position.set(0, 0.39, -0.47);
-        compassBuckle.rotation.x = Math.PI / 2;
-        headGroup.add(compassBuckle);
-
-        // Khaki jacket body with utility belt
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.44, 0.92, 14), vestMat);
-        body.position.y = 0.92;
-        body.castShadow = true;
-        group.add(body);
-
-        // White collar
-        const collar = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.26, 0.12, 12), whiteMat);
-        collar.position.y = 1.34;
-        group.add(collar);
-
-        // Utility belt & pouches
-        const belt = new THREE.Mesh(new THREE.CylinderGeometry(0.45, 0.45, 0.1, 16), darkMat);
-        belt.position.y = 0.62;
-        group.add(belt);
-
-        for (const px of [-0.38, 0.38]) {
-          const pouch = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.18, 0.14), darkMat);
-          pouch.position.set(px, 0.62, 0);
-          group.add(pouch);
-        }
-
-        // Explorer backpack on back (+Z)
-        const backpack = new THREE.Mesh(new THREE.BoxGeometry(0.52, 0.62, 0.32), darkMat);
-        backpack.position.set(0, 0.95, 0.38);
-        backpack.castShadow = true;
-        group.add(backpack);
-
-        const bedroll = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, 0.54, 12), new THREE.MeshStandardMaterial({ color: 0x059669 }));
-        bedroll.position.set(0, 1.30, 0.38);
-        bedroll.rotation.z = Math.PI / 2;
-        group.add(bedroll);
-
-        // Friendly animated waving arm (right arm)
-        waveArm = new THREE.Group();
-        waveArm.position.set(0.46, 1.25, 0);
-        const armMesh = new THREE.Mesh(new THREE.CylinderGeometry(0.1, 0.09, 0.52), vestMat);
-        armMesh.position.y = 0.24;
-        waveArm.add(armMesh);
-        const hand = new THREE.Mesh(new THREE.SphereGeometry(0.12, 8, 8), whiteMat);
-        hand.position.y = 0.50;
-        waveArm.add(hand);
-        group.add(waveArm);
-
-        // Resting left arm
-        const leftArm = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.08, 0.52), vestMat);
-        leftArm.position.set(-0.46, 0.95, 0);
-        group.add(leftArm);
-
-      } else if (npc.id === "valen") {
-        // --- VALEN: MOBA SANCTUARY KNIGHT & RUNE GUARDIAN ---
-        const armorMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0, metalness: 0.9, roughness: 0.18 });
-        const cyanGlowMat = new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 1.2 });
-        const hairMat = new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.6 });
-
-        // Dark navy hair strands peeking out
-        const hairBack = new THREE.Mesh(new THREE.SphereGeometry(0.46, 14, 14, 0, Math.PI, 0, Math.PI), hairMat);
-        hairBack.position.set(0, -0.05, 0.08);
-        hairBack.rotation.x = -Math.PI / 2;
-        headGroup.add(hairBack);
-
-        // Paladin Winged Circlet Visor
-        const circlet = new THREE.Mesh(new THREE.CylinderGeometry(0.46, 0.46, 0.12, 16), armorMat);
-        circlet.position.y = 0.25;
-        headGroup.add(circlet);
-
-        // Forehead Rune Gem
-        const runeGem = new THREE.Mesh(new THREE.OctahedronGeometry(0.12, 0), cyanGlowMat);
-        runeGem.position.set(0, 0.25, -0.47);
-        headGroup.add(runeGem);
-
-        // Winged visor fins on sides
-        for (const wx of [-0.48, 0.48]) {
-          const wing = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.35, 0.25), armorMat);
-          wing.position.set(wx, 0.35, -0.05);
-          wing.rotation.z = (wx > 0 ? -1 : 1) * 0.4;
-          wing.rotation.y = (wx > 0 ? 1 : -1) * 0.2;
-          headGroup.add(wing);
-        }
-
-        // Armored Torso with Cyan Arc-Reactor
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.40, 0.48, 0.96, 14), armorMat);
-        body.position.y = 0.94;
-        body.castShadow = true;
-        group.add(body);
-
-        const chestRune = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.06, 16), cyanGlowMat);
-        chestRune.position.set(0, 1.15, -0.42);
-        chestRune.rotation.x = Math.PI / 2;
-        group.add(chestRune);
-
-        // Giant Winged Shoulder Pauldrons
-        for (const px of [-0.52, 0.52]) {
-          const pauldron = new THREE.Mesh(new THREE.SphereGeometry(0.26, 12, 12), armorMat);
-          pauldron.position.set(px, 1.35, 0);
-          group.add(pauldron);
-
-          const pGlow = new THREE.Mesh(new THREE.TorusGeometry(0.22, 0.04, 8, 16), cyanGlowMat);
-          pGlow.position.set(px, 1.35, 0);
-          pGlow.rotation.y = Math.PI / 2;
-          group.add(pGlow);
-        }
-
-        // Royal Blue Cape fluttering on back (+Z)
-        const capeMat = new THREE.MeshStandardMaterial({ color: 0x1d4ed8, roughness: 0.6, side: THREE.DoubleSide });
-        const cape = new THREE.Mesh(new THREE.PlaneGeometry(0.72, 1.1), capeMat);
-        cape.position.set(0, 0.85, 0.44);
-        cape.rotation.x = 0.15;
-        group.add(cape);
-
-        // Cyan Glowing Greatsword held at side
-        const swordGroup = new THREE.Group();
-        swordGroup.position.set(0.60, 0.7, 0.1);
-        swordGroup.rotation.z = -0.2;
-
-        const blade = new THREE.Mesh(new THREE.BoxGeometry(0.14, 1.8, 0.38), cyanGlowMat);
-        blade.position.y = 0.9;
-        swordGroup.add(blade);
-
-        const guard = new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.14, 0.7), goldMat);
-        guard.position.y = 0.0;
-        swordGroup.add(guard);
-
-        const hilt = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 0.5), darkMat);
-        hilt.position.y = -0.28;
-        swordGroup.add(hilt);
-
-        group.add(swordGroup);
-
-      } else if (npc.id === "jax") {
-        // --- JAX: BATTLE ROYALE OUTPOST ACE & SURVIVOR ---
-        const camoMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.8 });
-        const beretMat = new THREE.MeshStandardMaterial({ color: 0xb91c1c, roughness: 0.6 });
-        const hairMat = new THREE.MeshStandardMaterial({ color: 0x451a03, roughness: 0.7 });
-
-        // Short military cropped hair behind head
-        const hairBack = new THREE.Mesh(new THREE.SphereGeometry(0.45, 14, 14, 0, Math.PI, 0, Math.PI), hairMat);
-        hairBack.position.set(0, 0, 0.08);
-        hairBack.rotation.x = -Math.PI / 2;
-        headGroup.add(hairBack);
-
-        // Red Tactical Beret sharply tilted with silver emblem
-        const beret = new THREE.Mesh(new THREE.CylinderGeometry(0.50, 0.46, 0.22, 16), beretMat);
-        beret.position.set(0.10, 0.38, 0);
-        beret.rotation.z = -0.28;
-        headGroup.add(beret);
-
-        const beretBadge = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.12, 0.04), goldMat);
-        beretBadge.position.set(0.02, 0.38, -0.46);
-        headGroup.add(beretBadge);
-
-        // Tactical Headset with Ear Cup & Boom Microphone
-        const headsetCup = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, 0.10, 10), darkMat);
-        headsetCup.position.set(-0.44, 0.05, 0);
-        headsetCup.rotation.z = Math.PI / 2;
-        headGroup.add(headsetCup);
-
-        const headsetAntenna = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.02, 0.45), darkMat);
-        headsetAntenna.position.set(-0.45, 0.35, 0);
-        headGroup.add(headsetAntenna);
-
-        const micBoom = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.02, 0.32), darkMat);
-        micBoom.position.set(-0.35, -0.12, -0.32);
-        micBoom.rotation.x = Math.PI / 3;
-        headGroup.add(micBoom);
-
-        // Combat Tactical Plate Carrier Body
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.38, 0.46, 0.92, 14), camoMat);
-        body.position.y = 0.92;
-        body.castShadow = true;
-        group.add(body);
-
-        // Ammo Pouches on Plate Carrier (Front facing -Z)
-        for (const px of [-0.18, 0, 0.18]) {
-          const mag = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.22, 0.12), darkMat);
-          mag.position.set(px, 0.95, -0.42);
-          group.add(mag);
-        }
-
-        // Radio on shoulder
-        const shoulderRadio = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.26, 0.12), darkMat);
-        shoulderRadio.position.set(-0.42, 1.25, -0.1);
-        group.add(shoulderRadio);
-
-        // Tactical Binoculars / Rangefinder
-        const bino = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.16, 0.22), darkMat);
-        bino.position.set(0, 0.65, -0.44);
-        group.add(bino);
-
-      } else if (npc.id === "leo") {
-        // --- LEO: BEACH STADIUM CHAMPION STRIKER ---
-        const jerseyMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.6 });
-        const hairMat = new THREE.MeshStandardMaterial({ color: 0x1e1b18, roughness: 0.8 });
-
-        // Dynamic Spiky Anime Soccer Hair
-        const hairBase = new THREE.Mesh(new THREE.SphereGeometry(0.46, 14, 14, 0, Math.PI, 0, Math.PI), hairMat);
-        hairBase.position.set(0, 0.02, 0.06);
-        hairBase.rotation.x = -Math.PI / 2;
-        headGroup.add(hairBase);
-
-        // Spikes on top and back
-        const spikeGeo = new THREE.ConeGeometry(0.14, 0.36, 5);
-        const spikeOffsets: [number, number, number, number, number][] = [
-          [0, 0.45, -0.15, -0.3, 0],
-          [-0.22, 0.42, -0.1, -0.2, 0.4],
-          [0.22, 0.42, -0.1, -0.2, -0.4],
-          [0, 0.48, 0.15, 0.3, 0],
-          [-0.18, 0.45, 0.2, 0.3, 0.3],
-          [0.18, 0.45, 0.2, 0.3, -0.3],
-        ];
-        spikeOffsets.forEach(([sx, sy, sz, rx, rz]) => {
-          const spike = new THREE.Mesh(spikeGeo, hairMat);
-          spike.position.set(sx, sy, sz);
-          spike.rotation.x = rx;
-          spike.rotation.z = rz;
-          headGroup.add(spike);
-        });
-
-        // Crisp White Athletic Headband
-        const headband = new THREE.Mesh(new THREE.CylinderGeometry(0.455, 0.455, 0.14, 16), whiteMat);
-        headband.position.y = 0.20;
-        headGroup.add(headband);
-
-        // Sporty #10 Jersey Body
-        const body = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.44, 0.92, 14), jerseyMat);
-        body.position.y = 0.92;
-        body.castShadow = true;
-        group.add(body);
-
-        // White V-Neck Collar
-        const collar = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.26, 0.1), whiteMat);
-        collar.position.y = 1.34;
-        group.add(collar);
-
-        // #10 Number Emblem on Chest (Front facing -Z)
-        const numberPatch = new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.26, 0.05), whiteMat);
-        numberPatch.position.set(0, 1.05, -0.42);
-        group.add(numberPatch);
-
-        // Captain Armband on Left Arm (Yellow)
-        const captainArmband = new THREE.Mesh(new THREE.CylinderGeometry(0.11, 0.11, 0.12, 10), goldMat);
-        captainArmband.position.set(-0.46, 1.15, 0);
-        group.add(captainArmband);
-
-        // Animated Mini Juggled Soccer Ball
+      if (npc.id === "leo") {
         const soccerBallTex = createSoccerBallTexture();
         const ballMat = new THREE.MeshStandardMaterial({ map: soccerBallTex, roughness: 0.35 });
         juggledBall = new THREE.Mesh(new THREE.SphereGeometry(0.28, 16, 16), ballMat);
-        juggledBall.position.set(0.38, 0.45, -0.45);
+        juggledBall.position.set(0.40, 0.28, 0.25);
+        juggledBall.castShadow = true;
         group.add(juggledBall);
       }
 
-      group.add(headGroup);
-
       // Floating Holographic Quest Diamond with Idle Bobbing Bloom
       const beaconGroup = new THREE.Group();
-      beaconGroup.position.y = 2.75;
+      beaconGroup.position.y = 2.45;
       const beacon = new THREE.Mesh(
-        new THREE.OctahedronGeometry(0.34, 0),
+        new THREE.OctahedronGeometry(0.32, 0),
         new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 1.4 })
       );
       beaconGroup.add(beacon);
 
       const beaconRing = new THREE.Mesh(
-        new THREE.TorusGeometry(0.5, 0.04, 8, 20),
+        new THREE.TorusGeometry(0.46, 0.038, 8, 20),
         new THREE.MeshStandardMaterial({ color: 0xfacc15, emissive: 0xeab308, emissiveIntensity: 1.2 })
       );
       beaconRing.rotation.x = Math.PI / 2;
@@ -2220,7 +1871,7 @@ export class WorldEngine {
       group.add(beaconGroup);
 
       this.scene.add(group);
-      this.npcMeshMap.set(npc.id, { group, head: headGroup, waveArm, juggledBall });
+      this.npcMeshMap.set(npc.id, { group, head: group, juggledBall });
       this.colliders.push({ x: npc.pos.x, z: npc.pos.z, radius: 0.95, label: npc.id });
     });
   }
@@ -2272,7 +1923,9 @@ export class WorldEngine {
       [60, 3.8, 60], [70, 3.8, 70],
     ];
 
-    spawnCoords.forEach(([x, y, z]) => {
+    spawnCoords.forEach(([x, _rawY, z]) => {
+      const groundY = this.calculateGroundHeight(x, z);
+      const y = groundY + 1.25; // Floating gracefully at chest height
       const token = new THREE.Mesh(tokenGeo, tokenMat);
       token.position.set(x, y, z);
       token.castShadow = true;
@@ -2284,34 +1937,8 @@ export class WorldEngine {
   }
 
   private spawnSpeedRings() {
-    // Sized to frame the 4.2m bridge as an arched portal gate (radius 2.3, bottom clears deck by +0.15m)
-    const ringGeo = new THREE.TorusGeometry(2.3, 0.22, 10, 28);
-    const ringMat = new THREE.MeshStandardMaterial({
-      color: 0x06b6d4,
-      emissive: 0x0891b2,
-      emissiveIntensity: 1.0,
-      roughness: 0.1,
-    });
-
-    // Placed at the apex of each arched bridge, rotated to align with the bridge axis
-    const ringConfigs: [number, number, number, number][] = [
-      // Bridge 1 (NW to MOBA): apex deck y=7.30 -> ring center y=9.75 (bottom at 7.45m, clears 7.30m deck)
-      [-35, 9.75, -34, Math.atan2(-34, -32)],
-      // Bridge 2 (NE to Battle Royale): apex deck y=7.50 -> ring center y=9.95 (bottom at 7.65m, clears 7.50m deck)
-      [37, 9.95, -30.5, Math.atan2(38, -29)],
-      // Bridge 3 (SW to Voxel): apex deck y=6.15 -> ring center y=8.60 (bottom at 6.30m, clears 6.15m deck)
-      [-32, 8.60, 35, Math.atan2(-32, 34)],
-      // Bridge 4 (SE to Soccer): apex deck y=4.70 -> ring center y=7.15 (bottom at 4.85m, clears 4.70m deck)
-      [32, 7.15, 33, Math.atan2(32, 30)],
-    ];
-
-    ringConfigs.forEach(([x, y, z, rotY]) => {
-      const ring = new THREE.Mesh(ringGeo, ringMat);
-      ring.position.set(x, y, z);
-      ring.rotation.y = rotY;
-      this.scene.add(ring);
-      this.speedRings.push(ring);
-    });
+    // Bridges are kept completely open and natural without floating rings
+    this.speedRings = [];
   }
 
   private createTubeBetweenPoints(
@@ -2524,9 +2151,24 @@ export class WorldEngine {
   // =========================================================================
   // ANIMATION LOOP & PHYSICS
   // =========================================================================
+  private waveFrameCounter: number = 0;
+  private isTabPaused: boolean = false;
+
+  private onVisibilityChange = () => {
+    if (typeof document !== "undefined" && document.hidden) {
+      this.isTabPaused = true;
+    } else {
+      this.isTabPaused = false;
+      this.clock.getDelta(); // flush delta so no giant time jump occurs
+    }
+  };
+
   private animate = () => {
     if (!this.isRunning) return;
     this.reqId = requestAnimationFrame(this.animate);
+
+    // Pause physics and rendering when tab is inactive to preserve battery & CPU
+    if (this.isTabPaused) return;
 
     const delta = Math.min(this.clock.getDelta(), 0.08);
     const time = this.clock.getElapsedTime();
@@ -2535,6 +2177,9 @@ export class WorldEngine {
     this.updatePropsAndAtmosphere(time);
     this.updatePlayerMovement(delta, time);
     this.updateNPCBehaviors(time);
+    if (this.characterManager) {
+      this.characterManager.update(delta);
+    }
     this.updateCollectibles(time);
     this.updateSoccerBall(delta);
     this.updateMinigame(delta, time);
@@ -2550,6 +2195,9 @@ export class WorldEngine {
 
   private updateWaterWaves(time: number) {
     if (!this.waterGeometry) return;
+    this.waveFrameCounter++;
+    if (this.waveFrameCounter % 2 !== 0) return; // run vertex updates at smooth 30Hz
+
     const posAttr = this.waterGeometry.attributes.position;
     for (let i = 0; i < posAttr.count; i++) {
       const u = posAttr.getX(i);
@@ -2589,30 +2237,22 @@ export class WorldEngine {
 
   private updateNPCBehaviors(time: number) {
     this.npcMeshMap.forEach((npcRef, npcId) => {
-      // Gentle breathing body bobbing
-      npcRef.group.position.y = (this.npcs.find((n) => n.id === npcId)?.pos.y || 0) + Math.sin(time * 2.6) * 0.03;
-
-      const distToPlayer = npcRef.group.position.distanceTo(this.playerPos);
       const isTalking = this.activeDialogueNPC?.id === npcId;
 
-      // Natural heroic idle breathing (face does NOT follow the player)
-      npcRef.head.rotation.y = THREE.MathUtils.lerp(npcRef.head.rotation.y, 0, 0.1);
-      npcRef.head.rotation.x = Math.sin(time * 2.2) * 0.03; // Subtle natural breathing nod
-
-      // Lexa friendly wave
-      if (npcId === "lexa" && npcRef.waveArm) {
-        if (distToPlayer < 10 || isTalking) {
-          npcRef.waveArm.rotation.z = -1.2 + Math.sin(time * 8) * 0.45;
+      if (this.characterManager) {
+        if (isTalking) {
+          this.characterManager.playAnimation(npcId, "Interact");
         } else {
-          npcRef.waveArm.rotation.z = THREE.MathUtils.lerp(npcRef.waveArm.rotation.z, 0, 0.1);
+          const defaultAnim = (npcId === "valen" || npcId === "leo") ? "Idle_B" : "Idle_A";
+          this.characterManager.playAnimation(npcId, defaultAnim);
         }
       }
 
       // Leo juggle soccer ball with spin
       if (npcId === "leo" && npcRef.juggledBall) {
-        npcRef.juggledBall.position.y = 0.45 + Math.abs(Math.sin(time * 6)) * 0.45;
-        npcRef.juggledBall.rotation.x = time * 8;
-        npcRef.juggledBall.rotation.y = time * 6;
+        npcRef.juggledBall.position.y = 0.28 + Math.abs(Math.sin(time * 5)) * 0.18;
+        npcRef.juggledBall.rotation.x = time * 4;
+        npcRef.juggledBall.rotation.y = time * 3;
       }
     });
   }
@@ -2944,7 +2584,15 @@ export class WorldEngine {
       return 0.8;
     }
 
-    // 4. Island Terrain Height
+    // 4. Medieval Hexagon Blocks (Terraces, Lagoons, Ponds)
+    if (this.hexManager) {
+      const hexH = this.hexManager.getGroundHeightAt(x, z);
+      if (hexH !== null) {
+        return hexH;
+      }
+    }
+
+    // 5. Island Terrain Height
     return this.getIslandHeight(x, z);
   }
 
@@ -3013,17 +2661,12 @@ export class WorldEngine {
       return -1.25;
     }
 
-    // 5. Voxel Sandbox Bay (-65, 70)
+    // 5. Hexagon Sandbox Bay (-65, 70)
     const dVox = Math.hypot(x - (-65), z - 70);
     if (dVox < 35) {
-      const gx = Math.round((x - (-65)) / 4.6);
-      const gz = Math.round((z - 70) / 4.6);
-      if (Math.abs(gx) <= 4 && Math.abs(gz) <= 4) {
-        const dGrid = Math.hypot(gx, gz);
-        if (dGrid <= 4.2) {
-          const h = Math.max(1, 4 - Math.floor(dGrid * 0.8));
-          return h * 1.5 + 0.2;
-        }
+      if (this.hexManager) {
+        const hexH = this.hexManager.getGroundHeightAt(x, z);
+        if (hexH !== null) return hexH;
       }
       if (dVox <= 26.0) return 4.70; // Solid grass & stone plateau flush with bridge & arrival terrace!
       if (dVox <= 30.0) {
@@ -3044,15 +2687,22 @@ export class WorldEngine {
     this.tokens.forEach((t, i) => {
       if (t.collected) return;
       t.mesh.rotation.z = time * 2.5;
-      t.mesh.position.y = t.baseY + Math.sin(time * 3.2 + i * 0.7) * 0.15;
 
-      const dist = this.playerPos.distanceTo(t.mesh.position);
-      // Magnet attract if close
-      if (dist < 4.0 && dist > 1.2) {
-        t.mesh.position.lerp(this.playerPos, 0.08);
+      const playerChest = new THREE.Vector3(this.playerPos.x, this.playerPos.y + 0.85, this.playerPos.z);
+      const dist3D = playerChest.distanceTo(t.mesh.position);
+      const distXZ = Math.hypot(t.mesh.position.x - this.playerPos.x, t.mesh.position.z - this.playerPos.z);
+
+      // Magnet pull towards player chest
+      if (dist3D < 4.8 && dist3D > 0.8) {
+        t.mesh.position.lerp(playerChest, 0.16);
+        t.baseY = THREE.MathUtils.lerp(t.baseY, playerChest.y, 0.14);
+      } else {
+        // Subtle vertical hover bobbing only when resting
+        t.mesh.position.y = t.baseY + Math.sin(time * 3.2 + i * 0.7) * 0.15;
       }
 
-      if (dist < 2.2) {
+      // Collect when close
+      if (dist3D < 2.4 || (distXZ < 1.6 && Math.abs(t.mesh.position.y - playerChest.y) < 2.0)) {
         t.collected = true;
         t.mesh.visible = false;
         this.coinsCollected++;
@@ -3634,21 +3284,36 @@ export class WorldEngine {
       return;
     }
 
-    // Default Gameplay Follow Cam (Land vs Swimming POV)
+    // Default Gameplay Follow Cam (Land vs Swimming POV with Interactive Mouse Orbit / Zoom)
     const targetFov = this.isBoosting ? 64 : (this.onWater ? 58 : 54);
     this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, targetFov, 6 * delta);
     this.camera.updateProjectionMatrix();
 
-    const offset = this.onWater
-      ? new THREE.Vector3(0, 1.85, 5.2)
-      : new THREE.Vector3(0, 4.4, 7.8);
-    offset.applyAxisAngle(new THREE.Vector3(0, 1, 0), this.playerRotY);
+    // Smoothly ease camera back behind player when running forward if not actively dragging
+    if (!this.isPointerOrbiting && this.inputs.forward && Math.abs(this.currentSpeed) > 2.0) {
+      this.cameraOrbitYaw = THREE.MathUtils.lerp(this.cameraOrbitYaw, 0, 0.45 * delta);
+    }
+
+    // Calculate spherical camera offset around player with pitch & orbit yaw
+    const pitch = THREE.MathUtils.clamp(this.cameraOrbitPitch, -0.35, 0.65);
+    const baseDist = (this.onWater ? 5.2 : 7.8) * this.cameraDistanceScale;
+    const baseHeight = (this.onWater ? 1.85 : 4.4) * this.cameraDistanceScale;
+
+    const horizDist = baseDist * Math.cos(pitch);
+    const vertDist = baseHeight + baseDist * Math.sin(pitch);
+
+    const totalYaw = this.playerRotY + this.cameraOrbitYaw;
+    const offset = new THREE.Vector3(
+      Math.sin(totalYaw) * horizDist,
+      Math.max(0.65, vertDist),
+      Math.cos(totalYaw) * horizDist
+    );
 
     const targetCamPos = new THREE.Vector3().addVectors(this.playerPos, offset);
     if (this.onWater) {
       targetCamPos.y = Math.max(0.65, targetCamPos.y);
     }
-    this.camera.position.lerp(targetCamPos, 0.08);
+    this.camera.position.lerp(targetCamPos, 0.12);
 
     const lookTargetY = this.onWater ? 0.75 : 1.6;
     const lookTarget = new THREE.Vector3().copy(this.playerPos).add(new THREE.Vector3(0, lookTargetY, 0));
@@ -3715,9 +3380,27 @@ export class WorldEngine {
     this.isRunning = false;
     cancelAnimationFrame(this.reqId);
     window.removeEventListener("resize", this.onWindowResize);
+    document.removeEventListener("visibilitychange", this.onVisibilityChange);
+    this.removePointerControls();
     if (this.livingAtmosphere) {
       this.livingAtmosphere.destroy();
       this.livingAtmosphere = null;
+    }
+    if (this.natureManager) {
+      this.natureManager.destroy();
+      this.natureManager = null;
+    }
+    if (this.hexManager) {
+      this.hexManager.dispose();
+      this.hexManager = null;
+    }
+    if (this.buildingManager) {
+      this.buildingManager.dispose();
+      this.buildingManager = null;
+    }
+    if (this.characterManager) {
+      this.characterManager.dispose();
+      this.characterManager = null;
     }
     this.composer.dispose();
     this.renderer.dispose();

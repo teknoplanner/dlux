@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { Play, Map, Gamepad2, Volume2, VolumeX, RotateCcw, Home, Compass } from "lucide-react";
 import { WorldAudio } from "./WorldAudio";
 import { WorldLang, WORLD_STRINGS } from "./worldI18n";
 
@@ -69,32 +68,41 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
   const localizedLocation = t.hud.locations[location as keyof typeof t.hud.locations] || location;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 text-white select-none animate-in fade-in duration-200">
-      <div className="w-full max-w-md bg-[#161b22] border-2 border-slate-700 rounded-3xl p-6 sm:p-7 space-y-5 shadow-2xl relative">
-        {/* Pause Header with Language Switcher */}
-        <div className="flex items-center justify-between border-b border-slate-800 pb-4">
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-              <h2 className="text-xl font-black text-white tracking-tight">
+    <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-md flex items-center justify-center p-4 text-[#3e2723] select-none animate-in fade-in duration-200">
+      <div className="w-full max-w-md bg-[#fffdf6] border-3 sm:border-4 border-[#5c3e21] rounded-3xl p-6 sm:p-7 space-y-4 shadow-[0_12px_0_#3e2723] relative">
+        {/* PaperUIKit Settings Title Banner */}
+        <div className="flex flex-col items-center -mt-12 sm:-mt-14 mb-2">
+          <div className="relative">
+            <img
+              src="/assets/ui/paper/TitleContainers/TitleContainerSettings.png"
+              alt="Settings"
+              className="h-14 sm:h-16 w-auto drop-shadow-md"
+              draggable={false}
+            />
+            <div className="absolute inset-0 flex items-center justify-center pb-3">
+              <span className="text-base sm:text-lg font-black text-[#3e2723] uppercase tracking-wider font-sans drop-shadow-sm">
                 {t.pauseMenu.title}
-              </h2>
+              </span>
             </div>
-            <p className="text-xs text-slate-400 font-medium">{t.pauseMenu.suspended}</p>
           </div>
+        </div>
 
-          {/* Language Toggle Pill */}
-          <div className="flex items-center rounded-xl bg-slate-900 border border-slate-700 p-0.5 shadow-sm">
+        {/* Header bar with Status & Language Toggle */}
+        <div className="flex items-center justify-between border-b-2 border-[#ebdcb9] pb-3">
+          <p className="text-xs text-[#854d0e] font-extrabold">{t.pauseMenu.suspended}</p>
+
+          {/* Paper Language Toggle Pill */}
+          <div className="flex items-center rounded-xl bg-[#f5eedc] border-2 border-[#5c3e21] p-0.5 shadow-sm">
             <button
               type="button"
               onClick={() => {
                 audio?.playMenuHover();
                 onToggleLang("id");
               }}
-              className={`px-2.5 py-1 rounded-lg text-xs font-black transition-all cursor-pointer ${
+              className={`px-3 py-0.5 rounded-lg text-xs font-black transition-all cursor-pointer ${
                 lang === "id"
-                  ? "bg-emerald-500 text-slate-950 shadow"
-                  : "text-slate-400 hover:text-white"
+                  ? "bg-[#22c55e] text-white shadow-sm border border-[#15803d]"
+                  : "text-[#854d0e] hover:text-[#3e2723]"
               }`}
             >
               ID
@@ -105,10 +113,10 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
                 audio?.playMenuHover();
                 onToggleLang("en");
               }}
-              className={`px-2.5 py-1 rounded-lg text-xs font-black transition-all cursor-pointer ${
+              className={`px-3 py-0.5 rounded-lg text-xs font-black transition-all cursor-pointer ${
                 lang === "en"
-                  ? "bg-emerald-500 text-slate-950 shadow"
-                  : "text-slate-400 hover:text-white"
+                  ? "bg-[#22c55e] text-white shadow-sm border border-[#15803d]"
+                  : "text-[#854d0e] hover:text-[#3e2723]"
               }`}
             >
               EN
@@ -117,103 +125,134 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
         </div>
 
         {/* Current Expedition Progress Slate */}
-        <div className="bg-slate-900 rounded-2xl p-4 border border-slate-800 space-y-2.5 text-xs font-medium">
-          <div className="flex items-center justify-between text-slate-300">
-            <span className="text-slate-400 font-bold">{t.pauseMenu.currentRegion}:</span>
-            <span className="font-extrabold text-emerald-400 flex items-center gap-1.5">
+        <div className="bg-[#fefce8] rounded-2xl p-4 border-2 border-[#ca8a04] space-y-2.5 text-xs font-bold text-[#854d0e] shadow-[0_3px_0_#ca8a04]">
+          <div className="flex items-center justify-between">
+            <span className="text-[#a16207]">{t.pauseMenu.currentRegion}:</span>
+            <span className="font-black text-[#3e2723] flex items-center gap-1.5 text-sm">
               🏝️ {localizedLocation}
             </span>
           </div>
 
-          <div className="flex items-center justify-between text-slate-300">
-            <span className="text-slate-400 font-bold">{t.pauseMenu.goldTokens}:</span>
-            <span className="font-black text-amber-400">
+          <div className="flex items-center justify-between">
+            <span className="text-[#a16207] flex items-center gap-1.5">
+              <img
+                src="/assets/ui/paper/Icons/GameIcons/IconCoin.png"
+                alt="Coin"
+                className="w-4 h-4 object-contain inline"
+                draggable={false}
+              />
+              {t.pauseMenu.goldTokens}:
+            </span>
+            <span className="font-black text-[#854d0e] text-sm">
               {coins} / {totalCoins}
             </span>
           </div>
 
-          {/* Miniature Coin Progress Track */}
-          <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
+          {/* Paper Progress Track */}
+          <div className="w-full h-3.5 bg-[#f5eedc] rounded-full overflow-hidden border-2 border-[#5c3e21] p-0.5 shadow-inner">
             <div
-              className="h-full bg-gradient-to-r from-amber-400 to-emerald-400 rounded-full transition-all duration-300"
+              className="h-full bg-gradient-to-r from-[#facc15] to-[#22c55e] rounded-full transition-all duration-300 border-r border-[#15803d]"
               style={{ width: `${Math.min(100, (coins / totalCoins) * 100)}%` }}
             />
           </div>
 
-          <div className="flex items-center justify-between text-slate-300 pt-0.5">
-            <span className="text-slate-400 font-bold">{t.pauseMenu.questsCompleted}:</span>
-            <span className="font-extrabold text-emerald-400">
+          <div className="flex items-center justify-between pt-0.5">
+            <span className="text-[#a16207]">{t.pauseMenu.questsCompleted}:</span>
+            <span className="font-black text-[#047857]">
               {completedQuestsCount} / 4
             </span>
           </div>
         </div>
 
-        {/* Tactile Pause Actions */}
-        <div className="space-y-2.5 pt-1">
-          {/* Resume Button */}
+        {/* Tactile Pause Actions with PaperUIKit Buttons */}
+        <div className="space-y-2.5 pt-1 flex flex-col items-center w-full">
+          {/* Resume Button using PaperUIKit ButtonMediumGreen */}
           <button
             onClick={() => handleAction(onResume)}
             onMouseEnter={handleHover}
-            className="w-full py-3.5 px-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 active:bg-emerald-600 text-slate-950 font-black text-sm uppercase tracking-wide border-b-4 border-emerald-800 active:border-b-0 active:translate-y-1 shadow-md transition-all cursor-pointer flex items-center justify-center gap-2"
+            className="relative group w-full inline-flex items-center justify-center cursor-pointer select-none active:scale-95 transition-transform"
           >
-            <Play className="w-4 h-4 fill-slate-950" />
-            <span>{t.pauseMenu.resume}</span>
-            <span className="text-xs opacity-80">[ESC]</span>
+            <img
+              src="/assets/ui/paper/Buttons/MediumButtons/ButtonMediumGreen.png"
+              alt="Resume"
+              className="h-12 w-full object-fill group-active:hidden drop-shadow-md rounded-2xl"
+              draggable={false}
+            />
+            <img
+              src="/assets/ui/paper/Buttons/MediumButtons/ButtonMediumGreenActive.png"
+              alt="Resume"
+              className="h-12 w-full object-fill hidden group-active:block drop-shadow-md rounded-2xl"
+              draggable={false}
+            />
+            <span className="absolute inset-0 flex items-center justify-center gap-2 font-black text-[#14532d] text-sm tracking-wide uppercase pb-1 group-active:pt-1">
+              <img
+                src="/assets/ui/paper/Icons/GameIcons/IconPlay.png"
+                alt=""
+                className="w-4 h-4 object-contain inline"
+                draggable={false}
+              />
+              <span>{t.pauseMenu.resume}</span>
+              <span className="text-xs opacity-80">[ESC]</span>
+            </span>
           </button>
 
-          {/* Map & Fast Travel */}
+          {/* Map & Fast Travel using PaperUIKit ButtonMediumBlue */}
           <button
             onClick={() => handleAction(onOpenMap)}
             onMouseEnter={handleHover}
-            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-900 border border-slate-700 text-slate-200 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center justify-between shadow-sm"
+            className="relative group w-full inline-flex items-center justify-center cursor-pointer select-none active:scale-95 transition-transform"
           >
-            <div className="flex items-center gap-2.5">
-              <Map className="w-4 h-4 text-emerald-400" />
+            <img
+              src="/assets/ui/paper/Buttons/MediumButtons/ButtonMediumBlue.png"
+              alt="Map"
+              className="h-11 w-full object-fill group-active:hidden drop-shadow-md rounded-2xl"
+              draggable={false}
+            />
+            <img
+              src="/assets/ui/paper/Buttons/MediumButtons/ButtonMediumBlueActive.png"
+              alt="Map"
+              className="h-11 w-full object-fill hidden group-active:block drop-shadow-md rounded-2xl"
+              draggable={false}
+            />
+            <span className="absolute inset-0 flex items-center justify-center gap-2 font-black text-[#1e3a8a] text-xs sm:text-sm tracking-wide uppercase pb-1 group-active:pt-1">
               <span>{t.pauseMenu.mapFastTravel}</span>
-            </div>
-            <span className="text-slate-400">[M]</span>
+              <span className="text-xs opacity-75">[M]</span>
+            </span>
           </button>
 
-          {/* Controls Guide */}
-          <button
-            onClick={() => handleAction(onOpenControls)}
-            onMouseEnter={handleHover}
-            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-900 border border-slate-700 text-slate-200 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center gap-2.5 shadow-sm"
-          >
-            <Gamepad2 className="w-4 h-4 text-emerald-400" />
-            <span>{t.pauseMenu.howToPlay}</span>
-          </button>
-
-          {/* Audio Toggle */}
+          {/* Audio Toggle in Paper Card */}
           <button
             onClick={onToggleMute}
             onMouseEnter={handleHover}
-            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-900 border border-slate-700 text-slate-200 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center justify-between shadow-sm"
+            className="w-full py-2.5 px-4 rounded-2xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none text-xs font-black transition-all cursor-pointer flex items-center justify-between"
           >
-            <div className="flex items-center gap-2.5">
-              {isMuted ? <VolumeX className="w-4 h-4 text-red-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
+            <div className="flex items-center gap-2.5 text-[#3e2723]">
+              <img
+                src="/assets/ui/paper/Icons/GameIcons/IconSettings.png"
+                alt=""
+                className={`w-4 h-4 object-contain ${isMuted ? "grayscale opacity-50" : ""}`}
+                draggable={false}
+              />
               <span>{t.pauseMenu.soundEffects}</span>
             </div>
-            <span className="font-extrabold text-slate-400">{isMuted ? t.common.muted : t.common.soundOn}</span>
+            <span className="font-extrabold text-[#854d0e]">{isMuted ? t.common.muted : t.common.soundOn}</span>
           </button>
 
-          {/* Return to Title & Exit */}
-          <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
+          {/* Return to Title & Exit using Paper Buttons */}
+          <div className="grid grid-cols-2 gap-2 w-full pt-1">
             <button
               onClick={() => handleAction(onReturnToTitle)}
               onMouseEnter={handleHover}
-              className="py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-300 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              className="py-2.5 px-3 rounded-2xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none text-[#5c3e21] text-xs font-black transition-all cursor-pointer flex items-center justify-center gap-1.5"
             >
-              <RotateCcw className="w-3.5 h-3.5" />
               <span>{t.pauseMenu.mainTitle}</span>
             </button>
 
             <button
               onClick={() => handleAction(onExitToWeb)}
               onMouseEnter={handleHover}
-              className="py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-red-950/70 border border-slate-700 hover:border-red-500/40 text-slate-300 hover:text-red-300 text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              className="py-2.5 px-3 rounded-2xl bg-[#fee2e2] hover:bg-[#fecaca] active:bg-[#fca5a5] border-2 border-[#991b1b] shadow-[0_3px_0_#991b1b] active:translate-y-0.5 active:shadow-none text-[#991b1b] text-xs font-black transition-all cursor-pointer flex items-center justify-center gap-1.5"
             >
-              <Home className="w-3.5 h-3.5" />
               <span>{t.pauseMenu.exitWeb}</span>
             </button>
           </div>

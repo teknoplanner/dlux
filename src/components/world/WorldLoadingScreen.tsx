@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Sparkles, Compass, ArrowRight, Gamepad2, Shield, Radio, Trophy, Zap, Anchor } from "lucide-react";
 import { WorldLang, detectUserLanguage, WORLD_STRINGS } from "./worldI18n";
 
 interface WorldLoadingScreenProps {
@@ -34,36 +33,43 @@ export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinish
 
   useEffect(() => {
     let completed = false;
-    const startTime = Date.now();
-    const duration = 1600; // Smooth 1.6s cinematic loading
+    let currentPct = 0;
 
+    // Smooth progressive advancement in stages (~2.2s total)
     const interval = setInterval(() => {
       if (completed) return;
-      const elapsed = Date.now() - startTime;
-      const rawPct = Math.min(100, Math.floor((elapsed / duration) * 100));
 
-      // Ease-out cinematic curve
-      const easedPct = Math.min(
-        100,
-        Math.floor(100 * Math.sin((rawPct / 100) * (Math.PI / 2)))
-      );
+      let step = 0;
+      if (currentPct < 25) {
+        step = 1.8 + Math.random() * 1.6;
+      } else if (currentPct < 60) {
+        step = 2.4 + Math.random() * 2.0;
+      } else if (currentPct < 88) {
+        step = 1.8 + Math.random() * 1.5;
+      } else if (currentPct < 98) {
+        step = 1.0 + Math.random() * 1.2;
+      } else {
+        step = 1.0;
+      }
 
-      setProgress(easedPct);
+      currentPct = Math.min(100, currentPct + step);
+      const rounded = Math.floor(currentPct);
+      setProgress(rounded);
 
       const stageIndex = Math.min(
         t.loading.statuses.length - 1,
-        Math.floor((easedPct / 100) * t.loading.statuses.length)
+        Math.floor((rounded / 100) * t.loading.statuses.length)
       );
       setStatusText(t.loading.statuses[stageIndex]);
 
-      if (easedPct >= 100 && !completed) {
+      if (rounded >= 100 && !completed) {
         completed = true;
         clearInterval(interval);
         setTimeout(() => {
           onFinishRef.current?.();
-        }, 180);
+        }, 300);
       }
-    }, 25);
+    }, 40);
 
     return () => {
       completed = true;
@@ -85,168 +91,152 @@ export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinish
   };
 
   return (
-    <div className="absolute inset-0 z-50 bg-[#030914] flex flex-col justify-between p-4 sm:p-8 text-white select-none overflow-hidden animate-in fade-out duration-300">
-      {/* 1. Cinematic Background: Oceanic Nebula, Sunburst Rays & Nautical Grids */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Core Glowing Sun Flare & Ocean Atmosphere */}
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[550px] bg-gradient-to-b from-teal-500/20 via-cyan-600/10 to-transparent rounded-full blur-[130px]" />
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1100px] h-[350px] bg-gradient-to-t from-emerald-600/15 via-teal-900/10 to-transparent rounded-full blur-[140px]" />
-
-        {/* Nautical Cartographic Rings & Compass Rays */}
-        <svg
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[720px] h-[720px] opacity-15 stroke-teal-400"
-          viewBox="0 0 100 100"
-          fill="none"
-        >
-          <circle cx="50" cy="50" r="48" strokeWidth="0.3" strokeDasharray="2,2" />
-          <circle cx="50" cy="50" r="38" strokeWidth="0.5" />
-          <circle cx="50" cy="50" r="28" strokeWidth="0.2" strokeDasharray="1,3" />
-          <line x1="50" y1="2" x2="50" y2="98" strokeWidth="0.3" />
-          <line x1="2" y1="50" x2="98" y2="50" strokeWidth="0.3" />
-          <polygon points="50,6 52,14 48,14" fill="#2dd4bf" />
-        </svg>
-
-        {/* Ambient Subtle Tech Grid */}
-        <div className="absolute inset-0 bg-[radial-gradient(#0e7490_1px,transparent_1px)] [background-size:32px_32px] opacity-25" />
-
-        {/* Vignette Edge Shading */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_40%,#020611_95%)]" />
+    <div className="absolute inset-0 z-50 bg-[#0f172a] flex flex-col justify-between p-4 sm:p-8 text-[#3e2723] select-none overflow-hidden animate-in fade-out duration-300">
+      {/* 1. Paper Craft Background */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a]">
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-amber-500/15 rounded-full blur-[140px]" />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[350px] bg-emerald-500/10 rounded-full blur-[130px]" />
       </div>
 
-      {/* 2. Top Header Bar: Studio Crest & Skip Action */}
+      {/* 2. Top Header Bar: Paper Studio Crest & Skip Button */}
       <header className="relative z-10 w-full flex items-center justify-between">
-        {/* Studio Crest */}
+        {/* Studio Crest with Paper Coin Icon */}
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-amber-400 via-teal-500 to-cyan-500 p-0.5 shadow-[0_0_20px_rgba(45,212,191,0.35)]">
-            <div className="w-full h-full bg-[#071322] rounded-[14px] flex items-center justify-center">
-              <Gamepad2 className="w-5 h-5 text-teal-400" />
-            </div>
+          <div className="w-11 h-11 rounded-2xl bg-[#fffdf6] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] flex items-center justify-center p-1.5">
+            <img
+              src="/assets/ui/paper/Icons/GameIcons/IconCoin.png"
+              alt="Logo"
+              className="w-full h-full object-contain"
+              draggable={false}
+            />
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-black text-xs sm:text-sm text-white tracking-widest font-display uppercase">
+              <span className="font-black text-sm text-[#fffdf6] tracking-wider uppercase drop-shadow">
                 DLUCKYX STUDIOS
               </span>
-              <span className="px-1.5 py-0.2 rounded-full bg-teal-500/20 text-teal-300 border border-teal-400/30 text-[9px] font-mono font-bold">
-                PROD
+              <span className="px-2 py-0.5 rounded-full bg-[#22c55e] text-white text-[10px] font-black border border-[#15803d] shadow-sm">
+                3D
               </span>
             </div>
-            <p className="text-[10px] text-slate-400 font-mono tracking-wider">
-              GLOBAL EXPEDITION ENGINE • 60 FPS
+            <p className="text-[11px] text-amber-200/80 font-bold tracking-wide">
+              COASTAL ARCHIPELAGO EXPEDITION
             </p>
           </div>
         </div>
 
-        {/* Skip button with enter hint */}
+        {/* PaperUIKit Skip Button using ButtonSmallWhite & IconNext */}
         <button
           type="button"
           onClick={handleSkip}
-          className="group px-4 py-2 rounded-xl bg-slate-900/90 hover:bg-teal-950/80 active:bg-slate-950 border border-teal-500/30 hover:border-teal-400/70 text-xs font-bold text-slate-200 hover:text-white transition-all flex items-center gap-2 shadow-[0_4px_16px_rgba(0,0,0,0.5)] cursor-pointer"
+          className="relative group inline-flex items-center justify-center cursor-pointer select-none active:scale-95 transition-transform"
         >
-          <span className="font-mono text-[11px] tracking-wider uppercase">{t.common.skip}</span>
-          <span className="hidden sm:inline-block px-1.5 py-0.5 rounded bg-slate-800 text-[9px] font-mono text-slate-300 border border-white/10 group-hover:border-teal-400/40">
-            ENTER ↵
+          <img
+            src="/assets/ui/paper/Buttons/SmallButtons/ButtonSmallWhite.png"
+            alt="Skip"
+            className="h-9 sm:h-10 w-auto group-active:hidden drop-shadow-md"
+            draggable={false}
+          />
+          <img
+            src="/assets/ui/paper/Buttons/SmallButtons/ButtonSmallWhiteActive.png"
+            alt="Skip"
+            className="h-9 sm:h-10 w-auto hidden group-active:block drop-shadow-md"
+            draggable={false}
+          />
+          <span className="absolute inset-0 flex items-center justify-center gap-1.5 font-black text-[#5c3e21] text-xs uppercase tracking-wider pb-1 group-active:pt-1">
+            <span>{t.common.skip}</span>
+            <img
+              src="/assets/ui/paper/Icons/GameIcons/IconNext.png"
+              alt=""
+              className="w-3.5 h-3.5 object-contain"
+              draggable={false}
+            />
           </span>
-          <ArrowRight className="w-3.5 h-3.5 text-teal-400 group-hover:translate-x-0.5 transition-transform" />
         </button>
       </header>
 
-      {/* 3. Center Hero Stage: Grand Game Title & Animated Mascot Spotlight */}
-      <main className="relative z-10 w-full max-w-xl mx-auto my-auto flex flex-col items-center text-center space-y-6">
-        {/* Hero Character Emblem Stage */}
-        <div className="relative flex items-center justify-center">
-          {/* Pulsating Glowing Celestial Rings */}
-          <div className="absolute w-44 h-44 rounded-full bg-gradient-to-tr from-teal-500/30 via-amber-400/20 to-cyan-400/20 blur-xl animate-pulse" />
-          <div className="absolute w-36 h-36 rounded-full border border-teal-400/30 animate-[spin_12s_linear_infinite]" />
-          <div className="absolute w-40 h-40 rounded-full border border-dashed border-amber-400/30 animate-[spin_20s_linear_infinite_reverse]" />
-
-          {/* Floating Gold Coin Orbits */}
-          <div className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-gradient-to-tr from-amber-500 to-yellow-300 border-2 border-yellow-100 shadow-[0_0_15px_#f59e0b] flex items-center justify-center text-xs animate-bounce">
-            🪙
-          </div>
-          <div className="absolute -bottom-2 -left-2 w-7 h-7 rounded-full bg-gradient-to-tr from-teal-400 to-cyan-300 border border-white/60 shadow-[0_0_12px_#2dd4bf] flex items-center justify-center text-xs">
-            ✨
-          </div>
-
-          {/* Milo Astronaut Hero Avatar Card */}
-          <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-3xl bg-gradient-to-b from-[#0b253e] via-[#071727] to-[#040e19] border-2 border-teal-400/60 shadow-[0_15px_40px_rgba(0,0,0,0.8),inset_0_0_20px_rgba(45,212,191,0.25)] flex items-center justify-center">
-            <span className="text-5xl sm:text-6xl select-none filter drop-shadow-[0_8px_16px_rgba(0,0,0,0.6)]">
-              🐱
+      {/* 3. Centerpiece: Paper Card Title Banner */}
+      <main className="relative z-10 w-full max-w-lg mx-auto my-auto text-center">
+        <div className="bg-[#fffdf6] border-4 border-[#5c3e21] rounded-3xl p-6 sm:p-8 shadow-[0_12px_0_#3e2723] space-y-4">
+          {/* Top Tagline Pill with Heart Icon */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#fef08a] border-2 border-[#ca8a04] shadow-sm">
+            <img
+              src="/assets/ui/paper/Icons/GameIcons/IconHeart.png"
+              alt=""
+              className="w-4 h-4 object-contain animate-bounce"
+              draggable={false}
+            />
+            <span className="text-[11px] font-black tracking-widest text-[#854d0e] uppercase">
+              ISLAND EXPLORATION
             </span>
-            {/* Astronaut Helmet Visor Highlight Sheen */}
-            <div className="absolute inset-1.5 rounded-[22px] border border-cyan-400/40 pointer-events-none bg-gradient-to-tr from-transparent via-cyan-400/10 to-white/20" />
-            <div className="absolute bottom-2 px-2.5 py-0.5 rounded-full bg-slate-950/80 border border-teal-400/50 text-[9px] font-mono font-bold text-teal-300">
-              MILO • HERO
-            </div>
-          </div>
-        </div>
-
-        {/* Grand Title Logo Typography */}
-        <div className="space-y-2">
-          {/* Top Tagline Pill */}
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-teal-500/20 via-amber-400/15 to-teal-500/20 border border-teal-400/40 shadow-sm">
-            <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-spin" style={{ animationDuration: "6s" }} />
-            <span className="text-[10px] sm:text-xs font-black font-mono tracking-widest text-teal-200 uppercase">
-              COASTAL ARCHIPELAGO EXPEDITION
-            </span>
-            <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-spin" style={{ animationDuration: "6s" }} />
           </div>
 
           {/* Grand Emblazoned 3D Title */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white font-display drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)] flex items-center justify-center gap-3">
+          <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-[#3e2723] uppercase font-sans drop-shadow-sm flex items-center justify-center gap-2">
             <span>D LUCKY WORLD</span>
-            <span className="px-2.5 py-0.5 rounded-xl bg-gradient-to-tr from-amber-400 via-yellow-300 to-amber-500 text-slate-950 text-2xl sm:text-3xl font-black shadow-[0_0_24px_rgba(245,158,11,0.6)] border-t border-white/60">
+            <span className="px-2.5 py-0.5 rounded-xl bg-[#22c55e] text-white text-2xl sm:text-3xl font-black border-2 border-[#15803d] shadow-[0_3px_0_#15803d]">
               3D
             </span>
           </h1>
 
           {/* Subtitle / Island Description */}
-          <p className="text-xs sm:text-sm text-slate-300 font-medium max-w-md mx-auto leading-relaxed drop-shadow-sm">
+          <p className="text-xs sm:text-sm text-[#78350f] font-bold max-w-sm mx-auto leading-relaxed">
             {lang === "id"
-              ? "Jelajahi pulau tropis, arungi lautan biru, temui warga kepulauan, dan kumpulkan 30 Koin Emas!"
-              : "Explore tropical islands, cruise across azure oceans, meet island villagers, and collect all 30 Gold Tokens!"}
+              ? "Jelajahi kepulauan tropis, temui warga desa, selesaikan misi tantangan, dan kumpulkan 30 Koin Emas!"
+              : "Explore tropical islands, meet friendly villagers, complete missions, and collect 30 Gold Coins!"}
           </p>
         </div>
       </main>
 
-      {/* 4. Bottom Game Loading Console: Progress Bar, Status & Rotating Gameplay Tips */}
-      <footer className="relative z-10 w-full max-w-xl mx-auto space-y-3.5">
+      {/* 4. Bottom Console: Authentic PaperUIKit Loading Bar, Status & Rotating Gameplay Tips */}
+      <footer className="relative z-10 w-full max-w-xl mx-auto space-y-3">
         {/* Status Line: Current Loading Task & Percentage */}
-        <div className="flex items-center justify-between text-xs sm:text-sm font-mono">
-          <div className="flex items-center gap-2.5 text-teal-300 font-bold">
-            <span className="relative flex h-2.5 w-2.5">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-teal-400 opacity-75" />
-              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-teal-500" />
-            </span>
-            <span className="tracking-wide text-[11px] sm:text-xs truncate max-w-[280px] sm:max-w-none">
+        <div className="flex items-center justify-between text-xs sm:text-sm">
+          <div className="flex items-center gap-2 text-[#fef08a] font-black">
+            <span className="w-2.5 h-2.5 rounded-full bg-[#facc15] border border-[#a16207] animate-ping" />
+            <span className="tracking-wide text-xs truncate max-w-[280px] sm:max-w-none text-slate-100 font-extrabold">
               {statusText}
             </span>
           </div>
 
-          <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-lg bg-[#071322] border border-teal-500/40 text-teal-300 font-black text-xs sm:text-sm shadow-inner">
+          <div className="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-[#fffdf6] border-2 border-[#5c3e21] shadow-[0_2px_0_#3e2723] text-[#3e2723] font-black text-xs sm:text-sm">
             <span>{progress}%</span>
           </div>
         </div>
 
-        {/* Sleek AAA Game Loading Bar */}
-        <div className="relative w-full h-4 sm:h-5 bg-[#050f1a] rounded-full border-2 border-teal-500/40 p-0.5 overflow-hidden shadow-[inset_0_2px_8px_rgba(0,0,0,0.8),0_0_20px_rgba(45,212,191,0.2)]">
-          {/* Animated Glow Track */}
+        {/* PaperUIKit Authentic Game Loading Bar (Zero CSS borders, pure UI kit assets) */}
+        <div className="relative w-full h-7 sm:h-8 flex items-center justify-start overflow-hidden rounded-full drop-shadow-lg">
+          <img
+            src="/assets/ui/paper/LoadingBars/LoadingBarBackground.png"
+            alt=""
+            className="absolute inset-0 w-full h-full object-fill select-none"
+            draggable={false}
+          />
           <div
-            className="h-full bg-gradient-to-r from-teal-500 via-emerald-400 to-cyan-300 rounded-full transition-all duration-75 relative shadow-[0_0_16px_rgba(45,212,191,0.7)]"
-            style={{ width: `${progress}%` }}
+            className="absolute left-[3px] top-[3px] bottom-[3px] overflow-hidden rounded-full transition-all duration-200"
+            style={{ width: `${Math.max(0, Math.min(100, progress))}%` }}
           >
-            {/* Pulsating Leading-Edge Spark */}
-            <div className="absolute right-0 top-0 bottom-0 w-3 bg-white rounded-full shadow-[0_0_10px_#ffffff] blur-[0.5px]" />
+            <img
+              src="/assets/ui/paper/LoadingBars/LoadingBarFillYellow.png"
+              alt=""
+              className="w-full h-full object-fill"
+              draggable={false}
+            />
           </div>
         </div>
 
-        {/* Pro Rotating Gameplay Tip Card */}
-        <div className="bg-[#071322]/90 backdrop-blur-md border border-teal-500/25 rounded-2xl px-4 py-2.5 flex items-center gap-3 shadow-[0_8px_24px_rgba(0,0,0,0.6)]">
-          <div className="w-7 h-7 rounded-xl bg-amber-400/15 border border-amber-400/30 text-amber-300 flex items-center justify-center shrink-0">
-            <Compass className="w-4 h-4" />
+        {/* PaperUIKit Rotating Gameplay Tip Card with IconCoin */}
+        <div className="bg-[#fffdf6] border-2 sm:border-3 border-[#5c3e21] rounded-2xl px-4 py-2.5 flex items-center gap-3 shadow-[0_4px_0_#3e2723] text-[#3e2723]">
+          <div className="w-8 h-8 rounded-xl bg-[#fef08a] border-2 border-[#854d0e] flex items-center justify-center shrink-0 shadow-inner">
+            <img
+              src="/assets/ui/paper/Icons/GameIcons/IconCoin.png"
+              alt=""
+              className="w-5 h-5 object-contain"
+              draggable={false}
+            />
           </div>
-          <p className="text-[11px] sm:text-xs text-slate-300 leading-snug font-sans">
-            <strong className="text-amber-300 font-semibold uppercase tracking-wider font-mono mr-1">
+          <p className="text-[11px] sm:text-xs leading-snug font-sans font-bold">
+            <strong className="text-[#92400e] font-black uppercase tracking-wider mr-1">
               [TIP]:
             </strong>
             {t.loading.tips[tipIdx]}

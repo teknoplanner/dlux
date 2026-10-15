@@ -6,3 +6,4 @@ out/
 *.log
 .idea/
 *.tsbuildinfo
+assets/3d/

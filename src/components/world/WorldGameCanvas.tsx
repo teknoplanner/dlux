@@ -9,7 +9,6 @@ import { WorldDialogueModal } from "./WorldDialogueModal";
 import { WorldLoadingScreen } from "./WorldLoadingScreen";
 import { WorldMainMenu } from "./WorldMainMenu";
 import { WorldPauseMenu } from "./WorldPauseMenu";
-import { Gamepad2, X } from "lucide-react";
 import { WorldLang, detectUserLanguage, saveUserLanguage } from "./worldI18n";
 
 export const WorldGameCanvas: React.FC = () => {
@@ -49,38 +48,42 @@ export const WorldGameCanvas: React.FC = () => {
     const audio = new WorldAudio();
     audioRef.current = audio;
 
-    // Initialize Engine
-    const engine = new WorldEngine(mountRef.current, audio, {
-      onCoinsUpdate: (c, tot) => {
-        setCoins(c);
-        setTotalCoins(tot);
-      },
-      onLocationUpdate: (loc) => {
-        setLocationName(loc);
-      },
-      onSpeedUpdate: (spd) => {
-        setSpeedKmH((prev) => (prev === spd ? prev : spd));
-      },
-      onNitroUpdate: (nit) => {
-        const rounded = Math.round(nit);
-        setNitroPct((prev) => (prev === rounded ? prev : rounded));
-      },
-      onGoal: () => {
-        setShowGoal(true);
-        setTimeout(() => setShowGoal(false), 3500);
-      },
-      onProximityChange: (npc) => {
-        setActiveNPC(npc);
-      },
-      onQuestProgress: (questId) => {
-        setCompletedQuests((prev) => ({ ...prev, [questId]: true }));
-      },
-      onMinigameUpdate: (game) => {
-        setActiveMinigame(game);
-      },
-    });
+    // Allow initial frame of WorldLoadingScreen to paint cleanly before launching 3D engine
+    const initTimer = setTimeout(() => {
+      if (!mountRef.current) return;
 
-    engineRef.current = engine;
+      const engine = new WorldEngine(mountRef.current, audio, {
+        onCoinsUpdate: (c, tot) => {
+          setCoins(c);
+          setTotalCoins(tot);
+        },
+        onLocationUpdate: (loc) => {
+          setLocationName(loc);
+        },
+        onSpeedUpdate: (spd) => {
+          setSpeedKmH((prev) => (prev === spd ? prev : spd));
+        },
+        onNitroUpdate: (nit) => {
+          const rounded = Math.round(nit);
+          setNitroPct((prev) => (prev === rounded ? prev : rounded));
+        },
+        onGoal: () => {
+          setShowGoal(true);
+          setTimeout(() => setShowGoal(false), 3500);
+        },
+        onProximityChange: (npc) => {
+          setActiveNPC(npc);
+        },
+        onQuestProgress: (questId) => {
+          setCompletedQuests((prev) => ({ ...prev, [questId]: true }));
+        },
+        onMinigameUpdate: (game) => {
+          setActiveMinigame(game);
+        },
+      });
+
+      engineRef.current = engine;
+    }, 60);
 
     // Periodic coordinate tracking for minimap
     const coordInterval = setInterval(() => {
@@ -116,6 +119,7 @@ export const WorldGameCanvas: React.FC = () => {
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
+      clearTimeout(initTimer);
       clearInterval(coordInterval);
       window.removeEventListener("keydown", handleKeyDown);
 
@@ -129,8 +133,14 @@ export const WorldGameCanvas: React.FC = () => {
         } catch {}
       }
 
-      engine.dispose();
-      audio.dispose();
+      if (engineRef.current) {
+        engineRef.current.dispose();
+        engineRef.current = null;
+      }
+      if (audioRef.current) {
+        audioRef.current.dispose();
+        audioRef.current = null;
+      }
     };
   }, []);
 
@@ -324,48 +334,76 @@ export const WorldGameCanvas: React.FC = () => {
 
           {/* In-Game Controls Modal (Triggered from Pause Menu) */}
           {isControlsModalOpen && (
-            <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4 animate-in fade-in duration-200">
-              <div className="w-full max-w-lg bg-slate-900 border-2 border-teal-500/40 rounded-3xl p-6 text-white space-y-5 shadow-2xl relative">
-                <div className="flex items-center justify-between border-b border-white/10 pb-3">
+            <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200">
+              <div className="w-full max-w-lg bg-[#fffdf6] border-4 border-[#5c3e21] rounded-3xl p-6 sm:p-7 text-[#3e2723] space-y-5 shadow-[0_12px_0_#3e2723] relative">
+                <div className="flex items-center justify-between border-b-2 border-[#ebdcb9] pb-3">
                   <div className="flex items-center gap-2.5">
-                    <Gamepad2 className="w-5 h-5 text-teal-400" />
-                    <h3 className="text-base font-black font-display tracking-wider">
-                      CONTROLS QUICK REFERENCE
+                    <span className="text-xl">🎮</span>
+                    <h3 className="text-base sm:text-lg font-black text-[#3e2723] uppercase tracking-wide">
+                      {lang === "id" ? "PANDUAN KONTROL" : "CONTROLS QUICK REFERENCE"}
                     </h3>
                   </div>
+                  {/* Paper Close Button */}
                   <button
                     onClick={() => setIsControlsModalOpen(false)}
-                    className="p-1 rounded-lg bg-white/10 hover:bg-white/20 text-slate-300 hover:text-white"
+                    className="w-10 h-10 inline-flex items-center justify-center cursor-pointer active:scale-95 transition-transform group"
                   >
-                    <X className="w-4 h-4" />
+                    <img
+                      src="/assets/ui/paper/Buttons/ButtonClose2.png"
+                      alt="Close"
+                      className="w-full h-full object-contain group-active:hidden drop-shadow-md"
+                      draggable={false}
+                    />
+                    <img
+                      src="/assets/ui/paper/Buttons/ButtonClose2Active.png"
+                      alt="Close"
+                      className="w-full h-full object-contain hidden group-active:block drop-shadow-md"
+                      draggable={false}
+                    />
                   </button>
                 </div>
 
-                <div className="grid grid-cols-2 gap-2 text-xs font-mono">
-                  <div className="p-2.5 rounded-xl bg-slate-950 border border-white/10 text-center">
-                    <span className="block font-bold text-white bg-slate-800 px-2 py-0.5 rounded border border-white/10">WASD</span>
-                    <span className="text-[10px] text-slate-400 mt-1 block">Move / Steer</span>
+                <div className="grid grid-cols-2 gap-2.5 text-xs font-sans">
+                  <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
+                    <span className="block font-black text-[#3e2723] bg-[#fef08a] px-2.5 py-1 rounded-xl border border-[#ca8a04]">WASD / ARROWS</span>
+                    <span className="text-[11px] font-bold text-[#854d0e] mt-1.5 block">{lang === "id" ? "Bergerak & Belok" : "Move / Steer"}</span>
                   </div>
-                  <div className="p-2.5 rounded-xl bg-slate-950 border border-white/10 text-center">
-                    <span className="block font-bold text-emerald-400 bg-slate-800 px-2 py-0.5 rounded border border-white/10">SPACE</span>
-                    <span className="text-[10px] text-slate-400 mt-1 block">Jump / Hop</span>
+                  <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
+                    <span className="block font-black text-[#15803d] bg-[#dcfce7] px-2.5 py-1 rounded-xl border border-[#16a34a]">SPACE</span>
+                    <span className="text-[11px] font-bold text-[#854d0e] mt-1.5 block">{lang === "id" ? "Lompat" : "Jump / Hop"}</span>
                   </div>
-                  <div className="p-2.5 rounded-xl bg-slate-950 border border-white/10 text-center">
-                    <span className="block font-bold text-teal-400 bg-slate-800 px-2 py-0.5 rounded border border-white/10">SHIFT</span>
-                    <span className="text-[10px] text-slate-400 mt-1 block">Sprint Dash</span>
+                  <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
+                    <span className="block font-black text-[#0369a1] bg-[#e0f2fe] px-2.5 py-1 rounded-xl border border-[#0284c7]">SHIFT</span>
+                    <span className="text-[11px] font-bold text-[#854d0e] mt-1.5 block">{lang === "id" ? "Lari Cepat (Sprint)" : "Sprint Dash"}</span>
                   </div>
-                  <div className="p-2.5 rounded-xl bg-slate-950 border border-white/10 text-center">
-                    <span className="block font-bold text-amber-400 bg-slate-800 px-2 py-0.5 rounded border border-white/10">E / TAP</span>
-                    <span className="text-[10px] text-slate-400 mt-1 block">Talk / Interact</span>
+                  <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
+                    <span className="block font-black text-[#b45309] bg-[#fef3c7] px-2.5 py-1 rounded-xl border border-[#d97706]">E / TAP</span>
+                    <span className="text-[11px] font-bold text-[#854d0e] mt-1.5 block">{lang === "id" ? "Interaksi NPC" : "Talk / Interact"}</span>
                   </div>
                 </div>
 
-                <button
-                  onClick={() => setIsControlsModalOpen(false)}
-                  className="w-full py-3 rounded-xl bg-teal-500 hover:bg-teal-400 text-slate-950 font-black text-xs uppercase tracking-wider"
-                >
-                  BACK TO PAUSE MENU
-                </button>
+                <div className="flex justify-center pt-2">
+                  <button
+                    onClick={() => setIsControlsModalOpen(false)}
+                    className="relative w-full max-w-xs h-12 inline-flex items-center justify-center cursor-pointer active:scale-95 transition-transform group"
+                  >
+                    <img
+                      src="/assets/ui/paper/Buttons/MediumButtons/ButtonMediumGreen.png"
+                      alt="Back"
+                      className="w-full h-full object-contain group-active:hidden drop-shadow-md"
+                      draggable={false}
+                    />
+                    <img
+                      src="/assets/ui/paper/Buttons/MediumButtons/ButtonMediumGreenActive.png"
+                      alt="Back"
+                      className="w-full h-full object-contain hidden group-active:block drop-shadow-md"
+                      draggable={false}
+                    />
+                    <span className="absolute inset-0 flex items-center justify-center font-black text-xs sm:text-sm text-white tracking-wider pb-1 group-active:pt-1">
+                      {lang === "id" ? "KEMBALI KE PAUSE MENU" : "BACK TO PAUSE MENU"}
+                    </span>
+                  </button>
+                </div>
               </div>
             </div>
           )}
