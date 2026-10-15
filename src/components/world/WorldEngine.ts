@@ -445,6 +445,7 @@ export class WorldEngine {
   public onWater: boolean = false;
   public nitro: number = 100;
   public isBoosting: boolean = false;
+  public isTitleScreen: boolean = true;
 
   private walkCycle: number = 0;
   private currentTurnSpeed: number = 0;
@@ -3614,6 +3615,21 @@ export class WorldEngine {
 
       const targetLook = new THREE.Vector3().copy(npcPos).add(new THREE.Vector3(0, 1.6, 0));
       this.cameraLookAt.lerp(targetLook, 0.12);
+      this.camera.lookAt(this.cameraLookAt);
+      return;
+    }
+
+    // Cinematic Title Screen Orbiting Camera
+    if (this.isTitleScreen) {
+      const time = this.clock.getElapsedTime();
+      const radius = 22;
+      const camX = Math.sin(time * 0.08) * radius;
+      const camZ = Math.cos(time * 0.08) * radius;
+      const camY = 10.5 + Math.sin(time * 0.12) * 1.5;
+      this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 48, 4 * delta);
+      this.camera.updateProjectionMatrix();
+      this.camera.position.lerp(new THREE.Vector3(camX, camY, camZ), 0.04);
+      this.cameraLookAt.lerp(new THREE.Vector3(0, 3.8, 4.0), 0.05);
       this.camera.lookAt(this.cameraLookAt);
       return;
     }

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Volume2, VolumeX, Maximize2, Minimize2, Smartphone, Compass, Sparkles, HelpCircle, Trophy, ArrowLeft, Zap } from "lucide-react";
+import { Volume2, VolumeX, Maximize2, Minimize2, Map, Compass, Trophy, Menu, Zap, X, Shield, Sparkles } from "lucide-react";
 import { NPCData, ActiveMinigame } from "./WorldEngine";
 
 interface WorldHUDProps {
@@ -17,8 +17,18 @@ interface WorldHUDProps {
   onToggleMute: () => void;
   onOpenPhone: () => void;
   onInteractNPC: () => void;
+  onOpenPauseMenu: () => void;
   onCancelMinigame?: () => void;
 }
+
+// Landmark lore subtitles for cinematic territory banner
+const LOCATION_LORE: Record<string, string> = {
+  "Central Plaza": "Port of Beginnings & Merchant Docks",
+  "MOBA Sanctuary": "Ancient Citadel of the Sacred Blades",
+  "Beach Stadium": "Coastal Arena & Striker's Shore",
+  "Battle Royale Outpost": "Fortified Watchtower & Supply Caches",
+  "Open Ocean": "Azure Reefs & Maritime Channel",
+};
 
 export const WorldHUD: React.FC<WorldHUDProps> = ({
   location,
@@ -33,11 +43,14 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
   onToggleMute,
   onOpenPhone,
   onInteractNPC,
+  onOpenPauseMenu,
   onCancelMinigame,
 }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [showHelp, setShowHelp] = useState(false);
+  const [bannerLocation, setBannerLocation] = useState(location);
+  const [showLocationBanner, setShowLocationBanner] = useState(true);
 
+  // Sync fullscreen state
   useEffect(() => {
     const handleFSChange = () => {
       setIsFullscreen(!!document.fullscreenElement);
@@ -49,6 +62,41 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
       document.removeEventListener("webkitfullscreenchange", handleFSChange);
     };
   }, []);
+
+  // Trigger cinematic landmark banner whenever entering a new location
+  useEffect(() => {
+    if (location !== bannerLocation) {
+      setBannerLocation(location);
+      setShowLocationBanner(true);
+      const timer = setTimeout(() => {
+        setShowLocationBanner(false);
+      }, 3500);
+      return () => clearTimeout(timer);
+    }
+  }, [location, bannerLocation]);
+
+  // Initial banner auto-hide
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowLocationBanner(false);
+    }, 4000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Keyboard shortcut: [M] opens map
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.code === "KeyM") {
+        e.preventDefault();
+        onOpenPhone();
+      } else if (e.code === "Escape") {
+        e.preventDefault();
+        onOpenPauseMenu();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onOpenPhone, onOpenPauseMenu]);
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
@@ -67,128 +115,123 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
     }
   };
 
-  const handleExitGame = () => {
-    if (document.fullscreenElement) {
-      try {
-        if (document.exitFullscreen) {
-          document.exitFullscreen().catch(() => {});
-        } else if ((document as any).webkitExitFullscreen) {
-          (document as any).webkitExitFullscreen();
-        }
-      } catch {}
-    }
-    window.location.href = "/";
-  };
-
   return (
     <div className="fixed inset-0 pointer-events-none z-30 select-none">
-      {/* ================================================================= */}
-      {/* TOP ARCADE HUD BAR                                               */}
-      {/* ================================================================= */}
+      {/* =================================================================== */}
+      {/* TOP NAVIGATION & EXPEDITION STATUS BAR                             */}
+      {/* =================================================================== */}
       <div className="p-3 sm:p-6 flex items-start justify-between gap-2">
-        {/* Arcade Exit / Pause Button (Top-Left) */}
+        {/* Expedition Menu & Hero Badge (Top-Left) */}
         <button
-          onClick={handleExitGame}
-          className="pointer-events-auto group flex items-center gap-1.5 sm:gap-2.5 px-3 py-2 sm:px-4 sm:py-2.5 rounded-xl sm:rounded-2xl bg-slate-900/90 hover:bg-red-950/90 border border-white/20 hover:border-red-500/50 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
-          title="Exit Game to Web"
+          onClick={onOpenPauseMenu}
+          className="pointer-events-auto group flex items-center gap-2 px-3 py-2 sm:px-4 sm:py-2.5 rounded-2xl bg-slate-900/90 hover:bg-slate-800/90 border border-teal-500/40 hover:border-teal-400 text-white shadow-[0_4px_16px_rgba(0,0,0,0.5)] active:scale-95 transition-all cursor-pointer backdrop-blur-md"
+          title="Open Pause Menu (ESC)"
         >
-          <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400 group-hover:text-red-400 group-hover:-translate-x-1 transition-transform" />
-          <div className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-emerald-400 group-hover:bg-red-400 animate-pulse" />
-          <span className="font-black font-display tracking-wider text-xs sm:text-sm">
-            EXIT<span className="hidden sm:inline"> <span className="text-emerald-400 group-hover:text-red-400">GAME</span></span>
-          </span>
+          <Menu className="w-4 h-4 text-teal-400 group-hover:rotate-90 transition-transform" />
+          <div className="flex flex-col text-left">
+            <span className="font-display font-black tracking-wider text-xs sm:text-sm leading-tight text-white">
+              MENU
+            </span>
+            <span className="text-[9px] font-mono text-slate-400 font-bold hidden sm:inline">
+              [ESC]
+            </span>
+          </div>
         </button>
 
-        {/* Arcade Location Radar Banner (Top-Center) */}
-        <div className="hidden sm:flex items-center gap-2.5 px-6 py-2 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-cyan-400/40 text-white shadow-[0_4px_16px_rgba(6,182,212,0.25)] animate-in fade-in duration-300">
-          <Compass className="w-4 h-4 text-cyan-400 animate-spin-slow" />
-          <span className="font-black text-sm tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-200">
-            {location}
-          </span>
+        {/* Cinematic Territory Nameplate (Top-Center) */}
+        <div className="flex flex-col items-center">
+          {showLocationBanner ? (
+            <div className="flex flex-col items-center px-6 py-2.5 rounded-2xl bg-slate-950/90 backdrop-blur-md border border-amber-400/50 text-white shadow-[0_8px_30px_rgba(0,0,0,0.7)] animate-in fade-in slide-in-from-top-4 duration-500 text-center">
+              <div className="flex items-center gap-2 text-amber-400 text-[10px] font-mono font-bold tracking-[0.25em] uppercase">
+                <Compass className="w-3.5 h-3.5 animate-spin-slow" />
+                <span>TERRITORY DISCOVERED</span>
+              </div>
+              <h3 className="font-black font-display text-base sm:text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-white to-teal-200">
+                {bannerLocation}
+              </h3>
+              <p className="text-[10px] font-mono text-slate-300 tracking-wider">
+                {LOCATION_LORE[bannerLocation] || "Archipelago Region"}
+              </p>
+            </div>
+          ) : (
+            /* Minimalist compass header when banner fades */
+            <div className="hidden sm:flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/80 backdrop-blur-sm border border-white/10 text-slate-300 text-xs font-mono font-bold shadow-sm">
+              <Compass className="w-3.5 h-3.5 text-teal-400" />
+              <span>{location}</span>
+            </div>
+          )}
         </div>
 
-        {/* Top-Right Player Stats & Tactile Utility Buttons */}
-        <div className="pointer-events-auto flex items-center gap-1.5 sm:gap-2.5">
-          {/* 3D Coin Counter Pill */}
-          <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-xl sm:rounded-2xl bg-gradient-to-r from-amber-950/90 to-yellow-950/90 backdrop-blur-md border border-amber-400/50 text-amber-300 font-black text-xs sm:text-sm shadow-[0_4px_12px_rgba(245,158,11,0.25)]">
-            <span className="text-sm sm:text-base animate-bounce">🪙</span>
-            <span className="font-mono text-xs sm:text-base">{coins}</span>
-            <span className="text-amber-500/80 text-[10px] sm:text-xs font-mono">/ {totalCoins}</span>
+        {/* Top-Right Player Stats & Utility Controls */}
+        <div className="pointer-events-auto flex items-center gap-2">
+          {/* Embossed Golden Token Counter */}
+          <div className="flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-2xl bg-gradient-to-r from-[#1f1906] to-[#2c2007] backdrop-blur-md border border-amber-400/60 text-amber-300 font-black text-xs sm:text-sm shadow-[0_4px_16px_rgba(245,158,11,0.25)]">
+            {/* Custom SVG Golden Star Token */}
+            <svg viewBox="0 0 24 24" className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400 fill-current drop-shadow">
+              <circle cx="12" cy="12" r="10" fill="#f59e0b" stroke="#fef08a" strokeWidth="1.5" />
+              <polygon points="12,5 14,9 18.5,9.5 15,13 16,17.5 12,15 8,17.5 9,13 5.5,9.5 10,9" fill="#78350f" />
+            </svg>
+            <span className="font-mono text-xs sm:text-base tracking-tight">{coins}</span>
+            <span className="text-amber-500/70 text-[10px] sm:text-xs font-mono font-bold">/ {totalCoins}</span>
           </div>
 
-          {/* Dedicated Map & Quest Hub Button in Top Bar (Always reachable, never obstructs controls) */}
+          {/* Navigator's Map Slate Button */}
           <button
             onClick={onOpenPhone}
-            aria-label="Open Map & Quest Hub"
-            className="flex items-center gap-1.5 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl sm:rounded-2xl bg-gradient-to-r from-indigo-600 via-cyan-600 to-indigo-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-black text-xs border border-cyan-400/50 shadow-[0_4px_12px_rgba(99,102,241,0.35)] active:scale-95 transition-all cursor-pointer"
+            aria-label="Open Navigator's Map Slate"
+            className="flex items-center gap-1.5 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-2xl bg-gradient-to-r from-teal-600 to-emerald-600 hover:from-teal-500 hover:to-emerald-500 text-slate-950 font-black text-xs border-t border-white/40 border-b-2 border-teal-900 shadow-[0_4px_12px_rgba(20,184,166,0.3)] active:scale-95 transition-all cursor-pointer"
           >
-            <Smartphone className="w-3.5 h-3.5 text-cyan-200" />
+            <Map className="w-3.5 h-3.5 text-slate-950" />
             <span className="font-mono text-xs">MAP</span>
+            <span className="text-[10px] text-slate-900 font-mono hidden sm:inline">[M]</span>
           </button>
 
-          {/* Arcade Tachometer & Nitro Bar (Desktop only) */}
-          <div className="hidden md:flex flex-col items-end gap-1 px-4 py-1.5 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-white/20 text-white shadow-[0_4px_12px_rgba(0,0,0,0.5)]">
-            <div className="flex items-center gap-1.5 text-xs font-mono font-black">
-              <span className="text-cyan-400 text-sm">{speedKmH}</span>
-              <span className="text-slate-400 text-[10px]">KM/H</span>
+          {/* Agility Sprint Gauge (Desktop Only) */}
+          <div className="hidden lg:flex flex-col items-end gap-1 px-3.5 py-1.5 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-white/15 text-white shadow-md">
+            <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-slate-300">
+              <Zap className="w-3 h-3 text-teal-400" />
+              <span className="text-[10px] uppercase tracking-wider text-slate-400">AGILITY</span>
+              <span className="text-teal-300 text-xs font-black">{Math.round(speedKmH)} KM/H</span>
             </div>
-            <div className="flex items-center gap-1">
-              <Zap className="w-2.5 h-2.5 text-cyan-400" />
-              <div className="w-20 h-1.5 rounded-full bg-slate-800 overflow-hidden border border-white/10">
-                <div
-                  className="h-full bg-gradient-to-r from-cyan-400 via-teal-300 to-blue-500 transition-all duration-100"
-                  style={{ width: `${nitroPct}%` }}
-                />
-              </div>
+            <div className="w-24 h-1.5 rounded-full bg-slate-950 overflow-hidden border border-white/10">
+              <div
+                className="h-full bg-gradient-to-r from-teal-400 via-emerald-400 to-amber-400 transition-all duration-75"
+                style={{ width: `${nitroPct}%` }}
+              />
             </div>
           </div>
 
-          {/* Sound Mute/Unmute */}
+          {/* Audio Mute/Unmute */}
           <button
             onClick={onToggleMute}
             aria-label="Toggle Sound"
-            className="p-2 sm:p-2.5 rounded-xl sm:rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
+            className="p-2 sm:p-2.5 rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/15 text-white shadow-md active:scale-95 transition-all cursor-pointer"
           >
-            {isMuted ? <VolumeX className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-red-400" /> : <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400" />}
+            {isMuted ? <VolumeX className="w-4 h-4 text-red-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
           </button>
 
           {/* Fullscreen Toggle */}
           <button
             onClick={toggleFullscreen}
             aria-label="Toggle Fullscreen"
-            className="hidden sm:flex p-2.5 rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
+            className="hidden sm:flex p-2.5 rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/15 text-white shadow-md active:scale-95 transition-all cursor-pointer"
           >
-            {isFullscreen ? <Minimize2 className="w-4 h-4 text-cyan-400" /> : <Maximize2 className="w-4 h-4 text-white" />}
-          </button>
-
-          {/* Help & Guide */}
-          <button
-            onClick={() => setShowHelp(true)}
-            aria-label="Help & Guide"
-            className="p-2 sm:p-2.5 rounded-xl sm:rounded-2xl bg-slate-900/90 hover:bg-slate-800 border border-white/20 text-white shadow-[0_4px_0_#020617] active:translate-y-1 active:shadow-none transition-all cursor-pointer"
-          >
-            <HelpCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-cyan-400" />
+            {isFullscreen ? <Minimize2 className="w-4 h-4 text-teal-400" /> : <Maximize2 className="w-4 h-4 text-white" />}
           </button>
         </div>
       </div>
 
-      {/* ================================================================= */}
-      {/* ACTIVE ARCADE MINIGAME HUD BANNER                                 */}
-      {/* ================================================================= */}
+      {/* =================================================================== */}
+      {/* ACTIVE ARCADE MINIGAME BANNER                                       */}
+      {/* =================================================================== */}
       {activeMinigame && (
         <div className="absolute top-20 sm:top-24 inset-x-0 flex justify-center pointer-events-auto px-4 z-40 animate-in slide-in-from-top-4 duration-300">
-          <div className="w-full max-w-xl bg-[#070d18]/95 backdrop-blur-2xl border-[3px] border-amber-400/80 rounded-2xl sm:rounded-3xl p-4 sm:p-5 shadow-[0_16px_40px_rgba(0,0,0,0.9),inset_0_0_20px_rgba(245,158,11,0.2)] text-white space-y-3 relative">
-            {/* Corner Rivets */}
-            <div className="absolute top-2 left-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
-            <div className="absolute top-2 right-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
-            <div className="absolute bottom-2 left-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
-            <div className="absolute bottom-2 right-2 w-1.5 h-1.5 rounded-full bg-amber-400 shadow-[0_0_4px_#facc15]" />
-
+          <div className="w-full max-w-xl bg-slate-950/95 backdrop-blur-2xl border-2 border-amber-400/80 rounded-3xl p-4 sm:p-5 shadow-[0_16px_40px_rgba(0,0,0,0.9)] text-white space-y-3 relative">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2.5">
-                <div className="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping" />
+                <div className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-ping" />
                 <span className="text-[10px] font-mono font-black uppercase tracking-widest px-2.5 py-0.5 rounded bg-amber-400 text-slate-950 shadow">
-                  1P ARCADE TRIAL
+                  CHALLENGE
                 </span>
                 <h4 className="font-black font-display text-sm sm:text-base text-amber-300 tracking-wide">
                   {activeMinigame.title}
@@ -196,40 +239,38 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
               </div>
 
               <div className="flex items-center gap-2.5">
-                {/* Digital LED Timer */}
                 <div
                   className={`flex items-center gap-1.5 px-3 py-1 rounded-xl font-mono font-black text-xs sm:text-sm border-2 ${
                     activeMinigame.timeLeft <= 10
                       ? "bg-red-950/80 text-red-400 border-red-500 shadow-[0_0_12px_rgba(239,68,68,0.5)] animate-pulse"
-                      : "bg-slate-950 text-cyan-300 border-cyan-400/60 shadow-[0_0_10px_rgba(6,182,212,0.3)]"
+                      : "bg-slate-900 text-teal-300 border-teal-400/60 shadow-[0_0_10px_rgba(20,184,166,0.3)]"
                   }`}
                 >
-                  <span className="text-xs">⏱️</span>
+                  <span className="text-xs">⏱</span>
                   <span>{Math.max(0, activeMinigame.timeLeft).toFixed(1)}s</span>
                 </div>
 
-                {/* Abort button */}
                 {activeMinigame.status === "playing" && (
                   <button
                     onClick={onCancelMinigame}
-                    className="px-2.5 py-1 rounded-xl bg-slate-900 hover:bg-red-950 text-slate-400 hover:text-red-300 border border-white/20 text-xs font-mono font-bold transition-all cursor-pointer"
-                    title="Cancel Challenge"
+                    className="p-1 rounded-lg bg-slate-900 hover:bg-red-950 text-slate-400 hover:text-red-300 border border-white/20 transition-all cursor-pointer"
+                    title="Abort Challenge"
                   >
-                    ABORT [✕]
+                    <X className="w-4 h-4" />
                   </button>
                 )}
               </div>
             </div>
 
-            {/* Instructions & Score Progress */}
+            {/* Target Progress */}
             <div className="space-y-1.5">
               <div className="flex items-center justify-between text-xs font-mono">
                 <span className="text-slate-300 line-clamp-1">{activeMinigame.instructions}</span>
-                <span className="font-black text-amber-300 ml-2 whitespace-nowrap bg-slate-950 px-2 py-0.5 rounded border border-amber-400/30">
+                <span className="font-black text-amber-300 ml-2 whitespace-nowrap bg-slate-900 px-2 py-0.5 rounded border border-amber-400/30">
                   {activeMinigame.score} / {activeMinigame.targetScore} TARGETS
                 </span>
               </div>
-              <div className="w-full h-3 bg-slate-950 rounded-full overflow-hidden border border-white/20 p-0.5 shadow-inner">
+              <div className="w-full h-3 bg-slate-900 rounded-full overflow-hidden border border-white/20 p-0.5">
                 <div
                   className="h-full bg-gradient-to-r from-amber-400 via-yellow-300 to-emerald-400 rounded-full transition-all duration-300 shadow-[0_0_8px_#facc15]"
                   style={{
@@ -241,26 +282,25 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
 
             {/* Victory Toast */}
             {activeMinigame.status === "won" && (
-              <div className="p-3 rounded-xl bg-emerald-500/20 border-2 border-emerald-400 text-emerald-300 font-black text-center text-xs sm:text-sm animate-bounce flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(16,185,129,0.3)]">
+              <div className="p-3 rounded-xl bg-emerald-500/20 border-2 border-emerald-400 text-emerald-300 font-black text-center text-xs sm:text-sm animate-bounce flex items-center justify-center gap-2">
                 <Trophy className="w-4 h-4 fill-current text-amber-300" />
                 <span>CHALLENGE COMPLETE! +5 GOLD TOKENS AWARDED!</span>
               </div>
             )}
 
-            {/* Time Up Toast */}
+            {/* Lost Toast */}
             {activeMinigame.status === "lost" && (
               <div className="p-3 rounded-xl bg-red-500/20 border-2 border-red-400 text-red-300 font-black text-center text-xs sm:text-sm animate-pulse flex items-center justify-center gap-2">
-                <span>💥</span>
-                <span>TIME EXPIRED! Talk to the island guide to try again.</span>
+                <span>TIME EXPIRED! Talk to the island resident to try again.</span>
               </div>
             )}
           </div>
         </div>
       )}
 
-      {/* ================================================================= */}
-      {/* GOAL CELEBRATION ARCADE BANNER                                    */}
-      {/* ================================================================= */}
+      {/* =================================================================== */}
+      {/* GOAL CELEBRATION BANNER                                             */}
+      {/* =================================================================== */}
       {showGoal && (
         <div className="absolute top-24 inset-x-0 flex justify-center pointer-events-none animate-in zoom-in-95 duration-300">
           <div className="px-10 py-5 rounded-3xl bg-gradient-to-r from-emerald-600 via-teal-500 to-emerald-600 text-white font-black text-3xl sm:text-4xl shadow-[0_10px_35px_rgba(16,185,129,0.6)] border-4 border-emerald-300 flex items-center gap-4 animate-bounce">
@@ -270,9 +310,9 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
         </div>
       )}
 
-      {/* ================================================================= */}
-      {/* PROXIMITY NPC ARCADE ACTION PROMPT                               */}
-      {/* ================================================================= */}
+      {/* =================================================================== */}
+      {/* PROXIMITY NPC ACTION PROMPT                                         */}
+      {/* =================================================================== */}
       {activeNPC && (
         <div
           className="absolute bottom-48 sm:bottom-36 inset-x-0 flex justify-center pointer-events-auto animate-in slide-in-from-bottom-4 duration-300 px-4"
@@ -280,98 +320,26 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
         >
           <button
             onClick={onInteractNPC}
-            className="group px-4 py-2.5 sm:px-7 sm:py-3.5 rounded-full bg-slate-900/95 hover:bg-cyan-600 border-2 border-cyan-400/60 text-white font-black text-xs sm:text-base shadow-[0_8px_25px_rgba(6,182,212,0.4)] flex items-center gap-2 sm:gap-3 active:scale-95 transition-all cursor-pointer max-w-sm"
+            className="group px-5 py-3 sm:px-7 sm:py-3.5 rounded-full bg-slate-900/95 hover:bg-teal-600 border-2 border-teal-400/70 text-white font-black text-xs sm:text-base shadow-[0_8px_25px_rgba(20,184,166,0.4)] flex items-center gap-2.5 sm:gap-3.5 active:scale-95 transition-all cursor-pointer max-w-sm backdrop-blur-md"
           >
-            <span className="text-xl sm:text-2xl animate-pulse">{activeNPC.avatar}</span>
-            <span className="tracking-wide truncate">TALK TO {activeNPC.name.toUpperCase()}</span>
-            <span className="hidden sm:inline-block px-2.5 py-1 rounded-lg bg-cyan-500 text-slate-950 font-black font-mono text-xs shadow-inner">
+            <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-teal-500/20 border border-teal-400/40 flex items-center justify-center text-base sm:text-lg">
+              {activeNPC.avatar}
+            </div>
+            <div className="flex flex-col text-left">
+              <span className="text-[10px] font-mono font-bold text-amber-400 uppercase tracking-widest">
+                TALK WITH RESIDENT
+              </span>
+              <span className="tracking-wide text-white font-display uppercase font-bold truncate">
+                {activeNPC.name}
+              </span>
+            </div>
+            <span className="hidden sm:inline-block px-2.5 py-1 rounded-lg bg-teal-400 text-slate-950 font-black font-mono text-xs shadow-inner ml-1">
               [E]
             </span>
-            <span className="sm:hidden px-2 py-0.5 rounded-md bg-cyan-500 text-slate-950 font-black font-mono text-[10px]">
+            <span className="sm:hidden px-2 py-0.5 rounded-md bg-teal-400 text-slate-950 font-black font-mono text-[10px] ml-1">
               TAP
             </span>
           </button>
-        </div>
-      )}
-
-      {/* ================================================================= */}
-      {/* VIRTUAL SMARTPHONE GADGET TRIGGER (Desktop Only - Bottom-Right)  */}
-      {/* ================================================================= */}
-      <div className="hidden md:block absolute bottom-6 right-6 pointer-events-auto">
-        <button
-          onClick={onOpenPhone}
-          className="group relative flex items-center gap-3 px-5 py-3 rounded-2xl bg-gradient-to-r from-indigo-600 via-cyan-600 to-indigo-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-black text-sm border-t border-white/40 border-b-4 border-indigo-900 active:border-b-0 active:translate-y-1 shadow-[0_8px_24px_rgba(99,102,241,0.45)] transition-all cursor-pointer"
-        >
-          <Smartphone className="w-4 h-4 group-hover:rotate-12 transition-transform" />
-          <span className="tracking-wide">PHONE HUB &amp; MAP</span>
-          <span className="flex h-2.5 w-2.5 relative">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-300 opacity-75" />
-            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-cyan-400" />
-          </span>
-        </button>
-      </div>
-
-      {/* ================================================================= */}
-      {/* ARCADE HELP & GUIDE MODAL                                         */}
-      {/* ================================================================= */}
-      {showHelp && (
-        <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4 pointer-events-auto animate-in fade-in duration-200">
-          <div className="w-full max-w-lg bg-slate-900 border-2 border-cyan-500/40 rounded-3xl p-6 sm:p-8 text-white space-y-6 shadow-[0_15px_40px_rgba(0,0,0,0.8)]">
-            <div className="flex items-center justify-between border-b border-white/10 pb-4">
-              <h3 className="text-xl font-black font-display flex items-center gap-2.5 text-cyan-300">
-                <Compass className="w-6 h-6 text-cyan-400" />
-                D LUCKY WORLD 3D GUIDE
-              </h3>
-              <button
-                onClick={() => setShowHelp(false)}
-                className="w-8 h-8 rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center font-bold"
-              >
-                ✕
-              </button>
-            </div>
-
-            <div className="space-y-3.5 text-xs sm:text-sm text-slate-300 font-mono">
-              <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-950/60 border border-white/10">
-                <span className="w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-bold flex-shrink-0">
-                  1
-                </span>
-                <p>
-                  <strong>Archipelago Exploration:</strong> Use <code className="bg-slate-800 px-1.5 py-0.5 rounded text-emerald-400 font-bold">WASD</code> or touch controls to move freely.
-                </p>
-              </div>
-              <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-950/60 border border-white/10">
-                <span className="w-7 h-7 rounded-lg bg-cyan-500/20 text-cyan-300 flex items-center justify-center font-bold flex-shrink-0">
-                  2
-                </span>
-                <p>
-                  <strong>Swimming &amp; Running:</strong> Milo sprints across islands on foot and automatically swims gracefully when entering the ocean!
-                </p>
-              </div>
-              <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-950/60 border border-white/10">
-                <span className="w-7 h-7 rounded-lg bg-indigo-500/20 text-indigo-300 flex items-center justify-center font-bold flex-shrink-0">
-                  3
-                </span>
-                <p>
-                  <strong>Smartphone Hub:</strong> Tap <code className="bg-slate-800 px-1.5 py-0.5 rounded text-cyan-400 font-bold">Phone Hub</code> on the bottom-right for <strong>GPS Minimap &amp; Fast Travel</strong>.
-                </p>
-              </div>
-              <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-950/60 border border-white/10">
-                <span className="w-7 h-7 rounded-lg bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold flex-shrink-0">
-                  4
-                </span>
-                <p>
-                  <strong>Beach Soccer Stadium:</strong> Dribble and strike the giant soccer ball into the goal to score!
-                </p>
-              </div>
-            </div>
-
-            <button
-              onClick={() => setShowHelp(false)}
-              className="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 text-slate-950 font-black text-base shadow-[0_6px_20px_rgba(16,185,129,0.4)] border-b-4 border-emerald-700 active:border-b-0 active:translate-y-1 transition-all cursor-pointer"
-            >
-              READY TO EXPLORE!
-            </button>
-          </div>
         </div>
       )}
     </div>
