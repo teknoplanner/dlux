@@ -10,6 +10,7 @@ import { WorldLoadingScreen } from "./WorldLoadingScreen";
 import { WorldMainMenu } from "./WorldMainMenu";
 import { WorldPauseMenu } from "./WorldPauseMenu";
 import { Gamepad2, X } from "lucide-react";
+import { WorldLang, detectUserLanguage, saveUserLanguage } from "./worldI18n";
 
 export const WorldGameCanvas: React.FC = () => {
   const mountRef = useRef<HTMLDivElement>(null);
@@ -34,6 +35,12 @@ export const WorldGameCanvas: React.FC = () => {
   const [isMuted, setIsMuted] = useState(false);
   const [playerCoord, setPlayerCoord] = useState({ x: 0, z: 0 });
   const [completedQuests, setCompletedQuests] = useState<Record<string, boolean>>({});
+  const [lang, setLang] = useState<WorldLang>(() => detectUserLanguage());
+
+  const handleToggleLang = useCallback((newLang: WorldLang) => {
+    setLang(newLang);
+    saveUserLanguage(newLang);
+  }, []);
 
   useEffect(() => {
     if (!mountRef.current) return;
@@ -242,6 +249,8 @@ export const WorldGameCanvas: React.FC = () => {
           audio={audioRef.current}
           isMuted={isMuted}
           onToggleMute={handleToggleMute}
+          lang={lang}
+          onToggleLang={handleToggleLang}
         />
       )}
 
@@ -263,6 +272,7 @@ export const WorldGameCanvas: React.FC = () => {
             onInteractNPC={handleInteract}
             onOpenPauseMenu={() => setIsPauseOpen(true)}
             onCancelMinigame={() => engineRef.current?.cancelMinigame()}
+            lang={lang}
           />
 
           {/* Input Controls (Suspended if Pause Menu is open) */}
@@ -278,6 +288,7 @@ export const WorldGameCanvas: React.FC = () => {
             pois={engineRef.current?.pois || []}
             onFastTravel={handleFastTravel}
             completedQuests={completedQuests}
+            lang={lang}
           />
 
           {/* NPC Dialogue Bottom Sheet */}
@@ -286,6 +297,7 @@ export const WorldGameCanvas: React.FC = () => {
             onClose={handleCloseDialogue}
             onCompleteQuest={handleCompleteQuest}
             onStartChallenge={handleStartChallenge}
+            lang={lang}
           />
 
           {/* In-Game Pause Menu */}
@@ -306,6 +318,8 @@ export const WorldGameCanvas: React.FC = () => {
             location={locationName}
             completedQuestsCount={completedQuestsCount}
             audio={audioRef.current}
+            lang={lang}
+            onToggleLang={handleToggleLang}
           />
 
           {/* In-Game Controls Modal (Triggered from Pause Menu) */}

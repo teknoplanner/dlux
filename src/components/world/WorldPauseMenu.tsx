@@ -1,8 +1,9 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { Play, Map, Gamepad2, Volume2, VolumeX, RotateCcw, Home, Compass, Trophy } from "lucide-react";
+import { Play, Map, Gamepad2, Volume2, VolumeX, RotateCcw, Home, Compass } from "lucide-react";
 import { WorldAudio } from "./WorldAudio";
+import { WorldLang, WORLD_STRINGS } from "./worldI18n";
 
 interface WorldPauseMenuProps {
   isOpen: boolean;
@@ -18,6 +19,8 @@ interface WorldPauseMenuProps {
   location: string;
   completedQuestsCount: number;
   audio: WorldAudio | null;
+  lang: WorldLang;
+  onToggleLang: (lang: WorldLang) => void;
 }
 
 export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
@@ -34,8 +37,11 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
   location,
   completedQuestsCount,
   audio,
+  lang,
+  onToggleLang,
 }) => {
-  // ESC key resumes the game
+  const t = WORLD_STRINGS[lang];
+
   useEffect(() => {
     if (!isOpen) return;
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -60,51 +66,83 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
     cb();
   };
 
-  return (
-    <div className="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4 text-white select-none animate-in fade-in duration-200">
-      <div className="w-full max-w-md bg-gradient-to-b from-slate-900 via-slate-900 to-[#040914] border-2 border-teal-500/40 rounded-3xl p-6 sm:p-8 space-y-6 shadow-[0_20px_50px_rgba(0,0,0,0.9)] relative overflow-hidden">
-        {/* Subtle Ambient Glow */}
-        <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-72 h-40 bg-teal-500/15 rounded-full blur-[70px] pointer-events-none" />
+  const localizedLocation = t.hud.locations[location as keyof typeof t.hud.locations] || location;
 
-        {/* Pause Header */}
-        <div className="relative text-center space-y-1.5 border-b border-white/10 pb-5">
-          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-teal-500/15 border border-teal-400/30 text-teal-300 font-mono text-[10px] font-bold tracking-[0.25em] uppercase">
-            <Compass className="w-3 h-3 text-amber-400" />
-            <span>EXPEDITION SUSPENDED</span>
+  return (
+    <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 text-white select-none animate-in fade-in duration-200">
+      <div className="w-full max-w-md bg-[#161b22] border-2 border-slate-700 rounded-3xl p-6 sm:p-7 space-y-5 shadow-2xl relative">
+        {/* Pause Header with Language Switcher */}
+        <div className="flex items-center justify-between border-b border-slate-800 pb-4">
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
+              <h2 className="text-xl font-black text-white tracking-tight">
+                {t.pauseMenu.title}
+              </h2>
+            </div>
+            <p className="text-xs text-slate-400 font-medium">{t.pauseMenu.suspended}</p>
           </div>
-          <h2 className="text-2xl sm:text-3xl font-black font-display tracking-wider text-white">
-            GAME PAUSED
-          </h2>
+
+          {/* Language Toggle Pill */}
+          <div className="flex items-center rounded-xl bg-slate-900 border border-slate-700 p-0.5 shadow-sm">
+            <button
+              type="button"
+              onClick={() => {
+                audio?.playMenuHover();
+                onToggleLang("id");
+              }}
+              className={`px-2.5 py-1 rounded-lg text-xs font-black transition-all cursor-pointer ${
+                lang === "id"
+                  ? "bg-emerald-500 text-slate-950 shadow"
+                  : "text-slate-400 hover:text-white"
+              }`}
+            >
+              ID
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                audio?.playMenuHover();
+                onToggleLang("en");
+              }}
+              className={`px-2.5 py-1 rounded-lg text-xs font-black transition-all cursor-pointer ${
+                lang === "en"
+                  ? "bg-emerald-500 text-slate-950 shadow"
+                  : "text-slate-400 hover:text-white"
+              }`}
+            >
+              EN
+            </button>
+          </div>
         </div>
 
         {/* Current Expedition Progress Slate */}
-        <div className="relative bg-slate-950/80 rounded-2xl p-4 border border-white/10 space-y-3 font-mono text-xs">
+        <div className="bg-slate-900 rounded-2xl p-4 border border-slate-800 space-y-2.5 text-xs font-medium">
           <div className="flex items-center justify-between text-slate-300">
-            <span className="text-[11px] text-slate-400">CURRENT REGION:</span>
-            <span className="font-bold text-teal-300 flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              {location}
+            <span className="text-slate-400 font-bold">{t.pauseMenu.currentRegion}:</span>
+            <span className="font-extrabold text-emerald-400 flex items-center gap-1.5">
+              🏝️ {localizedLocation}
             </span>
           </div>
 
           <div className="flex items-center justify-between text-slate-300">
-            <span className="text-[11px] text-slate-400">GOLDEN TOKENS:</span>
-            <span className="font-bold text-amber-400">
+            <span className="text-slate-400 font-bold">{t.pauseMenu.goldTokens}:</span>
+            <span className="font-black text-amber-400">
               {coins} / {totalCoins}
             </span>
           </div>
 
           {/* Miniature Coin Progress Track */}
-          <div className="w-full h-2 bg-slate-900 rounded-full overflow-hidden border border-white/10">
+          <div className="w-full h-2.5 bg-slate-800 rounded-full overflow-hidden border border-slate-700">
             <div
-              className="h-full bg-gradient-to-r from-amber-400 to-yellow-300 rounded-full transition-all duration-300"
+              className="h-full bg-gradient-to-r from-amber-400 to-emerald-400 rounded-full transition-all duration-300"
               style={{ width: `${Math.min(100, (coins / totalCoins) * 100)}%` }}
             />
           </div>
 
-          <div className="flex items-center justify-between text-slate-300 pt-1">
-            <span className="text-[11px] text-slate-400">QUESTS COMPLETED:</span>
-            <span className="font-bold text-emerald-400">
+          <div className="flex items-center justify-between text-slate-300 pt-0.5">
+            <span className="text-slate-400 font-bold">{t.pauseMenu.questsCompleted}:</span>
+            <span className="font-extrabold text-emerald-400">
               {completedQuestsCount} / 4
             </span>
           </div>
@@ -116,67 +154,67 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
           <button
             onClick={() => handleAction(onResume)}
             onMouseEnter={handleHover}
-            className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-400 to-emerald-500 hover:from-emerald-400 hover:to-teal-300 text-slate-950 font-black text-sm uppercase tracking-wider border-t border-white/50 border-b-4 border-emerald-800 active:border-b-0 active:translate-y-1 shadow-[0_6px_20px_rgba(16,185,129,0.35)] transition-all cursor-pointer flex items-center justify-center gap-2"
+            className="w-full py-3.5 px-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 active:bg-emerald-600 text-slate-950 font-black text-sm uppercase tracking-wide border-b-4 border-emerald-800 active:border-b-0 active:translate-y-1 shadow-md transition-all cursor-pointer flex items-center justify-center gap-2"
           >
             <Play className="w-4 h-4 fill-slate-950" />
-            <span>RESUME EXPEDITION</span>
-            <span className="text-[10px] opacity-80">[ESC]</span>
+            <span>{t.pauseMenu.resume}</span>
+            <span className="text-xs opacity-80">[ESC]</span>
           </button>
 
           {/* Map & Fast Travel */}
           <button
             onClick={() => handleAction(onOpenMap)}
             onMouseEnter={handleHover}
-            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700/80 border border-white/10 hover:border-teal-400/50 text-slate-200 hover:text-white font-mono text-xs font-bold transition-all cursor-pointer flex items-center justify-between shadow-sm"
+            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-900 border border-slate-700 text-slate-200 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center justify-between shadow-sm"
           >
             <div className="flex items-center gap-2.5">
-              <Map className="w-4 h-4 text-teal-400" />
-              <span>ARCHIPELAGO MAP &amp; FAST TRAVEL</span>
+              <Map className="w-4 h-4 text-emerald-400" />
+              <span>{t.pauseMenu.mapFastTravel}</span>
             </div>
-            <span className="text-[10px] text-slate-400">[M]</span>
+            <span className="text-slate-400">[M]</span>
           </button>
 
           {/* Controls Guide */}
           <button
             onClick={() => handleAction(onOpenControls)}
             onMouseEnter={handleHover}
-            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700/80 border border-white/10 hover:border-teal-400/50 text-slate-200 hover:text-white font-mono text-xs font-bold transition-all cursor-pointer flex items-center gap-2.5 shadow-sm"
+            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-900 border border-slate-700 text-slate-200 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center gap-2.5 shadow-sm"
           >
-            <Gamepad2 className="w-4 h-4 text-teal-400" />
-            <span>HOW TO PLAY &amp; CONTROLS</span>
+            <Gamepad2 className="w-4 h-4 text-emerald-400" />
+            <span>{t.pauseMenu.howToPlay}</span>
           </button>
 
           {/* Audio Toggle */}
           <button
             onClick={onToggleMute}
             onMouseEnter={handleHover}
-            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700/80 border border-white/10 hover:border-teal-400/50 text-slate-200 hover:text-white font-mono text-xs font-bold transition-all cursor-pointer flex items-center justify-between shadow-sm"
+            className="w-full py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 active:bg-slate-900 border border-slate-700 text-slate-200 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center justify-between shadow-sm"
           >
             <div className="flex items-center gap-2.5">
               {isMuted ? <VolumeX className="w-4 h-4 text-red-400" /> : <Volume2 className="w-4 h-4 text-emerald-400" />}
-              <span>SOUND EFFECTS &amp; AMBIENCE</span>
+              <span>{t.pauseMenu.soundEffects}</span>
             </div>
-            <span className="text-[10px] font-bold text-slate-400">{isMuted ? "OFF" : "ON"}</span>
+            <span className="font-extrabold text-slate-400">{isMuted ? t.common.muted : t.common.soundOn}</span>
           </button>
 
-          {/* Return to Title */}
-          <div className="grid grid-cols-2 gap-2 pt-2 border-t border-white/10">
+          {/* Return to Title & Exit */}
+          <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
             <button
               onClick={() => handleAction(onReturnToTitle)}
               onMouseEnter={handleHover}
-              className="py-2.5 px-3 rounded-xl bg-slate-950 hover:bg-slate-800 border border-white/10 text-slate-400 hover:text-white font-mono text-[11px] font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              className="py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-300 hover:text-white text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
             >
               <RotateCcw className="w-3.5 h-3.5" />
-              <span>MAIN TITLE</span>
+              <span>{t.pauseMenu.mainTitle}</span>
             </button>
 
             <button
               onClick={() => handleAction(onExitToWeb)}
               onMouseEnter={handleHover}
-              className="py-2.5 px-3 rounded-xl bg-slate-950 hover:bg-red-950/70 border border-white/10 hover:border-red-500/40 text-slate-400 hover:text-red-300 font-mono text-[11px] font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
+              className="py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-red-950/70 border border-slate-700 hover:border-red-500/40 text-slate-300 hover:text-red-300 text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5"
             >
               <Home className="w-3.5 h-3.5" />
-              <span>EXIT TO WEB</span>
+              <span>{t.pauseMenu.exitWeb}</span>
             </button>
           </div>
         </div>

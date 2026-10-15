@@ -4,14 +4,7 @@ import React, { useState } from "react";
 import { X, MapPin, CheckCircle2, Circle, Compass, Zap, Gamepad2, Sparkles, Navigation, Users, Trophy, ExternalLink, ArrowRight } from "lucide-react";
 import { IslandPOI } from "./WorldEngine";
 import { apps } from "@/data/apps";
-
-interface Quest {
-  id: string;
-  title: string;
-  desc: string;
-  reward: string;
-  completed: boolean;
-}
+import { WorldLang, WORLD_STRINGS, BILINGUAL_QUESTS, BILINGUAL_RESIDENTS } from "./worldI18n";
 
 interface WorldSmartphoneProps {
   isOpen: boolean;
@@ -20,60 +13,8 @@ interface WorldSmartphoneProps {
   pois: IslandPOI[];
   onFastTravel: (islandId: string) => void;
   completedQuests: Record<string, boolean>;
+  lang: WorldLang;
 }
-
-// Island Residents Directory
-const RESIDENTS_LORE = [
-  {
-    name: "Milo the Cat",
-    role: "Expedition Mascot & Explorer",
-    location: "Archipelago Wanderer",
-    avatar: "🐱",
-    desc: "The brave feline protagonist wandering the islands, searching for ancient Golden Tokens.",
-  },
-  {
-    name: "Mang Ujang",
-    role: "Fruit Merchant",
-    location: "Central Plaza Market",
-    avatar: "🍎",
-    desc: "Sells fresh watermelons, citrus, and apples harvested from the coastal orchards.",
-  },
-  {
-    name: "Alchemist Luna",
-    role: "Potion Master",
-    location: "Plaza Bazaar",
-    avatar: "🧪",
-    desc: "Brews bubbling speed elixirs and glowing star tinctures in her copper cauldron.",
-  },
-  {
-    name: "Pak Mamat",
-    role: "Master Angler",
-    location: "Central Fishing Pier",
-    avatar: "🎣",
-    desc: "A veteran coastal fisherman sitting at the pier edge, catching red snappers and reef fish.",
-  },
-  {
-    name: "Valen the Knight",
-    role: "Grandmaster Guardian",
-    location: "MOBA Sanctuary",
-    avatar: "⚔️",
-    desc: "Stands watch over the ancient marble sanctuary columns and the sacred MOBA blades.",
-  },
-  {
-    name: "Leo",
-    role: "Striker #10",
-    location: "Beach Stadium",
-    avatar: "⚽",
-    desc: "The star soccer forward challenging adventurers to score goals on the sandy beach pitch.",
-  },
-  {
-    name: "Jax",
-    role: "Spec-Ops Ace",
-    location: "Battle Royale Outpost",
-    avatar: "🪖",
-    desc: "Oversees tactical supplies and airdrop hunter trials at the coastal watchtower.",
-  },
-];
 
 export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
   isOpen,
@@ -82,41 +23,20 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
   pois,
   onFastTravel,
   completedQuests,
+  lang,
 }) => {
   const [activeTab, setActiveTab] = useState<"map" | "quests" | "residents" | "games">("map");
+  const t = WORLD_STRINGS[lang].slate;
 
   if (!isOpen) return null;
 
-  const quests: Quest[] = [
-    {
-      id: "moba",
-      title: "Sacred Blade of the Sanctuary",
-      desc: "Travel to MOBA Sanctuary and converse with Grandmaster Valen.",
-      reward: "+50 EXP",
-      completed: !!completedQuests["moba"],
-    },
-    {
-      id: "soccer",
-      title: "Archipelago Golden Striker",
-      desc: "Score 1 goal at Beach Stadium by kicking the giant soccer ball into the goal net.",
-      reward: "+100 EXP",
-      completed: !!completedQuests["soccer"],
-    },
-    {
-      id: "airdrop",
-      title: "Tactical Airdrop Recon",
-      desc: "Reach the Battle Royale Outpost and inspect the parachuted airdrop supply cache.",
-      reward: "+50 EXP",
-      completed: !!completedQuests["airdrop"],
-    },
-    {
-      id: "tokens",
-      title: "Master Token Collector",
-      desc: "Collect at least 15 Golden Tokens hidden across islands, beaches, and stone bridges.",
-      reward: "+100 EXP",
-      completed: !!completedQuests["tokens"],
-    },
-  ];
+  const quests = Object.entries(BILINGUAL_QUESTS).map(([id, q]) => ({
+    id,
+    title: q.title[lang],
+    desc: q.desc[lang],
+    reward: q.reward[lang],
+    completed: !!completedQuests[id],
+  }));
 
   // Map coordinate translation (World -100..100 -> SVG 20..280)
   const mapWidth = 300;
@@ -139,12 +59,12 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             <div className="w-2.5 h-2.5 rounded-full bg-teal-400 animate-pulse shadow-[0_0_8px_#2dd4bf]" />
             <div>
               <h3 className="text-xs sm:text-sm font-black font-display tracking-widest text-white uppercase flex items-center gap-2">
-                <span>NAVIGATOR&apos;S SLATE</span>
+                <span>{t.title}</span>
                 <span className="text-[9px] px-1.5 py-0.2 rounded bg-teal-500/20 text-teal-300 border border-teal-400/30 font-mono">
-                  GPS ONLINE
+                  {t.status}
                 </span>
               </h3>
-              <p className="text-[10px] text-slate-400 font-mono">D Lucky World Archipelago Atlas</p>
+              <p className="text-[10px] text-slate-400 font-mono">{t.subtitle}</p>
             </div>
           </div>
           <button
@@ -215,7 +135,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
 
                 {/* GPS Coordinates Plate */}
                 <div className="absolute top-2.5 left-2.5 px-2 py-1 rounded-md bg-slate-950/85 text-[9px] font-mono font-bold text-teal-300 border border-teal-500/30">
-                  COORDS: X {Math.round(playerPos.x)}, Z {Math.round(playerPos.z)}
+                  {t.coords}: X {Math.round(playerPos.x)}, Z {Math.round(playerPos.z)}
                 </div>
               </div>
 
@@ -223,7 +143,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
               <div className="space-y-2">
                 <div className="flex items-center gap-1.5 text-xs font-bold text-slate-300 uppercase tracking-wider font-mono">
                   <Navigation className="w-3.5 h-3.5 text-teal-400" />
-                  <span>Fast Travel Waypoints</span>
+                  <span>{t.fastTravelTitle}</span>
                 </div>
                 <div className="grid grid-cols-2 gap-2">
                   {pois.map((poi) => (
@@ -239,7 +159,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
                         {poi.name}
                       </span>
                       <span className="block text-[10px] text-teal-400 font-mono group-hover:text-teal-200">
-                        Teleport &rarr;
+                        {t.teleport} &rarr;
                       </span>
                     </button>
                   ))}
@@ -254,7 +174,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
               <div className="text-xs font-bold text-slate-300 uppercase tracking-wider font-mono flex items-center justify-between">
                 <span className="flex items-center gap-1.5">
                   <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                  <span>Expedition Quests</span>
+                  <span>{t.questsTitle}</span>
                 </span>
                 <span className="text-amber-400 font-bold">
                   {quests.filter((q) => q.completed).length} / {quests.length}
@@ -296,13 +216,13 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             <div className="space-y-3">
               <div className="text-xs font-bold text-slate-300 uppercase tracking-wider font-mono flex items-center gap-1.5">
                 <Users className="w-3.5 h-3.5 text-teal-400" />
-                <span>Archipelago Residents</span>
+                <span>{t.residentsTitle}</span>
               </div>
 
               <div className="space-y-2">
-                {RESIDENTS_LORE.map((res) => (
+                {BILINGUAL_RESIDENTS.map((res) => (
                   <div
-                    key={res.name}
+                    key={res.name.en}
                     className="p-3 rounded-2xl bg-slate-900/80 border border-white/10 flex items-start gap-3"
                   >
                     <div className="w-10 h-10 rounded-xl bg-teal-500/15 border border-teal-400/30 flex items-center justify-center text-xl shrink-0">
@@ -310,13 +230,13 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
                     </div>
                     <div className="space-y-0.5 min-w-0 flex-1">
                       <div className="flex items-center justify-between">
-                        <h5 className="text-xs font-bold text-white truncate">{res.name}</h5>
+                        <h5 className="text-xs font-bold text-white truncate">{res.name[lang]}</h5>
                         <span className="text-[9px] font-mono text-amber-400 uppercase tracking-wider">
-                          {res.location}
+                          {res.location[lang]}
                         </span>
                       </div>
-                      <p className="text-[10px] text-teal-300 font-mono">{res.role}</p>
-                      <p className="text-[11px] text-slate-300 leading-snug">{res.desc}</p>
+                      <p className="text-[10px] text-teal-300 font-mono">{res.role[lang]}</p>
+                      <p className="text-[11px] text-slate-300 leading-snug">{res.desc[lang]}</p>
                     </div>
                   </div>
                 ))}
@@ -329,7 +249,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             <div className="space-y-3">
               <div className="text-xs font-bold text-slate-300 uppercase tracking-wider font-mono flex items-center gap-1.5">
                 <Gamepad2 className="w-3.5 h-3.5 text-emerald-400" />
-                <span>D Lucky X Games Portfolio</span>
+                <span>{t.gamesTitle}</span>
               </div>
               {apps.filter((a) => a.category === "game").map((g) => (
                 <div key={g.slug} className="p-3 rounded-2xl bg-slate-900/80 border border-white/10 flex items-center justify-between gap-3">
@@ -343,7 +263,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
                     rel="noopener noreferrer"
                     className="px-3 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10px] shadow flex items-center gap-1 shrink-0 transition-colors"
                   >
-                    <span>Google Play</span>
+                    <span>{t.googlePlay}</span>
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
@@ -361,7 +281,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             }`}
           >
             <Compass className="w-4 h-4" />
-            <span>Map</span>
+            <span>{t.tabMap}</span>
           </button>
           <button
             onClick={() => setActiveTab("quests")}
@@ -370,7 +290,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             }`}
           >
             <Sparkles className="w-4 h-4" />
-            <span>Quests</span>
+            <span>{t.tabQuests}</span>
           </button>
           <button
             onClick={() => setActiveTab("residents")}
@@ -379,7 +299,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             }`}
           >
             <Users className="w-4 h-4" />
-            <span>Residents</span>
+            <span>{t.tabResidents}</span>
           </button>
           <button
             onClick={() => setActiveTab("games")}
@@ -388,7 +308,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             }`}
           >
             <Gamepad2 className="w-4 h-4" />
-            <span>Games</span>
+            <span>{t.tabGames}</span>
           </button>
         </div>
       </div>

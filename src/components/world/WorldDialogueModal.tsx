@@ -3,12 +3,14 @@
 import React, { useState, useEffect } from "react";
 import { X, CheckCircle2, ChevronRight, Award, Compass, Shield, Radio, Trophy, Zap, Sparkles, Fish, Apple, FlaskConical } from "lucide-react";
 import { NPCData } from "./WorldEngine";
+import { WorldLang, BILINGUAL_NPCS } from "./worldI18n";
 
 interface WorldDialogueModalProps {
   npc: NPCData | null;
   onClose: () => void;
   onCompleteQuest?: (questId: string) => void;
   onStartChallenge?: (challengeId: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt") => void;
+  lang: WorldLang;
 }
 
 export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
@@ -16,6 +18,7 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
   onClose,
   onCompleteQuest,
   onStartChallenge,
+  lang,
 }) => {
   const [lineIdx, setLineIdx] = useState(0);
 
@@ -41,8 +44,17 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
 
   if (!npc) return null;
 
-  const currentLine = npc.dialogue[lineIdx] || "";
-  const isLastLine = lineIdx >= npc.dialogue.length - 1;
+  // Resolve bilingual dialogue lines
+  const biNpc = BILINGUAL_NPCS[npc.id];
+  const dialogueLines: string[] = biNpc?.dialogue[lang] ?? npc.dialogue;
+  const displayName: string = biNpc?.name[lang] ?? npc.name;
+
+  // Bilingual challenge title/instructions
+  const challengeTitle: string | undefined = biNpc?.challenge?.title[lang];
+  const challengeInstructions: string | undefined = biNpc?.challenge?.instructions[lang];
+
+  const currentLine = dialogueLines[lineIdx] || "";
+  const isLastLine = lineIdx >= dialogueLines.length - 1;
 
   const handleNext = () => {
     if (isLastLine) {
@@ -95,7 +107,7 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
               {badge.label}
             </span>
             <span className="text-sm sm:text-base font-black font-display tracking-wider text-white">
-              {npc.name.toUpperCase()}
+              {displayName.toUpperCase()}
             </span>
             <span className="text-[11px] font-mono text-teal-300 font-bold hidden sm:inline">
               // {npc.island}
@@ -168,11 +180,11 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
                       {npc.arcadeChallenge.badge}
                     </span>
                     <h5 className="text-sm sm:text-base font-black font-display text-amber-200 tracking-wide">
-                      {npc.arcadeChallenge.title}
+                      {challengeTitle ?? npc.arcadeChallenge.title}
                     </h5>
                   </div>
                   <p className="text-xs text-amber-300/90 font-mono leading-normal">
-                    {npc.arcadeChallenge.instructions}
+                    {challengeInstructions ?? npc.arcadeChallenge.instructions}
                   </p>
                 </div>
 
@@ -192,10 +204,10 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
             {/* Story Dialogue Progress Dots */}
             <div className="flex items-center gap-3">
               <span className="text-slate-400 font-bold hidden sm:inline">
-                LOG {lineIdx + 1} / {npc.dialogue.length}
+                LOG {lineIdx + 1} / {dialogueLines.length}
               </span>
               <div className="flex gap-1.5">
-                {npc.dialogue.map((_, idx) => (
+                {dialogueLines.map((_, idx) => (
                   <div
                     key={idx}
                     className={`h-2 rounded-full transition-all duration-300 ${
