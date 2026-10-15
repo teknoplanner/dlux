@@ -142,7 +142,7 @@ export class WorldCharacterManager {
 
     // MUST use SkeletonUtils.clone for SkinnedMesh in Three.js
     const charModel = SkeletonUtils.clone(this.protoScene);
-    const s = req.scale || 1.35;
+    const s = req.scale || 1.0;
     charModel.scale.set(s, s, s);
 
     // Apply texture and tint color

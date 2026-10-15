@@ -495,7 +495,7 @@ export class WorldLivingAtmosphere {
         name: `Vendor ${cfg.stallType}`,
         pos: new THREE.Vector3(0, 0, 0),
         rotY: 0,
-        scale: 1.35,
+        scale: 1.05,
         tintColor: tint,
         initialAnim: cfg.stallType === "fruit" ? "Interact" : "Idle_A",
         targetGroup: vendorGroup,
@@ -545,7 +545,7 @@ export class WorldLivingAtmosphere {
         name: cfg.name,
         pos: new THREE.Vector3(0, 0, 0),
         rotY: 0,
-        scale: 1.35,
+        scale: 1.0,
         tintColor: 0x0284c7,
         initialAnim: "Idle_B",
         targetGroup: group,
@@ -554,8 +554,8 @@ export class WorldLivingAtmosphere {
 
     // 3D Fishing Rod from folder assets/3d/boat
     const rodGroup = new THREE.Group();
-    rodGroup.position.set(0.28, 0.85, 0.35);
-    this.queueOrAttachRod(rodGroup, 0.013);
+    rodGroup.position.set(0.22, 0.65, 0.28);
+    this.queueOrAttachRod(rodGroup, 0.010);
     group.add(rodGroup);
 
     // Fishing Tackle Box & Bucket behind him on the pier deck (-Z in local space)
@@ -582,7 +582,7 @@ export class WorldLivingAtmosphere {
     this.scene.add(group);
 
     // Calculate rod tip in world space
-    const localTip = new THREE.Vector3(0.28, 0.85 + 3.7 * Math.cos(Math.PI / 4.8), 0.35 + 3.7 * Math.sin(Math.PI / 4.8));
+    const localTip = new THREE.Vector3(0.22, 0.65 + 3.0 * Math.cos(Math.PI / 4.8), 0.28 + 3.0 * Math.sin(Math.PI / 4.8));
     const worldTip = localTip.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), cfg.rotY).add(group.position);
 
     // Fishing Line & Floating Bobber on the water
@@ -645,7 +645,7 @@ export class WorldLivingAtmosphere {
         name: cfg.name,
         pos: new THREE.Vector3(0, 0, 0),
         rotY: 0,
-        scale: 1.35,
+        scale: 1.0,
         tintColor: 0xd97706,
         initialAnim: "Idle_A",
         targetGroup: group,
@@ -654,16 +654,16 @@ export class WorldLivingAtmosphere {
 
     // Bamboo Fishing Rod held in hands, angled forward towards the sea (+Z in group local space)
     const rodGroup = new THREE.Group();
-    rodGroup.position.set(0.28, 0.85, 0.35);
+    rodGroup.position.set(0.22, 0.65, 0.28);
     rodGroup.rotation.x = Math.PI / 4.8;
 
     const bambooMat = new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.6 });
-    const rod = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.045, 4.0, 8), bambooMat);
-    rod.position.set(0, 1.9, 0);
+    const rod = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.045, 3.4, 8), bambooMat);
+    rod.position.set(0, 1.6, 0);
     rodGroup.add(rod);
 
     const reel = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.12, 10), this.goldMat);
-    reel.position.set(0.05, 0.4, 0);
+    reel.position.set(0.05, 0.35, 0);
     reel.rotation.z = Math.PI / 2;
     rodGroup.add(reel);
 
@@ -684,7 +684,7 @@ export class WorldLivingAtmosphere {
     this.scene.add(group);
 
     // Calculate rod tip in world space
-    const localTip = new THREE.Vector3(0.28, 0.85 + 3.9 * Math.cos(Math.PI / 4.8), 0.35 + 3.9 * Math.sin(Math.PI / 4.8));
+    const localTip = new THREE.Vector3(0.22, 0.65 + 3.2 * Math.cos(Math.PI / 4.8), 0.28 + 3.2 * Math.sin(Math.PI / 4.8));
     const worldTip = localTip.clone().applyAxisAngle(new THREE.Vector3(0, 1, 0), cfg.rotY).add(group.position);
 
     // Floating bobber in the sea below the cliff
@@ -1068,7 +1068,7 @@ export class WorldLivingAtmosphere {
         name: cfg.name,
         pos: new THREE.Vector3(0, 0, 0),
         rotY: 0,
-        scale: 1.35,
+        scale: 0.95,
         tintColor: cfg.shirtColor,
         initialAnim: "Walking_A",
         targetGroup: group,

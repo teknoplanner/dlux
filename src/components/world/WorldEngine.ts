@@ -1834,7 +1834,7 @@ export class WorldEngine {
           name: npc.name,
           pos: npc.pos,
           rotY,
-          scale: 1.45,
+          scale: 1.0,
           tintColor: tintColors[npc.id],
           initialAnim: initialAnims[npc.id] || "Idle_A",
           targetGroup: group,
@@ -1846,23 +1846,23 @@ export class WorldEngine {
       if (npc.id === "leo") {
         const soccerBallTex = createSoccerBallTexture();
         const ballMat = new THREE.MeshStandardMaterial({ map: soccerBallTex, roughness: 0.35 });
-        juggledBall = new THREE.Mesh(new THREE.SphereGeometry(0.28, 16, 16), ballMat);
-        juggledBall.position.set(0.40, 0.28, 0.25);
+        juggledBall = new THREE.Mesh(new THREE.SphereGeometry(0.20, 16, 16), ballMat);
+        juggledBall.position.set(0.28, 0.20, 0.18);
         juggledBall.castShadow = true;
         group.add(juggledBall);
       }
 
       // Floating Holographic Quest Diamond with Idle Bobbing Bloom
       const beaconGroup = new THREE.Group();
-      beaconGroup.position.y = 2.45;
+      beaconGroup.position.y = 1.75;
       const beacon = new THREE.Mesh(
-        new THREE.OctahedronGeometry(0.32, 0),
+        new THREE.OctahedronGeometry(0.24, 0),
         new THREE.MeshStandardMaterial({ color: 0x38bdf8, emissive: 0x0284c7, emissiveIntensity: 1.4 })
       );
       beaconGroup.add(beacon);
 
       const beaconRing = new THREE.Mesh(
-        new THREE.TorusGeometry(0.46, 0.038, 8, 20),
+        new THREE.TorusGeometry(0.35, 0.03, 8, 20),
         new THREE.MeshStandardMaterial({ color: 0xfacc15, emissive: 0xeab308, emissiveIntensity: 1.2 })
       );
       beaconRing.rotation.x = Math.PI / 2;
@@ -1872,7 +1872,7 @@ export class WorldEngine {
 
       this.scene.add(group);
       this.npcMeshMap.set(npc.id, { group, head: group, juggledBall });
-      this.colliders.push({ x: npc.pos.x, z: npc.pos.z, radius: 0.95, label: npc.id });
+      this.colliders.push({ x: npc.pos.x, z: npc.pos.z, radius: 0.65, label: npc.id });
     });
   }
 
@@ -3255,15 +3255,15 @@ export class WorldEngine {
       // Camera positioned in front of NPC at a flattering 3/4 heroic angle
       const targetCamPos = new THREE.Vector3()
         .copy(npcPos)
-        .addScaledVector(npcForward, 2.7)
-        .addScaledVector(npcRight, 1.1)
-        .add(new THREE.Vector3(0, 1.75, 0));
+        .addScaledVector(npcForward, 2.1)
+        .addScaledVector(npcRight, 0.8)
+        .add(new THREE.Vector3(0, 1.25, 0));
 
       this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 42, 6 * delta);
       this.camera.updateProjectionMatrix();
       this.camera.position.lerp(targetCamPos, 0.1);
 
-      const targetLook = new THREE.Vector3().copy(npcPos).add(new THREE.Vector3(0, 1.6, 0));
+      const targetLook = new THREE.Vector3().copy(npcPos).add(new THREE.Vector3(0, 1.0, 0));
       this.cameraLookAt.lerp(targetLook, 0.12);
       this.camera.lookAt(this.cameraLookAt);
       return;
