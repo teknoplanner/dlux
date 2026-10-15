@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { ArrowLeft } from "lucide-react";
-import { apps } from "@/data/apps";
+import { apps, developer } from "@/data/apps";
 import { KucingPrivacyContent } from "@/components/privacy/KucingPrivacyContent";
 import { BabySharkPrivacyContent } from "@/components/privacy/BabySharkPrivacyContent";
 import { FruitMatchPrivacyContent } from "@/components/privacy/FruitMatchPrivacyContent";
@@ -31,6 +31,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
   return {
     title: `Privacy Policy: ${app.name}`,
     description: `Official Google Play Data Safety and privacy policy for ${app.name} (${app.packageId}).`,
+    alternates: {
+      canonical: `${developer.website}/privacy/${app.slug}/`,
+    },
   };
 }
 

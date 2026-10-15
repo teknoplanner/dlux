@@ -82,16 +82,6 @@ try {
     { lang: "id", href: `${baseUrl}/gear/` },
   ]);
 
-  addUrl(`${baseUrl}/hardware/`, nowIso, "weekly", "0.7", [
-    { lang: "id", href: `${baseUrl}/hardware/` },
-    { lang: "en", href: `${baseUrl}/en/hardware/` },
-  ]);
-
-  addUrl(`${baseUrl}/en/hardware/`, nowIso, "weekly", "0.7", [
-    { lang: "en", href: `${baseUrl}/en/hardware/` },
-    { lang: "id", href: `${baseUrl}/hardware/` },
-  ]);
-
   addUrl(`${baseUrl}/privacy/`, nowIso, "monthly", "0.7");
   addUrl(`${baseUrl}/contact/`, nowIso, "monthly", "0.7");
   addUrl(`${baseUrl}/terms/`, nowIso, "monthly", "0.7");

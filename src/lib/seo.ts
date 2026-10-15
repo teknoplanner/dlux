@@ -174,6 +174,7 @@ export function generateHardwareItemListSchema(
   lang: "id" | "en" = "id"
 ) {
   const isEn = lang === "en";
+  const pageUrl = `${developer.website}/${isEn ? "en/gear" : "gear"}/`;
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -183,48 +184,18 @@ export function generateHardwareItemListSchema(
     description: isEn
       ? "Curated hardware accessories tested for mobile gaming, child safety, and precision PDF e-signatures."
       : "Aksesoris fisik pilihan yang diuji untuk kenyamanan gaming mobile, proteksi tablet anak, dan tanda tangan digital PDF.",
-    url: `${developer.website}/${isEn ? "en/gear" : "gear"}/`,
+    url: pageUrl,
     numberOfItems: products.length,
     itemListElement: products.map((prod, index) => {
       const name = isEn ? prod.nameEn : prod.name;
       const tagline = isEn ? prod.taglineEn : prod.tagline;
-      const isShopee = !isEn && Boolean(prod.shopeeUrl);
-      const productUrl = isShopee ? prod.shopeeUrl! : prod.url;
       return {
         "@type": "ListItem",
         position: index + 1,
-        item: {
-          "@type": "Product",
-          name,
-          description: tagline,
-          image: `${developer.website}${prod.image}`,
-          url: productUrl,
-          brand: {
-            "@type": "Brand",
-            name: isShopee ? "Shopee Verified Store" : "Amazon Verified Hardware",
-          },
-          ...(prod.rating
-            ? {
-                aggregateRating: {
-                  "@type": "AggregateRating",
-                  ratingValue: prod.rating.toString(),
-                  reviewCount: prod.reviewsCount?.replace(/[^0-9]/g, "") || "100",
-                  bestRating: "5",
-                  worstRating: "1",
-                },
-              }
-            : {}),
-          offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            priceCurrency: isShopee ? "IDR" : "USD",
-            url: productUrl,
-            seller: {
-              "@type": "Organization",
-              name: isShopee ? "Shopee" : "Amazon",
-            },
-          },
-        },
+        name,
+        description: tagline,
+        image: `${developer.website}${prod.image}`,
+        url: `${pageUrl}#gear-${prod.id}`,
       };
     }),
   };

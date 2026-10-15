@@ -29,9 +29,6 @@ export const metadata: Metadata = {
   authors: [{ name: developer.name, url: developer.website }],
   creator: developer.name,
   publisher: developer.name,
-  alternates: {
-    canonical: "https://dluckyx.cloud/",
-  },
   openGraph: {
     type: "website",
     locale: "id_ID",

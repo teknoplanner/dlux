@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "D Lucky World 3D — Coastal Gaming Archipelago",
   description:
     "Explore D Lucky World 3D in your browser! Drive, run, and jump across themed gaming islands with mascot Milo the Cat, collect tokens, score goals, and fast-travel with the virtual smartphone map.",
+  alternates: {
+    canonical: "https://dluckyx.cloud/world/",
+  },
   openGraph: {
     title: "D Lucky World 3D — Coastal Gaming Archipelago",
     description:
