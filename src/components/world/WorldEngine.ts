@@ -5,6 +5,7 @@ import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
 import { WorldAudio } from "./WorldAudio";
+import { WorldLivingAtmosphere } from "./WorldLivingAtmosphere";
 
 export interface ActiveMinigame {
   id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt";
@@ -482,6 +483,9 @@ export class WorldEngine {
   // Animated NPC mesh map
   private npcMeshMap: Map<string, { group: THREE.Group; head: THREE.Group; waveArm?: THREE.Group; juggledBall?: THREE.Mesh }> = new Map();
 
+  // Living World System (Pedestrians, Market Vendors, Fishermen, Cruising Boats, Wildlife)
+  private livingAtmosphere: WorldLivingAtmosphere | null = null;
+
   // POIs
   public pois: IslandPOI[] = [
     { id: "hub", name: "Central Plaza", pos: new THREE.Vector3(0, 4.80, 8.0), desc: "The vibrant heart of the archipelago", tag: "START" },
@@ -658,7 +662,18 @@ export class WorldEngine {
     this.spawnAnimatedNPCs();
     this.setupParticles();
 
-    // 8. Event Listeners
+    // 8. Living World: Pedestrians, Market Vendors, Fishermen, Cruising Boats & Wildlife
+    this.livingAtmosphere = new WorldLivingAtmosphere(
+      this.scene,
+      this.colliders,
+      (npc: NPCData) => {
+        this.npcs.push(npc);
+      },
+      (x: number, z: number) => this.calculateGroundHeight(x, z)
+    );
+    this.livingAtmosphere.init();
+
+    // 9. Event Listeners
     window.addEventListener("resize", this.onWindowResize);
 
     // 9. Start Loop
@@ -2522,6 +2537,9 @@ export class WorldEngine {
     this.updateCollectibles(time);
     this.updateSoccerBall(delta);
     this.updateMinigame(delta, time);
+    if (this.livingAtmosphere) {
+      this.livingAtmosphere.update(delta, time);
+    }
     this.updateCameraFollow(delta);
     this.checkLocationAndProximity();
 
@@ -3681,6 +3699,10 @@ export class WorldEngine {
     this.isRunning = false;
     cancelAnimationFrame(this.reqId);
     window.removeEventListener("resize", this.onWindowResize);
+    if (this.livingAtmosphere) {
+      this.livingAtmosphere.destroy();
+      this.livingAtmosphere = null;
+    }
     this.composer.dispose();
     this.renderer.dispose();
     if (this.renderer.domElement.parentElement) {
