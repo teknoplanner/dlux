@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { WorldAudio } from "./WorldAudio";
+import { WeatherType } from "./WorldWeatherManager";
 import { WorldLang, WORLD_STRINGS } from "./worldI18n";
 
 interface WorldMainMenuProps {
@@ -9,6 +10,10 @@ interface WorldMainMenuProps {
   audio: WorldAudio | null;
   isMuted: boolean;
   onToggleMute: () => void;
+  isMusicEnabled?: boolean;
+  onToggleMusic?: () => void;
+  currentWeather?: WeatherType;
+  onSetWeather?: (weather: WeatherType) => void;
   lang: WorldLang;
   onToggleLang: (lang: WorldLang) => void;
 }
@@ -18,6 +23,10 @@ export const WorldMainMenu: React.FC<WorldMainMenuProps> = ({
   audio,
   isMuted,
   onToggleMute,
+  isMusicEnabled = true,
+  onToggleMusic,
+  currentWeather = "day",
+  onSetWeather,
   lang,
   onToggleLang,
 }) => {
@@ -508,16 +517,16 @@ export const WorldMainMenu: React.FC<WorldMainMenuProps> = ({
             </div>
 
             <div className="space-y-3.5 text-xs font-sans">
-              {/* Sound & Music Option */}
+              {/* Sound Effects Option */}
               <div className="p-3.5 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] flex items-center justify-between gap-3 shadow-sm">
                 <div>
                   <h5 className="font-black text-[#3e2723] text-sm">
-                    {lang === "id" ? "Suara & Musik" : "Sound & Music"}
+                    {lang === "id" ? "Efek Suara (SFX)" : "Sound Effects (SFX)"}
                   </h5>
                   <p className="text-[#854d0e] text-[11px] font-bold">
                     {isMuted
-                      ? (lang === "id" ? "Efek audio saat ini dibisukan" : "Audio currently muted")
-                      : (lang === "id" ? "Musik pesisir & efek audio aktif" : "Coastal audio & ambience active")}
+                      ? (lang === "id" ? "Efek langkah, koin & percikan air dibisukan" : "Footstep, coin & water sounds muted")
+                      : (lang === "id" ? "Efek langkah, koin & interaksi aktif" : "All interactive sound effects active")}
                   </p>
                 </div>
                 <button
@@ -532,6 +541,90 @@ export const WorldMainMenu: React.FC<WorldMainMenuProps> = ({
                   {!isMuted ? (lang === "id" ? "NYALA" : "ON") : (lang === "id" ? "SENYAP" : "MUTED")}
                 </button>
               </div>
+
+              {/* Background Music (BGM) Option */}
+              {onToggleMusic && (
+                <div className="p-3.5 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] flex items-center justify-between gap-3 shadow-sm">
+                  <div>
+                    <h5 className="font-black text-[#3e2723] text-sm flex items-center gap-1.5">
+                      <span>🎵</span>
+                      <span>{lang === "id" ? "Musik Latar (BGM)" : "Background Music (BGM)"}</span>
+                    </h5>
+                    <p className="text-[#854d0e] text-[11px] font-bold">
+                      {isMusicEnabled && !isMuted
+                        ? (lang === "id" ? "Lagu petualangan pesisir berputar santai" : "Coastal ocean soundtrack playing")
+                        : (lang === "id" ? "Musik latar dimatikan" : "Background soundtrack muted")}
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={onToggleMusic}
+                    className={`px-4 py-2 rounded-xl font-black text-xs border-2 shadow-sm active:translate-y-0.5 transition-all cursor-pointer ${
+                      isMusicEnabled && !isMuted
+                        ? "bg-[#22c55e] text-white border-[#15803d]"
+                        : "bg-[#fee2e2] text-[#991b1b] border-[#b91c1c]"
+                    }`}
+                  >
+                    {isMusicEnabled && !isMuted ? (lang === "id" ? "NYALA" : "ON") : (lang === "id" ? "SENYAP" : "MUTED")}
+                  </button>
+                </div>
+              )}
+
+              {/* Weather & Time Atmosphere Option */}
+              {onSetWeather && (
+                <div className="p-3.5 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] space-y-2 shadow-sm">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h5 className="font-black text-[#3e2723] text-sm flex items-center gap-1.5">
+                        <span>🌤️</span>
+                        <span>{lang === "id" ? "Suasana Cuaca & Waktu" : "Weather & Time of Day"}</span>
+                      </h5>
+                      <p className="text-[#854d0e] text-[11px] font-bold">
+                        {lang === "id" ? "Pilih kondisi pencahayaan dan atmosfer dunia" : "Choose the lighting and sky atmosphere"}
+                      </p>
+                    </div>
+                    <span className="text-[10px] font-black px-2 py-0.5 rounded-lg bg-[#fef08a] text-[#854d0e] border border-[#ca8a04]">
+                      {currentWeather === "day"
+                        ? (lang === "id" ? "Siang" : "Day")
+                        : currentWeather === "night"
+                        ? (lang === "id" ? "Malam" : "Night")
+                        : currentWeather === "rain"
+                        ? (lang === "id" ? "Hujan" : "Rain")
+                        : (lang === "id" ? "Salju" : "Snow")}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-4 gap-1.5 pt-1">
+                    {(
+                      [
+                        { id: "day", icon: "☀️", label: lang === "id" ? "Siang" : "Day" },
+                        { id: "night", icon: "🌙", label: lang === "id" ? "Malam" : "Night" },
+                        { id: "rain", icon: "🌧️", label: lang === "id" ? "Hujan" : "Rain" },
+                        { id: "snow", icon: "❄️", label: lang === "id" ? "Salju" : "Snow" },
+                      ] as const
+                    ).map((item) => {
+                      const isActive = currentWeather === item.id;
+                      return (
+                        <button
+                          key={item.id}
+                          type="button"
+                          onClick={() => {
+                            audio?.playMenuHover();
+                            onSetWeather(item.id);
+                          }}
+                          className={`flex flex-col items-center justify-center py-2 px-1 rounded-xl border-2 transition-all cursor-pointer ${
+                            isActive
+                              ? "bg-[#22c55e] text-white border-[#15803d] shadow-sm font-black scale-102"
+                              : "bg-[#fffdf6] text-[#854d0e] hover:bg-[#fef9c3] border-[#ca8a04]/60"
+                          }`}
+                        >
+                          <span className="text-base leading-tight">{item.icon}</span>
+                          <span className="text-[10px] font-black tracking-tight">{item.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
 
               {/* Language Switch Option */}
               <div className="p-3.5 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] flex items-center justify-between gap-3 shadow-sm">

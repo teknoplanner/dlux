@@ -2,247 +2,202 @@
 
 import React, { useState, useEffect } from "react";
 import { WorldLang, detectUserLanguage, WORLD_STRINGS } from "./worldI18n";
+import { getPlayerRealtimeWeather, RealtimeWeatherInfo } from "./WorldWeatherManager";
 
 interface WorldLoadingScreenProps {
-  onFinishLoading: () => void;
+  onStartExploration: () => void;
   lang?: WorldLang;
+  onOpenControls?: () => void;
 }
 
-export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({ onFinishLoading, lang: propLang }) => {
+export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({
+  onStartExploration,
+  lang: propLang,
+  onOpenControls,
+}) => {
   const [lang] = useState<WorldLang>(() => propLang || detectUserLanguage());
   const t = WORLD_STRINGS[lang];
   const [progress, setProgress] = useState(0);
-  const [tipIdx, setTipIdx] = useState(0);
-  const [statusText, setStatusText] = useState(t.loading.statuses[0]);
+  const [isReady, setIsReady] = useState(false);
+  const [isExiting, setIsExiting] = useState(false);
+  const [realtime, setRealtime] = useState<RealtimeWeatherInfo>(() => getPlayerRealtimeWeather());
 
-  const onFinishRef = React.useRef(onFinishLoading);
-  onFinishRef.current = onFinishLoading;
+  const onStartRef = React.useRef(onStartExploration);
+  onStartRef.current = onStartExploration;
 
-  // Keyboard shortcut (Enter or Space) to skip loading when ready
+  // Track realtime clock periodically
+  useEffect(() => {
+    const clockInterval = setInterval(() => {
+      setRealtime(getPlayerRealtimeWeather());
+    }, 5000);
+    return () => clearInterval(clockInterval);
+  }, []);
+
+  const handleStart = () => {
+    if (isExiting) return;
+    setIsExiting(true);
+    setTimeout(() => {
+      onStartRef.current?.();
+    }, 450);
+  };
+
+  // Keyboard shortcut (Enter or Space) to start exploration
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.code === "Enter" || e.code === "Space") {
         e.preventDefault();
-        setProgress(100);
-        onFinishRef.current?.();
+        handleStart();
       }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+  }, [isExiting]);
 
+  // Fast loading progression (~0.9s) so the PLAY button pops up swiftly
   useEffect(() => {
     let completed = false;
     let currentPct = 0;
 
-    // Smooth progressive advancement in stages (~2.2s total)
     const interval = setInterval(() => {
       if (completed) return;
 
-      let step = 0;
-      if (currentPct < 25) {
-        step = 1.8 + Math.random() * 1.6;
-      } else if (currentPct < 60) {
-        step = 2.4 + Math.random() * 2.0;
-      } else if (currentPct < 88) {
-        step = 1.8 + Math.random() * 1.5;
-      } else if (currentPct < 98) {
-        step = 1.0 + Math.random() * 1.2;
-      } else {
-        step = 1.0;
-      }
-
+      // Snappy advancement so user doesn't wait long
+      const step = 4.5 + Math.random() * 4.0;
       currentPct = Math.min(100, currentPct + step);
       const rounded = Math.floor(currentPct);
       setProgress(rounded);
-
-      const stageIndex = Math.min(
-        t.loading.statuses.length - 1,
-        Math.floor((rounded / 100) * t.loading.statuses.length)
-      );
-      setStatusText(t.loading.statuses[stageIndex]);
 
       if (rounded >= 100 && !completed) {
         completed = true;
         clearInterval(interval);
         setTimeout(() => {
-          onFinishRef.current?.();
-        }, 300);
+          setIsReady(true);
+        }, 120);
       }
-    }, 40);
+    }, 30);
 
     return () => {
       completed = true;
       clearInterval(interval);
     };
-  }, [t]);
-
-  // Cycle tips periodically
-  useEffect(() => {
-    const tipInterval = setInterval(() => {
-      setTipIdx((prev) => (prev + 1) % t.loading.tips.length);
-    }, 2800);
-    return () => clearInterval(tipInterval);
-  }, [t]);
-
-  const handleSkip = () => {
-    setProgress(100);
-    onFinishRef.current?.();
-  };
+  }, []);
 
   return (
-    <div className="absolute inset-0 z-50 bg-[#0f172a] flex flex-col justify-between p-4 sm:p-8 text-[#3e2723] select-none overflow-hidden animate-in fade-out duration-300">
-      {/* 1. Paper Craft Background */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a]">
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[500px] bg-amber-500/15 rounded-full blur-[140px]" />
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[350px] bg-emerald-500/10 rounded-full blur-[130px]" />
+    <div
+      className={`fixed inset-0 z-50 flex flex-col items-center justify-between p-4 sm:p-8 select-none overflow-hidden transition-opacity duration-500 ${
+        isExiting ? "opacity-0 pointer-events-none" : "opacity-100"
+      }`}
+      style={{
+        // Translucent cinematic vignette so the live 3D island camera POV is visible
+        background:
+          "radial-gradient(circle at center, rgba(14, 52, 68, 0.45) 0%, rgba(5, 23, 34, 0.82) 100%)",
+        color: "#EAF8F7",
+      }}
+    >
+      {/* =================================================================== */}
+      {/* TOP BAR: MINIMAL LOGO & REAL-TIME CLOCK BADGE                      */}
+      {/* =================================================================== */}
+      <div className="w-full max-w-4xl flex items-center justify-between text-xs sm:text-sm font-semibold text-white/90">
+        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/15 shadow-md">
+          <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 border border-emerald-600 animate-ping" />
+          <span className="tracking-wider uppercase font-black text-white text-xs sm:text-sm">
+            D LUCKY WORLD 3D
+          </span>
+        </div>
+
+        {/* Real-time IP Weather badge */}
+        <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/15 text-white shadow-md text-xs font-bold">
+          <span className="text-sm">🕒</span>
+          <span className="font-mono font-black text-amber-200">{realtime.timeString}</span>
+          <span className="px-2 py-0.5 rounded-full bg-white/20 text-[11px] font-black">
+            {realtime.isDaytime ? "Siang ☀️" : "Malam 🌙"}
+          </span>
+        </div>
       </div>
 
-      {/* 2. Top Header Bar: Paper Studio Crest & Skip Button */}
-      <header className="relative z-10 w-full flex items-center justify-between">
-        {/* Studio Crest with Paper Coin Icon */}
-        <div className="flex items-center gap-3">
-          <div className="w-11 h-11 rounded-2xl bg-[#fffdf6] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] flex items-center justify-center p-1.5">
-            <img
-              src="/assets/ui/paper/Icons/GameIcons/IconCoin.png"
-              alt="Logo"
-              className="w-full h-full object-contain"
-              draggable={false}
-            />
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="font-black text-sm text-[#fffdf6] tracking-wider uppercase drop-shadow">
-                DLUCKYX STUDIOS
-              </span>
-              <span className="px-2 py-0.5 rounded-full bg-[#22c55e] text-white text-[10px] font-black border border-[#15803d] shadow-sm">
-                3D
-              </span>
-            </div>
-            <p className="text-[11px] text-amber-200/80 font-bold tracking-wide">
-              COASTAL ARCHIPELAGO EXPEDITION
-            </p>
-          </div>
-        </div>
-
-        {/* PaperUIKit Skip Button using ButtonSmallWhite & IconNext */}
-        <button
-          type="button"
-          onClick={handleSkip}
-          className="relative group inline-flex items-center justify-center cursor-pointer select-none active:scale-95 transition-transform"
-        >
-          <img
-            src="/assets/ui/paper/Buttons/SmallButtons/ButtonSmallWhite.png"
-            alt="Skip"
-            className="h-9 sm:h-10 w-auto group-active:hidden drop-shadow-md"
-            draggable={false}
-          />
-          <img
-            src="/assets/ui/paper/Buttons/SmallButtons/ButtonSmallWhiteActive.png"
-            alt="Skip"
-            className="h-9 sm:h-10 w-auto hidden group-active:block drop-shadow-md"
-            draggable={false}
-          />
-          <span className="absolute inset-0 flex items-center justify-center gap-1.5 font-black text-[#5c3e21] text-xs uppercase tracking-wider pb-1 group-active:pt-1">
-            <span>{t.common.skip}</span>
-            <img
-              src="/assets/ui/paper/Icons/GameIcons/IconNext.png"
-              alt=""
-              className="w-3.5 h-3.5 object-contain"
-              draggable={false}
-            />
-          </span>
-        </button>
-      </header>
-
-      {/* 3. Centerpiece: Paper Card Title Banner */}
-      <main className="relative z-10 w-full max-w-lg mx-auto my-auto text-center">
-        <div className="bg-[#fffdf6] border-4 border-[#5c3e21] rounded-3xl p-6 sm:p-8 shadow-[0_12px_0_#3e2723] space-y-4">
-          {/* Top Tagline Pill with Heart Icon */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#fef08a] border-2 border-[#ca8a04] shadow-sm">
-            <img
-              src="/assets/ui/paper/Icons/GameIcons/IconHeart.png"
-              alt=""
-              className="w-4 h-4 object-contain animate-bounce"
-              draggable={false}
-            />
-            <span className="text-[11px] font-black tracking-widest text-[#854d0e] uppercase">
-              ISLAND EXPLORATION
-            </span>
-          </div>
-
-          {/* Grand Emblazoned 3D Title */}
-          <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-[#3e2723] uppercase font-sans drop-shadow-sm flex items-center justify-center gap-2">
-            <span>D LUCKY WORLD</span>
-            <span className="px-2.5 py-0.5 rounded-xl bg-[#22c55e] text-white text-2xl sm:text-3xl font-black border-2 border-[#15803d] shadow-[0_3px_0_#15803d]">
-              3D
-            </span>
+      {/* =================================================================== */}
+      {/* CENTERPIECE: GAME LOGO + GAME UI KIT LOADING BAR / PLAY BUTTON       */}
+      {/* =================================================================== */}
+      <div className="flex flex-col items-center justify-center my-auto text-center max-w-md px-4 space-y-6">
+        {/* Game Title with stylized drop shadow */}
+        <div className="space-y-1">
+          <h1 className="text-4xl sm:text-6xl font-black text-white tracking-tight drop-shadow-[0_6px_20px_rgba(0,0,0,0.6)] font-sans">
+            D Lucky World
           </h1>
-
-          {/* Subtitle / Island Description */}
-          <p className="text-xs sm:text-sm text-[#78350f] font-bold max-w-sm mx-auto leading-relaxed">
-            {lang === "id"
-              ? "Jelajahi kepulauan tropis, temui warga desa, selesaikan misi tantangan, dan kumpulkan 30 Koin Emas!"
-              : "Explore tropical islands, meet friendly villagers, complete missions, and collect 30 Gold Coins!"}
-          </p>
-        </div>
-      </main>
-
-      {/* 4. Bottom Console: Authentic PaperUIKit Loading Bar, Status & Rotating Gameplay Tips */}
-      <footer className="relative z-10 w-full max-w-xl mx-auto space-y-3">
-        {/* Status Line: Current Loading Task & Percentage */}
-        <div className="flex items-center justify-between text-xs sm:text-sm">
-          <div className="flex items-center gap-2 text-[#fef08a] font-black">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#facc15] border border-[#a16207] animate-ping" />
-            <span className="tracking-wide text-xs truncate max-w-[280px] sm:max-w-none text-slate-100 font-extrabold">
-              {statusText}
-            </span>
-          </div>
-
-          <div className="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-[#fffdf6] border-2 border-[#5c3e21] shadow-[0_2px_0_#3e2723] text-[#3e2723] font-black text-xs sm:text-sm">
-            <span>{progress}%</span>
-          </div>
         </div>
 
-        {/* PaperUIKit Authentic Game Loading Bar (Zero CSS borders, pure UI kit assets) */}
-        <div className="relative w-full h-7 sm:h-8 flex items-center justify-start overflow-hidden rounded-full drop-shadow-lg">
-          <img
-            src="/assets/ui/paper/LoadingBars/LoadingBarBackground.png"
-            alt=""
-            className="absolute inset-0 w-full h-full object-fill select-none"
-            draggable={false}
-          />
-          <div
-            className="absolute left-[3px] top-[3px] bottom-[3px] overflow-hidden rounded-full transition-all duration-200"
-            style={{ width: `${Math.max(0, Math.min(100, progress))}%` }}
-          >
-            <img
-              src="/assets/ui/paper/LoadingBars/LoadingBarFillYellow.png"
-              alt=""
-              className="w-full h-full object-fill"
-              draggable={false}
-            />
-          </div>
-        </div>
+        {/* Action Area: Either Game UI Kit Loading Bar OR Large Green Play Button */}
+        <div className="w-full flex flex-col items-center justify-center min-h-[90px]">
+          {!isReady ? (
+            /* Game UI Kit Loading Bar */
+            <div className="w-full space-y-2 animate-in fade-in duration-200">
+              <div className="relative w-full h-8 sm:h-9 select-none">
+                {/* Outer Paper Frame */}
+                <img
+                  src="/assets/ui/paper/LoadingBars/LoadingBarBackground.png"
+                  alt=""
+                  className="w-full h-full object-fill drop-shadow-lg"
+                  draggable={false}
+                />
+                {/* Yellow Bar Fill with precision CSS clip-path (no image stretching) */}
+                <div
+                  className="absolute inset-0 transition-all duration-100 ease-out"
+                  style={{
+                    clipPath: `inset(0 ${100 - progress}% 0 0)`,
+                  }}
+                >
+                  <img
+                    src="/assets/ui/paper/LoadingBars/LoadingBarFillYellow.png"
+                    alt=""
+                    className="w-full h-full object-fill"
+                    draggable={false}
+                  />
+                </div>
+              </div>
 
-        {/* PaperUIKit Rotating Gameplay Tip Card with IconCoin */}
-        <div className="bg-[#fffdf6] border-2 sm:border-3 border-[#5c3e21] rounded-2xl px-4 py-2.5 flex items-center gap-3 shadow-[0_4px_0_#3e2723] text-[#3e2723]">
-          <div className="w-8 h-8 rounded-xl bg-[#fef08a] border-2 border-[#854d0e] flex items-center justify-center shrink-0 shadow-inner">
-            <img
-              src="/assets/ui/paper/Icons/GameIcons/IconCoin.png"
-              alt=""
-              className="w-5 h-5 object-contain"
-              draggable={false}
-            />
-          </div>
-          <p className="text-[11px] sm:text-xs leading-snug font-sans font-bold">
-            <strong className="text-[#92400e] font-black uppercase tracking-wider mr-1">
-              [TIP]:
-            </strong>
-            {t.loading.tips[tipIdx]}
-          </p>
+              {/* Minimal percentage indicator */}
+              <div className="flex items-center justify-end px-1 text-xs font-black text-white drop-shadow font-mono">
+                <span>{progress}%</span>
+              </div>
+            </div>
+          ) : (
+            /* Game UI Kit Large Green PLAY Button (pops up swiftly after brief POV loading) */
+            <div className="flex flex-col items-center gap-2 animate-in zoom-in-90 fade-in duration-300">
+              <button
+                type="button"
+                onClick={handleStart}
+                className="relative group w-64 sm:w-72 inline-flex items-center justify-center cursor-pointer select-none active:scale-95 transition-transform outline-none focus:outline-none focus-visible:outline-none focus:ring-0 border-none shadow-none"
+                style={{ outline: "none", border: "none" }}
+              >
+                <img
+                  src="/assets/ui/paper/Buttons/LargeButtons/ButtonLargeGreen.png"
+                  alt="Play"
+                  className="h-14 sm:h-16 w-full object-fill group-active:hidden drop-shadow-2xl rounded-2xl"
+                  draggable={false}
+                />
+                <img
+                  src="/assets/ui/paper/Buttons/LargeButtons/ButtonLargeGreenActive.png"
+                  alt="Play"
+                  className="h-14 sm:h-16 w-full object-fill hidden group-active:block drop-shadow-2xl rounded-2xl"
+                  draggable={false}
+                />
+                <span className="absolute inset-0 flex items-center justify-center gap-3 font-black text-[#14532d] text-lg sm:text-xl tracking-wider uppercase pb-1 group-active:pt-1">
+                  <img
+                    src="/assets/ui/paper/Icons/GameIcons/IconPlay.png"
+                    alt=""
+                    className="w-6 h-6 sm:w-7 sm:h-7 object-contain"
+                    draggable={false}
+                  />
+                  <span>{lang === "id" ? "MAINKAN" : "PLAY NOW"}</span>
+                </span>
+              </button>
+            </div>
+          )}
         </div>
-      </footer>
+      </div>
+
+      {/* Empty bottom spacer to keep center content perfectly balanced */}
+      <div className="h-6" />
     </div>
   );
 };

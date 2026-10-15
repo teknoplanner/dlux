@@ -10,6 +10,8 @@ import { WorldNatureManager } from "./WorldNatureManager";
 import { WorldHexManager } from "./WorldHexManager";
 import { WorldBuildingManager } from "./WorldBuildingManager";
 import { WorldCharacterManager } from "./WorldCharacterManager";
+import { WorldWindWakerWater, getWindWakerWaveElevation } from "./WorldWindWakerWater";
+import { WorldWeatherManager, WeatherType } from "./WorldWeatherManager";
 
 export interface ActiveMinigame {
   id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt";
@@ -56,11 +58,13 @@ export interface EngineCallbacks {
   onProximityChange?: (npc: NPCData | null) => void;
   onQuestProgress?: (questId: string) => void;
   onMinigameUpdate?: (game: ActiveMinigame | null) => void;
+  onWeatherUpdate?: (weather: WeatherType) => void;
+  onCinematicUpdate?: (active: boolean) => void;
 }
 
 export type SolidCollider =
-  | { type?: "circle"; x: number; z: number; radius: number; label?: string }
-  | { type: "box"; minX: number; maxX: number; minZ: number; maxZ: number; label?: string };
+  | { type?: "circle"; x: number; z: number; radius: number; label?: string; minY?: number; maxY?: number }
+  | { type: "box"; minX: number; maxX: number; minZ: number; maxZ: number; label?: string; minY?: number; maxY?: number };
 
 export interface BridgeData {
   p1: THREE.Vector3;
@@ -450,6 +454,9 @@ export class WorldEngine {
   public nitro: number = 100;
   public isBoosting: boolean = false;
   public isTitleScreen: boolean = true;
+  public isIntroCinematic: boolean = false;
+  private introTimer: number = 0;
+  private readonly INTRO_DURATION: number = 1.8;
 
   private walkCycle: number = 0;
   private currentTurnSpeed: number = 0;
@@ -466,13 +473,20 @@ export class WorldEngine {
   private lastPointerY: number = 0;
   private pointerMovedDist: number = 0;
 
-  // Environment Meshes
+  // Environment Meshes & Lighting
+  public weatherManager: WorldWeatherManager | null = null;
+  private dirLight: THREE.DirectionalLight | null = null;
+  private ambientLight: THREE.AmbientLight | null = null;
+  private windWakerWater: WorldWindWakerWater | null = null;
   private waterGeometry: THREE.PlaneGeometry | null = null;
   private clouds: THREE.Group[] = [];
   private foamRings: THREE.Mesh[] = [];
   private maritimeBuoys: THREE.Group[] = [];
   private lighthouseBeam: THREE.Mesh | null = null;
   private mobaCrystal: THREE.Mesh | null = null;
+  private sky: THREE.Mesh | null = null;
+  private cloudMaterial: THREE.MeshStandardMaterial | null = null;
+  private hemiLight: THREE.HemisphereLight | null = null;
 
   // Soccer Ball & Stadium
   private soccerBall: THREE.Mesh | null = null;
@@ -659,20 +673,20 @@ export class WorldEngine {
     // 3. WebGL Renderer with Tone Mapping & Soft Shadows
     this.renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
     this.renderer.setSize(container.clientWidth, container.clientHeight);
-    this.renderer.setPixelRatio(Math.min(typeof window !== "undefined" ? window.devicePixelRatio : 1, 1.5));
+    this.renderer.setPixelRatio(Math.min(typeof window !== "undefined" ? window.devicePixelRatio : 1, 1.25));
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 0.96;
     container.appendChild(this.renderer.domElement);
 
-    // 4. Post-processing (UnrealBloomPass for Cinematic Glow)
+    // 4. Post-processing (UnrealBloomPass for Cinematic Glow, half-res for high performance)
     this.composer = new EffectComposer(this.renderer);
     const renderPass = new RenderPass(this.scene, this.camera);
     this.composer.addPass(renderPass);
 
     const bloomPass = new UnrealBloomPass(
-      new THREE.Vector2(container.clientWidth, container.clientHeight),
+      new THREE.Vector2(Math.floor(container.clientWidth * 0.5), Math.floor(container.clientHeight * 0.5)),
       0.28, // Soft cinematic bloom strength
       0.30, // Radius
       0.88  // High threshold so only neon emissive elements bloom, no water/sky blowout
@@ -682,10 +696,12 @@ export class WorldEngine {
     const outputPass = new OutputPass();
     this.composer.addPass(outputPass);
 
-    // 5. Lighting & Three.js Sky Shader
+    // 5. Lighting, Stylized Sky, Clouds, Ocean & Weather
     this.setupLighting();
-    this.buildPhysicalSky();
+    this.buildStylizedSky();
+    this.buildDriftingClouds();
     this.buildOcean();
+    this.initWeatherManager();
     this.buildArchipelago();
 
     // 6. Milo Space Hero Cat (Walking on Foot!)
@@ -711,7 +727,8 @@ export class WorldEngine {
     this.buildingManager = new WorldBuildingManager(
       this.scene,
       this.colliders,
-      (x: number, z: number) => this.calculateGroundHeight(x, z)
+      (x: number, z: number) => this.calculateGroundHeight(x, z),
+      this.weatherManager
     );
     this.buildingManager.buildAllHouses();
 
@@ -731,7 +748,8 @@ export class WorldEngine {
         this.npcs.push(npc);
       },
       (x: number, z: number) => this.calculateGroundHeight(x, z),
-      this.characterManager
+      this.characterManager,
+      this.weatherManager
     );
     this.livingAtmosphere.init();
 
@@ -821,52 +839,71 @@ export class WorldEngine {
   }
 
   // =========================================================================
-  // LIGHTING & PHYSICAL SKY SHADER
+  // LIGHTING & STYLIZED SKY DOME
   // =========================================================================
   private setupLighting() {
-    const ambientLight = new THREE.AmbientLight(0xfffbeb, 0.70);
-    this.scene.add(ambientLight);
+    this.ambientLight = new THREE.AmbientLight(0xfffbeb, 0.70);
+    this.scene.add(this.ambientLight);
 
-    const hemiLight = new THREE.HemisphereLight(0x7dd3fc, 0x15803d, 0.60);
-    hemiLight.position.set(0, 70, 0);
-    this.scene.add(hemiLight);
+    this.hemiLight = new THREE.HemisphereLight(0x7dd3fc, 0x15803d, 0.50);
+    this.hemiLight.position.set(0, 70, 0);
+    this.scene.add(this.hemiLight);
 
-    const sun = new THREE.DirectionalLight(0xfff7ed, 1.15);
-    sun.position.set(85, 115, 65);
-    sun.castShadow = true;
-    sun.shadow.mapSize.width = 1024;
-    sun.shadow.mapSize.height = 1024;
-    sun.shadow.camera.near = 10;
-    sun.shadow.camera.far = 340;
-    sun.shadow.camera.left = -140;
-    sun.shadow.camera.right = 140;
-    sun.shadow.camera.top = 140;
-    sun.shadow.camera.bottom = -140;
-    sun.shadow.bias = -0.0004;
-    this.scene.add(sun);
+    this.dirLight = new THREE.DirectionalLight(0xfff7ed, 1.30);
+    this.dirLight.position.set(70, 110, 50);
+    this.dirLight.castShadow = true;
+    this.dirLight.shadow.mapSize.width = 1024;
+    this.dirLight.shadow.mapSize.height = 1024;
+    this.dirLight.shadow.camera.near = 10;
+    this.dirLight.shadow.camera.far = 340;
+    this.dirLight.shadow.camera.left = -140;
+    this.dirLight.shadow.camera.right = 140;
+    this.dirLight.shadow.camera.top = 140;
+    this.dirLight.shadow.camera.bottom = -140;
+    this.dirLight.shadow.bias = -0.0004;
+    this.scene.add(this.dirLight);
   }
 
-  private buildPhysicalSky() {
-    // Three.js Sky Shader
-    const sky = new Sky();
-    sky.scale.setScalar(450000);
-    this.scene.add(sky);
+  // Stylized Sky Dome (Wind Waker / Ghibli aesthetic: rich tropical azure blue, zero gray haze, zero glare blowout!)
+  private buildStylizedSky(): THREE.Mesh {
+    const geo = new THREE.SphereGeometry(420, 32, 20);
+    const mat = new THREE.ShaderMaterial({
+      uniforms: {
+        topColor: { value: new THREE.Color(0x0284c7) },     // Deep tropical azure at zenith
+        bottomColor: { value: new THREE.Color(0x7dd3fc) },  // Soft clear cyan at horizon
+        offset: { value: 15.0 },
+        exponent: { value: 0.65 },
+      },
+      vertexShader: `
+        varying vec3 vWorldPosition;
+        void main() {
+          vec4 worldPosition = modelMatrix * vec4(position, 1.0);
+          vWorldPosition = worldPosition.xyz;
+          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+        }
+      `,
+      fragmentShader: `
+        uniform vec3 topColor;
+        uniform vec3 bottomColor;
+        uniform float offset;
+        uniform float exponent;
+        varying vec3 vWorldPosition;
+        void main() {
+          float h = normalize(vWorldPosition + vec3(0.0, offset, 0.0)).y;
+          gl_FragColor = vec4(mix(bottomColor, topColor, max(pow(max(h, 0.0), exponent), 0.0)), 1.0);
+        }
+      `,
+      side: THREE.BackSide,
+      depthWrite: false,
+    });
+    const mesh = new THREE.Mesh(geo, mat);
+    this.scene.add(mesh);
+    this.sky = mesh;
+    return mesh;
+  }
 
-    const sunPosition = new THREE.Vector3().setFromSphericalCoords(
-      1,
-      THREE.MathUtils.degToRad(72),
-      THREE.MathUtils.degToRad(50)
-    );
-
-    const uniforms = sky.material.uniforms;
-    uniforms["turbidity"].value = 8;
-    uniforms["rayleigh"].value = 1.35;
-    uniforms["mieCoefficient"].value = 0.005;
-    uniforms["mieDirectionalG"].value = 0.8;
-    uniforms["sunPosition"].value.copy(sunPosition);
-
-    // Drifting Low-Poly Clouds
-    const cloudMat = new THREE.MeshStandardMaterial({
+  private buildDriftingClouds() {
+    this.cloudMaterial = new THREE.MeshStandardMaterial({
       color: 0xffffff,
       roughness: 0.9,
       flatShading: true,
@@ -888,7 +925,7 @@ export class WorldEngine {
       const cloud = new THREE.Group();
       cloud.position.set(cx, cy, cz);
       for (let i = 0; i < 5; i++) {
-        const puff = new THREE.Mesh(new THREE.DodecahedronGeometry(6 + (i % 3) * 2, 1), cloudMat);
+        const puff = new THREE.Mesh(new THREE.DodecahedronGeometry(6 + (i % 3) * 2, 1), this.cloudMaterial!);
         puff.position.set((i - 2) * 5.5, ((i % 2) - 0.5) * 2, ((i % 3) - 1) * 3);
         cloud.add(puff);
       }
@@ -897,46 +934,54 @@ export class WorldEngine {
     });
   }
 
+  private initWeatherManager() {
+    this.weatherManager = new WorldWeatherManager(
+      this.scene,
+      this.dirLight!,
+      this.ambientLight!,
+      this.hemiLight,
+      this.audio,
+      (w) => this.callbacks.onWeatherUpdate?.(w)
+    );
+    this.weatherManager.setSkyDome(this.sky);
+    this.weatherManager.setCloudMaterial(this.cloudMaterial);
+    if (this.windWakerWater) {
+      this.weatherManager.setWaterUniforms(this.windWakerWater.material.uniforms);
+    }
+  }
+
   // =========================================================================
-  // PROCEDURAL OCEAN, SHORELINE FOAM & MARITIME BUOYS
+  // ZELDA WIND WAKER PROCEDURAL OCEAN & MARITIME BUOYS
   // =========================================================================
   private buildOcean() {
-    this.waterGeometry = new THREE.PlaneGeometry(550, 550, 44, 44);
-    this.waterGeometry.rotateX(-Math.PI / 2);
+    // 1. High-Performance Stylized Zelda Wind Waker Ocean with Rolling Waves & Caustic Foam Webs
+    this.windWakerWater = new WorldWindWakerWater(650, 72);
+    this.scene.add(this.windWakerWater.mesh);
+    if (this.weatherManager) {
+      this.weatherManager.setWaterUniforms(this.windWakerWater.material.uniforms);
+    }
 
-    const waterMat = new THREE.MeshStandardMaterial({
-      color: 0x0284c7, // Tropical azure ocean
-      roughness: 0.44, // Soft satin water reflection - eliminates blinding mirror glare!
-      metalness: 0.06, // Prevents specular blowout
-      flatShading: true,
-    });
-
-    const waterMesh = new THREE.Mesh(this.waterGeometry, waterMat);
-    waterMesh.position.y = 0;
-    waterMesh.receiveShadow = true;
-    this.scene.add(waterMesh);
-
-    // Deep seabed plane (prevents hollow white voids underneath water)
+    // Deep ocean seabed plane (prevents hollow white voids underneath translucent water)
     const seaBed = new THREE.Mesh(
-      new THREE.PlaneGeometry(550, 550),
-      new THREE.MeshStandardMaterial({ color: 0x0369a1, roughness: 0.9 })
+      new THREE.PlaneGeometry(650, 650),
+      new THREE.MeshStandardMaterial({ color: 0x07316b, roughness: 0.95 })
     );
     seaBed.rotateX(-Math.PI / 2);
-    seaBed.position.y = -1.2;
+    seaBed.position.y = -1.4;
     this.scene.add(seaBed);
 
-    // Floating Maritime Channel Buoys (Red & Green)
+    // Floating Maritime Channel Buoys (Red & Green) placed in open navigational sea channels (away from bridges)
     const buoyMatRed = new THREE.MeshStandardMaterial({ color: 0xef4444, roughness: 0.3 });
     const buoyMatGreen = new THREE.MeshStandardMaterial({ color: 0x10b981, roughness: 0.3 });
     const buoyMatBase = new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.5 });
 
     const buoyPositions: [number, number, boolean][] = [
-      [-35, -35, true],
-      [35, -35, false],
-      [-35, 35, false],
-      [35, 35, true],
-      [0, -45, true],
-      [0, 45, false],
+      [0, -48, true],   // North sea channel
+      [0, 48, false],   // South sea channel
+      [-52, 0, false],  // West sea channel
+      [52, 0, true],    // East sea channel
+      [-42, -75, true], // Northwest outer maritime route
+      [42, -75, false], // Northeast outer maritime route
     ];
 
     buoyPositions.forEach(([bx, bz, isRed]) => {
@@ -964,7 +1009,7 @@ export class WorldEngine {
 
       this.scene.add(buoy);
       this.maritimeBuoys.push(buoy);
-      this.colliders.push({ x: bx, z: bz, radius: 1.2, label: "buoy" });
+      this.colliders.push({ x: bx, z: bz, radius: 1.1, label: "buoy", minY: -1.5, maxY: 1.8 });
     });
   }
 
@@ -1082,6 +1127,79 @@ export class WorldEngine {
     this.paths.push({ p1, p2, width, height });
   }
 
+  // Mekar Sempurna: Bunga 3D Realistis dengan Tangkai, Daun Hijau, Kelopak Mekar Melengkung & Putik Emas
+  private createBloomingFlower(color: number, scale: number = 1.0): THREE.Group {
+    const flower = new THREE.Group();
+
+    // 1. Slender Green Stem (Tangkai hijau alami)
+    const stemMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.75 });
+    const stemH = 0.36 * scale;
+    const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.022 * scale, 0.03 * scale, stemH, 6), stemMat);
+    stem.position.y = stemH / 2;
+    stem.castShadow = true;
+    flower.add(stem);
+
+    // 2. Green Leaves (Daun hijau di tangkai)
+    const leafMat = new THREE.MeshStandardMaterial({ color: 0x16a34a, roughness: 0.65, side: THREE.DoubleSide });
+    for (let l = 0; l < 2; l++) {
+      const leaf = new THREE.Mesh(new THREE.ConeGeometry(0.065 * scale, 0.18 * scale, 5), leafMat);
+      leaf.rotation.z = (l === 0 ? 1 : -1) * 0.85;
+      leaf.rotation.y = l * Math.PI + 0.35;
+      leaf.position.set((l === 0 ? 0.045 : -0.045) * scale, stemH * 0.45, 0);
+      flower.add(leaf);
+    }
+
+    // Flower blossom crown
+    const crown = new THREE.Group();
+    crown.position.y = stemH;
+    flower.add(crown);
+
+    // 3. Flower Calyx / Sepal (Kelopak dasar penopang hijau)
+    const calyxMat = new THREE.MeshStandardMaterial({ color: 0x166534, roughness: 0.8 });
+    const calyx = new THREE.Mesh(new THREE.ConeGeometry(0.08 * scale, 0.09 * scale, 6), calyxMat);
+    calyx.rotation.x = Math.PI;
+    calyx.position.y = -0.02 * scale;
+    crown.add(calyx);
+
+    // 4. Blooming Petals (Kelopak mekar 6 helai dengan lengkungan mangkuk mekar)
+    const petalMat = new THREE.MeshStandardMaterial({
+      color,
+      roughness: 0.35,
+      metalness: 0.05,
+      side: THREE.DoubleSide,
+    });
+
+    const numPetals = 5;
+    for (let p = 0; p < numPetals; p++) {
+      const petalAngle = (p / numPetals) * Math.PI * 2;
+      const pGroup = new THREE.Group();
+      pGroup.rotation.y = petalAngle;
+
+      // Wide curved blooming petal (Kelopak mekar bervolume lembut)
+      const outerPetal = new THREE.Mesh(new THREE.SphereGeometry(0.11 * scale, 6, 5), petalMat);
+      outerPetal.scale.set(0.68, 0.22, 1.35);
+      outerPetal.position.set(0, 0.04 * scale, 0.10 * scale);
+      outerPetal.rotation.x = 0.52; // Open blooming angle!
+      pGroup.add(outerPetal);
+
+      crown.add(pGroup);
+    }
+
+    // 5. Golden Center Pistil / Stamen (Putik bunga tengah bulat kuning berseri)
+    const pistilMat = new THREE.MeshStandardMaterial({
+      color: 0xfbbf24,
+      emissive: 0xd97706,
+      emissiveIntensity: 0.35,
+      roughness: 0.3,
+    });
+    const pistil = new THREE.Mesh(new THREE.SphereGeometry(0.065 * scale, 6, 6), pistilMat);
+    pistil.scale.set(1.0, 0.65, 1.0);
+    pistil.position.y = 0.04 * scale;
+    crown.add(pistil);
+
+    return flower;
+  }
+
   // Taman Bunga & Tanah Subur (Flowerbeds with rich soil & colorful petals)
   private createGardenFlowerBed(center: THREE.Vector3, radius: number, flowerCount: number = 8) {
     const bedGroup = new THREE.Group();
@@ -1089,7 +1207,7 @@ export class WorldEngine {
 
     // Rich Dark Garden Soil (Tanah Subur Hitam Cokelat)
     const soil = new THREE.Mesh(
-      new THREE.CylinderGeometry(radius, radius * 1.05, 0.16, 18),
+      new THREE.CylinderGeometry(radius, radius * 1.05, 0.16, 16),
       new THREE.MeshStandardMaterial({ color: 0x3f2305, roughness: 0.95 })
     );
     soil.position.y = 0.08;
@@ -1098,7 +1216,7 @@ export class WorldEngine {
 
     // Cobblestone curb ring
     const curb = new THREE.Mesh(
-      new THREE.TorusGeometry(radius, 0.14, 8, 20),
+      new THREE.TorusGeometry(radius, 0.14, 6, 16),
       new THREE.MeshStandardMaterial({ color: 0x78716c, roughness: 0.8 })
     );
     curb.rotateX(Math.PI / 2);
@@ -1107,31 +1225,37 @@ export class WorldEngine {
 
     // Low trimmed hedge ring
     const hedge = new THREE.Mesh(
-      new THREE.TorusGeometry(radius * 0.86, 0.16, 8, 20),
+      new THREE.TorusGeometry(radius * 0.86, 0.16, 6, 16),
       new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.75 })
     );
     hedge.rotateX(Math.PI / 2);
     hedge.position.y = 0.20;
     bedGroup.add(hedge);
 
-    // Colorful blooming flowers
-    const flowerColors = [0xef4444, 0xf59e0b, 0xa855f7, 0x06b6d4, 0xf472b6, 0xec4899];
-    const stemMat = new THREE.MeshStandardMaterial({ color: 0x166534, roughness: 0.8 });
+    // Colorful realistic blooming flowers (9 plush blooming flowers)
+    const flowerColors = [
+      0xf43f5e, // Crimson Rose
+      0xfbbf24, // Sunflower Gold
+      0xa855f7, // Royal Violet
+      0xf472b6, // Carnation Pink
+      0xffffff, // White Lily
+      0x06b6d4, // Cyan Blossom
+      0xf97316, // Orange Marigold
+    ];
 
-    for (let f = 0; f < flowerCount; f++) {
-      const angle = (f / flowerCount) * Math.PI * 2 + (f % 3) * 0.3;
-      const r = (radius * 0.28) + ((f * 3) % 5) * (radius * 0.1);
+    const actualCount = Math.max(flowerCount, 9);
+    for (let f = 0; f < actualCount; f++) {
+      const angle = (f / actualCount) * Math.PI * 2 + (f % 3) * 0.4;
+      const r = (radius * 0.25) + ((f * 5) % 6) * (radius * 0.10);
       const fx = Math.cos(angle) * r;
       const fz = Math.sin(angle) * r;
+      const scale = 1.15 + (f % 3) * 0.15;
 
-      const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.32, 6), stemMat);
-      stem.position.set(fx, 0.26, fz);
-      bedGroup.add(stem);
-
-      const petalMat = new THREE.MeshStandardMaterial({ color: flowerColors[f % flowerColors.length], roughness: 0.5 });
-      const bloom = new THREE.Mesh(new THREE.DodecahedronGeometry(0.14, 0), petalMat);
-      bloom.position.set(fx, 0.44, fz);
-      bedGroup.add(bloom);
+      const flower = this.createBloomingFlower(flowerColors[f % flowerColors.length], scale);
+      flower.position.set(fx, 0.16, fz);
+      flower.rotation.y = f * 1.5;
+      flower.rotation.z = Math.sin(f * 2.2) * 0.08;
+      bedGroup.add(flower);
     }
 
     this.scene.add(bedGroup);
@@ -2174,7 +2298,7 @@ export class WorldEngine {
     const time = this.clock.getElapsedTime();
 
     this.updateWaterWaves(time);
-    this.updatePropsAndAtmosphere(time);
+    this.updatePropsAndAtmosphere(time, delta);
     this.updatePlayerMovement(delta, time);
     this.updateNPCBehaviors(time);
     if (this.characterManager) {
@@ -2194,21 +2318,16 @@ export class WorldEngine {
   };
 
   private updateWaterWaves(time: number) {
-    if (!this.waterGeometry) return;
-    this.waveFrameCounter++;
-    if (this.waveFrameCounter % 2 !== 0) return; // run vertex updates at smooth 30Hz
-
-    const posAttr = this.waterGeometry.attributes.position;
-    for (let i = 0; i < posAttr.count; i++) {
-      const u = posAttr.getX(i);
-      const v = posAttr.getY(i);
-      const z = Math.sin(u * 0.08 + time * 2.0) * 0.18 + Math.cos(v * 0.08 + time * 1.5) * 0.18;
-      posAttr.setZ(i, z);
+    if (this.windWakerWater) {
+      this.windWakerWater.update(time);
     }
-    posAttr.needsUpdate = true;
   }
 
-  private updatePropsAndAtmosphere(time: number) {
+  private updatePropsAndAtmosphere(time: number, delta: number = 0.016) {
+    if (this.weatherManager) {
+      this.weatherManager.update(delta, time, this.playerPos);
+    }
+
     this.clouds.forEach((cloud, idx) => {
       cloud.position.x += 0.04 * (idx % 2 === 0 ? 1 : -1);
       if (cloud.position.x > 180) cloud.position.x = -180;
@@ -2233,6 +2352,45 @@ export class WorldEngine {
       this.mobaCrystal.position.y = 8.5 + Math.sin(time * 2.5) * 0.35;
       this.mobaCrystal.rotation.y = time * 0.7;
     }
+  }
+
+  public setWeather(w: WeatherType) {
+    this.weatherManager?.setWeather(w, true);
+    this.callbacks.onWeatherUpdate?.(w);
+  }
+
+  public setAutoRealtime(enable: boolean) {
+    this.weatherManager?.setAutoRealtime(enable);
+    if (enable) {
+      const cur = this.weatherManager?.currentWeather ?? "day";
+      this.callbacks.onWeatherUpdate?.(cur);
+    }
+  }
+
+  public startIntroCinematic() {
+    this.isIntroCinematic = true;
+    this.introTimer = 0;
+    this.isTitleScreen = false;
+    // Milo performs an introductory joyful greeting hop
+    this.playerVel.y = 5.2;
+    this.audio?.playJump();
+    this.callbacks.onCinematicUpdate?.(true);
+  }
+
+  public skipIntroCinematic() {
+    this.isIntroCinematic = false;
+    this.introTimer = this.INTRO_DURATION;
+    this.callbacks.onCinematicUpdate?.(false);
+  }
+
+  public cycleWeather(): WeatherType {
+    const next = this.weatherManager?.cycleNextWeather() ?? "day";
+    this.callbacks.onWeatherUpdate?.(next);
+    return next;
+  }
+
+  public getWeather(): WeatherType {
+    return this.weatherManager?.currentWeather ?? "day";
   }
 
   private updateNPCBehaviors(time: number) {
@@ -2304,6 +2462,10 @@ export class WorldEngine {
     const playerRadius = 0.55;
     for (let iter = 0; iter < 2; iter++) {
       for (const col of this.colliders) {
+        // Vertical height filter (prevents water/ground objects from blocking bridges overhead)
+        if (col.minY !== undefined && this.playerPos.y < col.minY) continue;
+        if (col.maxY !== undefined && this.playerPos.y > col.maxY) continue;
+
         if ("type" in col && col.type === "box") {
           const closestX = Math.max(col.minX, Math.min(col.maxX, this.playerPos.x));
           const closestZ = Math.max(col.minZ, Math.min(col.maxZ, this.playerPos.z));
@@ -2349,7 +2511,7 @@ export class WorldEngine {
     }
 
     // 4. Ground Height & Gravity (Firmly planted on terrain/bridges or submerged in ocean)
-    const groundHeight = this.calculateGroundHeight(this.playerPos.x, this.playerPos.z);
+    const groundHeight = this.calculateGroundHeight(this.playerPos.x, this.playerPos.z, this.playerPos.y);
 
     // Water state detection (Water plane at y = 0.0; deep ocean returns -1.25)
     const wasOnWater = this.onWater;
@@ -2380,9 +2542,10 @@ export class WorldEngine {
         }
       }
     } else {
-      // Submerged swimming bobbing vs solid ground walking
-      const waterBob = this.onWater ? Math.sin(time * 3.5) * 0.08 : 0;
-      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, groundHeight + waterBob, (this.onWater ? 10 : 20) * delta);
+      // Submerged swimming bobbing on Wind Waker waves vs solid ground walking
+      const waveElev = this.onWater ? getWindWakerWaveElevation(this.playerPos.x, this.playerPos.z, time) : 0;
+      const targetWaterY = this.onWater ? Math.max(groundHeight, waveElev - 0.05) : groundHeight;
+      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, targetWaterY, (this.onWater ? 10 : 20) * delta);
     }
 
     // Audio & Speedometer
@@ -2562,11 +2725,15 @@ export class WorldEngine {
     }
   }
 
-  private calculateGroundHeight(x: number, z: number): number {
-    // 1. Arched Wooden Bridges take precedence
+  private calculateGroundHeight(x: number, z: number, currentY?: number): number {
+    // 1. Arched Wooden Bridges take precedence (only if player is on or above the bridge deck)
     for (const br of this.bridges) {
       const bh = getBridgeHeightAt(x, z, br);
       if (bh !== null) {
+        // If currentY is provided and player is below the bridge deck, do not snap back up!
+        if (currentY !== undefined && currentY < bh - 0.9) {
+          continue;
+        }
         return bh;
       }
     }
@@ -2575,6 +2742,9 @@ export class WorldEngine {
     for (const p of this.paths) {
       const ph = getPathHeightAt(x, z, p.p1, p.p2, p.width, p.height);
       if (ph !== null) {
+        if (currentY !== undefined && currentY < ph - 0.9) {
+          continue;
+        }
         return ph;
       }
     }
@@ -3050,7 +3220,7 @@ export class WorldEngine {
     } else if (id === "airdrop_hunt") {
       // 3 Falling Military Airdrop Supply Crates descending from sky with parachutes
       const dropCoords: [number, number, number][] = [
-        [66, 7.8, -66],
+        [61, 7.8, -70],
         [82, 7.8, -54],
         [74, 7.8, -74],
       ];
@@ -3269,6 +3439,40 @@ export class WorldEngine {
       return;
     }
 
+    // 0. Cinematic Intro Fly-in Camera (Windland style POV swoop from sky down to Milo)
+    if (this.isIntroCinematic) {
+      if (this.inputs.forward || this.inputs.backward || this.inputs.left || this.inputs.right || this.inputs.jump) {
+        this.skipIntroCinematic();
+      } else {
+        this.introTimer += delta;
+        const progress = Math.min(1.0, this.introTimer / this.INTRO_DURATION);
+        // Smoothstep cubic easing: 3*t^2 - 2*t^3
+        const ease = progress * progress * (3 - 2 * progress);
+
+        // Panoramic starting position overlooking Central Plaza & the archipelago
+        const startCamPos = new THREE.Vector3(this.playerPos.x - 28, 48, this.playerPos.z + 52);
+        // Ending behind Milo
+        const endCamOffset = new THREE.Vector3(0, 4.4, 7.8);
+        const endCamPos = new THREE.Vector3().copy(this.playerPos).add(endCamOffset);
+
+        this.camera.position.lerpVectors(startCamPos, endCamPos, ease);
+
+        const startLook = new THREE.Vector3(this.playerPos.x + 4, 3.0, this.playerPos.z - 12);
+        const endLook = new THREE.Vector3(this.playerPos.x, this.playerPos.y + 1.6, this.playerPos.z);
+        this.cameraLookAt.lerpVectors(startLook, endLook, ease);
+        this.camera.lookAt(this.cameraLookAt);
+
+        this.camera.fov = THREE.MathUtils.lerp(62, 54, ease);
+        this.camera.updateProjectionMatrix();
+
+        if (progress >= 1.0) {
+          this.isIntroCinematic = false;
+          this.callbacks.onCinematicUpdate?.(false);
+        }
+        return;
+      }
+    }
+
     // Cinematic Title Screen Orbiting Camera
     if (this.isTitleScreen) {
       const time = this.clock.getElapsedTime();
@@ -3401,6 +3605,14 @@ export class WorldEngine {
     if (this.characterManager) {
       this.characterManager.dispose();
       this.characterManager = null;
+    }
+    if (this.windWakerWater) {
+      this.windWakerWater.dispose();
+      this.windWakerWater = null;
+    }
+    if (this.weatherManager) {
+      this.weatherManager.dispose();
+      this.weatherManager = null;
     }
     this.composer.dispose();
     this.renderer.dispose();

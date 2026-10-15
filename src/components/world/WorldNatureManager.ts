@@ -253,7 +253,7 @@ export class WorldNatureManager {
       [-65.0, -74.0, 4.5], // MOBA Windmill
       [-78.0, -61.0, 4.0], // MOBA Alchemist Sanctum
       [81.0, -67.0, 4.5],  // Outpost Tavern
-      [69.0, -67.0, 4.0],  // Outpost Bunkhouse
+      [82.0, -60.0, 4.0],  // Outpost Bunkhouse
       [-72.0, 64.0, 4.0],  // Hex Lakeside Chalet
       [-58.0, 75.0, 4.0],  // Hex Hillside Cottage
       [79.0, 65.0, 4.5],   // Soccer Concessions Pavilion
@@ -386,11 +386,11 @@ export class WorldNatureManager {
       this.spawn(pModel, px, pz, 2.0, ang + Math.PI / 2, 0.85);
     });
 
-    // 3. Shoreline Rocks on Central Plaza Beach
+    // 3. Shoreline Rocks on Central Plaza Beach (firmly resting on sandy shoreline)
     const beachRockAngles = [0.2, 1.2, 1.9, 3.2, 4.3, 5.4];
     beachRockAngles.forEach((ang) => {
-      const rx = center.x + Math.cos(ang) * 28.5;
-      const rz = center.z + Math.sin(ang) * 28.5;
+      const rx = center.x + Math.cos(ang) * 22.0;
+      const rz = center.z + Math.sin(ang) * 22.0;
       this.spawn("rock_shore", rx, rz, 1.6, ang, 1.2);
     });
   }
@@ -423,22 +423,22 @@ export class WorldNatureManager {
     this.spawn("tree_birch", center.x + 14, center.z - 12, 2.2, -0.6, 0.75);
     this.spawn("tree_birch", center.x - 16, center.z + 4, 2.0, 1.1, 0.75);
 
-    // 3. Ancient Rune Boulders along outer temple terraces
+    // 3. Ancient Rune Boulders along outer temple terraces (solidly on plateau)
     const monolithRocks: [number, number, number][] = [
-      [-16, -16, 2.2],
-      [16, -16, 2.4],
-      [-18, 10, 2.0],
-      [16, 8, 2.1],
+      [-12, -12, 2.2],
+      [12, -12, 2.4],
+      [-12, 8, 2.0],
+      [12, 8, 2.1],
     ];
     monolithRocks.forEach(([mx, mz, scale]) => {
       this.spawn("rock_boulder", center.x + mx, center.z + mz, scale, Math.random() * Math.PI * 2, 1.4);
     });
 
-    // 4. Shoreline Rocks
+    // 4. Shoreline Rocks on outer terrace steps
     for (let i = 0; i < 5; i++) {
       const ang = (i / 5) * Math.PI * 2 + 0.5;
-      const rx = center.x + Math.cos(ang) * 26.0;
-      const rz = center.z + Math.sin(ang) * 26.0;
+      const rx = center.x + Math.cos(ang) * 18.5;
+      const rz = center.z + Math.sin(ang) * 18.5;
       this.spawn("rock_shore", rx, rz, 1.6, ang, 1.2);
     }
   }
@@ -462,22 +462,22 @@ export class WorldNatureManager {
       this.spawn("bush_round", center.x + ox + 2.4, center.z + oz, 1.0);
     });
 
-    // 2. Sea-Facing Cliff Boulders strictly on outer perimeter rim (0 boulders near bridge 56, -45)
+    // 2. Sea-Facing Cliff Boulders strictly on solid ground (zero floating)
     const cliffBoulders: [number, number, number][] = [
-      [18, -18, 2.8],
-      [19, 16, 2.6],
-      [-8, -22, 2.3],
-      [12, -22, 2.5],
-      [8, 20, 2.2],
+      [10, -11, 2.4],
+      [11, 9, 2.3],
+      [-6, -11, 2.1],
+      [8, -13, 2.2],
+      [5, 11, 2.0],
     ];
 
     cliffBoulders.forEach(([cx, cz, scale]) => {
       this.spawn("rock_cliff", center.x + cx, center.z + cz, scale, Math.random() * Math.PI * 2, 1.6);
     });
 
-    // 3. Rocky shoreline where Joko fishes (safely on water edge near 56, -63)
-    this.spawn("rock_boulder", center.x - 19, center.z - 3, 2.2, 0.4, 1.5);
-    this.spawn("rock_shore", center.x - 21, center.z - 1, 1.8, -0.6, 1.3);
+    // 3. Rocky shoreline where Joko fishes (firmly resting on ground, zero floating)
+    this.spawn("rock_boulder", center.x - 14, center.z - 4, 2.2, 0.4, 1.5);
+    this.spawn("rock_shore", center.x - 15, center.z - 2, 1.8, -0.6, 1.3);
   }
 
   /**
@@ -503,10 +503,10 @@ export class WorldNatureManager {
 
     // 2. Beach Rocks on Sand Perimeter
     const arenaRocks: [number, number][] = [
-      [22, -12],
-      [22, 12],
-      [-12, 24],
-      [12, -24],
+      [16, -10],
+      [16, 10],
+      [-10, 16],
+      [10, -16],
     ];
     arenaRocks.forEach(([rx, rz]) => {
       this.spawn("rock_shore", center.x + rx, center.z + rz, 1.6, Math.random() * Math.PI * 2, 1.2);
@@ -535,10 +535,10 @@ export class WorldNatureManager {
 
     // 2. Stepping Stone Slabs on outer shoreline
     const hexRocks: [number, number][] = [
-      [-22, -8],
-      [22, 10],
-      [-10, 22],
-      [10, -22],
+      [-14, -8],
+      [14, 8],
+      [-8, 14],
+      [8, -14],
     ];
     hexRocks.forEach(([rx, rz]) => {
       this.spawn("rock_slab", center.x + rx, center.z + rz, 1.6, Math.random() * Math.PI * 2, 1.2);

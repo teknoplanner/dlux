@@ -4,6 +4,8 @@ import * as THREE from "three";
 import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader.js";
 import { NPCData, SolidCollider } from "./WorldEngine";
 import { WorldCharacterManager } from "./WorldCharacterManager";
+import { getWindWakerWaveElevation } from "./WorldWindWakerWater";
+import { WorldWeatherManager } from "./WorldWeatherManager";
 
 // =============================================================================
 // TYPES & DATA STRUCTURES
@@ -81,6 +83,7 @@ export class WorldLivingAtmosphere {
   private registerNPC: (npc: NPCData) => void;
   private getGroundHeight: (x: number, z: number) => number;
   private characterManager: WorldCharacterManager | null = null;
+  private weatherManager: WorldWeatherManager | null = null;
 
   // Living World entities
   public pedestrians: Pedestrian[] = [];
@@ -117,13 +120,15 @@ export class WorldLivingAtmosphere {
     colliders: SolidCollider[],
     registerNPC: (npc: NPCData) => void,
     getGroundHeight: (x: number, z: number) => number,
-    characterManager: WorldCharacterManager | null = null
+    characterManager: WorldCharacterManager | null = null,
+    weatherManager?: WorldWeatherManager | null
   ) {
     this.scene = scene;
     this.colliders = colliders;
     this.registerNPC = registerNPC;
     this.getGroundHeight = getGroundHeight;
     this.characterManager = characterManager;
+    this.weatherManager = weatherManager || null;
   }
 
   public init() {
@@ -257,8 +262,9 @@ export class WorldLivingAtmosphere {
   // ===========================================================================
   private spawnMarketStallsAndVendors() {
     // A. Toko Buah Tropis Mang Ujang (Central Plaza - West lawn arcade, facing inward toward plaza center)
+    const ujangY = this.getGroundHeight(-8.0, 2.5);
     this.createMarketStall({
-      pos: new THREE.Vector3(-8.0, 4.80, 2.5),
+      pos: new THREE.Vector3(-8.0, ujangY, 2.5),
       rotY: Math.atan2(8.0, -2.5), // Faces inward toward center (0, 0)
       awningColor1: 0xef4444, // Red
       awningColor2: 0xfef08a, // Cream yellow
@@ -271,7 +277,7 @@ export class WorldLivingAtmosphere {
       name: "Mang Ujang",
       title: "Pedagang Buah Tropis",
       island: "Central Plaza",
-      pos: new THREE.Vector3(-8.0, 4.80, 2.5),
+      pos: new THREE.Vector3(-8.0, ujangY, 2.5),
       avatar: "🍉",
       dialogue: [
         "Halo Milo! Wah, segar banget kan udara pulau hari ini?",
@@ -281,8 +287,9 @@ export class WorldLivingAtmosphere {
     });
 
     // B. Kios Ramuan & Elixir Alchemist Luna (Central Plaza - West lawn arcade, facing inward toward plaza center)
+    const lunaY = this.getGroundHeight(-8.0, -2.5);
     this.createMarketStall({
-      pos: new THREE.Vector3(-8.0, 4.80, -2.5),
+      pos: new THREE.Vector3(-8.0, lunaY, -2.5),
       rotY: Math.atan2(8.0, 2.5), // Faces inward toward center (0, 0)
       awningColor1: 0x7e22ce, // Purple
       awningColor2: 0xfacc15, // Gold
@@ -295,7 +302,7 @@ export class WorldLivingAtmosphere {
       name: "Alchemist Luna",
       title: "Peracik Elixir Ajaib",
       island: "Central Plaza",
-      pos: new THREE.Vector3(-8.0, 4.80, -2.5),
+      pos: new THREE.Vector3(-8.0, lunaY, -2.5),
       avatar: "🧪",
       dialogue: [
         "Salam, penjelajah Milo! Butuh ramuan peningkat kelincahan?",
@@ -339,7 +346,7 @@ export class WorldLivingAtmosphere {
     stallType: "fruit" | "potion" | "coconut";
   }) {
     const groundY = this.getGroundHeight(cfg.pos.x, cfg.pos.z);
-    const actualY = Math.max(cfg.pos.y, groundY);
+    const actualY = groundY;
     const stallGroup = new THREE.Group();
     stallGroup.position.set(cfg.pos.x, actualY, cfg.pos.z);
     stallGroup.rotation.y = cfg.rotY;
@@ -356,20 +363,20 @@ export class WorldLivingAtmosphere {
     panelTrim.position.set(0, 1.02, 0);
     stallGroup.add(panelTrim);
 
-    // 2. Corner Wooden Posts supporting Awning
-    const postGeo = new THREE.CylinderGeometry(0.06, 0.08, 2.4, 8);
+    // 2. Corner Wooden Posts supporting Awning (Height 2.9m for full headroom)
+    const postGeo = new THREE.CylinderGeometry(0.06, 0.08, 2.9, 8);
     for (const px of [-1.35, 1.35]) {
       for (const pz of [-0.6, 0.6]) {
         const post = new THREE.Mesh(postGeo, this.darkWoodMat);
-        post.position.set(px, 1.2, pz);
+        post.position.set(px, 1.45, pz);
         post.castShadow = true;
         stallGroup.add(post);
       }
     }
 
-    // 3. Striped Canvas Awning (Canopy Roof)
+    // 3. Striped Canvas Awning (Canopy Roof at 2.85m height, preventing any head clipping)
     const awningGroup = new THREE.Group();
-    awningGroup.position.set(0, 2.35, 0);
+    awningGroup.position.set(0, 2.85, 0);
 
     const stripeWidth = 0.32;
     const numStripes = 9;
@@ -383,7 +390,7 @@ export class WorldLivingAtmosphere {
         s % 2 === 0 ? mat1 : mat2
       );
       stripeMesh.position.set(sx + stripeWidth / 2, 0, 0);
-      stripeMesh.rotation.x = 0.12; // Slight forward slope
+      stripeMesh.rotation.x = 0.08; // Gentle forward slope
       stripeMesh.castShadow = true;
       awningGroup.add(stripeMesh);
 
@@ -396,6 +403,65 @@ export class WorldLivingAtmosphere {
       awningGroup.add(drape);
     }
     stallGroup.add(awningGroup);
+
+    // =========================================================================
+    // LAMPU PENERANGAN WARUNG DI MALAM HARI
+    // =========================================================================
+    const brassMat = new THREE.MeshStandardMaterial({ color: 0xd97706, metalness: 0.85, roughness: 0.25 });
+    const lanternGlassMat = new THREE.MeshBasicMaterial({ color: 0xffedd5, transparent: true, opacity: 0.95 });
+
+    // 1. Lampu Lentera Kuningan Gantung di Bawah Tenda Warung
+    const hangingLantern = new THREE.Group();
+    hangingLantern.position.set(0, 2.50, 0.15);
+
+    // Rantai / tali gantung kayu gelap
+    const chain = new THREE.Mesh(new THREE.CylinderGeometry(0.015, 0.015, 0.35, 6), this.darkWoodMat);
+    chain.position.y = 0.20;
+    hangingLantern.add(chain);
+
+    // Kap tudung kuningan
+    const lanternHood = new THREE.Mesh(new THREE.ConeGeometry(0.24, 0.14, 8), brassMat);
+    lanternHood.position.y = 0.05;
+    hangingLantern.add(lanternHood);
+
+    // Kaca lentera hangat
+    const stallGlass = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.095, 0.22, 8), lanternGlassMat.clone());
+    stallGlass.position.y = -0.07;
+    hangingLantern.add(stallGlass);
+
+    // Titik cahaya keemasan menerangi meja dagangan
+    const stallCenterLight = new THREE.PointLight(0xffa000, 0.0, 18, 1.8);
+    stallCenterLight.position.y = -0.12;
+    hangingLantern.add(stallCenterLight);
+
+    stallGroup.add(hangingLantern);
+
+    // 2. Untaian Lampu Hias Peri (Fairy String Lights) di Sepanjang Depan Kanopi
+    const stringGroup = new THREE.Group();
+    stringGroup.position.set(0, 2.68, 0.84);
+
+    const bulbColors = [0xfef08a, 0xf472b6, 0x38bdf8, 0xfacc15, 0x4ade80];
+    const bulbMeshes: THREE.Mesh[] = [];
+    for (let b = 0; b < 5; b++) {
+      const bx = -1.2 + b * 0.6;
+      const bMat = new THREE.MeshBasicMaterial({ color: bulbColors[b % bulbColors.length], transparent: true, opacity: 0.95 });
+      const bulb = new THREE.Mesh(new THREE.SphereGeometry(0.065, 8, 8), bMat);
+      bulb.position.set(bx, Math.sin(b * 0.8) * 0.04 - 0.06, 0);
+      stringGroup.add(bulb);
+      bulbMeshes.push(bulb);
+    }
+
+    const frontStallLight = new THREE.PointLight(0xffb74d, 0.0, 15, 1.8);
+    frontStallLight.position.set(0, -0.12, 0.25);
+    stringGroup.add(frontStallLight);
+
+    stallGroup.add(stringGroup);
+
+    // Daftarkan lampu warung ke Weather Manager
+    if (this.weatherManager) {
+      this.weatherManager.registerLamp(stallCenterLight, stallGlass, 3.4, 1.2);
+      this.weatherManager.registerLamp(frontStallLight, bulbMeshes, 2.6, 0.9);
+    }
 
     // 4. Stall Products on Counter
     if (cfg.stallType === "fruit") {
@@ -482,9 +548,9 @@ export class WorldLivingAtmosphere {
       }
     }
 
-    // 5. Vendor 3D KayKit Character behind counter (Z = -0.65)
+    // 5. Vendor 3D KayKit Character behind counter (Z = -0.90)
     const vendorGroup = new THREE.Group();
-    vendorGroup.position.set(0, 0, -0.65);
+    vendorGroup.position.set(0, 0, -0.90);
     // Counter faces +Z, vendor faces +Z
     vendorGroup.rotation.y = 0;
 
@@ -495,7 +561,7 @@ export class WorldLivingAtmosphere {
         name: `Vendor ${cfg.stallType}`,
         pos: new THREE.Vector3(0, 0, 0),
         rotY: 0,
-        scale: 1.05,
+        scale: 0.95,
         tintColor: tint,
         initialAnim: cfg.stallType === "fruit" ? "Interact" : "Idle_A",
         targetGroup: vendorGroup,
@@ -578,6 +644,33 @@ export class WorldLivingAtmosphere {
     fishTail.position.set(-0.65, 0.48, -0.65);
     fishTail.rotation.z = 0.4;
     group.add(fishTail);
+
+    // Rustic Dockside Lantern for Night Fishing (Lampu Dermaga Mancing Malam)
+    const dockLamp = new THREE.Group();
+    dockLamp.position.set(0.95, 0, -0.2);
+
+    const post = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.08, 1.8, 8), this.darkWoodMat);
+    post.position.y = 0.9;
+    dockLamp.add(post);
+
+    const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.45, 6), this.darkWoodMat);
+    arm.rotation.z = -Math.PI / 2;
+    arm.position.set(0.2, 1.7, 0);
+    dockLamp.add(arm);
+
+    const lanternGlass = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.1, 0.08, 0.22, 8),
+      new THREE.MeshBasicMaterial({ color: 0xffedd5, transparent: true, opacity: 0.95 })
+    );
+    lanternGlass.position.set(0.38, 1.55, 0);
+    dockLamp.add(lanternGlass);
+
+    const dockLight = new THREE.PointLight(0xffa033, 0.0, 18, 1.8);
+    dockLight.position.set(0.38, 1.50, 0);
+    dockLamp.add(dockLight);
+
+    group.add(dockLamp);
+    this.weatherManager?.registerLamp(dockLight, lanternGlass, 3.2, 1.2);
 
     this.scene.add(group);
 
@@ -1215,8 +1308,9 @@ export class WorldLivingAtmosphere {
   private updateBoats(delta: number, time: number) {
     this.boats.forEach((boat) => {
       if (boat.type === "rowboat") {
-        // Moored bobbing at pier
-        boat.group.position.y = 0.15 + Math.sin(time * 2.8) * 0.06;
+        // Moored bobbing at pier with Wind Waker waves
+        const waveY = getWindWakerWaveElevation(boat.group.position.x, boat.group.position.z, time);
+        boat.group.position.y = 0.15 + waveY * 0.4 + Math.sin(time * 2.8) * 0.04;
         if (boat.hullGroup) {
           boat.hullGroup.rotation.z = Math.sin(time * 2.2) * 0.04;
           boat.hullGroup.rotation.x = Math.cos(time * 1.8) * 0.03;
@@ -1235,7 +1329,8 @@ export class WorldLivingAtmosphere {
         const currentPt = boat.spline.getPointAt(boat.splineProgress);
         const tangent = boat.spline.getTangentAt(boat.splineProgress);
 
-        boat.group.position.set(currentPt.x, 0.18, currentPt.z);
+        const waveY = getWindWakerWaveElevation(currentPt.x, currentPt.z, time);
+        boat.group.position.set(currentPt.x, 0.18 + waveY * 0.7, currentPt.z);
 
         // Desired yaw heading from velocity tangent
         const targetYaw = Math.atan2(tangent.x, tangent.z);

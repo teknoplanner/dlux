@@ -3,6 +3,7 @@
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { SolidCollider } from "./WorldEngine";
+import { WorldWeatherManager } from "./WorldWeatherManager";
 
 export type BuildingKey =
   | "home_a"
@@ -25,17 +26,18 @@ const BUILDING_DEFS: Record<BuildingKey, BuildingDef> = {
 };
 
 /**
- * Calculates rotation so building's front door (facing local -Z) points directly
- * toward the island center (cx, cz), ensuring it never faces the abyss or cliffs.
+ * Calculates rotation so building's front door (facing local +Z in KayKit models) points directly
+ * toward the island center (cx, cz), ensuring it faces inward toward plazas and promenades with doors clearly visible.
  */
 function faceTowardsCenter(x: number, z: number, cx: number, cz: number): number {
-  return Math.atan2(x - cx, z - cz);
+  return Math.atan2(cx - x, cz - z);
 }
 
 export class WorldBuildingManager {
   private scene: THREE.Scene;
   private colliders: SolidCollider[];
   private getGroundHeight: (x: number, z: number) => number;
+  private weatherManager: WorldWeatherManager | null = null;
   private loader: GLTFLoader;
 
   private prototypes: Map<BuildingKey, THREE.Group> = new Map();
@@ -46,18 +48,20 @@ export class WorldBuildingManager {
   constructor(
     scene: THREE.Scene,
     colliders: SolidCollider[],
-    getGroundHeight: (x: number, z: number) => number
+    getGroundHeight: (x: number, z: number) => number,
+    weatherManager?: WorldWeatherManager | null
   ) {
     this.scene = scene;
     this.colliders = colliders;
     this.getGroundHeight = getGroundHeight;
+    this.weatherManager = weatherManager || null;
     this.loader = new GLTFLoader();
     this.loader.setPath("/assets/3d/buildings/");
   }
 
   /**
    * Spawns authentic KayKit Medieval Houses and Buildings across all islands.
-   * All doors and entrances face inward toward plazas and promenades, never facing cliffs.
+   * All doors and entrances face inward toward plazas and promenades, never facing cliffs or sea.
    */
   public buildAllHouses() {
     // 1. Central Plaza (Hub at 0, 0) - All buildings well inside flat plateau (dist <= 13.5m, cliff at 18.0m)
@@ -77,8 +81,8 @@ export class WorldBuildingManager {
     // 3. Battle Royale Outpost (Center at 75, -60) - Safe inside Citadel courtyard (dist <= 9.5m, cliff at 16.5m)
     // Command Tavern on Citadel bluff, facing courtyard center
     this.spawnBuilding("tavern", 81.0, -67.0, faceTowardsCenter(81.0, -67.0, 75, -60), 4.0, 4.8, 4.8);
-    // Scout Bunkhouse, facing courtyard center
-    this.spawnBuilding("home_a", 69.0, -67.0, faceTowardsCenter(69.0, -67.0, 75, -60), 3.6, 3.2, 3.2);
+    // Scout Bunkhouse on East courtyard perimeter, facing courtyard center (comfortably separated from lighthouse at 67, -68)
+    this.spawnBuilding("home_a", 82.0, -60.0, faceTowardsCenter(82.0, -60.0, 75, -60), 3.6, 3.2, 3.2);
 
     // 4. Hexagon Sandbox Bay (Center at -65, 70) - Grassy middle terrace (dist <= 9.5m, cliff at 15.5m)
     // Lakeside Chalet, facing lagoon center
@@ -106,7 +110,7 @@ export class WorldBuildingManager {
 
     const proto = this.prototypes.get(key);
     if (proto) {
-      this.instantiateBuilding(proto, pos, rotY, scaleNum, colliderWidth, colliderDepth);
+      this.instantiateBuilding(key, proto, pos, rotY, scaleNum, colliderWidth, colliderDepth);
     } else {
       let list = this.pendingSpawns.get(key);
       if (!list) {
@@ -147,7 +151,7 @@ export class WorldBuildingManager {
         const pending = this.pendingSpawns.get(key);
         if (pending) {
           pending.forEach((req) => {
-            this.instantiateBuilding(root, req.pos, req.rotY, req.scale, req.colliderWidth, req.colliderDepth);
+            this.instantiateBuilding(key, root, req.pos, req.rotY, req.scale, req.colliderWidth, req.colliderDepth);
           });
           this.pendingSpawns.delete(key);
         }
@@ -158,6 +162,7 @@ export class WorldBuildingManager {
   }
 
   private instantiateBuilding(
+    key: BuildingKey,
     proto: THREE.Group,
     pos: THREE.Vector3,
     rotY: number,
@@ -169,6 +174,69 @@ export class WorldBuildingManager {
     instance.position.copy(pos);
     instance.rotation.y = rotY;
     instance.scale.set(scale, scale, scale);
+
+    // =========================================================================
+    // LAMPU RUMAH & BANGUNAN DI MALAM HARI
+    // =========================================================================
+    const ironMat = new THREE.MeshStandardMaterial({ color: 0x1f2937, metalness: 0.85, roughness: 0.3 });
+    const glassMat = new THREE.MeshBasicMaterial({ color: 0xffedd5, transparent: true, opacity: 0.95 });
+
+    // 1. Lampu Lentera Teras Depan Pintu Masuk
+    const lanternGroup = new THREE.Group();
+    // Tiang siku besi penempel dinding
+    const bracket = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, 0.32, 6), ironMat);
+    bracket.rotation.x = Math.PI / 2;
+    bracket.position.set(0, 0, 0.16);
+    lanternGroup.add(bracket);
+
+    // Tudung kap atas & mangkuk bawah
+    const hood = new THREE.Mesh(new THREE.ConeGeometry(0.18, 0.12, 6), ironMat);
+    hood.position.set(0, 0.12, 0.32);
+    lanternGroup.add(hood);
+
+    const base = new THREE.Mesh(new THREE.CylinderGeometry(0.10, 0.08, 0.06, 6), ironMat);
+    base.position.set(0, -0.14, 0.32);
+    lanternGroup.add(base);
+
+    // Kaca lentera bercahaya hangat
+    const glassMesh = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.075, 0.20, 6), glassMat.clone());
+    glassMesh.position.set(0, -0.01, 0.32);
+    lanternGroup.add(glassMesh);
+
+    // Lampu titik keemasan menerangi pekarangan depan rumah
+    const porchLight = new THREE.PointLight(0xffa033, 0.0, 22, 1.8);
+    porchLight.position.set(0, -0.05, 0.35);
+    lanternGroup.add(porchLight);
+
+    // Posisikan di dekat pintu depan (+Z lokal model KayKit)
+    const doorZ = scale * 0.42;
+    const doorY = scale * 0.58;
+    const doorX = (key === "tavern" ? 0.7 : 0.4) * (scale * 0.22);
+    lanternGroup.position.set(doorX, doorY, doorZ);
+    instance.add(lanternGroup);
+
+    // 2. Lampu Hangat Interior Rumah (Cahaya jendela bersinar dari dalam rumah)
+    const interiorLight = new THREE.PointLight(0xfef08a, 0.0, 18, 2.0);
+    interiorLight.position.set(0, scale * 0.48, 0);
+    instance.add(interiorLight);
+
+    if (this.weatherManager) {
+      this.weatherManager.registerLamp(porchLight, glassMesh, 3.6, 1.2);
+      this.weatherManager.registerLamp(interiorLight, undefined, 2.6, 0.9);
+    }
+
+    // 3. Efek Lampu Khusus Tavern (Kedai Ramai) & Windmill (Kincir Angin)
+    if (key === "tavern") {
+      const signLight = new THREE.PointLight(0xf59e0b, 0.0, 20, 1.8);
+      signLight.position.set(-doorX * 1.6, doorY, doorZ);
+      instance.add(signLight);
+      this.weatherManager?.registerLamp(signLight, undefined, 3.4, 1.0);
+    } else if (key === "windmill") {
+      const beaconLight = new THREE.PointLight(0xfacc15, 0.0, 24, 1.8);
+      beaconLight.position.set(0, scale * 1.15, scale * 0.38);
+      instance.add(beaconLight);
+      this.weatherManager?.registerLamp(beaconLight, undefined, 3.8, 1.4);
+    }
 
     this.scene.add(instance);
     this.spawnedBuildings.push(instance);
@@ -183,6 +251,8 @@ export class WorldBuildingManager {
       minZ: pos.z - halfD,
       maxZ: pos.z + halfD,
       label: "kaykit_building",
+      minY: pos.y - 0.5,
+      maxY: pos.y + scale * 2.2,
     });
   }
 

@@ -2,6 +2,7 @@
 
 import React, { useEffect } from "react";
 import { WorldAudio } from "./WorldAudio";
+import { WeatherType } from "./WorldWeatherManager";
 import { WorldLang, WORLD_STRINGS } from "./worldI18n";
 
 interface WorldPauseMenuProps {
@@ -11,6 +12,10 @@ interface WorldPauseMenuProps {
   onOpenControls: () => void;
   isMuted: boolean;
   onToggleMute: () => void;
+  isMusicEnabled?: boolean;
+  onToggleMusic?: () => void;
+  currentWeather?: WeatherType;
+  onSetWeather?: (weather: WeatherType) => void;
   onReturnToTitle: () => void;
   onExitToWeb: () => void;
   coins: number;
@@ -29,6 +34,10 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
   onOpenControls,
   isMuted,
   onToggleMute,
+  isMusicEnabled = true,
+  onToggleMusic,
+  currentWeather = "day",
+  onSetWeather,
   onReturnToTitle,
   onExitToWeb,
   coins,
@@ -220,7 +229,7 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
             </span>
           </button>
 
-          {/* Audio Toggle in Paper Card */}
+          {/* Audio Sound Effects Toggle in Paper Card */}
           <button
             onClick={onToggleMute}
             onMouseEnter={handleHover}
@@ -237,6 +246,74 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
             </div>
             <span className="font-extrabold text-[#854d0e]">{isMuted ? t.common.muted : t.common.soundOn}</span>
           </button>
+
+          {/* Background Music (BGM) Toggle in Paper Card */}
+          {onToggleMusic && (
+            <button
+              onClick={onToggleMusic}
+              onMouseEnter={handleHover}
+              className="w-full py-2.5 px-4 rounded-2xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none text-xs font-black transition-all cursor-pointer flex items-center justify-between"
+            >
+              <div className="flex items-center gap-2.5 text-[#3e2723]">
+                <span className="text-sm">🎵</span>
+                <span>{t.pauseMenu.backgroundMusic}</span>
+              </div>
+              <span className={`font-extrabold ${isMusicEnabled && !isMuted ? "text-[#15803d]" : "text-[#b91c1c]"}`}>
+                {isMusicEnabled && !isMuted ? t.common.soundOn : t.common.muted}
+              </span>
+            </button>
+          )}
+
+          {/* Weather & Time of Day Selector */}
+          {onSetWeather && (
+            <div className="w-full p-3 rounded-2xl bg-[#fffdf6] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-black text-[#3e2723] flex items-center gap-1.5 uppercase">
+                  <span>🌤️</span>
+                  <span>{t.pauseMenu.weatherTitle}</span>
+                </span>
+                <span className="text-[10px] font-black px-2 py-0.5 rounded-lg bg-[#fef08a] text-[#854d0e] border border-[#ca8a04]">
+                  {currentWeather === "day"
+                    ? t.pauseMenu.weatherDay
+                    : currentWeather === "night"
+                    ? t.pauseMenu.weatherNight
+                    : currentWeather === "rain"
+                    ? t.pauseMenu.weatherRain
+                    : t.pauseMenu.weatherSnow}
+                </span>
+              </div>
+              <div className="grid grid-cols-4 gap-1.5">
+                {(
+                  [
+                    { id: "day", icon: "☀️", label: t.pauseMenu.weatherDay },
+                    { id: "night", icon: "🌙", label: t.pauseMenu.weatherNight },
+                    { id: "rain", icon: "🌧️", label: t.pauseMenu.weatherRain },
+                    { id: "snow", icon: "❄️", label: t.pauseMenu.weatherSnow },
+                  ] as const
+                ).map((item) => {
+                  const isActive = currentWeather === item.id;
+                  return (
+                    <button
+                      key={item.id}
+                      type="button"
+                      onClick={() => {
+                        audio?.playMenuHover();
+                        onSetWeather(item.id);
+                      }}
+                      className={`flex flex-col items-center justify-center py-2 px-1 rounded-xl border-2 transition-all cursor-pointer ${
+                        isActive
+                          ? "bg-[#22c55e] text-white border-[#15803d] shadow-sm font-black scale-102"
+                          : "bg-[#f5eedc] text-[#854d0e] hover:bg-[#fef9c3] border-[#ca8a04]/50"
+                      }`}
+                    >
+                      <span className="text-base leading-tight">{item.icon}</span>
+                      <span className="text-[10px] font-black tracking-tight">{item.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Return to Title & Exit using Paper Buttons */}
           <div className="grid grid-cols-2 gap-2 w-full pt-1">

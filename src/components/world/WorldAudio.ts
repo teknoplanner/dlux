@@ -10,12 +10,87 @@ export class WorldAudio {
   private engineGain: GainNode | null = null;
   private isEngineRunning: boolean = false;
 
+  // Background Music (BGM)
+  private bgmAudio: HTMLAudioElement | null = null;
+  private isMusicEnabled: boolean = true;
+  private musicVolume: number = 0.35;
+
   constructor() {
-    // AudioContext will be initialized on the first user interaction
+    // AudioContext and BGM will be initialized on first user interaction
+    if (typeof window !== "undefined") {
+      try {
+        const savedMusic = localStorage.getItem("dluckyx_music_enabled");
+        if (savedMusic !== null) {
+          this.isMusicEnabled = savedMusic === "true";
+        }
+      } catch {}
+    }
   }
 
   public init(): void {
     this.initContext();
+    this.initBGM();
+  }
+
+  public initBGM(): void {
+    if (typeof window === "undefined") return;
+    if (!this.bgmAudio) {
+      try {
+        this.bgmAudio = new Audio("/assets/musik/backsond.mp3");
+        this.bgmAudio.loop = true;
+        this.bgmAudio.volume = this.musicVolume;
+        this.bgmAudio.preload = "auto";
+      } catch {
+        // audio unavailable
+      }
+    }
+
+    if (this.isMusicEnabled && !this.isMuted) {
+      this.playMusic();
+    }
+  }
+
+  public playMusic(): void {
+    if (!this.bgmAudio) {
+      this.initBGM();
+    }
+    if (this.bgmAudio && this.isMusicEnabled && !this.isMuted) {
+      this.bgmAudio.volume = this.musicVolume;
+      const playPromise = this.bgmAudio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          // Autoplay policy: will start upon next user click
+        });
+      }
+    }
+  }
+
+  public pauseMusic(): void {
+    if (this.bgmAudio) {
+      this.bgmAudio.pause();
+    }
+  }
+
+  public setMusicEnabled(enabled: boolean): boolean {
+    this.isMusicEnabled = enabled;
+    try {
+      localStorage.setItem("dluckyx_music_enabled", String(enabled));
+    } catch {}
+
+    if (enabled && !this.isMuted) {
+      this.playMusic();
+    } else {
+      this.pauseMusic();
+    }
+    return this.isMusicEnabled;
+  }
+
+  public getMusicEnabled(): boolean {
+    return this.isMusicEnabled;
+  }
+
+  public toggleMusic(): boolean {
+    return this.setMusicEnabled(!this.isMusicEnabled);
   }
 
   private initContext(): AudioContext | null {
@@ -42,8 +117,15 @@ export class WorldAudio {
 
   public setMuted(muted: boolean): boolean {
     this.isMuted = muted;
-    if (this.isMuted && this.engineGain) {
-      this.engineGain.gain.setValueAtTime(0, this.ctx?.currentTime || 0);
+    if (this.isMuted) {
+      if (this.engineGain) {
+        this.engineGain.gain.setValueAtTime(0, this.ctx?.currentTime || 0);
+      }
+      this.pauseMusic();
+    } else {
+      if (this.isMusicEnabled) {
+        this.playMusic();
+      }
     }
     return this.isMuted;
   }
@@ -421,6 +503,11 @@ export class WorldAudio {
   }
 
   public dispose() {
+    this.pauseMusic();
+    if (this.bgmAudio) {
+      this.bgmAudio.src = "";
+      this.bgmAudio = null;
+    }
     if (this.engineOsc) {
       try {
         this.engineOsc.stop();

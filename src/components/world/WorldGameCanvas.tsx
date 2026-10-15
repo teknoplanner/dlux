@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
 import { WorldEngine, NPCData, ActiveMinigame } from "./WorldEngine";
 import { WorldAudio } from "./WorldAudio";
+import { WeatherType } from "./WorldWeatherManager";
 import { WorldHUD } from "./WorldHUD";
 import { WorldControls } from "./WorldControls";
 import { WorldSmartphone } from "./WorldSmartphone";
@@ -32,9 +33,12 @@ export const WorldGameCanvas: React.FC = () => {
   const [showGoal, setShowGoal] = useState(false);
   const [isPhoneOpen, setIsPhoneOpen] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
+  const [isMusicEnabled, setIsMusicEnabled] = useState(true);
+  const [currentWeather, setCurrentWeather] = useState<WeatherType>("day");
   const [playerCoord, setPlayerCoord] = useState({ x: 0, z: 0 });
   const [completedQuests, setCompletedQuests] = useState<Record<string, boolean>>({});
   const [lang, setLang] = useState<WorldLang>(() => detectUserLanguage());
+  const [isIntroCinematic, setIsIntroCinematic] = useState(false);
 
   const handleToggleLang = useCallback((newLang: WorldLang) => {
     setLang(newLang);
@@ -47,6 +51,7 @@ export const WorldGameCanvas: React.FC = () => {
     // Initialize Audio
     const audio = new WorldAudio();
     audioRef.current = audio;
+    setIsMusicEnabled(audio.getMusicEnabled());
 
     // Allow initial frame of WorldLoadingScreen to paint cleanly before launching 3D engine
     const initTimer = setTimeout(() => {
@@ -80,6 +85,12 @@ export const WorldGameCanvas: React.FC = () => {
         onMinigameUpdate: (game) => {
           setActiveMinigame(game);
         },
+        onWeatherUpdate: (w) => {
+          setCurrentWeather(w);
+        },
+        onCinematicUpdate: (active) => {
+          setIsIntroCinematic(active);
+        },
       });
 
       engineRef.current = engine;
@@ -97,7 +108,7 @@ export const WorldGameCanvas: React.FC = () => {
       }
     }, 250);
 
-    // Fullscreen key toggle (F key)
+    // Keyboard shortcuts: Fullscreen (F key), Cycle Weather (V key)
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.code === "KeyF") {
         if (!document.fullscreenElement) {
@@ -113,6 +124,11 @@ export const WorldGameCanvas: React.FC = () => {
           } else if ((document as any).webkitExitFullscreen) {
             (document as any).webkitExitFullscreen();
           }
+        }
+      } else if (e.code === "KeyV") {
+        const next = engineRef.current?.cycleWeather();
+        if (next) {
+          setCurrentWeather(next);
         }
       }
     };
@@ -178,6 +194,9 @@ export const WorldGameCanvas: React.FC = () => {
     }
     audioRef.current?.init();
     audioRef.current?.playCoin();
+    if (isMusicEnabled && !isMuted) {
+      audioRef.current?.playMusic();
+    }
     setHasEntered(true);
     setIsPauseOpen(false);
   };
@@ -188,6 +207,25 @@ export const WorldGameCanvas: React.FC = () => {
       setIsMuted(newMuted);
     }
   }, [isMuted]);
+
+  const handleToggleMusic = useCallback(() => {
+    if (audioRef.current) {
+      const next = audioRef.current.toggleMusic();
+      setIsMusicEnabled(next);
+    }
+  }, []);
+
+  const handleSetWeather = useCallback((w: WeatherType) => {
+    engineRef.current?.setWeather(w);
+    setCurrentWeather(w);
+  }, []);
+
+  const handleCycleWeather = useCallback(() => {
+    const next = engineRef.current?.cycleWeather();
+    if (next) {
+      setCurrentWeather(next);
+    }
+  }, []);
 
   const handleInteract = () => {
     if (activeNPC) {
@@ -215,9 +253,15 @@ export const WorldGameCanvas: React.FC = () => {
     setCompletedQuests((prev) => ({ ...prev, [questId]: true }));
   };
 
-  const handleFinishLoading = useCallback(() => {
+  const handleStartExploration = async () => {
+    await handleEnterWorld(false);
     setIsLoading(false);
-  }, []);
+    engineRef.current?.startIntroCinematic();
+  };
+
+  const handleSkipCinematic = () => {
+    engineRef.current?.skipIntroCinematic();
+  };
 
   const handleReturnToTitle = () => {
     if (engineRef.current) {
@@ -249,7 +293,10 @@ export const WorldGameCanvas: React.FC = () => {
 
       {/* Professional AAA Game Loading Screen */}
       {isLoading && (
-        <WorldLoadingScreen onFinishLoading={handleFinishLoading} />
+        <WorldLoadingScreen
+          onStartExploration={handleStartExploration}
+          lang={lang}
+        />
       )}
 
       {/* Professional Video Game Title Screen & Main Menu */}
@@ -259,6 +306,10 @@ export const WorldGameCanvas: React.FC = () => {
           audio={audioRef.current}
           isMuted={isMuted}
           onToggleMute={handleToggleMute}
+          isMusicEnabled={isMusicEnabled}
+          onToggleMusic={handleToggleMusic}
+          currentWeather={currentWeather}
+          onSetWeather={handleSetWeather}
           lang={lang}
           onToggleLang={handleToggleLang}
         />
@@ -278,6 +329,12 @@ export const WorldGameCanvas: React.FC = () => {
             showGoal={showGoal}
             isMuted={isMuted}
             onToggleMute={handleToggleMute}
+            isMusicEnabled={isMusicEnabled}
+            onToggleMusic={handleToggleMusic}
+            currentWeather={currentWeather}
+            onCycleWeather={handleCycleWeather}
+            isIntroCinematic={isIntroCinematic}
+            onSkipCinematic={handleSkipCinematic}
             onOpenPhone={() => setIsPhoneOpen(true)}
             onInteractNPC={handleInteract}
             onOpenPauseMenu={() => setIsPauseOpen(true)}
@@ -285,8 +342,8 @@ export const WorldGameCanvas: React.FC = () => {
             lang={lang}
           />
 
-          {/* Input Controls (Suspended if Pause Menu is open) */}
-          {!isPauseOpen && (
+          {/* Input Controls (Suspended if Pause Menu is open or during Intro Cinematic) */}
+          {!isPauseOpen && !isIntroCinematic && (
             <WorldControls engine={engineRef.current} onInteract={handleInteract} />
           )}
 
@@ -321,6 +378,10 @@ export const WorldGameCanvas: React.FC = () => {
             onOpenControls={() => setIsControlsModalOpen(true)}
             isMuted={isMuted}
             onToggleMute={handleToggleMute}
+            isMusicEnabled={isMusicEnabled}
+            onToggleMusic={handleToggleMusic}
+            currentWeather={currentWeather}
+            onSetWeather={handleSetWeather}
             onReturnToTitle={handleReturnToTitle}
             onExitToWeb={handleExitToWeb}
             coins={coins}
@@ -363,7 +424,7 @@ export const WorldGameCanvas: React.FC = () => {
                   </button>
                 </div>
 
-                <div className="grid grid-cols-2 gap-2.5 text-xs font-sans">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-xs font-sans">
                   <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
                     <span className="block font-black text-[#3e2723] bg-[#fef08a] px-2.5 py-1 rounded-xl border border-[#ca8a04]">WASD / ARROWS</span>
                     <span className="text-[11px] font-bold text-[#854d0e] mt-1.5 block">{lang === "id" ? "Bergerak & Belok" : "Move / Steer"}</span>
@@ -379,6 +440,14 @@ export const WorldGameCanvas: React.FC = () => {
                   <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
                     <span className="block font-black text-[#b45309] bg-[#fef3c7] px-2.5 py-1 rounded-xl border border-[#d97706]">E / TAP</span>
                     <span className="text-[11px] font-bold text-[#854d0e] mt-1.5 block">{lang === "id" ? "Interaksi NPC" : "Talk / Interact"}</span>
+                  </div>
+                  <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
+                    <span className="block font-black text-[#047857] bg-[#d1fae5] px-2.5 py-1 rounded-xl border border-[#059669]">M</span>
+                    <span className="text-[11px] font-bold text-[#065f46] mt-1.5 block">{lang === "id" ? "Peta & Fast Travel" : "Map & Teleport"}</span>
+                  </div>
+                  <div className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] text-center shadow-sm">
+                    <span className="block font-black text-[#7c3aed] bg-[#ede9fe] px-2.5 py-1 rounded-xl border border-[#7c3aed]">V</span>
+                    <span className="text-[11px] font-bold text-[#5b21b6] mt-1.5 block">{lang === "id" ? "Ganti Cuaca" : "Cycle Weather"}</span>
                   </div>
                 </div>
 
