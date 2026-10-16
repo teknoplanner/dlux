@@ -789,32 +789,7 @@ export class WorldLivingAtmosphere {
     fishTail.rotation.z = 0.4;
     group.add(fishTail);
 
-    // Rustic Dockside Lantern for Night Fishing (Lampu Dermaga Mancing Malam)
-    const dockLamp = new THREE.Group();
-    dockLamp.position.set(0.95, 0, -0.2);
 
-    const post = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.08, 1.8, 8), this.darkWoodMat);
-    post.position.y = 0.9;
-    dockLamp.add(post);
-
-    const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.45, 6), this.darkWoodMat);
-    arm.rotation.z = -Math.PI / 2;
-    arm.position.set(0.2, 1.7, 0);
-    dockLamp.add(arm);
-
-    const lanternGlass = new THREE.Mesh(
-      new THREE.CylinderGeometry(0.1, 0.08, 0.22, 8),
-      new THREE.MeshBasicMaterial({ color: 0xffedd5, transparent: true, opacity: 0.95 })
-    );
-    lanternGlass.position.set(0.38, 1.55, 0);
-    dockLamp.add(lanternGlass);
-
-    const dockLight = new THREE.PointLight(0xffa033, 0.0, 18, 1.8);
-    dockLight.position.set(0.38, 1.50, 0);
-    dockLamp.add(dockLight);
-
-    group.add(dockLamp);
-    this.weatherManager?.registerLamp(dockLight, lanternGlass, 3.2, 1.2);
 
     this.scene.add(group);
 

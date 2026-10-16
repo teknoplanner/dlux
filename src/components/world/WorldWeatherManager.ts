@@ -547,48 +547,10 @@ export class WorldWeatherManager {
   }
 
   // =========================================================================
-  // 1.5 ISLAND STREET LAMPS & MILO NIGHT ILLUMINATION
+  // 1.5 MILO NIGHT ILLUMINATION
   // =========================================================================
   private initIslandLamps() {
     const isNight = this.currentWeather === "night";
-    const woodMat = new THREE.MeshStandardMaterial({ color: 0x451a03, roughness: 0.85 });
-    const ironMat = new THREE.MeshStandardMaterial({ color: 0x1f2937, metalness: 0.8, roughness: 0.3 });
-    const lanternGlassMat = new THREE.MeshBasicMaterial({
-      color: 0xffedd5,
-      transparent: true,
-      opacity: isNight ? 0.95 : 0.0,
-    });
-
-    const lampCoords: [number, number, number][] = [];
-
-    lampCoords.forEach(([lx, ly, lz]) => {
-      const group = new THREE.Group();
-      group.position.set(lx, ly, lz);
-
-      // Wooden Pole
-      const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.16, 3.4, 8), woodMat);
-      pole.position.y = 1.7;
-      group.add(pole);
-
-      // Iron Bracket & Top Hood
-      const hood = new THREE.Mesh(new THREE.ConeGeometry(0.55, 0.28, 8), ironMat);
-      hood.position.y = 3.4;
-      group.add(hood);
-
-      // Glowing Lantern Glass
-      const glass = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.2, 0.45, 8), lanternGlassMat.clone());
-      glass.position.y = 3.05;
-      group.add(glass);
-
-      // Warm Golden Point Light casting light onto the ground
-      const light = new THREE.PointLight(0xffaa33, isNight ? 3.4 : 0.0, 26, 1.8);
-      light.position.y = 3.0;
-      group.add(light);
-
-      this.scene.add(group);
-      this.lampPosts.push({ group, light, glassMesh: glass });
-    });
-
     // Milo's Night Lantern / Chest Light
     this.miloNightLight = new THREE.PointLight(0xffd670, isNight ? 2.8 : 0.0, 20, 1.8);
     this.scene.add(this.miloNightLight);

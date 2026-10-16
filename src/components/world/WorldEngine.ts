@@ -1658,15 +1658,7 @@ export class WorldEngine {
         crossBeam.position.set(0, -0.48, 0);
         bay.add(crossBeam);
 
-        for (const side of [-width / 2 + 0.12, width / 2 - 0.12]) {
-          const lampPost = new THREE.Mesh(new THREE.BoxGeometry(0.08, 0.40, 0.08), woodBeamMat);
-          lampPost.position.set(side, 1.15, 0);
-          bay.add(lampPost);
 
-          const lanternGlass = new THREE.Mesh(new THREE.DodecahedronGeometry(0.18, 0), lanternMat);
-          lanternGlass.position.set(side, 1.40, 0);
-          bay.add(lanternGlass);
-        }
       }
 
       this.scene.add(bay);
