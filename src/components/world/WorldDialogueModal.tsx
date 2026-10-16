@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { NPCData } from "./WorldEngine";
 import { WorldLang, BILINGUAL_NPCS } from "./worldI18n";
+import { GameIconResidentBadge } from "./WorldGameIcons";
 
 interface WorldDialogueModalProps {
   npc: NPCData | null;
@@ -119,8 +120,8 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
             {/* Character Portrait Stage */}
             <div className="flex-shrink-0 flex flex-col items-center gap-1.5">
               <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-3xl bg-[#fef08a] border-3 border-[#854d0e] p-1 shadow-[0_4px_0_#854d0e] flex items-center justify-center">
-                <div className="w-full h-full rounded-2xl bg-[#fffdf6] flex items-center justify-center text-3xl sm:text-4xl shadow-inner select-none">
-                  {npc.avatar}
+                <div className="w-full h-full rounded-2xl bg-[#fffdf6] flex items-center justify-center p-1.5 shadow-inner select-none">
+                  <GameIconResidentBadge role={npc.id} className="w-full h-full object-contain" fallbackEmoji={npc.avatar} />
                 </div>
               </div>
               <span className="text-[10px] font-black text-[#5c3e21] bg-[#f5eedc] px-2 py-0.5 rounded-full border border-[#854d0e]">

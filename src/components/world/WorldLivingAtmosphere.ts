@@ -24,6 +24,90 @@ export interface Pedestrian {
   name: string;
 }
 
+export interface BoatThemeConfig {
+  hull: number;       // Upper hull exterior
+  keel: number;       // Lower hull / waterline underbody
+  stripe: number;     // Racing / waterline accent stripe
+  deck: number;       // Deck planking
+  aftFloor: number;   // Cockpit / stern floor
+  cabin: number;      // Wheelhouse / cabin exterior
+  roof: number;       // Cabin hardtop / canopy roof
+  window: number;     // Marine glass windows
+  console: number;    // Dashboard console & instruments
+  wheel: number;      // Steering wheel
+  seat: number;       // Seats / upholstery
+  seatBase: number;   // Seat pedestal / supports
+  engine: number;     // Outboard engine, propeller, rudder
+  innerTrim: number;  // Gunwale rub rails & interior trim
+}
+
+export const BOAT_THEMES: Record<"cruiser" | "fisherman" | "lagoon" | "moored", BoatThemeConfig> = {
+  cruiser: {
+    hull: 0xf8fafc,       // Luxury Yacht White
+    keel: 0x0f172a,       // Deep Oceanic Navy Keel
+    stripe: 0xf59e0b,     // Royal Gold Waterline Ribbon
+    deck: 0xb45309,       // Golden Teak Wood Planks
+    aftFloor: 0x92400e,   // Rich Teak Cockpit
+    cabin: 0xf1f5f9,      // Pearl White Wheelhouse
+    roof: 0x1e3a8a,       // Royal Navy Hardtop
+    window: 0x38bdf8,     // Glossy Tinted Caribbean Glass
+    console: 0x334155,    // Slate Grey Marine Dashboard
+    wheel: 0x78350f,      // Teak Ship Wheel
+    seat: 0x9a3412,       // Cognac Marine Leather
+    seatBase: 0x64748b,   // Stainless Steel
+    engine: 0xd97706,     // Polished Marine Bronze
+    innerTrim: 0xcbd5e1,  // Chrome Gunwale Rails
+  },
+  fisherman: {
+    hull: 0x0891b2,       // Indonesian Maritime Turquoise Cyan
+    keel: 0x1e1b4b,       // Midnight Blue Keel
+    stripe: 0xea580c,     // High-Visibility Sunset Orange Stripe
+    deck: 0xa16207,       // Weathered Cedar Planks
+    aftFloor: 0x78350f,   // Rustic Stained Timber Floor
+    cabin: 0xd97706,      // Sunburst Amber Wood Cabin
+    roof: 0x065f46,       // Deep Tropical Pine Green Roof
+    window: 0x22d3ee,     // Aqua Marine Glass
+    console: 0x451a03,    // Heavy Timber Helm
+    wheel: 0xb45309,      // Classic Wooden Ship Wheel
+    seat: 0x047857,       // Nautical Green Vinyl Bench
+    seatBase: 0x3f3f46,   // Weathered Iron Stand
+    engine: 0x18181b,     // Matte Black Outboard Motor
+    innerTrim: 0xf97316,  // Safety Orange Inner Gunwale
+  },
+  lagoon: {
+    hull: 0xfacc15,       // Tropical Sunshine Yellow
+    keel: 0xffffff,       // Clean White Keel
+    stripe: 0x06b6d4,     // Island Aqua Teal Stripe
+    deck: 0xd4b996,       // Light Bleached Birch Deck
+    aftFloor: 0xc8a27a,   // Sand Beige Deck Planks
+    cabin: 0xffffff,      // Island White Canopy Cabin
+    roof: 0xe11d48,       // Coral Red Canopy
+    window: 0x38bdf8,     // Crystal Clear Cyan Glass
+    console: 0x475569,    // Modern Slate Grey Console
+    wheel: 0xffffff,      // Sport White Steering Wheel
+    seat: 0x0284c7,       // Tropical Sky Blue Cushions
+    seatBase: 0x94a3b8,   // Anodized Aluminum
+    engine: 0xf1f5f9,     // Bright White Coastal Outboard
+    innerTrim: 0x06b6d4,  // Aqua Teal Rubbing Rail
+  },
+  moored: {
+    hull: 0x78350f,       // Handcrafted Indonesian Teak Wood
+    keel: 0x451a03,       // Dark Ironwood Keel Planks
+    stripe: 0xb45309,     // Warm Ochre Wood Accent Stripe
+    deck: 0x92400e,       // Aged Sandalwood Floor
+    aftFloor: 0x78350f,   // Solid Teak Cockpit
+    cabin: 0xa16207,      // Rustic Timber Cabin Framing
+    roof: 0x5c2005,       // Dark Timber Roof
+    window: 0x67e8f9,     // Sky Reflection Window Glass
+    console: 0x451a03,    // Carved Wood Console
+    wheel: 0x78350f,      // Rustic Wooden Helm
+    seat: 0x5c2005,       // Mahogany Rowing Thwarts
+    seatBase: 0x451a03,   // Heavy Timber Ribs
+    engine: 0x292524,     // Cast Iron Rudder Fittings
+    innerTrim: 0x92400e,  // Carved Wood Gunwale
+  },
+};
+
 export interface CruisingBoat {
   group: THREE.Group;
   hullGroup?: THREE.Group;
@@ -42,6 +126,8 @@ export interface CruisingBoat {
   speed: number;
   phase: number;
   foamEmitter?: THREE.Group;
+  flagMeshes?: THREE.Mesh[];
+  wakeRings?: Array<{ mesh: THREE.Mesh; timer: number; maxLife: number }>;
 }
 
 export interface FlyingSeagull {
@@ -106,9 +192,8 @@ export class WorldLivingAtmosphere {
   private pendingBoatClones: Array<{
     group: THREE.Group;
     scale: number;
-    hullColor?: number;
-    cabinColor?: number;
-    rotYOffset?: number;
+    theme: BoatThemeConfig;
+    rotYOffset: number;
   }> = [];
   private pendingRodClones: Array<{
     group: THREE.Group;
@@ -148,7 +233,7 @@ export class WorldLivingAtmosphere {
         this.boatPrototype = fbx;
         // Process any queued boat attachments
         this.pendingBoatClones.forEach((req) => {
-          this.attachBoatMesh(req.group, req.scale, req.hullColor, req.cabinColor, req.rotYOffset);
+          this.attachBoatMesh(req.group, req.scale, req.theme, req.rotYOffset);
         });
         this.pendingBoatClones = [];
       },
@@ -175,11 +260,78 @@ export class WorldLivingAtmosphere {
     );
   }
 
+  private applyBoatTheme(mesh: THREE.Mesh, theme: BoatThemeConfig) {
+    const geom = mesh.geometry.clone();
+    const uvs = geom.attributes.uv?.array;
+    if (!uvs) return;
+
+    const numVerts = uvs.length / 2;
+    const colors = new Float32Array(numVerts * 3);
+
+    const cMap = {
+      hull: new THREE.Color(theme.hull),
+      keel: new THREE.Color(theme.keel),
+      stripe: new THREE.Color(theme.stripe),
+      deck: new THREE.Color(theme.deck),
+      aftFloor: new THREE.Color(theme.aftFloor),
+      cabin: new THREE.Color(theme.cabin),
+      roof: new THREE.Color(theme.roof),
+      window: new THREE.Color(theme.window),
+      console: new THREE.Color(theme.console),
+      wheel: new THREE.Color(theme.wheel),
+      seat: new THREE.Color(theme.seat),
+      seatBase: new THREE.Color(theme.seatBase),
+      engine: new THREE.Color(theme.engine),
+      innerTrim: new THREE.Color(theme.innerTrim),
+    };
+
+    for (let i = 0; i < numVerts; i++) {
+      const u = uvs[i * 2];
+      const v = uvs[i * 2 + 1];
+      let part: keyof BoatThemeConfig = "hull";
+
+      if (Math.abs(u - 0.0997) < 0.02) part = "hull";
+      else if (Math.abs(u - 0.053) < 0.02) part = "deck";
+      else if (Math.abs(u - 0.3343) < 0.02) part = "cabin";
+      else if (Math.abs(u - 0.7874) < 0.02 && v > 0.04) part = "roof";
+      else if (Math.abs(u - 0.7952) < 0.02) part = "seat";
+      else if (Math.abs(u - 0.8889) < 0.02) part = "seatBase";
+      else if (Math.abs(u - 0.3108) < 0.02) part = "stripe";
+      else if (Math.abs(u - 0.4358) < 0.02 && v < 0.02) part = "keel";
+      else if (Math.abs(u - 0.4202) < 0.02) part = "engine";
+      else if (Math.abs(u - 0.4496) < 0.02 && Math.abs(v - 0.0276) < 0.015) part = "aftFloor";
+      else if (Math.abs(u - 0.5461) < 0.02) part = "innerTrim";
+      else if (Math.abs(u - 0.0296) < 0.02) part = "wheel";
+      else if (Math.abs(u - 0.2718) < 0.02) part = "console";
+      else if (Math.abs(u - 0.2874) < 0.02) part = "cabin";
+      else if (u > 0.89 && v > 0.04) part = "window";
+      else if (
+        Math.abs(u - 0.4124) < 0.02 ||
+        Math.abs(u - 0.4358) < 0.02 ||
+        Math.abs(u - 0.4514) < 0.02 ||
+        Math.abs(u - 0.3499) < 0.02
+      )
+        part = "console";
+
+      const col = cMap[part];
+      colors[i * 3] = col.r;
+      colors[i * 3 + 1] = col.g;
+      colors[i * 3 + 2] = col.b;
+    }
+
+    geom.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+    mesh.geometry = geom;
+    mesh.material = new THREE.MeshStandardMaterial({
+      vertexColors: true,
+      roughness: 0.42,
+      metalness: 0.15,
+    });
+  }
+
   private attachBoatMesh(
     targetGroup: THREE.Group,
     scale: number = 0.013,
-    hullColor?: number,
-    cabinColor?: number,
+    theme: BoatThemeConfig = BOAT_THEMES.cruiser,
     rotYOffset: number = -Math.PI / 2
   ) {
     if (!this.boatPrototype) return;
@@ -194,13 +346,7 @@ export class WorldLivingAtmosphere {
         const mesh = child as THREE.Mesh;
         mesh.castShadow = true;
         mesh.receiveShadow = true;
-        if (hullColor) {
-          mesh.material = new THREE.MeshStandardMaterial({
-            color: hullColor,
-            roughness: 0.55,
-            metalness: 0.15,
-          });
-        }
+        this.applyBoatTheme(mesh, theme);
       }
     });
 
@@ -210,18 +356,16 @@ export class WorldLivingAtmosphere {
   private queueOrAttachBoat(
     targetGroup: THREE.Group,
     scale: number = 0.013,
-    hullColor?: number,
-    cabinColor?: number,
+    theme: BoatThemeConfig = BOAT_THEMES.cruiser,
     rotYOffset: number = -Math.PI / 2
   ) {
     if (this.boatPrototype) {
-      this.attachBoatMesh(targetGroup, scale, hullColor, cabinColor, rotYOffset);
+      this.attachBoatMesh(targetGroup, scale, theme, rotYOffset);
     } else {
       this.pendingBoatClones.push({
         group: targetGroup,
         scale,
-        hullColor,
-        cabinColor,
+        theme,
         rotYOffset,
       });
     }
@@ -827,10 +971,10 @@ export class WorldLivingAtmosphere {
   }
 
   // ===========================================================================
-  // 3. BOATS (ADA PERAHU JUGA DI LAUT - RUTE BEBAS TABRAKAN PULAU)
+  // 3. BOATS (DESAIN KAPAL & PERAHU MEWAH, VIBRAN, DAN TIDAK POLOS)
   // ===========================================================================
   private spawnBoats() {
-    // A. Perahu Utama Samudra "Dewi Samudra" (The Grand Oceanic Cruiser - NO SAILS, NON-BLUE)
+    // A. Perahu Utama Samudra "Dewi Samudra" (The Grand Oceanic Flagship Cruiser)
     // Berlayar di Samudra Luas mengelilingi kepulauan (clearance aman 35m+ dari daratan & jembatan)
     this.createSailboat({
       waypoints: [
@@ -845,10 +989,10 @@ export class WorldLivingAtmosphere {
       ],
       speed: 6.8,
       phase: 0,
-      hullColor: 0x92400e, // Rich warm mahogany wood (NON-BLUE)
+      theme: BOAT_THEMES.cruiser,
     });
 
-    // B. Perahu Motor Nelayan (Fishing Motorboat - NON-BLUE)
+    // B. Perahu Motor Nelayan "Nelayan Nusantara" (Fishing Boat)
     // Berpatroli di Teluk Utara di depan Dermaga Pancing Pak Mamat (100% air dalam, bebas pulau)
     this.createMotorboat({
       waypoints: [
@@ -861,10 +1005,11 @@ export class WorldLivingAtmosphere {
       ],
       speed: 6.2,
       phase: 0,
-      hullColor: 0xc2410c, // Safety terracotta amber nautical hull (NON-BLUE)
+      theme: BOAT_THEMES.fisherman,
+      role: "fisherman",
     });
 
-    // C. Perahu Turis Laguna (South Bay Lagoon Cruiser - NON-BLUE)
+    // C. Perahu Turis Laguna "Laguna Safari" (South Bay Safari Cruiser)
     // Berpatroli di Laguna Selatan antara Central Plaza, Voxel Bay & Stadion (100% air dalam)
     this.createMotorboat({
       waypoints: [
@@ -877,11 +1022,346 @@ export class WorldLivingAtmosphere {
       ],
       speed: 5.6,
       phase: Math.PI,
-      hullColor: 0x059669, // Emerald sea green hull (NON-BLUE)
+      theme: BOAT_THEMES.lagoon,
+      role: "lagoon",
     });
 
-    // D. Perahu Dayung Bersandar di Dermaga (Moored Rowboat - NON-BLUE)
-    this.createMooredRowboat(new THREE.Vector3(2.6, 0.15, -28.0));
+    // D. Perahu Dayung Bersandar di Dermaga "Sampan Dermaga" (Authentic Moored Teak Sampan)
+    this.createMooredRowboat(new THREE.Vector3(2.6, 0.15, -28.0), BOAT_THEMES.moored);
+  }
+
+  private createCruiserAccessories(hullGroup: THREE.Group): THREE.Mesh[] {
+    const flagMeshes: THREE.Mesh[] = [];
+
+    // A. Indonesian / Maritime Flagstaff at Stern
+    const staffMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0, roughness: 0.3, metalness: 0.6 });
+    const staff = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.045, 2.4, 8), staffMat);
+    staff.position.set(0, 1.8, -3.7);
+    staff.rotation.x = -0.15;
+    hullGroup.add(staff);
+
+    // Gold Finial Ball
+    const finial = new THREE.Mesh(new THREE.SphereGeometry(0.08, 10, 10), this.goldMat);
+    finial.position.set(0, 1.2, 0);
+    staff.add(finial);
+
+    // Indonesian Merah Putih Maritime Flag
+    const flagGroup = new THREE.Group();
+    flagGroup.position.set(0, 0.85, 0);
+
+    const redStripe = new THREE.Mesh(
+      new THREE.PlaneGeometry(0.75, 0.22),
+      new THREE.MeshStandardMaterial({ color: 0xdc2626, side: THREE.DoubleSide })
+    );
+    redStripe.position.set(0.38, 0.11, 0);
+    redStripe.rotation.y = Math.PI / 2;
+
+    const whiteStripe = new THREE.Mesh(
+      new THREE.PlaneGeometry(0.75, 0.22),
+      new THREE.MeshStandardMaterial({ color: 0xffffff, side: THREE.DoubleSide })
+    );
+    whiteStripe.position.set(0.38, -0.11, 0);
+    whiteStripe.rotation.y = Math.PI / 2;
+
+    flagGroup.add(redStripe, whiteStripe);
+    staff.add(flagGroup);
+    flagMeshes.push(redStripe, whiteStripe);
+
+    // B. Navigation Lights (Port Red, Starboard Green, Masthead Warm Beacon)
+    const portLight = new THREE.Mesh(
+      new THREE.BoxGeometry(0.12, 0.15, 0.14),
+      new THREE.MeshStandardMaterial({ color: 0xef4444, emissive: 0xef4444, emissiveIntensity: 0.85 })
+    );
+    portLight.position.set(-1.62, 1.35, 1.1);
+    hullGroup.add(portLight);
+
+    const stbdLight = new THREE.Mesh(
+      new THREE.BoxGeometry(0.12, 0.15, 0.14),
+      new THREE.MeshStandardMaterial({ color: 0x10b981, emissive: 0x10b981, emissiveIntensity: 0.85 })
+    );
+    stbdLight.position.set(1.62, 1.35, 1.1);
+    hullGroup.add(stbdLight);
+
+    const mastBeacon = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.08, 0.08, 0.16, 8),
+      new THREE.MeshStandardMaterial({ color: 0xfef08a, emissive: 0xfacc15, emissiveIntensity: 0.9 })
+    );
+    mastBeacon.position.set(0, 2.7, 0.45);
+    hullGroup.add(mastBeacon);
+
+    // C. Realistic Orange & White Lifebuoys on Cabin Port & Starboard
+    for (const bx of [-1.22, 1.22]) {
+      const buoyGroup = new THREE.Group();
+      buoyGroup.position.set(bx, 1.45, 0.8);
+      buoyGroup.rotation.y = Math.PI / 2;
+
+      const mainTorus = new THREE.Mesh(
+        new THREE.TorusGeometry(0.28, 0.075, 10, 20),
+        new THREE.MeshStandardMaterial({ color: 0xf97316, roughness: 0.4 })
+      );
+      buoyGroup.add(mainTorus);
+
+      for (let a = 0; a < 4; a++) {
+        const strap = new THREE.Mesh(
+          new THREE.BoxGeometry(0.11, 0.16, 0.04),
+          new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.3 })
+        );
+        strap.rotation.z = (a * Math.PI) / 2;
+        strap.position.set(Math.cos(strap.rotation.z) * 0.28, Math.sin(strap.rotation.z) * 0.28, 0);
+        buoyGroup.add(strap);
+      }
+      hullGroup.add(buoyGroup);
+    }
+
+    // D. Captain at Helm (Inside wheelhouse)
+    const captain = new THREE.Group();
+    captain.position.set(0, 0.55, 0.6);
+
+    const capBody = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.24, 0.28, 0.7, 10),
+      new THREE.MeshStandardMaterial({ color: 0x1e3a8a })
+    );
+    capBody.position.y = 0.35;
+    captain.add(capBody);
+
+    for (const by of [0.25, 0.4, 0.55]) {
+      const btn = new THREE.Mesh(new THREE.SphereGeometry(0.03, 6, 6), this.goldMat);
+      btn.position.set(0, by, 0.25);
+      captain.add(btn);
+    }
+
+    const capHead = new THREE.Mesh(new THREE.SphereGeometry(0.25, 12, 12), this.skinMat);
+    capHead.position.y = 0.85;
+    captain.add(capHead);
+
+    const capHat = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.3, 0.28, 0.14, 12),
+      new THREE.MeshStandardMaterial({ color: 0xffffff })
+    );
+    capHat.position.y = 1.0;
+    captain.add(capHat);
+
+    const capVisor = new THREE.Mesh(
+      new THREE.BoxGeometry(0.32, 0.04, 0.2),
+      new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.2 })
+    );
+    capVisor.position.set(0, 0.94, 0.2);
+    captain.add(capVisor);
+
+    hullGroup.add(captain);
+
+    return flagMeshes;
+  }
+
+  private createFishermanAccessories(hullGroup: THREE.Group): THREE.Mesh[] {
+    const flagMeshes: THREE.Mesh[] = [];
+
+    // A. Dual Fishing Rods at the Stern Quarters
+    for (const side of [-1, 1]) {
+      const rodHolder = new THREE.Group();
+      rodHolder.position.set(side * 1.35, 1.25, -3.2);
+      rodHolder.rotation.set(-0.55, side * 0.35, 0);
+
+      const socket = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.045, 0.045, 0.3, 8),
+        new THREE.MeshStandardMaterial({ color: 0x334155, metalness: 0.8 })
+      );
+      rodHolder.add(socket);
+
+      const rodShaft = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.015, 0.03, 2.6, 6),
+        new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.4 })
+      );
+      rodShaft.position.y = 1.2;
+      rodHolder.add(rodShaft);
+
+      const reel = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.06, 0.06, 0.08, 8),
+        new THREE.MeshStandardMaterial({ color: 0xd97706, metalness: 0.7 })
+      );
+      reel.position.set(0, 0.35, 0.06);
+      reel.rotation.z = Math.PI / 2;
+      rodHolder.add(reel);
+
+      hullGroup.add(rodHolder);
+    }
+
+    // B. Wooden Fish Crates on the Aft Deck
+    const crateMat = new THREE.MeshStandardMaterial({ color: 0xb45309, roughness: 0.85 });
+    const crate = new THREE.Mesh(new THREE.BoxGeometry(0.65, 0.32, 0.5), crateMat);
+    crate.position.set(-0.45, 0.72, -2.2);
+    hullGroup.add(crate);
+
+    const fishMat = new THREE.MeshStandardMaterial({ color: 0x94a3b8, metalness: 0.7, roughness: 0.3 });
+    for (let f = 0; f < 3; f++) {
+      const fish = new THREE.Mesh(new THREE.ConeGeometry(0.06, 0.28, 5), fishMat);
+      fish.position.set(-0.45 + (f - 1) * 0.14, 0.89, -2.2);
+      fish.rotation.set(Math.PI / 2, 0, f * 0.4);
+      hullGroup.add(fish);
+    }
+
+    // Wooden Barrel
+    const barrel = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.24, 0.22, 0.5, 10),
+      new THREE.MeshStandardMaterial({ color: 0x78350f, roughness: 0.8 })
+    );
+    barrel.position.set(0.5, 0.78, -2.2);
+    hullGroup.add(barrel);
+
+    // C. Brass Fisherman Deck Lantern
+    const lanternGroup = new THREE.Group();
+    lanternGroup.position.set(0, 1.85, -0.9);
+    const lanternBody = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.07, 0.09, 0.18, 8),
+      new THREE.MeshStandardMaterial({ color: 0xfef08a, emissive: 0xf59e0b, emissiveIntensity: 0.85 })
+    );
+    lanternGroup.add(lanternBody);
+    hullGroup.add(lanternGroup);
+
+    // D. Rooftop Fisherman Pennant Flag
+    const pennantPole = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.02, 0.02, 0.9, 6),
+      new THREE.MeshStandardMaterial({ color: 0x475569 })
+    );
+    pennantPole.position.set(0, 2.7, 0.5);
+    hullGroup.add(pennantPole);
+
+    const pennant = new THREE.Mesh(
+      new THREE.ConeGeometry(0.18, 0.55, 3),
+      new THREE.MeshStandardMaterial({ color: 0xfacc15, side: THREE.DoubleSide })
+    );
+    pennant.position.set(0.26, 0.3, 0);
+    pennant.rotation.z = -Math.PI / 2;
+    pennantPole.add(pennant);
+    flagMeshes.push(pennant);
+
+    return flagMeshes;
+  }
+
+  private createLagoonAccessories(hullGroup: THREE.Group): THREE.Mesh[] {
+    const flagMeshes: THREE.Mesh[] = [];
+
+    // A. Island Safari Sun Bimini Canopy over Aft Deck
+    const biminiGroup = new THREE.Group();
+    const poleMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0, metalness: 0.8, roughness: 0.2 });
+    for (const px of [-1.15, 1.15]) {
+      for (const pz of [-1.1, -2.7]) {
+        const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, 1.35, 6), poleMat);
+        pole.position.set(px, 1.35, pz);
+        biminiGroup.add(pole);
+      }
+    }
+
+    const canopyRoof = new THREE.Mesh(
+      new THREE.BoxGeometry(2.4, 0.06, 1.8),
+      new THREE.MeshStandardMaterial({ color: 0xe11d48, roughness: 0.6 })
+    );
+    canopyRoof.position.set(0, 2.05, -1.9);
+    biminiGroup.add(canopyRoof);
+
+    const fringe = new THREE.Mesh(
+      new THREE.BoxGeometry(2.44, 0.12, 1.84),
+      new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.6 })
+    );
+    fringe.position.set(0, 2.0, -1.9);
+    biminiGroup.add(fringe);
+
+    hullGroup.add(biminiGroup);
+
+    // B. Rubbing Fenders on side gunwales
+    const fenderMat = new THREE.MeshStandardMaterial({ color: 0x0284c7, roughness: 0.5 });
+    for (const fx of [-1.48, 1.48]) {
+      for (const fz of [-0.5, -2.2]) {
+        const fender = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.08, 0.35, 8), fenderMat);
+        fender.position.set(fx, 1.05, fz);
+        hullGroup.add(fender);
+      }
+    }
+
+    // C. Tropical Expedition Pennant
+    const pennantPole = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.02, 0.02, 0.8, 6),
+      new THREE.MeshStandardMaterial({ color: 0x94a3b8 })
+    );
+    pennantPole.position.set(0, 2.5, 1.8);
+    hullGroup.add(pennantPole);
+
+    const pennant = new THREE.Mesh(
+      new THREE.ConeGeometry(0.16, 0.5, 3),
+      new THREE.MeshStandardMaterial({ color: 0x06b6d4, side: THREE.DoubleSide })
+    );
+    pennant.position.set(0.24, 0.25, 0);
+    pennant.rotation.z = -Math.PI / 2;
+    pennantPole.add(pennant);
+    flagMeshes.push(pennant);
+
+    return flagMeshes;
+  }
+
+  private createMooredSampanAccessories(boatGroup: THREE.Group, hullGroup: THREE.Group, pos: THREE.Vector3) {
+    // A. Sepasang Dayung Kayu (Pair of Handcrafted Wooden Oars)
+    const oarMat = new THREE.MeshStandardMaterial({ color: 0xb45309, roughness: 0.75 });
+    const bladeMat = new THREE.MeshStandardMaterial({ color: 0x92400e, roughness: 0.7 });
+
+    for (const [side, angleZ] of [[-1, 0.25], [1, -0.22]] as const) {
+      const oar = new THREE.Group();
+      oar.position.set(side * 0.25, 0.72, -0.2);
+      oar.rotation.set(0.12, side * 0.4, angleZ);
+
+      const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.022, 0.025, 1.9, 8), oarMat);
+      const blade = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.018, 0.45), bladeMat);
+      blade.position.y = -0.92;
+      oar.add(shaft, blade);
+      hullGroup.add(oar);
+    }
+
+    // B. Wicker Fish Basket
+    const basket = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.18, 0.14, 0.28, 8),
+      new THREE.MeshStandardMaterial({ color: 0xd97706, roughness: 0.9 })
+    );
+    basket.position.set(0.4, 0.65, 0.8);
+    hullGroup.add(basket);
+
+    // C. 3D Braided Mooring Rope (Tali Tambat Dermaga)
+    const bowBitWorld = new THREE.Vector3(pos.x + 0.1, 0.42, pos.z + 1.8);
+    const dockPostWorld = new THREE.Vector3(pos.x - 0.4, 0.75, -27.2);
+    const midSag = new THREE.Vector3(
+      (bowBitWorld.x + dockPostWorld.x) * 0.5,
+      Math.min(bowBitWorld.y, dockPostWorld.y) - 0.15,
+      (bowBitWorld.z + dockPostWorld.z) * 0.5
+    );
+
+    const ropeCurve = new THREE.CatmullRomCurve3([bowBitWorld, midSag, dockPostWorld]);
+    const ropeGeo = new THREE.TubeGeometry(ropeCurve, 12, 0.03, 6, false);
+    const ropeMat = new THREE.MeshStandardMaterial({ color: 0xd4b996, roughness: 0.95 });
+    const ropeMesh = new THREE.Mesh(ropeGeo, ropeMat);
+    this.scene.add(ropeMesh);
+  }
+
+  private createBoatWake(boat: CruisingBoat) {
+    const wakeRings: Array<{ mesh: THREE.Mesh; timer: number; maxLife: number }> = [];
+    const ringGeo = new THREE.RingGeometry(0.35, 0.75, 14);
+    ringGeo.rotateX(-Math.PI / 2);
+
+    for (let i = 0; i < 5; i++) {
+      const ringMat = new THREE.MeshBasicMaterial({
+        color: 0xffffff,
+        transparent: true,
+        opacity: 0,
+        side: THREE.DoubleSide,
+        depthWrite: false,
+      });
+      const mesh = new THREE.Mesh(ringGeo, ringMat);
+      mesh.position.set(0, -999, 0);
+      this.scene.add(mesh);
+      wakeRings.push({
+        mesh,
+        timer: (i / 5) * 1.5,
+        maxLife: 1.5,
+      });
+    }
+    boat.wakeRings = wakeRings;
   }
 
   private createSailboat(cfg: {
@@ -892,7 +1372,7 @@ export class WorldLivingAtmosphere {
     radiusZ?: number;
     speed: number;
     phase: number;
-    hullColor?: number;
+    theme?: BoatThemeConfig;
   }) {
     const boat = new THREE.Group();
     const hullGroup = new THREE.Group();
@@ -912,42 +1392,15 @@ export class WorldLivingAtmosphere {
       boat.position.copy(cfg.waypoints[0]);
     }
 
-    // 1. Authentic 3D Boat model from folder assets/3d/boat (Rich Mahogany / Non-blue)
-    this.queueOrAttachBoat(hullGroup, 0.016, cfg.hullColor ?? 0x92400e);
+    // Attach Authentic 3D Boat Model with Luxury Yacht Theme
+    this.queueOrAttachBoat(hullGroup, 0.016, cfg.theme ?? BOAT_THEMES.cruiser);
 
-    // 2. Captain at the Helm (Steering the oceanic cruiser)
-    const captain = new THREE.Group();
-    captain.position.set(0, 0.55, 2.2);
-
-    const capBody = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.3, 0.7, 10), new THREE.MeshStandardMaterial({ color: 0x475569 }));
-    capBody.position.y = 0.35;
-    captain.add(capBody);
-
-    const capHead = new THREE.Mesh(new THREE.SphereGeometry(0.28, 14, 14), this.skinMat);
-    capHead.position.y = 0.9;
-    captain.add(capHead);
-
-    const capHat = new THREE.Mesh(
-      new THREE.CylinderGeometry(0.34, 0.32, 0.16, 12),
-      new THREE.MeshStandardMaterial({ color: 0x1e293b })
-    );
-    capHat.position.y = 1.08;
-    captain.add(capHat);
-
-    hullGroup.add(captain);
-
-    // 3. Orange Lifebuoy rings on the hull
-    const buoyMat = new THREE.MeshStandardMaterial({ color: 0xf97316, roughness: 0.4 });
-    for (const bx of [-1.25, 1.25]) {
-      const buoy = new THREE.Mesh(new THREE.TorusGeometry(0.28, 0.08, 8, 16), buoyMat);
-      buoy.position.set(bx, 0.5, 0.8);
-      buoy.rotation.y = Math.PI / 2;
-      hullGroup.add(buoy);
-    }
+    // Add Cruiser Accessories (Flag, Lanterns, Captain, Lifebuoys)
+    const flagMeshes = this.createCruiserAccessories(hullGroup);
 
     this.scene.add(boat);
 
-    this.boats.push({
+    const boatRecord: CruisingBoat = {
       group: boat,
       hullGroup,
       type: "sailboat",
@@ -964,7 +1417,11 @@ export class WorldLivingAtmosphere {
       centerZ: cfg.centerZ ?? 0,
       speed: cfg.speed,
       phase: cfg.phase,
-    });
+      flagMeshes,
+    };
+
+    this.createBoatWake(boatRecord);
+    this.boats.push(boatRecord);
   }
 
   private createMotorboat(cfg: {
@@ -975,7 +1432,8 @@ export class WorldLivingAtmosphere {
     radiusZ?: number;
     speed: number;
     phase: number;
-    hullColor?: number;
+    theme?: BoatThemeConfig;
+    role?: "fisherman" | "lagoon";
   }) {
     const boat = new THREE.Group();
     const hullGroup = new THREE.Group();
@@ -995,12 +1453,20 @@ export class WorldLivingAtmosphere {
       boat.position.copy(cfg.waypoints[0]);
     }
 
-    // Authentic 3D Boat model from folder assets/3d/boat (NON-BLUE)
-    this.queueOrAttachBoat(hullGroup, 0.0135, cfg.hullColor ?? 0xc2410c);
+    // Attach Model with Multi-Color Themed Palette
+    this.queueOrAttachBoat(hullGroup, 0.0135, cfg.theme ?? BOAT_THEMES.fisherman);
+
+    // Decorate with distinct role-specific accessories
+    let flagMeshes: THREE.Mesh[] = [];
+    if (cfg.role === "fisherman") {
+      flagMeshes = this.createFishermanAccessories(hullGroup);
+    } else if (cfg.role === "lagoon") {
+      flagMeshes = this.createLagoonAccessories(hullGroup);
+    }
 
     this.scene.add(boat);
 
-    this.boats.push({
+    const boatRecord: CruisingBoat = {
       group: boat,
       hullGroup,
       type: "motorboat",
@@ -1017,18 +1483,25 @@ export class WorldLivingAtmosphere {
       centerZ: cfg.centerZ ?? 0,
       speed: cfg.speed,
       phase: cfg.phase,
-    });
+      flagMeshes,
+    };
+
+    this.createBoatWake(boatRecord);
+    this.boats.push(boatRecord);
   }
 
-  private createMooredRowboat(pos: THREE.Vector3) {
+  private createMooredRowboat(pos: THREE.Vector3, theme: BoatThemeConfig = BOAT_THEMES.moored) {
     const boat = new THREE.Group();
     const hullGroup = new THREE.Group();
     boat.add(hullGroup);
     boat.position.copy(pos);
     boat.rotation.y = 0.2;
 
-    // Authentic 3D Boat model from folder assets/3d/boat, resting anchored at the pier (Rustic Teak Wood)
-    this.queueOrAttachBoat(hullGroup, 0.0115, 0x78350f, undefined, -Math.PI / 2 + 0.15);
+    // Authentic 3D Boat Model with Handcrafted Teak Wood Theme
+    this.queueOrAttachBoat(hullGroup, 0.0115, theme, -Math.PI / 2 + 0.15);
+
+    // Add Pier Mooring Accessories (Braided Rope to Dock, Oars, Fish Basket)
+    this.createMooredSampanAccessories(boat, hullGroup, pos);
 
     this.scene.add(boat);
 
@@ -1367,11 +1840,8 @@ export class WorldLivingAtmosphere {
           boat.group.rotation.z = waveRoll;
           boat.group.rotation.x = wavePitch;
         }
-        return;
-      }
-
-      // 2. Fallback Waypoint Navigation if spline not available
-      if (boat.waypoints && boat.waypoints.length > 0) {
+      } else if (boat.waypoints && boat.waypoints.length > 0) {
+        // 2. Fallback Waypoint Navigation if spline not available
         const wpIdx = boat.currentWaypointIdx ?? 0;
         const target = boat.waypoints[wpIdx];
         const curPos = boat.group.position;
@@ -1399,23 +1869,51 @@ export class WorldLivingAtmosphere {
           boat.hullGroup.rotation.z = Math.sin(time * 2.0 + boat.phase) * 0.035;
           boat.hullGroup.rotation.x = Math.cos(time * 1.6 + boat.phase) * 0.025;
         }
-        return;
+      } else {
+        // 3. Fallback Elliptical trajectory
+        const t = time * boat.speed + boat.phase;
+        const x = boat.centerX + Math.cos(t) * boat.radiusX;
+        const z = boat.centerZ + Math.sin(t) * boat.radiusZ;
+
+        const dx = -Math.sin(t) * boat.radiusX;
+        const dz = Math.cos(t) * boat.radiusZ;
+        const heading = Math.atan2(dx, dz);
+
+        boat.group.position.set(x, 0.18 + Math.sin(time * 2.5 + boat.phase) * 0.10, z);
+        boat.group.rotation.y = heading;
+        if (boat.hullGroup) {
+          boat.hullGroup.rotation.z = Math.sin(time * 2.2) * 0.04;
+          boat.hullGroup.rotation.x = Math.cos(time * 1.8) * 0.02;
+        }
       }
 
-      // 3. Fallback Elliptical trajectory
-      const t = time * boat.speed + boat.phase;
-      const x = boat.centerX + Math.cos(t) * boat.radiusX;
-      const z = boat.centerZ + Math.sin(t) * boat.radiusZ;
+      // Update dynamic water foam wake trailing the moving boat
+      if (boat.wakeRings && boat.speed > 0) {
+        const yaw = boat.group.rotation.y;
+        const sternDist = 2.4;
+        const sternX = boat.group.position.x - Math.sin(yaw) * sternDist;
+        const sternZ = boat.group.position.z - Math.cos(yaw) * sternDist;
 
-      const dx = -Math.sin(t) * boat.radiusX;
-      const dz = Math.cos(t) * boat.radiusZ;
-      const heading = Math.atan2(dx, dz);
+        boat.wakeRings.forEach((ring) => {
+          ring.timer += delta;
+          if (ring.timer >= ring.maxLife) {
+            ring.timer = 0;
+            const waveY = getWindWakerWaveElevation(sternX, sternZ, time);
+            ring.mesh.position.set(sternX, 0.08 + waveY * 0.7, sternZ);
+            ring.mesh.rotation.y = yaw;
+          }
+          const progress = ring.timer / ring.maxLife;
+          const scale = 0.8 + progress * 3.2;
+          ring.mesh.scale.set(scale * 0.85, 1, scale * 1.4);
+          (ring.mesh.material as THREE.MeshBasicMaterial).opacity = Math.sin(progress * Math.PI) * 0.55;
+        });
+      }
 
-      boat.group.position.set(x, 0.18 + Math.sin(time * 2.5 + boat.phase) * 0.10, z);
-      boat.group.rotation.y = heading;
-      if (boat.hullGroup) {
-        boat.hullGroup.rotation.z = Math.sin(time * 2.2) * 0.04;
-        boat.hullGroup.rotation.x = Math.cos(time * 1.8) * 0.02;
+      // Fluttering maritime flags
+      if (boat.flagMeshes) {
+        boat.flagMeshes.forEach((flag, idx) => {
+          flag.rotation.y = Math.sin(time * 5.5 + idx + boat.phase) * 0.16;
+        });
       }
     });
   }
@@ -1564,6 +2062,13 @@ export class WorldLivingAtmosphere {
   }
 
   public destroy() {
+    this.boats.forEach((boat) => {
+      boat.wakeRings?.forEach((ring) => {
+        this.scene.remove(ring.mesh);
+        ring.mesh.geometry.dispose();
+        (ring.mesh.material as THREE.Material).dispose();
+      });
+    });
     this.pedestrians = [];
     this.boats = [];
     this.seagulls = [];

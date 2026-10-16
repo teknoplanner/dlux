@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { WorldAudio } from "./WorldAudio";
 import { WeatherType } from "./WorldWeatherManager";
 import { WorldLang, WORLD_STRINGS } from "./worldI18n";
+import { GameIconAudio, GameIconWeather } from "./WorldGameIcons";
 
 interface WorldMainMenuProps {
   onStartGame: (fullscreen: boolean) => void;
@@ -547,7 +548,7 @@ export const WorldMainMenu: React.FC<WorldMainMenuProps> = ({
                 <div className="p-3.5 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] flex items-center justify-between gap-3 shadow-sm">
                   <div>
                     <h5 className="font-black text-[#3e2723] text-sm flex items-center gap-1.5">
-                      <span>🎵</span>
+                      <GameIconAudio enabled={isMusicEnabled && !isMuted} className="w-4 h-4 text-[#854d0e] shrink-0" />
                       <span>{lang === "id" ? "Musik Latar (BGM)" : "Background Music (BGM)"}</span>
                     </h5>
                     <p className="text-[#854d0e] text-[11px] font-bold">
@@ -576,7 +577,7 @@ export const WorldMainMenu: React.FC<WorldMainMenuProps> = ({
                   <div className="flex items-center justify-between">
                     <div>
                       <h5 className="font-black text-[#3e2723] text-sm flex items-center gap-1.5">
-                        <span>🌤️</span>
+                        <GameIconWeather type="header" className="w-4 h-4 shrink-0" />
                         <span>{lang === "id" ? "Suasana Cuaca & Waktu" : "Weather & Time of Day"}</span>
                       </h5>
                       <p className="text-[#854d0e] text-[11px] font-bold">
@@ -596,10 +597,10 @@ export const WorldMainMenu: React.FC<WorldMainMenuProps> = ({
                   <div className="grid grid-cols-4 gap-1.5 pt-1">
                     {(
                       [
-                        { id: "day", icon: "☀️", label: lang === "id" ? "Siang" : "Day" },
-                        { id: "night", icon: "🌙", label: lang === "id" ? "Malam" : "Night" },
-                        { id: "rain", icon: "🌧️", label: lang === "id" ? "Hujan" : "Rain" },
-                        { id: "snow", icon: "❄️", label: lang === "id" ? "Salju" : "Snow" },
+                        { id: "day", label: lang === "id" ? "Siang" : "Day" },
+                        { id: "night", label: lang === "id" ? "Malam" : "Night" },
+                        { id: "rain", label: lang === "id" ? "Hujan" : "Rain" },
+                        { id: "snow", label: lang === "id" ? "Salju" : "Snow" },
                       ] as const
                     ).map((item) => {
                       const isActive = currentWeather === item.id;
@@ -617,7 +618,7 @@ export const WorldMainMenu: React.FC<WorldMainMenuProps> = ({
                               : "bg-[#fffdf6] text-[#854d0e] hover:bg-[#fef9c3] border-[#ca8a04]/60"
                           }`}
                         >
-                          <span className="text-base leading-tight">{item.icon}</span>
+                          <GameIconWeather type={item.id} className="w-5 h-5 mb-0.5 shrink-0" />
                           <span className="text-[10px] font-black tracking-tight">{item.label}</span>
                         </button>
                       );

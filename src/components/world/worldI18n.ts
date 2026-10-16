@@ -537,6 +537,7 @@ export const BILINGUAL_QUESTS: Record<
 // Bilingual Residents Directory
 export const BILINGUAL_RESIDENTS = [
   {
+    id: "milo",
     name: { id: "Milo si Kucing", en: "Milo the Cat" },
     role: { id: "Maskot & Penjelajah Kepulauan", en: "Expedition Mascot & Explorer" },
     location: { id: "Keliling Kepulauan", en: "Archipelago Wanderer" },
@@ -547,6 +548,18 @@ export const BILINGUAL_RESIDENTS = [
     },
   },
   {
+    id: "lexa",
+    name: { id: "Lexa sang Penjelajah", en: "Lexa the Explorer" },
+    role: { id: "Navigator Kepulauan", en: "Archipelago Navigator" },
+    location: { id: "Plaza Utama", en: "Central Plaza" },
+    avatar: "🧭",
+    desc: {
+      id: "Petualang ramah yang memandu para pendatang baru melintasi jembatan dan dermaga kepulauan.",
+      en: "A cheerful voyager guiding newcomers through scenic suspension bridges and archipelagos.",
+    },
+  },
+  {
+    id: "ujang",
     name: { id: "Mang Ujang", en: "Mang Ujang" },
     role: { id: "Pedagang Buah Segar", en: "Fruit Merchant" },
     location: { id: "Pasar Plaza Utama", en: "Central Plaza Market" },
@@ -557,6 +570,7 @@ export const BILINGUAL_RESIDENTS = [
     },
   },
   {
+    id: "luna",
     name: { id: "Alkemis Luna", en: "Alchemist Luna" },
     role: { id: "Pakar Ramuan Bintang", en: "Potion Master" },
     location: { id: "Bazar Plaza", en: "Plaza Bazaar" },
@@ -567,6 +581,7 @@ export const BILINGUAL_RESIDENTS = [
     },
   },
   {
+    id: "mamat",
     name: { id: "Pak Mamat", en: "Pak Mamat" },
     role: { id: "Pemancing Handal", en: "Master Angler" },
     location: { id: "Dermaga Plaza Utama", en: "Central Fishing Pier" },
@@ -577,6 +592,7 @@ export const BILINGUAL_RESIDENTS = [
     },
   },
   {
+    id: "valen",
     name: { id: "Kesatria Valen", en: "Valen the Knight" },
     role: { id: "Grandmaster Penjaga Kuil", en: "Grandmaster Guardian" },
     location: { id: "Kuil Keramat MOBA", en: "MOBA Sanctuary" },
@@ -587,6 +603,7 @@ export const BILINGUAL_RESIDENTS = [
     },
   },
   {
+    id: "leo",
     name: { id: "Leo sang Striker", en: "Leo the Striker" },
     role: { id: "Penyerang Bintang #10", en: "Striker #10" },
     location: { id: "Stadion Pantai", en: "Beach Stadium" },
@@ -597,6 +614,7 @@ export const BILINGUAL_RESIDENTS = [
     },
   },
   {
+    id: "jax",
     name: { id: "Jax Prajurit Taktis", en: "Jax the Spec-Ops" },
     role: { id: "Penembak Jitu Pengawas", en: "Battle Royale Ace" },
     location: { id: "Pos Pengawas BR", en: "Battle Royale Outpost" },
@@ -604,6 +622,17 @@ export const BILINGUAL_RESIDENTS = [
     desc: {
       id: "Mengawasi menara pantau dan peti suplai airdrop militer di tanjung karang.",
       en: "Oversees tactical supplies and airdrop hunter trials at the coastal watchtower.",
+    },
+  },
+  {
+    id: "kai",
+    name: { id: "Kai si Pembangun", en: "Kai the Builder" },
+    role: { id: "Arsitek Teluk Heksagon", en: "Hexagon Bay Mason" },
+    location: { id: "Teluk Kotak Sandbox", en: "Hexagon Sandbox Bay" },
+    avatar: "🧱",
+    desc: {
+      id: "Membangun undakan batu heksagon bertingkat dan jembatan dermaga air lily di teluk laguna.",
+      en: "Master craftsman constructing stepped hexagon terraces and lagoon bridges in Sandbox Bay.",
     },
   },
 ];

@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { WorldEngine } from "./WorldEngine";
+import { GameIconSprint } from "./WorldGameIcons";
 
 interface WorldControlsProps {
   engine: WorldEngine | null;
@@ -258,7 +259,10 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
           className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#f59e0b] active:bg-[#d97706] border-[3px] border-[#b45309] shadow-[0_5px_0_#78350f] active:shadow-none active:translate-y-1 flex flex-col items-center justify-center text-white font-black transition-all touch-none select-none cursor-pointer group shrink-0"
           aria-label="Sprint Nitro (B)"
         >
-          <span className="text-sm sm:text-base font-black leading-none drop-shadow">⚡ B</span>
+          <div className="flex items-center gap-0.5 leading-none drop-shadow">
+            <GameIconSprint className="w-4 h-4 text-white" />
+            <span className="text-sm sm:text-base font-black">B</span>
+          </div>
           <span className="text-[9px] font-extrabold uppercase tracking-wider text-[#78350f] mt-0.5">DASH</span>
         </button>
 

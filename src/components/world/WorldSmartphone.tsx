@@ -4,6 +4,14 @@ import React, { useState } from "react";
 import { IslandPOI } from "./WorldEngine";
 import { apps } from "@/data/apps";
 import { WorldLang, WORLD_STRINGS, BILINGUAL_QUESTS, BILINGUAL_RESIDENTS } from "./worldI18n";
+import {
+  GameIconMap,
+  GameIconQuest,
+  GameIconResidents,
+  GameIconArcade,
+  GameIconResidentBadge,
+  GameIconIsland,
+} from "./WorldGameIcons";
 
 interface WorldSmartphoneProps {
   isOpen: boolean;
@@ -119,49 +127,49 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
         <div className="px-4 py-2.5 bg-[#f5eedb] border-b-2 border-[#ebdcb9] grid grid-cols-4 gap-1.5 shrink-0">
           <button
             onClick={() => setActiveTab("map")}
-            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1 ${
+            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
               activeTab === "map"
                 ? "bg-[#22c55e] text-white border-2 border-[#15803d] shadow-[0_3px_0_#14532d] translate-y-[-1px]"
                 : "bg-[#fffdf6] text-[#5c3e21] border-2 border-[#d6c7a7] hover:bg-[#fefce8] shadow-[0_2px_0_#b5a485] active:translate-y-0.5 active:shadow-none"
             }`}
           >
-            <span>🗺️</span>
+            <GameIconMap className="w-4 h-4 shrink-0" />
             <span>{t.tabMap}</span>
           </button>
 
           <button
             onClick={() => setActiveTab("quests")}
-            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1 ${
+            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
               activeTab === "quests"
                 ? "bg-[#22c55e] text-white border-2 border-[#15803d] shadow-[0_3px_0_#14532d] translate-y-[-1px]"
                 : "bg-[#fffdf6] text-[#5c3e21] border-2 border-[#d6c7a7] hover:bg-[#fefce8] shadow-[0_2px_0_#b5a485] active:translate-y-0.5 active:shadow-none"
             }`}
           >
-            <span>📜</span>
+            <GameIconQuest className="w-4 h-4 shrink-0" />
             <span>{t.tabQuests}</span>
           </button>
 
           <button
             onClick={() => setActiveTab("residents")}
-            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1 ${
+            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
               activeTab === "residents"
                 ? "bg-[#22c55e] text-white border-2 border-[#15803d] shadow-[0_3px_0_#14532d] translate-y-[-1px]"
                 : "bg-[#fffdf6] text-[#5c3e21] border-2 border-[#d6c7a7] hover:bg-[#fefce8] shadow-[0_2px_0_#b5a485] active:translate-y-0.5 active:shadow-none"
             }`}
           >
-            <span>👥</span>
+            <GameIconResidents className="w-4 h-4 shrink-0" />
             <span>{t.tabResidents}</span>
           </button>
 
           <button
             onClick={() => setActiveTab("games")}
-            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1 ${
+            className={`py-2 px-1 rounded-2xl font-black text-xs uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
               activeTab === "games"
                 ? "bg-[#22c55e] text-white border-2 border-[#15803d] shadow-[0_3px_0_#14532d] translate-y-[-1px]"
                 : "bg-[#fffdf6] text-[#5c3e21] border-2 border-[#d6c7a7] hover:bg-[#fefce8] shadow-[0_2px_0_#b5a485] active:translate-y-0.5 active:shadow-none"
             }`}
           >
-            <span>🎮</span>
+            <GameIconArcade className="w-4 h-4 shrink-0" />
             <span>{t.tabGames}</span>
           </button>
         </div>
@@ -389,7 +397,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             <div className="space-y-3">
               <div className="flex items-center justify-between pb-1 border-b border-[#ebdcb9]">
                 <div className="flex items-center gap-2">
-                  <span className="text-base">📜</span>
+                  <GameIconQuest className="w-5 h-5 text-amber-800 shrink-0" />
                   <h4 className="text-xs font-black text-[#5c3e21] uppercase tracking-wide">
                     {t.questsTitle}
                   </h4>
@@ -466,7 +474,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             <div className="space-y-3">
               <div className="flex items-center justify-between pb-1 border-b border-[#ebdcb9]">
                 <div className="flex items-center gap-2">
-                  <span className="text-base">👥</span>
+                  <GameIconResidents className="w-5 h-5 text-amber-800 shrink-0" />
                   <h4 className="text-xs font-black text-[#5c3e21] uppercase tracking-wide">
                     {t.residentsTitle}
                   </h4>
@@ -482,8 +490,8 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
                     key={res.name.en}
                     className="p-3 rounded-2xl bg-[#fefce8] border-2 border-[#ca8a04] flex items-start gap-3 shadow-sm hover:shadow-md transition-shadow"
                   >
-                    <div className="w-11 h-11 rounded-2xl bg-[#fffdf6] border-2 border-[#ca8a04] flex items-center justify-center text-2xl shrink-0 shadow-inner">
-                      {res.avatar}
+                    <div className="w-11 h-11 rounded-2xl bg-[#fffdf6] border-2 border-[#ca8a04] flex items-center justify-center p-1 shrink-0 shadow-inner">
+                      <GameIconResidentBadge role={res.id} className="w-full h-full object-contain" fallbackEmoji={res.avatar} />
                     </div>
                     <div className="space-y-0.5 min-w-0 flex-1">
                       <div className="flex items-center justify-between">
@@ -512,7 +520,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
             <div className="space-y-3">
               <div className="flex items-center justify-between pb-1 border-b border-[#ebdcb9]">
                 <div className="flex items-center gap-2">
-                  <span className="text-base">🎮</span>
+                  <GameIconArcade className="w-5 h-5 text-amber-800 shrink-0" />
                   <h4 className="text-xs font-black text-[#5c3e21] uppercase tracking-wide">
                     {t.gamesTitle}
                   </h4>

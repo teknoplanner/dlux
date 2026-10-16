@@ -1417,11 +1417,11 @@ export class WorldEngine {
     this.createParkBench(center.x - 8, center.z + 5, 4.80, (3 * Math.PI) / 4);
     this.createParkBench(center.x + 8, center.z + 5, 4.80, -(3 * Math.PI) / 4);
 
-    // 6. Victorian Garden Lampposts
-    this.createGardenLampPost(center.x - 11, center.z - 11, 4.80);
-    this.createGardenLampPost(center.x + 11, center.z - 11, 4.80);
-    this.createGardenLampPost(center.x - 11, center.z + 11, 4.80);
-    this.createGardenLampPost(center.x + 11, center.z + 11, 4.80);
+    // 6. Victorian Garden Lampposts - Disimpan di samping jalan (Flanking roadsides with safe clearance)
+    this.createGardenLampPost(center.x - 14.5, center.z - 8.5, 4.80);
+    this.createGardenLampPost(center.x + 14.5, center.z - 8.5, 4.80);
+    this.createGardenLampPost(center.x - 14.5, center.z + 8.5, 4.80);
+    this.createGardenLampPost(center.x + 14.5, center.z + 8.5, 4.80);
 
     // Pier, Beach Umbrellas, and Ramps
     this.createWoodenPier(new THREE.Vector3(0, 0, -28), 0, 10);
@@ -1488,9 +1488,9 @@ export class WorldEngine {
     this.lighthouseBeam.rotation.x = Math.PI / 2;
     this.scene.add(this.lighthouseBeam);
 
-    // Park bench & lampposts
+    // Park bench & lampposts (Di samping jalan)
     this.createParkBench(center.x + 2, center.z - 12, 7.0, -Math.PI / 4);
-    this.createGardenLampPost(center.x, center.z - 6, 7.0);
+    this.createGardenLampPost(center.x + 4.5, center.z - 6, 7.0);
 
     this.createRamp(new THREE.Vector3(center.x - 18, 0, center.z + 8), -Math.PI / 4);
   }
@@ -1510,8 +1510,8 @@ export class WorldEngine {
     // Paved stone road from bridge (-48, 52) to island arrival promenade
     this.createPathSegment(new THREE.Vector3(-48, 0, 52), new THREE.Vector3(center.x + 8, 0, center.z - 8), 4.2, 0x475569, 4.7);
 
-    // Garden Lamp Post near arrival promenade
-    this.createGardenLampPost(center.x + 8, center.z - 6, 4.7);
+    // Garden Lamp Post near arrival promenade (Di samping jalan)
+    this.createGardenLampPost(center.x + 11.5, center.z - 6, 4.7);
   }
 
   private addSoccerStadiumProps(center: THREE.Vector3) {

@@ -4,6 +4,15 @@ import React, { useState, useEffect } from "react";
 import { NPCData, ActiveMinigame } from "./WorldEngine";
 import { WeatherType } from "./WorldWeatherManager";
 import { WorldLang, WORLD_STRINGS, BILINGUAL_NPCS } from "./worldI18n";
+import {
+  GameIconWeather,
+  GameIconAudio,
+  GameIconMap,
+  GameIconIsland,
+  GameIconSprint,
+  GameIconMilo,
+  GameIconResidentBadge,
+} from "./WorldGameIcons";
 
 interface WorldHUDProps {
   location: string;
@@ -123,21 +132,21 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
     }
   };
 
-  const getWeatherMeta = (w: WeatherType) => {
+  const getWeatherLabel = (w: WeatherType) => {
     switch (w) {
       case "day":
-        return { icon: "☀️", label: lang === "id" ? "Siang" : "Day" };
+        return lang === "id" ? "Siang" : "Day";
       case "night":
-        return { icon: "🌙", label: lang === "id" ? "Malam" : "Night" };
+        return lang === "id" ? "Malam" : "Night";
       case "rain":
-        return { icon: "🌧️", label: lang === "id" ? "Hujan" : "Rain" };
+        return lang === "id" ? "Hujan" : "Rain";
       case "snow":
-        return { icon: "❄️", label: lang === "id" ? "Salju" : "Snow" };
+        return lang === "id" ? "Salju" : "Snow";
       default:
-        return { icon: "☀️", label: lang === "id" ? "Siang" : "Day" };
+        return lang === "id" ? "Siang" : "Day";
     }
   };
-  const weatherMeta = getWeatherMeta(currentWeather);
+  const weatherLabel = getWeatherLabel(currentWeather);
 
   return (
     <div className="fixed inset-0 pointer-events-none z-30 select-none">
@@ -168,8 +177,9 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
 
           {/* Center Cinematic Card */}
           <div className="self-center text-center px-6 py-4 bg-black/55 backdrop-blur-md rounded-3xl border border-white/15 shadow-2xl animate-in zoom-in-95 duration-1000 max-w-lg mx-4">
-            <div className="text-xl sm:text-3xl font-black text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] tracking-wide">
-              🏝️ {t.pauseMenu.cinematicTitle}
+            <div className="flex items-center justify-center gap-2 text-xl sm:text-3xl font-black text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)] tracking-wide">
+              <GameIconIsland className="w-7 h-7 sm:w-9 sm:h-9 drop-shadow-md shrink-0" />
+              <span>{t.pauseMenu.cinematicTitle}</span>
             </div>
             <div className="mt-1.5 text-xs sm:text-sm text-cyan-200 font-medium tracking-wider">
               {t.pauseMenu.cinematicSubtitle}
@@ -226,8 +236,8 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
 
             {/* Paper Milo Player Card Pill (Hidden on narrow mobile, visible on tablet/desktop) */}
             <div className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-2xl bg-[#fffdf6] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] backdrop-blur-sm">
-              <div className="w-6 h-6 rounded-full bg-[#fef08a] border-2 border-[#854d0e] flex items-center justify-center text-xs font-black shadow-inner">
-                🐱
+              <div className="w-6 h-6 rounded-full bg-[#fef08a] border-2 border-[#854d0e] flex items-center justify-center p-0.5 shadow-inner">
+                <GameIconMilo className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col text-left">
                 <span className="text-xs font-black text-[#3e2723] leading-tight">Milo</span>
@@ -239,7 +249,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           {/* Speedometer & Nitro (Shows when moving or on tablet/desktop) */}
           {speedKmH > 0 && (
             <div className="flex items-center gap-1.5 px-2.5 py-0.5 sm:py-1 rounded-xl bg-[#fffdf6]/95 border-2 border-[#5c3e21] shadow-[0_2px_0_#3e2723] text-[#3e2723] backdrop-blur-sm animate-in fade-in duration-200">
-              <span className="text-xs">⚡</span>
+              <GameIconSprint className="w-3.5 h-3.5 text-[#f59e0b] shrink-0" />
               <span className="font-mono text-xs sm:text-sm font-black text-[#047857]">
                 {speedKmH} <span className="text-[9px] font-sans text-[#78350f]">KM/H</span>
               </span>
@@ -257,14 +267,14 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
         <div className="flex-1 max-w-[130px] sm:max-w-xs md:max-w-md mx-auto flex flex-col items-center justify-center">
           {showLocationBanner ? (
             <div className="flex items-center gap-1.5 sm:gap-2.5 px-3 sm:px-6 py-1.5 sm:py-2 rounded-2xl bg-[#fffdf6] border-2 sm:border-[3px] border-[#5c3e21] shadow-[0_4px_0_#3e2723] backdrop-blur-md animate-in fade-in slide-in-from-top-3 duration-300 max-w-full">
-              <span className="text-sm sm:text-lg shrink-0">🏝️</span>
+              <GameIconIsland className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 text-amber-700" />
               <span className="text-xs sm:text-base font-black text-[#3e2723] tracking-wide uppercase font-sans truncate">
                 {t.hud.locations[bannerLocation as keyof typeof t.hud.locations] || bannerLocation}
               </span>
             </div>
           ) : (
             <div className="hidden sm:flex items-center gap-1.5 px-3 py-1 rounded-2xl bg-[#fffdf6]/95 border-2 border-[#5c3e21] shadow-[0_2px_0_#3e2723] text-xs font-black text-[#451a03]">
-              <span className="text-sm">🏝️</span>
+              <GameIconIsland className="w-3.5 h-3.5 shrink-0 text-amber-700" />
               <span className="truncate">{t.hud.locations[location as keyof typeof t.hud.locations] || location}</span>
             </div>
           )}
@@ -289,12 +299,12 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
             <button
               onClick={onCycleWeather}
               aria-label="Toggle Weather"
-              title={lang === "id" ? `Cuaca: ${weatherMeta.label} (Klik untuk ganti cuaca)` : `Weather: ${weatherMeta.label} (Click to change)`}
-              className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-2xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none transition-all cursor-pointer min-h-[38px] sm:min-h-[40px] shrink-0"
+              title={lang === "id" ? `Cuaca: ${weatherLabel} (Klik untuk ganti cuaca)` : `Weather: ${weatherLabel} (Click to change)`}
+              className="flex items-center gap-1.5 px-2 sm:px-2.5 py-1.5 rounded-2xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none transition-all cursor-pointer min-h-[38px] sm:min-h-[40px] shrink-0"
             >
-              <span className="text-sm sm:text-base leading-none">{weatherMeta.icon}</span>
+              <GameIconWeather type={currentWeather} className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
               <span className="font-black text-[11px] sm:text-xs text-[#3e2723] uppercase hidden lg:inline">
-                {weatherMeta.label}
+                {weatherLabel}
               </span>
             </button>
           )}
@@ -309,9 +319,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                 isMusicEnabled ? "bg-[#fffdf6] hover:bg-[#fef9c3] text-[#3e2723]" : "bg-[#fee2e2] hover:bg-[#fecaca] text-[#991b1b]"
               }`}
             >
-              <span className="text-base sm:text-lg leading-none select-none">
-                {isMusicEnabled ? "🎵" : "🔇"}
-              </span>
+              <GameIconAudio enabled={isMusicEnabled && !isMuted} className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
           )}
 
@@ -321,7 +329,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
             aria-label={t.hud.map}
             className="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-2xl bg-[#10b981] hover:bg-[#059669] active:bg-[#047857] text-[#fffdf6] font-black text-xs border-2 border-[#064e3b] shadow-[0_3px_0_#064e3b] active:translate-y-0.5 active:shadow-none transition-all cursor-pointer min-h-[38px] sm:min-h-[40px]"
           >
-            <span className="text-sm leading-none">🗺️</span>
+            <GameIconMap className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
             <span className="font-black uppercase tracking-wider hidden sm:inline">{t.hud.map}</span>
           </button>
 
@@ -463,8 +471,8 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
               onClick={onInteractNPC}
               className="group px-4 sm:px-6 py-2.5 sm:py-3 rounded-3xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 sm:border-[3px] border-[#5c3e21] text-[#3e2723] font-black text-xs sm:text-sm shadow-[0_6px_0_#3e2723] active:translate-y-1 active:shadow-none flex items-center gap-2.5 sm:gap-3 transition-all cursor-pointer min-h-[48px]"
             >
-              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-2xl bg-[#fef08a] border-2 border-[#854d0e] flex items-center justify-center text-lg sm:text-xl shadow-inner shrink-0">
-                {activeNPC.avatar}
+              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-2xl bg-[#fef08a] border-2 border-[#854d0e] flex items-center justify-center p-1 shadow-inner shrink-0">
+                <GameIconResidentBadge role={activeNPC.id} className="w-full h-full" fallbackEmoji={activeNPC.avatar} />
               </div>
               <div className="flex flex-col text-left min-w-0">
                 <span className="text-[9px] sm:text-[10px] text-[#059669] uppercase tracking-wider font-extrabold">

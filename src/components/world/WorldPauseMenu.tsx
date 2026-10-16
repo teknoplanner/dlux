@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import { WorldAudio } from "./WorldAudio";
 import { WeatherType } from "./WorldWeatherManager";
 import { WorldLang, WORLD_STRINGS } from "./worldI18n";
+import { GameIconWeather, GameIconAudio, GameIconIsland } from "./WorldGameIcons";
 
 interface WorldPauseMenuProps {
   isOpen: boolean;
@@ -138,7 +139,8 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
           <div className="flex items-center justify-between">
             <span className="text-[#a16207]">{t.pauseMenu.currentRegion}:</span>
             <span className="font-black text-[#3e2723] flex items-center gap-1.5 text-sm">
-              🏝️ {localizedLocation}
+              <GameIconIsland className="w-4 h-4 text-amber-700 shrink-0" />
+              <span>{localizedLocation}</span>
             </span>
           </div>
 
@@ -254,8 +256,8 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
               onMouseEnter={handleHover}
               className="w-full py-2.5 px-4 rounded-2xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none text-xs font-black transition-all cursor-pointer flex items-center justify-between"
             >
-              <div className="flex items-center gap-2.5 text-[#3e2723]">
-                <span className="text-sm">🎵</span>
+              <div className="flex items-center gap-2 text-[#3e2723]">
+                <GameIconAudio enabled={isMusicEnabled && !isMuted} className="w-4 h-4 text-amber-800 shrink-0" />
                 <span>{t.pauseMenu.backgroundMusic}</span>
               </div>
               <span className={`font-extrabold ${isMusicEnabled && !isMuted ? "text-[#15803d]" : "text-[#b91c1c]"}`}>
@@ -269,7 +271,7 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
             <div className="w-full p-3 rounded-2xl bg-[#fffdf6] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] space-y-2">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-black text-[#3e2723] flex items-center gap-1.5 uppercase">
-                  <span>🌤️</span>
+                  <GameIconWeather type="header" className="w-4 h-4 shrink-0" />
                   <span>{t.pauseMenu.weatherTitle}</span>
                 </span>
                 <span className="text-[10px] font-black px-2 py-0.5 rounded-lg bg-[#fef08a] text-[#854d0e] border border-[#ca8a04]">
@@ -285,10 +287,10 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
               <div className="grid grid-cols-4 gap-1.5">
                 {(
                   [
-                    { id: "day", icon: "☀️", label: t.pauseMenu.weatherDay },
-                    { id: "night", icon: "🌙", label: t.pauseMenu.weatherNight },
-                    { id: "rain", icon: "🌧️", label: t.pauseMenu.weatherRain },
-                    { id: "snow", icon: "❄️", label: t.pauseMenu.weatherSnow },
+                    { id: "day", label: t.pauseMenu.weatherDay },
+                    { id: "night", label: t.pauseMenu.weatherNight },
+                    { id: "rain", label: t.pauseMenu.weatherRain },
+                    { id: "snow", label: t.pauseMenu.weatherSnow },
                   ] as const
                 ).map((item) => {
                   const isActive = currentWeather === item.id;
@@ -306,7 +308,7 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
                           : "bg-[#f5eedc] text-[#854d0e] hover:bg-[#fef9c3] border-[#ca8a04]/50"
                       }`}
                     >
-                      <span className="text-base leading-tight">{item.icon}</span>
+                      <GameIconWeather type={item.id} className="w-5 h-5 mb-0.5 shrink-0" />
                       <span className="text-[10px] font-black tracking-tight">{item.label}</span>
                     </button>
                   );
