@@ -559,33 +559,7 @@ export class WorldWeatherManager {
       opacity: isNight ? 0.95 : 0.0,
     });
 
-    const lampCoords: [number, number, number][] = [
-      // Central Plaza Walkways - Disimpan di samping jalan (Flanking curbs with clear clearance)
-      [-4.5, 4.8, 3],
-      [4.5, 4.8, 3],
-      [-14.5, 4.8, 8],
-      [14.5, 4.8, 8],
-      [-4.2, 4.8, 18],
-      [4.2, 4.8, 18],
-      [-4.2, 4.8, -16],
-      [4.2, 4.8, -16],
-      [-18, 4.8, 2],
-      [18, 4.8, 2],
-      [-8, 4.8, -10],
-      [8, 4.8, -10],
-      // MOBA Sanctuary Ancient Approach (Flanking sides of road)
-      [-64, 8.5, -4],
-      [-72, 8.5, 4],
-      [-50, 8.5, -8],
-      // Beach Stadium Concourse (Samping jalan concourse)
-      [58, 5.0, 8],
-      [68, 5.0, -8],
-      // Battle Royale Island (Flanking dirt road sides)
-      [62, 7.0, -52],
-      [50, 7.0, -42],
-      // Voxel Sandbox Pier (Samping dermaga)
-      [-52, 4.8, 48],
-    ];
+    const lampCoords: [number, number, number][] = [];
 
     lampCoords.forEach(([lx, ly, lz]) => {
       const group = new THREE.Group();

@@ -1298,43 +1298,7 @@ export class WorldEngine {
     this.colliders.push({ x, z, radius: 1.0, label: "bench" });
   }
 
-  // Lampu Taman Hias (Victorian Garden Lamp Post)
-  private createGardenLampPost(x: number, z: number, y: number) {
-    const postGroup = new THREE.Group();
-    postGroup.position.set(x, y, z);
 
-    const ironMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, metalness: 0.7, roughness: 0.35 });
-    const lanternMat = new THREE.MeshStandardMaterial({
-      color: 0xfef08a,
-      emissive: 0xfacc15,
-      emissiveIntensity: 0.85,
-      roughness: 0.2,
-    });
-
-    const base = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.32, 0.35, 8), ironMat);
-    base.position.y = 0.18;
-    postGroup.add(base);
-
-    const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.1, 2.6, 8), ironMat);
-    pole.position.y = 1.6;
-    pole.castShadow = true;
-    postGroup.add(pole);
-
-    const fixture = new THREE.Mesh(new THREE.BoxGeometry(0.38, 0.1, 0.38), ironMat);
-    fixture.position.y = 2.95;
-    postGroup.add(fixture);
-
-    const glass = new THREE.Mesh(new THREE.DodecahedronGeometry(0.22, 0), lanternMat);
-    glass.position.y = 3.12;
-    postGroup.add(glass);
-
-    const cap = new THREE.Mesh(new THREE.ConeGeometry(0.32, 0.22, 6), ironMat);
-    cap.position.y = 3.32;
-    postGroup.add(cap);
-
-    this.scene.add(postGroup);
-    this.colliders.push({ x, z, radius: 0.5, label: "lamppost" });
-  }
 
   private createBeachUmbrella(x: number, z: number, y: number, colorA: number, colorB: number) {
     const poleMat = new THREE.MeshStandardMaterial({ color: 0xe2e8f0, roughness: 0.3 });
@@ -1417,12 +1381,6 @@ export class WorldEngine {
     this.createParkBench(center.x - 8, center.z + 5, 4.80, (3 * Math.PI) / 4);
     this.createParkBench(center.x + 8, center.z + 5, 4.80, -(3 * Math.PI) / 4);
 
-    // 6. Victorian Garden Lampposts - Disimpan di samping jalan (Flanking roadsides with safe clearance)
-    this.createGardenLampPost(center.x - 14.5, center.z - 8.5, 4.80);
-    this.createGardenLampPost(center.x + 14.5, center.z - 8.5, 4.80);
-    this.createGardenLampPost(center.x - 14.5, center.z + 8.5, 4.80);
-    this.createGardenLampPost(center.x + 14.5, center.z + 8.5, 4.80);
-
     // Pier, Beach Umbrellas, and Ramps
     this.createWoodenPier(new THREE.Vector3(0, 0, -28), 0, 10);
     this.createBeachUmbrella(center.x - 14, center.z + 20, 0.4, 0xf43f5e, 0x0284c7);
@@ -1440,10 +1398,8 @@ export class WorldEngine {
     this.createGardenFlowerBed(new THREE.Vector3(center.x - 6, 6.6, center.z + 8), 2.8, 8);
     this.createGardenFlowerBed(new THREE.Vector3(center.x + 8, 6.6, center.z - 6), 2.8, 8);
 
-    // Ancient park benches and stone lanterns
+    // Ancient park benches
     this.createParkBench(center.x - 9, center.z - 2, 6.6, Math.PI / 3);
-    this.createGardenLampPost(center.x - 5, center.z - 8, 6.6);
-    this.createGardenLampPost(center.x - 12, center.z + 5, 6.6);
   }
 
   private addBRProps(center: THREE.Vector3) {
@@ -1488,9 +1444,8 @@ export class WorldEngine {
     this.lighthouseBeam.rotation.x = Math.PI / 2;
     this.scene.add(this.lighthouseBeam);
 
-    // Park bench & lampposts (Di samping jalan)
+    // Park bench
     this.createParkBench(center.x + 2, center.z - 12, 7.0, -Math.PI / 4);
-    this.createGardenLampPost(center.x + 4.5, center.z - 6, 7.0);
 
     this.createRamp(new THREE.Vector3(center.x - 18, 0, center.z + 8), -Math.PI / 4);
   }
@@ -1509,9 +1464,6 @@ export class WorldEngine {
 
     // Paved stone road from bridge (-48, 52) to island arrival promenade
     this.createPathSegment(new THREE.Vector3(-48, 0, 52), new THREE.Vector3(center.x + 8, 0, center.z - 8), 4.2, 0x475569, 4.7);
-
-    // Garden Lamp Post near arrival promenade (Di samping jalan)
-    this.createGardenLampPost(center.x + 11.5, center.z - 6, 4.7);
   }
 
   private addSoccerStadiumProps(center: THREE.Vector3) {
@@ -1564,12 +1516,8 @@ export class WorldEngine {
     this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.60, center.z - 10), 2.5, 7);
     this.createGardenFlowerBed(new THREE.Vector3(center.x + 13, 2.60, center.z + 10), 2.5, 7);
 
-    // Park benches & Lampposts for spectators
+    // Park bench for spectators
     this.createParkBench(center.x + 14, center.z, 2.60, -Math.PI / 2);
-    this.createGardenLampPost(center.x - 12, center.z - 12, 2.60);
-    this.createGardenLampPost(center.x - 12, center.z + 12, 2.60);
-    this.createGardenLampPost(center.x + 14, center.z - 12, 2.60);
-    this.createGardenLampPost(center.x + 14, center.z + 12, 2.60);
   }
 
   private createRamp(pos: THREE.Vector3, rotY: number) {
@@ -2421,15 +2369,26 @@ export class WorldEngine {
     this.currentTurnSpeed = THREE.MathUtils.lerp(this.currentTurnSpeed, targetTurn * this.turnSpeed, 12 * delta);
     this.playerRotY += this.currentTurnSpeed * delta;
 
-    // 2. Snappy Acceleration & Sprint Dash
+    // 2. Snappy Acceleration, Strafe & Full Directional Movement (WASD & D-pad)
+    let moveFwd = 0;
+    if (this.inputs.forward) moveFwd += 1.0;
+    if (this.inputs.backward) moveFwd -= 0.65;
+
+    let moveStrafe = 0;
+    if (this.inputs.right) moveStrafe += 1.0;
+    if (this.inputs.left) moveStrafe -= 1.0;
+
     let targetSpeed = 0;
-    if (this.inputs.forward) {
+    const isMoving = moveFwd !== 0 || moveStrafe !== 0;
+
+    if (isMoving) {
       targetSpeed = this.maxSpeed;
-    } else if (this.inputs.backward) {
-      targetSpeed = -this.maxSpeed * 0.45;
+      if (moveFwd < 0 && moveStrafe === 0) {
+        targetSpeed *= 0.65;
+      }
     }
 
-    if (this.inputs.boost && this.nitro > 0 && this.inputs.forward) {
+    if (this.inputs.boost && this.nitro > 0 && isMoving) {
       targetSpeed *= 1.45;
       this.nitro = Math.max(0, this.nitro - 25 * delta);
       this.isBoosting = true;
@@ -2446,11 +2405,26 @@ export class WorldEngine {
     const accelRate = targetSpeed !== 0 ? (targetSpeed > this.currentSpeed ? this.acceleration : this.deceleration) : this.deceleration * 1.6;
     this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, targetSpeed, Math.min(1, accelRate * 0.25 * delta));
 
-    // Translation along forward vector (-Z)
-    const forwardX = -Math.sin(this.playerRotY) * this.currentSpeed;
-    const forwardZ = -Math.cos(this.playerRotY) * this.currentSpeed;
-    this.playerVel.x = forwardX;
-    this.playerVel.z = forwardZ;
+    // Direction vectors:
+    // Forward unit vector in world space:
+    const fwdX = -Math.sin(this.playerRotY);
+    const fwdZ = -Math.cos(this.playerRotY);
+    // Right (strafe) unit vector in world space:
+    const rightX = Math.cos(this.playerRotY);
+    const rightZ = -Math.sin(this.playerRotY);
+
+    if (isMoving) {
+      const len = Math.hypot(moveFwd, moveStrafe);
+      const normFwd = moveFwd / len;
+      const normStrafe = moveStrafe / len;
+
+      this.playerVel.x = (fwdX * normFwd + rightX * normStrafe) * this.currentSpeed;
+      this.playerVel.z = (fwdZ * normFwd + rightZ * normStrafe) * this.currentSpeed;
+    } else {
+      // Natural deceleration along current forward facing
+      this.playerVel.x = fwdX * this.currentSpeed;
+      this.playerVel.z = fwdZ * this.currentSpeed;
+    }
 
     this.playerPos.x += this.playerVel.x * delta;
     this.playerPos.z += this.playerVel.z * delta;
@@ -3493,8 +3467,8 @@ export class WorldEngine {
     this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, targetFov, 6 * delta);
     this.camera.updateProjectionMatrix();
 
-    // Smoothly ease camera back behind player when running forward if not actively dragging
-    if (!this.isPointerOrbiting && this.inputs.forward && Math.abs(this.currentSpeed) > 2.0) {
+    // Smoothly ease camera back behind player when running if not actively dragging
+    if (!this.isPointerOrbiting && (this.inputs.forward || this.inputs.right || this.inputs.left) && Math.abs(this.currentSpeed) > 2.0) {
       this.cameraOrbitYaw = THREE.MathUtils.lerp(this.cameraOrbitYaw, 0, 0.45 * delta);
     }
 

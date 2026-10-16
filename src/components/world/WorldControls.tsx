@@ -26,66 +26,46 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!engine) return;
-      switch (e.code) {
-        case "KeyW":
-        case "ArrowUp":
-          engine.inputs.forward = true;
-          break;
-        case "KeyS":
-        case "ArrowDown":
-          engine.inputs.backward = true;
-          break;
-        case "KeyA":
-        case "ArrowLeft":
-          engine.inputs.left = true;
-          break;
-        case "KeyD":
-        case "ArrowRight":
-          engine.inputs.right = true;
-          break;
-        case "Space":
-          engine.inputs.jump = true;
-          break;
-        case "ShiftLeft":
-        case "ShiftRight":
-          engine.inputs.boost = true;
-          break;
-        case "KeyE":
-          engine.inputs.interact = true;
-          onInteract?.();
-          break;
+      const code = e.code || "";
+      const key = e.key ? e.key.toLowerCase() : "";
+
+      if (code === "KeyW" || code === "ArrowUp" || key === "w" || key === "arrowup") {
+        engine.inputs.forward = true;
+      } else if (code === "KeyS" || code === "ArrowDown" || key === "s" || key === "arrowdown") {
+        engine.inputs.backward = true;
+      } else if (code === "KeyA" || code === "ArrowLeft" || key === "a" || key === "arrowleft") {
+        engine.inputs.left = true;
+      } else if (code === "KeyD" || code === "ArrowRight" || key === "d" || key === "arrowright") {
+        engine.inputs.right = true;
+      } else if (code === "Space" || key === " " || key === "spacebar") {
+        engine.inputs.jump = true;
+      } else if (code === "ShiftLeft" || code === "ShiftRight" || key === "shift") {
+        engine.inputs.boost = true;
+      } else if (code === "KeyE" || key === "e") {
+        engine.inputs.interact = true;
+        onInteract?.();
       }
     };
 
     const handleKeyUp = (e: KeyboardEvent) => {
       if (!engine) return;
-      switch (e.code) {
-        case "KeyW":
-        case "ArrowUp":
-          engine.inputs.forward = false;
-          break;
-        case "KeyS":
-        case "ArrowDown":
-          engine.inputs.backward = false;
-          break;
-        case "KeyA":
-        case "ArrowLeft":
-          engine.inputs.left = false;
-          break;
-        case "KeyD":
-        case "ArrowRight":
-          engine.inputs.right = false;
-          break;
-        case "Space":
-          engine.inputs.jump = false;
-          break;
-        case "ShiftLeft":
-        case "ShiftRight":
-          engine.inputs.boost = false;
-          break;
-        case "KeyE":
-          engine.inputs.interact = false;
-          break;
+      const code = e.code || "";
+      const key = e.key ? e.key.toLowerCase() : "";
+
+      if (code === "KeyW" || code === "ArrowUp" || key === "w" || key === "arrowup") {
+        engine.inputs.forward = false;
+      } else if (code === "KeyS" || code === "ArrowDown" || key === "s" || key === "arrowdown") {
+        engine.inputs.backward = false;
+      } else if (code === "KeyA" || code === "ArrowLeft" || key === "a" || key === "arrowleft") {
+        engine.inputs.left = false;
+      } else if (code === "KeyD" || code === "ArrowRight" || key === "d" || key === "arrowright") {
+        engine.inputs.right = false;
+      } else if (code === "Space" || key === " " || key === "spacebar") {
+        engine.inputs.jump = false;
+      } else if (code === "ShiftLeft" || code === "ShiftRight" || key === "shift") {
+        engine.inputs.boost = false;
+      } else if (code === "KeyE" || key === "e") {
+        engine.inputs.interact = false;
       }
     };
 

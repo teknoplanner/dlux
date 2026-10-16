@@ -342,8 +342,8 @@ export const WorldGameCanvas: React.FC = () => {
             lang={lang}
           />
 
-          {/* Input Controls (Suspended if Pause Menu is open or during Intro Cinematic) */}
-          {!isPauseOpen && !isIntroCinematic && (
+          {/* Input Controls (Suspended if Pause Menu is open) */}
+          {!isPauseOpen && (
             <WorldControls engine={engineRef.current} onInteract={handleInteract} />
           )}
 
