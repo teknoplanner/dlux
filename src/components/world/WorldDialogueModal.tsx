@@ -9,7 +9,7 @@ interface WorldDialogueModalProps {
   npc: NPCData | null;
   onClose: () => void;
   onCompleteQuest?: (questId: string) => void;
-  onStartChallenge?: (challengeId: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt") => void;
+  onStartChallenge?: (challengeId: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt" | "hex_mario_run") => void;
   lang: WorldLang;
 }
 

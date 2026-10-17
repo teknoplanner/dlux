@@ -363,6 +363,35 @@ export class WorldAudio {
   }
 
   /**
+   * Sound: Classic Retro 8-Bit Game Over Fanfare
+   */
+  public playGameOver() {
+    if (this.isMuted) return;
+    const ctx = this.initContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const notes = [493.88, 440.0, 392.0, 329.63, 261.63]; // B4, A4, G4, E4, C4 descending
+    notes.forEach((freq, idx) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "sawtooth";
+      osc.frequency.setValueAtTime(freq, now + idx * 0.16);
+
+      gain.gain.setValueAtTime(0, now + idx * 0.16);
+      gain.gain.linearRampToValueAtTime(0.22, now + idx * 0.16 + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.16 + 0.35);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(now + idx * 0.16);
+      osc.stop(now + idx * 0.16 + 0.38);
+    });
+  }
+
+  /**
    * Sound: UI Menu Hover Tick (Subtle tactile high click)
    */
   public playMenuHover() {

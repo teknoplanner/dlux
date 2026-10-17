@@ -347,26 +347,26 @@ export const BILINGUAL_NPCS: Record<
     },
   },
   jax: {
-    name: { id: "Jax Prajurit Taktis", en: "Jax the Spec-Ops" },
-    title: { id: "Penembak Jitu Pengawas", en: "Battle Royale Ace" },
+    name: { id: "Kapten Jax", en: "Captain Jax" },
+    title: { id: "Pembalap Perahu Cepat", en: "Speedboat Racing Ace" },
     island: { id: "Pos Pengawas BR", en: "Battle Royale Outpost" },
     dialogue: {
       id: [
-        "Milo, waspada selalu! Zona pesisir menuntut ketelitian langkah dan kecepatan reflek.",
-        "Menara pengawas di pulau ini memantau seluruh arus laut dari utara hingga selatan.",
-        "Buktikan ketangkasanmu dengan mengamankan peti suplai airdrop taktis!",
+        "Milo! Selamat datang di Dermaga Balap Pulau Battle Royale!",
+        "Nyalakan mesin speedboat-mu, kita akan balapan mengelilingi seluruh pulau di lautan lepas!",
+        "Ikuti panduan panah belok laut, terobos cincin kecepatan untuk koin bonus, dan kalahkan perahuku menuju garis finish!",
       ],
       en: [
-        "Milo, stay sharp! The coastal perimeter demands quick reflexes and keen eyes.",
-        "Our high watchtower monitors all sea channels from north to south.",
-        "Prove your tactical agility by securing the parachuted airdrop supply crates!",
+        "Milo! Welcome to the Battle Royale Speedboat Racing Marina!",
+        "Fire up your engine, we're going to race all the way around the island in the open ocean!",
+        "Follow the marine turn arrows, hit the boost rings for gold coins, and beat my boat to the finish line!",
       ],
     },
     challenge: {
-      title: { id: "Berburu Kotak Airdrop", en: "Airdrop Cache Hunt" },
+      title: { id: "Grand Prix Perahu Lautan", en: "Nautical Speedboat Grand Prix" },
       instructions: {
-        id: "Kumpulkan 3 peti suplai militer taktis yang terjatuh di area pos pengawas!",
-        en: "Collect 3 tactical military crates dropped around the outpost grounds!",
+        id: "Kemudikan perahu balap mengelilingi pulau, lewati cincin koin, dan capai garis Finish di depan Jax!",
+        en: "Pilot your speedboat around the island, boost through coin rings, and beat Jax to the finish line!",
       },
     },
   },
@@ -477,6 +477,30 @@ export const BILINGUAL_NPCS: Record<
       ],
     },
   },
+  kai: {
+    name: { id: "Kai si Pembangun", en: "Kai the Builder" },
+    title: { id: "Arsitek Teluk Heksagon", en: "Hexagon Bay Mason" },
+    island: { id: "Teluk Kotak Sandbox", en: "Hexagon Sandbox Bay" },
+    dialogue: {
+      id: [
+        "Halo Milo! Selamat datang di Teluk Kotak Heksagon!",
+        "Aku baru saja merancang lintasan rintangan balok melayang ala Super Mario di atas laguna teluk ini!",
+        "Lompati balok terapung, tabrak balok misteri [?], dan capai Tiang Bendera Finish di puncak sebelum waktu habis!",
+      ],
+      en: [
+        "Welcome to Hexagon Sandbox Bay, Milo!",
+        "I just constructed an aerial 3D obstacle course inspired by Super Mario above our crystal lagoon!",
+        "Leap across floating platforms, hit the mystery [?] blocks, and touch the Finish Flagpole at the summit before time runs out!",
+      ],
+    },
+    challenge: {
+      title: { id: "Tantangan Balok Super Milo", en: "Super Milo 3D Hexagon Run" },
+      instructions: {
+        id: "Lompati balok melayang, benturkan balok [?], dan capai Tiang Bendera Finish!",
+        en: "Leap across floating blocks, bump mystery [?] blocks, and touch the Finish Flagpole!",
+      },
+    },
+  },
 };
 
 // Bilingual Quests for Navigator's Slate
@@ -512,14 +536,14 @@ export const BILINGUAL_QUESTS: Record<
   },
   airdrop: {
     title: {
-      id: "Pengintaian Kotak Airdrop",
-      en: "Tactical Airdrop Recon",
+      id: "Grand Prix Perahu Cepat",
+      en: "Speedboat Grand Prix",
     },
     desc: {
-      id: "Jelajahi Pos Pengawas Battle Royale dan temukan peti suplai militer berparasut.",
-      en: "Reach the Battle Royale Outpost and inspect the parachuted airdrop supply cache.",
+      id: "Balapan perahu cepat mengelilingi pulau Battle Royale, terobos cincin koin emas, dan kalahkan Kapten Jax.",
+      en: "Race speedboats around Battle Royale Island, boost through gold coin rings, and defeat Captain Jax.",
     },
-    reward: { id: "+50 EXP", en: "+50 EXP" },
+    reward: { id: "+100 EXP", en: "+100 EXP" },
   },
   tokens: {
     title: {
@@ -531,6 +555,17 @@ export const BILINGUAL_QUESTS: Record<
       en: "Collect at least 15 Golden Tokens hidden across islands, beaches, and stone bridges.",
     },
     reward: { id: "+100 EXP", en: "+100 EXP" },
+  },
+  hex_mario_run: {
+    title: {
+      id: "Petualangan Super Milo 3D",
+      en: "Super Milo 3D Adventure",
+    },
+    desc: {
+      id: "Selesaikan lintasan rintangan balok heksagon melayang dan sentuh Tiang Bendera Finish.",
+      en: "Traverse the floating hexagon obstacle course and touch the summit Finish Flagpole.",
+    },
+    reward: { id: "+10 Koin & +100 EXP", en: "+10 Coins & +100 EXP" },
   },
 };
 
@@ -615,13 +650,13 @@ export const BILINGUAL_RESIDENTS = [
   },
   {
     id: "jax",
-    name: { id: "Jax Prajurit Taktis", en: "Jax the Spec-Ops" },
-    role: { id: "Penembak Jitu Pengawas", en: "Battle Royale Ace" },
+    name: { id: "Kapten Jax", en: "Captain Jax" },
+    role: { id: "Pembalap Perahu Cepat", en: "Speedboat Grand Prix Ace" },
     location: { id: "Pos Pengawas BR", en: "Battle Royale Outpost" },
-    avatar: "🪖",
+    avatar: "🛥️",
     desc: {
-      id: "Mengawasi menara pantau dan peti suplai airdrop militer di tanjung karang.",
-      en: "Oversees tactical supplies and airdrop hunter trials at the coastal watchtower.",
+      id: "Juara bertahan balapan perahu cepat mengelilingi samudra pulau Battle Royale.",
+      en: "Defending champion of the high-speed marine circuit around Battle Royale Island.",
     },
   },
   {

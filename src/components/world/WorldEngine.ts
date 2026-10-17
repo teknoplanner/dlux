@@ -13,8 +13,10 @@ import { WorldCharacterManager } from "./WorldCharacterManager";
 import { WorldWindWakerWater, getWindWakerWaveElevation } from "./WorldWindWakerWater";
 import { WorldWeatherManager, WeatherType } from "./WorldWeatherManager";
 
+export type ArcadeChallengeId = "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt" | "hex_mario_run";
+
 export interface ActiveMinigame {
-  id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt";
+  id: ArcadeChallengeId;
   title: string;
   island: string;
   instructions: string;
@@ -23,6 +25,19 @@ export interface ActiveMinigame {
   timeLeft: number;
   totalTime: number;
   status: "playing" | "won" | "lost";
+  loseReason?: "drowned" | "timeout" | "second_place";
+  checkpointReached?: boolean;
+  checkpointRespawnCount?: number;
+  racePosition?: number;
+  raceProgressPct?: number;
+  raceRingsCollected?: number;
+  raceTotalRings?: number;
+  currentLap?: number;
+  totalLaps?: number;
+  lapNotification?: string;
+  raceCountdown?: number;
+  nextTurnGuide?: string;
+  npcDistanceText?: string;
 }
 
 export interface NPCData {
@@ -34,7 +49,7 @@ export interface NPCData {
   dialogue: string[];
   avatar: string;
   arcadeChallenge?: {
-    id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt";
+    id: ArcadeChallengeId;
     title: string;
     instructions: string;
     badge: string;
@@ -577,21 +592,21 @@ export class WorldEngine {
     },
     {
       id: "jax",
-      name: "Jax the Ranger",
-      title: "Survival Outpost Ace",
+      name: "Captain Jax",
+      title: "Speedboat Racing Ace",
       island: "Battle Royale Outpost",
-      pos: new THREE.Vector3(70, 7.0, -55),
-      avatar: "🪂",
+      pos: new THREE.Vector3(74, 7.8, -58),
+      avatar: "🛥️",
       dialogue: [
-        "Heads up, operative! A high-value tactical airdrop just touched down on the lighthouse bluffs.",
-        "Hit Nitro with Shift to charge across the cliffside skywalks up to the observation deck!",
-        "Keep your eyes peeled and your reflexes sharp. Victory belongs to the decisive!"
+        "Milo! Selamat datang di Markas Pos Pengawas Battle Royale!",
+        "Aku menantangmu balapan perahu cepat mengelilingi samudra pulau ini!",
+        "Ikuti panah belokan di laut, lewati cincin emas untuk koin ekstra, dan kalahkan perahuku ke garis finis!"
       ],
       arcadeChallenge: {
         id: "airdrop_hunt",
-        title: "Airdrop Supply Intercept",
-        instructions: "Recover 3 Tactical Airdrop Crates along the Outpost cliffs before time runs out!",
-        badge: "📦 SURVIVAL ACE",
+        title: "Grand Prix Perahu Lautan",
+        instructions: "Kemudikan perahu balap mengelilingi pulau, lewati cincin koin, dan capai garis Finish di depan Jax!",
+        badge: "🛥️ SPEEDBOAT CHAMPION",
       },
     },
     {
@@ -606,6 +621,12 @@ export class WorldEngine {
         "Every single terrace and lake step here is crafted from modular 3D medieval hexagon blocks.",
         "Take a stroll along the crystal lagoon, inspect the stone chalets, and enjoy the architecture!"
       ],
+      arcadeChallenge: {
+        id: "hex_mario_run",
+        badge: "⭐ SUPER MARIO 3D",
+        title: "Tantangan Balok Super Milo",
+        instructions: "Lompati balok melayang, benturkan balok [?], dan capai Tiang Bendera Finish sebelum waktu habis!",
+      },
     },
     {
       id: "leo",
@@ -640,9 +661,72 @@ export class WorldEngine {
     update?: (delta: number, time: number) => void;
     onHit?: () => void;
   }[] = [];
+
+  // Super Mario 3D Hexagon Run State & Course Meshes
+  public isMarioWarping: boolean = false;
+  private marioWarpTimer: number = 0;
+  public isMarioCourseActive: boolean = false;
+  private marioPlatforms: {
+    x: number;
+    z: number;
+    y: number;
+    width: number;
+    depth: number;
+    isMoving?: boolean;
+    axis?: "x" | "y" | "z";
+    amp?: number;
+    speed?: number;
+    basePos?: THREE.Vector3;
+    mesh: THREE.Object3D;
+  }[] = [];
+  private marioQuestionBlocks: {
+    mesh: THREE.Group;
+    basePos: THREE.Vector3;
+    hit: boolean;
+    bounceTimer: number;
+    coinMesh?: THREE.Mesh;
+    coinTimer?: number;
+  }[] = [];
+  private marioFlagPole: {
+    group: THREE.Group;
+    polePos: THREE.Vector3;
+    flagMesh: THREE.Mesh;
+    isFinishTriggered: boolean;
+    flagProgress: number;
+  } | null = null;
+  private marioConfettiParticles: THREE.Points | null = null;
+  private marioCheckpointPos: THREE.Vector3 = new THREE.Vector3(-50, 5.5, 56);
+  private marioSpawnedCourseGroup: THREE.Group | null = null;
+
+  // Speedboat Grand Prix Marine Racing System
+  public isBoatRacing: boolean = false;
+  private playerCurrentLap: number = 1;
+  private playerTotalLaps: number = 2;
+  private playerCurrentWpIdx: number = 1;
+  private playerBoatGroup: THREE.Group | null = null;
+  private playerBoatPropellers: THREE.Mesh[] = [];
+  private npcBoatGroup: THREE.Group | null = null;
+  private npcBoatPropellers: THREE.Mesh[] = [];
+  private npcBoatNameplate: THREE.Mesh | null = null;
+  private npcBoatPos: THREE.Vector3 = new THREE.Vector3(38.5, 0.05, -52);
+  private npcBoatRotY: number = 0;
+  private npcBoatSpeed: number = 0;
+  private npcCurrentWpIdx: number = 1;
+  private npcCurrentLap: number = 1;
+  private npcFinished: boolean = false;
+  private boatRaceCountdown: number = 0;
+  private lastCountdownNumber: number = 4;
+  private npcTotalDistance: number = 0;
+  private playerTotalDistance: number = 0;
+  private boatRaceCourseGroup: THREE.Group | null = null;
+  private boatRaceRings: { mesh: THREE.Group; coinMesh: THREE.Mesh; hit: boolean; pos: THREE.Vector3 }[] = [];
+  private boatRaceObstacles: { mesh: THREE.Group; pos: THREE.Vector3; radius: number }[] = [];
+  private boatRaceWaypoints: { pos: THREE.Vector3; name: string }[] = [];
+  private boatRaceFinishGate: { archGroup: THREE.Group; pos: THREE.Vector3; triggered: boolean } | null = null;
+
   public currentLocationName: string = "Central Plaza";
 
-  // Inputs
+  // Inputs & Jump Mechanics
   public inputs = {
     forward: false,
     backward: false,
@@ -652,6 +736,8 @@ export class WorldEngine {
     boost: false,
     interact: false,
   };
+  private prevJumpInput: boolean = false;
+  private jumpCount: number = 0;
 
   constructor(container: HTMLElement, audio: WorldAudio, callbacks: EngineCallbacks = {}) {
     this.container = container;
@@ -2355,30 +2441,145 @@ export class WorldEngine {
     });
   }
 
+  private updateBoatMovement(delta: number, time: number) {
+    // Lock player at open-sea starting line while countdown is ticking (3... 2... 1...)
+    if (this.boatRaceCountdown > 0) {
+      this.currentSpeed = 0;
+      this.playerVel.set(0, 0, 0);
+      this.playerPos.set(33.5, 0.05, -52);
+      this.playerRotY = 0;
+      this.playerGroup.position.copy(this.playerPos);
+      this.playerGroup.rotation.y = 0;
+      return;
+    }
+
+    // 1. Marine Rudder Steering
+    const targetTurn = (this.inputs.left ? 1 : 0) - (this.inputs.right ? 1 : 0);
+    this.currentTurnSpeed = THREE.MathUtils.lerp(this.currentTurnSpeed, targetTurn * 1.85, 8 * delta);
+    this.playerRotY += this.currentTurnSpeed * delta;
+
+    // 2. High-Speed Hydroplane Marine Throttle & Nitro
+    const maxBoatSpeed = 17.5;
+    let targetSpeed = 0;
+    if (this.inputs.forward) {
+      targetSpeed = maxBoatSpeed;
+    } else if (this.inputs.backward) {
+      targetSpeed = -5.5;
+    }
+
+    const isMoving = this.inputs.forward || this.inputs.backward;
+    if (this.inputs.boost && this.nitro > 0 && isMoving) {
+      targetSpeed = 23.5;
+      this.nitro = Math.max(0, this.nitro - 28 * delta);
+      this.isBoosting = true;
+    } else {
+      this.nitro = Math.min(100, this.nitro + 14 * delta);
+      this.isBoosting = false;
+    }
+    this.callbacks.onNitroUpdate?.(this.nitro);
+
+    const accelRate = targetSpeed !== 0
+      ? (targetSpeed > this.currentSpeed ? 4.2 : 5.8)
+      : 3.5;
+    this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, targetSpeed, Math.min(1, accelRate * delta));
+
+    // Marine translation along heading
+    this.playerVel.x = -Math.sin(this.playerRotY) * this.currentSpeed;
+    this.playerVel.z = -Math.cos(this.playerRotY) * this.currentSpeed;
+    this.playerPos.x += this.playerVel.x * delta;
+    this.playerPos.z += this.playerVel.z * delta;
+
+    this.playerPos.x = THREE.MathUtils.clamp(this.playerPos.x, -165, 165);
+    this.playerPos.z = THREE.MathUtils.clamp(this.playerPos.z, -165, 165);
+
+    // 3. SOLID ISLAND TERRAIN COLLISION (Zero clipping/penetration through islands!)
+    // A. Battle Royale Outpost island boundary (Center: 75, -60; Shoreline R: 30.5m)
+    const dxBR = this.playerPos.x - 75;
+    const dzBR = this.playerPos.z - (-60);
+    const distBR = Math.hypot(dxBR, dzBR);
+    const minBRRadius = 30.2;
+    if (distBR < minBRRadius && distBR > 0.001) {
+      const pushX = (dxBR / distBR) * minBRRadius;
+      const pushZ = (dzBR / distBR) * minBRRadius;
+      this.playerPos.x = 75 + pushX;
+      this.playerPos.z = -60 + pushZ;
+      if (this.currentSpeed > 3.0) {
+        this.currentSpeed = 3.0; // Bump off island coast
+        this.audio.playSplash();
+      }
+    }
+
+    // B. Central Plaza island boundary (Center: 0, 0; Shoreline R: 31.5m)
+    const distHub = Math.hypot(this.playerPos.x, this.playerPos.z);
+    const minHubRadius = 31.5;
+    if (distHub < minHubRadius && distHub > 0.001) {
+      const pushX = (this.playerPos.x / distHub) * minHubRadius;
+      const pushZ = (this.playerPos.z / distHub) * minHubRadius;
+      this.playerPos.x = pushX;
+      this.playerPos.z = pushZ;
+      if (this.currentSpeed > 3.0) {
+        this.currentSpeed = 3.0;
+        this.audio.playSplash();
+      }
+    }
+
+    // C. General terrain elevation safeguard (cannot drive up on land / shallow beach)
+    const landElevation = this.getIslandHeight(this.playerPos.x, this.playerPos.z);
+    if (landElevation > -0.2) {
+      this.playerPos.x -= this.playerVel.x * delta * 1.5;
+      this.playerPos.z -= this.playerVel.z * delta * 1.5;
+      this.currentSpeed = Math.min(this.currentSpeed * 0.3, 2.5);
+    }
+
+    // Stay firmly floating on water surface with wave bobbing
+    const waveElev = getWindWakerWaveElevation(this.playerPos.x, this.playerPos.z, time);
+    this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, Math.max(0.04, waveElev + 0.05), 10 * delta);
+
+    // Dynamic banking into turns & bow rise on acceleration
+    const targetBank = -this.currentTurnSpeed * 0.16;
+    this.currentBankZ = THREE.MathUtils.lerp(this.currentBankZ, targetBank, 10 * delta);
+
+    this.playerGroup.position.copy(this.playerPos);
+    this.playerGroup.rotation.y = this.playerRotY;
+    this.playerGroup.rotation.z = this.currentBankZ;
+    this.playerGroup.rotation.x = Math.max(0, this.currentSpeed / maxBoatSpeed) * 0.11;
+
+    // Spin propellers with throttle
+    for (const prop of this.playerBoatPropellers) {
+      prop.rotation.z += (Math.abs(this.currentSpeed) * 4.5 + 8.0) * delta;
+    }
+
+    // Audio & Speedometer
+    this.audio.updateEngineSound(Math.abs(this.currentSpeed), this.isBoosting);
+    this.callbacks.onSpeedUpdate?.(Math.round(Math.abs(this.currentSpeed) * 3.6));
+
+    // Milo captain pose at cockpit
+    if (this.catMeshGroup) {
+      this.catMeshGroup.position.set(0, 0.28, -0.15);
+      this.catMeshGroup.rotation.x = -0.15;
+    }
+  }
+
   private updatePlayerMovement(delta: number, time: number) {
+    if (this.isBoatRacing) {
+      this.updateBoatMovement(delta, time);
+      return;
+    }
+
     // 1. Silky Smooth Steering
     const targetTurn = (this.inputs.left ? 1 : 0) - (this.inputs.right ? 1 : 0);
     this.currentTurnSpeed = THREE.MathUtils.lerp(this.currentTurnSpeed, targetTurn * this.turnSpeed, 12 * delta);
     this.playerRotY += this.currentTurnSpeed * delta;
 
-    // 2. Snappy Acceleration, Strafe & Full Directional Movement (WASD & D-pad)
-    let moveFwd = 0;
-    if (this.inputs.forward) moveFwd += 1.0;
-    if (this.inputs.backward) moveFwd -= 0.65;
-
-    let moveStrafe = 0;
-    if (this.inputs.right) moveStrafe += 1.0;
-    if (this.inputs.left) moveStrafe -= 1.0;
-
+    // 2. Snappy Acceleration & Pure Directional Forward/Backward Movement
     let targetSpeed = 0;
-    const isMoving = moveFwd !== 0 || moveStrafe !== 0;
-
-    if (isMoving) {
+    if (this.inputs.forward) {
       targetSpeed = this.maxSpeed;
-      if (moveFwd < 0 && moveStrafe === 0) {
-        targetSpeed *= 0.65;
-      }
+    } else if (this.inputs.backward) {
+      targetSpeed = -this.maxSpeed * 0.55;
     }
+
+    const isMoving = this.inputs.forward || this.inputs.backward;
 
     if (this.inputs.boost && this.nitro > 0 && isMoving) {
       targetSpeed *= 1.45;
@@ -2394,29 +2595,16 @@ export class WorldEngine {
       targetSpeed *= 0.65; // Water drag resistance
     }
 
-    const accelRate = targetSpeed !== 0 ? (targetSpeed > this.currentSpeed ? this.acceleration : this.deceleration) : this.deceleration * 1.6;
+    const accelRate = targetSpeed !== 0
+      ? (targetSpeed > this.currentSpeed ? this.acceleration : this.deceleration)
+      : this.deceleration * 1.6;
     this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, targetSpeed, Math.min(1, accelRate * 0.25 * delta));
 
-    // Direction vectors:
-    // Forward unit vector in world space:
-    const fwdX = -Math.sin(this.playerRotY);
-    const fwdZ = -Math.cos(this.playerRotY);
-    // Right (strafe) unit vector in world space:
-    const rightX = Math.cos(this.playerRotY);
-    const rightZ = -Math.sin(this.playerRotY);
-
-    if (isMoving) {
-      const len = Math.hypot(moveFwd, moveStrafe);
-      const normFwd = moveFwd / len;
-      const normStrafe = moveStrafe / len;
-
-      this.playerVel.x = (fwdX * normFwd + rightX * normStrafe) * this.currentSpeed;
-      this.playerVel.z = (fwdZ * normFwd + rightZ * normStrafe) * this.currentSpeed;
-    } else {
-      // Natural deceleration along current forward facing
-      this.playerVel.x = fwdX * this.currentSpeed;
-      this.playerVel.z = fwdZ * this.currentSpeed;
-    }
+    // Translation along forward facing direction (-Z in local player space)
+    const forwardX = -Math.sin(this.playerRotY) * this.currentSpeed;
+    const forwardZ = -Math.cos(this.playerRotY) * this.currentSpeed;
+    this.playerVel.x = forwardX;
+    this.playerVel.z = forwardZ;
 
     this.playerPos.x += this.playerVel.x * delta;
     this.playerPos.z += this.playerVel.z * delta;
@@ -2486,15 +2674,33 @@ export class WorldEngine {
       this.audio.playSplash();
     }
 
-    // Jump (Can jump off solid ground OR splash jump / dolphin breach out of water)
-    if (this.inputs.jump && (this.isGrounded || this.onWater)) {
-      this.playerVel.y = this.onWater ? 7.2 : 8.5;
-      this.isGrounded = false;
-      if (this.onWater) {
-        this.audio.playSplash();
+    // Jump & Double Jump Mechanics (1st jump off ground, 2nd jump in mid-air launches even higher!)
+    const jumpJustPressed = this.inputs.jump && !this.prevJumpInput;
+
+    if (this.isGrounded || this.onWater) {
+      this.jumpCount = 0;
+      if (jumpJustPressed) {
+        this.playerVel.y = this.onWater ? 7.2 : 8.5;
+        this.isGrounded = false;
+        this.jumpCount = 1;
+        if (this.onWater) {
+          this.audio.playSplash();
+        }
+        this.audio.playJump();
       }
-      this.audio.playJump();
+    } else {
+      // In mid-air: 2nd jump gives higher vertical lift!
+      if (jumpJustPressed && this.jumpCount < 2) {
+        this.playerVel.y = 11.8; // Higher second jump launch
+        this.jumpCount = 2;
+        this.audio.playBoost();
+        this.audio.playJump();
+        if (this.catMeshGroup) {
+          this.catMeshGroup.rotation.x -= Math.PI * 0.45;
+        }
+      }
     }
+    this.prevJumpInput = this.inputs.jump;
 
     if (!this.isGrounded) {
       this.playerVel.y -= 22 * delta;
@@ -2503,6 +2709,7 @@ export class WorldEngine {
         this.playerPos.y = groundHeight;
         this.playerVel.y = 0;
         this.isGrounded = true;
+        this.jumpCount = 0;
         if (this.onWater) {
           this.audio.playSplash();
         }
@@ -2692,6 +2899,23 @@ export class WorldEngine {
   }
 
   private calculateGroundHeight(x: number, z: number, currentY?: number): number {
+    // 0. Super Mario Course Floating & Moving Platforms
+    if (this.isMarioCourseActive) {
+      for (const plat of this.marioPlatforms) {
+        const curX = plat.isMoving ? plat.mesh.position.x : plat.x;
+        const curZ = plat.isMoving ? plat.mesh.position.z : plat.z;
+        const curY = plat.isMoving ? plat.mesh.position.y : plat.y;
+        const hw = plat.width * 0.5;
+        const hd = plat.depth * 0.5;
+        if (Math.abs(x - curX) <= hw && Math.abs(z - curZ) <= hd) {
+          if (currentY !== undefined && currentY < curY - 0.85) {
+            continue;
+          }
+          return curY;
+        }
+      }
+    }
+
     // 1. Arched Wooden Bridges take precedence (only if player is on or above the bridge deck)
     for (const br of this.bridges) {
       const bh = getBridgeHeightAt(x, z, br);
@@ -2923,7 +3147,7 @@ export class WorldEngine {
   // =========================================================================
   // ARCADE MINIGAME SYSTEM
   // =========================================================================
-  public startMinigame(id: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt") {
+  public startMinigame(id: ArcadeChallengeId) {
     this.cleanupMinigame();
 
     const configs: Record<string, Omit<ActiveMinigame, "score" | "timeLeft" | "status">> = {
@@ -2953,11 +3177,19 @@ export class WorldEngine {
       },
       airdrop_hunt: {
         id: "airdrop_hunt",
-        title: "Airdrop Supply Intercept",
+        title: "Grand Prix Perahu Lautan",
         island: "Battle Royale Outpost",
-        instructions: "Recover 3 Tactical Airdrop Crates along the Outpost cliffs before time runs out!",
-        targetScore: 3,
-        totalTime: 35,
+        instructions: "Balapan 2 putaran keliling seluruh pulau! Masuki cincin emas & kalahkan Jax ke garis finis!",
+        targetScore: 1,
+        totalTime: 130,
+      },
+      hex_mario_run: {
+        id: "hex_mario_run",
+        title: "Tantangan Balok Super Milo",
+        island: "Hexagon Sandbox Bay",
+        instructions: "Lompati balok melayang, benturkan balok [?], dan capai Tiang Bendera Finish!",
+        targetScore: 1,
+        totalTime: 95,
       },
     };
 
@@ -2972,11 +3204,77 @@ export class WorldEngine {
     };
 
     this.setupMinigameObjects(id);
-    this.audio.playBoost();
+
+    if (id === "hex_mario_run") {
+      this.isMarioCourseActive = true;
+      this.isMarioWarping = true;
+      this.marioWarpTimer = 0;
+      this.marioCheckpointPos.set(-48, 5.8, 54);
+      this.playerPos.set(-48, 5.8, 54);
+      // Milo directly faces forward towards Platform 1 at (-52, 60)
+      this.playerRotY = Math.atan2(4, -6); // 2.5536 rad (~146.3°)
+      this.currentSpeed = 0;
+      this.jumpCount = 0;
+      this.prevJumpInput = false;
+      this.cameraOrbitYaw = 0;
+      this.cameraOrbitPitch = 0;
+      this.cameraDistanceScale = 1.0;
+      this.playerVel.set(0, 4.5, 0); // Energized intro hop
+      this.audio.playJump();
+    } else if (id === "airdrop_hunt") {
+      this.isBoatRacing = true;
+      this.boatRaceCountdown = 3.6;
+      this.lastCountdownNumber = 4;
+      this.playerCurrentLap = 1;
+      this.playerTotalLaps = 2;
+      this.npcCurrentLap = 1;
+      this.npcFinished = false;
+      this.playerCurrentWpIdx = 1;
+      this.npcCurrentWpIdx = 1;
+      this.playerPos.set(33.5, 0.05, -52);
+      this.playerRotY = 0; // Directly face North towards WP 1!
+      this.playerVel.set(0, 0, 0);
+      this.currentSpeed = 0;
+      this.jumpCount = 0;
+      this.prevJumpInput = false;
+      this.cameraOrbitYaw = 0;
+      this.cameraOrbitPitch = 0.05;
+      this.cameraDistanceScale = 1.0;
+      this.activeMinigame.currentLap = 1;
+      this.activeMinigame.totalLaps = 2;
+      this.activeMinigame.racePosition = 1;
+      this.activeMinigame.raceProgressPct = 0;
+      this.activeMinigame.raceRingsCollected = 0;
+      this.activeMinigame.raceTotalRings = 20;
+      this.activeMinigame.raceCountdown = 3;
+      this.activeMinigame.lapNotification = undefined;
+      this.activeMinigame.nextTurnGuide = "▲ LURUS (Selat Barat Terbuka)";
+      this.audio.playChime();
+
+      // Hide stationary quest giver NPC on the island so Captain Jax is exclusively on the speedboat!
+      const jaxNPC = this.npcMeshMap.get("jax");
+      if (jaxNPC) {
+        jaxNPC.group.visible = false;
+      }
+    } else {
+      this.audio.playBoost();
+    }
+
     this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
   }
 
   public cancelMinigame() {
+    if (this.isMarioCourseActive) {
+      this.playerPos.set(-48, 5.8, 54);
+      this.playerVel.set(0, 0, 0);
+      this.currentSpeed = 0;
+    }
+    if (this.isBoatRacing) {
+      this.playerPos.set(74, 7.8, -58); // Teleport back to center of Battle Royale Island!
+      this.playerVel.set(0, 0, 0);
+      this.currentSpeed = 0;
+      this.jumpCount = 0;
+    }
     this.cleanupMinigame();
     this.activeMinigame = null;
     this.callbacks.onMinigameUpdate?.(null);
@@ -2987,6 +3285,52 @@ export class WorldEngine {
       this.scene.remove(t.mesh);
     });
     this.minigameTargets = [];
+
+    if (this.marioSpawnedCourseGroup) {
+      this.scene.remove(this.marioSpawnedCourseGroup);
+      this.marioSpawnedCourseGroup = null;
+    }
+    this.marioPlatforms = [];
+    this.marioQuestionBlocks = [];
+    this.marioFlagPole = null;
+    if (this.marioConfettiParticles) {
+      this.scene.remove(this.marioConfettiParticles);
+      this.marioConfettiParticles = null;
+    }
+    this.isMarioCourseActive = false;
+    this.isMarioWarping = false;
+
+    // Boat Race cleanup
+    if (this.playerBoatGroup) {
+      this.playerGroup.remove(this.playerBoatGroup);
+      this.playerBoatGroup = null;
+    }
+    this.playerBoatPropellers = [];
+    if (this.npcBoatGroup) {
+      this.scene.remove(this.npcBoatGroup);
+      this.npcBoatGroup = null;
+    }
+    this.npcBoatPropellers = [];
+    this.npcBoatNameplate = null;
+    if (this.boatRaceCourseGroup) {
+      this.scene.remove(this.boatRaceCourseGroup);
+      this.boatRaceCourseGroup = null;
+    }
+    this.boatRaceRings = [];
+    this.boatRaceObstacles = [];
+    this.boatRaceWaypoints = [];
+    this.boatRaceFinishGate = null;
+    this.isBoatRacing = false;
+    if (this.catMeshGroup) {
+      this.catMeshGroup.position.set(0, 0, 0);
+      this.catMeshGroup.rotation.set(0, 0, 0);
+    }
+
+    // Restore stationary Captain Jax NPC on Battle Royale island
+    const jaxNPC = this.npcMeshMap.get("jax");
+    if (jaxNPC) {
+      jaxNPC.group.visible = true;
+    }
   }
 
   private setupMinigameObjects(id: string) {
@@ -3184,111 +3528,1276 @@ export class WorldEngine {
         });
       });
     } else if (id === "airdrop_hunt") {
-      // 3 Falling Military Airdrop Supply Crates descending from sky with parachutes
-      const dropCoords: [number, number, number][] = [
-        [61, 7.8, -70],
-        [82, 7.8, -54],
-        [74, 7.8, -74],
-      ];
+      this.setupBoatRaceCourse();
+    } else if (id === "hex_mario_run") {
+      this.setupMarioCourse();
+    }
+  }
 
-      dropCoords.forEach(([x, groundY, z], idx) => {
-        const group = new THREE.Group();
-        const startY = groundY + 14.0 + idx * 3.5;
-        group.position.set(x, startY, z);
+  private buildSpeedboatMesh(colorTheme: "player" | "rival"): { group: THREE.Group; propellers: THREE.Mesh[] } {
+    const group = new THREE.Group();
+    const isPlayer = colorTheme === "player";
+    const hullColor = isPlayer ? 0x0284c7 : 0xdc2626; // Cyan vs Crimson
+    const bottomColor = isPlayer ? 0x0f172a : 0x18181b; // Navy vs Graphite
+    const stripeColor = isPlayer ? 0xfacc15 : 0xffffff; // Gold vs White
 
-        // 1. Reinforced Military Supply Crate
-        const crateMat = new THREE.MeshStandardMaterial({
-          color: 0xb91c1c,
-          metalness: 0.5,
-          roughness: 0.4,
-        });
-        const crate = new THREE.Mesh(new THREE.BoxGeometry(1.6, 1.5, 1.6), crateMat);
-        crate.position.y = 0.75;
-        group.add(crate);
+    // 1. Lower Hull (V-keel cutting through water)
+    const hullMat = new THREE.MeshStandardMaterial({
+      color: bottomColor,
+      roughness: 0.35,
+      metalness: 0.4,
+    });
+    const bottomHull = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.7, 0.55, 3.8, 8),
+      hullMat
+    );
+    bottomHull.rotation.x = Math.PI / 2;
+    bottomHull.scale.set(1.1, 1.0, 0.55);
+    bottomHull.position.set(0, 0.08, 0);
+    group.add(bottomHull);
 
-        // Steel protective roll-cage edge frame
-        const frameMat = new THREE.MeshStandardMaterial({ color: 0x0f172a, metalness: 0.8 });
-        const frame = new THREE.Mesh(new THREE.BoxGeometry(1.68, 0.25, 1.68), frameMat);
-        frame.position.y = 0.75;
-        group.add(frame);
+    // 2. Bow Wedge (Tapered nose slicing forward)
+    const bowMat = new THREE.MeshStandardMaterial({
+      color: hullColor,
+      roughness: 0.25,
+      metalness: 0.5,
+    });
+    const bowGeo = new THREE.ConeGeometry(0.85, 1.8, 4);
+    bowGeo.rotateY(Math.PI / 4);
+    bowGeo.rotateX(-Math.PI / 2);
+    const bow = new THREE.Mesh(bowGeo, bowMat);
+    bow.scale.set(1.15, 0.5, 1.0);
+    bow.position.set(0, 0.22, -1.9);
+    group.add(bow);
 
-        // 2. Billowing Fabric Parachute Canopy
-        const chuteMat = new THREE.MeshStandardMaterial({
-          color: 0x38bdf8,
-          side: THREE.DoubleSide,
-          roughness: 0.65,
-        });
-        const chute = new THREE.Mesh(
-          new THREE.SphereGeometry(2.4, 16, 12, 0, Math.PI * 2, 0, Math.PI / 2),
-          chuteMat
-        );
-        chute.position.y = 4.8;
-        group.add(chute);
+    // 3. Main Deck Body
+    const deckGeo = new THREE.BoxGeometry(1.65, 0.42, 2.8);
+    const deckMesh = new THREE.Mesh(deckGeo, bowMat);
+    deckMesh.position.set(0, 0.22, 0.3);
+    group.add(deckMesh);
 
-        // Parachute suspension cords (4 thin lines connecting chute to crate corners)
-        const cordMat = new THREE.LineBasicMaterial({ color: 0xffffff });
-        for (const [cx, cz] of [[0.7, 0.7], [-0.7, 0.7], [0.7, -0.7], [-0.7, -0.7]]) {
-          const cordGeo = new THREE.BufferGeometry().setFromPoints([
-            new THREE.Vector3(cx, 1.5, cz),
-            new THREE.Vector3(cx * 2.2, 4.7, cz * 2.2),
-          ]);
-          group.add(new THREE.Line(cordGeo, cordMat));
+    // 4. Racing Stripe
+    const stripeMat = new THREE.MeshStandardMaterial({
+      color: stripeColor,
+      roughness: 0.3,
+      metalness: 0.6,
+    });
+    const stripeMesh = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.05, 4.4), stripeMat);
+    stripeMesh.position.set(0, 0.44, -0.4);
+    group.add(stripeMesh);
+
+    // 5. Cockpit Recess
+    const cockpitMat = new THREE.MeshStandardMaterial({
+      color: 0x1e293b,
+      roughness: 0.7,
+    });
+    const cockpit = new THREE.Mesh(new THREE.BoxGeometry(1.25, 0.3, 1.6), cockpitMat);
+    cockpit.position.set(0, 0.28, 0.1);
+    group.add(cockpit);
+
+    // Dashboard & Steering Wheel
+    const dash = new THREE.Mesh(
+      new THREE.BoxGeometry(1.1, 0.35, 0.25),
+      new THREE.MeshStandardMaterial({ color: 0x334155, roughness: 0.4 })
+    );
+    dash.position.set(0, 0.45, -0.65);
+    group.add(dash);
+
+    const wheel = new THREE.Mesh(
+      new THREE.TorusGeometry(0.2, 0.035, 8, 16),
+      new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.5 })
+    );
+    wheel.rotation.x = Math.PI / 4;
+    wheel.position.set(0, 0.55, -0.55);
+    group.add(wheel);
+
+    // 6. Tinted Windshield
+    const windshieldMat = new THREE.MeshStandardMaterial({
+      color: 0x38bdf8,
+      transparent: true,
+      opacity: 0.65,
+      roughness: 0.1,
+      metalness: 0.9,
+    });
+    const windshield = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.85, 0.95, 0.45, 12, 1, false, Math.PI, Math.PI),
+      windshieldMat
+    );
+    windshield.rotation.y = -Math.PI / 2;
+    windshield.position.set(0, 0.62, -0.7);
+    group.add(windshield);
+
+    // 7. Twin Chrome Outboard Marine Engines at Stern
+    const engineMat = new THREE.MeshStandardMaterial({
+      color: bottomColor,
+      metalness: 0.8,
+      roughness: 0.25,
+    });
+    const chromeMat = new THREE.MeshStandardMaterial({
+      color: 0xe2e8f0,
+      metalness: 0.95,
+      roughness: 0.1,
+    });
+    const propMat = new THREE.MeshStandardMaterial({
+      color: 0xd97706, // Bronze propeller
+      metalness: 0.85,
+      roughness: 0.2,
+    });
+
+    const propellers: THREE.Mesh[] = [];
+
+    for (const side of [-0.48, 0.48]) {
+      const motorGroup = new THREE.Group();
+      motorGroup.position.set(side, 0.2, 1.85);
+
+      // Engine Cowling
+      const cowl = new THREE.Mesh(new THREE.BoxGeometry(0.35, 0.6, 0.45), engineMat);
+      cowl.position.set(0, 0.2, 0);
+      motorGroup.add(cowl);
+
+      // Chrome top cover
+      const cowlTop = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.18, 0.36, 10), chromeMat);
+      cowlTop.rotation.z = Math.PI / 2;
+      cowlTop.position.set(0, 0.52, 0);
+      motorGroup.add(cowlTop);
+
+      // Shaft down into water
+      const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.05, 0.6, 8), chromeMat);
+      shaft.position.set(0, -0.22, 0.05);
+      motorGroup.add(shaft);
+
+      // Propeller Hub
+      const propHub = new THREE.Mesh(new THREE.ConeGeometry(0.07, 0.18, 8), chromeMat);
+      propHub.rotation.x = -Math.PI / 2;
+      propHub.position.set(0, -0.42, 0.18);
+      motorGroup.add(propHub);
+
+      // Propeller Blades (3 blades)
+      const propGroup = new THREE.Group();
+      propGroup.position.set(0, -0.42, 0.14);
+      for (let b = 0; b < 3; b++) {
+        const blade = new THREE.Mesh(new THREE.BoxGeometry(0.04, 0.22, 0.02), propMat);
+        blade.rotation.z = (b * Math.PI * 2) / 3;
+        blade.position.y = 0.08 * Math.cos((b * Math.PI * 2) / 3);
+        blade.position.x = 0.08 * Math.sin((b * Math.PI * 2) / 3);
+        propGroup.add(blade);
+      }
+      motorGroup.add(propGroup);
+      propellers.push(propGroup as any);
+
+      group.add(motorGroup);
+    }
+
+    // 8. Rival Jax 3D Pilot Model (if rival boat)
+    if (!isPlayer) {
+      const jaxGroup = new THREE.Group();
+      jaxGroup.position.set(0, 0.35, -0.1);
+
+      // Torso with orange life vest
+      const vestMat = new THREE.MeshStandardMaterial({ color: 0xf97316, roughness: 0.5 });
+      const vest = new THREE.Mesh(new THREE.BoxGeometry(0.48, 0.48, 0.35), vestMat);
+      vest.position.y = 0.24;
+      jaxGroup.add(vest);
+
+      // Head with tactical ranger cap
+      const skinMat = new THREE.MeshStandardMaterial({ color: 0xffedd5, roughness: 0.6 });
+      const head = new THREE.Mesh(new THREE.SphereGeometry(0.18, 12, 12), skinMat);
+      head.position.y = 0.62;
+      jaxGroup.add(head);
+
+      const capMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.6 }); // Tactical green ranger cap
+      const cap = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.2, 0.1, 12), capMat);
+      cap.position.y = 0.74;
+      jaxGroup.add(cap);
+
+      const visor = new THREE.Mesh(new THREE.BoxGeometry(0.25, 0.03, 0.15), capMat);
+      visor.position.set(0, 0.72, -0.15);
+      jaxGroup.add(visor);
+
+      // Aviator sunglasses
+      const shadesMat = new THREE.MeshStandardMaterial({ color: 0x0f172a, metalness: 0.9, roughness: 0.1 });
+      const shades = new THREE.Mesh(new THREE.BoxGeometry(0.24, 0.06, 0.05), shadesMat);
+      shades.position.set(0, 0.64, -0.17);
+      jaxGroup.add(shades);
+
+      // Arms gripping helm
+      const armMat = new THREE.MeshStandardMaterial({ color: 0x15803d, roughness: 0.6 });
+      for (const side of [-0.26, 0.26]) {
+        const arm = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 0.36, 8), armMat);
+        arm.position.set(side, 0.3, -0.2);
+        arm.rotation.x = Math.PI / 3;
+        arm.rotation.z = side * 0.2;
+        jaxGroup.add(arm);
+      }
+
+      // 9. Floating 3D Overhead Nameplate for Captain Jax
+      const nameplateCanvas = document.createElement("canvas");
+      nameplateCanvas.width = 384;
+      nameplateCanvas.height = 96;
+      const npCtx = nameplateCanvas.getContext("2d");
+      if (npCtx) {
+        npCtx.fillStyle = "rgba(15, 23, 42, 0.92)";
+        npCtx.beginPath();
+        npCtx.roundRect(8, 8, 368, 80, 20);
+        npCtx.fill();
+        npCtx.lineWidth = 4;
+        npCtx.strokeStyle = "#facc15";
+        npCtx.stroke();
+        npCtx.fillStyle = "#ffffff";
+        npCtx.font = "bold 32px sans-serif";
+        npCtx.textAlign = "center";
+        npCtx.textBaseline = "middle";
+        npCtx.fillText("🛥️ KAPTEN JAX", 192, 48);
+      }
+      const npTex = new THREE.CanvasTexture(nameplateCanvas);
+      const npMesh = new THREE.Mesh(
+        new THREE.PlaneGeometry(2.6, 0.65),
+        new THREE.MeshBasicMaterial({ map: npTex, transparent: true, side: THREE.DoubleSide })
+      );
+      npMesh.position.set(0, 2.3, 0);
+      group.add(npMesh);
+      this.npcBoatNameplate = npMesh;
+
+      group.add(jaxGroup);
+    }
+
+    return { group, propellers };
+  }
+
+  private setupBoatRaceCourse() {
+    this.boatRaceCourseGroup = new THREE.Group();
+
+    // 1. Grand Open-Sea Circuit Waypoints around entire Battle Royale Island (Farther out in deep ocean!)
+    this.boatRaceWaypoints = [
+      { pos: new THREE.Vector3(32, 0.05, -50), name: "Garis Start" },
+      { pos: new THREE.Vector3(32, 0.05, -95), name: "Selat Barat Terbuka" },
+      { pos: new THREE.Vector3(42, 0.05, -135), name: "Tanjung Barat Laut Samudra" },
+      { pos: new THREE.Vector3(75, 0.05, -145), name: "Tanjung Mercusuar Lepas Pantai" },
+      { pos: new THREE.Vector3(125, 0.05, -130), name: "Samudra Timur Laut Terbuka" },
+      { pos: new THREE.Vector3(148, 0.05, -80), name: "Selat Karang Timur Dalam" },
+      { pos: new THREE.Vector3(148, 0.05, -40), name: "Trek Samudra Timur" },
+      { pos: new THREE.Vector3(126, 0.05, -8), name: "Tanjung Tenggara Lepas Pantai" },
+      { pos: new THREE.Vector3(80, 0.05, -4), name: "Teluk Selatan Terbuka" },
+      { pos: new THREE.Vector3(46, 0.05, -14), name: "Kolong Jembatan Kayu" },
+      { pos: new THREE.Vector3(32, 0.05, -30), name: "Tikungan Terakhir Selat Luas" },
+      { pos: new THREE.Vector3(32, 0.05, -48), name: "Garis Finis Lepas Pantai" },
+    ];
+
+    // 2. Animated Floating Chevron Turn Guidance Arrows pointing accurately towards next waypoint
+    const chevronMat = new THREE.MeshStandardMaterial({
+      color: 0xfacc15,
+      emissive: 0xfacc15,
+      emissiveIntensity: 2.2,
+      roughness: 0.1,
+    });
+
+    const bendIndices = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    bendIndices.forEach((idx) => {
+      const currWp = this.boatRaceWaypoints[idx];
+      const nextWp = this.boatRaceWaypoints[idx + 1];
+      if (!currWp || !nextWp) return;
+
+      const g = new THREE.Group();
+      g.position.set(currWp.pos.x, 0.75, currWp.pos.z);
+
+      // Buoy float base
+      const buoy = new THREE.Mesh(
+        new THREE.CylinderGeometry(0.8, 1.0, 0.4, 12),
+        new THREE.MeshStandardMaterial({ color: 0x0f172a, roughness: 0.5 })
+      );
+      buoy.position.y = -0.15;
+      g.add(buoy);
+
+      // Yellow safety ring
+      const ringMesh = new THREE.Mesh(
+        new THREE.TorusGeometry(0.85, 0.08, 8, 16),
+        new THREE.MeshStandardMaterial({ color: 0xfacc15, roughness: 0.3 })
+      );
+      ringMesh.rotation.x = Math.PI / 2;
+      g.add(ringMesh);
+
+      // 2 Glowing V-shaped chevrons pointing along local -Z
+      for (let c = 0; c < 2; c++) {
+        const zOff = (c - 0.5) * 0.9;
+        const armGeo = new THREE.BoxGeometry(0.14, 0.38, 0.75);
+        const leftArm = new THREE.Mesh(armGeo, chevronMat);
+        leftArm.position.set(-0.25, 0.45, zOff + 0.22);
+        leftArm.rotation.y = -Math.PI / 4;
+        g.add(leftArm);
+
+        const rightArm = new THREE.Mesh(armGeo, chevronMat);
+        rightArm.position.set(0.25, 0.45, zOff + 0.22);
+        rightArm.rotation.y = Math.PI / 4;
+        g.add(rightArm);
+      }
+
+      // In Three.js, lookAt rotates the object so that local -Z faces the target point!
+      g.lookAt(nextWp.pos.x, g.position.y, nextWp.pos.z);
+      this.boatRaceCourseGroup!.add(g);
+    });
+
+    // Nautical Fairway Channel Buoys (Red Port / Green Starboard with blinking beacons)
+    const buoyPairs: [number, number, number, number][] = [
+      [24, -72, 40, -72],
+      [24, -115, 42, -115],
+      [50, -150, 60, -134],
+      [100, -150, 100, -130],
+      [156, -105, 138, -112],
+      [158, -60, 138, -60],
+      [148, -14, 130, -28],
+      [105, 2, 105, -14],
+      [62, -2, 62, -18],
+      [24, -36, 40, -36],
+    ];
+
+    const buoyRedMat = new THREE.MeshStandardMaterial({ color: 0xef4444, roughness: 0.3 });
+    const buoyGreenMat = new THREE.MeshStandardMaterial({ color: 0x22c55e, roughness: 0.3 });
+    const buoyLightMat = new THREE.MeshBasicMaterial({ color: 0xfef08a });
+
+    buoyPairs.forEach(([rx, rz, gx, gz]) => {
+      // Red Buoy (Port / Outer)
+      const redBuoy = new THREE.Group();
+      redBuoy.position.set(rx, 0, rz);
+      const floatR = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 0.45, 1.2, 10), buoyRedMat);
+      floatR.position.y = 0.45;
+      redBuoy.add(floatR);
+      const lightR = new THREE.Mesh(new THREE.SphereGeometry(0.12, 8, 8), buoyLightMat);
+      lightR.position.y = 1.15;
+      redBuoy.add(lightR);
+      this.boatRaceCourseGroup!.add(redBuoy);
+
+      // Green Buoy (Starboard / Inner)
+      const greenBuoy = new THREE.Group();
+      greenBuoy.position.set(gx, 0, gz);
+      const floatG = new THREE.Mesh(new THREE.CylinderGeometry(0.35, 0.45, 1.2, 10), buoyGreenMat);
+      floatG.position.y = 0.45;
+      greenBuoy.add(floatG);
+      const lightG = new THREE.Mesh(new THREE.SphereGeometry(0.12, 8, 8), buoyLightMat);
+      lightG.position.y = 1.15;
+      greenBuoy.add(lightG);
+      this.boatRaceCourseGroup!.add(greenBuoy);
+    });
+
+    // 3. Golden Coin Boost Rings (10 rings placed across the open ocean, matching world coin material & shape!)
+    const ringCoords: [number, number, number, number][] = [
+      [32, 1.4, -72, 0],                        // Ring 1: Selat Barat Terbuka
+      [34, 1.4, -115, 0],                       // Ring 2: Tanjung Barat Laut Samudra
+      [55, 1.4, -142, -Math.PI / 4],            // Ring 3: Northern cape turn
+      [100, 1.4, -140, Math.PI / 4],            // Ring 4: North-East turn
+      [138, 1.4, -105, (2 * Math.PI) / 3],      // Ring 5: Eastern entrance
+      [148, 1.4, -60, Math.PI],                 // Ring 6: Eastern straightaway
+      [138, 1.4, -22, (3 * Math.PI) / 4],       // Ring 7: South-East cape
+      [105, 1.4, -6, -Math.PI / 2],             // Ring 8: Southern bay
+      [62, 1.4, -10, -Math.PI / 2],             // Ring 9: Approach to wooden bridge channel
+      [32, 1.4, -36, 0],                        // Ring 10: Final home stretch to finish line
+    ];
+
+    const ringMat = new THREE.MeshStandardMaterial({
+      color: 0xfacc15,
+      metalness: 0.9,
+      roughness: 0.15,
+      emissive: 0xca8a04,
+      emissiveIntensity: 0.6,
+    });
+
+    // IDENTICAL SHAPE AND MATERIAL AS WORLD COLLECTIBLE COINS
+    const ringCoinMat = new THREE.MeshStandardMaterial({
+      color: 0xfacc15,
+      emissive: 0xeab308,
+      emissiveIntensity: 0.65,
+      metalness: 0.9,
+      roughness: 0.1,
+    });
+
+    this.boatRaceRings = [];
+    ringCoords.forEach(([x, y, z, rotY]) => {
+      const ringGroup = new THREE.Group();
+      ringGroup.position.set(x, y, z);
+      ringGroup.rotation.y = rotY;
+
+      // Outer Torus Ring
+      const torus = new THREE.Mesh(new THREE.TorusGeometry(2.3, 0.22, 16, 32), ringMat);
+      ringGroup.add(torus);
+
+      // Inner Floating Rotating Coin (exact shape as world collectible coins)
+      const coinGeo = new THREE.CylinderGeometry(0.65, 0.65, 0.12, 16);
+      coinGeo.rotateX(Math.PI / 2);
+      const coin = new THREE.Mesh(coinGeo, ringCoinMat);
+      ringGroup.add(coin);
+
+      this.boatRaceCourseGroup!.add(ringGroup);
+      this.boatRaceRings.push({
+        mesh: ringGroup,
+        coinMesh: coin,
+        hit: false,
+        pos: new THREE.Vector3(x, y, z),
+      });
+    });
+
+    // 4. Floating Sea Obstacles (Hazard buoys in open water)
+    const obstacleCoords: [number, number][] = [
+      [26, -90],
+      [38, -140],
+      [75, -152],
+      [132, -140],
+      [156, -75],
+      [156, -30],
+      [120, -2],
+      [82, 4],
+      [26, -26],
+    ];
+
+    this.boatRaceObstacles = [];
+    const barrelMat = new THREE.MeshStandardMaterial({
+      color: 0xef4444,
+      roughness: 0.4,
+      metalness: 0.3,
+    });
+    const stripeHazardMat = new THREE.MeshStandardMaterial({ color: 0xfacc15, roughness: 0.3 });
+
+    obstacleCoords.forEach(([x, z]) => {
+      const obsGroup = new THREE.Group();
+      obsGroup.position.set(x, 0, z);
+
+      const barrel = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.5, 1.2, 12), barrelMat);
+      barrel.position.y = 0.45;
+      obsGroup.add(barrel);
+
+      const stripe1 = new THREE.Mesh(new THREE.CylinderGeometry(0.52, 0.52, 0.18, 12), stripeHazardMat);
+      stripe1.position.y = 0.55;
+      obsGroup.add(stripe1);
+
+      this.boatRaceCourseGroup!.add(obsGroup);
+      this.boatRaceObstacles.push({
+        mesh: obsGroup,
+        pos: new THREE.Vector3(x, 0, z),
+        radius: 1.1,
+      });
+    });
+
+    // 5. Grand Finish Arch Gate at (32, 0.05, -48) in open water
+    const gateGroup = new THREE.Group();
+    gateGroup.position.set(32, 0.05, -48);
+
+    const gatePylonMat = new THREE.MeshStandardMaterial({
+      color: 0x0f172a,
+      roughness: 0.4,
+      metalness: 0.7,
+    });
+    const gateCheckMat = new THREE.MeshStandardMaterial({
+      color: 0xffffff,
+      roughness: 0.2,
+      metalness: 0.3,
+    });
+
+    // Left & Right Floating Towers
+    for (const side of [-3.8, 3.8]) {
+      const pylon = new THREE.Mesh(new THREE.CylinderGeometry(0.4, 0.5, 6.0, 12), gatePylonMat);
+      pylon.position.set(side, 3.0, 0);
+      gateGroup.add(pylon);
+
+      // Checkered rings on pylons
+      for (let r = 0; r < 4; r++) {
+        const cRing = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.42, 0.4, 12), gateCheckMat);
+        cRing.position.set(side, 1.0 + r * 1.2, 0);
+        gateGroup.add(cRing);
+      }
+
+      // Strobe Light on top of tower
+      const strobe = new THREE.Mesh(
+        new THREE.SphereGeometry(0.3, 10, 10),
+        new THREE.MeshBasicMaterial({ color: 0x38bdf8 })
+      );
+      strobe.position.set(side, 6.2, 0);
+      gateGroup.add(strobe);
+    }
+
+    // Overhead Checkered Banner Truss
+    const truss = new THREE.Mesh(new THREE.BoxGeometry(8.2, 1.2, 0.35), gatePylonMat);
+    truss.position.set(0, 5.5, 0);
+    gateGroup.add(truss);
+
+    const bannerCanvas = document.createElement("canvas");
+    bannerCanvas.width = 512;
+    bannerCanvas.height = 128;
+    const bctx = bannerCanvas.getContext("2d");
+    if (bctx) {
+      bctx.fillStyle = "#0f172a";
+      bctx.fillRect(0, 0, 512, 128);
+      // Checkered borders
+      const cw = 32;
+      for (let row = 0; row < 2; row++) {
+        for (let col = 0; col < 16; col++) {
+          bctx.fillStyle = (row + col) % 2 === 0 ? "#ffffff" : "#000000";
+          bctx.fillRect(col * cw, row * 16, cw, 16);
+          bctx.fillRect(col * cw, 128 - 32 + row * 16, cw, 16);
+        }
+      }
+      bctx.fillStyle = "#facc15";
+      bctx.font = "900 48px sans-serif";
+      bctx.textAlign = "center";
+      bctx.textBaseline = "middle";
+      bctx.fillText("FINISH 🏁", 256, 64);
+    }
+    const bannerTex = new THREE.CanvasTexture(bannerCanvas);
+    const banner = new THREE.Mesh(
+      new THREE.PlaneGeometry(7.8, 1.0),
+      new THREE.MeshBasicMaterial({ map: bannerTex, side: THREE.DoubleSide })
+    );
+    banner.position.set(0, 5.5, 0.2);
+    gateGroup.add(banner);
+
+    this.boatRaceCourseGroup.add(gateGroup);
+    this.boatRaceFinishGate = {
+      archGroup: gateGroup,
+      pos: new THREE.Vector3(32, 0.05, -48),
+      triggered: false,
+    };
+
+    this.scene.add(this.boatRaceCourseGroup);
+
+    // 6. Build & Attach Player Speedboat
+    const playerBoat = this.buildSpeedboatMesh("player");
+    this.playerBoatGroup = playerBoat.group;
+    this.playerBoatPropellers = playerBoat.propellers;
+    this.playerGroup.add(this.playerBoatGroup);
+
+    // 7. Build Rival Jax Speedboat (starts alongside player facing North towards WP 1)
+    const rivalBoat = this.buildSpeedboatMesh("rival");
+    this.npcBoatGroup = rivalBoat.group;
+    this.npcBoatPropellers = rivalBoat.propellers;
+    this.npcBoatPos.set(30.5, 0.05, -52);
+    this.npcBoatRotY = 0; // Facing North towards WP 1!
+    this.npcBoatGroup.position.copy(this.npcBoatPos);
+    this.npcBoatGroup.rotation.y = this.npcBoatRotY;
+    this.npcBoatSpeed = 0;
+    this.npcCurrentWpIdx = 1;
+    this.npcCurrentLap = 1;
+    this.npcFinished = false;
+    this.npcTotalDistance = 0;
+    this.playerTotalDistance = 0;
+    this.scene.add(this.npcBoatGroup);
+  }
+
+  private updateBoatRace(delta: number, time: number) {
+    if (!this.activeMinigame || this.activeMinigame.id !== "airdrop_hunt") return;
+
+    // 0. RACE COUNTDOWN (3... 2... 1... GO!)
+    if (this.boatRaceCountdown > -1.2) {
+      this.boatRaceCountdown -= delta;
+      const countNum = Math.ceil(this.boatRaceCountdown);
+      if (countNum > 0) {
+        if (countNum !== this.lastCountdownNumber) {
+          this.lastCountdownNumber = countNum;
+          this.audio.playChime();
+        }
+        this.activeMinigame.raceCountdown = countNum;
+        // Lock boats securely at open-sea start line
+        this.currentSpeed = 0;
+        this.playerVel.set(0, 0, 0);
+        this.playerPos.set(33.5, 0.05, -52);
+        this.playerRotY = 0;
+        this.playerGroup.position.copy(this.playerPos);
+        this.playerGroup.rotation.y = this.playerRotY;
+        if (this.npcBoatGroup) {
+          this.npcBoatSpeed = 0;
+          this.npcBoatPos.set(30.5, 0.05, -52);
+          this.npcBoatRotY = 0;
+          this.npcBoatGroup.position.copy(this.npcBoatPos);
+          this.npcBoatGroup.rotation.y = this.npcBoatRotY;
+        }
+        this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+        return; // Pause race action and timer during countdown!
+      } else if (this.boatRaceCountdown > -1.0) {
+        // "GO! 🚀" Trigger
+        if (this.lastCountdownNumber !== 0) {
+          this.lastCountdownNumber = 0;
+          this.audio.playBoost();
+          // Instant green-light launch surge so Jax roars forward alongside player!
+          this.npcBoatSpeed = 14.5;
+        }
+        this.activeMinigame.raceCountdown = 0;
+      } else {
+        // Dismiss countdown overlay
+        this.activeMinigame.raceCountdown = undefined;
+      }
+    }
+
+    // Orient Captain Jax overhead billboard nameplate towards player camera
+    if (this.npcBoatNameplate) {
+      this.npcBoatNameplate.lookAt(this.camera.position);
+    }
+
+    // 1. Animate Course Elements (Rings bobbing, coins spinning)
+    for (let i = 0; i < this.boatRaceRings.length; i++) {
+      const ring = this.boatRaceRings[i];
+      if (!ring.hit) {
+        ring.mesh.position.y = ring.pos.y + Math.sin(time * 3.0 + i) * 0.15;
+        if (ring.coinMesh) {
+          ring.coinMesh.rotation.z = time * 3.5;
         }
 
-        // 3. Ground Signal Smoke Flare marking drop zone
-        const flareGroup = new THREE.Group();
-        flareGroup.position.set(x, groundY, z);
+        // Collision with player boat
+        const d = this.playerPos.distanceTo(ring.pos);
+        if (d < 3.8) {
+          ring.hit = true;
+          ring.coinMesh.visible = false;
+          // Flare effect on ring
+          const torusMesh = ring.mesh.children[0] as THREE.Mesh;
+          if (torusMesh) {
+            torusMesh.scale.set(1.4, 1.4, 1.4);
+            setTimeout(() => {
+              if (torusMesh) torusMesh.scale.set(1.0, 1.0, 1.0);
+            }, 300);
+          }
 
-        const canister = new THREE.Mesh(
-          new THREE.CylinderGeometry(0.18, 0.18, 0.6, 10),
-          new THREE.MeshStandardMaterial({ color: 0xfacc15, roughness: 0.3 })
-        );
-        canister.position.y = 0.3;
-        flareGroup.add(canister);
+          this.audio.playCoin();
+          this.audio.playBoost();
+          this.coinsCollected++;
+          this.callbacks.onCoinsUpdate?.(this.coinsCollected, this.totalCoins);
 
-        const smokeColumn = new THREE.Mesh(
-          new THREE.CylinderGeometry(0.4, 1.2, 18, 12, 1, true),
-          new THREE.MeshBasicMaterial({
-            color: 0xfacc15,
-            transparent: true,
-            opacity: 0.45,
-            side: THREE.DoubleSide,
-          })
-        );
-        smokeColumn.position.y = 9.0;
-        flareGroup.add(smokeColumn);
-        this.scene.add(flareGroup);
+          // Boost speed surge!
+          this.nitro = Math.min(100, this.nitro + 35);
+          this.currentSpeed = Math.min(24.0, this.currentSpeed + 4.5);
 
-        this.scene.add(group);
-
-        let currentY = startY;
-        const targetEntry = {
-          mesh: group,
-          hit: false,
-          radius: 2.8,
-          pos: new THREE.Vector3(x, currentY, z),
-          type: "airdrop_crate" as const,
-          update: (delta: number, time: number) => {
-            if (currentY > groundY) {
-              currentY = Math.max(groundY, currentY - 3.2 * delta);
-              group.position.y = currentY;
-              group.position.x = x + Math.sin(time * 2.0 + idx) * 0.35;
-              group.rotation.z = Math.sin(time * 1.8 + idx) * 0.08;
-              targetEntry.pos.set(group.position.x, currentY, z);
-            } else {
-              chute.scale.set(0.8, 0.3, 0.8);
-              chute.position.y = 1.8;
-            }
-          },
-          onHit: () => {
-            this.scene.remove(flareGroup);
-            this.audio.playCoin();
-            this.audio.playBoost();
-          },
-        };
-        this.minigameTargets.push(targetEntry);
-      });
+          this.activeMinigame.raceRingsCollected = (this.activeMinigame.raceRingsCollected || 0) + 1;
+        }
+      }
     }
+
+    // 2. Obstacle Collisions
+    for (const obs of this.boatRaceObstacles) {
+      const d = Math.hypot(this.playerPos.x - obs.pos.x, this.playerPos.z - obs.pos.z);
+      if (d < obs.radius + 0.9) {
+        if (this.currentSpeed > 4.0) {
+          this.currentSpeed = 3.5; // Slam brakes / knockback on impact
+          this.audio.playSplash();
+        }
+      }
+    }
+
+    // 3. Rival Jax AI Navigation (Across 2 Laps)
+    if (this.npcBoatGroup && this.boatRaceWaypoints.length > 0) {
+      if (this.npcFinished) {
+        // Jax already finished: continue cruising smoothly at gentle celebration speed (never stop dead!)
+        this.npcBoatSpeed = THREE.MathUtils.lerp(this.npcBoatSpeed, 7.5, 1.2 * delta);
+        this.npcBoatPos.x += -Math.sin(this.npcBoatRotY) * this.npcBoatSpeed * delta;
+        this.npcBoatPos.z += -Math.cos(this.npcBoatRotY) * this.npcBoatSpeed * delta;
+        this.npcBoatGroup.position.copy(this.npcBoatPos);
+        for (const prop of this.npcBoatPropellers) {
+          prop.rotation.z += (this.npcBoatSpeed * 4.5 + 8.0) * delta;
+        }
+      } else {
+        const targetWp = this.boatRaceWaypoints[this.npcCurrentWpIdx];
+        const dx = targetWp.pos.x - this.npcBoatPos.x;
+        const dz = targetWp.pos.z - this.npcBoatPos.z;
+        const distToWp = Math.hypot(dx, dz);
+
+        // Advance WP / Lap for Jax (generous 16m radius so Jax flows smoothly through turns)
+        if (distToWp < 16.0) {
+          if (this.npcCurrentWpIdx < this.boatRaceWaypoints.length - 1) {
+            this.npcCurrentWpIdx++;
+          } else {
+            // Reached finish line of current lap
+            if (this.npcCurrentLap < this.playerTotalLaps) {
+              this.npcCurrentLap++;
+              this.npcCurrentWpIdx = 1;
+            } else {
+              // Jax finished the entire race!
+              this.npcFinished = true;
+              if (this.activeMinigame && this.activeMinigame.status === "playing") {
+                this.activeMinigame.racePosition = 2; // Jax finished first, player is in 2nd!
+              }
+            }
+          }
+        }
+
+        // Steer towards target waypoint
+        const targetAngle = Math.atan2(-dx, -dz);
+        let angleDiff = targetAngle - this.npcBoatRotY;
+        while (angleDiff > Math.PI) angleDiff -= Math.PI * 2;
+        while (angleDiff < -Math.PI) angleDiff += Math.PI * 2;
+
+        this.npcBoatRotY += THREE.MathUtils.clamp(angleDiff, -3.5 * delta, 3.5 * delta);
+
+        // Dynamic Competitive AI Regulation (Rubber-banding)
+        // Keep the race close and thrilling: if Jax pulls ahead, he moderates; if behind, he pushes hard!
+        const totalWpsPerLap = this.boatRaceWaypoints.length - 1;
+        const playerTotalWps = (this.playerCurrentLap - 1) * totalWpsPerLap + (this.playerCurrentWpIdx - 1);
+        const npcTotalWps = (this.npcCurrentLap - 1) * totalWpsPerLap + (this.npcCurrentWpIdx - 1);
+        const wpDiff = npcTotalWps - playerTotalWps;
+
+        const isSharpTurn = Math.abs(angleDiff) > 0.45;
+        let targetNpcSpeed = isSharpTurn ? 11.5 : 14.8;
+
+        if (wpDiff > 0) {
+          // Jax is ahead: tone down speed slightly so player can duel and overtake
+          targetNpcSpeed = Math.max(11.0, targetNpcSpeed - 2.2);
+        } else if (wpDiff < 0) {
+          // Jax is behind: apply boost to catch up and challenge player
+          targetNpcSpeed = Math.min(17.5, targetNpcSpeed + 2.5);
+        }
+
+        this.npcBoatSpeed = THREE.MathUtils.lerp(this.npcBoatSpeed, targetNpcSpeed, 3.0 * delta);
+
+        this.npcBoatPos.x += -Math.sin(this.npcBoatRotY) * this.npcBoatSpeed * delta;
+        this.npcBoatPos.z += -Math.cos(this.npcBoatRotY) * this.npcBoatSpeed * delta;
+        this.npcBoatPos.y = 0.05 + Math.sin(time * 3.8 + 1.0) * 0.04;
+
+        this.npcBoatGroup.position.copy(this.npcBoatPos);
+        this.npcBoatGroup.rotation.y = this.npcBoatRotY;
+        this.npcBoatGroup.rotation.z = -angleDiff * 0.35;
+        this.npcBoatGroup.rotation.x = Math.max(0, this.npcBoatSpeed / 15.2) * 0.1;
+
+        // Spin Jax propellers
+        for (const prop of this.npcBoatPropellers) {
+          prop.rotation.z += (this.npcBoatSpeed * 4.5 + 8.0) * delta;
+        }
+      }
+    }
+
+    // 4. Sequential Circuit Progress & Dynamic Relative Turn Guidance (Across 2 Laps)
+    if (this.boatRaceWaypoints.length > 0) {
+      const targetWp = this.boatRaceWaypoints[this.playerCurrentWpIdx];
+      const dx = targetWp.pos.x - this.playerPos.x;
+      const dz = targetWp.pos.z - this.playerPos.z;
+      const distToWp = Math.hypot(dx, dz);
+
+      // Advance player waypoint when within passing distance
+      if (distToWp < 18.0 && this.playerCurrentWpIdx < this.boatRaceWaypoints.length - 1) {
+        this.playerCurrentWpIdx++;
+      }
+
+      // Compute dynamic heading angle relative to current boat heading
+      const currentTargetWp = this.boatRaceWaypoints[this.playerCurrentWpIdx];
+      const tdx = currentTargetWp.pos.x - this.playerPos.x;
+      const tdz = currentTargetWp.pos.z - this.playerPos.z;
+      const targetAngle = Math.atan2(-tdx, -tdz);
+      let angleDiff = targetAngle - this.playerRotY;
+      while (angleDiff > Math.PI) angleDiff -= Math.PI * 2;
+      while (angleDiff < -Math.PI) angleDiff += Math.PI * 2;
+
+      let guideDir = "▲ LURUS";
+      if (angleDiff < -0.32) {
+        guideDir = "➔ BELOK KANAN";
+      } else if (angleDiff > 0.32) {
+        guideDir = "⬅ BELOK KIRI";
+      }
+      this.activeMinigame.nextTurnGuide = `${guideDir} (${currentTargetWp.name})`;
+      this.activeMinigame.currentLap = this.playerCurrentLap;
+      this.activeMinigame.totalLaps = this.playerTotalLaps;
+
+      // 2-Lap Circuit Progress Calculation
+      const totalWpsPerLap = this.boatRaceWaypoints.length - 1;
+      const playerTotalWps = (this.playerCurrentLap - 1) * totalWpsPerLap + (this.playerCurrentWpIdx - 1);
+      const npcTotalWps = (this.npcCurrentLap - 1) * totalWpsPerLap + (this.npcCurrentWpIdx - 1);
+      const maxRaceWps = this.playerTotalLaps * totalWpsPerLap;
+
+      const wpDistNorm = Math.max(0, 1 - Math.min(36, Math.hypot(tdx, tdz)) / 36);
+      const playerProgress = Math.min(1.0, (playerTotalWps + wpDistNorm) / maxRaceWps);
+      this.activeMinigame.raceProgressPct = Math.round(playerProgress * 100);
+
+      // Live position (1st vs 2nd, strictly tracking Jax's finish)
+      if (this.npcFinished) {
+        this.activeMinigame.racePosition = 2;
+      } else if (playerTotalWps > npcTotalWps) {
+        this.activeMinigame.racePosition = 1;
+      } else if (playerTotalWps < npcTotalWps) {
+        this.activeMinigame.racePosition = 2;
+      } else {
+        const playerDist = Math.hypot(tdx, tdz);
+        const npcDist = Math.hypot(currentTargetWp.pos.x - this.npcBoatPos.x, currentTargetWp.pos.z - this.npcBoatPos.z);
+        this.activeMinigame.racePosition = playerDist <= npcDist ? 1 : 2;
+      }
+
+      // Live Jax distance readout
+      const dJax = Math.hypot(this.playerPos.x - this.npcBoatPos.x, this.playerPos.z - this.npcBoatPos.z);
+      const jaxDistRound = Math.round(dJax);
+      if (this.activeMinigame.racePosition === 1) {
+        this.activeMinigame.npcDistanceText = `Jax: -${jaxDistRound}m (Belakang)`;
+      } else {
+        this.activeMinigame.npcDistanceText = `Jax: +${jaxDistRound}m (Depan)`;
+      }
+    }
+
+    // 5. Finish Gate Crossing Check (Lap Transition & Grand Finish)
+    if (this.boatRaceFinishGate && this.activeMinigame.status === "playing") {
+      const dFinish = this.playerPos.distanceTo(this.boatRaceFinishGate.pos);
+      if (dFinish < 9.5 && this.playerCurrentWpIdx >= this.boatRaceWaypoints.length - 2) {
+        if (this.playerCurrentLap < this.playerTotalLaps) {
+          // LAP 1 COMPLETED -> ENTER FINAL LAP 2!
+          this.playerCurrentLap++;
+          this.playerCurrentWpIdx = 1;
+          this.activeMinigame.currentLap = this.playerCurrentLap;
+          this.activeMinigame.lapNotification = "🏁 PUTARAN TERAKHIR! (LAP 2/2)";
+          this.audio.playChime();
+          this.audio.playBoost();
+
+          // Respawn rings for Lap 2 so player can collect coins again
+          for (const ring of this.boatRaceRings) {
+            ring.hit = false;
+            ring.coinMesh.visible = true;
+          }
+
+          setTimeout(() => {
+            if (this.activeMinigame) {
+              this.activeMinigame.lapNotification = undefined;
+            }
+          }, 3500);
+        } else if (!this.boatRaceFinishGate.triggered) {
+          // LAP 2 COMPLETED -> GRAND FINISH!
+          this.boatRaceFinishGate.triggered = true;
+
+          const isPlayerFirst = !this.npcFinished && this.activeMinigame.racePosition === 1;
+
+          if (isPlayerFirst) {
+            // JUARA 1 -> WON & AWARD +15 PRIZE COINS!
+            this.activeMinigame.racePosition = 1;
+            this.activeMinigame.score = 1;
+            this.activeMinigame.status = "won";
+            this.audio.playVictory();
+            this.audio.playGoal();
+            this.coinsCollected += 15; // Prize coins only for 1st place!
+            this.callbacks.onCoinsUpdate?.(this.coinsCollected, this.totalCoins);
+            this.callbacks.onQuestProgress?.(this.activeMinigame.id);
+            this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+
+            setTimeout(() => {
+              if (this.activeMinigame?.status === "won") {
+                this.playerPos.set(74, 7.8, -58); // Teleport back to center of Battle Royale Island!
+                this.playerVel.set(0, 0, 0);
+                this.currentSpeed = 0;
+                this.cleanupMinigame();
+                this.activeMinigame = null;
+                this.callbacks.onMinigameUpdate?.(null);
+              }
+            }, 5000);
+            return;
+          } else {
+            // JUARA 2 / KALAH -> NO PRIZE COINS! Must win 1st to get coins.
+            this.activeMinigame.racePosition = 2;
+            this.activeMinigame.score = 0;
+            this.activeMinigame.status = "lost";
+            this.activeMinigame.loseReason = "second_place";
+            this.audio.playGameOver();
+            this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+
+            setTimeout(() => {
+              if (this.activeMinigame?.status === "lost") {
+                this.playerPos.set(74, 7.8, -58); // Teleport back to center of Battle Royale Island!
+                this.playerVel.set(0, 0, 0);
+                this.currentSpeed = 0;
+                this.cleanupMinigame();
+                this.activeMinigame = null;
+                this.callbacks.onMinigameUpdate?.(null);
+              }
+            }, 4500);
+            return;
+          }
+        }
+      }
+    }
+
+    this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+  }
+
+  private createMarioQuestionTexture(): THREE.CanvasTexture {
+    const canvas = document.createElement("canvas");
+    canvas.width = 128;
+    canvas.height = 128;
+    const ctx = canvas.getContext("2d");
+    if (ctx) {
+      ctx.fillStyle = "#f59e0b";
+      ctx.fillRect(0, 0, 128, 128);
+      ctx.lineWidth = 10;
+      ctx.strokeStyle = "#b45309";
+      ctx.strokeRect(5, 5, 118, 118);
+      ctx.fillStyle = "#78350f";
+      for (const [bx, by] of [[16, 16], [112, 16], [16, 112], [112, 112]]) {
+        ctx.beginPath();
+        ctx.arc(bx, by, 5, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "bold 80px sans-serif";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.shadowColor = "#78350f";
+      ctx.shadowBlur = 6;
+      ctx.fillText("?", 64, 66);
+    }
+    const tex = new THREE.CanvasTexture(canvas);
+    tex.colorSpace = THREE.SRGBColorSpace;
+    return tex;
+  }
+
+  private createMarioFlagTexture(): THREE.CanvasTexture {
+    const canvas = document.createElement("canvas");
+    canvas.width = 128;
+    canvas.height = 128;
+    const ctx = canvas.getContext("2d");
+    if (ctx) {
+      ctx.fillStyle = "#22c55e";
+      ctx.fillRect(0, 0, 128, 128);
+      ctx.lineWidth = 8;
+      ctx.strokeStyle = "#15803d";
+      ctx.strokeRect(4, 4, 120, 120);
+      ctx.fillStyle = "#ffffff";
+      ctx.beginPath();
+      ctx.arc(64, 64, 38, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.fillStyle = "#15803d";
+      ctx.font = "bold 46px sans-serif";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText("★", 64, 64);
+    }
+    const tex = new THREE.CanvasTexture(canvas);
+    tex.colorSpace = THREE.SRGBColorSpace;
+    return tex;
+  }
+
+  private setupMarioCourse() {
+    this.marioSpawnedCourseGroup = new THREE.Group();
+    this.marioPlatforms = [];
+    this.marioQuestionBlocks = [];
+    this.marioFlagPole = null;
+
+    const qTex = this.createMarioQuestionTexture();
+    const flagTex = this.createMarioFlagTexture();
+
+    // High quality non-flickering materials
+    const startMat = new THREE.MeshStandardMaterial({
+      color: 0x22c55e,
+      roughness: 0.35,
+      metalness: 0.1,
+    });
+    const stonePlatMat = new THREE.MeshStandardMaterial({
+      color: 0xd97706,
+      roughness: 0.4,
+      metalness: 0.15,
+    });
+    const movingPlatMatA = new THREE.MeshStandardMaterial({
+      color: 0x06b6d4,
+      emissive: 0x0891b2,
+      emissiveIntensity: 0.5,
+      roughness: 0.25,
+    });
+    const movingPlatMatB = new THREE.MeshStandardMaterial({
+      color: 0xf59e0b,
+      emissive: 0xd97706,
+      emissiveIntensity: 0.5,
+      roughness: 0.25,
+    });
+    const bounceMat = new THREE.MeshStandardMaterial({
+      color: 0xef4444,
+      emissive: 0xdc2626,
+      emissiveIntensity: 0.6,
+      roughness: 0.2,
+    });
+    const questionMat = new THREE.MeshStandardMaterial({
+      map: qTex,
+      emissive: 0xd97706,
+      emissiveIntensity: 0.25,
+      roughness: 0.3,
+    });
+
+    // Helper: Add solid box platform without overlapping coplanar trim (zero flickering!)
+    const addPlatform = (
+      x: number,
+      y: number,
+      z: number,
+      w: number,
+      h: number,
+      d: number,
+      mat: THREE.Material,
+      options?: {
+        isMoving?: boolean;
+        axis?: "x" | "y" | "z";
+        amp?: number;
+        speed?: number;
+      }
+    ) => {
+      const geo = new THREE.BoxGeometry(w, h, d);
+      const mesh = new THREE.Mesh(geo, mat);
+      mesh.castShadow = true;
+      mesh.receiveShadow = true;
+      mesh.position.set(x, y - h * 0.5, z);
+      this.marioSpawnedCourseGroup!.add(mesh);
+
+      // Support pillar below (strictly below platform bottom, zero Z-fighting!)
+      const pillarGeo = new THREE.CylinderGeometry(w * 0.32, w * 0.16, 3.2, 6);
+      const pillarMat = new THREE.MeshStandardMaterial({ color: 0x475569, roughness: 0.85 });
+      const pillar = new THREE.Mesh(pillarGeo, pillarMat);
+      pillar.position.set(0, -h * 0.5 - 1.6, 0);
+      mesh.add(pillar);
+
+      this.marioPlatforms.push({
+        x,
+        y,
+        z,
+        width: w,
+        depth: d,
+        isMoving: options?.isMoving,
+        axis: options?.axis,
+        amp: options?.amp,
+        speed: options?.speed,
+        basePos: new THREE.Vector3(x, y - h * 0.5, z),
+        mesh,
+      });
+
+      return mesh;
+    };
+
+    // Helper to spawn a question block with pop-up gold coin
+    const spawnQuestionBlock = (bx: number, by: number, bz: number) => {
+      const qGroup = new THREE.Group();
+      qGroup.position.set(bx, by, bz);
+      const bMesh = new THREE.Mesh(new THREE.BoxGeometry(1.2, 1.2, 1.2), questionMat);
+      bMesh.castShadow = true;
+      qGroup.add(bMesh);
+
+      const coinGeo = new THREE.CylinderGeometry(0.35, 0.35, 0.08, 16);
+      coinGeo.rotateZ(Math.PI / 2);
+      const coinMat = new THREE.MeshStandardMaterial({
+        color: 0xfacc15,
+        metalness: 0.9,
+        roughness: 0.1,
+        emissive: 0xeab308,
+        emissiveIntensity: 0.5,
+      });
+      const coinMesh = new THREE.Mesh(coinGeo, coinMat);
+      coinMesh.visible = false;
+      qGroup.add(coinMesh);
+
+      this.marioSpawnedCourseGroup!.add(qGroup);
+      this.marioQuestionBlocks.push({
+        mesh: qGroup,
+        basePos: new THREE.Vector3(bx, by, bz),
+        hit: false,
+        bounceTimer: 0,
+        coinMesh,
+        coinTimer: 0,
+      });
+    };
+
+    // Decal material with polygonOffset to guarantee zero Z-fighting
+    const createDecalMat = (color: number) => new THREE.MeshBasicMaterial({
+      color,
+      side: THREE.DoubleSide,
+      polygonOffset: true,
+      polygonOffsetFactor: -4,
+      polygonOffsetUnits: -4,
+      depthWrite: false,
+    });
+
+    // =========================================================================
+    // 16-PLATFORM EPIC RALLY TRACK
+    // =========================================================================
+
+    // Stage 0: Start Platform (Hex Bay Quay)
+    addPlatform(-48, 5.2, 54, 4.4, 0.8, 4.4, startMat);
+    const startRing = new THREE.Mesh(new THREE.RingGeometry(1.2, 1.6, 32), createDecalMat(0x4ade80));
+    startRing.rotation.x = -Math.PI / 2;
+    startRing.position.set(-48, 5.24, 54);
+    this.marioSpawnedCourseGroup.add(startRing);
+
+    // Stage 1: Stepping Stone 1
+    addPlatform(-52, 5.8, 60, 3.2, 0.8, 3.2, stonePlatMat);
+
+    // Stage 2: Stepping Stone 2 + Question Block 1 (Elevated to y=10.3, reachable with Double Jump!)
+    addPlatform(-56, 6.4, 66, 3.2, 0.8, 3.2, stonePlatMat);
+    spawnQuestionBlock(-55.2, 10.3, 65.5);
+
+    // Stage 3: Moving Horizontal Platform A (X oscillation across lagoon gap)
+    addPlatform(-61, 7.2, 72, 3.2, 0.6, 3.2, movingPlatMatA, {
+      isMoving: true,
+      axis: "x",
+      amp: 3.2,
+      speed: 1.6,
+    });
+
+    // Stage 4: Stone Island Step 4
+    addPlatform(-67, 7.8, 77, 3.4, 0.8, 3.4, stonePlatMat);
+
+    // Stage 5: Stone Island Step 5 + Question Block 2 (Elevated to y=12.3, reachable with Double Jump!)
+    addPlatform(-72, 8.5, 83, 3.2, 0.8, 3.2, stonePlatMat);
+    spawnQuestionBlock(-71.2, 12.3, 82.5);
+
+    // Stage 6: Moving Elevator Platform B (Vertical Y elevator)
+    addPlatform(-77, 9.4, 88, 3.2, 0.6, 3.2, movingPlatMatB, {
+      isMoving: true,
+      axis: "y",
+      amp: 1.5,
+      speed: 1.8,
+    });
+
+    // Stage 7: MIDWAY CHECKPOINT ALTAR
+    addPlatform(-82, 10.8, 93, 5.2, 1.0, 5.2, startMat);
+    const cpRing = new THREE.Mesh(new THREE.RingGeometry(1.4, 1.8, 32), createDecalMat(0x38bdf8));
+    cpRing.rotation.x = -Math.PI / 2;
+    cpRing.position.set(-82, 10.84, 93);
+    this.marioSpawnedCourseGroup.add(cpRing);
+
+    // Midway Checkpoint Pennant
+    const cpFlagGroup = new THREE.Group();
+    cpFlagGroup.position.set(-83.6, 10.8, 93);
+    const cpPole = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.08, 0.08, 3.4, 12),
+      new THREE.MeshStandardMaterial({ color: 0x38bdf8, metalness: 0.8 })
+    );
+    cpPole.position.y = 1.7;
+    cpFlagGroup.add(cpPole);
+    const cpBanner = new THREE.Mesh(
+      new THREE.PlaneGeometry(1.2, 0.7),
+      new THREE.MeshStandardMaterial({ color: 0x38bdf8, side: THREE.DoubleSide })
+    );
+    cpBanner.position.set(0.6, 2.9, 0);
+    cpFlagGroup.add(cpBanner);
+    this.marioSpawnedCourseGroup.add(cpFlagGroup);
+
+    // Stage 8: High Pillar Step 8
+    addPlatform(-85, 11.6, 100, 3.0, 0.8, 3.0, stonePlatMat);
+
+    // Stage 9: High Step 9 + Question Block 3 (Elevated to y=16.1, reachable with Double Jump!)
+    addPlatform(-88, 12.3, 107, 3.2, 0.8, 3.2, stonePlatMat);
+    spawnQuestionBlock(-87.0, 16.1, 106.5);
+
+    // Stage 10: Moving Longitudinal Platform C (Z oscillation forward-backward)
+    addPlatform(-88, 13.0, 114, 3.2, 0.6, 3.2, movingPlatMatA, {
+      isMoving: true,
+      axis: "z",
+      amp: 2.8,
+      speed: 1.6,
+    });
+
+    // Stage 11: High Mountain Terrace 11
+    addPlatform(-86, 13.8, 121, 3.4, 0.8, 3.4, stonePlatMat);
+
+    // Stage 12: Sky Bridge Step 12
+    addPlatform(-81, 14.4, 126, 3.2, 0.8, 3.2, stonePlatMat);
+
+    // Stage 13: SUPER BOUNCER SPRING PAD (Launches Milo high into the summit!)
+    addPlatform(-75, 14.8, 129, 3.4, 0.6, 3.4, bounceMat);
+    const springRing = new THREE.Mesh(new THREE.RingGeometry(0.8, 1.2, 24), createDecalMat(0xfacc15));
+    springRing.rotation.x = -Math.PI / 2;
+    springRing.position.set(-75, 14.84, 129);
+    this.marioSpawnedCourseGroup.add(springRing);
+
+    // Stage 14: Summit Approach Terrace 14
+    addPlatform(-69, 15.6, 132, 3.6, 0.8, 3.6, stonePlatMat);
+
+    // Stage 15: GRAND SUMMIT CASTLE TERRACE & SUPER MARIO FLAGPOLE
+    addPlatform(-60, 16.2, 135, 8.5, 1.4, 8.5, startMat);
+
+    const finishRing = new THREE.Mesh(new THREE.RingGeometry(1.8, 2.4, 32), createDecalMat(0xfacc15));
+    finishRing.rotation.x = -Math.PI / 2;
+    finishRing.position.set(-60, 16.24, 135);
+    this.marioSpawnedCourseGroup.add(finishRing);
+
+    // Magnificent Golden Super Mario Flagpole (Height 7.5m)
+    const flagGroup = new THREE.Group();
+    flagGroup.position.set(-60, 16.2, 135);
+
+    const baseMesh = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.9, 1.2, 0.45, 12),
+      new THREE.MeshStandardMaterial({ color: 0x1e293b, roughness: 0.7 })
+    );
+    baseMesh.position.y = 0.22;
+    flagGroup.add(baseMesh);
+
+    const poleMesh = new THREE.Mesh(
+      new THREE.CylinderGeometry(0.11, 0.11, 7.5, 16),
+      new THREE.MeshStandardMaterial({ color: 0xfacc15, metalness: 0.9, roughness: 0.15 })
+    );
+    poleMesh.position.y = 4.2;
+    flagGroup.add(poleMesh);
+
+    const orbMesh = new THREE.Mesh(
+      new THREE.SphereGeometry(0.36, 16, 16),
+      new THREE.MeshStandardMaterial({
+        color: 0xfacc15,
+        metalness: 0.95,
+        roughness: 0.1,
+        emissive: 0xeab308,
+        emissiveIntensity: 0.4,
+      })
+    );
+    orbMesh.position.y = 7.95;
+    flagGroup.add(orbMesh);
+
+    const flagGeo = new THREE.PlaneGeometry(2.0, 1.25);
+    const flagMesh = new THREE.Mesh(flagGeo, new THREE.MeshStandardMaterial({
+      map: flagTex,
+      side: THREE.DoubleSide,
+      roughness: 0.4,
+    }));
+    flagMesh.position.set(1.0, 7.2, 0);
+    flagGroup.add(flagMesh);
+
+    this.marioSpawnedCourseGroup.add(flagGroup);
+    this.marioFlagPole = {
+      group: flagGroup,
+      polePos: new THREE.Vector3(-60, 16.2, 135),
+      flagMesh,
+      isFinishTriggered: false,
+      flagProgress: 0,
+    };
+
+    this.scene.add(this.marioSpawnedCourseGroup);
+  }
+
+  private triggerMarioFireworks(pos: THREE.Vector3) {
+    const particleCount = 120;
+    const geometry = new THREE.BufferGeometry();
+    const positions = new Float32Array(particleCount * 3);
+    const colors = new Float32Array(particleCount * 3);
+    const velocities: THREE.Vector3[] = [];
+
+    const palette = [
+      new THREE.Color(0xef4444),
+      new THREE.Color(0xfacc15),
+      new THREE.Color(0x22c55e),
+      new THREE.Color(0x38bdf8),
+      new THREE.Color(0xa855f7),
+      new THREE.Color(0xffffff),
+    ];
+
+    for (let i = 0; i < particleCount; i++) {
+      positions[i * 3] = pos.x;
+      positions[i * 3 + 1] = pos.y + 6.8;
+      positions[i * 3 + 2] = pos.z;
+
+      const c = palette[i % palette.length];
+      colors[i * 3] = c.r;
+      colors[i * 3 + 1] = c.g;
+      colors[i * 3 + 2] = c.b;
+
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 2.5 + Math.random() * 4.5;
+      velocities.push(
+        new THREE.Vector3(
+          Math.cos(angle) * speed,
+          3.5 + Math.random() * 4.0,
+          Math.sin(angle) * speed
+        )
+      );
+    }
+
+    geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+    geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+
+    const material = new THREE.PointsMaterial({
+      size: 0.35,
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.95,
+    });
+
+    const particles = new THREE.Points(geometry, material);
+    this.scene.add(particles);
+    this.marioConfettiParticles = particles;
+    (particles as any).velocities = velocities;
   }
 
   private updateMinigame(delta: number, time: number) {
@@ -3303,7 +4812,197 @@ export class WorldEngine {
       }
     });
 
-    if (this.activeMinigame.id === "penalty_kick") {
+    if (this.activeMinigame.id === "airdrop_hunt") {
+      this.updateBoatRace(delta, time);
+    } else if (this.activeMinigame.id === "hex_mario_run") {
+      // 1. Update Moving Platforms
+      for (const plat of this.marioPlatforms) {
+        if (plat.isMoving && plat.basePos) {
+          const offset = Math.sin(time * (plat.speed || 1.5)) * (plat.amp || 2.0);
+          if (plat.axis === "x") {
+            const oldX = plat.mesh.position.x;
+            plat.mesh.position.x = plat.basePos.x + offset;
+            plat.x = plat.mesh.position.x;
+            // Carry Milo if standing on this moving platform
+            const hw = plat.width * 0.5;
+            const hd = plat.depth * 0.5;
+            if (
+              Math.abs(this.playerPos.x - oldX) <= hw &&
+              Math.abs(this.playerPos.z - plat.z) <= hd &&
+              Math.abs(this.playerPos.y - plat.y) < 0.35
+            ) {
+              this.playerPos.x += (plat.mesh.position.x - oldX);
+            }
+          } else if (plat.axis === "y") {
+            const oldY = plat.mesh.position.y;
+            plat.mesh.position.y = plat.basePos.y + offset;
+            plat.y = plat.mesh.position.y + 0.3;
+            // Carry Milo vertically
+            const hw = plat.width * 0.5;
+            const hd = plat.depth * 0.5;
+            if (
+              Math.abs(this.playerPos.x - plat.x) <= hw &&
+              Math.abs(this.playerPos.z - plat.z) <= hd &&
+              Math.abs(this.playerPos.y - (oldY + 0.3)) < 0.4
+            ) {
+              this.playerPos.y += (plat.mesh.position.y - oldY);
+            }
+          } else if (plat.axis === "z") {
+            const oldZ = plat.mesh.position.z;
+            plat.mesh.position.z = plat.basePos.z + offset;
+            plat.z = plat.mesh.position.z;
+            const hw = plat.width * 0.5;
+            const hd = plat.depth * 0.5;
+            if (
+              Math.abs(this.playerPos.x - plat.x) <= hw &&
+              Math.abs(this.playerPos.z - oldZ) <= hd &&
+              Math.abs(this.playerPos.y - plat.y) < 0.35
+            ) {
+              this.playerPos.z += (plat.mesh.position.z - oldZ);
+            }
+          }
+        }
+      }
+
+      // Midway Checkpoint Save (Platform 7 at [-82, 93])
+      if (
+        Math.hypot(this.playerPos.x - (-82), this.playerPos.z - 93) < 2.5 &&
+        !this.activeMinigame.checkpointReached
+      ) {
+        this.activeMinigame.checkpointReached = true;
+        this.marioCheckpointPos.set(-82, 11.4, 93);
+        this.audio.playChime();
+        this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+      }
+
+      // Super Bounce Spring Pad (Platform 13 at [-75, 129])
+      if (
+        Math.hypot(this.playerPos.x - (-75), this.playerPos.z - 129) < 1.7 &&
+        Math.abs(this.playerPos.y - 14.8) < 0.6 &&
+        this.playerVel.y <= 0
+      ) {
+        this.playerVel.y = 8.6;
+        this.audio.playBoost();
+        this.audio.playJump();
+      }
+
+      // 2. Update Question Blocks [?]
+      for (const qb of this.marioQuestionBlocks) {
+        const dHoriz = Math.hypot(this.playerPos.x - qb.basePos.x, this.playerPos.z - qb.basePos.z);
+        const dVert = Math.abs(this.playerPos.y + 0.9 - qb.basePos.y);
+        if (!qb.hit && dHoriz < 1.7 && dVert < 1.6) {
+          qb.hit = true;
+          qb.bounceTimer = 0.35;
+          qb.coinTimer = 0.6;
+          this.audio.playCoin();
+          this.coinsCollected++;
+          this.callbacks.onCoinsUpdate?.(this.coinsCollected, this.totalCoins);
+          if (qb.coinMesh) {
+            qb.coinMesh.visible = true;
+            qb.coinMesh.position.set(0, 0.8, 0);
+          }
+        }
+
+        if (qb.bounceTimer > 0) {
+          qb.bounceTimer -= delta;
+          const t = Math.max(0, qb.bounceTimer) / 0.35;
+          qb.mesh.position.y = qb.basePos.y + Math.sin((1 - t) * Math.PI) * 0.45;
+        }
+
+        if (qb.coinTimer && qb.coinTimer > 0) {
+          qb.coinTimer -= delta;
+          const progress = 1 - Math.max(0, qb.coinTimer) / 0.6;
+          if (qb.coinMesh) {
+            qb.coinMesh.position.y = 0.8 + Math.sin(progress * Math.PI) * 1.5;
+            qb.coinMesh.rotation.y = time * 12;
+            if (progress >= 1.0) {
+              qb.coinMesh.visible = false;
+              // Kotak tanda tanya yang sudah keluar koin langsung dihilangkan
+              qb.mesh.visible = false;
+            }
+          }
+        }
+      }
+
+      // 3. Check Flagpole Finish
+      if (this.marioFlagPole && !this.marioFlagPole.isFinishTriggered) {
+        const dGoal = Math.hypot(
+          this.playerPos.x - this.marioFlagPole.polePos.x,
+          this.playerPos.z - this.marioFlagPole.polePos.z
+        );
+        if (dGoal < 2.4 && this.playerPos.y >= this.marioFlagPole.polePos.y - 0.5) {
+          this.marioFlagPole.isFinishTriggered = true;
+          this.marioFlagPole.flagProgress = 0;
+          this.currentSpeed = 0;
+          this.playerVel.y = 5.2; // Celebratory victory hop
+          this.audio.playGoal();
+          this.audio.playVictory();
+          this.triggerMarioFireworks(this.marioFlagPole.polePos);
+          this.activeMinigame.score = 1;
+        }
+      }
+
+      if (this.marioFlagPole?.isFinishTriggered) {
+        this.marioFlagPole.flagProgress = Math.min(1.0, this.marioFlagPole.flagProgress + delta * 1.4);
+        const topY = 6.2;
+        const botY = 1.2;
+        this.marioFlagPole.flagMesh.position.y =
+          topY * (1 - this.marioFlagPole.flagProgress) + botY * this.marioFlagPole.flagProgress;
+        this.marioFlagPole.flagMesh.rotation.y = Math.sin(time * 6) * 0.2;
+
+        if (this.marioConfettiParticles) {
+          const posAttr = this.marioConfettiParticles.geometry.attributes.position as THREE.BufferAttribute;
+          const vels = (this.marioConfettiParticles as any).velocities as THREE.Vector3[];
+          if (vels) {
+            for (let i = 0; i < vels.length; i++) {
+              posAttr.setX(i, posAttr.getX(i) + vels[i].x * delta);
+              posAttr.setY(i, posAttr.getY(i) + vels[i].y * delta);
+              posAttr.setZ(i, posAttr.getZ(i) + vels[i].z * delta);
+              vels[i].y -= 9.8 * delta;
+            }
+            posAttr.needsUpdate = true;
+          }
+        }
+      }
+
+      // 4. Fall Off Lagoon Check (Respawn if checkpoint reached, else GAME OVER!)
+      if (!this.marioFlagPole?.isFinishTriggered && this.playerPos.y < 3.2 && this.activeMinigame.status === "playing") {
+        if (this.activeMinigame.checkpointReached) {
+          // Has Checkpoint: Do NOT Game Over! Respawn back at Checkpoint Altar and continue playing!
+          this.playerPos.set(-82, 11.8, 93);
+          this.playerVel.set(0, 3.2, 0);
+          this.currentSpeed = 0;
+          this.jumpCount = 0;
+          this.prevJumpInput = false;
+          // Milo directly faces forward towards Platform 8 at (-85, 100)
+          this.playerRotY = Math.atan2(3, -7); // ~2.736 rad (~156.8°)
+          this.audio.playSplash();
+          this.audio.playJump();
+          this.activeMinigame.checkpointRespawnCount = (this.activeMinigame.checkpointRespawnCount || 0) + 1;
+          this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+        } else {
+          // No Checkpoint: Immediate GAME OVER!
+          this.activeMinigame.status = "lost";
+          this.activeMinigame.loseReason = "drowned";
+          this.currentSpeed = 0;
+          this.audio.playSplash();
+          this.audio.playGameOver();
+          this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+
+          setTimeout(() => {
+            if (this.activeMinigame?.status === "lost") {
+              this.playerPos.set(-48, 5.8, 54);
+              this.playerVel.set(0, 0, 0);
+              this.currentSpeed = 0;
+              this.cleanupMinigame();
+              this.activeMinigame = null;
+              this.callbacks.onMinigameUpdate?.(null);
+            }
+          }, 3200);
+          return;
+        }
+      }
+    } else if (this.activeMinigame.id === "penalty_kick") {
       // Check collision between soccer ball and targets
       if (this.soccerBall) {
         this.minigameTargets.forEach((t) => {
@@ -3343,18 +5042,25 @@ export class WorldEngine {
     if (this.activeMinigame.score >= this.activeMinigame.targetScore) {
       this.activeMinigame.status = "won";
       this.audio.playVictory();
-      this.coinsCollected += 5;
+      const rewardCoins = (this.activeMinigame.id === "hex_mario_run" || this.activeMinigame.id === "airdrop_hunt") ? 10 : 5;
+      this.coinsCollected += rewardCoins;
       this.callbacks.onCoinsUpdate?.(this.coinsCollected, this.totalCoins);
       this.callbacks.onQuestProgress?.(this.activeMinigame.id);
       this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
 
+      const cleanupDelay = (this.activeMinigame.id === "hex_mario_run" || this.activeMinigame.id === "airdrop_hunt") ? 5000 : 4000;
       setTimeout(() => {
         if (this.activeMinigame?.status === "won") {
+          if (this.isBoatRacing) {
+            this.playerPos.set(74, 7.8, -58);
+            this.playerVel.set(0, 0, 0);
+            this.currentSpeed = 0;
+          }
           this.cleanupMinigame();
           this.activeMinigame = null;
           this.callbacks.onMinigameUpdate?.(null);
         }
-      }, 4000);
+      }, cleanupDelay);
       return;
     }
 
@@ -3362,10 +5068,22 @@ export class WorldEngine {
     if (this.activeMinigame.timeLeft <= 0) {
       this.activeMinigame.timeLeft = 0;
       this.activeMinigame.status = "lost";
+      this.activeMinigame.loseReason = "timeout";
+      this.audio.playGameOver();
       this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
 
       setTimeout(() => {
         if (this.activeMinigame?.status === "lost") {
+          if (this.isMarioCourseActive) {
+            this.playerPos.set(-48, 5.8, 54);
+            this.playerVel.set(0, 0, 0);
+            this.currentSpeed = 0;
+          }
+          if (this.isBoatRacing) {
+            this.playerPos.set(74, 7.8, -58);
+            this.playerVel.set(0, 0, 0);
+            this.currentSpeed = 0;
+          }
           this.cleanupMinigame();
           this.activeMinigame = null;
           this.callbacks.onMinigameUpdate?.(null);
@@ -3402,6 +5120,113 @@ export class WorldEngine {
       const targetLook = new THREE.Vector3().copy(npcPos).add(new THREE.Vector3(0, 1.0, 0));
       this.cameraLookAt.lerp(targetLook, 0.12);
       this.camera.lookAt(this.cameraLookAt);
+      return;
+    }
+
+    // Dedicated Speedboat Grand Prix Marine Racing Camera
+    if (this.isBoatRacing) {
+      const targetFov = this.isBoosting ? 68 : 58;
+      this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, targetFov, 6 * delta);
+      this.camera.updateProjectionMatrix();
+
+      if (!this.isPointerOrbiting && (this.inputs.forward || this.inputs.backward) && Math.abs(this.currentSpeed) > 2.0) {
+        this.cameraOrbitYaw = THREE.MathUtils.lerp(this.cameraOrbitYaw, 0, 0.4 * delta);
+      }
+
+      const pitch = THREE.MathUtils.clamp(this.cameraOrbitPitch, -0.25, 0.5);
+      const baseDist = 8.5 * this.cameraDistanceScale;
+      const baseHeight = (2.8 + pitch * 5.0) * this.cameraDistanceScale;
+      const horizDist = baseDist * Math.cos(pitch);
+
+      const totalYaw = this.playerRotY + this.cameraOrbitYaw;
+      const camOffset = new THREE.Vector3(
+        Math.sin(totalYaw) * horizDist,
+        Math.max(1.2, baseHeight),
+        Math.cos(totalYaw) * horizDist
+      );
+
+      const targetCamPos = new THREE.Vector3().addVectors(this.playerPos, camOffset);
+      this.camera.position.lerp(targetCamPos, 0.14);
+
+      const lookTarget = new THREE.Vector3(this.playerPos.x, this.playerPos.y + 1.1, this.playerPos.z);
+      this.cameraLookAt.lerp(lookTarget, 0.12);
+      this.camera.lookAt(this.cameraLookAt);
+      return;
+    }
+
+    // 0A. Super Mario 3D Warp-in Camera Dive Transition
+    if (this.isMarioWarping) {
+      this.marioWarpTimer += delta;
+      const duration = 1.6;
+      const progress = Math.min(1.0, this.marioWarpTimer / duration);
+      const ease = progress * progress * (3 - 2 * progress);
+
+      const warpStartCam = new THREE.Vector3(this.playerPos.x + 16, this.playerPos.y + 14, this.playerPos.z - 16);
+      const warpEndCam = new THREE.Vector3(this.playerPos.x + 6.8, this.playerPos.y + 5.8, this.playerPos.z - 7.8);
+      this.camera.position.lerpVectors(warpStartCam, warpEndCam, ease);
+
+      const lookStart = new THREE.Vector3(this.playerPos.x - 12, this.playerPos.y, this.playerPos.z + 12);
+      const lookEnd = new THREE.Vector3(this.playerPos.x - 2.5, this.playerPos.y + 1.8, this.playerPos.z + 3.0);
+      this.cameraLookAt.lerpVectors(lookStart, lookEnd, ease);
+      this.camera.lookAt(this.cameraLookAt);
+
+      this.camera.fov = THREE.MathUtils.lerp(72, 50, ease);
+      this.camera.updateProjectionMatrix();
+
+      if (progress >= 1.0) {
+        this.isMarioWarping = false;
+      }
+      return;
+    }
+
+    // 0B. Super Mario 3D Platformer Active Camera
+    if (this.isMarioCourseActive) {
+      if (this.marioFlagPole?.isFinishTriggered) {
+        const time = this.clock.getElapsedTime();
+        const pole = this.marioFlagPole.polePos;
+        const orbitRadius = 7.5;
+        const camX = pole.x + Math.sin(time * 0.9) * orbitRadius;
+        const camZ = pole.z + Math.cos(time * 0.9) * orbitRadius;
+        const camY = pole.y + 4.2;
+        this.camera.position.lerp(new THREE.Vector3(camX, camY, camZ), 0.08);
+        this.cameraLookAt.lerp(new THREE.Vector3(pole.x, pole.y + 2.8, pole.z), 0.1);
+        this.camera.lookAt(this.cameraLookAt);
+        this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 48, 4 * delta);
+        this.camera.updateProjectionMatrix();
+        return;
+      }
+
+      // Interactive mouse orbit yaw, elevation pitch tilt & wheel zoom for Super Milo
+      if (!this.isPointerOrbiting && (this.inputs.forward || this.inputs.backward) && Math.abs(this.currentSpeed) > 1.8) {
+        this.cameraOrbitYaw = THREE.MathUtils.lerp(this.cameraOrbitYaw, 0, 0.35 * delta);
+      }
+
+      const dist = 10.35 * this.cameraDistanceScale;
+      const pitch = THREE.MathUtils.clamp(this.cameraOrbitPitch, -0.4, 0.65);
+      const horizDist = dist * Math.cos(pitch);
+      const vertDist = (5.8 + pitch * 6.5) * this.cameraDistanceScale;
+
+      const angle = 0.717 + this.cameraOrbitYaw; // 0.717 rad gives default (+6.8, -7.8) offset
+      const offsetX = Math.sin(angle) * horizDist;
+      const offsetZ = -Math.cos(angle) * horizDist;
+
+      const targetCamPos = new THREE.Vector3(
+        this.playerPos.x + offsetX,
+        this.playerPos.y + Math.max(1.8, vertDist),
+        this.playerPos.z + offsetZ
+      );
+
+      const targetLook = new THREE.Vector3(
+        this.playerPos.x,
+        this.playerPos.y + 1.8,
+        this.playerPos.z
+      );
+
+      this.camera.position.lerp(targetCamPos, 0.14);
+      this.cameraLookAt.lerp(targetLook, 0.12);
+      this.camera.lookAt(this.cameraLookAt);
+      this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 50, 6 * delta);
+      this.camera.updateProjectionMatrix();
       return;
     }
 

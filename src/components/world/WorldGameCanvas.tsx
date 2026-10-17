@@ -239,7 +239,7 @@ export const WorldGameCanvas: React.FC = () => {
     setDialogueNPC(null);
   };
 
-  const handleStartChallenge = (challengeId: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt") => {
+  const handleStartChallenge = (challengeId: "ring_trial" | "penalty_kick" | "crystal_runes" | "airdrop_hunt" | "hex_mario_run") => {
     engineRef.current?.setActiveDialogueNPC(null);
     setDialogueNPC(null);
     engineRef.current?.startMinigame(challengeId);
@@ -344,7 +344,11 @@ export const WorldGameCanvas: React.FC = () => {
 
           {/* Input Controls (Suspended if Pause Menu is open) */}
           {!isPauseOpen && (
-            <WorldControls engine={engineRef.current} onInteract={handleInteract} />
+            <WorldControls
+              engine={engineRef.current}
+              onInteract={handleInteract}
+              isMinigameActive={!!activeMinigame}
+            />
           )}
 
           {/* Navigator's Slate Drawer Hub */}

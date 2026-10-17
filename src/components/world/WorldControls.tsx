@@ -7,9 +7,10 @@ import { GameIconSprint } from "./WorldGameIcons";
 interface WorldControlsProps {
   engine: WorldEngine | null;
   onInteract?: () => void;
+  isMinigameActive?: boolean;
 }
 
-export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract }) => {
+export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract, isMinigameActive }) => {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
   useEffect(() => {
@@ -89,7 +90,11 @@ export const WorldControls: React.FC<WorldControlsProps> = ({ engine, onInteract
   };
 
   // Desktop keyboard indicator bar (Floating cleanly at bottom-left)
+  // Hide if an arcade minigame is active to prevent double/overlapping control bars
   if (!isTouchDevice) {
+    if (isMinigameActive || engine?.activeMinigame) {
+      return null;
+    }
     return (
       <div
         className="fixed pointer-events-none hidden lg:flex items-center gap-2.5 bg-[#fffdf6]/95 backdrop-blur-md border-2 border-[#5c3e21] shadow-[0_4px_0_#3e2723] px-4 py-2 rounded-2xl text-xs font-mono text-[#3e2723] select-none z-20"
