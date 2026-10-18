@@ -3,6 +3,7 @@
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import * as SkeletonUtils from "three/examples/jsm/utils/SkeletonUtils.js";
+import { getCharacterTexture, attachCharacterAccessories } from "./WorldCharacterTextures";
 
 export interface CharacterSpawnRequest {
   id: string;
@@ -62,13 +63,14 @@ export class WorldCharacterManager {
     this.loadCharacterModels();
   }
 
-  private applyTextureToHierarchy(root: THREE.Object3D, tintColor?: number) {
+  private applyTextureToHierarchy(root: THREE.Object3D, characterId?: string) {
+    const tex = characterId ? getCharacterTexture(characterId) : (this.characterTexture || null);
     root.traverse((child) => {
       if ((child as THREE.Mesh).isMesh) {
         const m = child as THREE.Mesh;
         const mat = new THREE.MeshStandardMaterial({
-          map: this.characterTexture || null,
-          color: tintColor !== undefined ? new THREE.Color(tintColor) : 0xffffff,
+          map: tex,
+          color: 0xffffff, // 100% crisp true color reproduction without mudding details
           roughness: 0.65,
           metalness: 0.05,
         });
@@ -145,8 +147,11 @@ export class WorldCharacterManager {
     const s = req.scale || 1.0;
     charModel.scale.set(s, s, s);
 
-    // Apply texture and tint color
-    this.applyTextureToHierarchy(charModel, req.tintColor);
+    // Apply personalized high-definition texture
+    this.applyTextureToHierarchy(charModel, req.id);
+
+    // Attach authentic 3D headwear, hair, or thematic props to skeletal head bone
+    attachCharacterAccessories(req.id, charModel);
 
     const hostGroup = req.targetGroup || new THREE.Group();
     if (!req.targetGroup) {
