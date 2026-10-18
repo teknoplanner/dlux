@@ -1,18 +1,27 @@
-name: Sync Play Store Metrics
+name: Auto-Crawl and Sync Play Store Apps
 
 on:
   schedule:
-    # Runs daily at midnight UTC
-    - cron: '0 0 * * *'
+    # Runs twice a day (at 00:00 and 12:00 UTC) to catch new apps and metrics updates
+    - cron: '0 0,12 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
+permissions:
+  contents: write
+
+concurrency:
+  group: playstore-crawl
+  cancel-in-progress: false
+
 jobs:
-  sync-metrics:
+  auto-crawl-apps:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -23,17 +32,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Sync Google Play Store Metrics
-        run: npm run sync:playstore
+      - name: Auto-crawl new apps and sync Play Store data
+        run: npm run crawl:playstore
 
       - name: Commit and push if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          if [[ -n $(git status --porcelain src/data/apps.ts) ]]; then
-            git add src/data/apps.ts
-            git commit -m "chore(data): auto-sync ratings and downloads from Google Play Store"
-            git push
+          if [[ -n $(git status --porcelain) ]]; then
+            git add src/data/apps.ts public/images/apps/ scripts/playstore-full.json public/sitemap.xml public/rss.xml
+            git commit -m "chore(playstore): auto-crawl and sync apps from Google Play Store"
+            git push origin main
           else
-            echo "No metrics changes detected."
+            echo "No Play Store changes or new apps detected."
           fi

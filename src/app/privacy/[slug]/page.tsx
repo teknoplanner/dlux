@@ -11,6 +11,8 @@ import { MiloCatPrivacyContent } from "@/components/privacy/MiloCatPrivacyConten
 import { MonsterMathPrivacyContent } from "@/components/privacy/MonsterMathPrivacyContent";
 import { OfflinePdfPrivacyContent } from "@/components/privacy/OfflinePdfPrivacyContent";
 import { StickmanPenaltyPrivacyContent } from "@/components/privacy/StickmanPenaltyPrivacyContent";
+import { SoundFXPrivacyContent } from "@/components/privacy/SoundFXPrivacyContent";
+import { DefaultAppPrivacyContent } from "@/components/privacy/DefaultAppPrivacyContent";
 
 interface PageProps {
   params: {
@@ -60,8 +62,11 @@ export default function AppPrivacyPage({ params }: PageProps) {
         return <OfflinePdfPrivacyContent app={app} />;
       case "stickman-penalty-rush":
         return <StickmanPenaltyPrivacyContent app={app} />;
+      case "soundfx-studio":
+      case "soundfx-studio-voice-effects":
+        return <SoundFXPrivacyContent app={app} />;
       default:
-        return null;
+        return <DefaultAppPrivacyContent app={app} />;
     }
   };
 

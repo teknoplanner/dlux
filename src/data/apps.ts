@@ -69,7 +69,7 @@ export const apps: AppItem[] = [
     ],
     "rating": 5,
     "reviewsCount": null,
-    "downloads": "10+",
+    "downloads": "50+",
     "contentRating": "3+",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.pdflocal.editor.offline",
@@ -282,5 +282,40 @@ export const apps: AppItem[] = [
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.aturduitapp",
     "color": "#f97316"
+  },
+  {
+    "slug": "soundfx-studio",
+    "name": "SoundFX Studio - Voice Effects",
+    "packageId": "com.soundfx.studio",
+    "tagline": "Studio voice morpher & 100+ sound effects with pro manual audio controls.",
+    "description": "Transform your voice with studio-grade audio processing! SoundFX Studio is a powerful, 100% offline voice changer and audio effects processor designed for creators, gamers, and audio enthusiasts.\n\n🎙️ KEY FEATURES:\n\n✨ 100+ Professional Voice &amp; Sound Effects:\nExplore a massive library of high-fidelity audio effects categorized for every scenario:\n• Pitch &amp; Modulation: Chipmunk, Deep Voice, Helium, Giant, Monster, Fast Forward\n• Robots &amp; Sci-Fi: Classic Android, Cyber Cyborg, Space Alien, Radio Transmission\n• Environments &amp; Spaces: Cathedral Reverb, Cave Echo, Concert Hall, Underwater, Tunnel\n• Musical &amp; Retro: 8-Bit Bitcrusher, Vinyl Record, Telephone Filter, Megaphone, Vocoder\n• Creative &amp; Unique: Comic Cartoon, Time Warper, Tremolo Pulse, Phased Horizon\n\n🎛️ Pro Manual DAW Mode:\nTake full control of your sound with parametric audio shaping:\n• Multi-band Studio Equalizer (EQ)\n• Real-time Pitch &amp; Tempo Shifting\n• Custom Delay, Echo &amp; Reverb Wet/Dry controls\n• Saturation &amp; Distortion parameters\n\n🔴 Built-in Studio Audio Recorder:\n• Crystal-clear on-device voice recording\n• Live real-time audio waveform visualization\n• Pause, resume, and instant review options\n\n📁 Audio Import &amp; Export:\n• Import audio files directly from your device storage\n• Export processed recordings in high-quality uncompressed audio format\n• Rename, lock, favorite, and organize your audio library\n\n🔒 100% Offline &amp; Private:\nYour privacy comes first. All audio processing runs strictly on your local device hardware using optimized DSP algorithms. No internet required, and no recordings are ever uploaded to any cloud or external servers.\n\nDownload SoundFX Studio now and take your voice recordings to the professional studio level!",
+    "category": "tool",
+    "tags": [
+      "Voice Changer",
+      "Sound Effects",
+      "Audio Editor",
+      "Offline",
+      "Productivity"
+    ],
+    "features": [
+      "100+ Professional Voice & Sound Effects (Robots, Pitch, Reverb, Sci-Fi)",
+      "Pro Manual DAW Mode with Multi-band EQ, Pitch & Tempo Shifting",
+      "Built-in Studio Audio Recorder with live real-time waveform visualization",
+      "100% Offline & Private on-device DSP processing with zero data uploads"
+    ],
+    "icon": "/images/apps/soundfx-studio/icon.webp",
+    "screenshots": [
+      "/images/apps/soundfx-studio/screenshot-1.webp",
+      "/images/apps/soundfx-studio/screenshot-2.webp",
+      "/images/apps/soundfx-studio/screenshot-3.webp",
+      "/images/apps/soundfx-studio/screenshot-4.webp"
+    ],
+    "rating": 5,
+    "reviewsCount": null,
+    "downloads": "10+",
+    "contentRating": "3+",
+    "hasAds": false,
+    "playUrl": "https://play.google.com/store/apps/details?id=com.soundfx.studio",
+    "color": "#8b5cf6"
   }
 ];

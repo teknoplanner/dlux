@@ -12,6 +12,7 @@
     "generate-sitemap": "node scripts/generate-sitemap.mjs",
     "check-apps": "node scripts/check-apps.mjs",
     "sync:playstore": "node scripts/sync-playstore-metrics.mjs",
+    "crawl:playstore": "node scripts/auto-crawl-playstore.mjs",
     "seo:ping": "node scripts/ping-search-engines.mjs",
     "publish:queue": "node scripts/publish-daily-queue.mjs",
     "optimize-images": "node scripts/optimize-images.mjs"
