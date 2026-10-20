@@ -54,7 +54,7 @@ export const FormattedText: React.FC<FormattedTextProps> = ({
       return (
         <code
           key={index}
-          className="px-1.5 py-0.5 rounded bg-slate-100 text-indigo-700 font-mono text-xs sm:text-sm border border-slate-200 font-semibold"
+          className="px-1.5 py-0.5 rounded bg-slate-100 text-emerald-800 font-mono text-xs sm:text-sm border border-slate-200 font-semibold"
         >
           {part.slice(1, -1)}
         </code>

@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { Metadata } from "next";
-import { FileText, ArrowLeft, Mail, ShieldCheck, CheckCircle2 } from "lucide-react";
 import { apps, developer } from "@/data/apps";
 import { generateBreadcrumbSchema } from "@/lib/seo";
 
@@ -31,32 +30,23 @@ export default function TermsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
-      <div className="pt-20 sm:pt-24 md:pt-28 pb-20 sm:pb-24 relative overflow-hidden bg-[#fafaf9]">
+      <div className="pt-28 pb-24 bg-[#fafaf9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mb-8">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
+            className="inline-flex items-center min-h-[44px] text-sm font-bold text-slate-700 hover:text-slate-950"
           >
-            <ArrowLeft className="w-4 h-4" />
             Back to Home
           </Link>
         </div>
 
-        <div className="text-center mb-12 space-y-3">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-100 border border-slate-200 text-xs font-semibold text-slate-800">
-            <FileText className="w-4 h-4 text-indigo-600" />
-            LEGAL AGREEMENT &amp; TERMS OF USE
-          </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-slate-900">
-            Terms of Service
-          </h1>
-          <p className="text-sm text-slate-500">
-            Last Updated: October 8, 2026 • Valid for all Google Play Store Releases
-          </p>
-        </div>
+        <header className="mb-12">
+          <h1 className="font-display font-bold tracking-tight text-slate-950 text-4xl sm:text-5xl">Terms of Service</h1>
+          <p className="mt-3 text-slate-600">Last updated: October 8, 2026. Applies to all D Lucky X releases on Google Play.</p>
+        </header>
 
-        <div className="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm space-y-8 text-slate-700 text-sm leading-relaxed">
+        <div className="space-y-10 text-slate-700 text-base leading-7">
           <section className="space-y-3">
             <h2 className="text-xl font-bold text-slate-900 font-display">1. Acceptance of Terms</h2>
             <p>
@@ -87,14 +77,9 @@ export default function TermsPage() {
                 <Link
                   key={app.slug}
                   href={`/terms/${app.slug}`}
-                  className={`p-3.5 rounded-xl border text-xs font-semibold flex items-center justify-between transition-all ${
-                    app.slug === "kucing-atur-duit"
-                      ? "bg-amber-50/70 border-amber-300 text-slate-900 hover:bg-amber-100/70 shadow-xs"
-                      : "bg-slate-50 border-slate-200 hover:border-slate-300 hover:bg-slate-100 text-slate-800"
-                  }`}
+                  className="flex items-center justify-between gap-3 min-h-[44px] border-b border-slate-200 text-sm font-semibold text-slate-900 hover:text-emerald-800"
                 >
                   <div className="flex items-center gap-2 min-w-0">
-                    <FileText className="w-4 h-4 text-indigo-600 shrink-0" />
                     <span className="truncate">{app.name}</span>
                   </div>
                   <span className="text-slate-400 shrink-0">&rarr;</span>
@@ -144,10 +129,7 @@ export default function TermsPage() {
             <p>
               If you have any questions, legal inquiries, or compliance notices regarding these Terms of Service, please contact us at:
             </p>
-            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 inline-flex items-center gap-3 text-slate-900 font-mono text-sm">
-              <Mail className="w-5 h-5 text-emerald-600" />
-              <span>{developer.email}</span>
-            </div>
+            <p><a href={`mailto:${developer.email}`} className="font-bold text-emerald-800 underline underline-offset-4">{developer.email}</a></p>
           </section>
         </div>
       </div>

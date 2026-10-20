@@ -6122,8 +6122,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-edit-teks-dokumen-pdf-off",
-    "slugEn": "productivity-pdf-edit-pdf-document-text-offline-without-cloud-servers-2026",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-edit-teks-dokumen-pdf-off-2",
+    "slugEn": "productivity-pdf-edit-pdf-document-text-offline-without-cloud-servers-2026-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -6275,8 +6275,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-tanda-tangan-digital-form",
-    "slugEn": "productivity-pdf-sign-digital-pdf-forms-quickly-on-mobile-devices-2026-solu",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-tanda-tangan-digital-form-2",
+    "slugEn": "productivity-pdf-sign-digital-pdf-forms-quickly-on-mobile-devices-2026-solu-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -6428,8 +6428,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-isi-formulir-pdf-lamaran-",
-    "slugEn": "productivity-pdf-fill-out-job-scholarship-pdf-application-forms-2026-soluti",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-isi-formulir-pdf-lamaran--2",
+    "slugEn": "productivity-pdf-fill-out-job-scholarship-pdf-application-forms-2026-soluti-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -6581,8 +6581,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-gabung-banyak-file-pdf-ja",
-    "slugEn": "productivity-pdf-merge-multiple-pdf-files-into-one-document-offline-2026-so",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-gabung-banyak-file-pdf-ja-2",
+    "slugEn": "productivity-pdf-merge-multiple-pdf-files-into-one-document-offline-2026-so-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -6734,8 +6734,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-pisahkan-halaman-pdf-tert",
-    "slugEn": "productivity-pdf-split-and-extract-specific-pdf-pages-without-hassle-2026-s",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-pisahkan-halaman-pdf-tert-2",
+    "slugEn": "productivity-pdf-split-and-extract-specific-pdf-pages-without-hassle-2026-s-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -6887,8 +6887,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kompres-ukuran-file-pdf-t",
-    "slugEn": "productivity-pdf-compress-pdf-file-size-while-retaining-crystal-clear-text",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kompres-ukuran-file-pdf-t-2",
+    "slugEn": "productivity-pdf-compress-pdf-file-size-while-retaining-crystal-clear-text-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -7040,8 +7040,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kunci-pdf-password-lindun",
-    "slugEn": "productivity-pdf-password-protect-encrypt-sensitive-pdf-documents-2026-solu",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kunci-pdf-password-lindun-2",
+    "slugEn": "productivity-pdf-password-protect-encrypt-sensitive-pdf-documents-2026-solu-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -7193,8 +7193,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-hapus-password-pdf-milik-",
-    "slugEn": "productivity-pdf-remove-passwords-permissions-from-your-own-pdfs-2026-solut",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-hapus-password-pdf-milik--2",
+    "slugEn": "productivity-pdf-remove-passwords-permissions-from-your-own-pdfs-2026-solut-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -7346,8 +7346,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-ubah-foto-kertas-scan-jad",
-    "slugEn": "productivity-pdf-convert-scanned-paper-photos-into-clean-pdf-documents-2026",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-ubah-foto-kertas-scan-jad-2",
+    "slugEn": "productivity-pdf-convert-scanned-paper-photos-into-clean-pdf-documents-2026-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -7499,8 +7499,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-konversi-pdf-ke-gambar-jp",
-    "slugEn": "productivity-pdf-export-pdf-pages-into-high-resolution-png-jpeg-images-2026",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-konversi-pdf-ke-gambar-jp-2",
+    "slugEn": "productivity-pdf-export-pdf-pages-into-high-resolution-png-jpeg-images-2026-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -7652,8 +7652,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-anotasi-catatan-garis-baw",
-    "slugEn": "productivity-pdf-annotate-underline-and-highlight-key-pdf-sections-2026-sol",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-anotasi-catatan-garis-baw-2",
+    "slugEn": "productivity-pdf-annotate-underline-and-highlight-key-pdf-sections-2026-sol-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -7805,8 +7805,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-sorot-teks-stabilo-warna-",
-    "slugEn": "productivity-pdf-color-coded-highlighter-tools-for-digital-textbooks-2026-s",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-sorot-teks-stabilo-warna--2",
+    "slugEn": "productivity-pdf-color-coded-highlighter-tools-for-digital-textbooks-2026-s-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -7958,8 +7958,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-beri-stempel-lunas-sah-pa",
-    "slugEn": "productivity-pdf-apply-official-paid-approved-rubber-stamps-to-invoices-202",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-beri-stempel-lunas-sah-pa-2",
+    "slugEn": "productivity-pdf-apply-official-paid-approved-rubber-stamps-to-invoices-202-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -8111,8 +8111,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-beri-cap-watermark-rahasi",
-    "slugEn": "productivity-pdf-watermark-confidential-drafts-on-android-without-software",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-beri-cap-watermark-rahasi-2",
+    "slugEn": "productivity-pdf-watermark-confidential-drafts-on-android-without-software-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -8264,8 +8264,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-ubah-urutan-halaman-pdf-g",
-    "slugEn": "productivity-pdf-reorder-rearrange-pdf-pages-with-drag-and-drop-2026-soluti",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-ubah-urutan-halaman-pdf-g-2",
+    "slugEn": "productivity-pdf-reorder-rearrange-pdf-pages-with-drag-and-drop-2026-soluti-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -8417,8 +8417,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-putar-rotasi-halaman-pdf-",
-    "slugEn": "productivity-pdf-rotate-upside-down-pdf-pages-by-90-or-180-degrees-2026-sol",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-putar-rotasi-halaman-pdf--2",
+    "slugEn": "productivity-pdf-rotate-upside-down-pdf-pages-by-90-or-180-degrees-2026-sol-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -8570,7 +8570,7 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-hapus-halaman-kosong-pdf-",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-hapus-halaman-kosong-pdf--2",
     "slugEn": "productivity-pdf-delete-blank-or-unwanted-pdf-pages-quickly-2026-solution-6",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
@@ -8723,8 +8723,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-ekstrak-teks-ocr-gambar-h",
-    "slugEn": "productivity-pdf-ocr-text-extraction-from-scanned-book-photos-2026-solution",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-ekstrak-teks-ocr-gambar-h-2",
+    "slugEn": "productivity-pdf-ocr-text-extraction-from-scanned-book-photos-2026-solution-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -8876,8 +8876,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-stylus-pen-presisi-tulis-",
-    "slugEn": "productivity-pdf-handwritten-note-taking-on-pdfs-with-precision-stylus-2026",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-stylus-pen-presisi-tulis--2",
+    "slugEn": "productivity-pdf-handwritten-note-taking-on-pdfs-with-precision-stylus-2026-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -9029,8 +9029,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-pelindung-layar-tekstur-k",
-    "slugEn": "productivity-pdf-paper-feel-matte-screen-protectors-for-natural-writing-202",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-pelindung-layar-tekstur-k-2",
+    "slugEn": "productivity-pdf-paper-feel-matte-screen-protectors-for-natural-writing-202-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -9182,8 +9182,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-simpan-dokumen-ktp-ijazah",
-    "slugEn": "productivity-pdf-securing-scanned-ids-diplomas-offline-without-cloud-sync-2",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-simpan-dokumen-ktp-ijazah-2",
+    "slugEn": "productivity-pdf-securing-scanned-ids-diplomas-offline-without-cloud-sync-2-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -9335,8 +9335,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-bahaya-unggah-dokumen-rah",
-    "slugEn": "productivity-pdf-risks-of-uploading-confidential-documents-to-free-cloud-ed",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-bahaya-unggah-dokumen-rah-2",
+    "slugEn": "productivity-pdf-risks-of-uploading-confidential-documents-to-free-cloud-ed-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -9488,8 +9488,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kelola-bukti-nota-pembaya",
-    "slugEn": "productivity-pdf-organizing-tax-invoices-payment-receipts-in-pdf-2026-solut",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kelola-bukti-nota-pembaya-2",
+    "slugEn": "productivity-pdf-organizing-tax-invoices-payment-receipts-in-pdf-2026-solut-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -9641,7 +9641,7 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-buku-catatan-rapat-digita",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-buku-catatan-rapat-digita-2",
     "slugEn": "productivity-pdf-paperless-meeting-minutes-digital-agendas-2026-solution-74",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
@@ -9794,8 +9794,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-katalog-produk-portofolio",
-    "slugEn": "productivity-pdf-creating-clean-business-portfolios-product-catalogs-2026-s",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-katalog-produk-portofolio-2",
+    "slugEn": "productivity-pdf-creating-clean-business-portfolios-product-catalogs-2026-s-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -9947,8 +9947,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-buat-ebook-format-pdf-sen",
-    "slugEn": "productivity-pdf-self-publishing-clean-pdf-ebooks-on-android-2026-solution",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-buat-ebook-format-pdf-sen-2",
+    "slugEn": "productivity-pdf-self-publishing-clean-pdf-ebooks-on-android-2026-solution-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -10100,8 +10100,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-baca-file-buku-pdf-mode-g",
-    "slugEn": "productivity-pdf-eye-comfort-dark-mode-pdf-reading-for-long-study-sessions",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-baca-file-buku-pdf-mode-g-2",
+    "slugEn": "productivity-pdf-eye-comfort-dark-mode-pdf-reading-for-long-study-sessions-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -10253,8 +10253,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-navigasi-cepat-daftar-isi",
-    "slugEn": "productivity-pdf-adding-interactive-bookmarks-table-of-contents-to-pdfs-202",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-navigasi-cepat-daftar-isi-2",
+    "slugEn": "productivity-pdf-adding-interactive-bookmarks-table-of-contents-to-pdfs-202-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -10406,8 +10406,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-cari-kata-kunci-dokumen-p",
-    "slugEn": "productivity-pdf-instant-full-text-search-in-500-page-pdf-documents-2026-so",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-cari-kata-kunci-dokumen-p-2",
+    "slugEn": "productivity-pdf-instant-full-text-search-in-500-page-pdf-documents-2026-so-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -10559,8 +10559,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-cetak-dokumen-pdf-lewat-p",
-    "slugEn": "productivity-pdf-wireless-pdf-printing-from-android-to-network-printers-202",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-cetak-dokumen-pdf-lewat-p-2",
+    "slugEn": "productivity-pdf-wireless-pdf-printing-from-android-to-network-printers-202-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -10712,8 +10712,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kirim-file-pdf-lewat-emai",
-    "slugEn": "productivity-pdf-optimizing-pdf-attachments-for-standard-email-file-limits",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-kirim-file-pdf-lewat-emai-2",
+    "slugEn": "productivity-pdf-optimizing-pdf-attachments-for-standard-email-file-limits-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -10865,8 +10865,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-backup-file-pdf-penting-k",
-    "slugEn": "productivity-pdf-backing-up-essential-documents-to-usb-c-flash-drives-2026",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-backup-file-pdf-penting-k-2",
+    "slugEn": "productivity-pdf-backing-up-essential-documents-to-usb-c-flash-drives-2026-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",
@@ -11018,8 +11018,8 @@ export const productivityQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "productivity-panduan-dokumen-produktivitas-mobile-organisasi-folder-dokumen",
-    "slugEn": "productivity-pdf-organizing-clean-document-folder-hierarchies-on-mobile-202",
+    "slug": "productivity-panduan-dokumen-produktivitas-mobile-organisasi-folder-dokumen-2",
+    "slugEn": "productivity-pdf-organizing-clean-document-folder-hierarchies-on-mobile-202-2",
     "targetAppSlug": "offline-pdf-editor",
     "category": "productivity",
     "affiliateCategory": "productivity",

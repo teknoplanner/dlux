@@ -8009,7 +8009,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-sensitiv",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-sensitiv-2",
     "slugEn": "battleroyale-tactics-tablet-vs-smartphone-sensitivity-conversion-ratios-202",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -10050,7 +10050,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-gyroscop",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-gyroscop-2",
     "slugEn": "battleroyale-tactics-full-400-gyroscope-sensitivity-tuning-2026-guide-76",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -10207,8 +10207,8 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-ads",
-    "slugEn": "battleroyale-tactics-zero-recoil-m416-ads-sensitivity-configuration-2026-gu",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-ads-2",
+    "slugEn": "battleroyale-tactics-zero-recoil-m416-ads-sensitivity-configuration-2026-gu-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10364,8 +10364,8 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-sensitiv",
-    "slugEn": "battleroyale-tactics-codm-battle-royale-optimal-sensitivity-settings-2026-g",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-sensitiv-3",
+    "slugEn": "battleroyale-tactics-codm-battle-royale-optimal-sensitivity-settings-2026-g-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10521,8 +10521,8 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-fre",
-    "slugEn": "battleroyale-tactics-free-look-red-dot-optical-sensitivity-alignment-2026-g",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-fre-2",
+    "slugEn": "battleroyale-tactics-free-look-red-dot-optical-sensitivity-alignment-2026-g-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10678,7 +10678,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-3x",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-3x-2",
     "slugEn": "battleroyale-tactics-3x-scope-laser-accurate-spray-calibration-2026-guide-8",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -10835,8 +10835,8 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-4x",
-    "slugEn": "battleroyale-tactics-4x-scope-tap-shooting-sensitivity-for-dmrs-2026-guide",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-4x-2",
+    "slugEn": "battleroyale-tactics-4x-scope-tap-shooting-sensitivity-for-dmrs-2026-guide-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10992,7 +10992,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-6x",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-6x-2",
     "slugEn": "battleroyale-tactics-6x-to-3x-scope-recoil-pull-down-benchmark-2026-guide-8",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -11149,7 +11149,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-awm-one-",
+    "slug": "battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-awm-one--2",
     "slugEn": "battleroyale-tactics-awm-sniper-bolt-action-aim-sensitivity-2026-guide-83",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",

@@ -6008,8 +6008,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-batas-waktu-layar-screen-time",
-    "slugEn": "kidstech-learning-healthy-daily-screen-time-limits-sleep-routines-2026-advi",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-batas-waktu-layar-screen-time-2",
+    "slugEn": "kidstech-learning-healthy-daily-screen-time-limits-sleep-routines-2026-advi-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -6162,8 +6162,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-belajar-berhitung-me",
-    "slugEn": "kidstech-learning-engaging-early-math-arithmetic-learning-apps-2026-advice",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-belajar-berhitung-me-2",
+    "slugEn": "kidstech-learning-engaging-early-math-arithmetic-learning-apps-2026-advice-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -6316,7 +6316,7 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-mengenal-huruf-alfab",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-mengenal-huruf-alfab-2",
     "slugEn": "kidstech-learning-interactive-phonics-alphabet-learning-apps-2026-advice-53",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
@@ -6470,8 +6470,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-game-teka-teki-asah-otak-anak",
-    "slugEn": "kidstech-learning-cognitive-puzzle-brain-teaser-games-for-toddlers-2026-adv",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-game-teka-teki-asah-otak-anak-2",
+    "slugEn": "kidstech-learning-cognitive-puzzle-brain-teaser-games-for-toddlers-2026-adv-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -6624,8 +6624,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-menggambar-mewarnai-",
-    "slugEn": "kidstech-learning-creative-digital-drawing-coloring-tools-for-kids-2026-adv",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-menggambar-mewarnai--2",
+    "slugEn": "kidstech-learning-creative-digital-drawing-coloring-tools-for-kids-2026-adv-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -6778,8 +6778,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-fitur-google-family-link-pand",
-    "slugEn": "kidstech-learning-google-family-link-parental-controls-setup-guide-2026-adv",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-fitur-google-family-link-pand-2",
+    "slugEn": "kidstech-learning-google-family-link-parental-controls-setup-guide-2026-adv-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -6932,8 +6932,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-kunci-layar-sematkan-aplikasi",
-    "slugEn": "kidstech-learning-android-app-pinning-to-child-proof-screen-access-2026-adv",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-kunci-layar-sematkan-aplikasi-2",
+    "slugEn": "kidstech-learning-android-app-pinning-to-child-proof-screen-access-2026-adv-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -7086,8 +7086,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-mematikan-pembelian-dalam-gam",
-    "slugEn": "kidstech-learning-disabling-in-app-purchases-accidental-charges-2026-advice",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-mematikan-pembelian-dalam-gam-2",
+    "slugEn": "kidstech-learning-disabling-in-app-purchases-accidental-charges-2026-advice-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -7240,8 +7240,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-memblokir-konten-dewasa-iklan",
-    "slugEn": "kidstech-learning-filtering-mature-content-blocking-harmful-online-ads-2026",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-memblokir-konten-dewasa-iklan-2",
+    "slugEn": "kidstech-learning-filtering-mature-content-blocking-harmful-online-ads-2026-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -7394,8 +7394,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-pencarian-suara-ramah-anak-yo",
-    "slugEn": "kidstech-learning-safe-voice-search-curated-playlists-on-youtube-kids-2026",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-pencarian-suara-ramah-anak-yo-2",
+    "slugEn": "kidstech-learning-safe-voice-search-curated-playlists-on-youtube-kids-2026-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -7548,8 +7548,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-tablet-belajar-anak-casing-ta",
-    "slugEn": "kidstech-learning-durable-drop-proof-kids-learning-tablets-cases-2026-advic",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-tablet-belajar-anak-casing-ta-2",
+    "slugEn": "kidstech-learning-durable-drop-proof-kids-learning-tablets-cases-2026-advic-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -7702,8 +7702,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-stylus-pen-ujung-lembut-ramah",
-    "slugEn": "kidstech-learning-soft-tipped-ergonomic-stylus-pens-for-children-2026-advic",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-stylus-pen-ujung-lembut-ramah-2",
+    "slugEn": "kidstech-learning-soft-tipped-ergonomic-stylus-pens-for-children-2026-advic-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -7856,8 +7856,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-pelindung-layar-mata-anti-rad",
-    "slugEn": "kidstech-learning-blue-light-filtering-screen-protectors-for-young-eyes-202",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-pelindung-layar-mata-anti-rad-2",
+    "slugEn": "kidstech-learning-blue-light-filtering-screen-protectors-for-young-eyes-202-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -8010,8 +8010,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-headphone-batas-volume-aman-8",
-    "slugEn": "kidstech-learning-volume-limiting-85db-safe-headphones-for-kids-2026-advice",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-headphone-batas-volume-aman-8-2",
+    "slugEn": "kidstech-learning-volume-limiting-85db-safe-headphones-for-kids-2026-advice-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -8164,7 +8164,7 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-dudukan-tablet-meja-belajar-e",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-dudukan-tablet-meja-belajar-e-2",
     "slugEn": "kidstech-learning-ergonomic-tablet-stands-for-study-desks-2026-advice-65",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
@@ -8318,8 +8318,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-metode-belajar-montessori-lew",
-    "slugEn": "kidstech-learning-montessori-inspired-digital-learning-methods-2026-advice",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-metode-belajar-montessori-lew-2",
+    "slugEn": "kidstech-learning-montessori-inspired-digital-learning-methods-2026-advice-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -8472,8 +8472,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-bahasa-inggris-kosaka",
-    "slugEn": "kidstech-learning-daily-vocabulary-english-language-learning-apps-2026-advi",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-bahasa-inggris-kosaka-2",
+    "slugEn": "kidstech-learning-daily-vocabulary-english-language-learning-apps-2026-advi-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -8626,7 +8626,7 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-mengenal-bentuk-geome",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-mengenal-bentuk-geome-2",
     "slugEn": "kidstech-learning-color-recognition-geometric-shape-puzzles-2026-advice-68",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
@@ -8780,7 +8780,7 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-dongeng-interaktif-suara-sebe",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-dongeng-interaktif-suara-sebe-2",
     "slugEn": "kidstech-learning-interactive-bedtime-audiobooks-story-apps-2026-advice-69",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
@@ -8934,8 +8934,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-lagu-anak-edukatif-melatih-pe",
-    "slugEn": "kidstech-learning-auditory-development-through-educational-nursery-rhymes-2",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-lagu-anak-edukatif-melatih-pe-2",
+    "slugEn": "kidstech-learning-auditory-development-through-educational-nursery-rhymes-2-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -9088,8 +9088,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-kreativitas-membangun-balok-v",
-    "slugEn": "kidstech-learning-creative-virtual-block-building-games-for-toddlers-2026-a",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-kreativitas-membangun-balok-v-2",
+    "slugEn": "kidstech-learning-creative-virtual-block-building-games-for-toddlers-2026-a-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -9242,8 +9242,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-eksperimen-sains-sederhana-an",
-    "slugEn": "kidstech-learning-interactive-science-discovery-apps-for-young-learners-202",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-eksperimen-sains-sederhana-an-2",
+    "slugEn": "kidstech-learning-interactive-science-discovery-apps-for-young-learners-202-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -9396,8 +9396,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-menjaga-kesehatan-mata-anak-s",
-    "slugEn": "kidstech-learning-preventing-eye-strain-nearsightedness-from-screens-2026-a",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-menjaga-kesehatan-mata-anak-s-2",
+    "slugEn": "kidstech-learning-preventing-eye-strain-nearsightedness-from-screens-2026-a-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -9550,8 +9550,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aturan-gadget-bebas-saat-maka",
-    "slugEn": "kidstech-learning-establishing-screen-free-mealtime-bedtime-zones-2026-advi",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aturan-gadget-bebas-saat-maka-2",
+    "slugEn": "kidstech-learning-establishing-screen-free-mealtime-bedtime-zones-2026-advi-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -9704,8 +9704,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aktivitas-fisik-penyeimbang-w",
-    "slugEn": "kidstech-learning-balancing-digital-screen-time-with-outdoor-play-2026-advi",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aktivitas-fisik-penyeimbang-w-2",
+    "slugEn": "kidstech-learning-balancing-digital-screen-time-with-outdoor-play-2026-advi-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -9858,8 +9858,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-deteksi-bakat-anak-lewat-mina",
-    "slugEn": "kidstech-learning-identifying-early-talents-through-creative-apps-2026-advi",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-deteksi-bakat-anak-lewat-mina-2",
+    "slugEn": "kidstech-learning-identifying-early-talents-through-creative-apps-2026-advi-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -10012,8 +10012,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-melatih-kesabaran-anak-lewat-",
-    "slugEn": "kidstech-learning-fostering-patience-resilience-through-educational-games-2",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-melatih-kesabaran-anak-lewat--2",
+    "slugEn": "kidstech-learning-fostering-patience-resilience-through-educational-games-2-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -10166,8 +10166,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-mengenalkan-jam-konsep-waktu-",
-    "slugEn": "kidstech-learning-teaching-daily-time-management-to-young-children-2026-adv",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-mengenalkan-jam-konsep-waktu--2",
+    "slugEn": "kidstech-learning-teaching-daily-time-management-to-young-children-2026-adv-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -10320,8 +10320,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-menabung-celengan-dig",
-    "slugEn": "kidstech-learning-interactive-apps-to-teach-smart-saving-habits-2026-advice",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-menabung-celengan-dig-2",
+    "slugEn": "kidstech-learning-interactive-apps-to-teach-smart-saving-habits-2026-advice-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -10474,8 +10474,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-etika-sopan-santun-komunikasi",
-    "slugEn": "kidstech-learning-teaching-safe-respectful-digital-communication-2026-advic",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-etika-sopan-santun-komunikasi-2",
+    "slugEn": "kidstech-learning-teaching-safe-respectful-digital-communication-2026-advic-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -10628,8 +10628,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-belajar-iqro-mengaji",
-    "slugEn": "kidstech-learning-interactive-quranic-phonics-recitation-learning-apps-2026",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-belajar-iqro-mengaji-2",
+    "slugEn": "kidstech-learning-interactive-quranic-phonics-recitation-learning-apps-2026-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",
@@ -10782,7 +10782,7 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-musik-piano-drum-ana",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-musik-piano-drum-ana-2",
     "slugEn": "kidstech-learning-playful-piano-drum-musical-instrument-apps-2026-advice-82",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
@@ -10936,8 +10936,8 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-anatomi-tubuh-hidup-s",
-    "slugEn": "kidstech-learning-fun-human-anatomy-healthy-lifestyle-learning-apps-2026-ad",
+    "slug": "kidstech-panduan-belajar-anak-gadget-edukatif-belajar-anatomi-tubuh-hidup-s-2",
+    "slugEn": "kidstech-learning-fun-human-anatomy-healthy-lifestyle-learning-apps-2026-ad-2",
     "targetAppSlug": "monster-math-train-brain",
     "category": "education",
     "affiliateCategory": "kids",

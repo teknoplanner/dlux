@@ -2,309 +2,106 @@
 
 import React from "react";
 import Image from "next/image";
-import {
-  Sparkles,
-  Gamepad2,
-  Headphones,
-  Tablet,
-  PenTool,
-  ShieldCheck,
-  ExternalLink,
-  CheckCircle2,
-  Wind,
-  ShoppingBag,
-} from "lucide-react";
 import { AmazonProduct } from "@/data/amazonProducts";
 import { trackAmazonClick, trackShopeeClick } from "@/lib/analytics";
 import { useIsIndonesia } from "@/lib/geo";
+import { GearScene, hasGearScene } from "@/components/hardware/GearScene";
 
-interface AmazonProductCardProps {
-  product: AmazonProduct;
-  lang?: "en" | "id";
+type Lang = "en" | "id";
+
+function useBuy(product: AmazonProduct, lang: Lang, source: string) {
+  const isIndonesia = useIsIndonesia(lang);
+  const isEn = lang === "en";
+  const shopee = isIndonesia && Boolean(product.shopeeUrl);
+  const name = isEn ? product.nameEn : product.name;
+  return {
+    name,
+    shopee,
+    href: shopee ? product.shopeeUrl! : product.url,
+    label: shopee ? "Beli di Shopee" : isEn ? "Check price on Amazon" : "Cek harga di Amazon",
+    onClick: () => (shopee ? trackShopeeClick(product.id, name, source) : trackAmazonClick(product.id, name, source)),
+    btn: shopee ? "bg-[#c2381a] hover:bg-[#a52e14] text-white" : "bg-amber-500 hover:bg-amber-400 text-slate-950",
+  };
 }
 
-export const AmazonProductCard: React.FC<AmazonProductCardProps> = ({
-  product,
-  lang = "en",
-}) => {
+const Thumb: React.FC<{ product: AmazonProduct; name: string; sizes: string }> = ({ product, name, sizes }) =>
+  hasGearScene(product.id) ? (
+    <GearScene id={product.id} label={name} />
+  ) : (
+    <Image src={product.image} alt={name} fill className="object-cover" sizes={sizes} />
+  );
+
+const btnBase =
+  "inline-flex items-center justify-center min-h-[44px] px-4 rounded-lg text-sm font-bold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900";
+
+export const AmazonProductCard: React.FC<{ product: AmazonProduct; lang?: Lang }> = ({ product, lang = "en" }) => {
   const isEn = lang === "en";
-  const isIndonesia = useIsIndonesia(lang);
-  const showShopee = isIndonesia && Boolean(product.shopeeUrl);
-  const targetUrl = showShopee ? product.shopeeUrl! : product.url;
-  const name = isEn ? product.nameEn : product.name;
-  const tagline = isEn ? product.taglineEn : product.tagline;
-  const badge = isEn ? product.badgeEn : product.badge;
+  const buy = useBuy(product, lang, "gear_showcase");
   const features = isEn ? product.featuresEn : product.features;
-
-  const renderIcon = () => {
-    switch (product.iconType) {
-      case "fan":
-        return <Wind className="w-3.5 h-3.5 text-cyan-600" />;
-      case "gamepad":
-        return <Gamepad2 className="w-3.5 h-3.5 text-indigo-600" />;
-      case "headphones":
-        return <Headphones className="w-3.5 h-3.5 text-emerald-600" />;
-      case "tablet":
-        return <Tablet className="w-3.5 h-3.5 text-amber-600" />;
-      case "pen":
-        return <PenTool className="w-3.5 h-3.5 text-purple-600" />;
-      case "shield":
-        return <ShieldCheck className="w-3.5 h-3.5 text-teal-600" />;
-      case "sparkles":
-      default:
-        return <Sparkles className="w-3.5 h-3.5 text-amber-600" />;
-    }
-  };
-
   return (
-    <div className="group rounded-2xl bg-white border border-stone-200 p-5 sm:p-6 shadow-xs hover:border-stone-400/80 hover:shadow-md transition-all duration-200 flex flex-col justify-between">
-      <div className="space-y-3.5">
-        {/* Product Thematic Cover Image */}
-        {product.image && (
-          <div className="relative w-full aspect-[16/10] rounded-xl overflow-hidden bg-stone-950 border border-stone-200/80 shadow-xs">
-            <Image
-              src={product.image}
-              alt={name}
-              fill
-              className="object-cover group-hover:scale-105 transition-transform duration-300"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
-          </div>
-        )}
-
-        {/* Subtle Category & Source Label */}
-        <div className="flex items-center justify-between gap-2 pt-1">
-          <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium text-stone-700 bg-stone-100 border border-stone-200/60">
-            {renderIcon()}
-            <span>{badge}</span>
-          </span>
-
-          <span className="inline-flex items-center gap-1 text-xs text-stone-500">
-            <ShoppingBag className={`w-3.5 h-3.5 ${showShopee ? "text-orange-500" : "text-stone-400"}`} />
-            <span>{showShopee ? "Shopee" : "Amazon"}</span>
-          </span>
-        </div>
-
-        {/* Product Title */}
-        <h4 className="text-base sm:text-lg font-bold text-stone-900 group-hover:text-indigo-600 transition-colors leading-snug">
-          {name}
-        </h4>
-
-        {/* Product Description */}
-        <p className="text-sm sm:text-base text-stone-600 leading-relaxed">
-          {tagline}
-        </p>
-
-        {/* Key Features */}
-        <ul className="space-y-2 pt-3 border-t border-stone-100">
-          {features.slice(0, 2).map((feat, idx) => (
-            <li
-              key={idx}
-              className="flex items-start gap-2 text-sm text-stone-700 leading-relaxed"
-            >
-              <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-              <span>{feat}</span>
-            </li>
+    <article className="flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white">
+      <div className="relative aspect-[16/10] bg-slate-100">
+        <Thumb product={product} name={buy.name} sizes="(max-width: 768px) 100vw, 50vw" />
+      </div>
+      <div className="flex flex-col gap-3 p-5 flex-1">
+        <h4 className="font-display font-bold text-lg text-slate-900 leading-snug">{buy.name}</h4>
+        <p className="text-sm text-slate-700 leading-relaxed">{isEn ? product.taglineEn : product.tagline}</p>
+        <ul className="list-disc pl-5 text-sm text-slate-700 space-y-1">
+          {features.slice(0, 2).map((f) => (
+            <li key={f}>{f}</li>
           ))}
         </ul>
-      </div>
-
-      {/* Action Footer */}
-      <div className="pt-4 mt-4 border-t border-stone-100 flex items-center justify-between gap-3">
-        <span className="text-xs text-stone-400 font-mono hidden sm:inline">
-          {showShopee
-            ? "Shopee Mall / Star Seller"
-            : isEn
-            ? "Amazon Official Listing"
-            : "Tautan Resmi Amazon"}
-        </span>
-
-        <a
-          href={targetUrl}
-          target="_blank"
-          rel="sponsored noopener noreferrer"
-          onClick={() => {
-            if (showShopee) {
-              trackShopeeClick(product.id, name, "gear_showcase");
-            } else {
-              trackAmazonClick(product.id, name, "gear_showcase");
-            }
-          }}
-          className={`w-full sm:w-auto ml-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-medium text-sm transition-colors shadow-xs group/btn ${
-            showShopee
-              ? "bg-[#ee4d2d] hover:bg-[#d73211] text-white font-bold"
-              : "bg-stone-900 hover:bg-stone-800 text-white"
-          }`}
-        >
-          <span>
-            {showShopee
-              ? "Beli di Shopee"
-              : isEn
-              ? "Check on Amazon"
-              : "Lihat di Amazon"}
-          </span>
-          <ExternalLink className="w-3.5 h-3.5 group-hover/btn:translate-x-0.5 transition-transform" />
+        <a href={buy.href} target="_blank" rel="sponsored noopener noreferrer" onClick={buy.onClick} className={`${btnBase} ${buy.btn} mt-auto`}>
+          {buy.label}
         </a>
       </div>
-    </div>
+    </article>
   );
 };
 
-interface AmazonGearShowcaseProps {
-  products: AmazonProduct[];
-  lang?: "en" | "id";
-  title?: string;
-  subtitle?: string;
-}
-
-export const AmazonGearShowcase: React.FC<AmazonGearShowcaseProps> = ({
+export const AmazonGearShowcase: React.FC<{ products: AmazonProduct[]; lang?: Lang; title?: string; subtitle?: string }> = ({
   products,
   lang = "en",
   title,
   subtitle,
 }) => {
-  if (!products || products.length === 0) return null;
+  if (!products?.length) return null;
   const isEn = lang === "en";
-
-  const defaultTitle = isEn
-    ? "Tested Physical Accessories for Extended Sessions"
-    : "Perangkat Pendukung Teruji untuk Kenyamanan Maksimal";
-
-  const defaultSubtitle = isEn
-    ? "Software settings only go so far. These tested physical accessories help keep touch response smooth, eliminate thermal throttling, and cut audio delay."
-    : "Pengaturan game punya batas fisik. Aksesoris teruji ini membantu menjaga sentuhan tetap licin, meredam panas perangkat, dan memangkas delay audio.";
-
   return (
-    <section className="my-8 sm:my-10 rounded-2xl bg-stone-50/80 border border-stone-200 p-5 sm:p-8 space-y-5 sm:space-y-6 shadow-xs">
-      {/* Header */}
-      <div className="space-y-2 border-b border-stone-200/80 pb-4">
-        <span className="text-xs font-semibold tracking-wider uppercase text-stone-500 font-mono block">
-          {isEn ? "Recommended Hardware" : "Rekomendasi Perangkat Pendukung"}
-        </span>
-
-        <h3 className="text-xl sm:text-2xl font-bold font-display text-stone-900 leading-tight">
-          {title || defaultTitle}
-        </h3>
-
-        <p className="text-sm sm:text-base text-stone-600 leading-relaxed max-w-2xl">
-          {subtitle || defaultSubtitle}
-        </p>
-      </div>
-
-      {/* Editorial Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
-        {products.map((prod) => (
-          <AmazonProductCard key={prod.id} product={prod} lang={lang} />
+    <section className="my-12">
+      <h3 className="font-display font-bold text-2xl text-slate-900">
+        {title || (isEn ? "Accessories for longer sessions" : "Aksesoris untuk sesi yang lebih lama")}
+      </h3>
+      {subtitle && <p className="mt-2 max-w-2xl text-slate-700 leading-relaxed">{subtitle}</p>}
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-5">
+        {products.map((p) => (
+          <AmazonProductCard key={p.id} product={p} lang={lang} />
         ))}
       </div>
-
-      {/* Editorial Disclosure */}
-      <div className="pt-4 border-t border-stone-200/70 text-xs text-stone-500 leading-relaxed flex flex-wrap items-center justify-between gap-2">
-        <p>
-          <span className="font-semibold text-stone-600">
-            {isEn ? "Transparency Disclosure:" : "Catatan Transparansi:"}
-          </span>{" "}
-          {isEn
-            ? "When you buy through links on our site, we may earn an affiliate commission at no extra cost to you."
-            : "Kami berpartisipasi dalam program afiliasi Shopee & Amazon untuk memperoleh komisi dari pembelian tanpa biaya tambahan untuk Anda."}
-        </p>
-        <span className="text-stone-400 font-mono">
-          {isEn ? "Direct Amazon Storefront" : "Tautan Resmi Toko"}
-        </span>
-      </div>
+      <p className="mt-5 text-sm text-slate-600 leading-relaxed">
+        {isEn
+          ? "If you buy through these links we may earn a commission, at no extra cost to you."
+          : "Kami bisa menerima komisi dari pembelian lewat tautan ini, tanpa biaya tambahan untuk Anda."}
+      </p>
     </section>
   );
 };
 
-interface AmazonInlineCalloutProps {
-  product: AmazonProduct;
-  lang?: "en" | "id";
-}
-
-export const AmazonInlineCallout: React.FC<AmazonInlineCalloutProps> = ({
-  product,
-  lang = "en",
-}) => {
+export const AmazonInlineCallout: React.FC<{ product: AmazonProduct; lang?: Lang }> = ({ product, lang = "en" }) => {
   const isEn = lang === "en";
-  const isIndonesia = useIsIndonesia(lang);
-  const showShopee = isIndonesia && Boolean(product.shopeeUrl);
-  const targetUrl = showShopee ? product.shopeeUrl! : product.url;
-  const name = isEn ? product.nameEn : product.name;
-  const tagline = isEn ? product.taglineEn : product.tagline;
-  const badge = isEn ? product.badgeEn : product.badge;
-
+  const buy = useBuy(product, lang, "inline_callout");
   return (
-    <aside className="my-8 rounded-2xl bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-transparent border border-amber-300/70 p-4 sm:p-5 shadow-xs relative overflow-hidden">
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div className="flex items-center gap-3.5">
-          {product.image && (
-            <div className="relative w-16 h-16 rounded-xl overflow-hidden border border-amber-300/80 shadow-2xs shrink-0 bg-stone-900">
-              <Image
-                src={product.image}
-                alt={name}
-                fill
-                className="object-cover"
-                sizes="64px"
-              />
-            </div>
-          )}
-          <div className="space-y-1">
-            <div className="flex items-center gap-2">
-              <span className={`text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-md border font-bold inline-flex items-center gap-1 ${
-                showShopee
-                  ? "text-orange-950 bg-orange-100 border-orange-300/80"
-                  : "text-amber-900 bg-amber-100 border-amber-300/80"
-              }`}>
-                <ShoppingBag className={`w-3 h-3 ${showShopee ? "text-orange-700" : "text-amber-800"}`} />
-                {badge}
-              </span>
-              <span className={`text-xs font-medium hidden sm:inline ${showShopee ? "text-orange-800" : "text-amber-800"}`}>
-                {showShopee
-                  ? "Rekomendasi Shopee Terpercaya"
-                  : isEn
-                  ? "Tested Physical Accessory"
-                  : "Perangkat Fisik Teruji"}
-              </span>
-            </div>
-            <h4 className="text-sm sm:text-base font-bold text-stone-900 leading-snug">
-              {name}
-            </h4>
-            <p className="text-xs sm:text-sm text-stone-600 line-clamp-1">
-              {tagline}
-            </p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-2 w-full sm:w-auto shrink-0">
-          <a
-            href={targetUrl}
-            target="_blank"
-            rel="sponsored noopener noreferrer"
-            onClick={() => {
-              if (showShopee) {
-                trackShopeeClick(product.id, name, "inline_callout");
-              } else {
-                trackAmazonClick(product.id, name, "inline_callout");
-              }
-            }}
-            className={`w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all shadow-xs group ${
-              showShopee
-                ? "bg-gradient-to-r from-orange-500 to-[#ee4d2d] hover:from-orange-600 hover:to-[#d73211] text-white"
-                : "bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-stone-950"
-            }`}
-          >
-            <span>
-              {showShopee
-                ? "Cek Promo di Shopee"
-                : isEn
-                ? "Check Price on Amazon"
-                : "Cek Promo di Amazon"}
-            </span>
-            <ExternalLink className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
-          </a>
-        </div>
+    <aside className="my-10 flex flex-col sm:flex-row sm:items-center gap-4 rounded-xl border border-slate-300 bg-white p-4 sm:p-5">
+      <div className="relative w-full sm:w-36 aspect-[16/10] shrink-0 overflow-hidden rounded-lg bg-slate-100">
+        <Thumb product={product} name={buy.name} sizes="144px" />
       </div>
+      <div className="flex-1 min-w-0">
+        <p className="font-display font-bold text-slate-900 leading-snug">{buy.name}</p>
+        <p className="mt-1 text-sm text-slate-700 line-clamp-2">{isEn ? product.taglineEn : product.tagline}</p>
+      </div>
+      <a href={buy.href} target="_blank" rel="sponsored noopener noreferrer" onClick={buy.onClick} className={`${btnBase} ${buy.btn} shrink-0`}>
+        {buy.label}
+      </a>
     </aside>
   );
 };
-

@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { Play, Pin, CheckCircle, ArrowRight, Gamepad2, Wrench, GraduationCap, Smartphone, Star, Download } from "lucide-react";
+import { Play, CheckCircle, ArrowRight, Gamepad2, Wrench, GraduationCap, Smartphone, Star, Download } from "lucide-react";
 import { apps } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 import { ScreenshotCarousel } from "@/components/app/ScreenshotCarousel";
@@ -40,22 +40,18 @@ export const Featured: React.FC = () => {
         {/* Section Header & Spotlight Switcher */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-bold text-slate-800 mb-3 shadow-2xs">
-              <Pin className="w-3.5 h-3.5 text-purple-600 fill-purple-600" />
-              <span>FEATURED SPOTLIGHT</span>
-            </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-              Featured Studio Picks
+              Start with these three
             </h2>
             <p className="text-sm sm:text-base text-slate-600 mt-2 max-w-xl">
-              Our spotlight applications, loved and enjoyed by users on Google Play.
+              One learning game, one sports game, one tool.
             </p>
           </div>
 
           {/* Tab Selector: Pinned Monster Math, Game, Tool */}
           <div className="inline-flex p-1 rounded-2xl bg-slate-200/80 border border-slate-300/80 shrink-0">
             <button
-              onClick={() => setActiveSlug("monster-math-train-brain")}
+              type="button" aria-pressed={activeSlug === "monster-math-train-brain"} onClick={() => setActiveSlug("monster-math-train-brain")}
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all ${
                 activeSlug === "monster-math-train-brain"
                   ? "bg-white text-slate-900 shadow-sm font-bold"
@@ -64,13 +60,10 @@ export const Featured: React.FC = () => {
             >
               <GraduationCap className="w-4 h-4 text-purple-600" />
               <span>Monster Math</span>
-              <span className="text-[10px] px-1.5 py-0.5 rounded-md bg-purple-100 text-purple-800 font-bold ml-0.5">
-                Pinned
-              </span>
             </button>
 
             <button
-              onClick={() => setActiveSlug("stickman-penalty-rush")}
+              type="button" aria-pressed={activeSlug === "stickman-penalty-rush"} onClick={() => setActiveSlug("stickman-penalty-rush")}
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all ${
                 activeSlug === "stickman-penalty-rush"
                   ? "bg-white text-slate-900 shadow-sm font-bold"
@@ -82,7 +75,7 @@ export const Featured: React.FC = () => {
             </button>
 
             <button
-              onClick={() => setActiveSlug("offline-pdf-editor")}
+              type="button" aria-pressed={activeSlug === "offline-pdf-editor"} onClick={() => setActiveSlug("offline-pdf-editor")}
               className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all ${
                 activeSlug === "offline-pdf-editor"
                   ? "bg-white text-slate-900 shadow-sm font-bold"
@@ -96,7 +89,7 @@ export const Featured: React.FC = () => {
         </div>
 
         {/* Featured Showcase Card */}
-        <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-10 shadow-lg relative overflow-hidden">
+        <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-10 relative overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
             {/* Left Col: Info & Features */}
             <div className="lg:col-span-5 space-y-5">

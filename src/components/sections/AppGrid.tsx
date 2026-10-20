@@ -1,93 +1,49 @@
 "use client";
 
 import React, { useState } from "react";
-import { Gamepad2, GraduationCap, Wrench, LayoutGrid } from "lucide-react";
 import { apps } from "@/data/apps";
 import { AppCard } from "@/components/app/AppCard";
 
+const tabs = [
+  ["all", "All"],
+  ["game", "Games"],
+  ["tool", "Tools"],
+  ["education", "Education"],
+] as const;
+
 export const AppGrid: React.FC = () => {
-  const [activeCategory, setActiveCategory] = useState<"all" | "game" | "education" | "tool">("all");
-
-  const filteredApps = apps.filter((app) => {
-    if (activeCategory === "all") return true;
-    return app.category === activeCategory;
-  });
-
-  const gameCount = apps.filter((a) => a.category === "game").length;
-  const eduCount = apps.filter((a) => a.category === "education").length;
-  const toolCount = apps.filter((a) => a.category === "tool").length;
+  const [active, setActive] = useState<(typeof tabs)[number][0]>("all");
+  const count = (key: string) => (key === "all" ? apps.length : apps.filter((a) => a.category === key).length);
+  const list = active === "all" ? apps : apps.filter((a) => a.category === active);
 
   return (
-    <section id="apps" className="py-20 relative bg-white border-b border-slate-200/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
-          <span className="text-xs font-mono font-bold uppercase tracking-widest text-slate-600 block">
-            Portfolio
-          </span>
+    <section id="apps" className="py-16 sm:py-24 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl sm:text-4xl font-bold font-display text-slate-900 tracking-tight mb-6">
+          Android games and apps
+        </h2>
 
-          <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-            Android Games &amp; Apps
-          </h2>
+        <div className="flex flex-wrap gap-2 mb-8" role="group" aria-label="Filter apps by category">
+          {tabs.map(([key, label]) => (
+            <button
+              key={key}
+              type="button"
+              aria-pressed={active === key}
+              onClick={() => setActive(key)}
+              className={`min-h-[44px] px-4 rounded-lg text-sm font-bold border focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 ${
+                active === key
+                  ? "bg-slate-900 text-white border-slate-900"
+                  : "bg-white text-slate-800 border-slate-300 hover:bg-slate-100"
+              }`}
+            >
+              {label} ({count(key)})
+            </button>
+          ))}
         </div>
 
-        {/* Filter Tabs with High Contrast */}
-        <div className="flex flex-wrap items-center justify-center gap-2.5 mb-10">
-          <button
-            onClick={() => setActiveCategory("all")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
-              activeCategory === "all"
-                ? "bg-slate-900 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
-            }`}
-          >
-            <LayoutGrid className="w-4 h-4 text-slate-600" />
-            All ({apps.length})
-          </button>
-
-          <button
-            onClick={() => setActiveCategory("game")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
-              activeCategory === "game"
-                ? "bg-emerald-600 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
-            }`}
-          >
-            <Gamepad2 className="w-4 h-4 text-emerald-600" />
-            Games ({gameCount})
-          </button>
-
-          <button
-            onClick={() => setActiveCategory("tool")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
-              activeCategory === "tool"
-                ? "bg-sky-600 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
-            }`}
-          >
-            <Wrench className="w-4 h-4 text-sky-600" />
-            Tools ({toolCount})
-          </button>
-
-          <button
-            onClick={() => setActiveCategory("education")}
-            className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm transition-all duration-200 ${
-              activeCategory === "education"
-                ? "bg-purple-600 text-white shadow-sm font-bold"
-                : "bg-slate-100 text-slate-800 hover:text-slate-950 hover:bg-slate-200 border border-slate-300 font-bold"
-            }`}
-          >
-            <GraduationCap className="w-4 h-4 text-purple-600" />
-            Education ({eduCount})
-          </button>
-        </div>
-
-        {/* Apps Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
-          {filteredApps.map((app) => (
-            <div key={app.slug} className="h-full">
-              <AppCard app={app} />
-            </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {list.map((app) => (
+            <AppCard key={app.slug} app={app} />
           ))}
         </div>
       </div>

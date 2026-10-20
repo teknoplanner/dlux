@@ -100,3 +100,85 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+/* Hero illustration loop: pure CSS, paused for reduced-motion users */
+.hv [class] { transform-box: fill-box; transform-origin: center; }
+.hv-blob { animation: hv-breathe 9s ease-in-out infinite; }
+.hv-float { animation: hv-bob 5s ease-in-out infinite; }
+.hv-d1 { animation-delay: -1.5s; }
+.hv-d2 { animation-delay: -3s; }
+.hv-d3 { animation-delay: -4.2s; }
+.hv-ball { animation: hv-shot 6s ease-out infinite; }
+.hv-gk { animation: hv-dive 6s ease-in-out infinite; }
+.hv-sign { animation: hv-sign 6s ease-in-out infinite; }
+@keyframes hv-breathe { 50% { transform: scale(1.04); } }
+@keyframes hv-bob { 50% { transform: translateY(-10px); } }
+@keyframes hv-shot {
+  0%, 12% { transform: translate(0, 0) scale(1); opacity: 1; }
+  40%, 56% { transform: translate(14px, -226px) scale(.55); opacity: 1; }
+  62% { transform: translate(14px, -226px) scale(.55); opacity: 0; }
+  63% { transform: translate(0, 0) scale(1); opacity: 0; }
+  70%, 100% { transform: translate(0, 0) scale(1); opacity: 1; }
+}
+@keyframes hv-dive {
+  0%, 20% { transform: translateX(0); }
+  38%, 60% { transform: translateX(-30px) rotate(-12deg); }
+  80%, 100% { transform: translateX(0); }
+}
+@keyframes hv-sign {
+  0% { stroke-dashoffset: 160; opacity: 1; }
+  45%, 88% { stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hv * { animation: none !important; }
+  .hv-sign { stroke-dashoffset: 0; }
+}
+
+/* Blog and gear illustrations reuse the .hv loop; extra keyframes only */
+.hv .hv-type { transform-origin: left center; animation: hv-type 6s ease-out infinite; }
+.hv .hv-t2 { animation-delay: .5s; } .hv .hv-t3 { animation-delay: 1s; }
+.hv .hv-t4 { animation-delay: 1.5s; } .hv .hv-t5 { animation-delay: 2s; }
+.hv-swing { transform-origin: 350px 30px !important; animation: hv-swing 4s ease-in-out infinite; }
+.hv-spin { animation: hv-spin 1.1s linear infinite; }
+@keyframes hv-type { 0% { transform: scaleX(0); opacity: 1; } 30%, 88% { transform: scaleX(1); opacity: 1; } 100% { transform: scaleX(1); opacity: 0; } }
+@keyframes hv-swing { 50% { transform: rotate(7deg); } }
+@keyframes hv-spin { to { transform: rotate(360deg); } }
+
+/* Gear product scenes */
+.gs-wave { animation: gs-wave 2.4s ease-out infinite; }
+.gs-swipe { animation: gs-swipe 3s ease-in-out infinite; }
+.gs-press { animation: gs-press 2s ease-in-out infinite; }
+.gs-p2 { animation-delay: .5s; } .gs-p3 { animation-delay: 1s; } .gs-p4 { animation-delay: 1.5s; }
+.gs-pulse { animation: gs-pulse 2s ease-out infinite; }
+.gs-drop { animation: gs-drop 3s ease-in infinite; }
+.gs-shadow { animation: gs-shadow 3s ease-in infinite; }
+.gs-slide { animation: gs-slide 3.5s ease-in-out infinite; }
+.gs-glare { animation: gs-glare 3.5s ease-in-out infinite; }
+@keyframes gs-wave { 0% { transform: translateY(8px); opacity: 0; } 30% { opacity: .9; } 100% { transform: translateY(-22px); opacity: 0; } }
+@keyframes gs-swipe { 50% { transform: translateX(30px); } 0%, 100% { transform: translateX(-30px); } }
+@keyframes gs-press { 0%, 70%, 100% { transform: scale(1); } 80% { transform: scale(.75); } }
+@keyframes gs-pulse { 0% { transform: scale(.7); opacity: .9; } 100% { transform: scale(1.5); opacity: 0; } }
+@keyframes gs-drop { 0% { transform: translateY(-50px); } 35% { transform: translateY(0); } 40% { transform: scaleY(.93); } 46% { transform: translateY(-12px); } 52%, 100% { transform: translateY(0); } }
+@keyframes gs-shadow { 0% { transform: scaleX(.5); opacity: .15; } 35% { transform: scaleX(1); opacity: .35; } 100% { transform: scaleX(1); opacity: .35; } }
+@keyframes gs-slide { 0% { transform: translateY(-120px); opacity: 0; } 40%, 80% { transform: translateY(0); opacity: 1; } 100% { transform: translateY(0); opacity: 0; } }
+@keyframes gs-glare { 0%, 30% { transform: translateX(-120px) skewX(-14deg); } 70%, 100% { transform: translateX(160px) skewX(-14deg); } }
+
+/* Article reading progress: pure CSS, no JS (browsers without scroll timelines just hide it) */
+.read-progress { position: fixed; inset: 0 0 auto 0; height: 3px; background: #047857; transform: scaleX(0); transform-origin: left; z-index: 60; display: none; }
+@supports (animation-timeline: scroll()) {
+  .read-progress { display: block; animation: read-grow linear both; animation-timeline: scroll(root); }
+}
+@keyframes read-grow { to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .read-progress { display: none; } }
+@media (prefers-reduced-motion: reduce) { .hv-float { animation: none; } }
+
+/* Generated article covers */
+.hv .cv-grow { transform-origin: 50% 100%; animation: cv-grow 4s ease-in-out infinite; }
+.cv-shot { animation: cv-shot 5s ease-out infinite; }
+.cv-lane { animation: cv-lane 5s ease-in-out infinite alternate; }
+.cv-zone { animation: cv-zone 7s ease-in-out infinite; }
+@keyframes cv-grow { 0%, 10% { transform: scaleY(.15); } 50%, 85% { transform: scaleY(1); } 100% { transform: scaleY(.15); } }
+@keyframes cv-shot { 0%, 10% { transform: translate(0, 0) scale(1); opacity: 1; } 45%, 60% { transform: translate(var(--dx, 0px), -200px) scale(.5); opacity: 1; } 70% { opacity: 0; transform: translate(var(--dx, 0px), -200px) scale(.5); } 71% { transform: translate(0, 0) scale(1); opacity: 0; } 80%, 100% { transform: translate(0, 0) scale(1); opacity: 1; } }
+@keyframes cv-lane { to { transform: translate(var(--dx, 60px), var(--dy, -60px)); } }
+@keyframes cv-zone { 0%, 15% { transform: scale(1); } 80%, 100% { transform: scale(.55); } }

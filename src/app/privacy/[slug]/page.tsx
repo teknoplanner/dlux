@@ -71,12 +71,12 @@ export default function AppPrivacyPage({ params }: PageProps) {
   };
 
   return (
-    <div className="pt-20 sm:pt-24 md:pt-28 pb-20 sm:pb-24 relative overflow-hidden bg-[#fafaf9]">
+    <div className="pt-28 pb-24 bg-[#fafaf9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mb-8 flex flex-wrap items-center justify-between gap-3">
           <Link
             href="/privacy"
-            className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
+            className="inline-flex items-center min-h-[44px] text-sm font-bold text-slate-700 hover:text-slate-950"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to General Privacy Policy
@@ -85,7 +85,7 @@ export default function AppPrivacyPage({ params }: PageProps) {
           <div className="flex items-center gap-4 text-xs font-semibold">
             <Link
               href={`/terms/${app.slug}`}
-              className="text-indigo-700 hover:text-indigo-900 underline"
+              className="text-emerald-700 hover:text-emerald-900 underline"
             >
               Terms of Service &rarr;
             </Link>

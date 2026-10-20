@@ -21,14 +21,14 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
     <div className="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm space-y-9 text-slate-800 text-sm leading-relaxed">
       {/* Header */}
       <div className="border-b border-slate-100 pb-6">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 border border-sky-200 text-xs font-semibold text-sky-800 mb-3">
-          <WifiOff className="w-4 h-4 text-sky-600" />
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-semibold text-emerald-800 mb-3">
+          <WifiOff className="w-4 h-4 text-emerald-600" />
           100% Offline &amp; On-Device Processing
         </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
           Privacy Policy for Offline PDF Editor &amp; Sign
         </h1>
-        <p className="text-xs text-slate-500 mt-2 font-mono">
+        <p className="text-xs text-slate-500 mt-2">
           Effective Date: September 15, 2026 • Last Updated: September 15, 2026 • Application: {app.name} ({app.packageId})
         </p>
         <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -42,12 +42,12 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 2 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">1</span>
           Core Privacy Principles (100% Offline &amp; Private)
         </h2>
         <div className="grid grid-cols-1 gap-3.5 pt-1">
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-3">
-            <WifiOff className="w-5 h-5 text-sky-600 shrink-0 mt-0.5" />
+            <WifiOff className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
             <div>
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">Zero Network Access</h3>
               <p className="text-xs text-slate-700 mt-1">
@@ -57,7 +57,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-3">
-            <HardDrive className="w-5 h-5 text-sky-600 shrink-0 mt-0.5" />
+            <HardDrive className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
             <div>
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">100% On-Device Processing</h3>
               <p className="text-xs text-slate-700 mt-1">
@@ -91,7 +91,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 3 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">2</span>
           Information We Do NOT Collect
         </h2>
         <p className="text-slate-700">
@@ -111,7 +111,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 4 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">3</span>
           Device Permissions &amp; File Storage (SAF Compliance)
         </h2>
         <p className="text-slate-700">
@@ -120,7 +120,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
         <div className="space-y-3 pl-1">
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
             <div className="flex items-center gap-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
-              <FolderLock className="w-4 h-4 text-sky-600" />
+              <FolderLock className="w-4 h-4 text-emerald-600" />
               <span>Storage Access Framework (SAF)</span>
             </div>
             <p className="text-xs text-slate-700">
@@ -130,7 +130,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
             <div className="flex items-center gap-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
-              <Lock className="w-4 h-4 text-sky-600" />
+              <Lock className="w-4 h-4 text-emerald-600" />
               <span>No Broad Storage Access</span>
             </div>
             <p className="text-xs text-slate-700">
@@ -140,7 +140,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
             <div className="flex items-center gap-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
-              <FileCheck2 className="w-4 h-4 text-sky-600" />
+              <FileCheck2 className="w-4 h-4 text-emerald-600" />
               <span>Temporary Cache Isolation</span>
             </div>
             <p className="text-xs text-slate-700">
@@ -153,7 +153,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 5 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">4</span>
           Google Play Data Safety Declarations
         </h2>
         <p className="text-slate-700">
@@ -178,7 +178,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 6 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">5</span>
           Children&apos;s Privacy (COPPA Compliance)
         </h2>
         <p className="text-slate-700">
@@ -189,7 +189,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 7 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">6</span>
           Open Source &amp; Third-Party Libraries
         </h2>
         <p className="text-slate-700">
@@ -207,7 +207,7 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 8 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">7</span>
           Changes to This Privacy Policy
         </h2>
         <p className="text-slate-700">
@@ -218,15 +218,15 @@ export const OfflinePdfPrivacyContent: React.FC<OfflinePdfPrivacyContentProps> =
       {/* Section 9 */}
       <section className="space-y-3.5 pt-4 border-t border-slate-100">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-sky-100 text-sky-800 flex items-center justify-center text-xs font-mono font-bold">8</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">8</span>
           Contact Information
         </h2>
         <p className="text-slate-700">
           If you have any questions, suggestions, or concerns regarding this Privacy Policy or your privacy while using the App, please contact us at:
         </p>
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs sm:text-sm font-medium">
-          <div className="flex items-center gap-2 font-mono">
-            <Mail className="w-4 h-4 text-sky-600" />
+          <div className="flex items-center gap-2">
+            <Mail className="w-4 h-4 text-emerald-600" />
             <span>{developer.email}</span>
           </div>
           <span className="hidden sm:inline text-slate-300">•</span>

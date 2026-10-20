@@ -20,14 +20,14 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
     <div className="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm space-y-9 text-slate-800 text-sm leading-relaxed">
       {/* Header */}
       <div className="border-b border-slate-100 pb-6">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-50 border border-cyan-200 text-xs font-semibold text-cyan-800 mb-3">
-          <ShieldCheck className="w-4 h-4 text-cyan-600" />
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-semibold text-emerald-800 mb-3">
+          <ShieldCheck className="w-4 h-4 text-emerald-600" />
           COPPA &amp; Google Play Families Compliant
         </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
           Privacy Policy: Shark Smart Alphabet
         </h1>
-        <p className="text-xs text-slate-500 mt-2 font-mono">
+        <p className="text-xs text-slate-500 mt-2">
           Last updated: July 29, 2026 • Application: {app.name} ({app.packageId})
         </p>
         <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -38,7 +38,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 1 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">1</span>
           Children&apos;s Privacy (COPPA Compliance)
         </h2>
         <p className="text-slate-700">
@@ -67,7 +67,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 2 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">2</span>
           Information We Collect
         </h2>
         <p className="text-slate-700">
@@ -77,7 +77,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2">
             <div className="flex items-center gap-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
-              <Smartphone className="w-4 h-4 text-cyan-600" />
+              <Smartphone className="w-4 h-4 text-emerald-600" />
               <span>Automatically Collected (Non-Personal):</span>
             </div>
             <ul className="list-disc pl-5 text-xs text-slate-700 space-y-1">
@@ -109,7 +109,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 3 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">3</span>
           How We Use Information
         </h2>
         <p className="text-slate-700">Collected information is used only to:</p>
@@ -127,7 +127,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 4 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">4</span>
           Advertisements &amp; AdMob
         </h2>
         <p className="text-slate-700">
@@ -146,7 +146,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
               href="https://policies.google.com/privacy"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cyan-700 hover:underline font-semibold inline-flex items-center gap-1"
+              className="text-emerald-700 hover:underline font-semibold inline-flex items-center gap-1"
             >
               Google&apos;s Privacy Policy <ExternalLink className="w-3 h-3" />
             </a>.
@@ -157,7 +157,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 5 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">5</span>
           Third-Party Services
         </h2>
         <p className="text-slate-700">
@@ -176,7 +176,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 6 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">6</span>
           Data Security
         </h2>
         <p className="text-slate-700">
@@ -187,7 +187,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 7 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">7</span>
           Parents and Guardians
         </h2>
         <p className="text-slate-700">
@@ -203,7 +203,7 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 8 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">8</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">8</span>
           Changes to This Privacy Policy
         </h2>
         <p className="text-slate-700">
@@ -214,15 +214,15 @@ export const BabySharkPrivacyContent: React.FC<BabySharkPrivacyContentProps> = (
       {/* Section 9 */}
       <section className="space-y-3.5 pt-4 border-t border-slate-100">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-cyan-100 text-cyan-800 flex items-center justify-center text-xs font-mono font-bold">9</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">9</span>
           Contact Us
         </h2>
         <p className="text-slate-700">
           If you have any questions or concerns about this Privacy Policy, please contact us:
         </p>
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs sm:text-sm font-medium">
-          <div className="flex items-center gap-2 font-mono">
-            <Mail className="w-4 h-4 text-cyan-600" />
+          <div className="flex items-center gap-2">
+            <Mail className="w-4 h-4 text-emerald-600" />
             <span>{developer.email}</span>
           </div>
           <span className="hidden sm:inline text-slate-300">•</span>

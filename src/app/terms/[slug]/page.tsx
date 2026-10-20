@@ -51,12 +51,12 @@ export default function AppTermsPage({ params }: PageProps) {
   const isPdfEditor = app.slug === "offline-pdf-editor";
 
   return (
-    <div className="pt-20 sm:pt-24 md:pt-28 pb-20 sm:pb-24 relative overflow-hidden bg-[#fafaf9]">
+    <div className="pt-28 pb-24 bg-[#fafaf9]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="mb-8 flex items-center justify-between">
           <Link
             href="/terms"
-            className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
+            className="inline-flex items-center min-h-[44px] text-sm font-bold text-slate-700 hover:text-slate-950"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to General Terms of Service
@@ -72,14 +72,14 @@ export default function AppTermsPage({ params }: PageProps) {
 
         <div className="text-center mb-10 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-100 border border-slate-200 text-xs font-semibold text-slate-800">
-            <FileText className="w-4 h-4 text-indigo-600" />
+            <FileText className="w-4 h-4 text-emerald-600" />
             PUBLIC TERMS OF SERVICE
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-slate-900">
             Terms of Service: {app.name}
           </h1>
           <div className="flex flex-wrap items-center justify-center gap-3 text-xs text-slate-500">
-            <span>Package ID: <code className="text-slate-700 font-mono font-semibold">{app.packageId}</code></span>
+            <span>Package ID: <code className="text-slate-700 font-semibold">{app.packageId}</code></span>
             <span>•</span>
             <span>Developer: {developer.name}</span>
             <span>•</span>
@@ -114,7 +114,7 @@ export default function AppTermsPage({ params }: PageProps) {
           <section className="space-y-3">
             <h2 className="text-xl font-bold text-slate-900 font-display">1. Introduction &amp; Agreement</h2>
             <p>
-              These Terms of Service (&quot;Terms&quot;) govern your access to and use of <strong>{app.name}</strong> (&quot;Application&quot; or &quot;App&quot;), distributed under Android Package ID <code className="text-slate-800 font-mono">{app.packageId}</code> by <strong>{developer.name}</strong> (&quot;Developer&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;).
+              These Terms of Service (&quot;Terms&quot;) govern your access to and use of <strong>{app.name}</strong> (&quot;Application&quot; or &quot;App&quot;), distributed under Android Package ID <code className="text-slate-800">{app.packageId}</code> by <strong>{developer.name}</strong> (&quot;Developer&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;).
             </p>
             <p>
               By downloading, installing, accessing, or using the Application from Google Play, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. If you do not accept these Terms, do not install or use this Application.
@@ -234,7 +234,7 @@ export default function AppTermsPage({ params }: PageProps) {
               If you have any questions, inquiries, or notices regarding these Terms of Service for {app.name}, please contact us via email:
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 pt-2">
-              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 inline-flex items-center gap-2 text-slate-900 font-mono text-xs">
+              <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 inline-flex items-center gap-2 text-slate-900 text-xs">
                 <Mail className="w-4 h-4 text-emerald-600" />
                 <span>{developer.email}</span>
               </div>

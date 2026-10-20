@@ -60,7 +60,7 @@ export function generateArticleSchema(
   const description = isEn ? article.metaDescriptionEn : article.metaDescription;
   const keywords = isEn ? article.keywordsEn.join(", ") : article.keywords.join(", ");
   const pageUrl = isEn
-    ? `${developer.website}/en/blog/${article.slug}/`
+    ? `${developer.website}/en/blog/${article.slugEn}/`
     : `${developer.website}/blog/${article.slug}/`;
 
   return {
@@ -201,3 +201,18 @@ export function generateHardwareItemListSchema(
   };
 }
 
+
+// Search results cut titles near 60 and descriptions near 155 characters; queued copy often runs longer.
+const clip = (t: string, max: number) => {
+  t = t.replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max - 1);
+  return cut.slice(0, cut.lastIndexOf(" ")).replace(/[\s,:;&|-]+$/, "") + "…";
+};
+export function seoTitle(raw: string) {
+  const base = raw.replace(/\s*\|.*$/, "").trim();
+  return clip(base, 60);
+}
+export function seoDescription(raw: string) {
+  return clip(raw, 155);
+}

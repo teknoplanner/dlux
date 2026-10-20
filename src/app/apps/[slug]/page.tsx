@@ -3,21 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-import {
-  Play,
-  ArrowLeft,
-  ShieldCheck,
-  Smartphone,
-  ExternalLink,
-  Tag,
-  CheckCircle2,
-  Star,
-  Download,
-} from "lucide-react";
 import { apps, developer } from "@/data/apps";
 import { getArticlesByApp } from "@/data/articles";
-import { Button } from "@/components/ui/Button";
-import { Badge } from "@/components/ui/Badge";
 import { ScreenshotCarousel } from "@/components/app/ScreenshotCarousel";
 import { AppCard } from "@/components/app/AppCard";
 import { ArticleCard } from "@/components/blog/ArticleCard";
@@ -35,13 +22,21 @@ export function generateStaticParams() {
   }));
 }
 
+// Meta description: tagline plus the first full sentence of the description, cut at a word boundary.
+function summary(tagline: string, description: string) {
+  const first = description.split(/(?<=[.!?])\s/)[0] ?? "";
+  const text = `${tagline} ${first}`.trim();
+  if (text.length <= 158) return text;
+  return text.slice(0, 155).replace(/\s+\S*$/, "") + "...";
+}
+
 export function generateMetadata({ params }: PageProps): Metadata {
   const app = apps.find((a) => a.slug === params.slug);
   if (!app) return { title: "App Not Found" };
 
   return {
     title: `${app.name} | D Lucky X Android App`,
-    description: `${app.tagline} ${app.description.slice(0, 150)}`,
+    description: summary(app.tagline, app.description),
     alternates: {
       canonical: `${developer.website}/apps/${app.slug}/`,
     },
@@ -64,10 +59,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
 export default function AppDetailPage({ params }: PageProps) {
   const app = apps.find((a) => a.slug === params.slug);
-
-  if (!app) {
-    notFound();
-  }
+  if (!app) notFound();
 
   const jsonLd = generateSoftwareAppSchema(app);
   const breadcrumbLd = generateBreadcrumbSchema([
@@ -77,312 +69,126 @@ export default function AppDetailPage({ params }: PageProps) {
   ]);
   const relatedApps = apps.filter((a) => a.slug !== app.slug).slice(0, 3);
   const appArticles = getArticlesByApp(app.slug);
-  const getCategoryTitle = () => {
-    if (app.category === "education") return "Education & Learning";
-    if (app.category === "tool") return "Utility & Tools";
-    return "Android Game";
-  };
+  const categoryLabel = app.category === "education" ? "Education" : app.category === "tool" ? "Tool" : "Game";
+
+  const facts: [string, string][] = [
+    ["Developer", developer.name],
+    ["Category", categoryLabel],
+    ["Content rating", `Rated ${app.contentRating || "3+"}`],
+    ["Ads", app.hasAds ? "Contains ads" : "No ads"],
+  ];
+  if (app.downloads) facts.splice(1, 0, ["Downloads", app.downloads]);
+  if (app.rating) facts.splice(2, 0, ["Play Store rating", `${app.rating.toFixed(1)}${app.reviewsCount ? ` (${app.reviewsCount} reviews)` : ""}`]);
+
+  const playBtn =
+    "inline-flex items-center justify-center min-h-[48px] px-7 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-700";
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
-      <div className="pt-20 sm:pt-24 md:pt-28 pb-20 relative overflow-hidden bg-[#fafaf9]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          {/* Breadcrumb */}
-          <div className="mb-8">
-            <Link
-              href="/#apps"
-              className="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-slate-900 transition-colors"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              Back to Portfolio
-            </Link>
-          </div>
+      <div className="bg-[#fafaf9] pt-28 pb-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <nav aria-label="Breadcrumb" className="mb-8 text-sm text-slate-600">
+            <Link href="/" className="inline-flex items-center min-h-[44px] hover:text-slate-950">Home</Link>
+            <span aria-hidden="true" className="mx-2">/</span>
+            <Link href="/#apps" className="inline-flex items-center min-h-[44px] hover:text-slate-950">Apps</Link>
+          </nav>
 
-          {/* App Header Box */}
-          <div className="rounded-3xl bg-white border border-slate-200 p-6 sm:p-10 shadow-sm mb-12">
-            <div className="flex flex-col md:flex-row items-start md:items-center gap-6 sm:gap-8">
-              <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-3xl overflow-hidden shrink-0 border-2 border-slate-100 shadow-md bg-white">
-                <Image
-                  src={app.icon}
-                  alt={app.name}
-                  width={144}
-                  height={144}
-                  className="w-full h-full object-cover"
-                  priority
-                />
-              </div>
-
-              <div className="flex-1 space-y-3">
-                <div className="flex items-center gap-2 flex-wrap">
-                  <Badge variant={app.category === "education" ? "cyan" : app.category === "tool" ? "purple" : "green"} size="md">
-                    {getCategoryTitle()}
-                  </Badge>
-                  {app.contentRating && (
-                    <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-slate-100 text-slate-700 border border-slate-200">
-                      Rated {app.contentRating}
-                    </span>
-                  )}
-                  {app.hasAds ? (
-                    <span className="text-xs font-medium px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 border border-amber-200">
-                      Contains Ads
-                    </span>
-                  ) : (
-                    <span className="text-xs font-medium px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200">
-                      Ad-Free
-                    </span>
-                  )}
-                </div>
-
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display text-slate-900">
-                  {app.name}
-                </h1>
-
-                <p className="text-base sm:text-lg text-slate-600">
-                  {app.tagline}
-                </p>
-
-                <div className="flex flex-wrap items-center gap-4 pt-2 text-sm text-slate-600">
-                  <div className="flex items-center gap-1 font-semibold text-amber-600">
-                    <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
-                    <span>{app.rating ? app.rating.toFixed(1) : "5.0"} Stars</span>
-                    {app.reviewsCount && (
-                      <span className="text-xs text-slate-500 font-medium">({app.reviewsCount} reviews)</span>
-                    )}
-                  </div>
-                  <span className="text-slate-300">•</span>
-                  <div className="flex items-center gap-1 text-slate-700 font-medium">
-                    <Download className="w-4 h-4 text-slate-400" />
-                    <span>{app.downloads} Downloads</span>
-                  </div>
-                  <span className="text-slate-300">•</span>
-                  <div className="flex items-center gap-1.5 text-emerald-600 font-medium">
-                    <ShieldCheck className="w-4 h-4" />
-                    <span>Google Play Verified</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Install Button Header */}
-              <div className="w-full md:w-auto shrink-0 pt-4 md:pt-0">
-                <Button
-                  href={app.playUrl}
-                  external
-                  variant="primary"
-                  size="lg"
-                  className="w-full md:w-auto bg-slate-900 hover:bg-slate-800 text-white shadow-sm px-8 py-4 text-base font-bold"
-                >
-                  <Play className="w-5 h-5 fill-current" />
+          <header className="grid md:grid-cols-[auto_1fr] gap-6 sm:gap-10 items-center pb-12 border-b border-slate-200">
+            <div className="hv-float w-28 h-28 sm:w-40 sm:h-40 rounded-[28%] overflow-hidden bg-white shrink-0" style={{ boxShadow: `0 0 0 8px ${app.color}22` }}>
+              <Image src={app.icon} alt={`${app.name} icon`} width={160} height={160} priority className="w-full h-full object-cover" />
+            </div>
+            <div>
+              <p className="text-sm font-bold text-emerald-800">{categoryLabel} for Android</p>
+              <h1 className="mt-1 font-display font-bold tracking-tight text-slate-950 text-3xl sm:text-5xl leading-[1.1]">{app.name}</h1>
+              <p className="mt-3 max-w-2xl text-lg text-slate-700 leading-relaxed">{app.tagline}</p>
+              <p className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-sm text-slate-700">
+                {app.rating ? <span>Rating <strong className="text-slate-950">{app.rating.toFixed(1)}</strong></span> : null}
+                {app.downloads ? <span>Downloads <strong className="text-slate-950">{app.downloads}</strong></span> : null}
+                <span>Rated <strong className="text-slate-950">{app.contentRating || "3+"}</strong></span>
+              </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <a href={app.playUrl} target="_blank" rel="noopener noreferrer" className={playBtn}>
                   Get on Google Play
-                </Button>
+                </a>
               </div>
             </div>
-          </div>
+          </header>
 
-          {/* Screenshot Gallery Section */}
-          <div className="mb-14">
-            <h2 className="text-2xl font-bold font-display text-slate-900 mb-6">
-              Application Screenshots
-            </h2>
+          <section aria-labelledby="shots" className="py-12">
+            <h2 id="shots" className="font-display font-bold text-2xl text-slate-950 mb-6">Screenshots</h2>
             <ScreenshotCarousel screenshots={app.screenshots} appName={app.name} />
-          </div>
+          </section>
 
-          {/* Details & Specs Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-16">
-            {/* Left 8 cols: Full Description */}
-            <div className="lg:col-span-8 space-y-6">
-              <div className="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm">
-                <h3 className="text-xl font-bold font-display text-slate-900 mb-4">
-                  About {app.name}
-                </h3>
-                <p className="text-slate-600 text-base leading-relaxed whitespace-pre-line mb-6">
-                  {app.description}
-                </p>
+          <div className="grid lg:grid-cols-12 gap-12 pb-16">
+            <section aria-labelledby="about" className="lg:col-span-8 max-w-3xl">
+              <h2 id="about" className="font-display font-bold text-2xl text-slate-950 mb-4">About {app.name}</h2>
+              <p className="text-lg text-slate-700 leading-8 whitespace-pre-line">{app.description}</p>
 
-                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3">
-                  Key Features:
-                </h4>
-                <ul className="space-y-2.5 text-sm text-slate-700">
-                  {app.features && app.features.length > 0 ? (
-                    app.features.map((feat, idx) => (
-                      <li key={idx} className="flex items-start gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                        <span>{feat}</span>
-                      </li>
-                    ))
-                  ) : (
-                    <>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                        <span>Responsive layout with intuitive mobile touchscreen controls.</span>
-                      </li>
-                      <li className="flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                        <span>Smooth performance optimized to conserve battery life.</span>
-                      </li>
-                    </>
-                  )}
-                </ul>
-
-                <div className="mt-8 pt-6 border-t border-slate-100">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <Tag className="w-4 h-4 text-slate-400 shrink-0" />
-                    {app.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="text-xs px-3 py-1 rounded-full bg-slate-50 border border-slate-200 text-slate-600 font-medium"
-                      >
-                        #{tag}
-                      </span>
+              {app.features?.length > 0 && (
+                <>
+                  <h3 className="mt-10 font-display font-bold text-xl text-slate-950 mb-3">Features</h3>
+                  <ul className="list-disc pl-6 space-y-2 marker:text-emerald-700 text-slate-700 text-lg leading-relaxed">
+                    {app.features.map((f) => (
+                      <li key={f}>{f}</li>
                     ))}
-                  </div>
-                </div>
-              </div>
-            </div>
+                  </ul>
+                </>
+              )}
+            </section>
 
-            {/* Right 4 cols: Technical Specifications */}
-            <div className="lg:col-span-4 space-y-6">
-              <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
-                <h3 className="text-lg font-bold font-display text-slate-900 mb-4">
-                  App Information
-                </h3>
+            <aside className="lg:col-span-4">
+              <div className="lg:sticky lg:top-28 space-y-8">
+                <section aria-labelledby="info">
+                  <h2 id="info" className="font-display font-bold text-xl text-slate-950 mb-3">App information</h2>
+                  <dl className="divide-y divide-slate-200 border-y border-slate-200 text-sm">
+                    {facts.map(([k, v]) => (
+                      <div key={k} className="flex justify-between gap-4 py-3">
+                        <dt className="text-slate-600">{k}</dt>
+                        <dd className="font-bold text-slate-900 text-right">{v}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                  <a href={app.playUrl} target="_blank" rel="noopener noreferrer" className={`${playBtn} mt-5 w-full`}>
+                    Get on Google Play
+                  </a>
+                </section>
 
-                <div className="space-y-4 text-sm divide-y divide-slate-100">
-                  <div className="flex justify-between items-center pt-2">
-                    <span className="text-slate-500">Developer</span>
-                    <span className="text-slate-900 font-medium">{developer.name}</span>
-                  </div>
-
-                  <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Total Downloads</span>
-                    <span className="text-slate-900 font-bold">{app.downloads}</span>
-                  </div>
-
-                  <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Play Store Rating</span>
-                    <span className="text-slate-900 font-bold text-amber-600 flex items-center gap-1">
-                      <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
-                      {app.rating ? app.rating.toFixed(1) : "5.0"}
-                      {app.reviewsCount ? ` (${app.reviewsCount})` : ""}
-                    </span>
-                  </div>
-
-                  <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Category</span>
-                    <span className="text-slate-900 font-medium capitalize">{app.category}</span>
-                  </div>
-
-                  <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Operating System</span>
-                    <span className="text-slate-900 font-medium flex items-center gap-1">
-                      <Smartphone className="w-3.5 h-3.5 text-slate-600" />
-                      Android 6.0+
-                    </span>
-                  </div>
-
-                  <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Content Rating</span>
-                    <span className="text-slate-900 font-medium">Rated {app.contentRating || "3+"}</span>
-                  </div>
-
-                  <div className="flex justify-between items-center pt-3">
-                    <span className="text-slate-500">Ad Support</span>
-                    <span className="text-slate-900 font-medium">
-                      {app.hasAds ? "Contains Ads" : "Ad-Free"}
-                    </span>
-                  </div>
-
-                  <div className="pt-4">
-                    <a
-                      href={app.playUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-semibold text-white shadow-sm transition-all"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      View on Google Play Store
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* Privacy & Legal Card */}
-              <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-3">
-                <div className="flex items-center gap-3">
-                  <ShieldCheck className="w-5 h-5 text-emerald-600" />
-                  <h4 className="text-base font-bold text-slate-900">Legal &amp; User Privacy</h4>
-                </div>
-                <p className="text-xs text-slate-600 leading-relaxed">
-                  We maintain strict data security and compliance standards for this application on Google Play.
+                <p className="flex flex-wrap gap-x-6 text-sm font-bold">
+                  <Link href={`/privacy/${app.slug}/`} className="inline-flex items-center min-h-[44px] text-slate-900 underline underline-offset-4">Privacy Policy</Link>
+                  <Link href={`/terms/${app.slug}/`} className="inline-flex items-center min-h-[44px] text-slate-900 underline underline-offset-4">Terms of Service</Link>
                 </p>
-                <div className="pt-2 border-t border-slate-100 flex flex-col gap-2">
-                  <Link
-                    href={`/privacy/${app.slug}`}
-                    className="text-xs font-semibold text-slate-900 hover:text-emerald-700 hover:underline flex items-center justify-between"
-                  >
-                    <span>Read Privacy Policy</span>
-                    <span>&rarr;</span>
-                  </Link>
-                  <Link
-                    href={`/terms/${app.slug}`}
-                    className="text-xs font-semibold text-slate-900 hover:text-indigo-700 hover:underline flex items-center justify-between"
-                  >
-                    <span>Read Terms of Service</span>
-                    <span>&rarr;</span>
-                  </Link>
-                </div>
               </div>
-            </div>
+            </aside>
           </div>
 
-          {/* Related Articles & Guides */}
           {appArticles.length > 0 && (
-            <div className="pt-10 border-t border-slate-200">
-              <div className="flex items-center justify-between mb-6">
-                <div>
-                  <h2 className="text-2xl font-bold font-display text-slate-900">
-                    📖 Panduan &amp; Tips Terkait
-                  </h2>
-                  <p className="text-xs sm:text-sm text-slate-600 mt-1">
-                    Pelajari trik, panduan penggunaan, dan ulasan mendalam seputar {app.name}.
-                  </p>
-                </div>
-                <Link
-                  href="/blog"
-                  className="text-xs font-bold text-indigo-600 hover:text-indigo-800 shrink-0"
-                >
-                  Lihat Semua Artikel &rarr;
+            <section aria-labelledby="guides" className="pt-12 border-t border-slate-200">
+              <div className="flex items-baseline justify-between gap-4 mb-6">
+                <h2 id="guides" className="font-display font-bold text-2xl text-slate-950">Panduan dan tips untuk {app.name}</h2>
+                <Link href="/blog/" className="inline-flex items-center min-h-[44px] text-sm font-bold text-emerald-800 underline underline-offset-4 shrink-0">
+                  Semua artikel
                 </Link>
               </div>
-
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {appArticles.map((article) => (
-                  <ArticleCard key={article.slug} article={article} />
+                {appArticles.map((a) => (
+                  <ArticleCard key={a.slug} article={a} lang="id" />
                 ))}
               </div>
-            </div>
+            </section>
           )}
 
-          {/* Related Apps */}
           {relatedApps.length > 0 && (
-            <div className="pt-10 border-t border-slate-200">
-              <h2 className="text-2xl font-bold font-display text-slate-900 mb-8">
-                More From Our Studio
-              </h2>
+            <section aria-labelledby="more" className="pt-12 mt-12 border-t border-slate-200">
+              <h2 id="more" className="font-display font-bold text-2xl text-slate-950 mb-6">More from D Lucky X</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {relatedApps.map((related) => (
-                  <AppCard key={related.slug} app={related} />
+                {relatedApps.map((r) => (
+                  <AppCard key={r.slug} app={r} />
                 ))}
               </div>
-            </div>
+            </section>
           )}
         </div>
       </div>

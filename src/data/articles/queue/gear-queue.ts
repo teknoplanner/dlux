@@ -9147,8 +9147,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-pendingin-hp-peltier-magnetik-vs-",
-    "slugEn": "gaming-gear-hardware-magnetic-semiconductor-phone-coolers-vs-conventional-f",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-pendingin-hp-peltier-magnetik-vs--2",
+    "slugEn": "gaming-gear-hardware-magnetic-semiconductor-phone-coolers-vs-conventional-f-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9302,8 +9302,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-sarung-jari-serat-perak-03mm-lici",
-    "slugEn": "gaming-gear-hardware-03mm-conductive-silver-fiber-gaming-finger-sleeves-202",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-sarung-jari-serat-perak-03mm-lici-2",
+    "slugEn": "gaming-gear-hardware-03mm-conductive-silver-fiber-gaming-finger-sleeves-202-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9457,8 +9457,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-gamepad-controller-bluetooth-andr",
-    "slugEn": "gaming-gear-hardware-ultra-low-latency-bluetooth-android-gamepads-2026-revi",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-gamepad-controller-bluetooth-andr-2",
+    "slugEn": "gaming-gear-hardware-ultra-low-latency-bluetooth-android-gamepads-2026-revi-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -9612,7 +9612,7 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-tws-gaming-latensi-rendah-40ms-ul",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-tws-gaming-latensi-rendah-40ms-ul-2",
     "slugEn": "gaming-gear-hardware-40ms-low-latency-gaming-wireless-earbuds-2026-review-7",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -9767,7 +9767,7 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-kabel-charger-siku-90-derajat-l-s",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-kabel-charger-siku-90-derajat-l-s-2",
     "slugEn": "gaming-gear-hardware-90-degree-l-shaped-fast-charging-cables-2026-review-75",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -9922,8 +9922,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-kabel-converter-type-c-audio-char",
-    "slugEn": "gaming-gear-hardware-2-in-1-type-c-audio-jack-fast-charge-splitters-2026-re",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-kabel-converter-type-c-audio-char-2",
+    "slugEn": "gaming-gear-hardware-2-in-1-type-c-audio-jack-fast-charge-splitters-2026-re-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10077,8 +10077,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-screen-protector-tempered-glass-m",
-    "slugEn": "gaming-gear-hardware-matte-anti-glare-tempered-glass-screen-protectors-2026",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-screen-protector-tempered-glass-m-2",
+    "slugEn": "gaming-gear-hardware-matte-anti-glare-tempered-glass-screen-protectors-2026-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10232,8 +10232,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-pelindung-layar-anti-sidik-jari-k",
-    "slugEn": "gaming-gear-hardware-oleophobic-anti-fingerprint-screen-shields-2026-review",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-pelindung-layar-anti-sidik-jari-k-2",
+    "slugEn": "gaming-gear-hardware-oleophobic-anti-fingerprint-screen-shields-2026-review-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10387,7 +10387,7 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-power-bank-fast-charging-65w-ring",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-power-bank-fast-charging-65w-ring-2",
     "slugEn": "gaming-gear-hardware-compact-65w-fast-charging-power-banks-2026-review-79",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -10542,8 +10542,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-dudukan-hp-stand-meja-ergonomis-h",
-    "slugEn": "gaming-gear-hardware-ergonomic-adjustable-desktop-smartphone-stands-2026-re",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-dudukan-hp-stand-meja-ergonomis-h-2",
+    "slugEn": "gaming-gear-hardware-ergonomic-adjustable-desktop-smartphone-stands-2026-re-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10697,8 +10697,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-headset-gaming-jack-35mm-surround",
-    "slugEn": "gaming-gear-hardware-35mm-wired-headsets-with-71-virtual-surround-2026-revi",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-headset-gaming-jack-35mm-surround-2",
+    "slugEn": "gaming-gear-hardware-35mm-wired-headsets-with-71-virtual-surround-2026-revi-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10852,8 +10852,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-stylus-pen-presisi-palm-rejection",
-    "slugEn": "gaming-gear-hardware-active-precision-stylus-pens-with-palm-rejection-2026",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-stylus-pen-presisi-palm-rejection-2",
+    "slugEn": "gaming-gear-hardware-active-precision-stylus-pens-with-palm-rejection-2026-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -11007,8 +11007,8 @@ export const gearQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "gear-panduan-hardware-optimasi-hp-android-cooler-rgb-hp-dual-fan-super-ding",
-    "slugEn": "gaming-gear-hardware-dual-turbine-rgb-semiconductor-smartphone-coolers-2026",
+    "slug": "gear-panduan-hardware-optimasi-hp-android-cooler-rgb-hp-dual-fan-super-ding-2",
+    "slugEn": "gaming-gear-hardware-dual-turbine-rgb-semiconductor-smartphone-coolers-2026-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",

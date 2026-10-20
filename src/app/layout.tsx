@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "D Lucky X | Android Games & Apps Studio",
     description: developer.tagline,
     images: ["/images/logo.png"],
@@ -126,9 +126,9 @@ export default function RootLayout({
         {/* Google Analytics tag (gtag.js) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-G3F8G23FGB"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

@@ -68,7 +68,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
             <h2 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
               Kebijakan Privasi (Privacy Policy) : Kucing Atur Duit
             </h2>
-            <p className="text-xs text-slate-500 mt-2 font-mono">
+            <p className="text-xs text-slate-500 mt-2">
               Terakhir Diperbarui: 8 Oktober 2026
             </p>
             <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -79,7 +79,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 1 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">1</span>
               Prinsip Utama: Privasi dan Penyimpanan Lokal (Offline-First)
             </h3>
             <p className="text-slate-700">
@@ -104,7 +104,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 2 */}
           <section className="space-y-4">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">2</span>
               Izin Perangkat yang Digunakan &amp; Tujuannya (Permissions)
             </h3>
             <p className="text-slate-700">
@@ -114,7 +114,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
             <div className="space-y-4 pl-1">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
                 <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
-                  <Camera className="w-4 h-4 text-sky-600" />
+                  <Camera className="w-4 h-4 text-emerald-600" />
                   <span>a. Kamera (android.permission.CAMERA)</span>
                 </div>
                 <p className="text-xs text-slate-700">
@@ -130,7 +130,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
                 <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
-                  <Mic className="w-4 h-4 text-purple-600" />
+                  <Mic className="w-4 h-4 text-emerald-600" />
                   <span>b. Rekam Audio / Mikrofon (android.permission.RECORD_AUDIO)</span>
                 </div>
                 <p className="text-xs text-slate-700">
@@ -164,7 +164,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 3 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">3</span>
               Layanan Pihak Ketiga (Third-Party Services)
             </h3>
             <p className="text-slate-700">
@@ -202,7 +202,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 4 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">4</span>
               Keamanan Data (Data Security)
             </h3>
             <p className="text-slate-700">
@@ -231,7 +231,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 5 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">5</span>
               Penghapusan dan Retensi Data (Data Retention &amp; Deletion)
             </h3>
             <p className="text-slate-700">
@@ -256,7 +256,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 6 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">6</span>
               Privasi Anak-Anak (Children&apos;s Privacy)
             </h3>
             <p className="text-slate-700">
@@ -267,7 +267,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 7 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">7</span>
               Perubahan pada Kebijakan Privasi Ini
             </h3>
             <p className="text-slate-700">
@@ -278,14 +278,14 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 8 */}
           <section className="space-y-3.5 pt-4 border-t border-slate-100">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">8</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">8</span>
               Kontak Kami
             </h3>
             <p className="text-slate-700">
               Jika Anda memiliki pertanyaan, saran, atau masukan mengenai Kebijakan Privasi ini atau pengelolaan data di aplikasi Kucing Atur Duit, Anda dapat menghubungi kami melalui:
             </p>
             <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs sm:text-sm font-medium">
-              <div className="flex items-center gap-2 font-mono">
+              <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-emerald-600" />
                 <span>{developer.email}</span>
               </div>
@@ -304,7 +304,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
             <h2 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
               Privacy Policy : Kucing Atur Duit
             </h2>
-            <p className="text-xs text-slate-500 mt-2 font-mono">
+            <p className="text-xs text-slate-500 mt-2">
               Last Updated: October 8, 2026
             </p>
             <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -315,7 +315,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 1 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">1</span>
               Core Principle: Offline-First &amp; Local Storage
             </h3>
             <p className="text-slate-700">
@@ -340,7 +340,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 2 */}
           <section className="space-y-4">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">2</span>
               Device Permissions Requested &amp; Their Purpose
             </h3>
             <p className="text-slate-700">
@@ -350,7 +350,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
             <div className="space-y-4 pl-1">
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
                 <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
-                  <Camera className="w-4 h-4 text-sky-600" />
+                  <Camera className="w-4 h-4 text-emerald-600" />
                   <span>a. Camera (android.permission.CAMERA)</span>
                 </div>
                 <p className="text-xs text-slate-700">
@@ -366,7 +366,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
 
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1.5">
                 <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
-                  <Mic className="w-4 h-4 text-purple-600" />
+                  <Mic className="w-4 h-4 text-emerald-600" />
                   <span>b. Audio Recording / Microphone (android.permission.RECORD_AUDIO)</span>
                 </div>
                 <p className="text-xs text-slate-700">
@@ -400,7 +400,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 3 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">3</span>
               Third-Party Services
             </h3>
             <p className="text-slate-700">
@@ -438,7 +438,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 4 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">4</span>
               Data Security
             </h3>
             <p className="text-slate-700">
@@ -467,7 +467,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 5 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">5</span>
               Data Retention &amp; Deletion
             </h3>
             <p className="text-slate-700">
@@ -492,7 +492,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 6 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">6</span>
               Children&apos;s Privacy
             </h3>
             <p className="text-slate-700">
@@ -503,7 +503,7 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 7 */}
           <section className="space-y-3.5">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">7</span>
               Changes to This Privacy Policy
             </h3>
             <p className="text-slate-700">
@@ -514,14 +514,14 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
           {/* Section 8 */}
           <section className="space-y-3.5 pt-4 border-t border-slate-100">
             <h3 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">8</span>
+              <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">8</span>
               Contact Us
             </h3>
             <p className="text-slate-700">
               If you have any questions, suggestions, or feedback regarding this Privacy Policy or data handling in Kucing Atur Duit, please contact us:
             </p>
             <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs sm:text-sm font-medium">
-              <div className="flex items-center gap-2 font-mono">
+              <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-emerald-600" />
                 <span>{developer.email}</span>
               </div>

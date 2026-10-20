@@ -10320,7 +10320,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-3-3-false-nine-juara-updat",
+    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-3-3-false-nine-juara-updat-2",
     "slugEn": "eafc-efootball-tactics-4-3-3-false-nine-championship-tactics-2026-update-79",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -10474,7 +10474,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-2-2-counter-attack-cepat",
+    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-2-2-counter-attack-cepat-2",
     "slugEn": "eafc-efootball-tactics-4-2-2-2-rapid-counter-attack-formation-2026-update-8",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -10628,8 +10628,8 @@ export const eafcQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-1-2-1-2-narrow-tiki-taka-u",
-    "slugEn": "eafc-efootball-tactics-4-1-2-1-2-narrow-tiki-taka-possession-play-2026-upda",
+    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-1-2-1-2-narrow-tiki-taka-u-2",
+    "slugEn": "eafc-efootball-tactics-4-1-2-1-2-narrow-tiki-taka-possession-play-2026-upda-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",
@@ -10782,7 +10782,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-3-5-2-wing-play-silang-updat",
+    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-3-5-2-wing-play-silang-updat-2",
     "slugEn": "eafc-efootball-tactics-3-5-2-overlapping-wing-play-crosses-2026-update-82",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
@@ -10936,8 +10936,8 @@ export const eafcQueueArticles: ArticleItem[] = [
     ]
   },
   {
-    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-3-1-penguasaan-bola-upda",
-    "slugEn": "eafc-efootball-tactics-4-2-3-1-controlled-possession-blueprint-2026-update",
+    "slug": "eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-3-1-penguasaan-bola-upda-2",
+    "slugEn": "eafc-efootball-tactics-4-2-3-1-controlled-possession-blueprint-2026-update-2",
     "targetAppSlug": "stickman-penalty-rush",
     "category": "gaming",
     "affiliateCategory": "gaming",

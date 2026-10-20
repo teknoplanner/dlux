@@ -28,7 +28,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
         <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
           Privacy Policy
         </h1>
-        <p className="text-xs text-slate-500 mt-2 font-mono">
+        <p className="text-xs text-slate-500 mt-2">
           Effective Date: June 24, 2026 • Application: Stickman Penalty Rush ({app.packageId})
         </p>
         <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -39,7 +39,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 1 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">1</span>
           Information Collection and Use
         </h2>
         <p className="text-slate-700">
@@ -79,7 +79,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 2 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">2</span>
           Log Data
         </h2>
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
@@ -99,7 +99,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 3 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">3</span>
           Cookies
         </h2>
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
@@ -119,7 +119,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 4 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">4</span>
           Security
         </h2>
         <p className="text-slate-700">
@@ -130,7 +130,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 5 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">5</span>
           Links to Other Sites
         </h2>
         <p className="text-slate-700">
@@ -141,7 +141,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 6 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">6</span>
           Children’s Privacy
         </h2>
         <p className="text-slate-700">
@@ -155,7 +155,7 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 7 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">7</span>
           Changes to This Privacy Policy
         </h2>
         <p className="text-slate-700">
@@ -166,14 +166,14 @@ export const StickmanPenaltyPrivacyContent: React.FC<StickmanPenaltyPrivacyConte
       {/* Section 8 */}
       <section className="space-y-3.5 pt-4 border-t border-slate-100">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-mono font-bold">8</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">8</span>
           Contact Us
         </h2>
         <p className="text-slate-700">
           If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
         </p>
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs sm:text-sm font-medium">
-          <div className="flex items-center gap-2 font-mono">
+          <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-emerald-600" />
             <span>{developer.email}</span>
           </div>

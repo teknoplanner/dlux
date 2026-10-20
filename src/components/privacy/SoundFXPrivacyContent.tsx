@@ -23,14 +23,14 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
     <div className="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm space-y-9 text-slate-800 text-sm leading-relaxed">
       {/* Header */}
       <div className="border-b border-slate-100 pb-6">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-violet-50 border border-violet-200 text-xs font-semibold text-violet-800 mb-3">
-          <WifiOff className="w-4 h-4 text-violet-600" />
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-semibold text-emerald-800 mb-3">
+          <WifiOff className="w-4 h-4 text-emerald-600" />
           100% Offline &amp; On-Device Audio Processing
         </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
           Privacy Policy for SoundFX Studio
         </h1>
-        <p className="text-xs text-slate-500 mt-2 font-mono">
+        <p className="text-xs text-slate-500 mt-2">
           Last Updated: September 18, 2026 • Effective Date: September 18, 2026 • Application: {app.name} ({app.packageId})
         </p>
         <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -44,12 +44,12 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 1: Core Principles */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">1</span>
           Summary of Our Core Privacy Principles
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-3">
-            <WifiOff className="w-5 h-5 text-violet-600 shrink-0 mt-0.5" />
+            <WifiOff className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
             <div>
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">100% Offline Architecture</h3>
               <p className="text-xs text-slate-700 mt-1">
@@ -69,7 +69,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-3">
-            <ShieldCheck className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
+            <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
             <div>
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">No Analytics or Trackers</h3>
               <p className="text-xs text-slate-700 mt-1">
@@ -79,7 +79,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 flex items-start gap-3">
-            <Volume2 className="w-5 h-5 text-pink-600 shrink-0 mt-0.5" />
+            <Volume2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
             <div>
               <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900">Private Audio Processing</h3>
               <p className="text-xs text-slate-700 mt-1">
@@ -93,7 +93,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 2: Permissions */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">2</span>
           Information We Access and How It Is Used
         </h2>
         <p className="text-slate-700">
@@ -102,7 +102,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
 
         <div className="space-y-3 pt-1">
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2">
-            <div className="flex items-center gap-2 text-violet-700 font-bold text-sm">
+            <div className="flex items-center gap-2 text-emerald-700 font-bold text-sm">
               <Mic className="w-4 h-4" />
               <span>A. Microphone Access (<code>RECORD_AUDIO</code>)</span>
             </div>
@@ -114,7 +114,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2">
-            <div className="flex items-center gap-2 text-violet-700 font-bold text-sm">
+            <div className="flex items-center gap-2 text-emerald-700 font-bold text-sm">
               <FileAudio className="w-4 h-4" />
               <span>B. Storage and Audio File Access (<code>READ_MEDIA_AUDIO</code> / <code>READ_EXTERNAL_STORAGE</code>)</span>
             </div>
@@ -129,7 +129,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 3: Data Storage & Security */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">3</span>
           Data Storage and Security
         </h2>
         <div className="space-y-2.5 text-slate-700">
@@ -148,7 +148,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 4: Third-Party Services */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">4</span>
           Third-Party Services and Analytics
         </h2>
         <p className="text-slate-700">
@@ -159,7 +159,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 5: Children's Privacy */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">5</span>
           Children&apos;s Privacy (COPPA Compliance)
         </h2>
         <p className="text-slate-700">
@@ -170,7 +170,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 6: Rights and Choices */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">6</span>
           Your Rights and Choices
         </h2>
         <p className="text-slate-700">
@@ -185,7 +185,7 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 7: Changes to Policy */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">7</span>
           Changes to This Privacy Policy
         </h2>
         <p className="text-slate-700">
@@ -196,15 +196,15 @@ export const SoundFXPrivacyContent: React.FC<SoundFXPrivacyContentProps> = ({ ap
       {/* Section 8: Contact */}
       <section className="space-y-4 pt-4 border-t border-slate-100">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-violet-100 text-violet-800 flex items-center justify-center text-xs font-mono font-bold">8</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">8</span>
           Contact Us
         </h2>
         <p className="text-slate-700">
           If you have any questions, concerns, or feedback regarding this Privacy Policy or SoundFX Studio, please contact our developer support:
         </p>
-        <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 font-mono text-xs">
+        <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs">
           <div className="flex items-center gap-2">
-            <Mail className="w-4 h-4 text-violet-600" />
+            <Mail className="w-4 h-4 text-emerald-600" />
             <span>{developer.email}</span>
           </div>
           <span className="hidden sm:inline text-slate-300">•</span>

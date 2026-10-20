@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Play, Info, Star, Download, ShieldCheck } from "lucide-react";
+import { Play, Info, Star, Download } from "lucide-react";
 import { AppItem } from "@/data/apps";
 import { trackPlayStoreClick } from "@/lib/analytics";
 
@@ -124,10 +124,6 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
                 {tag}
               </span>
             ))}
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200/80">
-              <ShieldCheck className="w-3 h-3 text-emerald-600" />
-              100% Free
-            </span>
           </div>
         </div>
       </div>
@@ -148,10 +144,10 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackPlayStoreClick(app.slug, app.name, "app_card")}
-            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-xs hover:shadow-md transition-all active:scale-95 group/btn"
+            className="inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-xs font-bold text-white shadow-xs hover:shadow-md transition-all active:scale-95 group/btn"
           >
             <Play className="w-3 h-3 fill-current text-white" />
-            <span>Install Free</span>
+            <span>Google Play</span>
           </a>
         </div>
       </div>

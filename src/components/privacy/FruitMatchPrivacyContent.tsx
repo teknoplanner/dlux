@@ -26,7 +26,7 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
         <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
           Privacy Policy for Fruit Match Game
         </h1>
-        <p className="text-xs text-slate-500 mt-2 font-mono">
+        <p className="text-xs text-slate-500 mt-2">
           Effective Date: December 12, 2025 • Application: {app.name} ({app.packageId})
         </p>
         <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -37,7 +37,7 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
       {/* Section 1 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">1</span>
           Information We Collect
         </h2>
         <p className="text-slate-700">
@@ -75,7 +75,7 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
       {/* Section 2 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">2</span>
           How We Use Your Information
         </h2>
         <p className="text-slate-700">We may use collected data to:</p>
@@ -93,7 +93,7 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
       {/* Section 3 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">3</span>
           Advertising and Analytics (IMPORTANT – Advertising Included)
         </h2>
         <p className="text-slate-700">
@@ -150,7 +150,7 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
       {/* Section 4 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">4</span>
           Children’s Privacy
         </h2>
         <p className="text-slate-700">
@@ -167,7 +167,7 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
       {/* Section 5 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">5</span>
           Data Security
         </h2>
         <p className="text-slate-700">
@@ -178,7 +178,7 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
       {/* Section 6 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">6</span>
           Changes to This Privacy Policy
         </h2>
         <p className="text-slate-700">
@@ -189,14 +189,14 @@ export const FruitMatchPrivacyContent: React.FC<FruitMatchPrivacyContentProps> =
       {/* Section 7 */}
       <section className="space-y-3.5 pt-4 border-t border-slate-100">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+          <span className="w-6 h-6 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center text-xs font-bold">7</span>
           Contact Us
         </h2>
         <p className="text-slate-700">
           If you have questions or concerns about this Privacy Policy, please contact us:
         </p>
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs sm:text-sm font-medium">
-          <div className="flex items-center gap-2 font-mono">
+          <div className="flex items-center gap-2">
             <Mail className="w-4 h-4 text-amber-600" />
             <span>{developer.email}</span>
           </div>

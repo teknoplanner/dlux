@@ -1,107 +1,43 @@
-"use client";
-
-import React, { useState, useEffect } from "react";
-import dynamic from "next/dynamic";
-import { ArrowDown, ExternalLink } from "lucide-react";
-import { developer } from "@/data/apps";
-import { Button } from "@/components/ui/Button";
-
-// Lazy load 3D scene only on desktop and only after page is idle
-const HeroScene = dynamic(() => import("@/components/three/HeroScene.client"), {
-  ssr: false,
-});
+import React from "react";
+import { apps, developer } from "@/data/apps";
+import { HeroArt } from "./HeroArt";
 
 export const Hero: React.FC = () => {
-  const [shouldLoad3D, setShouldLoad3D] = useState(false);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    // Skip heavy 3D on mobile devices, small screens, or reduced-motion preference
-    const isMobile =
-      window.innerWidth < 1024 ||
-      /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    const prefersReducedMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-
-    if (isMobile || prefersReducedMotion) {
-      return;
-    }
-
-    // On desktop, load 3D crystal on first user interaction (pointermove, scroll, keydown)
-    const enable3D = () => {
-      setShouldLoad3D(true);
-      cleanup();
-    };
-
-    const cleanup = () => {
-      window.removeEventListener("pointermove", enable3D);
-      window.removeEventListener("scroll", enable3D);
-      window.removeEventListener("keydown", enable3D);
-    };
-
-    window.addEventListener("pointermove", enable3D, { once: true, passive: true });
-    window.addEventListener("scroll", enable3D, { once: true, passive: true });
-    window.addEventListener("keydown", enable3D, { once: true, passive: true });
-
-    return cleanup;
-  }, []);
-
   return (
-    <section className="relative min-h-[88vh] flex items-center justify-center pt-24 pb-16 overflow-hidden bg-[#fafaf9]">
-      {/* Zero-JS Native GPU Ambient Kinetic Backdrop (Instant FCP/LCP, 0ms TBT) */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none select-none">
-        <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[550px] sm:w-[750px] h-[350px] bg-gradient-to-tr from-emerald-400/20 via-sky-400/25 to-purple-400/15 blur-3xl rounded-full opacity-80" />
-        <div className="absolute top-1/3 left-1/4 w-[300px] h-[260px] bg-emerald-400/15 blur-3xl rounded-full" />
-        <div className="absolute top-1/4 right-1/4 w-[320px] h-[280px] bg-sky-400/15 blur-3xl rounded-full" />
-      </div>
+    <section className="border-b border-slate-200 bg-[#fafaf9] pt-28 pb-14 sm:pt-32 sm:pb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+        <div className="lg:col-span-7">
+          <h1 className="font-display font-bold tracking-tight text-slate-950 text-4xl sm:text-6xl leading-[1.08]">
+            Casual games and everyday tools for Android
+          </h1>
 
-      {/* Interactive 3D Ambient Kinetic Canvas (Deferred for desktop only) */}
-      {shouldLoad3D && (
-        <div className="absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-100">
-          <HeroScene />
+          <p className="mt-5 max-w-xl text-base sm:text-lg text-slate-700 leading-relaxed">
+            D Lucky X is an independent studio from Indonesia. {apps.length} apps on
+            Google Play: games, learning apps for kids, and a PDF editor that works offline.
+          </p>
+
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a
+              href="#apps"
+              className="inline-flex items-center justify-center min-h-[44px] px-6 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-sm font-bold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-700"
+            >
+              Browse all {apps.length} apps
+            </a>
+            <a
+              href={developer.playStoreUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center min-h-[44px] px-6 rounded-lg border border-slate-400 text-slate-900 hover:bg-white text-sm font-bold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900"
+            >
+              Open our Google Play page
+            </a>
+          </div>
         </div>
-      )}
 
-      {/* Full-width transparent scrim spreading across the entire hero section */}
-      <div className="absolute inset-0 z-[5] pointer-events-none bg-gradient-to-b from-[#fafaf9]/10 via-white/50 to-[#fafaf9]/90" />
-
-      {/* Hero Foreground Content - full width flow without boxed borders */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 relative z-10 text-center pointer-events-none">
-        <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold font-display tracking-tight text-slate-950 leading-[1.05] mb-5">
-          Engaging Games.<br />
-          Useful Apps.
-        </h1>
-
-        <p className="text-base sm:text-lg text-slate-700 max-w-lg mx-auto font-medium leading-relaxed mb-8">
-          A collection of casual games and lightweight, secure, and delightful Android apps.
-        </p>
-
-        <div className="flex flex-wrap items-center justify-center gap-3.5 pointer-events-auto">
-          <Button
-            href="#apps"
-            variant="primary"
-            size="lg"
-            className="bg-slate-900 hover:bg-slate-800 text-white px-7 py-3.5 shadow-sm text-sm font-bold"
-          >
-            <span>Explore Apps &amp; Games</span>
-            <ArrowDown className="w-4 h-4 ml-1" />
-          </Button>
-
-          <Button
-            href={developer.playStoreUrl}
-            external
-            variant="outline"
-            size="lg"
-            className="bg-white hover:bg-slate-50 border-slate-300 text-slate-900 px-7 py-3.5 shadow-sm text-sm font-bold"
-          >
-            <span>Google Play</span>
-            <ExternalLink className="w-4 h-4 text-slate-600 ml-1" />
-          </Button>
+        <div className="lg:col-span-5">
+          <HeroArt />
         </div>
       </div>
     </section>
   );
 };
-

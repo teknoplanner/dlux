@@ -20,14 +20,14 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
     <div className="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm space-y-9 text-slate-800 text-sm leading-relaxed">
       {/* Header */}
       <div className="border-b border-slate-100 pb-6">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50 border border-purple-200 text-xs font-semibold text-purple-800 mb-3">
-          <ShieldCheck className="w-4 h-4 text-purple-600" />
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-semibold text-emerald-800 mb-3">
+          <ShieldCheck className="w-4 h-4 text-emerald-600" />
           Educational &amp; Kid-Friendly Privacy Certified
         </div>
         <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
           Privacy Policy – Monster Adventure Math
         </h1>
-        <p className="text-xs text-slate-500 mt-2 font-mono">
+        <p className="text-xs text-slate-500 mt-2">
           Effective Date: December 12, 2025 • Application: {app.name} ({app.packageId})
         </p>
         <p className="text-slate-700 text-sm sm:text-base leading-relaxed mt-4">
@@ -38,7 +38,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 1 */}
       <section className="space-y-4">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">1</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">1</span>
           Information We Collect
         </h2>
         <p className="text-slate-700">
@@ -51,7 +51,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2">
             <div className="flex items-center gap-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
-              <Smartphone className="w-4 h-4 text-purple-600" />
+              <Smartphone className="w-4 h-4 text-emerald-600" />
               <span>a. Non-Personal Information:</span>
             </div>
             <p className="text-xs text-slate-600">
@@ -69,7 +69,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2">
             <div className="flex items-center gap-2 text-slate-900 font-bold text-xs uppercase tracking-wider">
-              <Radio className="w-4 h-4 text-purple-600" />
+              <Radio className="w-4 h-4 text-emerald-600" />
               <span>b. Advertising Data (If AdMob or Similar Used):</span>
             </div>
             <p className="text-xs text-slate-600">
@@ -90,7 +90,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 2 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">2</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">2</span>
           How We Use Information
         </h2>
         <p className="text-slate-700">Any collected non-personal data is used for:</p>
@@ -105,7 +105,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 3 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">3</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">3</span>
           Children’s Privacy
         </h2>
         <p className="text-slate-700">
@@ -126,7 +126,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 4 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">4</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">4</span>
           Permissions
         </h2>
         <p className="text-slate-700">
@@ -137,7 +137,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 5 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">5</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">5</span>
           Data Security
         </h2>
         <p className="text-slate-700">
@@ -148,7 +148,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 6 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">6</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">6</span>
           Third-Party Services
         </h2>
         <p className="text-slate-700">
@@ -159,7 +159,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
             href="https://policies.google.com/privacy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-purple-700 hover:underline font-semibold text-xs inline-flex items-center gap-1.5"
+            className="text-emerald-700 hover:underline font-semibold text-xs inline-flex items-center gap-1.5"
           >
             <span>Google Privacy Policy</span>
             <ExternalLink className="w-3.5 h-3.5" />
@@ -170,7 +170,7 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 7 */}
       <section className="space-y-3.5">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">7</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">7</span>
           Changes to This Privacy Policy
         </h2>
         <p className="text-slate-700">
@@ -181,15 +181,15 @@ export const MonsterMathPrivacyContent: React.FC<MonsterMathPrivacyContentProps>
       {/* Section 8 */}
       <section className="space-y-3.5 pt-4 border-t border-slate-100">
         <h2 className="text-lg font-bold text-slate-900 font-display flex items-center gap-2">
-          <span className="w-6 h-6 rounded-lg bg-purple-100 text-purple-800 flex items-center justify-center text-xs font-mono font-bold">8</span>
+          <span className="w-6 h-6 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center text-xs font-bold">8</span>
           Contact Us
         </h2>
         <p className="text-slate-700">
           If you have any questions about this Privacy Policy, please contact us at:
         </p>
         <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 inline-flex flex-col sm:flex-row items-start sm:items-center gap-3 text-slate-900 text-xs sm:text-sm font-medium">
-          <div className="flex items-center gap-2 font-mono">
-            <Mail className="w-4 h-4 text-purple-600" />
+          <div className="flex items-center gap-2">
+            <Mail className="w-4 h-4 text-emerald-600" />
             <span>{developer.email}</span>
           </div>
           <span className="hidden sm:inline text-slate-300">•</span>
