@@ -4,6 +4,7 @@ import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
 import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
+import { bakeStatic } from "./worldBake";
 import { WorldAudio } from "./WorldAudio";
 import { WorldLivingAtmosphere } from "./WorldLivingAtmosphere";
 import { WorldNatureManager } from "./WorldNatureManager";
@@ -39,6 +40,9 @@ export interface ActiveMinigame {
   raceCountdown?: number;
   nextTurnGuide?: string;
   npcDistanceText?: string;
+  startCountdown?: number; // seconds left before the clock starts (ring, penalty, runes)
+  guideAngle?: number; // radians, target direction relative to where the player faces
+  guideDist?: number; // metres to the nearest unfinished target
 }
 
 export interface NPCData {
@@ -277,12 +281,20 @@ function createMiloFaceTexture(): THREE.CanvasTexture {
 
 const createNPCFaceTexture = getCharacterTexture;
 
+// Frame-rate independent smoothing: a per-frame lerp factor tuned at 60 fps, rescaled to the real frame time.
+const smooth = (perFrame: number, delta: number) => 1 - Math.pow(1 - perFrame, Math.min(delta, 0.1) * 60);
+
 export class WorldEngine {
   public container: HTMLElement;
   public scene: THREE.Scene;
   public camera: THREE.PerspectiveCamera;
   public renderer: THREE.WebGLRenderer;
   private composer: EffectComposer;
+  private bloomPass: UnrealBloomPass | null = null;
+  // Adaptive quality: average frame time over a window, step down once per slow window, never back up (avoids flapping).
+  private perfFrames = 0;
+  private perfTime = 0;
+  private perfLevel = 0;
   public audio: WorldAudio;
   public callbacks: EngineCallbacks;
 
@@ -324,6 +336,8 @@ export class WorldEngine {
   public nitro: number = 100;
   public isBoosting: boolean = false;
   public isTitleScreen: boolean = true;
+  // Set by the pause menu: freezes simulation (player, NPCs, timers) while the scene stays visible behind it.
+  public isPaused: boolean = false;
   public isIntroCinematic: boolean = false;
   private introTimer: number = 0;
   private readonly INTRO_DURATION: number = 1.8;
@@ -577,6 +591,10 @@ export class WorldEngine {
   private boatRaceRings: { mesh: THREE.Group; coinMesh: THREE.Mesh; hit: boolean; pos: THREE.Vector3 }[] = [];
   private boatRaceObstacles: { mesh: THREE.Group; pos: THREE.Vector3; radius: number }[] = [];
   private boatRaceWaypoints: { pos: THREE.Vector3; name: string }[] = [];
+  // Race hazards and helpers: sliding barrels, whirlpools that drag and spin the boat, and turbo pads.
+  private boatRaceMovers: { obs: { pos: THREE.Vector3 }; base: THREE.Vector3; dir: THREE.Vector3; amp: number; speed: number; phase: number }[] = [];
+  private boatRaceWhirls: { mesh: THREE.Group; pos: THREE.Vector3; radius: number }[] = [];
+  private boatRacePads: { pos: THREE.Vector3; cooldown: number }[] = [];
   private boatRaceFinishGate: { archGroup: THREE.Group; pos: THREE.Vector3; triggered: boolean } | null = null;
 
   public currentLocationName: string = "Central Plaza";
@@ -622,7 +640,12 @@ export class WorldEngine {
     container.appendChild(this.renderer.domElement);
 
     // 4. Post-processing (UnrealBloomPass for Cinematic Glow, half-res for high performance)
-    this.composer = new EffectComposer(this.renderer);
+    // The default composer target has no MSAA, so renderer antialias does nothing once post-processing is on.
+    const coarse = typeof window !== "undefined" && window.matchMedia?.("(pointer: coarse)").matches;
+    const w = container.clientWidth * this.renderer.getPixelRatio();
+    const h = container.clientHeight * this.renderer.getPixelRatio();
+    const target = new THREE.WebGLRenderTarget(w, h, { type: THREE.HalfFloatType, samples: coarse ? 0 : 4 });
+    this.composer = new EffectComposer(this.renderer, target);
     const renderPass = new RenderPass(this.scene, this.camera);
     this.composer.addPass(renderPass);
 
@@ -632,6 +655,7 @@ export class WorldEngine {
       0.30, // Radius
       0.88  // High threshold so only neon emissive elements bloom, no water/sky blowout
     );
+    this.bloomPass = bloomPass;
     this.composer.addPass(bloomPass);
 
     const outputPass = new OutputPass();
@@ -1064,6 +1088,7 @@ export class WorldEngine {
     curbR.position.set(width / 2, 0.03, 0);
     pathGroup.add(curbR);
 
+    bakeStatic(pathGroup);
     this.scene.add(pathGroup);
     this.paths.push({ p1, p2, width, height });
   }
@@ -1199,6 +1224,7 @@ export class WorldEngine {
       bedGroup.add(flower);
     }
 
+    bakeStatic(bedGroup);
     this.scene.add(bedGroup);
   }
 
@@ -2175,8 +2201,16 @@ export class WorldEngine {
     // Pause physics and rendering when tab is inactive to preserve battery & CPU
     if (this.isTabPaused) return;
 
-    const delta = Math.min(this.clock.getDelta(), 0.08);
+    if (this.isPaused) {
+      this.clock.getDelta(); // keep the clock moving so unpausing does not jump
+      this.composer.render();
+      return;
+    }
+
+    const rawDelta = this.clock.getDelta();
+    const delta = Math.min(rawDelta, 0.08);
     const time = this.clock.getElapsedTime();
+    this.adaptQuality(rawDelta);
 
     this.updateWaterWaves(time);
     this.updatePropsAndAtmosphere(time, delta);
@@ -2197,6 +2231,22 @@ export class WorldEngine {
     // Render with EffectComposer for cinematic bloom
     this.composer.render();
   };
+
+  private adaptQuality(frame: number) {
+    if (this.perfLevel >= 3 || frame > 0.25) return; // ignore tab-switch and load hitches
+    this.perfTime += frame;
+    if (++this.perfFrames < 120) return;
+    const avg = this.perfTime / this.perfFrames;
+    this.perfFrames = 0;
+    this.perfTime = 0;
+    if (avg < 0.026) return; // holding about 40 fps or better
+    this.perfLevel++;
+    if (this.perfLevel === 1 && this.bloomPass) this.bloomPass.enabled = false;
+    else if (this.perfLevel === 2) {
+      this.renderer.setPixelRatio(1);
+      this.composer.setPixelRatio(1);
+    } else if (this.perfLevel === 3 && this.dirLight) this.dirLight.castShadow = false;
+  }
 
   private updateWaterWaves(time: number) {
     if (this.windWakerWater) {
@@ -2392,7 +2442,7 @@ export class WorldEngine {
 
     // Dynamic banking into turns & bow rise on acceleration
     const targetBank = -this.currentTurnSpeed * 0.16;
-    this.currentBankZ = THREE.MathUtils.lerp(this.currentBankZ, targetBank, 10 * delta);
+    this.currentBankZ = THREE.MathUtils.lerp(this.currentBankZ, targetBank, 1 - Math.exp(-10 * delta));
 
     this.playerGroup.position.copy(this.playerPos);
     this.playerGroup.rotation.y = this.playerRotY;
@@ -2423,7 +2473,7 @@ export class WorldEngine {
 
     // 1. Silky Smooth Steering
     const targetTurn = (this.inputs.left ? 1 : 0) - (this.inputs.right ? 1 : 0);
-    this.currentTurnSpeed = THREE.MathUtils.lerp(this.currentTurnSpeed, targetTurn * this.turnSpeed, 12 * delta);
+    this.currentTurnSpeed = THREE.MathUtils.lerp(this.currentTurnSpeed, targetTurn * this.turnSpeed, 1 - Math.exp(-12 * delta));
     this.playerRotY += this.currentTurnSpeed * delta;
 
     // 2. Snappy Acceleration & Pure Directional Forward/Backward Movement
@@ -2453,7 +2503,7 @@ export class WorldEngine {
     const accelRate = targetSpeed !== 0
       ? (targetSpeed > this.currentSpeed ? this.acceleration : this.deceleration)
       : this.deceleration * 1.6;
-    this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, targetSpeed, Math.min(1, accelRate * 0.25 * delta));
+    this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, targetSpeed, 1 - Math.exp(-accelRate * 0.3 * delta));
 
     // Translation along forward facing direction (-Z in local player space)
     const forwardX = -Math.sin(this.playerRotY) * this.currentSpeed;
@@ -2573,7 +2623,7 @@ export class WorldEngine {
       // Submerged swimming bobbing on Wind Waker waves vs solid ground walking
       const waveElev = this.onWater ? getWindWakerWaveElevation(this.playerPos.x, this.playerPos.z, time) : 0;
       const targetWaterY = this.onWater ? Math.max(groundHeight, waveElev - 0.05) : groundHeight;
-      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, targetWaterY, (this.onWater ? 10 : 20) * delta);
+      this.playerPos.y = THREE.MathUtils.lerp(this.playerPos.y, targetWaterY, 1 - Math.exp(-(this.onWater ? 10 : 14) * delta));
     }
 
     // Audio & Speedometer
@@ -3058,6 +3108,8 @@ export class WorldEngine {
       status: "playing",
     };
 
+    if (id === "ring_trial" || id === "penalty_kick" || id === "crystal_runes") this.activeMinigame.startCountdown = 3;
+    this.mgEmitAcc = 0;
     this.setupMinigameObjects(id);
 
     if (id === "hex_mario_run") {
@@ -3103,7 +3155,7 @@ export class WorldEngine {
       this.activeMinigame.raceTotalRings = 20;
       this.activeMinigame.raceCountdown = 3;
       this.activeMinigame.lapNotification = undefined;
-      this.activeMinigame.nextTurnGuide = "▲ LURUS (Selat Barat Terbuka)";
+      this.activeMinigame.nextTurnGuide = "Lurus (Selat Barat Terbuka)";
       this.audio.playChime();
 
       // Hide stationary quest giver NPC on the island so Captain Jax is exclusively on the speedboat!
@@ -3173,6 +3225,9 @@ export class WorldEngine {
     }
     this.boatRaceRings = [];
     this.boatRaceObstacles = [];
+    this.boatRaceMovers = [];
+    this.boatRaceWhirls = [];
+    this.boatRacePads = [];
     this.boatRaceWaypoints = [];
     this.boatRaceFinishGate = null;
     this.isBoatRacing = false;
@@ -3765,29 +3820,7 @@ export class WorldEngine {
     });
 
     this.boatRaceRings = [];
-    ringCoords.forEach(([x, y, z, rotY]) => {
-      const ringGroup = new THREE.Group();
-      ringGroup.position.set(x, y, z);
-      ringGroup.rotation.y = rotY;
-
-      // Outer Torus Ring
-      const torus = new THREE.Mesh(new THREE.TorusGeometry(2.3, 0.22, 16, 32), ringMat);
-      ringGroup.add(torus);
-
-      // Inner Floating Rotating Coin (exact shape as world collectible coins)
-      const coinGeo = new THREE.CylinderGeometry(0.65, 0.65, 0.12, 16);
-      coinGeo.rotateX(Math.PI / 2);
-      const coin = new THREE.Mesh(coinGeo, ringCoinMat);
-      ringGroup.add(coin);
-
-      this.boatRaceCourseGroup!.add(ringGroup);
-      this.boatRaceRings.push({
-        mesh: ringGroup,
-        coinMesh: coin,
-        hit: false,
-        pos: new THREE.Vector3(x, y, z),
-      });
-    });
+    // (rings are placed along the racing line further below, so they always face the direction of travel)
 
     // 4. Floating Sea Obstacles (Hazard buoys in open water)
     const obstacleCoords: [number, number][] = [
@@ -3828,6 +3861,126 @@ export class WorldEngine {
         pos: new THREE.Vector3(x, 0, z),
         radius: 1.1,
       });
+    });
+
+    // 4b. Track dressing and traps, laid out along a smooth curve through the waypoints
+    const curve = new THREE.CatmullRomCurve3(this.boatRaceWaypoints.map((w) => new THREE.Vector3(w.pos.x, 0, w.pos.z)));
+    const sideOf = (t: number, off: number) => {
+      const p = curve.getPointAt(t);
+      const tan = curve.getTangentAt(t);
+      return new THREE.Vector3(p.x + tan.z * off, 0, p.z - tan.x * off);
+    };
+
+    // Channel edge buoys (red left, green right) as two instanced meshes, plus a pale lane ribbon on the water
+    const edgeCount = 46;
+    const redEdge = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.3, 0.38, 1.0, 8), new THREE.MeshStandardMaterial({ color: 0xef4444, roughness: 0.4 }), edgeCount);
+    const greenEdge = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.3, 0.38, 1.0, 8), new THREE.MeshStandardMaterial({ color: 0x22c55e, roughness: 0.4 }), edgeCount);
+    const m4 = new THREE.Matrix4();
+    for (let i = 0; i < edgeCount; i++) {
+      const t = i / (edgeCount - 1);
+      const l = sideOf(t, 11);
+      const r = sideOf(t, -11);
+      redEdge.setMatrixAt(i, m4.makeTranslation(l.x, 0.4, l.z));
+      greenEdge.setMatrixAt(i, m4.makeTranslation(r.x, 0.4, r.z));
+    }
+    this.boatRaceCourseGroup.add(redEdge, greenEdge);
+
+    const ribbonPts = 120;
+    const ribbonPos: number[] = [];
+    const ribbonIdx: number[] = [];
+    for (let i = 0; i < ribbonPts; i++) {
+      const t = i / (ribbonPts - 1);
+      const a = sideOf(t, 7);
+      const b = sideOf(t, -7);
+      ribbonPos.push(a.x, 0.1, a.z, b.x, 0.1, b.z);
+      if (i < ribbonPts - 1) ribbonIdx.push(i * 2, i * 2 + 1, i * 2 + 2, i * 2 + 1, i * 2 + 3, i * 2 + 2);
+    }
+    const ribbonGeo = new THREE.BufferGeometry();
+    ribbonGeo.setAttribute("position", new THREE.Float32BufferAttribute(ribbonPos, 3));
+    ribbonGeo.setIndex(ribbonIdx);
+    const ribbon = new THREE.Mesh(ribbonGeo, new THREE.MeshBasicMaterial({ color: 0xbae6fd, transparent: true, opacity: 0.22, depthWrite: false, side: THREE.DoubleSide }));
+    this.boatRaceCourseGroup.add(ribbon);
+
+    // Gold boost rings on the racing line, facing the direction of travel, alternating sides to reward steering
+    for (let i = 0; i < 10; i++) {
+      const t = 0.055 + i * 0.0945;
+      const tan = curve.getTangentAt(t);
+      const p = sideOf(t, i % 2 === 0 ? 3.5 : -3.5);
+      const ringGroup = new THREE.Group();
+      ringGroup.position.set(p.x, 1.4, p.z);
+      ringGroup.rotation.y = Math.atan2(tan.x, tan.z);
+      ringGroup.add(new THREE.Mesh(new THREE.TorusGeometry(2.3, 0.22, 16, 32), ringMat));
+      const coinGeo = new THREE.CylinderGeometry(0.65, 0.65, 0.12, 16);
+      coinGeo.rotateX(Math.PI / 2);
+      const coin = new THREE.Mesh(coinGeo, ringCoinMat);
+      ringGroup.add(coin);
+      this.boatRaceCourseGroup.add(ringGroup);
+      this.boatRaceRings.push({ mesh: ringGroup, coinMesh: coin, hit: false, pos: new THREE.Vector3(p.x, 1.4, p.z) });
+    }
+
+    // Direction arrows painted on the water along the lane
+    const arrowCount = 40;
+    const arrows = new THREE.InstancedMesh(new THREE.ConeGeometry(0.9, 2.2, 3), new THREE.MeshBasicMaterial({ color: 0xfacc15, transparent: true, opacity: 0.8 }), arrowCount);
+    const dummy = new THREE.Object3D();
+    dummy.rotation.order = "YXZ";
+    for (let i = 0; i < arrowCount; i++) {
+      const t = (i + 0.5) / arrowCount;
+      const p = curve.getPointAt(t);
+      const tan = curve.getTangentAt(t);
+      dummy.position.set(p.x, 0.14, p.z);
+      dummy.rotation.set(-Math.PI / 2, Math.atan2(-tan.x, -tan.z), 0);
+      dummy.updateMatrix();
+      arrows.setMatrixAt(i, dummy.matrix);
+    }
+    this.boatRaceCourseGroup.add(arrows);
+
+    // Sliding barrels that cross the racing line
+    this.boatRaceMovers = [];
+    const moverMat = new THREE.MeshStandardMaterial({ color: 0xf97316, roughness: 0.4 });
+    [0.17, 0.33, 0.52, 0.68, 0.84].forEach((t, i) => {
+      const base = sideOf(t, 0);
+      const tan = curve.getTangentAt(t);
+      const dir = new THREE.Vector3(tan.z, 0, -tan.x);
+      const g = new THREE.Group();
+      const body = new THREE.Mesh(new THREE.CylinderGeometry(0.7, 0.7, 1.4, 12), moverMat);
+      body.position.y = 0.5;
+      g.add(body);
+      this.boatRaceCourseGroup!.add(g);
+      const obs = { mesh: g, pos: base.clone(), radius: 1.3 };
+      this.boatRaceObstacles.push(obs);
+      this.boatRaceMovers.push({ obs, base, dir, amp: 5.5, speed: 0.9 + i * 0.15, phase: i * 1.3 });
+    });
+
+    // Whirlpools: slow the boat and spin it around
+    this.boatRaceWhirls = [];
+    const whirlMat = new THREE.MeshBasicMaterial({ color: 0x0c4a6e, transparent: true, opacity: 0.55 });
+    [0.25, 0.6, 0.78].forEach((t, i) => {
+      const p = sideOf(t, i % 2 === 0 ? 3 : -3);
+      const g = new THREE.Group();
+      g.position.set(p.x, 0.12, p.z);
+      for (let k = 0; k < 3; k++) {
+        const ring = new THREE.Mesh(new THREE.TorusGeometry(2 + k * 1.7, 0.18, 6, 28, Math.PI * 1.5), whirlMat);
+        ring.rotation.x = -Math.PI / 2;
+        ring.rotation.z = k * 2.1;
+        g.add(ring);
+      }
+      this.boatRaceCourseGroup!.add(g);
+      this.boatRaceWhirls.push({ mesh: g, pos: g.position.clone(), radius: 6 });
+    });
+
+    // Turbo pads on the racing line
+    this.boatRacePads = [];
+    const padMat = new THREE.MeshBasicMaterial({ color: 0x22d3ee, transparent: true, opacity: 0.85 });
+    [0.1, 0.4, 0.62, 0.9].forEach((t) => {
+      const p = sideOf(t, 0);
+      const tan = curve.getTangentAt(t);
+      const pad = new THREE.Mesh(new THREE.ConeGeometry(1.6, 2.6, 3), padMat);
+      pad.rotation.x = -Math.PI / 2; // tip along -Z
+      pad.position.set(p.x, 0.15, p.z);
+      pad.rotation.order = "YXZ";
+      pad.rotation.y = Math.atan2(-tan.x, -tan.z);
+      this.boatRaceCourseGroup!.add(pad);
+      this.boatRacePads.push({ pos: p.clone(), cooldown: 0 });
     });
 
     // 5. Grand Finish Arch Gate at (32, 0.05, -48) in open water
@@ -4020,6 +4173,29 @@ export class WorldEngine {
       }
     }
 
+    // 1b. Hazards: sliding barrels, whirlpools, turbo pads
+    for (const m of this.boatRaceMovers) {
+      const off = Math.sin(time * m.speed + m.phase) * m.amp;
+      m.obs.pos.set(m.base.x + m.dir.x * off, 0, m.base.z + m.dir.z * off);
+      (m.obs as unknown as { mesh: THREE.Group }).mesh.position.set(m.obs.pos.x, Math.sin(time * 2 + m.phase) * 0.06, m.obs.pos.z);
+    }
+    for (const w of this.boatRaceWhirls) {
+      w.mesh.rotation.y += 1.8 * delta;
+      if (Math.hypot(this.playerPos.x - w.pos.x, this.playerPos.z - w.pos.z) < w.radius) {
+        this.currentSpeed = THREE.MathUtils.lerp(this.currentSpeed, 5.5, 1 - Math.exp(-3 * delta));
+        this.playerRotY += 1.5 * delta;
+      }
+    }
+    for (const pad of this.boatRacePads) {
+      pad.cooldown = Math.max(0, pad.cooldown - delta);
+      if (pad.cooldown === 0 && Math.hypot(this.playerPos.x - pad.pos.x, this.playerPos.z - pad.pos.z) < 2.6) {
+        pad.cooldown = 1.5;
+        this.currentSpeed = Math.min(26, this.currentSpeed + 6);
+        this.nitro = Math.min(100, this.nitro + 20);
+        this.audio.playBoost();
+      }
+    }
+
     // 2. Obstacle Collisions
     for (const obs of this.boatRaceObstacles) {
       const d = Math.hypot(this.playerPos.x - obs.pos.x, this.playerPos.z - obs.pos.z);
@@ -4132,13 +4308,15 @@ export class WorldEngine {
       while (angleDiff > Math.PI) angleDiff -= Math.PI * 2;
       while (angleDiff < -Math.PI) angleDiff += Math.PI * 2;
 
-      let guideDir = "▲ LURUS";
+      let guideDir = "Lurus";
       if (angleDiff < -0.32) {
-        guideDir = "➔ BELOK KANAN";
+        guideDir = "Belok kanan";
       } else if (angleDiff > 0.32) {
-        guideDir = "⬅ BELOK KIRI";
+        guideDir = "Belok kiri";
       }
       this.activeMinigame.nextTurnGuide = `${guideDir} (${currentTargetWp.name})`;
+      this.activeMinigame.guideAngle = angleDiff;
+      this.activeMinigame.guideDist = Math.round(Math.hypot(tdx, tdz));
       this.activeMinigame.currentLap = this.playerCurrentLap;
       this.activeMinigame.totalLaps = this.playerTotalLaps;
 
@@ -4655,10 +4833,23 @@ export class WorldEngine {
     (particles as any).velocities = velocities;
   }
 
+  private mgEmitAcc = 0;
+
+  public retryMinigame() {
+    const id = this.activeMinigame?.id;
+    if (!id) return;
+    if (this.isBoatRacing || this.isMarioCourseActive) {
+      this.cancelMinigame(); // courses reset the player position; start again from the NPC
+      return;
+    }
+    this.startMinigame(id);
+  }
+
   private updateMinigame(delta: number, time: number) {
     if (!this.activeMinigame || this.activeMinigame.status !== "playing") return;
 
-    this.activeMinigame.timeLeft -= delta;
+    const counting = (this.activeMinigame.startCountdown ?? 0) > 0;
+    if (!counting) this.activeMinigame.timeLeft -= delta;
 
     // Update animated effects on targets
     this.minigameTargets.forEach((t) => {
@@ -4666,6 +4857,14 @@ export class WorldEngine {
         t.update(delta, time);
       }
     });
+
+    if (counting) {
+      const left = Math.max(0, (this.activeMinigame.startCountdown ?? 0) - delta);
+      if (Math.ceil(left) !== Math.ceil(this.activeMinigame.startCountdown ?? 0)) this.audio.playChime();
+      this.activeMinigame.startCountdown = left;
+      this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+      return;
+    }
 
     if (this.activeMinigame.id === "airdrop_hunt") {
       this.updateBoatRace(delta, time);
@@ -4943,11 +5142,38 @@ export class WorldEngine {
           this.activeMinigame = null;
           this.callbacks.onMinigameUpdate?.(null);
         }
-      }, 3500);
+      }, this.isMarioCourseActive || this.isBoatRacing ? 3500 : 9000); // 9s on the small games leaves time to hit Retry
       return;
     }
 
-    this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+    const gid = this.activeMinigame.id;
+    if (gid === "ring_trial" || gid === "penalty_kick" || gid === "crystal_runes") {
+      let best: (typeof this.minigameTargets)[number] | null = null;
+      let bd = Infinity;
+      for (const t of this.minigameTargets) {
+        if (t.hit) continue;
+        const d = Math.hypot(t.pos.x - this.playerPos.x, t.pos.z - this.playerPos.z);
+        if (d < bd) {
+          bd = d;
+          best = t;
+        }
+      }
+      if (best) {
+        const heading = Math.atan2(-(best.pos.x - this.playerPos.x), -(best.pos.z - this.playerPos.z));
+        let rel = heading - this.playerRotY;
+        while (rel > Math.PI) rel -= Math.PI * 2;
+        while (rel < -Math.PI) rel += Math.PI * 2;
+        this.activeMinigame.guideAngle = rel;
+        this.activeMinigame.guideDist = Math.round(bd);
+      }
+    }
+
+    // The HUD only needs about 10 updates a second; per-frame React renders were wasted work.
+    this.mgEmitAcc += delta;
+    if (this.mgEmitAcc >= 0.1) {
+      this.mgEmitAcc = 0;
+      this.callbacks.onMinigameUpdate?.({ ...this.activeMinigame });
+    }
   }
 
   private updateCameraFollow(delta: number) {
@@ -4970,10 +5196,10 @@ export class WorldEngine {
 
       this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 42, 6 * delta);
       this.camera.updateProjectionMatrix();
-      this.camera.position.lerp(targetCamPos, 0.1);
+      this.camera.position.lerp(targetCamPos, smooth(0.1, delta));
 
       const targetLook = new THREE.Vector3().copy(npcPos).add(new THREE.Vector3(0, 1.0, 0));
-      this.cameraLookAt.lerp(targetLook, 0.12);
+      this.cameraLookAt.lerp(targetLook, smooth(0.12, delta));
       this.camera.lookAt(this.cameraLookAt);
       return;
     }
@@ -5001,10 +5227,10 @@ export class WorldEngine {
       );
 
       const targetCamPos = new THREE.Vector3().addVectors(this.playerPos, camOffset);
-      this.camera.position.lerp(targetCamPos, 0.14);
+      this.camera.position.lerp(targetCamPos, smooth(0.14, delta));
 
       const lookTarget = new THREE.Vector3(this.playerPos.x, this.playerPos.y + 1.1, this.playerPos.z);
-      this.cameraLookAt.lerp(lookTarget, 0.12);
+      this.cameraLookAt.lerp(lookTarget, smooth(0.12, delta));
       this.camera.lookAt(this.cameraLookAt);
       return;
     }
@@ -5043,8 +5269,8 @@ export class WorldEngine {
         const camX = pole.x + Math.sin(time * 0.9) * orbitRadius;
         const camZ = pole.z + Math.cos(time * 0.9) * orbitRadius;
         const camY = pole.y + 4.2;
-        this.camera.position.lerp(new THREE.Vector3(camX, camY, camZ), 0.08);
-        this.cameraLookAt.lerp(new THREE.Vector3(pole.x, pole.y + 2.8, pole.z), 0.1);
+        this.camera.position.lerp(new THREE.Vector3(camX, camY, camZ), smooth(0.08, delta));
+        this.cameraLookAt.lerp(new THREE.Vector3(pole.x, pole.y + 2.8, pole.z), smooth(0.1, delta));
         this.camera.lookAt(this.cameraLookAt);
         this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 48, 4 * delta);
         this.camera.updateProjectionMatrix();
@@ -5077,8 +5303,8 @@ export class WorldEngine {
         this.playerPos.z
       );
 
-      this.camera.position.lerp(targetCamPos, 0.14);
-      this.cameraLookAt.lerp(targetLook, 0.12);
+      this.camera.position.lerp(targetCamPos, smooth(0.14, delta));
+      this.cameraLookAt.lerp(targetLook, smooth(0.12, delta));
       this.camera.lookAt(this.cameraLookAt);
       this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 50, 6 * delta);
       this.camera.updateProjectionMatrix();
@@ -5128,8 +5354,8 @@ export class WorldEngine {
       const camY = 10.5 + Math.sin(time * 0.12) * 1.5;
       this.camera.fov = THREE.MathUtils.lerp(this.camera.fov, 48, 4 * delta);
       this.camera.updateProjectionMatrix();
-      this.camera.position.lerp(new THREE.Vector3(camX, camY, camZ), 0.04);
-      this.cameraLookAt.lerp(new THREE.Vector3(0, 3.8, 4.0), 0.05);
+      this.camera.position.lerp(new THREE.Vector3(camX, camY, camZ), smooth(0.04, delta));
+      this.cameraLookAt.lerp(new THREE.Vector3(0, 3.8, 4.0), smooth(0.05, delta));
       this.camera.lookAt(this.cameraLookAt);
       return;
     }
@@ -5163,11 +5389,11 @@ export class WorldEngine {
     if (this.onWater) {
       targetCamPos.y = Math.max(0.65, targetCamPos.y);
     }
-    this.camera.position.lerp(targetCamPos, 0.12);
+    this.camera.position.lerp(targetCamPos, smooth(0.12, delta));
 
     const lookTargetY = this.onWater ? 0.75 : 1.6;
     const lookTarget = new THREE.Vector3().copy(this.playerPos).add(new THREE.Vector3(0, lookTargetY, 0));
-    this.cameraLookAt.lerp(lookTarget, 0.1);
+    this.cameraLookAt.lerp(lookTarget, smooth(0.1, delta));
     this.camera.lookAt(this.cameraLookAt);
   }
 
@@ -5260,8 +5486,20 @@ export class WorldEngine {
       this.weatherManager.dispose();
       this.weatherManager = null;
     }
+    // Free GPU memory for everything the scene still holds, so reopening /world does not stack up buffers.
+    this.scene.traverse((o) => {
+      const m = o as THREE.Mesh;
+      if (!m.isMesh) return;
+      m.geometry?.dispose();
+      (Array.isArray(m.material) ? m.material : [m.material]).forEach((mat) => {
+        if (!mat) return;
+        Object.values(mat).forEach((v) => (v as THREE.Texture)?.isTexture && (v as THREE.Texture).dispose());
+        mat.dispose();
+      });
+    });
     this.composer.dispose();
     this.renderer.dispose();
+    this.renderer.forceContextLoss();
     if (this.renderer.domElement.parentElement) {
       this.renderer.domElement.parentElement.removeChild(this.renderer.domElement);
     }

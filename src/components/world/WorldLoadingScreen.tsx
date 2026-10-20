@@ -107,10 +107,9 @@ export const WorldLoadingScreen: React.FC<WorldLoadingScreenProps> = ({
 
         {/* Real-time IP Weather badge */}
         <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/15 text-white shadow-md text-xs font-bold">
-          <span className="text-sm">🕒</span>
           <span className="font-mono font-black text-amber-200">{realtime.timeString}</span>
           <span className="px-2 py-0.5 rounded-full bg-white/20 text-[11px] font-black">
-            {realtime.isDaytime ? "Siang ☀️" : "Malam 🌙"}
+            {realtime.isDaytime ? "Siang" : "Malam"}
           </span>
         </div>
       </div>

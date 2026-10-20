@@ -58,7 +58,6 @@ export const WorldDialogueModal: React.FC<WorldDialogueModalProps> = ({
 
   const handleNext = () => {
     if (isLastLine) {
-      if (npc.id === "valen") onCompleteQuest?.("moba");
       onClose();
     } else {
       setLineIdx((prev) => prev + 1);

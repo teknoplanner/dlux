@@ -85,7 +85,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
         <div className="px-5 py-3.5 flex items-center justify-between border-b-2 border-[#ebdcb9] bg-[#fbf6ea] shrink-0">
           <div className="flex items-center gap-2.5">
             <div className="w-9 h-9 rounded-2xl bg-[#fef08a] border-2 border-[#ca8a04] flex items-center justify-center text-lg shadow-sm">
-              🧭
+              <svg viewBox="0 0 24 24" fill="none" stroke="#854d0e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M15.5 8.5l-2 5-5 2 2-5z" /></svg>
             </div>
             <div>
               <div className="flex items-center gap-2">
@@ -415,55 +415,47 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
                 </div>
               </div>
 
-              <div className="space-y-2.5">
-                {quests.map((q) => (
-                  <div
+              <div
+                className="h-2 rounded-full bg-[#ebdcb9] overflow-hidden"
+                role="progressbar"
+                aria-valuemin={0}
+                aria-valuemax={quests.length}
+                aria-valuenow={quests.filter((q) => q.completed).length}
+              >
+                <div className="h-full rounded-full bg-[#16a34a]" style={{ width: `${(quests.filter((q) => q.completed).length / Math.max(1, quests.length)) * 100}%` }} />
+              </div>
+
+              <ul className="space-y-2.5">
+                {[...quests].sort((x, y) => Number(x.completed) - Number(y.completed)).map((q) => (
+                  <li
                     key={q.id}
-                    className={`p-3.5 rounded-2xl border-2 transition-all shadow-sm ${
-                      q.completed
-                        ? "bg-[#ecfdf5] border-[#16a34a]"
-                        : "bg-[#fefce8] border-[#ca8a04]"
+                    className={`flex gap-3 p-3.5 rounded-2xl border-2 ${
+                      q.completed ? "bg-[#f0fdf4] border-[#86efac]" : "bg-[#fffdf6] border-[#ca8a04]"
                     }`}
                   >
-                    <div className="flex items-start justify-between gap-3">
-                      <div className="space-y-1 min-w-0 flex-1">
-                        <div className="flex items-center gap-2">
-                          {q.completed ? (
-                            <img
-                              src="/assets/ui/paper/Icons/GameIcons/IconCheckmark.png"
-                              alt="Done"
-                              className="w-5 h-5 object-contain shrink-0"
-                              draggable={false}
-                            />
-                          ) : (
-                            <div className="w-5 h-5 rounded-full border-2 border-[#ca8a04] bg-[#fffdf6] shrink-0" />
-                          )}
-                          <h5
-                            className={`text-xs font-black ${
-                              q.completed ? "text-[#15803d] line-through opacity-85" : "text-[#3e2723]"
-                            }`}
-                          >
-                            {q.title}
-                          </h5>
-                        </div>
-                        <p className="text-[11px] text-[#854d0e] font-medium leading-relaxed pl-7">
-                          {q.desc}
-                        </p>
+                    <span
+                      className={`mt-0.5 w-6 h-6 shrink-0 rounded-full border-2 flex items-center justify-center ${
+                        q.completed ? "bg-[#16a34a] border-[#15803d]" : "border-[#ca8a04] bg-white"
+                      }`}
+                      aria-hidden="true"
+                    >
+                      {q.completed && (
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" className="w-3.5 h-3.5"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+                      )}
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-start justify-between gap-2">
+                        <h5 className={`text-sm font-black leading-snug ${q.completed ? "text-[#15803d]" : "text-[#3e2723]"}`}>{q.title}</h5>
+                        <span className="shrink-0 text-[11px] font-black text-[#92400e] bg-[#fef08a] border border-[#ca8a04] rounded-lg px-2 py-0.5">{q.reward}</span>
                       </div>
-
-                      <div className="flex items-center gap-1 px-2.5 py-1 rounded-xl bg-[#fffdf6] border-2 border-[#ca8a04] shadow-xs shrink-0">
-                        <img
-                          src="/assets/ui/paper/Icons/GameIcons/IconCoin.png"
-                          alt="Reward"
-                          className="w-4 h-4 object-contain"
-                          draggable={false}
-                        />
-                        <span className="text-[10px] font-black text-[#92400e]">{q.reward}</span>
-                      </div>
+                      <p className="mt-1 text-xs text-[#6b4a1e] leading-relaxed">{q.desc}</p>
+                      <p className={`mt-1.5 text-[11px] font-black uppercase tracking-wide ${q.completed ? "text-[#15803d]" : "text-[#b45309]"}`}>
+                        {q.completed ? (lang === "id" ? "Selesai" : "Completed") : lang === "id" ? "Sedang berjalan" : "In progress"}
+                      </p>
                     </div>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           )}
 

@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NPCData, ActiveMinigame } from "./WorldEngine";
 import { WeatherType } from "./WorldWeatherManager";
-import { WorldLang, WORLD_STRINGS, BILINGUAL_NPCS } from "./worldI18n";
+import { WorldLang, WORLD_STRINGS, BILINGUAL_NPCS, BILINGUAL_QUESTS } from "./worldI18n";
 import {
   GameIconWeather,
   GameIconAudio,
@@ -36,6 +36,8 @@ interface WorldHUDProps {
   onInteractNPC: () => void;
   onOpenPauseMenu: () => void;
   onCancelMinigame?: () => void;
+  onRetryMinigame?: () => void;
+  completedQuests?: Record<string, boolean>;
   lang: WorldLang;
 }
 
@@ -61,6 +63,8 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
   onInteractNPC,
   onOpenPauseMenu,
   onCancelMinigame,
+  onRetryMinigame,
+  completedQuests = {},
   lang,
 }) => {
   const t = WORLD_STRINGS[lang];
@@ -207,7 +211,6 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
               >
                 <span>{lang === "id" ? "Lewati" : "Skip"}</span>
                 <span className="text-[10px] text-white/60">[WASD / Click]</span>
-                <span>⏭️</span>
               </button>
             )}
           </div>
@@ -388,15 +391,16 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           {/* Paper Fullscreen Toggle Button (Visible on tablet/desktop) */}
           <button
             onClick={toggleFullscreen}
-            aria-label="Toggle Fullscreen"
+            aria-label={isFullscreen ? "Exit fullscreen" : "Fullscreen"}
             className="hidden md:flex w-10 h-10 rounded-2xl bg-[#fffdf6] hover:bg-[#fef9c3] active:bg-[#fef08a] border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none items-center justify-center transition-all cursor-pointer p-2.5 shrink-0"
           >
-            <img
-              src="/assets/ui/paper/Icons/GameIcons/IconPlay.png"
-              alt="FS"
-              className="w-full h-full object-contain"
-              draggable={false}
-            />
+            <svg viewBox="0 0 24 24" fill="none" stroke="#3e2723" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full" aria-hidden="true">
+              {isFullscreen ? (
+                <path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5" />
+              ) : (
+                <path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" />
+              )}
+            </svg>
           </button>
         </div>
       </div>
@@ -418,7 +422,6 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
               </span>
               <div className="flex flex-col">
                 <span className="font-black text-sm sm:text-base text-yellow-400 tracking-wide font-mono drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] flex items-center gap-1.5">
-                  <span>🕹️</span>
                   <span>SUPER MILO 3D : WORLD 1-1</span>
                 </span>
                 <span className="text-[10px] sm:text-xs text-cyan-200 font-bold hidden sm:inline font-mono">
@@ -443,7 +446,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                     : "bg-black/60 text-emerald-400 border-emerald-500/60"
                 }`}
               >
-                <span>⏱ {Math.max(0, activeMinigame.timeLeft).toFixed(1)}s</span>
+                <span>{Math.max(0, activeMinigame.timeLeft).toFixed(1)}s</span>
               </div>
 
               {/* Close / Exit Button */}
@@ -453,7 +456,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   className="px-3 py-1 rounded-xl bg-red-600/90 hover:bg-red-500 active:scale-95 text-white text-xs font-black border border-red-300 shadow-md transition-all flex items-center gap-1 cursor-pointer font-mono"
                   title="Tutup Jendela Game"
                 >
-                  <span>✕</span>
+                  <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" className="w-4 h-4" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg></span>
                   <span className="hidden sm:inline">KELUAR</span>
                 </button>
               )}
@@ -464,7 +467,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           {activeMinigame.totalTime - activeMinigame.timeLeft < 3.0 && (
             <div className="self-center my-auto text-center px-8 sm:px-12 py-5 sm:py-6 bg-black/85 backdrop-blur-md rounded-3xl border-3 border-yellow-400 shadow-[0_0_60px_rgba(250,204,21,0.6)] animate-in zoom-in-75 duration-500 pointer-events-none">
               <div className="text-yellow-400 font-black text-xs sm:text-sm uppercase tracking-widest font-mono mb-1">
-                ★ WORLD 1-1 ★
+                WORLD 1-1
               </div>
               <div className="text-2xl sm:text-4xl font-black text-white tracking-wider drop-shadow-md font-sans">
                 HEXAGON SKYWAY RALLY
@@ -482,7 +485,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           {activeMinigame.status === "won" && (
             <div className="self-center my-auto text-center px-8 sm:px-12 py-6 sm:py-7 bg-emerald-950/90 backdrop-blur-md rounded-3xl border-4 border-yellow-400 shadow-[0_0_70px_rgba(34,197,94,0.7)] animate-in zoom-in-90 duration-500 pointer-events-none">
               <div className="text-yellow-300 font-black text-sm uppercase tracking-widest font-mono mb-1 animate-bounce">
-                ★★★ STAGE CLEAR! ★★★
+                STAGE CLEAR!
               </div>
               <div className="text-3xl sm:text-5xl font-black text-white tracking-wider drop-shadow-lg font-sans">
                 VICTORY!
@@ -504,7 +507,6 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
               {/* Cute speech bubble bottom tail */}
               <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-6 h-6 bg-cyan-950/95 border-r-4 border-b-4 border-cyan-400 rotate-45" />
               <div className="flex items-center justify-center gap-2 mb-1">
-                <span className="text-2xl animate-bounce">🚩</span>
                 <span className="text-yellow-300 font-black text-xs sm:text-sm uppercase tracking-widest font-mono">
                   MIDWAY ALTAR
                 </span>
@@ -525,7 +527,6 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           {showRespawnToast && (
             <div className="self-center my-auto text-center px-6 sm:px-10 py-4 sm:py-5 bg-sky-950/95 backdrop-blur-md rounded-3xl border-3 border-sky-400 text-sky-200 shadow-[0_0_40px_rgba(56,189,248,0.85)] animate-in zoom-in-75 duration-300 pointer-events-none">
               <div className="flex items-center justify-center gap-2 mb-0.5">
-                <span className="text-xl animate-bounce">🚩</span>
                 <span className="text-yellow-300 font-black text-xs uppercase tracking-widest font-mono">
                   CHECKPOINT RESPAWN
                 </span>
@@ -543,7 +544,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           {activeMinigame.status === "lost" && (
             <div className="self-center my-auto text-center px-8 sm:px-12 py-6 sm:py-7 bg-red-950/95 backdrop-blur-md rounded-3xl border-4 border-red-500 shadow-[0_0_80px_rgba(239,68,68,0.85)] animate-in zoom-in-90 duration-500 pointer-events-none">
               <div className="text-red-400 font-black text-sm uppercase tracking-widest font-mono mb-1 animate-pulse">
-                {activeMinigame.loseReason === "timeout" ? "⏱️ WAKTU HABIS ⏱️" : "☠️ GAME OVER ☠️"}
+                {activeMinigame.loseReason === "timeout" ? "WAKTU HABIS" : "GAME OVER"}
               </div>
               <div className="text-3xl sm:text-5xl font-black text-white tracking-wider drop-shadow-lg font-sans">
                 {activeMinigame.loseReason === "timeout" ? "WAKTU HABIS!" : "TERCEBUR KE LAUT!"}
@@ -596,7 +597,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                 ) : (
                   <div className="px-8 py-4 rounded-3xl bg-emerald-500/90 border-4 border-emerald-300 shadow-[0_0_60px_rgba(52,211,153,0.8)] backdrop-blur-md animate-bounce">
                     <span className="font-black text-5xl sm:text-7xl text-white tracking-widest drop-shadow-lg">
-                      GO! 🚀
+                      GO!
                     </span>
                   </div>
                 )}
@@ -626,30 +627,24 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   : "bg-slate-800/90 text-white border-slate-500 shadow-slate-900/40"
               }`}
             >
-              <span className="text-base sm:text-lg">
-                {activeMinigame.racePosition === 1 ? "🥇" : "🥈"}
-              </span>
               <span>{activeMinigame.racePosition === 1 ? "1ST" : "2ND"}</span>
               <span className="text-[10px] opacity-75 font-bold">/ 2</span>
             </div>
 
             {/* Lap Indicator Badge */}
             <div className="px-2.5 py-1.5 rounded-2xl bg-sky-950/80 backdrop-blur-md border border-sky-400/50 text-sky-300 font-black text-xs sm:text-sm shadow-md flex items-center gap-1">
-              <span>🏁</span>
               <span>LAP {activeMinigame.currentLap || 1}/{activeMinigame.totalLaps || 2}</span>
             </div>
 
             {/* Live Captain Jax Distance Indicator */}
             {activeMinigame.npcDistanceText && (
               <div className="hidden sm:flex px-2.5 py-1.5 rounded-2xl bg-slate-900/85 backdrop-blur-md border border-amber-400/50 text-amber-300 font-bold text-xs shadow-md items-center gap-1">
-                <span>🛥️</span>
                 <span>{activeMinigame.npcDistanceText}</span>
               </div>
             )}
 
             {/* Rings Counter */}
             <div className="px-2.5 py-1.5 rounded-2xl bg-amber-500/80 backdrop-blur-md border border-amber-300 text-slate-950 font-black text-xs sm:text-sm shadow-md flex items-center gap-1">
-              <span>🪙</span>
               <span>{activeMinigame.raceRingsCollected || 0}/{activeMinigame.raceTotalRings || 20}</span>
             </div>
 
@@ -661,18 +656,27 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   : "bg-slate-900/85 text-sky-300 border-sky-400/50"
               }`}
             >
-              ⏱ {Math.max(0, activeMinigame.timeLeft).toFixed(1)}s
+              {Math.max(0, activeMinigame.timeLeft).toFixed(1)}s
             </div>
           </div>
 
           {/* Top-Center: Slim Transparent Turn Guidance Pill (Zero Screen Obstruction!) */}
           <div className="absolute top-14 sm:top-16 inset-x-0 flex justify-center pointer-events-none z-40 px-4 animate-in slide-in-from-top-2 duration-200">
             <div className="px-4 py-1.5 rounded-full bg-slate-950/85 backdrop-blur-md border border-sky-400/70 shadow-[0_4px_20px_rgba(2,132,199,0.35)] flex items-center gap-2 text-xs sm:text-sm font-black text-white">
-              <span className="text-sky-300 text-[10px] sm:text-xs uppercase tracking-wider font-bold opacity-80 hidden sm:inline">
-                NAVIGASI:
-              </span>
-              <span className="text-yellow-300 animate-pulse font-extrabold flex items-center gap-1">
-                {activeMinigame.nextTurnGuide || "▲ TANCAP GAS KE DEPAN!"}
+              {activeMinigame.guideAngle !== undefined && (
+                <svg
+                  viewBox="0 0 24 24"
+                  className="w-5 h-5 shrink-0 text-yellow-300"
+                  style={{ transform: `rotate(${-activeMinigame.guideAngle}rad)` }}
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M12 2l7 14-7-4-7 4z" />
+                </svg>
+              )}
+              <span className="text-yellow-300 font-extrabold">
+                {activeMinigame.nextTurnGuide || "Tancap gas ke depan"}
+                {activeMinigame.guideDist !== undefined ? ` · ${activeMinigame.guideDist} m` : ""}
               </span>
             </div>
           </div>
@@ -681,7 +685,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           <div className="absolute top-14 sm:top-16 right-3 sm:right-4 z-40 pointer-events-auto flex items-center gap-2 animate-in slide-in-from-top-2 duration-200">
             {/* Progress Pill */}
             <div className="px-3 py-1.5 rounded-2xl bg-slate-900/85 backdrop-blur-md border border-sky-400/50 text-white font-black text-xs shadow-md flex items-center gap-2">
-              <span className="text-sky-300">🏁 {activeMinigame.raceProgressPct || 0}%</span>
+              <span className="text-sky-300">{activeMinigame.raceProgressPct || 0}%</span>
               <div className="w-14 sm:w-20 h-2 bg-slate-800 rounded-full overflow-hidden border border-sky-500/30">
                 <div
                   className="h-full bg-gradient-to-r from-sky-400 via-cyan-400 to-emerald-400 transition-all duration-200"
@@ -699,7 +703,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                 className="w-8 h-8 rounded-2xl bg-red-500/30 hover:bg-red-500/60 border border-red-400 text-white font-bold flex items-center justify-center cursor-pointer transition-colors shadow-md"
                 title="Keluar Balapan"
               >
-                ✕
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" className="w-4 h-4" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
               </button>
             )}
           </div>
@@ -721,7 +725,6 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           {activeMinigame.status === "won" && (
             <div className="absolute inset-0 flex items-center justify-center pointer-events-auto z-50 bg-slate-950/60 backdrop-blur-sm p-4">
               <div className="w-full max-w-sm sm:max-w-md bg-gradient-to-b from-slate-900 to-slate-950 border-2 sm:border-3 border-emerald-400 rounded-3xl p-6 text-white text-center shadow-[0_0_30px_rgba(52,211,153,0.4)] animate-in zoom-in-95 space-y-3">
-                <div className="text-4xl animate-bounce">🏆</div>
                 <h3 className="text-xl sm:text-2xl font-black text-emerald-300 uppercase tracking-wider">
                   JUARA 1 BALAPAN LAUT!
                 </h3>
@@ -729,7 +732,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                   Luar biasa! Kamu mengalahkan Kapten Jax dan memenangkan 2 putaran keliling seluruh pulau!
                 </p>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-amber-500/20 border border-amber-400 text-amber-300 font-black text-sm sm:text-base">
-                  <span>🪙 +15 Koin Emas Juara 1!</span>
+                  <span>+15 Koin Emas Juara 1!</span>
                 </div>
                 <div className="text-xs text-slate-400 pt-2 animate-pulse">
                   Kembali ke Pulau Battle Royale...
@@ -743,7 +746,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
             <div className="absolute inset-0 flex items-center justify-center pointer-events-auto z-50 bg-slate-950/60 backdrop-blur-sm p-4">
               <div className="w-full max-w-sm sm:max-w-md bg-gradient-to-b from-slate-900 to-slate-950 border-2 sm:border-3 border-amber-500 rounded-3xl p-6 text-white text-center shadow-[0_0_30px_rgba(245,158,11,0.4)] animate-in zoom-in-95 space-y-3">
                 <div className="text-4xl">
-                  {activeMinigame.loseReason === "second_place" ? "🥈" : "⏱️"}
+                  
                 </div>
                 <h3 className="text-xl sm:text-2xl font-black text-amber-400 uppercase tracking-wider">
                   {activeMinigame.loseReason === "second_place" ? "POSISI KE-2 (KALAH)" : "WAKTU HABIS!"}
@@ -760,6 +763,13 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
             </div>
           )}
         </>
+      )}
+
+      {activeMinigame && activeMinigame.status === "playing" && (activeMinigame.startCountdown ?? 0) > 0 && (
+        <div className="absolute inset-0 z-40 flex flex-col items-center justify-center pointer-events-none text-center px-6" role="status" aria-live="assertive">
+          <p className="max-w-md text-sm sm:text-base font-black text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">{activeMinigame.instructions}</p>
+          <p className="mt-2 text-7xl sm:text-8xl font-black text-[#fde047] drop-shadow-[0_4px_0_#78350f]">{Math.ceil(activeMinigame.startCountdown ?? 0)}</p>
+        </div>
       )}
 
       {/* Standard Paper Banner for other arcade minigames */}
@@ -782,7 +792,7 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                       : "bg-[#ecfdf5] text-[#047857] border-[#065f46] shadow-[0_2px_0_#065f46]"
                   }`}
                 >
-                  ⏱ {Math.max(0, activeMinigame.timeLeft).toFixed(1)}s
+                  {Math.max(0, activeMinigame.timeLeft).toFixed(1)}s
                 </div>
 
                 {activeMinigame.status === "playing" && (
@@ -820,16 +830,48 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
               </div>
             </div>
 
-            {/* Victory Toast */}
+            {activeMinigame.status === "playing" && activeMinigame.guideAngle !== undefined && !activeMinigame.startCountdown && (
+              <div className="flex items-center gap-2 text-xs font-bold text-[#5c3e21]">
+                <svg
+                  viewBox="0 0 24 24"
+                  className="w-6 h-6 shrink-0 text-[#b45309]"
+                  style={{ transform: `rotate(${-activeMinigame.guideAngle}rad)` }}
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M12 2l7 14-7-4-7 4z" />
+                </svg>
+                <span>
+                  {lang === "id" ? "Target terdekat" : "Nearest target"}: {activeMinigame.guideDist} m
+                </span>
+              </div>
+            )}
+
             {activeMinigame.status === "won" && (
-              <div className="p-2 sm:p-2.5 rounded-2xl bg-[#dcfce7] border-2 border-[#16a34a] text-[#15803d] font-black text-center text-xs sm:text-sm flex items-center justify-center gap-2 shadow-[0_3px_0_#16a34a]">
-                <img
-                  src="/assets/ui/paper/Icons/GameIcons/IconCoin.png"
-                  alt="Win"
-                  className="w-4 h-4 sm:w-5 sm:h-5 object-contain"
-                  draggable={false}
-                />
-                <span>CHALLENGE COMPLETE! +5 COINS AWARDED!</span>
+              <div className="p-2.5 rounded-2xl bg-[#dcfce7] border-2 border-[#16a34a] text-[#15803d] font-black text-center text-xs sm:text-sm shadow-[0_3px_0_#16a34a]">
+                {lang === "id" ? "Misi selesai! +5 koin" : "Mission complete! +5 coins"}
+              </div>
+            )}
+
+            {activeMinigame.status === "lost" && (
+              <div className="space-y-2">
+                <p className="p-2.5 rounded-2xl bg-[#fee2e2] border-2 border-[#b91c1c] text-[#991b1b] font-black text-center text-xs sm:text-sm">
+                  {lang === "id" ? "Waktu habis. Coba lagi?" : "Time is up. Try again?"}
+                </p>
+                <div className="flex gap-2">
+                  <button
+                    onClick={onRetryMinigame}
+                    className="flex-1 min-h-[44px] rounded-xl bg-[#22c55e] hover:bg-[#16a34a] text-white font-black text-sm border-2 border-[#15803d] shadow-[0_3px_0_#15803d] active:translate-y-0.5 active:shadow-none"
+                  >
+                    {lang === "id" ? "Coba lagi" : "Retry"}
+                  </button>
+                  <button
+                    onClick={onCancelMinigame}
+                    className="flex-1 min-h-[44px] rounded-xl bg-[#fffdf6] hover:bg-[#fef9c3] text-[#3e2723] font-black text-sm border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] active:translate-y-0.5 active:shadow-none"
+                  >
+                    {lang === "id" ? "Keluar" : "Exit"}
+                  </button>
+                </div>
               </div>
             )}
           </div>
@@ -852,6 +894,33 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
           </div>
         </div>
       )}
+
+      {/* Mission tracker: the next unfinished place mission */}
+      {!activeMinigame && !isIntroCinematic && (() => {
+        const ids = Object.keys(BILINGUAL_QUESTS);
+        const done = ids.filter((id) => completedQuests[id]).length;
+        const next = ids.find((id) => !completedQuests[id]);
+        const q = next ? BILINGUAL_QUESTS[next] : null;
+        return (
+          <aside
+            aria-label={lang === "id" ? "Misi" : "Mission"}
+            className="absolute left-3 sm:left-5 top-[4.75rem] sm:top-24 max-w-[220px] sm:max-w-[260px] rounded-2xl bg-[#fffdf6]/95 border-2 border-[#5c3e21] shadow-[0_3px_0_#3e2723] px-3 py-2 pointer-events-none"
+          >
+            <div className="flex items-center justify-between gap-3 text-[10px] font-black uppercase tracking-wide text-[#854d0e]">
+              <span>{lang === "id" ? "Misi" : "Mission"}</span>
+              <span>{done} / {ids.length}</span>
+            </div>
+            {q ? (
+              <>
+                <p className="mt-0.5 text-sm font-black text-[#3e2723] leading-snug">{q.title[lang]}</p>
+                <p className="text-xs text-[#6b4a1e]">{q.place[lang]}</p>
+              </>
+            ) : (
+              <p className="mt-0.5 text-sm font-black text-[#15803d]">{lang === "id" ? "Semua misi selesai" : "All missions complete"}</p>
+            )}
+          </aside>
+        );
+      })()}
 
       {/* =================================================================== */}
       {/* PAPER UI KIT INTERACTION PROMPT (Near NPC)                          */}
@@ -877,6 +946,12 @@ export const WorldHUD: React.FC<WorldHUDProps> = ({
                 <span className="text-[#3e2723] font-black text-xs sm:text-base truncate max-w-[160px] sm:max-w-none">
                   {t.common.talkTo} {npcName}
                 </span>
+                {activeNPC.arcadeChallenge && BILINGUAL_QUESTS[activeNPC.arcadeChallenge.id] && (
+                  <span className={`text-[11px] font-bold ${completedQuests[activeNPC.arcadeChallenge.id] ? "text-[#15803d]" : "text-[#b45309]"}`}>
+                    {BILINGUAL_QUESTS[activeNPC.arcadeChallenge.id].title[lang]}
+                    {completedQuests[activeNPC.arcadeChallenge.id] ? (lang === "id" ? " (selesai)" : " (done)") : ""}
+                  </span>
+                )}
               </div>
               <span className="px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-xl bg-[#22c55e] text-white font-black text-[10px] sm:text-xs border border-[#15803d] shadow-[0_2px_0_#15803d] shrink-0 ml-1">
                 [E]

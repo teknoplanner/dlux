@@ -160,6 +160,10 @@ export const WorldGameCanvas: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (engineRef.current) engineRef.current.isPaused = isPauseOpen;
+  }, [isPauseOpen]);
+
   const handleEnterWorld = async (fullscreen: boolean) => {
     const isMobile =
       typeof window !== "undefined" &&
@@ -339,6 +343,8 @@ export const WorldGameCanvas: React.FC = () => {
             onInteractNPC={handleInteract}
             onOpenPauseMenu={() => setIsPauseOpen(true)}
             onCancelMinigame={() => engineRef.current?.cancelMinigame()}
+            onRetryMinigame={() => engineRef.current?.retryMinigame()}
+            completedQuests={completedQuests}
             lang={lang}
           />
 
@@ -403,7 +409,6 @@ export const WorldGameCanvas: React.FC = () => {
               <div className="w-full max-w-lg bg-[#fffdf6] border-4 border-[#5c3e21] rounded-3xl p-6 sm:p-7 text-[#3e2723] space-y-5 shadow-[0_12px_0_#3e2723] relative">
                 <div className="flex items-center justify-between border-b-2 border-[#ebdcb9] pb-3">
                   <div className="flex items-center gap-2.5">
-                    <span className="text-xl">🎮</span>
                     <h3 className="text-base sm:text-lg font-black text-[#3e2723] uppercase tracking-wide">
                       {lang === "id" ? "PANDUAN KONTROL" : "CONTROLS QUICK REFERENCE"}
                     </h3>

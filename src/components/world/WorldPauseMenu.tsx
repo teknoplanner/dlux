@@ -170,7 +170,7 @@ export const WorldPauseMenu: React.FC<WorldPauseMenuProps> = ({
           <div className="flex items-center justify-between pt-0.5">
             <span className="text-[#a16207]">{t.pauseMenu.questsCompleted}:</span>
             <span className="font-black text-[#047857]">
-              {completedQuestsCount} / 4
+              {completedQuestsCount} / 5
             </span>
           </div>
         </div>

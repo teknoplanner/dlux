@@ -504,68 +504,60 @@ export const BILINGUAL_NPCS: Record<
 };
 
 // Bilingual Quests for Navigator's Slate
+// One mission per place on the map. The key is the minigame id, so winning it ticks the mission off.
 export const BILINGUAL_QUESTS: Record<
   string,
   {
     title: { id: string; en: string };
     desc: { id: string; en: string };
     reward: { id: string; en: string };
+    place: { id: string; en: string };
   }
 > = {
-  moba: {
-    title: {
-      id: "Pusaka Pedang Kuil Keramat",
-      en: "Sacred Blade of the Sanctuary",
-    },
+  ring_trial: {
+    title: { id: "Slalom Plaza", en: "Plaza Slalom" },
     desc: {
-      id: "Kunjungi Kuil Keramat MOBA dan berbicaralah dengan Grandmaster Kesatria Valen.",
-      en: "Travel to MOBA Sanctuary and converse with Grandmaster Valen the Knight.",
+      id: "Lewati 5 cincin neon di sekitar Central Plaza sebelum waktu habis. Bicara dengan Lexa untuk memulai.",
+      en: "Pass through 5 neon rings around Central Plaza before time runs out. Talk to Lexa to start.",
     },
-    reward: { id: "+50 EXP", en: "+50 EXP" },
+    reward: { id: "+5 Koin", en: "+5 Coins" },
+    place: { id: "Central Plaza", en: "Central Plaza" },
   },
-  soccer: {
-    title: {
-      id: "Penendang Emas Kepulauan",
-      en: "Archipelago Golden Striker",
-    },
+  penalty_kick: {
+    title: { id: "Tendangan Emas", en: "Golden Shootout" },
     desc: {
-      id: "Cetak 1 gol di Stadion Pantai dengan menggiring dan menendang bola raksasa ke gawang.",
-      en: "Score 1 goal at Beach Stadium by kicking the giant soccer ball into the goal net.",
+      id: "Giring bola dan masukkan 3 kali ke zona gawang emas di stadion. Bicara dengan Leo untuk memulai.",
+      en: "Dribble and score 3 times into the golden goal zones in the stadium. Talk to Leo to start.",
     },
-    reward: { id: "+100 EXP", en: "+100 EXP" },
+    reward: { id: "+5 Koin", en: "+5 Coins" },
+    place: { id: "Arena Sepak Bola", en: "Arcade Soccer Arena" },
   },
-  airdrop: {
-    title: {
-      id: "Grand Prix Perahu Cepat",
-      en: "Speedboat Grand Prix",
-    },
+  crystal_runes: {
+    title: { id: "Rune Kuil Keramat", en: "Sanctuary Runes" },
     desc: {
-      id: "Balapan perahu cepat mengelilingi pulau Battle Royale, terobos cincin koin emas, dan kalahkan Kapten Jax.",
-      en: "Race speedboats around Battle Royale Island, boost through gold coin rings, and defeat Captain Jax.",
+      id: "Aktifkan 4 rune kuno di sekitar altar dalam 35 detik. Bicara dengan Valen untuk memulai.",
+      en: "Activate 4 ancient runes around the altar within 35 seconds. Talk to Valen to start.",
     },
-    reward: { id: "+100 EXP", en: "+100 EXP" },
+    reward: { id: "+5 Koin", en: "+5 Coins" },
+    place: { id: "Kuil MOBA", en: "MOBA Sanctuary" },
   },
-  tokens: {
-    title: {
-      id: "Pengumpul Koin Ulung",
-      en: "Master Token Collector",
-    },
+  airdrop_hunt: {
+    title: { id: "Balap Perahu", en: "Boat Grand Prix" },
     desc: {
-      id: "Kumpulkan sedikitnya 15 Koin Emas tersembunyi di seluruh kepulauan.",
-      en: "Collect at least 15 Golden Tokens hidden across islands, beaches, and stone bridges.",
+      id: "Balap 2 putaran mengelilingi pulau dan kalahkan Jax ke garis finis. Bicara dengan Jax untuk memulai.",
+      en: "Race 2 laps around the island and beat Jax to the finish line. Talk to Jax to start.",
     },
-    reward: { id: "+100 EXP", en: "+100 EXP" },
+    reward: { id: "+10 Koin", en: "+10 Coins" },
+    place: { id: "Pos Battle Royale", en: "Battle Royale Outpost" },
   },
   hex_mario_run: {
-    title: {
-      id: "Petualangan Super Milo 3D",
-      en: "Super Milo 3D Adventure",
-    },
+    title: { id: "Lintasan Super Milo", en: "Super Milo Course" },
     desc: {
-      id: "Selesaikan lintasan rintangan balok heksagon melayang dan sentuh Tiang Bendera Finish.",
-      en: "Traverse the floating hexagon obstacle course and touch the summit Finish Flagpole.",
+      id: "Lompati balok heksagon melayang dan sentuh tiang bendera finish. Bicara dengan Kai untuk memulai.",
+      en: "Jump across the floating hexagon blocks and touch the finish flagpole. Talk to Kai to start.",
     },
-    reward: { id: "+10 Koin & +100 EXP", en: "+10 Coins & +100 EXP" },
+    reward: { id: "+10 Koin", en: "+10 Coins" },
+    place: { id: "Teluk Heksagon", en: "Hexagon Sandbox Bay" },
   },
 };
 

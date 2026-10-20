@@ -1,6 +1,7 @@
 "use client";
 
 import * as THREE from "three";
+import { bakeStatic } from "./worldBake";
 import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader.js";
 import { NPCData, SolidCollider } from "./WorldEngine";
 import { WorldCharacterManager } from "./WorldCharacterManager";
@@ -691,6 +692,8 @@ export class WorldLivingAtmosphere {
         stallGroup.add(straw);
       }
     }
+
+    bakeStatic(stallGroup); // the stall is fixed; the vendor is added after, so it stays animated
 
     // 5. Vendor 3D KayKit Character behind counter (Z = -0.90)
     const vendorGroup = new THREE.Group();
