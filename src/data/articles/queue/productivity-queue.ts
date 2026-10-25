@@ -2988,5 +2988,1485 @@ export const productivityQueueArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "persiapan-keuangan-akhir-tahun-anggaran-liburan-belanja-promo-dan-tagihan-januari",
+    "slugEn": "year-end-money-prep-holiday-budgets-sale-season-and-january-bills",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-11-23T09:45:00+07:00",
+    "title": "Persiapan Keuangan Akhir Tahun: Anggaran Liburan, Belanja Promo, dan Tagihan Januari yang Sering Terlupa",
+    "metaTitle": "Persiapan Keuangan Akhir Tahun & Liburan",
+    "metaDescription": "Akhir tahun penuh godaan: promo belanja, liburan, dan acara keluarga. Susun anggaran Desember yang realistis, hindari jebakan promo, dan siapkan dana untuk tagihan Januari dan biaya awal tahun ajaran.",
+    "keywords": [
+      "keuangan akhir tahun",
+      "anggaran liburan",
+      "belanja promo akhir tahun",
+      "tagihan januari",
+      "tips hemat desember"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "godaan",
+        "title": "Desember: bulan dengan pengeluaran paling padat",
+        "content": [
+          "Bagi banyak keluarga, Desember adalah bulan yang paling boros. Ada promo belanja besar-besaran di berbagai tanggal kembar, libur sekolah yang panjang, liburan keluarga, acara akhir tahun kantor, dan berbagai perayaan. Semua terasa wajar dilakukan karena \"hanya setahun sekali\".",
+          "Masalahnya baru terasa di bulan Januari. Tagihan kartu kredit dan paylater dari belanja Desember datang bersamaan dengan biaya awal tahun: perpanjangan pajak kendaraan, uang semester anak, atau iuran tahunan. Banyak orang memulai tahun baru dengan saldo minus dan utang yang menumpuk. Semua ini bisa dicegah dengan persiapan yang dimulai sekarang."
+        ]
+      },
+      {
+        "id": "cek",
+        "title": "Langkah 1: Cek kondisi keuangan sebelum Desember",
+        "content": [
+          "Sebelum membuat rencana, lihat dulu posisi keuangan Anda saat ini. Berapa saldo tabungan, berapa sisa utang, dan apakah ada bonus akhir tahun yang diharapkan. Jangan menghitung bonus yang belum pasti sebagai uang yang sudah ada.",
+          "Tinjau juga pengeluaran Desember tahun lalu jika Anda punya catatan. Data ini sering mengejutkan dan membantu membuat perkiraan yang lebih realistis."
+        ]
+      },
+      {
+        "id": "anggaran",
+        "title": "Langkah 2: Susun anggaran khusus Desember",
+        "content": [
+          "Buat anggaran terpisah untuk pengeluaran musiman di luar kebutuhan rutin bulanan. Bagi menjadi beberapa pos yang jelas:"
+        ],
+        "bulletPoints": [
+          "Liburan: transportasi, penginapan, makan, dan tiket wisata.",
+          "Hadiah dan perayaan: kado untuk keluarga, acara kantor, atau tukar kado.",
+          "Belanja promo: batas maksimum untuk barang yang memang sudah direncanakan.",
+          "Kebutuhan sekolah: seragam, buku, atau biaya kegiatan semester berikutnya.",
+          "Cadangan tak terduga: sekitar 10 persen dari total anggaran Desember."
+        ],
+        "tipBox": {
+          "title": "Tetapkan angka sebelum melihat promo",
+          "text": "Tentukan batas belanja promo sebelum membuka aplikasi belanja. Angka yang ditetapkan saat pikiran tenang jauh lebih bijak daripada keputusan yang diambil saat melihat hitungan mundur diskon.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "promo",
+        "title": "Langkah 3: Hindari jebakan promo",
+        "content": [
+          "Promo akhir tahun dirancang untuk mendorong pembelian impulsif. Hitungan mundur, label \"stok terbatas\", dan gratis ongkir dengan minimum belanja membuat kita membeli barang yang sebenarnya tidak dibutuhkan. Beberapa kebiasaan bisa membantu:"
+        ],
+        "bulletPoints": [
+          "Buat daftar belanja sejak sekarang dan hanya beli barang di daftar itu saat promo.",
+          "Bandingkan harga promo dengan harga normal beberapa minggu sebelumnya. Kadang harga dinaikkan dulu sebelum didiskon.",
+          "Hitung ulang jika ingin menambah barang demi gratis ongkir. Sering kali ongkir lebih murah daripada barang tambahan.",
+          "Hindari cicilan paylater untuk barang konsumtif yang tidak mendesak.",
+          "Beri jeda 24 jam untuk pembelian di luar daftar. Jika besok masih terasa perlu, baru pertimbangkan."
+        ]
+      },
+      {
+        "id": "liburan",
+        "title": "Langkah 4: Liburan hemat tapi tetap berkesan",
+        "content": [
+          "Liburan tidak harus mahal untuk berkesan. Pesan transportasi dan penginapan lebih awal, karena harga biasanya naik mendekati musim libur. Pertimbangkan destinasi yang lebih dekat atau berangkat di hari kerja jika memungkinkan.",
+          "Sepakati anggaran harian selama liburan bersama keluarga, termasuk untuk makan dan oleh-oleh. Bawa bekal untuk perjalanan darat dan pilih penginapan dengan dapur jika berlibur bersama keluarga besar. Banyak keluarga menemukan bahwa momen paling berkesan justru dari kegiatan sederhana, bukan yang paling mahal."
+        ]
+      },
+      {
+        "id": "januari",
+        "title": "Langkah 5: Siapkan dana untuk tagihan Januari",
+        "content": [
+          "Ini langkah yang paling sering terlupa. Catat semua kewajiban yang jatuh tempo di Januari dan Februari, lalu sisihkan dananya sebelum mulai belanja Desember:"
+        ],
+        "bulletPoints": [
+          "Tagihan kartu kredit dan paylater dari belanja Desember.",
+          "Pajak kendaraan atau iuran tahunan yang jatuh tempo di awal tahun.",
+          "Biaya semester atau kegiatan sekolah anak.",
+          "Perpanjangan langganan tahunan, asuransi, atau domain usaha.",
+          "Kebutuhan rutin Januari jika gaji Desember dibayar lebih awal sebelum libur."
+        ],
+        "tipBox": {
+          "title": "Waspadai gaji yang cair lebih awal",
+          "text": "Beberapa kantor membayar gaji Desember lebih awal sebelum libur panjang. Akibatnya, jarak ke gaji berikutnya lebih panjang dari biasanya. Pastikan uang cukup sampai gajian Januari.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "bonus",
+        "title": "Mengelola bonus dan THR akhir tahun",
+        "content": [
+          "Jika Anda menerima bonus akhir tahun, putuskan alokasinya sebelum uang masuk. Pembagian yang sering dipakai adalah sebagian untuk melunasi utang atau menambah dana darurat, sebagian untuk tujuan jangka panjang, dan sebagian kecil untuk dinikmati. Dengan begitu, bonus memberi manfaat jangka panjang tanpa membuat Anda merasa tidak menikmati hasil kerja keras."
+        ]
+      },
+      {
+        "id": "catat",
+        "title": "Pantau pengeluaran Desember dengan Kucing Atur Duit",
+        "content": [
+          "Anggaran Desember hanya bermanfaat jika dipantau. Di **Kucing Atur Duit**, buat kategori khusus seperti \"Liburan Akhir Tahun\", \"Belanja Promo\", dan \"Hadiah\", lalu tetapkan anggaran untuk masing-masing. Peringatan anggaran memberi tanda saat sebuah pos mendekati batas, sehingga Anda bisa mengerem sebelum terlambat.",
+          "Catat pengeluaran langsung saat terjadi, termasuk pengeluaran kecil selama liburan seperti jajan dan parkir yang sering terlupa. Di akhir bulan, grafik kategori memberi gambaran jujur tentang ke mana uang pergi, bahan berharga untuk merencanakan akhir tahun berikutnya. Semua data tersimpan privat di HP Anda."
+        ]
+      },
+      {
+        "id": "refleksi",
+        "title": "Akhiri tahun dengan refleksi keuangan",
+        "content": [
+          "Di akhir Desember, luangkan waktu untuk melihat perjalanan keuangan setahun. Apa yang berhasil? Pos mana yang paling sering jebol? Apa tujuan keuangan tahun depan? Refleksi singkat ini membantu memulai tahun baru dengan rencana yang lebih matang, bukan sekadar resolusi yang terlupa di minggu kedua Januari."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa anggaran liburan yang wajar?",
+        "a": "Tidak ada angka baku. Patokan sehatnya adalah liburan dibayar dari tabungan yang sudah disiapkan, bukan dari utang."
+      },
+      {
+        "q": "Apakah belanja saat promo akhir tahun selalu lebih hemat?",
+        "a": "Tidak selalu. Bandingkan dengan harga normal dan pastikan barang memang dibutuhkan."
+      },
+      {
+        "q": "Bagaimana jika bonus akhir tahun belum pasti?",
+        "a": "Jangan hitung bonus sebagai uang yang sudah ada. Susun anggaran berdasarkan uang yang benar-benar tersedia."
+      },
+      {
+        "q": "Tagihan apa yang biasanya datang di Januari?",
+        "a": "Tagihan kartu kredit dan paylater Desember, pajak atau iuran tahunan, biaya sekolah, dan perpanjangan langganan."
+      }
+    ],
+    "titleEn": "Year-End Money Prep: Holiday Budgets, Sale Season, and the January Bills People Forget",
+    "metaTitleEn": "Year-End Money Prep: Holidays and January Bills",
+    "metaDescriptionEn": "Year-end brings big sales, holidays, and family events. Build a realistic December budget, avoid sale traps, and set aside money for January bills and new-term costs.",
+    "keywordsEn": [
+      "year end finances",
+      "holiday budget",
+      "year end sales",
+      "january bills",
+      "december saving tips"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers checking finances before December, a separate seasonal budget, avoiding sale traps, affordable holidays, reserving for January obligations, allocating bonuses, tracking in Kucing Atur Duit, and an annual money review.",
+    "sectionsEn": [
+      {
+        "id": "temptation",
+        "title": "December: the busiest spending month",
+        "content": [
+          "Big sales, school holidays, trips, and parties feel justified once a year, but card and paylater bills arrive in January alongside annual costs. Preparation now prevents a negative start to the year."
+        ]
+      },
+      {
+        "id": "check",
+        "title": "Step 1: Check your position",
+        "content": [
+          "Review savings, debts, and expected bonuses, without counting uncertain bonuses. Look at last December's spending if you have records."
+        ]
+      },
+      {
+        "id": "budget",
+        "title": "Step 2: A separate December budget",
+        "content": [
+          "Split seasonal spending into categories:"
+        ],
+        "bulletPoints": [
+          "Holiday travel, lodging, food, and tickets.",
+          "Gifts and celebrations.",
+          "A cap for planned sale purchases.",
+          "School needs for next term.",
+          "About 10 percent contingency."
+        ],
+        "tipBox": {
+          "title": "Set numbers before browsing sales",
+          "text": "Decide your sale budget before opening shopping apps.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "sales",
+        "title": "Step 3: Avoid sale traps",
+        "content": [
+          "Sales are designed for impulse buys:"
+        ],
+        "bulletPoints": [
+          "Shop only from a list.",
+          "Compare with prices from weeks earlier.",
+          "Do the maths before adding items for free shipping.",
+          "Avoid paylater for non-urgent consumer goods.",
+          "Wait 24 hours on unplanned purchases."
+        ]
+      },
+      {
+        "id": "holiday",
+        "title": "Step 4: Affordable, memorable holidays",
+        "content": [
+          "Book early, consider closer destinations or weekday travel, agree a daily budget, bring snacks, and choose lodging with a kitchen for big groups."
+        ]
+      },
+      {
+        "id": "january",
+        "title": "Step 5: Reserve for January bills",
+        "content": [
+          "List what falls due in January and February and set it aside first:"
+        ],
+        "bulletPoints": [
+          "December card and paylater bills.",
+          "Vehicle tax or annual fees.",
+          "School term costs.",
+          "Annual subscriptions and insurance.",
+          "January living costs if December pay arrives early."
+        ],
+        "tipBox": {
+          "title": "Watch early December paydays",
+          "text": "Early pay before the holidays means a longer gap to the next payday.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "bonus",
+        "title": "Managing year-end bonuses",
+        "content": [
+          "Decide before it arrives: some to debt or emergency savings, some to long-term goals, and a little to enjoy."
+        ]
+      },
+      {
+        "id": "track",
+        "title": "Track December with Kucing Atur Duit",
+        "content": [
+          "Create holiday, sale, and gift categories with budgets in **Kucing Atur Duit**; alerts warn as limits approach. Log small holiday spending immediately. Data stays private on your phone."
+        ]
+      },
+      {
+        "id": "reflect",
+        "title": "End the year with a money review",
+        "content": [
+          "Look at what worked, which categories overran, and next year's goals."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What is a reasonable holiday budget?",
+        "a": "Whatever you can pay from savings set aside, not from debt."
+      },
+      {
+        "q": "Are year-end sales always cheaper?",
+        "a": "Not always. Compare with normal prices and buy only what you need."
+      },
+      {
+        "q": "What if my bonus is uncertain?",
+        "a": "Budget only with money you actually have."
+      },
+      {
+        "q": "Which bills usually come in January?",
+        "a": "December card and paylater bills, annual taxes or fees, school costs, and renewals."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membaca-dan-menandai-ebook-pdf-di-hp-teknik-anotasi-agar-belajar-lebih-efektif",
+    "slugEn": "how-to-read-and-annotate-pdf-ebooks-on-your-phone-to-study-more-effectively",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus",
+      "paper-screen-protector"
+    ],
+    "publishedDate": "2026-11-24T09:45:00+07:00",
+    "title": "Cara Membaca dan Menandai E-book PDF di HP: Teknik Anotasi agar Belajar Lebih Efektif",
+    "metaTitle": "Teknik Anotasi PDF di HP agar Belajar Efektif",
+    "metaDescription": "Membaca modul dan jurnal PDF di HP sering membuat cepat lupa. Pelajari teknik membaca aktif, sistem warna sorotan, cara menulis catatan pinggir, dan mengubah anotasi menjadi bahan ulangan.",
+    "keywords": [
+      "cara belajar dari pdf",
+      "anotasi pdf di hp",
+      "teknik membaca aktif",
+      "menyorot teks pdf",
+      "belajar efektif mahasiswa"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Kenapa membaca di layar mudah terlupa",
+        "content": [
+          "Mahasiswa dan pelajar kini membaca sebagian besar materi dalam bentuk PDF: modul kuliah, jurnal, buku elektronik, dan slide dosen. Masalahnya, membaca di HP sering terasa seperti menggulir media sosial. Mata bergerak cepat, halaman berganti, dan beberapa menit kemudian isinya sudah hilang dari ingatan.",
+          "Penyebab utamanya adalah membaca pasif. Tanpa interaksi dengan teks, otak memperlakukan bacaan seperti informasi sambil lalu. Kabar baiknya, teknik membaca aktif yang biasa dipakai dengan buku kertas juga bisa diterapkan di PDF, bahkan dengan beberapa kelebihan."
+        ]
+      },
+      {
+        "id": "sebelum",
+        "title": "Sebelum membaca: tentukan tujuan",
+        "content": [
+          "Luangkan dua menit sebelum mulai membaca untuk melihat gambaran besar. Baca judul, daftar isi, subjudul, dan kesimpulan. Lihat gambar, tabel, dan grafik. Langkah ini memberi kerangka di kepala, sehingga detail yang dibaca kemudian punya tempat untuk menempel.",
+          "Tuliskan dua atau tiga pertanyaan yang ingin Anda jawab dari bacaan itu. Misalnya, \"Apa definisi konsep ini?\" atau \"Apa perbedaan dua teori yang dibahas?\" Membaca untuk mencari jawaban jauh lebih fokus daripada membaca dari awal sampai akhir tanpa arah."
+        ],
+        "tipBox": {
+          "title": "Pertanyaan dari dosen",
+          "text": "Jika ada soal latihan, kisi-kisi ujian, atau tugas terkait bacaan, baca itu dulu. Pertanyaan tersebut menunjukkan bagian mana yang paling penting.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "warna",
+        "title": "Sistem warna sorotan yang konsisten",
+        "content": [
+          "Menyorot terlalu banyak sama buruknya dengan tidak menyorot sama sekali. Jika satu halaman penuh warna kuning, sorotan kehilangan maknanya. Gunakan sistem warna yang konsisten dan batasi sorotan pada bagian yang benar-benar penting:"
+        ],
+        "bulletPoints": [
+          "Kuning: gagasan utama atau definisi penting.",
+          "Hijau: contoh dan bukti yang mendukung gagasan utama.",
+          "Biru: istilah atau konsep yang perlu dicari tahu lebih lanjut.",
+          "Merah atau merah muda: bagian yang membingungkan atau ingin ditanyakan ke dosen."
+        ]
+      },
+      {
+        "id": "catatan",
+        "title": "Catatan pinggir: tulis dengan kata-kata sendiri",
+        "content": [
+          "Sorotan saja tidak cukup. Bagian terpenting dari membaca aktif adalah menulis catatan dengan kata-kata sendiri. Di setiap akhir subbab, tambahkan catatan singkat yang merangkum isinya dalam satu atau dua kalimat.",
+          "Menulis ulang dengan bahasa sendiri memaksa otak memproses informasi, bukan sekadar mengenalinya. Jika Anda kesulitan merangkum sebuah bagian, itu tanda bagian tersebut belum benar-benar dipahami dan perlu dibaca ulang.",
+          "Catatan juga bisa berupa hubungan dengan materi lain, contoh dari pengalaman sendiri, atau pertanyaan kritis seperti \"Apakah ini berlaku juga untuk kasus di Indonesia?\""
+        ]
+      },
+      {
+        "id": "alat",
+        "title": "Alat yang membuat anotasi lebih nyaman",
+        "content": [
+          "Anotasi dengan ujung jari bisa terasa kurang presisi, terutama untuk menggaris bawahi kalimat panjang atau menulis catatan kecil. Stylus kapasitif membantu menyorot dan menulis dengan lebih rapi, dan pelindung layar bertekstur kertas memberi gesekan yang membuat tulisan tangan lebih terkontrol sekaligus mengurangi silau saat membaca lama.",
+          "Untuk membaca dokumen panjang, tablet memberi area baca yang lebih luas. Namun HP pun cukup jika Anda membaca dalam mode lanskap dan memperbesar halaman sesuai kebutuhan."
+        ]
+      },
+      {
+        "id": "aplikasi",
+        "title": "Menandai PDF dengan Offline PDF Editor & Sign",
+        "content": [
+          "**Offline PDF Editor & Sign** memungkinkan Anda menyorot teks, menggaris bawahi, dan menambahkan catatan langsung pada file PDF di HP. Semua proses berjalan di perangkat tanpa koneksi internet, sehingga Anda tetap bisa belajar di kereta, di perpustakaan dengan Wi-Fi lemah, atau saat kuota menipis.",
+          "Fitur menggabungkan dan memisahkan halaman juga berguna untuk belajar. Misalnya, ambil hanya bab yang akan diujikan dari buku elektronik yang tebal, lalu gabungkan dengan slide dosen menjadi satu file ringkas untuk persiapan ujian. Kompres ukuran file jika ingin berbagi dengan teman kelompok lewat aplikasi pesan."
+        ],
+        "tipBox": {
+          "title": "Simpan versi asli",
+          "text": "Simpan salinan PDF asli tanpa anotasi. Versi bersih berguna jika ingin membaca ulang dengan sudut pandang baru atau membagikannya ke orang lain.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "ulang",
+        "title": "Mengubah anotasi menjadi bahan ulangan",
+        "content": [
+          "Anotasi baru benar-benar berguna jika dipakai untuk mengulang. Setelah selesai membaca, kumpulkan semua catatan dan sorotan kuning menjadi ringkasan satu halaman. Ringkasan ini menjadi bahan belajar utama menjelang ujian.",
+          "Ubah juga beberapa catatan menjadi pertanyaan. Misalnya, sorotan definisi \"inflasi adalah...\" diubah menjadi pertanyaan \"Apa definisi inflasi?\" Lalu uji diri sendiri tanpa melihat jawabannya. Teknik menguji diri seperti ini, yang sering disebut latihan mengingat, banyak dianjurkan karena membantu informasi bertahan lebih lama dibandingkan membaca ulang."
+        ]
+      },
+      {
+        "id": "jadwal",
+        "title": "Jadwal mengulang yang efektif",
+        "content": [
+          "Mengulang dalam jarak waktu tertentu lebih efektif daripada belajar semalam suntuk sebelum ujian. Coba jadwal sederhana: ulangi ringkasan sehari setelah membaca, lalu tiga hari kemudian, lalu seminggu kemudian. Setiap pengulangan cukup 10 sampai 15 menit, tapi hasilnya jauh lebih melekat."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Lebih baik belajar dari PDF atau buku cetak?",
+        "a": "Keduanya bisa efektif jika dibaca secara aktif. PDF unggul untuk dibawa ke mana-mana dan dicari kata kuncinya."
+      },
+      {
+        "q": "Berapa banyak teks yang sebaiknya disorot?",
+        "a": "Secukupnya, umumnya tidak lebih dari sebagian kecil halaman. Fokus pada gagasan utama dan definisi penting."
+      },
+      {
+        "q": "Apakah anotasi di PDF bisa hilang?",
+        "a": "Anotasi tersimpan di file PDF. Simpan cadangan file secara berkala agar tidak hilang jika HP bermasalah."
+      },
+      {
+        "q": "Perlu stylus untuk anotasi?",
+        "a": "Tidak wajib, tapi stylus membuat sorotan dan tulisan lebih presisi dan nyaman untuk sesi belajar panjang."
+      }
+    ],
+    "titleEn": "How to Read and Annotate PDF E-books on Your Phone to Study More Effectively",
+    "metaTitleEn": "Annotate PDFs on Your Phone to Study Better",
+    "metaDescriptionEn": "Reading course PDFs on a phone often leads to forgetting. Learn active reading, a highlight colour system, margin notes in your own words, and turning annotations into revision material.",
+    "keywordsEn": [
+      "study from pdf",
+      "annotate pdf on phone",
+      "active reading",
+      "highlight pdf text",
+      "effective studying"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers why screen reading fades, previewing with questions, a four-colour highlight system, own-words margin notes, stylus and paper-feel protectors, annotating offline in Offline PDF Editor & Sign, turning notes into self-tests, and spaced review.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "Why screen reading fades fast",
+        "content": [
+          "Phone reading often feels like scrolling. Passive reading is the culprit; active reading techniques work on PDFs too."
+        ]
+      },
+      {
+        "id": "before",
+        "title": "Before reading: set a purpose",
+        "content": [
+          "Spend two minutes on headings, figures, and conclusions, then write two or three questions to answer."
+        ],
+        "tipBox": {
+          "title": "Use lecturer questions",
+          "text": "Read practice questions or exam outlines first to spot what matters.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "colours",
+        "title": "A consistent highlight colour system",
+        "content": [
+          "Highlight sparingly with fixed meanings:"
+        ],
+        "bulletPoints": [
+          "Yellow: main ideas and key definitions.",
+          "Green: supporting examples and evidence.",
+          "Blue: terms to look up.",
+          "Red or pink: confusing parts to ask about."
+        ]
+      },
+      {
+        "id": "notes",
+        "title": "Margin notes in your own words",
+        "content": [
+          "Summarise each subsection in one or two sentences. If you cannot, reread. Add links to other material, personal examples, or critical questions."
+        ]
+      },
+      {
+        "id": "tools",
+        "title": "Tools that make annotation comfortable",
+        "content": [
+          "A capacitive stylus improves precision and a paper-texture protector adds control and cuts glare. Tablets give more space, but phones in landscape work too."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Annotating with Offline PDF Editor & Sign",
+        "content": [
+          "**Offline PDF Editor & Sign** lets you highlight, underline, and add notes on your phone without internet. Extract exam chapters and merge them with slides into a compact study file, and compress it to share with your group."
+        ],
+        "tipBox": {
+          "title": "Keep the original",
+          "text": "Save a clean copy without annotations for fresh rereading or sharing.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "review",
+        "title": "Turning annotations into revision",
+        "content": [
+          "Collect notes and yellow highlights into a one-page summary, then turn notes into questions and test yourself. Retrieval practice beats rereading."
+        ]
+      },
+      {
+        "id": "schedule",
+        "title": "An effective review schedule",
+        "content": [
+          "Review a day later, three days later, and a week later for 10 to 15 minutes each."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "PDF or printed books?",
+        "a": "Both work when read actively; PDFs are portable and searchable."
+      },
+      {
+        "q": "How much should I highlight?",
+        "a": "Only a small part of each page: main ideas and key definitions."
+      },
+      {
+        "q": "Can PDF annotations be lost?",
+        "a": "They are saved in the file; back up regularly."
+      },
+      {
+        "q": "Do I need a stylus?",
+        "a": "Not required, but it makes highlighting and writing more precise."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membuat-podcast-dari-hp-untuk-pemula-konsep-rekaman-dan-publikasi",
+    "slugEn": "how-to-start-a-podcast-from-your-phone-concept-recording-and-publishing",
+    "targetAppSlug": "soundfx-studio",
+    "category": "productivity",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "gaming-tws"
+    ],
+    "publishedDate": "2026-11-28T09:45:00+07:00",
+    "title": "Cara Membuat Podcast dari HP untuk Pemula: Konsep, Rekaman, Jingle, dan Publikasi",
+    "metaTitle": "Cara Membuat Podcast dari HP untuk Pemula",
+    "metaDescription": "Ingin punya podcast tapi tidak punya studio? Pelajari cara menentukan konsep dan format, menyiapkan episode, merekam dan menyunting dari HP, membuat jingle pembuka, dan mempublikasikannya ke platform podcast.",
+    "keywords": [
+      "cara membuat podcast di hp",
+      "podcast untuk pemula",
+      "rekam podcast android",
+      "jingle podcast",
+      "tips podcast indonesia"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Podcast: media yang bisa dimulai dari HP",
+        "content": [
+          "Podcast menjadi salah satu cara populer untuk berbagi cerita, pengetahuan, dan opini. Pendengar menikmatinya sambil berkendara, berolahraga, atau mengerjakan pekerjaan rumah. Bagi pembuatnya, podcast bisa menjadi sarana membangun reputasi, mempromosikan usaha, atau sekadar menyalurkan hobi.",
+          "Banyak orang menunda membuat podcast karena merasa butuh mikrofon mahal dan studio kedap suara. Padahal, podcast yang bagus lebih ditentukan oleh isi dan konsistensi daripada peralatan. HP yang Anda miliki sudah cukup untuk memulai."
+        ]
+      },
+      {
+        "id": "konsep",
+        "title": "Menentukan konsep dan pendengar",
+        "content": [
+          "Sebelum merekam, jawab tiga pertanyaan dasar: tentang apa podcast ini, untuk siapa, dan kenapa orang perlu mendengarkannya. Topik yang terlalu luas seperti \"kehidupan\" sulit menarik pendengar setia. Topik yang lebih spesifik, misalnya \"cerita perjuangan UMKM di kota kecil\" atau \"tips belajar untuk mahasiswa rantau\", lebih mudah menemukan pendengarnya.",
+          "Pilih topik yang Anda sukai dan kuasai. Podcast membutuhkan puluhan episode untuk tumbuh, jadi topik yang membuat Anda bersemangat akan membantu tetap konsisten."
+        ],
+        "tipBox": {
+          "title": "Uji 10 judul episode",
+          "text": "Sebelum memulai, tulis 10 ide judul episode. Jika sulit mendapatkan 10 ide, mungkin topiknya terlalu sempit atau kurang Anda kuasai.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "format",
+        "title": "Memilih format podcast",
+        "content": [
+          "Format menentukan cara Anda menyiapkan dan merekam setiap episode. Beberapa format yang umum:"
+        ],
+        "bulletPoints": [
+          "Monolog: satu pembawa acara berbicara tentang satu topik. Paling mudah diatur, tapi membutuhkan persiapan materi yang kuat.",
+          "Dua pembawa acara: dua orang berdiskusi santai. Terasa hidup dan alami, cocok untuk topik ringan.",
+          "Wawancara: mengundang narasumber berbeda setiap episode. Memberi variasi dan memperluas jangkauan lewat jaringan narasumber.",
+          "Cerita atau narasi: menyusun cerita dengan naskah, musik, dan efek suara. Paling menarik tapi paling banyak membutuhkan waktu produksi."
+        ]
+      },
+      {
+        "id": "persiapan",
+        "title": "Menyiapkan episode",
+        "content": [
+          "Podcast yang terdengar santai biasanya justru disiapkan dengan baik. Buat kerangka sederhana untuk setiap episode: pembuka, poin-poin utama, dan penutup. Tidak perlu naskah kata per kata, kecuali untuk format cerita.",
+          "Tentukan durasi yang konsisten. Banyak podcast pemula memilih 15 sampai 30 menit per episode, cukup panjang untuk membahas satu topik dengan baik tanpa membuat pendengar bosan. Tetapkan juga jadwal rilis, misalnya seminggu sekali, dan patuhi jadwal itu."
+        ]
+      },
+      {
+        "id": "rekam",
+        "title": "Merekam dengan HP",
+        "content": [
+          "Pilih ruangan yang tenang dan tidak bergema, misalnya kamar dengan kasur, gorden, dan lemari pakaian. Letakkan HP di atas tumpukan buku atau tripod kecil dengan mikrofon mengarah ke mulut, berjarak sekitar 15 sampai 25 sentimeter.",
+          "Untuk format dua orang, cara paling sederhana adalah masing-masing merekam di HP sendiri secara bersamaan, lalu suaranya digabungkan saat penyuntingan. Mulai rekaman dengan tepukan tangan bersama sebagai penanda untuk menyelaraskan dua rekaman.",
+          "Gunakan earphone untuk memantau hasil rekaman. Rekam beberapa detik hening di awal untuk membantu menghilangkan dengung saat menyunting."
+        ]
+      },
+      {
+        "id": "jingle",
+        "title": "Membuat jingle dan efek suara khas",
+        "content": [
+          "Jingle pembuka dan penutup membuat podcast terasa profesional dan mudah dikenali. Jingle tidak harus berupa lagu. Bisa berupa potongan musik pendek, suara khas, atau kalimat pembuka yang diolah dengan efek.",
+          "**SoundFX Studio** membantu membuat elemen suara khas ini dari HP. Rekam kalimat pembuka seperti nama podcast, lalu beri efek tertentu, misalnya sentuhan reverb untuk kesan megah atau suara robot untuk podcast teknologi. Lebih dari 100 efek suara siap pakai bisa dipakai untuk transisi antarsegmen, dan mode manual dengan equalizer membantu merapikan suara narasi agar lebih jernih.",
+          "Semua pemrosesan dilakukan di HP tanpa unggah ke server, jadi Anda bisa bereksperimen dengan bebas. Pastikan musik latar yang dipakai bebas royalti atau memiliki lisensi yang jelas."
+        ],
+        "tipBox": {
+          "title": "Konsisten adalah identitas",
+          "text": "Gunakan jingle dan efek transisi yang sama di setiap episode. Pengulangan inilah yang membuat pendengar langsung mengenali podcast Anda dalam beberapa detik pertama.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "sunting",
+        "title": "Menyunting dengan sederhana",
+        "content": [
+          "Penyuntingan untuk pemula tidak perlu rumit. Fokus pada tiga hal: potong bagian yang salah atau terlalu panjang, samakan volume antarbagian dan antarpembicara, lalu tambahkan jingle di awal dan akhir.",
+          "Jangan terlalu banyak memotong jeda alami dan tawa, karena hal-hal ini membuat podcast terdengar manusiawi. Simpan hasil akhir dalam format yang umum diterima platform podcast, seperti MP3."
+        ]
+      },
+      {
+        "id": "publikasi",
+        "title": "Mempublikasikan podcast",
+        "content": [
+          "Untuk tampil di aplikasi podcast populer, podcast perlu diunggah ke layanan hosting podcast yang menghasilkan RSS feed. Feed ini kemudian didaftarkan ke direktori podcast seperti Spotify, Apple Podcasts, dan aplikasi lainnya. Beberapa layanan hosting menyediakan paket gratis untuk pemula.",
+          "Siapkan juga cover podcast berbentuk persegi dengan judul yang terbaca jelas meskipun ditampilkan kecil, deskripsi podcast yang menjelaskan isi dan target pendengar, serta judul episode yang menarik dan jelas."
+        ],
+        "bulletPoints": [
+          "Cover persegi dengan teks besar dan mudah dibaca.",
+          "Deskripsi singkat yang menyebut topik dan pendengar sasaran.",
+          "Judul episode yang spesifik, bukan hanya nomor episode.",
+          "Jadwal rilis yang konsisten.",
+          "Bagikan potongan pendek episode ke media sosial."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah podcast bisa direkam hanya dengan HP?",
+        "a": "Bisa. Mikrofon HP cukup untuk memulai jika ruangannya tenang dan tidak bergema."
+      },
+      {
+        "q": "Berapa durasi ideal podcast untuk pemula?",
+        "a": "Sekitar 15 sampai 30 menit per episode sering menjadi pilihan yang baik untuk memulai."
+      },
+      {
+        "q": "Bagaimana agar podcast tampil di Spotify?",
+        "a": "Unggah ke layanan hosting podcast yang menghasilkan RSS feed, lalu daftarkan feed tersebut ke Spotify dan direktori lain."
+      },
+      {
+        "q": "Bolehkah memakai lagu populer sebagai jingle?",
+        "a": "Sebaiknya tidak tanpa izin. Gunakan musik bebas royalti atau buat jingle sendiri."
+      }
+    ],
+    "titleEn": "How to Start a Podcast from Your Phone: Concept, Recording, Jingles, and Publishing",
+    "metaTitleEn": "Start a Podcast from Your Phone: Beginner Guide",
+    "metaDescriptionEn": "Want a podcast but have no studio? Learn to define your concept and format, prepare episodes, record and edit on a phone, make an intro jingle, and publish to podcast platforms.",
+    "keywordsEn": [
+      "start a podcast on phone",
+      "podcast for beginners",
+      "record podcast android",
+      "podcast jingle",
+      "podcast tips"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "Covers choosing a focused topic and audience, podcast formats, episode outlines and schedules, recording with phones, making jingles and transitions in SoundFX Studio, simple editing, and publishing via an RSS host.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "A medium you can start on a phone",
+        "content": [
+          "Good podcasts depend on content and consistency more than gear. Your phone is enough to start."
+        ]
+      },
+      {
+        "id": "concept",
+        "title": "Concept and audience",
+        "content": [
+          "Decide what it is about, who it is for, and why they should listen. Specific topics find loyal listeners more easily, and passion helps you stay consistent."
+        ],
+        "tipBox": {
+          "title": "Test with 10 titles",
+          "text": "If you cannot list 10 episode ideas, the topic may be too narrow.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "format",
+        "title": "Choosing a format",
+        "content": [
+          "Common formats:"
+        ],
+        "bulletPoints": [
+          "Solo monologue.",
+          "Two co-hosts.",
+          "Interviews.",
+          "Narrative storytelling with music and effects."
+        ]
+      },
+      {
+        "id": "prep",
+        "title": "Preparing episodes",
+        "content": [
+          "Outline an opening, main points, and close. Many beginners choose 15 to 30 minutes and a weekly schedule."
+        ]
+      },
+      {
+        "id": "record",
+        "title": "Recording with a phone",
+        "content": [
+          "Use a quiet, soft room, prop the phone 15 to 25 cm away, and monitor with earphones. For two hosts, each records on their own phone and you sync with a clap."
+        ]
+      },
+      {
+        "id": "jingle",
+        "title": "Making a signature jingle",
+        "content": [
+          "Record your show name and shape it in **SoundFX Studio** with reverb or robot effects, use its 100+ effects for transitions, and clean narration with the manual EQ, all offline. Use royalty-free music."
+        ],
+        "tipBox": {
+          "title": "Consistency is identity",
+          "text": "Use the same jingle and transitions every episode.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "edit",
+        "title": "Simple editing",
+        "content": [
+          "Cut mistakes, balance volumes, add the jingle, keep natural pauses and laughter, and export MP3."
+        ]
+      },
+      {
+        "id": "publish",
+        "title": "Publishing",
+        "content": [
+          "Upload to a podcast host that generates an RSS feed, then submit it to Spotify, Apple Podcasts, and other directories."
+        ],
+        "bulletPoints": [
+          "Square cover with large readable text.",
+          "A short description naming topic and audience.",
+          "Specific episode titles.",
+          "A consistent schedule.",
+          "Share short clips on social media."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can I record a podcast with only a phone?",
+        "a": "Yes, in a quiet, non-echoey room."
+      },
+      {
+        "q": "How long should beginner episodes be?",
+        "a": "About 15 to 30 minutes is a good start."
+      },
+      {
+        "q": "How do I get on Spotify?",
+        "a": "Use a podcast host that creates an RSS feed and submit it."
+      },
+      {
+        "q": "Can I use popular songs as a jingle?",
+        "a": "Not without permission. Use royalty-free music or make your own."
+      }
+    ],
+    "coverImage": "/images/apps/soundfx-studio/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membuat-anggaran-belanja-dapur-mingguan-agar-tidak-boros",
+    "slugEn": "how-to-set-a-weekly-grocery-budget-and-stop-overspending",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-11-30T09:45:00+07:00",
+    "title": "Cara Membuat Anggaran Belanja Dapur Mingguan agar Tidak Boros: Rencana Menu dan Daftar Belanja",
+    "metaTitle": "Anggaran Belanja Dapur Mingguan agar Tak Boros",
+    "metaDescription": "Belanja dapur sering menjadi pos pengeluaran yang paling sulit dikendalikan. Pelajari cara menghitung anggaran mingguan, menyusun rencana menu, membuat daftar belanja, dan mengurangi makanan terbuang.",
+    "keywords": [
+      "anggaran belanja dapur",
+      "belanja mingguan hemat",
+      "rencana menu mingguan",
+      "daftar belanja bulanan",
+      "tips hemat belanja keluarga"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Pos pengeluaran yang diam-diam membengkak",
+        "content": [
+          "Jika ditanya berapa pengeluaran untuk belanja dapur sebulan, banyak orang hanya bisa menebak. Belanja ke pasar, warung sayur yang lewat depan rumah, minimarket, dan pesan antar makanan bercampur menjadi satu. Karena terjadi sedikit demi sedikit, totalnya jarang terasa sampai akhir bulan.",
+          "Padahal belanja dapur adalah salah satu pos yang paling mudah dihemat tanpa mengurangi kualitas hidup. Kuncinya ada pada perencanaan: tahu apa yang akan dimasak, membeli sesuai kebutuhan, dan memakai semua yang sudah dibeli."
+        ]
+      },
+      {
+        "id": "hitung",
+        "title": "Langkah 1: Hitung pengeluaran dapur yang sebenarnya",
+        "content": [
+          "Selama dua minggu, catat setiap pengeluaran untuk makanan dan kebutuhan dapur, termasuk jajan, galon, gas, dan pesan antar. Jangan mengubah kebiasaan dulu, cukup catat apa adanya.",
+          "Setelah dua minggu, kelompokkan pengeluaran: bahan masakan, camilan, minuman, makan di luar, dan pesan antar. Banyak keluarga terkejut saat melihat porsi pesan antar dan jajan ternyata lebih besar dari bahan masakan."
+        ],
+        "tipBox": {
+          "title": "Mulai dari data, bukan tebakan",
+          "text": "Anggaran yang dibuat dari data nyata jauh lebih realistis daripada angka yang ditentukan asal-asalan. Dua minggu pencatatan sudah memberi gambaran yang cukup.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "anggaran",
+        "title": "Langkah 2: Tetapkan anggaran mingguan",
+        "content": [
+          "Anggaran mingguan lebih mudah dikendalikan daripada anggaran bulanan. Di minggu pertama setelah gajian, uang terasa banyak dan belanja cenderung berlebihan. Dengan anggaran mingguan, setiap minggu punya batas yang sama.",
+          "Ambil total pengeluaran dapur dari pencatatan, kalikan menjadi perkiraan sebulan, lalu tentukan target pengurangan yang realistis, misalnya 10 sampai 15 persen. Bagi angka itu menjadi empat untuk mendapatkan anggaran mingguan. Sisihkan sedikit untuk kebutuhan bulanan seperti beras, minyak, dan gas yang lebih hemat dibeli sekaligus."
+        ]
+      },
+      {
+        "id": "menu",
+        "title": "Langkah 3: Susun rencana menu mingguan",
+        "content": [
+          "Rencana menu adalah alat penghemat paling efektif. Luangkan 15 menit di akhir pekan untuk menentukan menu makan selama seminggu. Tidak perlu rumit, cukup menu utama untuk makan siang dan malam.",
+          "Beberapa prinsip yang membantu menghemat:"
+        ],
+        "bulletPoints": [
+          "Pakai bahan yang sama untuk beberapa menu. Satu ikat bayam bisa menjadi sayur bening dan campuran telur dadar.",
+          "Masak dalam porsi lebih untuk dua kali makan, misalnya membuat rendang atau semur untuk dua hari.",
+          "Jadwalkan menu dengan bahan mudah layu di awal minggu, dan bahan tahan lama di akhir minggu.",
+          "Sisipkan satu hari \"menu sisa\" untuk menghabiskan bahan yang tersisa di kulkas.",
+          "Manfaatkan bahan musiman yang biasanya lebih murah dan segar."
+        ]
+      },
+      {
+        "id": "daftar",
+        "title": "Langkah 4: Buat daftar belanja dan patuhi",
+        "content": [
+          "Dari rencana menu, buat daftar belanja yang dikelompokkan menurut tempat: pasar, warung, atau supermarket. Sebelum berangkat, periksa kulkas dan lemari dapur agar tidak membeli barang yang masih ada.",
+          "Patuhi daftar itu saat berbelanja. Hindari belanja saat lapar, karena perut kosong membuat kita membeli lebih banyak camilan. Bawa uang tunai sesuai anggaran jika Anda mudah tergoda, atau pantau total belanja di HP saat berbelanja."
+        ],
+        "tipBox": {
+          "title": "Waspadai promo beli banyak",
+          "text": "Promo beli dua gratis satu hanya hemat jika barangnya memang akan terpakai sebelum kedaluwarsa. Jika tidak, promo justru membuat uang dan makanan terbuang.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "simpan",
+        "title": "Langkah 5: Simpan dengan benar agar tidak terbuang",
+        "content": [
+          "Makanan yang terbuang sama dengan uang yang dibuang. Cara menyimpan yang tepat membuat bahan lebih awet:"
+        ],
+        "bulletPoints": [
+          "Cuci dan keringkan sayuran sebelum disimpan di wadah tertutup yang dilapisi tisu dapur.",
+          "Bagi daging dan ikan menjadi porsi sekali masak sebelum dibekukan.",
+          "Terapkan prinsip yang pertama masuk, pertama dipakai: letakkan bahan lama di depan.",
+          "Beri label tanggal pada wadah makanan sisa di kulkas.",
+          "Olah bahan yang hampir layu menjadi masakan, misalnya tomis atau sup."
+        ]
+      },
+      {
+        "id": "pesan-antar",
+        "title": "Mengendalikan pesan antar dan jajan",
+        "content": [
+          "Pesan antar sering menjadi pos yang paling cepat menggerus anggaran dapur, karena ada biaya layanan dan ongkos kirim di luar harga makanan. Bukan berarti harus dilarang sama sekali. Tetapkan saja jatah yang jelas, misalnya dua kali seminggu, dan masukkan ke anggaran.",
+          "Siapkan juga makanan cadangan yang cepat dimasak, seperti telur, mi, atau lauk beku buatan sendiri, untuk hari-hari ketika terlalu lelah memasak. Cadangan ini mencegah keputusan pesan antar yang impulsif."
+        ]
+      },
+      {
+        "id": "pantau",
+        "title": "Pantau anggaran dengan Kucing Atur Duit",
+        "content": [
+          "Anggaran mingguan perlu dipantau agar tetap terkendali. Di **Kucing Atur Duit**, buat kategori seperti \"Belanja Dapur\", \"Jajan\", dan \"Pesan Antar\", lalu tetapkan anggaran bulanan untuk masing-masing. Catat setiap belanja langsung setelah membayar menggunakan keyboard kalkulator bawaan yang cepat.",
+          "Grafik kategori menunjukkan pos mana yang paling besar dan apakah perubahan kebiasaan Anda mulai berdampak. Peringatan anggaran memberi tanda saat pos mendekati batas, sehingga Anda bisa menyesuaikan menu di sisa minggu itu. Maskot kucing yang bereaksi terhadap pengeluaran membuat kebiasaan mencatat terasa lebih menyenangkan, dan data tersimpan privat di HP Anda."
+        ]
+      },
+      {
+        "id": "evaluasi",
+        "title": "Evaluasi dan sesuaikan",
+        "content": [
+          "Di akhir setiap bulan, bandingkan pengeluaran dapur dengan bulan sebelumnya. Jika target tercapai, pertahankan kebiasaan yang berhasil. Jika belum, cari penyebabnya: apakah rencana menu sering dilanggar, atau pesan antar masih terlalu sering? Perubahan kecil yang konsisten lebih bertahan daripada penghematan drastis yang hanya bertahan seminggu."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa anggaran belanja dapur yang ideal untuk keluarga?",
+        "a": "Sangat bergantung pada jumlah anggota keluarga, kota, dan kebiasaan makan. Mulailah dari data pengeluaran Anda sendiri lalu kurangi bertahap."
+      },
+      {
+        "q": "Lebih hemat belanja harian atau mingguan?",
+        "a": "Belanja mingguan dengan rencana menu umumnya lebih hemat karena mengurangi belanja impulsif dan perjalanan berulang."
+      },
+      {
+        "q": "Bagaimana jika rencana menu sering berubah?",
+        "a": "Tidak masalah. Rencana menu adalah panduan, bukan aturan kaku. Tukar menu antarhari dengan bahan yang sama."
+      },
+      {
+        "q": "Apakah pesan antar harus dihentikan?",
+        "a": "Tidak harus. Tetapkan jatah yang jelas dan masukkan ke anggaran agar tetap terkendali."
+      }
+    ],
+    "titleEn": "How to Set a Weekly Grocery Budget and Stop Overspending: Meal Plans and Shopping Lists",
+    "metaTitleEn": "Weekly Grocery Budget: Meal Plans and Lists",
+    "metaDescriptionEn": "Groceries are one of the hardest categories to control. Learn to calculate a weekly budget, plan menus, write a shopping list, and cut food waste.",
+    "keywordsEn": [
+      "weekly grocery budget",
+      "save on groceries",
+      "weekly meal plan",
+      "shopping list",
+      "family food budget tips"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers two weeks of tracking, setting a weekly budget, meal planning principles, sticking to a list, storing food to reduce waste, limiting delivery, monitoring in Kucing Atur Duit, and monthly reviews.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "The category that quietly balloons",
+        "content": [
+          "Markets, street vendors, minimarkets, and delivery blur together. Planning what to cook, buying only what you need, and using everything you buy keeps costs down."
+        ]
+      },
+      {
+        "id": "track",
+        "title": "Step 1: Find your real spending",
+        "content": [
+          "Log all food spending for two weeks, then group it. Many families find delivery and snacks exceed ingredients."
+        ],
+        "tipBox": {
+          "title": "Start from data",
+          "text": "Budgets built on real data are far more realistic.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "budget",
+        "title": "Step 2: Set a weekly budget",
+        "content": [
+          "Weekly limits prevent post-payday splurges. Estimate monthly spending, aim for a 10 to 15 percent cut, divide by four, and set aside a little for monthly staples."
+        ]
+      },
+      {
+        "id": "menu",
+        "title": "Step 3: Plan a weekly menu",
+        "content": [
+          "Spend 15 minutes at the weekend:"
+        ],
+        "bulletPoints": [
+          "Reuse ingredients across dishes.",
+          "Cook double portions.",
+          "Use perishables early in the week.",
+          "Schedule a leftovers day.",
+          "Buy seasonal produce."
+        ]
+      },
+      {
+        "id": "list",
+        "title": "Step 4: Write a list and stick to it",
+        "content": [
+          "Group by store, check the fridge first, avoid shopping hungry, and carry only your budget in cash if tempted."
+        ],
+        "tipBox": {
+          "title": "Beware bulk deals",
+          "text": "Buy-two-get-one only saves money if you use it before it expires.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "store",
+        "title": "Step 5: Store food properly",
+        "content": [
+          "Reduce waste:"
+        ],
+        "bulletPoints": [
+          "Dry vegetables and store in lined containers.",
+          "Portion meat and fish before freezing.",
+          "First in, first out.",
+          "Label leftovers with dates.",
+          "Cook up wilting produce."
+        ]
+      },
+      {
+        "id": "delivery",
+        "title": "Controlling delivery and snacks",
+        "content": [
+          "Set a clear delivery allowance, such as twice a week, and keep quick backup meals for tired days."
+        ]
+      },
+      {
+        "id": "monitor",
+        "title": "Monitor with Kucing Atur Duit",
+        "content": [
+          "Create grocery, snack, and delivery categories with budgets in **Kucing Atur Duit**, log purchases right away with the calculator keyboard, and use charts and alerts to adjust. Data stays private on your phone."
+        ]
+      },
+      {
+        "id": "review",
+        "title": "Review and adjust",
+        "content": [
+          "Compare monthly totals and find the cause when targets slip. Small consistent changes outlast drastic cuts."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What is an ideal family grocery budget?",
+        "a": "It depends on household size, city, and habits. Start from your own data and reduce gradually."
+      },
+      {
+        "q": "Daily or weekly shopping?",
+        "a": "Weekly with a meal plan is usually cheaper."
+      },
+      {
+        "q": "What if plans change often?",
+        "a": "Swap days using the same ingredients; plans are guides."
+      },
+      {
+        "q": "Must delivery stop entirely?",
+        "a": "No, set a budgeted allowance."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-menyusun-laporan-tugas-atau-skripsi-jadi-satu-pdf-rapi-dari-hp",
+    "slugEn": "how-to-compile-reports-and-theses-into-one-clean-pdf-on-your-phone",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus"
+    ],
+    "publishedDate": "2026-12-01T09:45:00+07:00",
+    "title": "Cara Menyusun Laporan Tugas atau Skripsi Jadi Satu PDF yang Rapi dari HP",
+    "metaTitle": "Susun Laporan & Skripsi Jadi Satu PDF di HP",
+    "metaDescription": "Laporan praktikum, makalah, dan skripsi sering terdiri dari banyak file: sampul, lembar pengesahan bertanda tangan, isi, dan lampiran. Pelajari urutan yang benar, cara menggabungkan, memeriksa, dan mengompres menjadi satu PDF siap kirim.",
+    "keywords": [
+      "menggabungkan file skripsi pdf",
+      "susun laporan pdf",
+      "upload skripsi pdf",
+      "lembar pengesahan pdf",
+      "kompres pdf skripsi"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Satu dokumen, banyak file",
+        "content": [
+          "Menjelang pengumpulan tugas akhir atau laporan, mahasiswa sering berhadapan dengan banyak file terpisah. Sampul dibuat di satu aplikasi, isi laporan di pengolah kata, lembar pengesahan dipindai setelah ditandatangani dosen, dan lampiran berupa tabel, foto, atau hasil cetak dari aplikasi lain.",
+          "Sistem pengumpulan kampus atau repositori perpustakaan biasanya meminta semuanya dalam satu file PDF, dengan urutan tertentu dan batas ukuran file. Jika urutannya salah, halaman terbalik, atau file terlalu besar, berkas bisa ditolak dan harus diunggah ulang di saat-saat genting."
+        ]
+      },
+      {
+        "id": "urutan",
+        "title": "Urutan umum laporan dan skripsi",
+        "content": [
+          "Setiap kampus punya pedoman penulisan sendiri, jadi selalu ikuti panduan resmi dari fakultas atau program studi Anda. Sebagai gambaran, susunan yang umum dipakai adalah:"
+        ],
+        "bulletPoints": [
+          "Halaman sampul.",
+          "Halaman judul.",
+          "Lembar pengesahan atau persetujuan pembimbing yang sudah ditandatangani.",
+          "Lembar pernyataan keaslian karya.",
+          "Kata pengantar, abstrak, dan daftar isi.",
+          "Daftar tabel, daftar gambar, dan daftar lampiran jika ada.",
+          "Bab-bab isi laporan.",
+          "Daftar pustaka.",
+          "Lampiran."
+        ],
+        "tipBox": {
+          "title": "Cek pedoman kampus",
+          "text": "Urutan, format penomoran, dan batas ukuran file bisa berbeda di setiap kampus. Unduh pedoman terbaru dan simpan di HP agar mudah dicek kapan saja.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "siapkan",
+        "title": "Menyiapkan setiap bagian",
+        "content": [
+          "Ekspor setiap bagian yang dibuat di aplikasi lain menjadi PDF terlebih dahulu. Untuk dokumen dari pengolah kata, gunakan fitur simpan atau ekspor sebagai PDF agar huruf dan tata letak tidak bergeser saat dibuka di perangkat lain.",
+          "Untuk lembar yang ditandatangani tangan, pindai dengan HP di tempat yang terang, pastikan lurus, dan seluruh tepi kertas terlihat. Ubah hasil pindaian menjadi PDF. Beri nama setiap file dengan nomor urut agar mudah disusun, misalnya \"01_Sampul\", \"02_Judul\", \"03_Pengesahan\", dan seterusnya."
+        ]
+      },
+      {
+        "id": "gabung",
+        "title": "Menggabungkan dengan Offline PDF Editor & Sign",
+        "content": [
+          "Setelah semua bagian siap, buka **Offline PDF Editor & Sign** dan gunakan fitur penggabungan untuk menyatukan file sesuai urutan. Jika ada halaman yang salah posisi atau terbalik, susun ulang atau putar halaman tersebut sebelum menyimpan.",
+          "Fitur pemisahan juga berguna. Misalnya, dosen hanya meminta Bab 4 untuk direvisi, Anda bisa mengambil halaman bab tersebut saja dan mengirimkannya tanpa harus membagikan seluruh dokumen. Jika pedoman mengizinkan tanda tangan digital untuk pernyataan keaslian, Anda juga bisa menandatanganinya langsung di PDF.",
+          "Semua proses berjalan di HP tanpa koneksi internet. Ini penting karena skripsi dan laporan penelitian sering berisi data yang belum dipublikasikan, sehingga lebih aman jika tidak diunggah ke layanan daring yang tidak jelas."
+        ]
+      },
+      {
+        "id": "periksa",
+        "title": "Memeriksa hasil gabungan",
+        "content": [
+          "Jangan langsung mengunggah. Buka file hasil gabungan dan periksa dari halaman pertama sampai terakhir:"
+        ],
+        "bulletPoints": [
+          "Urutan bagian sesuai pedoman.",
+          "Tidak ada halaman yang terbalik, terpotong, atau terlewat.",
+          "Tanda tangan dan cap pada lembar pengesahan terlihat jelas.",
+          "Nomor halaman di daftar isi cocok dengan nomor halaman sebenarnya.",
+          "Tabel dan gambar terbaca saat diperbesar.",
+          "Tautan atau rumus tidak berubah menjadi simbol aneh."
+        ],
+        "tipBox": {
+          "title": "Minta teman memeriksa",
+          "text": "Mata yang segar lebih mudah menemukan kesalahan. Minta teman membuka file di perangkatnya untuk memastikan tampilannya sama.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "kompres",
+        "title": "Mengompres agar sesuai batas unggah",
+        "content": [
+          "Skripsi dengan banyak foto atau hasil pindaian bisa berukuran puluhan megabita, sementara sistem unggah sering membatasi ukuran file. Kompres PDF secara bertahap, mulai dari tingkat ringan, lalu periksa apakah teks, tabel, dan gambar masih jelas.",
+          "Jika ukuran masih terlalu besar, cari penyebabnya. Biasanya foto beresolusi sangat tinggi di lampiran atau hasil pindaian berwarna yang sebenarnya cukup hitam putih. Perkecil resolusi file sumbernya sebelum digabungkan, lalu gabungkan ulang."
+        ]
+      },
+      {
+        "id": "keamanan",
+        "title": "Menjaga keamanan dan cadangan file",
+        "content": [
+          "Kehilangan file skripsi beberapa hari sebelum batas waktu adalah mimpi buruk. Simpan cadangan di setidaknya dua tempat berbeda, misalnya di HP dan di penyimpanan awan atau laptop. Simpan juga versi file sumber yang bisa diedit, bukan hanya PDF akhir.",
+          "Jika perlu mengirimkan draf ke pihak lain sebelum dipublikasikan, pertimbangkan mengunci PDF dengan kata sandi. Hapus metadata dokumen yang mungkin berisi nama penulis lama dari templat yang dipakai."
+        ]
+      },
+      {
+        "id": "akhir",
+        "title": "Checklist sebelum mengunggah",
+        "content": [
+          "Sebelum menekan tombol unggah, pastikan:"
+        ],
+        "bulletPoints": [
+          "File dalam format PDF dan bisa dibuka tanpa kata sandi, kecuali diminta lain.",
+          "Ukuran file di bawah batas yang ditentukan.",
+          "Nama file sesuai format yang diminta, misalnya NIM_Nama_Judul.",
+          "Semua lembar bertanda tangan sudah lengkap.",
+          "Cadangan file sudah tersimpan di tempat lain."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah bisa menggabungkan file skripsi hanya dengan HP?",
+        "a": "Bisa. Ekspor setiap bagian ke PDF, lalu gabungkan dan susun ulang dengan aplikasi editor PDF di HP."
+      },
+      {
+        "q": "Kenapa ukuran PDF skripsi saya sangat besar?",
+        "a": "Biasanya karena foto beresolusi tinggi atau hasil pindaian berwarna. Kompres PDF atau perkecil resolusi file sumber."
+      },
+      {
+        "q": "Apakah lembar pengesahan boleh ditandatangani digital?",
+        "a": "Tergantung aturan kampus. Banyak kampus masih meminta tanda tangan basah yang kemudian dipindai."
+      },
+      {
+        "q": "Bagaimana agar nomor halaman tidak berantakan?",
+        "a": "Atur nomor halaman di file sumber sebelum diekspor, lalu cocokkan dengan daftar isi setelah file digabungkan."
+      }
+    ],
+    "titleEn": "How to Compile Reports and Theses into One Clean PDF on Your Phone",
+    "metaTitleEn": "Compile a Thesis into One PDF on Your Phone",
+    "metaDescriptionEn": "Lab reports, papers, and theses often span many files: cover, signed approval page, body, and appendices. Learn the usual order and how to merge, check, and compress them into one ready-to-submit PDF.",
+    "keywordsEn": [
+      "merge thesis pdf",
+      "compile report pdf",
+      "upload thesis pdf",
+      "signed approval page pdf",
+      "compress thesis pdf"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers typical thesis order (always follow your campus guide), preparing each part as PDF, merging and reordering offline, a page-by-page check, compressing to upload limits, backups and protection, and a final checklist.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "One document, many files",
+        "content": [
+          "Covers, body text, scanned signed pages, and appendices come from different tools, while submission systems want one ordered PDF under a size limit."
+        ]
+      },
+      {
+        "id": "order",
+        "title": "Typical order",
+        "content": [
+          "Always follow your faculty's guide. A common order:"
+        ],
+        "bulletPoints": [
+          "Cover and title page.",
+          "Signed approval page.",
+          "Statement of originality.",
+          "Preface, abstract, table of contents.",
+          "Lists of tables, figures, appendices.",
+          "Chapters.",
+          "References.",
+          "Appendices."
+        ],
+        "tipBox": {
+          "title": "Check your campus guide",
+          "text": "Order, numbering, and size limits vary. Keep the latest guide on your phone.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "prepare",
+        "title": "Preparing each part",
+        "content": [
+          "Export each part to PDF so fonts and layout stay fixed. Scan signed pages straight and complete. Number file names in order, like \"01_Cover\"."
+        ]
+      },
+      {
+        "id": "merge",
+        "title": "Merging with Offline PDF Editor & Sign",
+        "content": [
+          "Merge files in order, reorder or rotate stray pages, and split out a single chapter for revisions. Sign digitally where allowed. Everything runs offline, which protects unpublished research data."
+        ]
+      },
+      {
+        "id": "check",
+        "title": "Checking the merged file",
+        "content": [
+          "Go page by page:"
+        ],
+        "bulletPoints": [
+          "Correct section order.",
+          "No upside-down, cropped, or missing pages.",
+          "Clear signatures and stamps.",
+          "Table of contents matches page numbers.",
+          "Tables and figures legible when zoomed.",
+          "Links and formulas intact."
+        ],
+        "tipBox": {
+          "title": "Ask a friend",
+          "text": "Fresh eyes on another device catch mistakes.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "compress",
+        "title": "Compressing to upload limits",
+        "content": [
+          "Compress gradually and check legibility. If still too large, shrink oversized photos or switch colour scans to black and white at the source, then re-merge."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security and backups",
+        "content": [
+          "Keep backups in two places, including editable sources. Password-protect drafts shared early and remove leftover template metadata."
+        ]
+      },
+      {
+        "id": "final",
+        "title": "Final checklist",
+        "content": [
+          "Before uploading:"
+        ],
+        "bulletPoints": [
+          "PDF opens without a password unless required.",
+          "Under the size limit.",
+          "File name in the requested format.",
+          "All signed pages included.",
+          "Backups saved elsewhere."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can I merge thesis files on a phone only?",
+        "a": "Yes. Export each part to PDF and merge in a PDF editor app."
+      },
+      {
+        "q": "Why is my thesis PDF so large?",
+        "a": "Usually high-resolution photos or colour scans. Compress or reduce source resolution."
+      },
+      {
+        "q": "Can the approval page be signed digitally?",
+        "a": "Depends on campus rules; many still require wet signatures scanned in."
+      },
+      {
+        "q": "How do I keep page numbers consistent?",
+        "a": "Set numbering in the source files and verify against the contents after merging."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membacakan-dongeng-dengan-suara-karakter-berbeda-dan-merekamnya-untuk-anak",
+    "slugEn": "how-to-read-stories-aloud-with-character-voices-and-record-them-for-kids",
+    "targetAppSlug": "soundfx-studio",
+    "category": "lifestyle",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet"
+    ],
+    "publishedDate": "2026-12-05T09:45:00+07:00",
+    "title": "Cara Membacakan Dongeng dengan Suara Karakter yang Berbeda, dan Merekamnya untuk Anak",
+    "metaTitle": "Dongeng dengan Suara Karakter & Cara Merekamnya",
+    "metaDescription": "Dongeng terasa lebih hidup dengan suara karakter yang berbeda. Pelajari teknik mengubah suara untuk setiap tokoh, mengatur tempo cerita, dan merekam dongeng di HP agar anak bisa mendengarnya kapan saja.",
+    "keywords": [
+      "cara mendongeng untuk anak",
+      "suara karakter dongeng",
+      "merekam dongeng anak",
+      "teknik bercerita",
+      "dongeng sebelum tidur"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa suara karakter membuat dongeng lebih hidup",
+        "content": [
+          "Anak-anak tidak hanya mendengar isi cerita, mereka juga merasakan suasana yang dibawakan pencerita. Saat kancil berbicara dengan suara licik yang cepat dan buaya dengan suara berat yang lambat, anak lebih mudah membedakan tokoh, mengikuti alur, dan membayangkan adegan.",
+          "Suara karakter juga membuat waktu mendongeng menjadi momen yang ditunggu. Anak sering meminta cerita yang sama berkali-kali hanya untuk mendengar suara tokoh favoritnya lagi. Kabar baiknya, Anda tidak perlu menjadi pengisi suara profesional. Beberapa teknik sederhana sudah cukup membuat perbedaan besar."
+        ]
+      },
+      {
+        "id": "teknik",
+        "title": "Empat cara mengubah suara tanpa alat",
+        "content": [
+          "Suara manusia bisa diubah lewat beberapa aspek. Kombinasikan aspek-aspek ini untuk menciptakan tokoh yang berbeda:"
+        ],
+        "bulletPoints": [
+          "Tinggi rendah nada: tokoh kecil seperti tikus atau burung dengan nada tinggi, tokoh besar seperti gajah atau raksasa dengan nada rendah.",
+          "Kecepatan bicara: tokoh yang gugup atau licik berbicara cepat, tokoh yang bijak atau mengantuk berbicara lambat.",
+          "Volume: tokoh yang galak berbicara keras, tokoh yang pemalu berbisik.",
+          "Gaya khas: tambahkan ciri seperti suara serak, tertawa khas, atau kata yang diulang-ulang."
+        ],
+        "tipBox": {
+          "title": "Konsisten untuk setiap tokoh",
+          "text": "Setelah memilih suara untuk satu tokoh, pertahankan sepanjang cerita. Anak akan mengenali tokoh dari suaranya, bahkan sebelum Anda menyebut namanya.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "narator",
+        "title": "Jangan lupakan suara narator",
+        "content": [
+          "Di antara dialog tokoh, ada bagian narasi yang menjelaskan apa yang terjadi. Gunakan suara Anda yang biasa untuk narator agar anak bisa membedakan kapan tokoh berbicara dan kapan cerita sedang diceritakan.",
+          "Atur tempo narasi sesuai suasana. Perlambat saat adegan menegangkan dan beri jeda sebelum kejadian penting. Percepat sedikit saat adegan kejar-kejaran. Pelankan suara menjelang akhir cerita sebelum tidur, untuk membantu anak menjadi tenang."
+        ]
+      },
+      {
+        "id": "cerita",
+        "title": "Memilih cerita yang cocok",
+        "content": [
+          "Pilih cerita dengan sedikit tokoh yang punya sifat jelas berbeda, terutama untuk anak kecil. Dongeng nusantara seperti kancil dan buaya, atau cerita fabel lain, sangat cocok karena tokohnya hewan dengan karakter yang mudah diperankan.",
+          "Untuk anak yang lebih besar, cerita dengan lebih banyak tokoh dan alur yang lebih panjang bisa menjadi tantangan seru. Anda juga bisa mengarang cerita sendiri dengan tokoh-tokoh dari kehidupan anak, seperti kucing tetangga atau mainan kesayangannya."
+        ]
+      },
+      {
+        "id": "interaktif",
+        "title": "Libatkan anak dalam cerita",
+        "content": [
+          "Mendongeng tidak harus satu arah. Ajak anak menirukan suara tokoh, menebak apa yang akan terjadi, atau mengisi bagian cerita yang sudah dihafalnya. Beri anak peran sebagai salah satu tokoh dan biarkan ia memilih suaranya sendiri.",
+          "Keterlibatan seperti ini melatih kemampuan bahasa, ekspresi, dan kepercayaan diri anak. Banyak anak yang awalnya malu berbicara menjadi lebih ekspresif setelah terbiasa memerankan tokoh dalam dongeng."
+        ]
+      },
+      {
+        "id": "rekam",
+        "title": "Merekam dongeng di HP",
+        "content": [
+          "Ada saat ketika orang tua tidak bisa mendongeng secara langsung, misalnya saat bekerja di luar kota atau lembur. Rekaman dongeng dengan suara orang tua sendiri bisa menjadi pengganti yang menghibur, jauh lebih personal daripada rekaman orang lain.",
+          "Rekam di ruangan yang tenang dengan banyak benda lembut seperti kasur dan gorden agar suara tidak bergema. Letakkan HP sekitar satu jengkal dari mulut dan rekam beberapa detik hening di awal. Bacakan cerita dengan semangat yang sama seperti saat anak ada di depan Anda."
+        ]
+      },
+      {
+        "id": "olah",
+        "title": "Menambah efek suara dengan SoundFX Studio",
+        "content": [
+          "**SoundFX Studio** bisa membuat rekaman dongeng terasa lebih ajaib. Gunakan efek perubahan nada untuk memperkuat suara tokoh, misalnya menaikkan nada untuk suara peri kecil atau menurunkan nada untuk suara raksasa. Sedikit reverb bisa memberi kesan tokoh berbicara di dalam gua atau istana.",
+          "Lebih dari 100 efek suara siap pakai juga bisa dipakai untuk menambah suasana. Mode manual dengan pengaturan pitch dan tempo terpisah memberi kendali lebih, sehingga suara tokoh tetap jelas meskipun diubah. Semua pemrosesan berjalan di HP tanpa koneksi internet, dan rekaman suara keluarga Anda tidak diunggah ke mana pun."
+        ],
+        "tipBox": {
+          "title": "Jangan berlebihan",
+          "text": "Efek suara sebaiknya memperkuat cerita, bukan menutupinya. Pastikan setiap kata tetap jelas terdengar oleh anak.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "putar",
+        "title": "Memutar rekaman dongeng",
+        "content": [
+          "Simpan rekaman dongeng dalam satu folder di HP atau tablet anak agar mudah diputar. Gunakan speaker dengan volume yang nyaman, dan matikan layar saat memutar dongeng sebelum tidur agar anak fokus mendengarkan dan tidak terganggu cahaya layar.",
+          "Rekaman dongeng juga bisa menjadi hadiah yang berharga untuk kakek dan nenek, atau kenang-kenangan keluarga yang bisa didengarkan kembali bertahun-tahun kemudian."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Saya tidak percaya diri mengubah suara. Bagaimana memulainya?",
+        "a": "Mulailah dengan satu perbedaan sederhana, misalnya nada tinggi untuk tokoh kecil dan nada rendah untuk tokoh besar. Anak biasanya sangat menikmati, bahkan jika tidak sempurna."
+      },
+      {
+        "q": "Berapa lama dongeng yang ideal untuk balita?",
+        "a": "Sekitar 5 sampai 10 menit biasanya cukup untuk balita. Anak yang lebih besar bisa menikmati cerita yang lebih panjang."
+      },
+      {
+        "q": "Apakah rekaman dongeng bisa menggantikan mendongeng langsung?",
+        "a": "Rekaman bisa menjadi pengganti sesekali, tapi mendongeng langsung tetap memberi kedekatan dan interaksi yang lebih besar."
+      },
+      {
+        "q": "Perlu efek suara untuk mendongeng?",
+        "a": "Tidak wajib. Suara Anda sendiri sudah cukup. Efek suara hanya tambahan untuk rekaman."
+      }
+    ],
+    "titleEn": "How to Read Stories Aloud with Character Voices, and Record Them for Your Kids",
+    "metaTitleEn": "Storytelling with Character Voices and Recording",
+    "metaDescriptionEn": "Stories come alive with distinct character voices. Learn voice techniques for each character, pacing, and how to record stories on your phone so children can listen anytime.",
+    "keywordsEn": [
+      "storytelling for kids",
+      "character voices",
+      "record bedtime stories",
+      "storytelling techniques",
+      "bedtime stories"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers why character voices help, four ways to change your voice, narrator pacing, choosing stories, involving children, recording on a phone, enhancing with SoundFX Studio effects offline, and playing recordings at bedtime.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why character voices bring stories to life",
+        "content": [
+          "Distinct voices help children tell characters apart, follow the plot, and imagine scenes, and they make storytime something to look forward to. You do not need to be a professional."
+        ]
+      },
+      {
+        "id": "techniques",
+        "title": "Four ways to change your voice",
+        "content": [
+          "Combine these:"
+        ],
+        "bulletPoints": [
+          "Pitch: high for small creatures, low for giants.",
+          "Speed: fast for nervous or sly, slow for wise or sleepy.",
+          "Volume: loud for grumpy, whispering for shy.",
+          "Quirks: a rasp, a signature laugh, or a repeated phrase."
+        ],
+        "tipBox": {
+          "title": "Stay consistent",
+          "text": "Keep each character's voice throughout so children recognise them instantly.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "narrator",
+        "title": "Do not forget the narrator",
+        "content": [
+          "Use your normal voice for narration. Slow down for tension, pause before key moments, and soften toward bedtime."
+        ]
+      },
+      {
+        "id": "stories",
+        "title": "Choosing stories",
+        "content": [
+          "Pick few characters with clear traits, such as Indonesian fables like the mouse deer and the crocodile, or invent stories with characters from your child's life."
+        ]
+      },
+      {
+        "id": "interactive",
+        "title": "Involve your child",
+        "content": [
+          "Let them mimic voices, predict events, fill in remembered lines, or play a character. It builds language and confidence."
+        ]
+      },
+      {
+        "id": "record",
+        "title": "Recording stories on a phone",
+        "content": [
+          "For nights away, record in a quiet, soft room about a hand-span from the phone, with a few seconds of silence first, and read with full energy."
+        ]
+      },
+      {
+        "id": "effects",
+        "title": "Adding effects with SoundFX Studio",
+        "content": [
+          "**SoundFX Studio** can raise pitch for fairies, lower it for giants, add reverb for caves, and offers 100+ ambience effects. Separate pitch and tempo controls keep words clear. Processing stays on the phone."
+        ],
+        "tipBox": {
+          "title": "Do not overdo it",
+          "text": "Effects should support the story; every word must stay clear.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "play",
+        "title": "Playing recordings",
+        "content": [
+          "Keep recordings in one folder, use comfortable volume, and switch the screen off at bedtime. Recordings also make lovely gifts for grandparents."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "I am not confident doing voices. How do I start?",
+        "a": "Start with one contrast, high for small characters and low for big ones."
+      },
+      {
+        "q": "How long should toddler stories be?",
+        "a": "About 5 to 10 minutes."
+      },
+      {
+        "q": "Can recordings replace live storytelling?",
+        "a": "Occasionally, but live storytelling offers more closeness."
+      },
+      {
+        "q": "Do I need sound effects?",
+        "a": "No. Your voice is enough; effects are an extra for recordings."
+      }
+    ],
+    "coverImage": "/images/apps/soundfx-studio/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];

@@ -1242,5 +1242,730 @@ export const gearQueueArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membersihkan-hp-dengan-aman-layar-port-charger-speaker-dan-casing",
+    "slugEn": "how-to-clean-your-phone-safely-screen-charging-port-speaker-and-case",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "paper-screen-protector"
+    ],
+    "publishedDate": "2026-11-25T09:45:00+07:00",
+    "title": "Cara Membersihkan HP dengan Aman: Layar, Port Charger, Speaker, dan Casing",
+    "metaTitle": "Cara Membersihkan HP dengan Aman dan Benar",
+    "metaDescription": "HP yang kotor bisa membuat layar kurang responsif, pengisian daya bermasalah, dan suara speaker pelan. Pelajari cara membersihkan setiap bagian HP dengan aman, bahan yang boleh dan tidak boleh dipakai, serta jadwal perawatannya.",
+    "keywords": [
+      "cara membersihkan hp",
+      "membersihkan port charger",
+      "membersihkan speaker hp",
+      "membersihkan layar hp",
+      "merawat hp agar awet"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "HP adalah benda yang paling sering kita sentuh",
+        "content": [
+          "HP ikut ke mana pun kita pergi: ke meja makan, kendaraan umum, kantor, bahkan kamar mandi. Debu, minyak dari kulit, sisa makanan, dan serat kain dari saku menumpuk di layar, celah, dan lubang-lubang kecil HP.",
+          "Kotoran ini bukan hanya soal kebersihan. Port charger yang tersumbat debu bisa membuat kabel tidak masuk sempurna sehingga pengisian daya terputus-putus. Kisi speaker yang tertutup kotoran membuat suara terdengar pelan. Layar yang berminyak bisa terasa kurang responsif, terutama saat bermain game yang membutuhkan sentuhan cepat."
+        ]
+      },
+      {
+        "id": "persiapan",
+        "title": "Persiapan dan aturan dasar",
+        "content": [
+          "Sebelum mulai, matikan HP dan lepas dari charger. Lepaskan casing dan kartu memori jika perlu. Siapkan alat yang aman:"
+        ],
+        "bulletPoints": [
+          "Kain mikrofiber bersih, seperti kain pembersih kacamata.",
+          "Sikat berbulu halus, misalnya sikat gigi baru yang lembut atau kuas kecil.",
+          "Tusuk gigi kayu atau plastik, bukan logam.",
+          "Air sedikit atau cairan pembersih yang aman untuk layar.",
+          "Selotip atau lakban kertas untuk mengangkat debu dari kisi speaker."
+        ],
+        "tipBox": {
+          "title": "Yang sebaiknya dihindari",
+          "text": "Jangan menyemprotkan cairan langsung ke HP, jangan memakai benda logam seperti jarum atau peniti di port, dan hindari bahan kimia keras seperti pemutih atau pembersih kaca rumah tangga yang dapat merusak lapisan layar.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "layar",
+        "title": "Membersihkan layar",
+        "content": [
+          "Layar HP modern memiliki lapisan oleofobik yang membantu mengurangi sidik jari. Lapisan ini bisa terkikis oleh bahan kimia keras dan gosokan kasar. Cara paling aman adalah mengelap layar dengan kain mikrofiber kering dengan gerakan melingkar ringan.",
+          "Untuk noda membandel, basahi sedikit sudut kain mikrofiber dengan air, peras sampai hampir kering, lalu lap perlahan. Hindari tisu biasa atau kain kasar, karena bisa meninggalkan serat dan goresan halus. Beberapa produsen HP juga memperbolehkan tisu dengan alkohol isopropil kadar tertentu untuk permukaan luar, cek panduan dari produsen HP Anda."
+        ]
+      },
+      {
+        "id": "port",
+        "title": "Membersihkan port charger",
+        "content": [
+          "Port charger adalah bagian yang paling sering menjadi masalah. Debu dan serat kain dari saku celana bisa terdorong ke dalam setiap kali kabel dicolokkan, lama-lama memadat di dasar port.",
+          "Gunakan senter untuk melihat ke dalam port. Jika ada kotoran, gunakan tusuk gigi kayu atau plastik untuk mencungkilnya perlahan dari dasar ke arah luar. Lakukan dengan sangat hati-hati dan jangan menekan pin di dalam port. Setelah itu, tiup perlahan atau gunakan sikat halus untuk mengeluarkan sisa debu.",
+          "Hindari meniup langsung dengan mulut karena uap air dari napas bisa masuk. Jika kabel masih tidak masuk sempurna setelah dibersihkan atau pengisian tetap bermasalah, bawa ke pusat servis."
+        ],
+        "tipBox": {
+          "title": "Tanda port perlu dibersihkan",
+          "text": "Kabel terasa tidak masuk sampai ujung, pengisian daya sering terputus saat kabel tersentuh, atau HP hanya mengisi daya dengan posisi kabel tertentu.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "speaker",
+        "title": "Membersihkan speaker dan mikrofon",
+        "content": [
+          "Kisi speaker dan lubang mikrofon sangat kecil dan mudah tersumbat. Gunakan sikat berbulu halus dengan gerakan menyapu ringan untuk mengangkat debu. Untuk kotoran yang menempel, tempelkan selotip atau lakban kertas di atas kisi, tekan perlahan, lalu angkat. Debu akan ikut menempel di selotip.",
+          "Jangan menusuk lubang speaker atau mikrofon dengan benda tajam, karena bisa merusak membran di dalamnya. Jangan pula menggunakan cairan di area ini."
+        ]
+      },
+      {
+        "id": "casing",
+        "title": "Membersihkan casing dan bodi",
+        "content": [
+          "Casing sering menjadi tempat kotoran paling banyak, terutama di sela-sela antara casing dan HP. Lepaskan casing dan cuci dengan air sabun jika bahannya silikon atau plastik. Keringkan sepenuhnya sebelum dipasang kembali, karena casing yang masih lembap bisa memerangkap kelembapan di HP.",
+          "Lap bodi HP, tombol, dan area kamera dengan kain mikrofiber. Bersihkan lensa kamera dengan lembut, karena sidik jari di lensa adalah penyebab umum foto terlihat berkabut."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Layar bersih, sentuhan lebih akurat",
+        "content": [
+          "Bagi pemain game, layar bersih bukan hanya soal tampilan. Minyak dan keringat di layar membuat jari tersendat saat menggeser, sehingga gerakan menjadi kurang akurat. Di game yang mengandalkan kontrol geser presisi seperti **Stickman Penalty Rush**, perbedaan kecil ini bisa menentukan apakah tendangan mengarah ke sudut gawang atau melenceng.",
+          "Biasakan mengelap layar sebelum sesi bermain. Pelindung layar matte juga membantu mengurangi sidik jari yang terlihat dan membuat jari meluncur lebih stabil."
+        ]
+      },
+      {
+        "id": "jadwal",
+        "title": "Jadwal perawatan sederhana",
+        "content": [
+          "Tidak perlu membersihkan HP secara menyeluruh setiap hari. Jadwal berikut sudah cukup untuk sebagian besar pengguna:"
+        ],
+        "bulletPoints": [
+          "Setiap hari: lap layar dengan kain mikrofiber kering.",
+          "Setiap minggu: lap bodi, tombol, dan lensa kamera.",
+          "Setiap bulan: lepas dan cuci casing, periksa dan bersihkan port charger serta kisi speaker.",
+          "Segera: bersihkan jika HP terkena cairan lengket atau pasir, lalu periksakan jika ada masalah fungsi."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bolehkah membersihkan HP dengan alkohol?",
+        "a": "Beberapa produsen memperbolehkan tisu alkohol isopropil untuk permukaan luar. Cek panduan produsen HP Anda dan jangan menyemprotkan cairan langsung ke HP."
+      },
+      {
+        "q": "Bagaimana membersihkan port charger yang tersumbat?",
+        "a": "Gunakan senter dan tusuk gigi kayu atau plastik untuk mencungkil kotoran perlahan. Jangan memakai benda logam."
+      },
+      {
+        "q": "Kenapa suara speaker HP makin pelan?",
+        "a": "Sering kali karena kisi speaker tertutup debu. Bersihkan dengan sikat halus atau selotip."
+      },
+      {
+        "q": "Apakah HP tahan air boleh dicuci?",
+        "a": "Ketahanan air bisa menurun seiring waktu dan tidak dimaksudkan untuk dicuci. Tetap bersihkan dengan kain lembap, bukan air mengalir."
+      }
+    ],
+    "titleEn": "How to Clean Your Phone Safely: Screen, Charging Port, Speaker, and Case",
+    "metaTitleEn": "How to Clean Your Phone Safely",
+    "metaDescriptionEn": "A dirty phone can mean an unresponsive screen, charging problems, and a muffled speaker. Learn how to safely clean each part, what to use and avoid, and a simple maintenance schedule.",
+    "keywordsEn": [
+      "how to clean phone",
+      "clean charging port",
+      "clean phone speaker",
+      "clean phone screen",
+      "phone care tips"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Covers safe tools and things to avoid, cleaning the screen without stripping its coating, clearing lint from charging ports, cleaning speakers with tape, washing cases, why clean screens help gaming precision, and a maintenance schedule.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "The object we touch most",
+        "content": [
+          "Dust, skin oil, and pocket lint build up, causing loose charging connections, muffled speakers, and less responsive screens."
+        ]
+      },
+      {
+        "id": "prep",
+        "title": "Preparation and ground rules",
+        "content": [
+          "Power off, unplug, and remove the case. Use safe tools:"
+        ],
+        "bulletPoints": [
+          "A clean microfibre cloth.",
+          "A soft brush.",
+          "A wooden or plastic toothpick, never metal.",
+          "A little water or screen-safe cleaner.",
+          "Masking tape for speaker grilles."
+        ],
+        "tipBox": {
+          "title": "What to avoid",
+          "text": "No sprays directly on the phone, no metal objects in ports, and no harsh chemicals like bleach or household glass cleaner.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "screen",
+        "title": "Cleaning the screen",
+        "content": [
+          "Wipe gently with a dry microfibre cloth. For stubborn marks, use a barely damp corner. Avoid tissues and rough cloths. Some makers allow isopropyl wipes on exterior surfaces; check your manufacturer's guidance."
+        ]
+      },
+      {
+        "id": "port",
+        "title": "Cleaning the charging port",
+        "content": [
+          "Shine a torch inside and gently lift packed lint outwards with a wooden or plastic toothpick without pressing the pins, then brush out loose dust. Do not blow with your mouth. If charging still fails, visit a service centre."
+        ],
+        "tipBox": {
+          "title": "Signs the port needs cleaning",
+          "text": "The cable will not seat fully, charging cuts out when touched, or only works at an angle.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "speaker",
+        "title": "Cleaning speakers and microphones",
+        "content": [
+          "Sweep with a soft brush or press tape over the grille and lift. Never poke holes or use liquids here."
+        ]
+      },
+      {
+        "id": "case",
+        "title": "Cleaning the case and body",
+        "content": [
+          "Wash silicone or plastic cases in soapy water and dry fully before refitting. Wipe the body, buttons, and camera lens."
+        ]
+      },
+      {
+        "id": "gaming",
+        "title": "Clean screen, more accurate touch",
+        "content": [
+          "Oil and sweat make swipes stutter. In precise swipe games like **Stickman Penalty Rush**, that can decide whether a shot finds the corner. Wipe before sessions; a matte protector also helps."
+        ]
+      },
+      {
+        "id": "schedule",
+        "title": "A simple maintenance schedule",
+        "content": [
+          "Enough for most people:"
+        ],
+        "bulletPoints": [
+          "Daily: dry-wipe the screen.",
+          "Weekly: wipe body, buttons, and lens.",
+          "Monthly: wash the case, check port and speaker.",
+          "Immediately: after sticky spills or sand, and get it checked if anything misbehaves."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can I clean my phone with alcohol?",
+        "a": "Some makers allow isopropyl wipes on exterior surfaces; check guidance and never spray directly."
+      },
+      {
+        "q": "How do I clean a blocked charging port?",
+        "a": "Use a torch and a wooden or plastic toothpick gently; never metal."
+      },
+      {
+        "q": "Why is my speaker getting quieter?",
+        "a": "Often dust in the grille; clean with a soft brush or tape."
+      },
+      {
+        "q": "Can I wash a water-resistant phone?",
+        "a": "Water resistance fades and is not meant for washing; use a damp cloth instead."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-mengatasi-hp-lemot-saat-main-game-tanpa-root-penyimpanan-cache-dan-pengaturan",
+    "slugEn": "how-to-fix-a-slow-phone-for-gaming-without-root-storage-cache-and-settings",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "phone-cooler",
+      "gaming-tws"
+    ],
+    "publishedDate": "2026-12-02T09:45:00+07:00",
+    "title": "Cara Mengatasi HP Lemot saat Main Game Tanpa Root: Penyimpanan, Cache, dan Pengaturan yang Aman",
+    "metaTitle": "Atasi HP Lemot saat Main Game Tanpa Root",
+    "metaDescription": "HP terasa lemot dan game patah-patah? Ikuti langkah aman tanpa root: kosongkan penyimpanan, kelola aplikasi latar belakang, perbarui sistem, atur grafis game, dan kenali kapan masalahnya ada di perangkat keras.",
+    "keywords": [
+      "hp lemot main game",
+      "cara mengatasi hp lag",
+      "game patah patah",
+      "optimasi hp android tanpa root",
+      "penyimpanan hp penuh"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "gejala",
+        "title": "Kenali dulu jenis lemotnya",
+        "content": [
+          "HP lemot bisa berarti banyak hal: aplikasi lama terbuka, layar tersendat saat digulir, game patah-patah di tengah pertandingan, atau HP panas lalu melambat. Setiap gejala punya penyebab yang berbeda, jadi langkah pertama adalah mengenali gejalanya.",
+          "Jika HP lemot sejak dinyalakan dan di semua aplikasi, penyebabnya sering penyimpanan penuh atau terlalu banyak aplikasi berjalan. Jika lancar di awal tapi melambat setelah 15 sampai 30 menit bermain, penyebab utamanya biasanya panas. Jika hanya lag saat bermain online, masalahnya mungkin koneksi internet, bukan HP."
+        ]
+      },
+      {
+        "id": "penyimpanan",
+        "title": "Langkah 1: Kosongkan penyimpanan",
+        "content": [
+          "Penyimpanan yang hampir penuh adalah penyebab paling umum HP melambat. Sistem membutuhkan ruang kosong untuk file sementara dan pembaruan. Usahakan menyisakan setidaknya 10 sampai 15 persen ruang kosong.",
+          "Buka menu Penyimpanan di pengaturan untuk melihat apa yang paling banyak memakan ruang. Biasanya pelakunya adalah foto dan video, file unduhan, media dari aplikasi pesan, dan game yang sudah tidak dimainkan."
+        ],
+        "bulletPoints": [
+          "Pindahkan foto dan video ke penyimpanan awan atau komputer.",
+          "Hapus file di folder Unduhan yang sudah tidak diperlukan.",
+          "Bersihkan media dari grup aplikasi pesan yang menumpuk.",
+          "Hapus aplikasi dan game yang sudah lama tidak dipakai.",
+          "Matikan unduhan media otomatis di aplikasi pesan."
+        ]
+      },
+      {
+        "id": "cache",
+        "title": "Langkah 2: Bersihkan cache dengan bijak",
+        "content": [
+          "Cache adalah data sementara yang disimpan aplikasi agar bisa dibuka lebih cepat. Cache yang terlalu besar atau rusak kadang membuat aplikasi bermasalah. Membersihkan cache aplikasi tertentu lewat menu Aplikasi di pengaturan bisa membantu, terutama untuk aplikasi media sosial yang cache-nya cepat membesar.",
+          "Namun, membersihkan cache terlalu sering tidak membuat HP lebih cepat. Aplikasi justru harus membangun ulang cache-nya, sehingga sementara terasa lebih lambat. Lakukan hanya jika aplikasi tertentu bermasalah atau penyimpanan sangat penuh."
+        ],
+        "tipBox": {
+          "title": "Hindari aplikasi pembersih ajaib",
+          "text": "Banyak aplikasi pembersih atau booster menjanjikan HP lebih cepat, tapi sering justru menambah iklan, berjalan di latar belakang, dan meminta izin berlebihan. Fitur bawaan Android sudah cukup.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "latar",
+        "title": "Langkah 3: Kelola aplikasi latar belakang dan notifikasi",
+        "content": [
+          "Beberapa aplikasi terus berjalan di latar belakang untuk sinkronisasi, lokasi, atau notifikasi. Periksa penggunaan baterai di pengaturan untuk menemukan aplikasi yang paling aktif. Batasi aktivitas latar belakang aplikasi yang tidak penting.",
+          "Aktifkan mode jangan ganggu atau mode game bawaan HP saat bermain. Mode ini memblokir notifikasi yang bisa mengganggu dan pada beberapa HP juga mengalokasikan sumber daya lebih ke game."
+        ]
+      },
+      {
+        "id": "update",
+        "title": "Langkah 4: Perbarui sistem dan game",
+        "content": [
+          "Pembaruan sistem Android dan aplikasi sering membawa perbaikan performa dan keamanan. Periksa pembaruan sistem di pengaturan dan perbarui game dari Play Store. Lakukan pembaruan saat terhubung Wi-Fi dan baterai cukup.",
+          "Setelah pembaruan besar, HP kadang terasa sedikit lambat selama beberapa jam karena sistem mengoptimalkan aplikasi di latar belakang. Ini normal dan biasanya membaik dengan sendirinya."
+        ]
+      },
+      {
+        "id": "grafis",
+        "title": "Langkah 5: Sesuaikan pengaturan grafis game",
+        "content": [
+          "Setiap game punya pengaturan grafis yang bisa disesuaikan dengan kemampuan HP. Menurunkan kualitas grafis, bayangan, dan efek bisa membuat FPS jauh lebih stabil. Untuk game kompetitif, FPS yang stabil lebih penting daripada grafis yang cantik.",
+          "Coba turunkan satu pengaturan pada satu waktu dan rasakan perbedaannya. Pengaturan yang paling berat biasanya bayangan, anti-aliasing, dan kualitas efek. Matikan juga fitur rekam layar atau overlay yang tidak diperlukan saat bermain."
+        ]
+      },
+      {
+        "id": "panas",
+        "title": "Langkah 6: Atasi panas",
+        "content": [
+          "Jika game melambat setelah dimainkan beberapa lama, panas kemungkinan besar penyebabnya. Prosesor menurunkan kecepatannya untuk melindungi komponen dari suhu tinggi.",
+          "Lepas casing tebal saat bermain lama, hindari bermain sambil mengisi daya, dan main di ruangan sejuk. Kipas pendingin HP bisa membantu menjaga suhu tetap rendah selama sesi panjang. Beristirahat beberapa menit di antara pertandingan juga memberi kesempatan HP mendingin."
+        ],
+        "tipBox": {
+          "title": "Jangan dinginkan secara ekstrem",
+          "text": "Jangan memasukkan HP ke kulkas atau menempelkan es. Perubahan suhu mendadak bisa menimbulkan embun di dalam HP dan merusak komponen.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "koneksi",
+        "title": "Lag saat online: cek koneksi",
+        "content": [
+          "Jika game hanya patah-patah saat bermain online, dengan ping tinggi atau karakter berpindah tiba-tiba, masalahnya biasanya di koneksi. Dekatkan HP ke router Wi-Fi, gunakan jaringan 5 GHz jika tersedia, atau beralih ke data seluler jika Wi-Fi sedang padat. Hindari mengunduh file besar di perangkat lain pada jaringan yang sama saat bermain.",
+          "Untuk mengisi waktu saat koneksi buruk, pilih game yang bisa dimainkan offline, seperti **Stickman Penalty Rush**. Game adu penalti ini ringan, tidak membutuhkan internet, dan tetap seru dimainkan meskipun sinyal sedang lemah."
+        ]
+      },
+      {
+        "id": "terakhir",
+        "title": "Jika semua langkah sudah dicoba",
+        "content": [
+          "Jika HP tetap sangat lambat setelah semua langkah di atas, pertimbangkan mencadangkan data lalu melakukan reset ke setelan pabrik. Langkah ini menghapus semua data, jadi pastikan cadangan lengkap. Jika setelah reset HP masih lambat, kemungkinan ada masalah perangkat keras seperti baterai yang sudah menurun atau penyimpanan yang mulai rusak, dan sebaiknya diperiksa di pusat servis resmi."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah membersihkan RAM membuat HP lebih cepat?",
+        "a": "Tidak selalu. Android mengelola RAM secara otomatis. Menutup paksa aplikasi terus-menerus justru bisa membuat aplikasi lebih lambat saat dibuka ulang."
+      },
+      {
+        "q": "Berapa ruang kosong yang sebaiknya disisakan?",
+        "a": "Usahakan sekitar 10 sampai 15 persen dari total penyimpanan."
+      },
+      {
+        "q": "Perlukah aplikasi booster game?",
+        "a": "Umumnya tidak. Mode game bawaan HP dan pengaturan grafis di dalam game sudah cukup."
+      },
+      {
+        "q": "Kenapa game lancar di awal lalu patah-patah?",
+        "a": "Biasanya karena HP panas sehingga prosesor menurunkan kecepatan. Kurangi panas dengan melepas casing dan istirahat sejenak."
+      }
+    ],
+    "titleEn": "How to Fix a Slow Phone for Gaming Without Root: Storage, Cache, and Safe Settings",
+    "metaTitleEn": "Fix a Laggy Phone for Gaming Without Root",
+    "metaDescriptionEn": "Phone feeling sluggish and games stuttering? Follow safe, no-root steps: free up storage, manage background apps, update, tune game graphics, and recognise hardware problems.",
+    "keywordsEn": [
+      "slow phone gaming",
+      "fix phone lag",
+      "game stuttering",
+      "android optimisation without root",
+      "phone storage full"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Diagnoses the type of slowdown, then covers freeing storage, sensible cache clearing, background apps and game mode, updates, graphics settings, heat, online lag, and when to reset or seek service.",
+    "sectionsEn": [
+      {
+        "id": "symptoms",
+        "title": "Identify the kind of slowness",
+        "content": [
+          "Slow everywhere from boot suggests full storage or too many apps; fine at first then slow suggests heat; lag only online suggests the connection."
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "Step 1: Free up storage",
+        "content": [
+          "Keep at least 10 to 15 percent free. Check the Storage menu:"
+        ],
+        "bulletPoints": [
+          "Move photos and videos to the cloud or a computer.",
+          "Clear old downloads.",
+          "Remove chat media build-up.",
+          "Uninstall unused apps and games.",
+          "Turn off chat media auto-download."
+        ]
+      },
+      {
+        "id": "cache",
+        "title": "Step 2: Clear cache wisely",
+        "content": [
+          "Clear an app's cache in settings if it misbehaves or storage is very full, but not routinely, since apps rebuild it."
+        ],
+        "tipBox": {
+          "title": "Avoid miracle cleaner apps",
+          "text": "Many booster apps add ads, run in the background, and ask for excessive permissions. Built-in tools are enough.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "background",
+        "title": "Step 3: Background apps and notifications",
+        "content": [
+          "Check battery usage to find active apps, restrict unimportant ones, and use do-not-disturb or game mode while playing."
+        ]
+      },
+      {
+        "id": "update",
+        "title": "Step 4: Update system and games",
+        "content": [
+          "Updates bring performance fixes. A brief slowdown after big updates is normal while the system optimises."
+        ]
+      },
+      {
+        "id": "graphics",
+        "title": "Step 5: Tune game graphics",
+        "content": [
+          "Lower shadows, anti-aliasing, and effects one at a time. Stable FPS beats pretty graphics in competitive games."
+        ]
+      },
+      {
+        "id": "heat",
+        "title": "Step 6: Tackle heat",
+        "content": [
+          "Remove thick cases, avoid charging while playing, play somewhere cool, consider a phone cooler, and rest between matches."
+        ],
+        "tipBox": {
+          "title": "No extreme cooling",
+          "text": "Never put a phone in the fridge or on ice; condensation can damage it.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "network",
+        "title": "Online lag: check the connection",
+        "content": [
+          "Move closer to the router, use 5 GHz, or switch to mobile data, and avoid big downloads on the same network. When the signal is poor, play offline games like **Stickman Penalty Rush**."
+        ]
+      },
+      {
+        "id": "last",
+        "title": "When everything else fails",
+        "content": [
+          "Back up and factory reset. If it is still slow, hardware such as a worn battery or failing storage may be the issue; visit an authorised service centre."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Does clearing RAM speed things up?",
+        "a": "Not usually. Android manages RAM, and force-closing apps can slow reopening."
+      },
+      {
+        "q": "How much free space should I keep?",
+        "a": "About 10 to 15 percent."
+      },
+      {
+        "q": "Do I need a game booster app?",
+        "a": "Generally no; built-in game mode and in-game settings suffice."
+      },
+      {
+        "q": "Why do games start smooth then stutter?",
+        "a": "Usually heat-induced throttling."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "latihan-sepak-bola-untuk-anak-di-halaman-rumah-menendang-mengoper-dan-menjaga-gawang",
+    "slugEn": "backyard-football-drills-for-kids-kicking-passing-and-goalkeeping",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "lifestyle",
+    "publishedDate": "2026-12-04T09:45:00+07:00",
+    "title": "Latihan Sepak Bola untuk Anak di Halaman Rumah: Menendang, Mengoper, dan Menjaga Gawang",
+    "metaTitle": "Latihan Sepak Bola Anak di Halaman Rumah",
+    "metaDescription": "Anak suka sepak bola tapi belum ikut sekolah sepak bola? Coba latihan sederhana di halaman rumah untuk melatih menendang, mengoper, menggiring bola, dan menjaga gawang dengan aman dan menyenangkan.",
+    "keywords": [
+      "latihan sepak bola anak",
+      "sepak bola untuk anak di rumah",
+      "cara mengajari anak menendang bola",
+      "latihan kiper anak",
+      "olahraga anak di rumah"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "manfaat",
+        "title": "Manfaat sepak bola bagi anak",
+        "content": [
+          "Sepak bola adalah salah satu olahraga paling populer di Indonesia, dan banyak anak sudah tertarik sejak kecil. Selain menyenangkan, bermain bola melatih keseimbangan, koordinasi mata dan kaki, kelincahan, serta daya tahan tubuh. Bermain bersama juga mengajarkan kerja sama, sportivitas, dan cara menerima kekalahan.",
+          "Anak tidak harus langsung masuk sekolah sepak bola untuk mulai belajar. Halaman rumah, gang yang aman, atau lapangan kecil di lingkungan sudah cukup untuk latihan dasar bersama orang tua atau kakak."
+        ]
+      },
+      {
+        "id": "persiapan",
+        "title": "Persiapan dan keamanan",
+        "content": [
+          "Sebelum mulai, pastikan area bermain aman dan peralatan sesuai usia anak:"
+        ],
+        "bulletPoints": [
+          "Pilih area datar tanpa benda tajam, batu, atau lubang. Jauhkan dari jalan yang dilalui kendaraan.",
+          "Gunakan bola sesuai usia. Bola ukuran lebih kecil dan ringan lebih mudah dikontrol anak kecil.",
+          "Pakai sepatu olahraga yang nyaman atau bermain tanpa alas kaki di rumput yang aman.",
+          "Siapkan air minum dan istirahat secara teratur, terutama saat cuaca panas.",
+          "Gunakan sandal, botol plastik, atau kerucut sebagai tanda gawang dan rintangan."
+        ],
+        "tipBox": {
+          "title": "Pemanasan singkat",
+          "text": "Ajak anak pemanasan sekitar lima menit, misalnya berlari kecil, melompat, dan memutar pergelangan kaki. Pemanasan membantu mencegah cedera dan membuat tubuh siap bergerak.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "menendang",
+        "title": "Latihan menendang",
+        "content": [
+          "Ajarkan anak menendang dengan bagian dalam kaki terlebih dahulu, bukan ujung jari kaki. Tendangan dengan bagian dalam kaki lebih akurat dan lebih aman untuk jari kaki. Letakkan kaki tumpu di samping bola, arahkan ujung kaki tumpu ke target, lalu ayunkan kaki yang menendang.",
+          "Mulailah dengan bola diam dan target besar, misalnya gawang dari dua sandal yang berjarak lebar. Setelah anak berhasil, perkecil gawang atau jauhkan jarak. Hitung berapa kali bola masuk dari sepuluh tendangan, lalu coba kalahkan rekor itu di sesi berikutnya."
+        ]
+      },
+      {
+        "id": "mengoper",
+        "title": "Latihan mengoper dan menerima bola",
+        "content": [
+          "Berdirilah berhadapan dengan anak pada jarak beberapa langkah dan saling mengoper bola dengan bagian dalam kaki. Ajarkan anak menghentikan bola dengan telapak atau bagian dalam kaki sebelum mengoper kembali.",
+          "Variasikan latihan dengan mengoper melewati gawang kecil dari dua botol, atau mengoper sambil berjalan bersebelahan. Latihan ini melatih ketepatan dan kontrol bola, keterampilan yang sangat penting dalam permainan tim."
+        ]
+      },
+      {
+        "id": "menggiring",
+        "title": "Latihan menggiring bola",
+        "content": [
+          "Susun beberapa botol plastik atau sandal dalam satu garis dengan jarak sekitar satu langkah. Minta anak menggiring bola meliuk di antara botol tanpa menjatuhkannya. Ajarkan untuk menyentuh bola dengan lembut agar bola tetap dekat dengan kaki.",
+          "Mulailah perlahan dan tingkatkan kecepatan seiring kemampuan anak. Jadikan permainan dengan menghitung waktu, tapi utamakan kontrol daripada kecepatan."
+        ]
+      },
+      {
+        "id": "kiper",
+        "title": "Latihan menjaga gawang",
+        "content": [
+          "Banyak anak suka bergantian menjadi kiper. Ajarkan posisi siap: kaki dibuka selebar bahu, lutut sedikit ditekuk, dan tangan di depan dada. Gulirkan bola pelan ke kanan dan kiri, lalu minta anak menangkap atau menghalaunya.",
+          "Gunakan bola yang lembut dan tendangan pelan saat anak menjadi kiper. Hindari tendangan keras ke arah wajah. Latihan menjaga gawang melatih refleks dan keberanian, tapi keamanan harus tetap menjadi prioritas."
+        ],
+        "tipBox": {
+          "title": "Bergantian peran",
+          "text": "Bergantian menjadi penendang dan kiper membuat anak memahami kedua sisi permainan. Anak yang pernah menjadi kiper biasanya lebih paham cara menendang agar sulit ditangkap.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "adu-penalti",
+        "title": "Permainan adu penalti keluarga",
+        "content": [
+          "Tutup sesi latihan dengan adu penalti keluarga. Setiap pemain mendapat lima kesempatan menendang, bergantian dengan menjadi kiper. Catat skornya dan beri hadiah kecil yang lucu bagi pemenang, misalnya memilih menu makan malam.",
+          "Adu penalti juga cara yang baik untuk mengajarkan sportivitas. Ajarkan anak memberi selamat kepada pemenang dan tetap semangat saat tendangannya gagal."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Saat hujan atau tidak bisa ke luar",
+        "content": [
+          "Ketika hujan atau sudah malam, semangat sepak bola anak bisa disalurkan lewat game. **Stickman Penalty Rush** adalah game adu penalti di Android dengan kontrol geser untuk menentukan arah dan kekuatan tendangan. Anak bisa bergantian menjadi penendang dan kiper, sama seperti adu penalti di halaman.",
+          "Game ini memiliki rating 3+, bisa dimainkan offline, dan cocok sebagai selingan singkat. Tetap dampingi anak, batasi waktu bermain, dan ajak kembali bermain bola sungguhan saat cuaca cerah."
+        ]
+      },
+      {
+        "id": "lanjut",
+        "title": "Kapan masuk sekolah sepak bola",
+        "content": [
+          "Jika anak menunjukkan minat besar dan menikmati latihan rutin, sekolah sepak bola bisa menjadi langkah selanjutnya. Di sana anak belajar teknik yang lebih terstruktur dan bermain bersama teman sebaya. Pilih sekolah sepak bola yang mengutamakan kesenangan dan perkembangan anak, bukan hanya kemenangan."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Usia berapa anak bisa mulai belajar sepak bola?",
+        "a": "Anak usia prasekolah sudah bisa mulai bermain bola secara santai. Latihan teknik yang lebih terstruktur biasanya dimulai di usia sekolah."
+      },
+      {
+        "q": "Ukuran bola apa yang cocok untuk anak?",
+        "a": "Gunakan bola yang lebih kecil dan ringan untuk anak kecil, lalu naikkan ukurannya seiring usia."
+      },
+      {
+        "q": "Bagaimana agar anak tidak cedera saat bermain bola?",
+        "a": "Pilih area yang aman, lakukan pemanasan, gunakan bola sesuai usia, dan hindari tendangan keras ke arah anak yang menjadi kiper."
+      },
+      {
+        "q": "Apakah game sepak bola di HP bermanfaat?",
+        "a": "Bisa menjadi selingan yang menyenangkan, tapi tidak menggantikan aktivitas fisik. Batasi waktu bermain."
+      }
+    ],
+    "titleEn": "Backyard Football Drills for Kids: Kicking, Passing, and Goalkeeping",
+    "metaTitleEn": "Backyard Football Drills for Kids",
+    "metaDescriptionEn": "Is your child football-mad but not in a club yet? Try simple backyard drills for kicking, passing, dribbling, and goalkeeping, done safely and for fun.",
+    "keywordsEn": [
+      "football drills for kids",
+      "soccer for kids at home",
+      "teach child to kick a ball",
+      "kids goalkeeper training",
+      "kids exercise at home"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers the benefits of football, safety and setup, inside-foot kicking, passing and receiving, dribbling cones, safe goalkeeping, a family penalty shootout, a rainy-day game alternative, and when to join a football school.",
+    "sectionsEn": [
+      {
+        "id": "benefits",
+        "title": "Why football is good for kids",
+        "content": [
+          "It builds balance, coordination, agility, stamina, teamwork, and sportsmanship. A safe yard or small field is enough to start."
+        ]
+      },
+      {
+        "id": "prep",
+        "title": "Preparation and safety",
+        "content": [
+          "Before starting:"
+        ],
+        "bulletPoints": [
+          "Pick flat ground away from traffic and hazards.",
+          "Use a smaller, lighter ball for young children.",
+          "Wear comfortable shoes or play barefoot on safe grass.",
+          "Bring water and rest often.",
+          "Use sandals, bottles, or cones as goals and markers."
+        ],
+        "tipBox": {
+          "title": "A quick warm-up",
+          "text": "Five minutes of jogging, jumping, and ankle circles helps prevent injury.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "kick",
+        "title": "Kicking practice",
+        "content": [
+          "Teach inside-foot kicks: plant foot beside the ball pointing at the target, then swing. Start with a big goal and track goals out of ten."
+        ]
+      },
+      {
+        "id": "pass",
+        "title": "Passing and receiving",
+        "content": [
+          "Pass back and forth with the inside of the foot and stop the ball before returning it. Add mini bottle gates or passing while walking."
+        ]
+      },
+      {
+        "id": "dribble",
+        "title": "Dribbling",
+        "content": [
+          "Weave through a line of bottles with soft touches, prioritising control over speed."
+        ]
+      },
+      {
+        "id": "keeper",
+        "title": "Goalkeeping",
+        "content": [
+          "Teach the ready stance and roll balls left and right. Use soft balls and gentle shots, never hard kicks at the face."
+        ],
+        "tipBox": {
+          "title": "Swap roles",
+          "text": "Kids who play in goal understand how to shoot past a keeper.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "shootout",
+        "title": "A family penalty shootout",
+        "content": [
+          "Five kicks each, alternating in goal, with a fun prize. Teach congratulating winners and staying positive after misses."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "When it rains",
+        "content": [
+          "**Stickman Penalty Rush** lets kids take turns shooting and saving with swipe controls. It is rated 3+ and works offline; supervise and limit time."
+        ]
+      },
+      {
+        "id": "next",
+        "title": "When to join a football school",
+        "content": [
+          "If interest stays strong, choose a school that prioritises enjoyment and development over winning."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When can children start football?",
+        "a": "Preschoolers can play casually; structured technique usually starts at school age."
+      },
+      {
+        "q": "What size ball should kids use?",
+        "a": "Smaller, lighter balls for younger children, sizing up with age."
+      },
+      {
+        "q": "How can kids avoid injury?",
+        "a": "Safe ground, warm-ups, age-appropriate balls, and no hard shots at young keepers."
+      },
+      {
+        "q": "Are football phone games useful?",
+        "a": "As a fun extra, not a replacement for physical play."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];

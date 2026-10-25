@@ -2831,5 +2831,1273 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/baby-shark-abc-kids-learning/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "kenapa-karakter-kucing-selalu-populer-di-game-dan-internet",
+    "slugEn": "why-cat-characters-are-always-popular-in-games-and-online",
+    "targetAppSlug": "milo-cat-adventure",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "mobile-controller"
+    ],
+    "publishedDate": "2026-11-26T09:45:00+07:00",
+    "title": "Kenapa Karakter Kucing Selalu Populer di Game dan Internet: Daya Tarik dan Contohnya",
+    "metaTitle": "Kenapa Karakter Kucing Selalu Populer di Game",
+    "metaDescription": "Dari meme internet hingga tokoh utama game petualangan, kucing selalu berhasil memikat. Simak alasan karakter kucing begitu disukai, bagaimana desainer game memanfaatkannya, dan kenapa cocok untuk game keluarga.",
+    "keywords": [
+      "game kucing android",
+      "karakter kucing di game",
+      "game kucing offline",
+      "kenapa kucing populer",
+      "game petualangan kucing"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "fenomena",
+        "title": "Kucing di mana-mana",
+        "content": [
+          "Coba buka media sosial, dan hampir pasti Anda akan menemukan video kucing dalam beberapa menit pertama. Kucing yang melompat kaget, kucing yang masuk ke kotak kardus, atau kucing yang menjatuhkan barang dari meja dengan wajah tanpa dosa. Kucing sudah lama menjadi salah satu bintang terbesar di internet.",
+          "Popularitas ini juga terlihat di dunia game. Kucing muncul sebagai tokoh utama, pendamping setia, maskot, hingga karakter rahasia di banyak game dari berbagai genre. Apa yang membuat hewan ini begitu memikat bagi pemain dan pembuat game?"
+        ]
+      },
+      {
+        "id": "alasan",
+        "title": "Alasan kucing begitu disukai",
+        "content": [
+          "Ada beberapa alasan yang sering disebut untuk menjelaskan daya tarik kucing:"
+        ],
+        "bulletPoints": [
+          "Penampilan menggemaskan: mata besar, wajah bulat, dan tubuh mungil memicu rasa gemas yang membuat kita ingin melindungi.",
+          "Kepribadian yang unik: kucing dikenal mandiri, penasaran, kadang cuek, kadang manja. Kombinasi ini membuat setiap kucing terasa punya karakter sendiri.",
+          "Gerakan yang lincah: melompat, mengendap, dan mendarat dengan anggun membuat kucing menarik untuk ditonton.",
+          "Tingkah lucu yang tak terduga: dari tiba-tiba berlari tanpa alasan hingga masuk ke kotak sempit, kucing sering membuat kita tertawa.",
+          "Dekat dengan kehidupan sehari-hari: banyak orang memelihara atau sering bertemu kucing, sehingga mudah merasa terhubung."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Kenapa kucing cocok menjadi karakter game",
+        "content": [
+          "Bagi desainer game, kucing adalah karakter yang sangat praktis. Kemampuan alami kucing seperti melompat tinggi, memanjat, dan bergerak gesit cocok sekali dengan mekanik game petualangan dan platformer. Pemain langsung paham bahwa karakter kucing bisa melompat dari satu pijakan ke pijakan lain tanpa perlu penjelasan panjang.",
+          "Kucing juga mudah disukai lintas usia dan budaya. Karakter kucing yang lucu bisa menarik anak-anak, sementara sifatnya yang cerdik dan penasaran juga disukai pemain dewasa. Ini membuat kucing menjadi pilihan aman untuk game keluarga.",
+          "Selain itu, kucing memberi ruang ekspresi yang luas. Telinga yang bergerak, ekor yang mengibas, dan ekspresi wajah bisa menunjukkan emosi tanpa kata-kata, sangat berguna untuk game yang dimainkan pemain dari berbagai negara."
+        ],
+        "tipBox": {
+          "title": "Kucing di dunia nyata dan game",
+          "text": "Banyak desainer mengamati perilaku kucing sungguhan, seperti cara mengendap sebelum melompat, untuk membuat animasi karakter terasa lebih hidup dan meyakinkan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "peran",
+        "title": "Peran kucing dalam berbagai genre",
+        "content": [
+          "Kucing hadir di banyak jenis game dengan peran berbeda:"
+        ],
+        "bulletPoints": [
+          "Tokoh utama petualangan: kucing yang menjelajahi dunia, memecahkan teka-teki, atau menyelamatkan teman.",
+          "Pendamping: kucing yang menemani tokoh utama dan memberi petunjuk atau bantuan.",
+          "Game simulasi: merawat, memberi makan, dan mendandani kucing virtual.",
+          "Game puzzle dan kasual: kucing sebagai maskot yang lucu dan menghibur.",
+          "Aplikasi non-game: maskot kucing juga dipakai di aplikasi produktivitas atau keuangan agar terasa lebih ramah."
+        ]
+      },
+      {
+        "id": "milo",
+        "title": "Milo: kucing pemberani dari luar angkasa",
+        "content": [
+          "**Milo Cat: Alien Adventure** memanfaatkan semua daya tarik ini dalam bentuk game platformer 2D. Pemain mengendalikan Milo, kucing oranye pemberani yang memakai jubah, dalam misi menyelamatkan galaksi dari kapal induk alien yang menyerang sebuah planet neon.",
+          "Kemampuan alami kucing diterjemahkan menjadi mekanik permainan yang seru: Milo berlari, melompat di antara pijakan, dan melempar bumerang neon untuk mengalahkan monster kosmik. Visual neon bernuansa fiksi ilmiah memberi tampilan modern, sementara tantangannya meningkat bertahap hingga mode Boss di level 11. Game ini bisa dimainkan sepenuhnya offline, cocok dimainkan di mana saja."
+        ]
+      },
+      {
+        "id": "keluarga",
+        "title": "Kenapa game kucing cocok untuk keluarga",
+        "content": [
+          "Karakter hewan yang ramah membuat game terasa lebih aman dan menyenangkan bagi anak-anak. Orang tua bisa bermain bersama anak, bergantian menyelesaikan level, dan berbagi tips. Game dengan karakter kucing juga sering menjadi pintu masuk yang baik bagi anak untuk mengenal game petualangan sebelum mencoba game yang lebih kompleks.",
+          "Tetap perhatikan rating usia, isi game, dan durasi bermain. Pilih game yang sesuai dengan usia anak dan dampingi saat bermain."
+        ],
+        "tipBox": {
+          "title": "Dari game ke dunia nyata",
+          "text": "Game dengan karakter kucing bisa menjadi bahan obrolan tentang cara merawat hewan peliharaan dengan baik, seperti memberi makan, menjaga kebersihan, dan memperlakukan hewan dengan lembut.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "penutup",
+        "title": "Daya tarik yang tak lekang waktu",
+        "content": [
+          "Selama manusia masih tertawa melihat kucing masuk ke kotak kardus, karakter kucing tampaknya akan terus menghiasi dunia game dan internet. Kombinasi penampilan menggemaskan, kepribadian unik, dan kemampuan fisik yang lincah membuat kucing menjadi salah satu karakter paling serbaguna yang bisa diciptakan desainer."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kenapa banyak game memakai karakter kucing?",
+        "a": "Kucing menggemaskan, disukai lintas usia, dan kemampuan alaminya seperti melompat cocok dengan mekanik game petualangan."
+      },
+      {
+        "q": "Apakah Milo Cat cocok untuk anak?",
+        "a": "Milo Cat memiliki rating 3+. Tetap dampingi anak dan batasi waktu bermain sesuai usia."
+      },
+      {
+        "q": "Apakah Milo Cat bisa dimainkan tanpa internet?",
+        "a": "Bisa. Game ini dapat dimainkan sepenuhnya offline."
+      },
+      {
+        "q": "Genre apa yang paling cocok untuk karakter kucing?",
+        "a": "Platformer dan petualangan paling sering memakai kucing karena kelincahannya, tapi kucing juga populer di game simulasi dan puzzle."
+      }
+    ],
+    "titleEn": "Why Cat Characters Are Always Popular in Games and Online",
+    "metaTitleEn": "Why Cat Characters Are So Popular in Games",
+    "metaDescriptionEn": "From internet memes to adventure game heroes, cats always charm. Explore why cat characters are so loved, how game designers use them, and why they suit family games.",
+    "keywordsEn": [
+      "cat games android",
+      "cat characters in games",
+      "offline cat game",
+      "why cats are popular",
+      "cat adventure game"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Explores why cats dominate the internet, their appeal, why designers love cat characters, roles across genres, Milo Cat as an example, and why cat games suit families.",
+    "sectionsEn": [
+      {
+        "id": "phenomenon",
+        "title": "Cats are everywhere",
+        "content": [
+          "Cats are internet superstars and appear in games as heroes, companions, mascots, and secrets."
+        ]
+      },
+      {
+        "id": "reasons",
+        "title": "Why cats are so loved",
+        "content": [
+          "Common reasons:"
+        ],
+        "bulletPoints": [
+          "Cute faces and big eyes.",
+          "Independent, curious, unique personalities.",
+          "Graceful, agile movement.",
+          "Unexpected funny behaviour.",
+          "Familiarity from daily life."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Why cats make great game characters",
+        "content": [
+          "Jumping, climbing, and agility map naturally onto platformer mechanics. Cats appeal across ages and cultures and express emotion through ears and tails without words."
+        ],
+        "tipBox": {
+          "title": "Real cats inspire animation",
+          "text": "Designers often study real cats crouching before a jump to make animations convincing.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "roles",
+        "title": "Cats across genres",
+        "content": [
+          "Cats appear as:"
+        ],
+        "bulletPoints": [
+          "Adventure heroes.",
+          "Helpful companions.",
+          "Virtual pets in simulations.",
+          "Mascots in casual puzzles.",
+          "Friendly mascots in non-game apps."
+        ]
+      },
+      {
+        "id": "milo",
+        "title": "Milo: a brave cat from space",
+        "content": [
+          "In **Milo Cat: Alien Adventure**, caped ginger cat Milo runs, jumps, and throws neon boomerangs to save a neon planet from an alien mothership, with difficulty rising to a level 11 boss. It plays fully offline."
+        ]
+      },
+      {
+        "id": "family",
+        "title": "Why cat games suit families",
+        "content": [
+          "Friendly animal heroes make games feel safe for kids and invite parents to play along. Still check age ratings and limit playtime."
+        ],
+        "tipBox": {
+          "title": "From game to real life",
+          "text": "Cat games can spark talks about caring for pets gently and responsibly.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "closing",
+        "title": "A timeless appeal",
+        "content": [
+          "Cute looks, unique personalities, and agility make cats one of the most versatile characters designers can create."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Why do so many games use cats?",
+        "a": "They are cute, broadly loved, and their agility suits adventure mechanics."
+      },
+      {
+        "q": "Is Milo Cat suitable for kids?",
+        "a": "It is rated 3+. Supervise and set time limits."
+      },
+      {
+        "q": "Does Milo Cat work offline?",
+        "a": "Yes, fully offline."
+      },
+      {
+        "q": "Which genres suit cat characters?",
+        "a": "Platformers and adventures most, but also simulations and puzzles."
+      }
+    ],
+    "coverImage": "/images/apps/milo-cat-adventure/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "strategi-bilangan-teman-10-latihan-penjumlahan-dan-pengurangan-cepat-kelas-1-2",
+    "slugEn": "make-ten-strategy-fast-addition-and-subtraction-practice-for-grades-1-and-2",
+    "targetAppSlug": "monster-math-train-brain",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-stylus"
+    ],
+    "publishedDate": "2026-11-27T09:45:00+07:00",
+    "title": "Strategi Bilangan Teman 10: Latihan Penjumlahan dan Pengurangan Cepat untuk Kelas 1 dan 2",
+    "metaTitle": "Strategi Teman 10: Penjumlahan Cepat Kelas 1-2",
+    "metaDescription": "Anak masih menghitung dengan jari untuk 8 + 7? Strategi bilangan teman 10 membantu anak menjumlah dan mengurang lebih cepat dengan pemahaman, bukan hafalan. Lengkap dengan langkah, contoh, dan permainan.",
+    "keywords": [
+      "bilangan teman 10",
+      "penjumlahan cepat kelas 1",
+      "strategi berhitung anak sd",
+      "pengurangan kelas 2",
+      "matematika kelas 1 sd"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Dari menghitung jari ke berhitung lancar",
+        "content": [
+          "Di kelas 1, wajar jika anak menghitung penjumlahan dengan jari. Namun jika di kelas 2 dan 3 anak masih menghitung satu per satu untuk soal seperti 8 + 7, ia akan kelelahan saat menghadapi soal bersusun dan soal cerita yang lebih panjang.",
+          "Solusinya bukan memaksa anak menghafal semua hasil penjumlahan. Cara yang lebih bertahan lama adalah mengajarkan strategi yang memanfaatkan pola bilangan. Salah satu strategi paling berguna adalah bilangan teman 10, yaitu pasangan bilangan yang jika dijumlahkan hasilnya 10."
+        ]
+      },
+      {
+        "id": "teman-10",
+        "title": "Mengenal pasangan teman 10",
+        "content": [
+          "Ada lima pasangan bilangan yang jumlahnya 10. Kuasai pasangan ini lebih dulu sampai anak bisa menjawabnya tanpa menghitung:"
+        ],
+        "bulletPoints": [
+          "1 dan 9",
+          "2 dan 8",
+          "3 dan 7",
+          "4 dan 6",
+          "5 dan 5"
+        ],
+        "tipBox": {
+          "title": "Gunakan sepuluh jari",
+          "text": "Minta anak membuka sepuluh jari, lalu tekuk beberapa. Jari yang terbuka dan tertekuk selalu berjumlah 10. Cara ini membantu anak melihat pasangan teman 10 secara nyata.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "bingkai",
+        "title": "Memakai bingkai sepuluh",
+        "content": [
+          "Bingkai sepuluh adalah kotak berisi dua baris dengan lima petak di setiap baris. Gambar di kertas atau gunakan wadah telur yang dipotong menjadi sepuluh lubang. Isi petak dengan kancing, kacang, atau tutup botol.",
+          "Saat anak meletakkan 7 kancing, ia langsung melihat ada 3 petak kosong. Artinya 7 butuh 3 lagi untuk menjadi 10. Bingkai sepuluh membuat konsep teman 10 terlihat jelas, bukan sekadar angka di buku."
+        ]
+      },
+      {
+        "id": "penjumlahan",
+        "title": "Penjumlahan melewati 10: pecah lalu genapkan",
+        "content": [
+          "Setelah lancar dengan teman 10, anak bisa memakainya untuk penjumlahan yang hasilnya lebih dari 10. Caranya adalah menggenapkan salah satu bilangan menjadi 10 terlebih dahulu.",
+          "Contoh: 8 + 7. Teman 10 dari 8 adalah 2. Ambil 2 dari 7, sehingga 7 dipecah menjadi 2 dan 5. Lalu 8 + 2 = 10, dan 10 + 5 = 15. Jadi 8 + 7 = 15.",
+          "Contoh lain: 9 + 6. Teman 10 dari 9 adalah 1. Pecah 6 menjadi 1 dan 5. Lalu 9 + 1 = 10, dan 10 + 5 = 15. Setelah beberapa kali latihan dengan kancing di bingkai sepuluh, anak bisa melakukannya di kepala."
+        ]
+      },
+      {
+        "id": "pengurangan",
+        "title": "Pengurangan melewati 10: turun ke 10 dulu",
+        "content": [
+          "Strategi yang sama berlaku untuk pengurangan. Untuk 15 - 7, turunkan dulu ke 10, lalu kurangi sisanya.",
+          "15 - 7: dari 15 ke 10 berkurang 5. Masih perlu dikurangi 2 lagi, karena 7 = 5 + 2. Jadi 10 - 2 = 8. Hasilnya 15 - 7 = 8.",
+          "Ada juga cara lain yang sering lebih mudah bagi anak, yaitu menghitung maju. Untuk 15 - 7, tanyakan, \"Dari 7, butuh berapa lagi untuk sampai 15?\" Dari 7 ke 10 butuh 3, dari 10 ke 15 butuh 5, jadi totalnya 8. Biarkan anak memilih cara yang paling nyaman baginya."
+        ],
+        "tipBox": {
+          "title": "Penjumlahan dan pengurangan adalah keluarga",
+          "text": "Tunjukkan bahwa jika 8 + 7 = 15, maka 15 - 7 = 8 dan 15 - 8 = 7. Melihat hubungan ini membantu anak mengecek jawabannya sendiri.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "strategi-lain",
+        "title": "Strategi pendukung lainnya",
+        "content": [
+          "Selain teman 10, beberapa strategi lain juga membantu anak berhitung lebih cepat:"
+        ],
+        "bulletPoints": [
+          "Bilangan kembar: 6 + 6 = 12, 7 + 7 = 14. Setelah hafal, 6 + 7 bisa dihitung sebagai 6 + 6 + 1 = 13.",
+          "Menambah 10: 10 + 4 = 14, 10 + 8 = 18. Anak cukup mengganti angka satuan.",
+          "Menambah 9: tambahkan 10 lalu kurangi 1. Contoh 9 + 5 = 10 + 5 - 1 = 14.",
+          "Menukar urutan: 2 + 9 lebih mudah dihitung sebagai 9 + 2."
+        ]
+      },
+      {
+        "id": "permainan",
+        "title": "Permainan untuk melatih teman 10",
+        "content": [
+          "Latihan akan lebih menyenangkan jika dikemas dalam permainan. Beberapa ide yang bisa dimainkan di rumah:"
+        ],
+        "bulletPoints": [
+          "Kartu pasangan 10: gunakan kartu remi tanpa kartu bergambar. Balik kartu dan cari pasangan yang jumlahnya 10.",
+          "Tepuk teman 10: orang tua menyebut satu angka, anak menyebut teman 10-nya sambil bertepuk tangan.",
+          "Lempar kancing: lempar 10 kancing ke dalam dan luar lingkaran tali, lalu hitung berapa di dalam dan berapa di luar.",
+          "Balap bingkai: siapa yang paling cepat mengisi bingkai sepuluh dari angka yang disebutkan."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Latihan rutin lewat game",
+        "content": [
+          "Setelah anak paham strateginya dengan benda nyata, latihan rutin membantu membuatnya otomatis. **Monster Math** menyajikan soal penjumlahan dan pengurangan, juga perkalian dan pembagian, dalam petualangan pertempuran monster. Setiap jawaban benar membuat monster lebih kuat dan membuka kemampuan baru, sehingga anak terdorong untuk menjawab cepat dan tepat.",
+          "Lima sampai sepuluh menit sehari sudah cukup. Game ini bisa dimainkan offline tanpa iklan, dan tablet dengan stylus berujung tebal membantu anak yang ingin mencoret-coret hitungan di aplikasi catatan sebelum menjawab."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kapan anak sebaiknya berhenti menghitung dengan jari?",
+        "a": "Tidak perlu dipaksa berhenti. Seiring anak menguasai strategi seperti teman 10, ketergantungan pada jari biasanya berkurang dengan sendirinya."
+      },
+      {
+        "q": "Apa itu bilangan teman 10?",
+        "a": "Pasangan bilangan yang jumlahnya 10, yaitu 1 dan 9, 2 dan 8, 3 dan 7, 4 dan 6, serta 5 dan 5."
+      },
+      {
+        "q": "Anak saya bingung dengan cara memecah bilangan. Bagaimana?",
+        "a": "Kembali ke bingkai sepuluh dan benda nyata. Biarkan anak memindahkan kancing sendiri sampai polanya terlihat."
+      },
+      {
+        "q": "Berapa lama latihan yang dibutuhkan?",
+        "a": "Lima sampai sepuluh menit sehari secara rutin biasanya lebih efektif daripada sesi panjang yang jarang."
+      }
+    ],
+    "titleEn": "The Make-Ten Strategy: Fast Addition and Subtraction Practice for Grades 1 and 2",
+    "metaTitleEn": "Make-Ten Strategy for Fast Addition, Grades 1-2",
+    "metaDescriptionEn": "Still counting on fingers for 8 + 7? The make-ten strategy helps children add and subtract faster through understanding, not memorisation, with steps, examples, and games.",
+    "keywordsEn": [
+      "make ten strategy",
+      "number bonds to 10",
+      "fast addition grade 1",
+      "subtraction grade 2",
+      "early math strategies"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains number bonds to 10, ten-frames, adding past 10 by splitting, subtracting via 10 or counting up, supporting strategies, games, and daily practice with Monster Math.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "From finger counting to fluency",
+        "content": [
+          "Counting on fingers is normal in grade 1, but by grades 2 and 3 it slows children down. Strategies based on number patterns last longer than rote memorisation."
+        ]
+      },
+      {
+        "id": "bonds",
+        "title": "Number bonds to 10",
+        "content": [
+          "Master these five pairs first:"
+        ],
+        "bulletPoints": [
+          "1 and 9",
+          "2 and 8",
+          "3 and 7",
+          "4 and 6",
+          "5 and 5"
+        ],
+        "tipBox": {
+          "title": "Use ten fingers",
+          "text": "Raised and folded fingers always add to 10.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "frame",
+        "title": "Using a ten-frame",
+        "content": [
+          "Draw a 2 × 5 grid or cut an egg carton to ten cups and fill with buttons. Seven buttons show three empty spaces, so 7 needs 3 to make 10."
+        ]
+      },
+      {
+        "id": "adding",
+        "title": "Adding past 10: split and make ten",
+        "content": [
+          "8 + 7: split 7 into 2 and 5, so 8 + 2 = 10 and 10 + 5 = 15. 9 + 6: split 6 into 1 and 5 to get 15."
+        ]
+      },
+      {
+        "id": "subtracting",
+        "title": "Subtracting past 10: down to 10 first",
+        "content": [
+          "15 - 7: go down 5 to 10, then 2 more to 8. Or count up from 7: 3 to 10, 5 to 15, total 8."
+        ],
+        "tipBox": {
+          "title": "Addition and subtraction are family",
+          "text": "If 8 + 7 = 15, then 15 - 7 = 8 and 15 - 8 = 7.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "other",
+        "title": "Supporting strategies",
+        "content": [
+          "Also useful:"
+        ],
+        "bulletPoints": [
+          "Doubles and near doubles.",
+          "Adding 10 by changing the ones digit.",
+          "Adding 9 as add 10, minus 1.",
+          "Swapping order, like 2 + 9 as 9 + 2."
+        ]
+      },
+      {
+        "id": "games",
+        "title": "Games for number bonds",
+        "content": [
+          "Ideas:"
+        ],
+        "bulletPoints": [
+          "Pairs-to-10 card game with number cards.",
+          "Clap the bond partner.",
+          "Toss ten buttons in and out of a loop.",
+          "Ten-frame races."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Daily practice with a game",
+        "content": [
+          "**Monster Math** turns addition, subtraction, multiplication, and division into monster battles, building automatic recall in 5 to 10 minutes a day, offline and ad-free."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When should children stop counting on fingers?",
+        "a": "No need to force it; reliance fades as strategies take hold."
+      },
+      {
+        "q": "What are number bonds to 10?",
+        "a": "Pairs that add to 10: 1-9, 2-8, 3-7, 4-6, 5-5."
+      },
+      {
+        "q": "My child finds splitting numbers confusing. What now?",
+        "a": "Go back to the ten-frame and real objects."
+      },
+      {
+        "q": "How much practice is needed?",
+        "a": "Five to ten minutes daily beats long, infrequent sessions."
+      }
+    ],
+    "coverImage": "/images/apps/monster-math-train-brain/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "10-ide-permainan-keluarga-akhir-pekan-di-rumah-untuk-semua-usia",
+    "slugEn": "10-weekend-family-games-at-home-for-all-ages",
+    "targetAppSlug": "fruity-merge-3d-match-puzzle",
+    "category": "lifestyle",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-case"
+    ],
+    "publishedDate": "2026-11-29T09:45:00+07:00",
+    "title": "10 Ide Permainan Keluarga di Akhir Pekan Tanpa Keluar Rumah, Seru untuk Semua Usia",
+    "metaTitle": "10 Permainan Keluarga Akhir Pekan di Rumah",
+    "metaDescription": "Akhir pekan di rumah tidak harus membosankan. Coba 10 permainan keluarga yang seru untuk anak, orang tua, dan kakek nenek, dari permainan tradisional, papan, hingga permainan digital yang dimainkan bersama.",
+    "keywords": [
+      "permainan keluarga di rumah",
+      "ide akhir pekan keluarga",
+      "permainan tradisional anak",
+      "game keluarga",
+      "kegiatan bersama anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "pentingnya",
+        "title": "Kenapa waktu bermain bersama itu penting",
+        "content": [
+          "Di hari kerja, anggota keluarga sering sibuk dengan urusan masing-masing: orang tua bekerja, anak sekolah dan les, dan malam hari habis untuk istirahat. Akhir pekan menjadi kesempatan berharga untuk berkumpul. Namun tanpa rencana, waktu itu sering habis dengan masing-masing menatap layar sendiri-sendiri.",
+          "Bermain bersama memberi banyak manfaat: mempererat hubungan, melatih anak bergiliran dan menerima kekalahan, serta menciptakan kenangan yang menyenangkan. Permainan berikut dipilih karena bisa dimainkan di dalam rumah dan dinikmati oleh berbagai usia."
+        ]
+      },
+      {
+        "id": "tradisional",
+        "title": "Permainan tradisional yang tak lekang waktu",
+        "content": [
+          "Banyak permainan masa kecil orang tua dan kakek nenek tetap seru dimainkan hari ini, sekaligus mengenalkan budaya kepada anak:"
+        ],
+        "bulletPoints": [
+          "1. Congklak: melatih berhitung dan strategi. Cocok dimainkan anak dengan kakek atau nenek yang mungkin punya trik jitu.",
+          "2. Bekel: melatih koordinasi tangan dan mata. Bisa dimainkan di lantai ruang tamu.",
+          "3. Tebak kata dengan gerakan: satu orang memperagakan kata tanpa bicara, yang lain menebak. Seru untuk semua usia.",
+          "4. Petak umpet di dalam rumah: aturannya sama, tapi area dibatasi di ruangan yang aman."
+        ],
+        "tipBox": {
+          "title": "Ajak kakek dan nenek bercerita",
+          "text": "Minta kakek atau nenek mengajarkan permainan masa kecil mereka. Selain bermain, anak juga mendengar cerita tentang masa lalu keluarga.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "papan",
+        "title": "Permainan papan dan kartu",
+        "content": [
+          "Permainan papan dan kartu melatih strategi, kesabaran, dan kemampuan menerima kalah menang:"
+        ],
+        "bulletPoints": [
+          "5. Ular tangga: mudah dipahami anak kecil dan melatih berhitung.",
+          "6. Kartu memori: susun kartu terbalik dan cari pasangan yang sama. Anak kecil sering mengejutkan orang dewasa dengan ingatan mereka.",
+          "7. Monopoli atau permainan jual beli: cocok untuk anak yang lebih besar, sekaligus mengenalkan konsep uang dan keputusan."
+        ]
+      },
+      {
+        "id": "kreatif",
+        "title": "Permainan kreatif dan aktif",
+        "content": [
+          "Untuk keluarga yang ingin bergerak atau berkreasi bersama:"
+        ],
+        "bulletPoints": [
+          "8. Membangun benteng: gunakan kardus, selimut, dan bantal untuk membangun benteng bersama, lalu jadikan tempat membaca atau makan camilan.",
+          "9. Lomba memasak sederhana: bagi keluarga menjadi tim dan buat roti lapis atau hiasan kue dengan bahan yang sama. Juri bisa menilai kreativitas, bukan hanya rasa."
+        ]
+      },
+      {
+        "id": "digital",
+        "title": "Permainan digital yang dimainkan bersama",
+        "content": [
+          "Game di HP atau tablet tidak harus membuat anggota keluarga terpisah. Kuncinya adalah memilih game yang bisa dimainkan bergantian dan ditonton bersama, sehingga semua orang terlibat dan bersorak.",
+          "10. Turnamen game memori: **Fruit Match: Memory Puzzle** cocok untuk dimainkan bergiliran. Setiap anggota keluarga memainkan satu level, lalu bandingkan siapa yang paling sedikit membalik kartu atau paling cepat menyelesaikannya. Gambar buah yang cerah dan aturan yang sederhana membuat anak kecil hingga kakek nenek bisa ikut bermain. Game ini juga bisa dimainkan offline, jadi tidak bergantung pada koneksi internet.",
+          "Agar tetap seimbang, jadikan permainan digital sebagai salah satu sesi, bukan satu-satunya kegiatan. Tablet dengan casing anti-banting juga membuat perangkat lebih aman saat dioper dari tangan ke tangan."
+        ],
+        "tipBox": {
+          "title": "Aturan layar bersama",
+          "text": "Saat permainan digital, letakkan perangkat di tengah agar semua bisa melihat. Bermain bergantian sambil ditonton bersama terasa jauh lebih menyenangkan daripada masing-masing bermain sendiri.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "tips",
+        "title": "Tips agar permainan keluarga berjalan lancar",
+        "content": [
+          "Beberapa hal kecil membuat waktu bermain lebih menyenangkan bagi semua:"
+        ],
+        "bulletPoints": [
+          "Pilih permainan yang sesuai dengan usia termuda, atau buat aturan khusus agar anak kecil tetap punya kesempatan menang.",
+          "Biarkan anak bergiliran memilih permainan.",
+          "Ajarkan cara menang dan kalah dengan baik: memberi selamat kepada pemenang dan tidak mengejek yang kalah.",
+          "Letakkan HP pribadi di satu tempat selama waktu bermain bersama.",
+          "Siapkan camilan dan minuman agar suasana lebih santai."
+        ]
+      },
+      {
+        "id": "rutinitas",
+        "title": "Menjadikannya tradisi keluarga",
+        "content": [
+          "Pilih satu waktu tetap, misalnya Sabtu sore atau Minggu pagi, sebagai waktu bermain keluarga. Tradisi kecil yang konsisten memberi anak sesuatu untuk dinantikan dan menjadi kenangan yang mereka bawa hingga dewasa. Tidak perlu lama, satu atau dua jam sudah cukup untuk membuat akhir pekan terasa istimewa."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Permainan apa yang cocok untuk anak usia 4 tahun dan orang dewasa?",
+        "a": "Kartu memori, ular tangga, tebak kata dengan gerakan, dan membangun benteng cocok dimainkan bersama berbagai usia."
+      },
+      {
+        "q": "Apakah game di HP bisa menjadi permainan keluarga?",
+        "a": "Bisa, jika dimainkan bergantian dan ditonton bersama, bukan masing-masing di perangkat sendiri."
+      },
+      {
+        "q": "Bagaimana mengajari anak menerima kekalahan?",
+        "a": "Beri contoh dengan memberi selamat saat Anda kalah, dan puji usaha anak, bukan hanya kemenangannya."
+      },
+      {
+        "q": "Berapa lama waktu bermain keluarga yang ideal?",
+        "a": "Satu sampai dua jam di akhir pekan sudah cukup, yang terpenting rutin dan menyenangkan."
+      }
+    ],
+    "titleEn": "10 Weekend Family Games at Home That Everyone Can Enjoy",
+    "metaTitleEn": "10 Weekend Family Games to Play at Home",
+    "metaDescriptionEn": "Weekends at home need not be boring. Try 10 family games for kids, parents, and grandparents, from traditional games and board games to digital games played together.",
+    "keywordsEn": [
+      "family games at home",
+      "weekend family ideas",
+      "traditional children's games",
+      "family game night",
+      "activities with kids"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Lists ten indoor family games across traditional Indonesian games, board and card games, creative activities, and a turn-based memory game tournament, with tips for fair play and building a weekly family tradition.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why playing together matters",
+        "content": [
+          "Busy weeks leave little family time, and unplanned weekends often dissolve into separate screens. Playing together strengthens bonds and teaches turn-taking and good sportsmanship."
+        ]
+      },
+      {
+        "id": "traditional",
+        "title": "Timeless traditional games",
+        "content": [
+          "Games that also share culture:"
+        ],
+        "bulletPoints": [
+          "1. Congklak (mancala), for counting and strategy.",
+          "2. Bekel (jacks), for hand-eye coordination.",
+          "3. Charades.",
+          "4. Indoor hide and seek within safe rooms."
+        ],
+        "tipBox": {
+          "title": "Let grandparents tell stories",
+          "text": "Ask grandparents to teach childhood games and share family history.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "board",
+        "title": "Board and card games",
+        "content": [
+          "For strategy and patience:"
+        ],
+        "bulletPoints": [
+          "5. Snakes and ladders.",
+          "6. Memory cards.",
+          "7. Monopoly-style trading games for older kids."
+        ]
+      },
+      {
+        "id": "creative",
+        "title": "Creative and active games",
+        "content": [
+          "For making and moving:"
+        ],
+        "bulletPoints": [
+          "8. Build a blanket-and-cardboard fort.",
+          "9. A simple team cooking contest judged on creativity."
+        ]
+      },
+      {
+        "id": "digital",
+        "title": "Digital games played together",
+        "content": [
+          "10. A memory game tournament: take turns playing levels of **Fruit Match: Memory Puzzle** and compare flips or times. Bright fruit and simple rules suit everyone from toddlers to grandparents, and it works offline. Keep it one session among many, and use a sturdy tablet case."
+        ],
+        "tipBox": {
+          "title": "Shared-screen rule",
+          "text": "Put the device in the middle so everyone can watch and cheer.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "tips",
+        "title": "Tips for smooth family play",
+        "content": [
+          "Small things help:"
+        ],
+        "bulletPoints": [
+          "Choose games suited to the youngest or adapt rules.",
+          "Let children take turns choosing.",
+          "Teach gracious winning and losing.",
+          "Park personal phones during play.",
+          "Have snacks ready."
+        ]
+      },
+      {
+        "id": "tradition",
+        "title": "Make it a family tradition",
+        "content": [
+          "Pick a regular slot like Saturday afternoon. One or two hours is enough to make weekends special."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Which games suit a 4-year-old and adults together?",
+        "a": "Memory cards, snakes and ladders, charades, and fort building."
+      },
+      {
+        "q": "Can phone games be family games?",
+        "a": "Yes, when played in turns and watched together."
+      },
+      {
+        "q": "How do I teach kids to lose well?",
+        "a": "Model congratulating winners and praise effort, not just victories."
+      },
+      {
+        "q": "How long should family game time be?",
+        "a": "One to two hours at the weekend, kept regular and fun."
+      }
+    ],
+    "coverImage": "/images/apps/fruity-merge-3d-match-puzzle/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengenalkan-warna-dan-bentuk-pada-balita-urutan-belajar-dan-12-permainan-sederhana",
+    "slugEn": "teaching-colours-and-shapes-to-toddlers-learning-steps-and-12-simple-games",
+    "targetAppSlug": "baby-shark-abc-kids-learning",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-stylus",
+      "kids-tablet"
+    ],
+    "publishedDate": "2026-12-03T09:45:00+07:00",
+    "title": "Mengenalkan Warna dan Bentuk pada Balita: Urutan Belajar dan 12 Permainan Sederhana",
+    "metaTitle": "Kenalkan Warna & Bentuk pada Balita: 12 Permainan",
+    "metaDescription": "Warna dan bentuk adalah fondasi penting sebelum anak belajar huruf dan angka. Pelajari urutan mengenalkannya sesuai usia, kesalahan yang sering terjadi, dan 12 permainan sederhana dengan barang di rumah.",
+    "keywords": [
+      "mengenalkan warna pada balita",
+      "belajar bentuk untuk anak",
+      "permainan warna anak",
+      "kegiatan edukasi balita",
+      "belajar mengenal bentuk geometri anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa warna dan bentuk penting",
+        "content": [
+          "Mengenal warna dan bentuk bukan sekadar hafalan nama. Saat anak membedakan merah dari biru atau lingkaran dari segitiga, ia sedang melatih kemampuan mengamati, membandingkan, dan mengelompokkan. Kemampuan ini adalah dasar untuk mengenal huruf, angka, dan konsep matematika di kemudian hari.",
+          "Bentuk huruf sendiri tersusun dari garis lurus, lengkung, dan lingkaran. Anak yang terbiasa membedakan bentuk akan lebih mudah membedakan huruf yang mirip, seperti b dan d atau O dan Q."
+        ]
+      },
+      {
+        "id": "urutan",
+        "title": "Urutan belajar sesuai usia",
+        "content": [
+          "Setiap anak berkembang dengan kecepatannya sendiri. Panduan berikut hanya gambaran umum:"
+        ],
+        "bulletPoints": [
+          "Sekitar 18 bulan sampai 2 tahun: mencocokkan benda dengan warna yang sama, meskipun belum bisa menyebut namanya.",
+          "Sekitar 2 sampai 3 tahun: menunjuk warna saat diminta, lalu mulai menyebut beberapa warna dasar. Mengenal bentuk sederhana seperti lingkaran dan kotak.",
+          "Sekitar 3 sampai 4 tahun: menyebut warna dasar dengan benar dan mengenal segitiga, persegi panjang, dan bintang.",
+          "Sekitar 4 sampai 5 tahun: mengenal warna campuran seperti ungu dan oranye, serta bentuk lain seperti oval, belah ketupat, dan hati."
+        ],
+        "tipBox": {
+          "title": "Memahami sebelum menyebut",
+          "text": "Anak biasanya bisa menunjuk warna yang benar sebelum bisa menyebut namanya. Jika anak bisa menunjuk bola merah saat diminta, itu sudah kemajuan besar.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "cara",
+        "title": "Cara mengenalkan yang efektif",
+        "content": [
+          "Mulailah dengan satu warna atau satu bentuk dalam satu waktu. Mengenalkan banyak warna sekaligus sering membuat anak bingung. Fokus pada satu warna selama beberapa hari, misalnya merah, dan temukan benda merah di sekitar rumah.",
+          "Gunakan kata warna dan bentuk dalam percakapan sehari-hari. Daripada bertanya \"Ini warna apa?\" terus-menerus seperti ujian, lebih baik menyebutkan secara alami: \"Kamu mau cangkir biru atau cangkir kuning?\" atau \"Lihat, roda mobilnya bulat seperti lingkaran.\""
+        ]
+      },
+      {
+        "id": "warna",
+        "title": "Permainan mengenal warna",
+        "content": [
+          "Gunakan benda-benda yang ada di rumah untuk permainan berikut:"
+        ],
+        "bulletPoints": [
+          "1. Memilah warna: siapkan beberapa mangkuk berwarna dan minta anak memasukkan mainan atau kancing sesuai warnanya.",
+          "2. Berburu warna: sebutkan satu warna, lalu cari benda dengan warna itu di seluruh rumah.",
+          "3. Jalan-jalan warna: saat berjalan di luar, hitung mobil merah atau bunga kuning yang terlihat.",
+          "4. Mencampur warna: dengan cat air atau pewarna makanan, campurkan dua warna dasar dan lihat warna baru yang muncul.",
+          "5. Lampu lalu lintas: gunakan kertas merah, kuning, dan hijau untuk bermain berhenti, pelan, dan jalan.",
+          "6. Menyusun pelangi: urutkan kertas atau benda berwarna seperti urutan pelangi."
+        ]
+      },
+      {
+        "id": "bentuk",
+        "title": "Permainan mengenal bentuk",
+        "content": [
+          "Bentuk bisa ditemukan di mana-mana. Permainan berikut membantu anak melihatnya:"
+        ],
+        "bulletPoints": [
+          "7. Berburu bentuk: cari benda berbentuk lingkaran seperti piring dan jam, atau persegi seperti jendela dan buku.",
+          "8. Cetakan kue: gunakan cetakan berbentuk untuk plastisin atau adonan kue.",
+          "9. Bentuk dari tubuh: bentuk lingkaran dengan tangan, atau berbaring bersama untuk membentuk segitiga.",
+          "10. Stempel bentuk: potong spons atau kentang menjadi bentuk sederhana, celupkan ke cat, dan buat stempel di kertas.",
+          "11. Mencocokkan bayangan: gambar garis luar bentuk di kertas, lalu minta anak meletakkan benda yang bentuknya cocok.",
+          "12. Menyusun gambar dari bentuk: gunakan potongan kertas berbentuk segitiga, lingkaran, dan persegi untuk membuat rumah, mobil, atau matahari."
+        ],
+        "tipBox": {
+          "title": "Ajak anak bercerita",
+          "text": "Saat anak membuat gambar dari potongan bentuk, minta ia menceritakan apa yang dibuatnya. Kegiatan ini sekaligus melatih bahasa dan imajinasi.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "kesalahan",
+        "title": "Kesalahan yang sering terjadi",
+        "content": [
+          "Beberapa kebiasaan bisa memperlambat proses belajar anak:"
+        ],
+        "bulletPoints": [
+          "Terlalu sering menguji dengan pertanyaan \"ini warna apa?\" sehingga anak merasa tertekan.",
+          "Mengenalkan terlalu banyak warna atau bentuk sekaligus.",
+          "Hanya memakai gambar di buku atau layar, tanpa benda nyata yang bisa dipegang.",
+          "Langsung mengoreksi dengan nada kecewa saat anak salah menyebut.",
+          "Membandingkan dengan anak lain yang sudah lebih dulu bisa."
+        ]
+      },
+      {
+        "id": "lanjut",
+        "title": "Dari warna dan bentuk ke huruf",
+        "content": [
+          "Setelah anak mengenal bentuk dasar, ia siap melihat bahwa huruf juga tersusun dari bentuk. Huruf O adalah lingkaran, huruf A seperti segitiga dengan garis di tengah, dan huruf L adalah dua garis lurus yang bertemu.",
+          "**Baby Shark ABC: Kids Learning** dapat menjadi jembatan ke tahap ini. Aplikasi ini mengajarkan huruf A sampai Z dengan audio bunyi huruf yang jelas dan animasi hiu kecil yang ceria. Ajak anak memperhatikan bentuk setiap huruf: \"Lihat, huruf O bulat seperti lingkaran yang kita cari tadi.\" Navigasinya sederhana untuk tangan kecil dan bisa dimainkan offline. Stylus berujung tebal membantu anak yang mulai belajar menelusuri bentuk huruf di layar.",
+          "Tetap batasi waktu layar dan pastikan sebagian besar kegiatan belajar warna dan bentuk dilakukan dengan benda nyata."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Usia berapa anak biasanya bisa menyebut warna?",
+        "a": "Banyak anak mulai menyebut beberapa warna dasar di sekitar usia 2 sampai 3 tahun, tapi setiap anak berbeda."
+      },
+      {
+        "q": "Warna apa yang sebaiknya dikenalkan pertama?",
+        "a": "Warna dasar yang kontras seperti merah, kuning, dan biru biasanya paling mudah dikenali."
+      },
+      {
+        "q": "Anak saya sering tertukar menyebut warna. Apakah normal?",
+        "a": "Normal di usia balita. Terus gunakan kata warna dalam percakapan sehari-hari tanpa menekan anak."
+      },
+      {
+        "q": "Perlukah membeli mainan khusus untuk belajar warna dan bentuk?",
+        "a": "Tidak wajib. Benda di rumah seperti mangkuk, kancing, dan kertas warna sudah cukup."
+      }
+    ],
+    "titleEn": "Teaching Colours and Shapes to Toddlers: Learning Steps and 12 Simple Games",
+    "metaTitleEn": "Teach Toddlers Colours and Shapes: 12 Games",
+    "metaDescriptionEn": "Colours and shapes are key foundations before letters and numbers. Learn the typical order by age, common mistakes, and 12 simple games using items at home.",
+    "keywordsEn": [
+      "teaching colours to toddlers",
+      "shapes for kids",
+      "colour games for children",
+      "toddler learning activities",
+      "learning geometric shapes"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains why colours and shapes matter, a rough age sequence, introducing one concept at a time in natural talk, six colour games and six shape games, common mistakes, and bridging to letters with a phonics app.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why colours and shapes matter",
+        "content": [
+          "Distinguishing colours and shapes trains observation, comparison, and sorting, the groundwork for letters, numbers, and math. Letters are built from lines, curves, and circles."
+        ]
+      },
+      {
+        "id": "order",
+        "title": "A rough order by age",
+        "content": [
+          "Every child differs:"
+        ],
+        "bulletPoints": [
+          "18 months to 2: matching same-coloured objects.",
+          "2 to 3: pointing to and naming some basic colours; circles and squares.",
+          "3 to 4: naming basic colours; triangles, rectangles, stars.",
+          "4 to 5: mixed colours; ovals, diamonds, hearts."
+        ],
+        "tipBox": {
+          "title": "Understanding before naming",
+          "text": "Pointing to the right colour usually comes before naming it.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "how",
+        "title": "Effective introduction",
+        "content": [
+          "Focus on one colour or shape for a few days and use the words naturally (\"blue cup or yellow cup?\") rather than quizzing."
+        ]
+      },
+      {
+        "id": "colours",
+        "title": "Colour games",
+        "content": [
+          "Using household items:"
+        ],
+        "bulletPoints": [
+          "1. Sort objects into coloured bowls.",
+          "2. Colour hunt around the house.",
+          "3. Count red cars on walks.",
+          "4. Mix primary colours.",
+          "5. Traffic-light stop and go.",
+          "6. Arrange a rainbow."
+        ]
+      },
+      {
+        "id": "shapes",
+        "title": "Shape games",
+        "content": [
+          "Shapes are everywhere:"
+        ],
+        "bulletPoints": [
+          "7. Shape hunt.",
+          "8. Cookie cutters with play dough.",
+          "9. Body shapes.",
+          "10. Sponge or potato stamps.",
+          "11. Shadow matching outlines.",
+          "12. Build pictures from paper shapes."
+        ],
+        "tipBox": {
+          "title": "Ask for the story",
+          "text": "Have your child describe their shape picture to build language and imagination.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "mistakes",
+        "title": "Common mistakes",
+        "content": [
+          "Avoid:"
+        ],
+        "bulletPoints": [
+          "Constant quizzing.",
+          "Too many colours or shapes at once.",
+          "Only pictures, no real objects.",
+          "Disappointed corrections.",
+          "Comparing with other children."
+        ]
+      },
+      {
+        "id": "next",
+        "title": "From shapes to letters",
+        "content": [
+          "Show that O is a circle and A is like a triangle. **Baby Shark ABC: Kids Learning** teaches A to Z with clear sounds and a cheerful shark, works offline, and a chunky stylus helps with tracing. Keep most learning hands-on."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When do children usually name colours?",
+        "a": "Many start naming a few basic colours around ages 2 to 3."
+      },
+      {
+        "q": "Which colours should come first?",
+        "a": "High-contrast primaries like red, yellow, and blue."
+      },
+      {
+        "q": "My child mixes up colour names. Is that normal?",
+        "a": "Yes for toddlers; keep using colour words naturally."
+      },
+      {
+        "q": "Do I need special toys?",
+        "a": "No. Bowls, buttons, and coloured paper are enough."
+      }
+    ],
+    "coverImage": "/images/apps/baby-shark-abc-kids-learning/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengenalkan-nama-buah-dan-sayur-pada-anak-dalam-dua-bahasa-permainan-dapur-dan-pasar",
+    "slugEn": "teaching-kids-fruit-and-vegetable-names-in-two-languages-kitchen-and-market-games",
+    "targetAppSlug": "fruity-merge-3d-match-puzzle",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-case"
+    ],
+    "publishedDate": "2026-12-06T09:45:00+07:00",
+    "title": "Mengenalkan Nama Buah dan Sayur pada Anak dalam Dua Bahasa: Permainan Dapur dan Pasar",
+    "metaTitle": "Kenalkan Nama Buah & Sayur dalam Dua Bahasa",
+    "metaDescription": "Buah dan sayur adalah kosakata pertama yang mudah dikenalkan pada anak, dalam bahasa Indonesia maupun Inggris. Simak daftar kata, permainan di dapur dan pasar, serta cara membuat anak lebih mau makan sayur.",
+    "keywords": [
+      "nama buah dalam bahasa inggris untuk anak",
+      "mengenalkan sayur pada anak",
+      "kosakata buah dan sayur",
+      "anak susah makan sayur",
+      "belajar bahasa inggris anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa mulai dari buah dan sayur",
+        "content": [
+          "Buah dan sayur adalah benda yang bisa dilihat, dipegang, dicium, dan dirasakan anak setiap hari. Pengalaman yang melibatkan banyak indra seperti ini membuat kata-kata lebih mudah diingat dibandingkan belajar dari gambar saja.",
+          "Mengenalkan buah dan sayur juga punya manfaat ganda. Selain memperkaya kosakata, anak yang mengenal dan ikut mengolah bahan makanan sering lebih mau mencoba makanan baru. Ini kabar baik bagi orang tua yang anaknya susah makan sayur."
+        ]
+      },
+      {
+        "id": "daftar-buah",
+        "title": "Daftar buah yang mudah dikenalkan",
+        "content": [
+          "Mulailah dari buah yang sering ada di rumah. Sebutkan nama dalam bahasa Indonesia dan bahasa Inggris secara bergantian:"
+        ],
+        "bulletPoints": [
+          "Pisang (banana)",
+          "Apel (apple)",
+          "Jeruk (orange)",
+          "Mangga (mango)",
+          "Semangka (watermelon)",
+          "Anggur (grape)",
+          "Pepaya (papaya)",
+          "Nanas (pineapple)",
+          "Stroberi (strawberry)",
+          "Alpukat (avocado)"
+        ]
+      },
+      {
+        "id": "daftar-sayur",
+        "title": "Daftar sayur yang mudah dikenalkan",
+        "content": [
+          "Sayur bisa sedikit lebih sulit karena bentuknya kadang berubah setelah dimasak. Kenalkan saat masih mentah dan setelah dimasak:"
+        ],
+        "bulletPoints": [
+          "Wortel (carrot)",
+          "Tomat (tomato)",
+          "Bayam (spinach)",
+          "Brokoli (broccoli)",
+          "Jagung (corn)",
+          "Kentang (potato)",
+          "Timun (cucumber)",
+          "Kol atau kubis (cabbage)",
+          "Buncis (green beans)",
+          "Labu (pumpkin)"
+        ],
+        "tipBox": {
+          "title": "Sedikit demi sedikit",
+          "text": "Kenalkan tiga sampai lima kata baru per minggu. Ulangi kata yang sama setiap kali bertemu buah atau sayur itu di dapur atau saat makan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "dapur",
+        "title": "Permainan di dapur",
+        "content": [
+          "Dapur adalah ruang kelas yang menyenangkan. Libatkan anak dalam kegiatan sederhana yang aman sesuai usianya:"
+        ],
+        "bulletPoints": [
+          "Mencuci sayur: biarkan anak mencuci tomat atau wortel sambil menyebut namanya.",
+          "Tebak dengan mata tertutup: minta anak meraba atau mencium buah, lalu menebak namanya.",
+          "Menghitung buah: hitung jumlah jeruk atau pisang di keranjang dalam dua bahasa.",
+          "Mengelompokkan warna: pisahkan buah dan sayur berdasarkan warna, misalnya wortel dan jeruk di kelompok oranye.",
+          "Membuat piring pelangi: susun potongan buah berwarna-warni di piring, lalu sebutkan nama dan warnanya sebelum dimakan."
+        ]
+      },
+      {
+        "id": "pasar",
+        "title": "Belajar di pasar dan supermarket",
+        "content": [
+          "Ajak anak berbelanja dan jadikan perjalanan sebagai petualangan kosakata. Minta anak mencari buah atau sayur tertentu di daftar belanja yang diberi gambar. Biarkan anak memilih satu buah atau sayur baru setiap minggu untuk dicoba di rumah.",
+          "Di pasar tradisional, anak juga bisa belajar nama lokal buah dan sayur yang mungkin tidak ada di buku, seperti rambutan, salak, kangkung, atau pare. Ini kesempatan baik untuk mengenalkan kekayaan pangan nusantara."
+        ]
+      },
+      {
+        "id": "sayur",
+        "title": "Membantu anak lebih mau makan sayur",
+        "content": [
+          "Banyak anak menolak sayur karena rasanya asing atau teksturnya berbeda. Beberapa cara yang bisa membantu:"
+        ],
+        "bulletPoints": [
+          "Tawarkan berulang kali tanpa memaksa. Anak sering perlu mencoba makanan baru berkali-kali sebelum mau menerimanya.",
+          "Libatkan anak dalam memilih, mencuci, dan menyiapkan sayur.",
+          "Beri contoh dengan makan sayur bersama di meja makan.",
+          "Sajikan dalam bentuk menarik, misalnya wortel dipotong bentuk bintang.",
+          "Hindari menjadikan sayur sebagai hukuman atau makanan penutup sebagai hadiah."
+        ],
+        "tipBox": {
+          "title": "Kesabaran adalah kuncinya",
+          "text": "Penolakan terhadap makanan baru adalah hal yang wajar pada anak. Tetap tawarkan dalam porsi kecil dan suasana yang santai.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "game",
+        "title": "Belajar sambil bermain di layar",
+        "content": [
+          "Game dengan gambar buah yang cerah bisa menjadi pelengkap kegiatan nyata. **Fruit Match: Memory Puzzle** mengajak anak membalik kartu dan mencari pasangan gambar buah yang sama. Sambil bermain, ajak anak menyebut nama buah yang muncul dalam bahasa Indonesia dan bahasa Inggris.",
+          "Game ini juga melatih daya ingat dan fokus, dengan tingkat kesulitan yang naik bertahap. Bisa dimainkan offline, dan tablet dengan casing anti-banting membuatnya lebih aman untuk tangan kecil. Batasi sesi sekitar 10 menit, lalu lanjutkan dengan mencari buah yang sama di dapur."
+        ]
+      },
+      {
+        "id": "penutup",
+        "title": "Kosakata yang tumbuh bersama selera",
+        "content": [
+          "Mengenalkan nama buah dan sayur adalah kegiatan sederhana yang memberi banyak manfaat: kosakata dua bahasa, kebiasaan makan yang lebih sehat, dan waktu berkualitas bersama anak. Mulailah dari buah yang ada di dapur hari ini."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah boleh mengenalkan dua bahasa sekaligus?",
+        "a": "Boleh. Penelitian umumnya menunjukkan anak mampu belajar dua bahasa. Pastikan bahasa utama di rumah tetap sering dipakai."
+      },
+      {
+        "q": "Anak saya menolak semua sayur. Apa yang harus dilakukan?",
+        "a": "Tawarkan berulang kali dalam porsi kecil tanpa memaksa, libatkan anak dalam menyiapkan makanan, dan beri contoh makan sayur bersama."
+      },
+      {
+        "q": "Berapa kata baru yang sebaiknya dikenalkan per minggu?",
+        "a": "Sekitar tiga sampai lima kata per minggu, diulang dalam kegiatan sehari-hari."
+      },
+      {
+        "q": "Usia berapa anak bisa diajak membantu di dapur?",
+        "a": "Sejak sekitar usia 2 sampai 3 tahun anak bisa membantu tugas sederhana seperti mencuci sayur dengan pengawasan."
+      }
+    ],
+    "titleEn": "Teaching Kids Fruit and Vegetable Names in Two Languages: Kitchen and Market Games",
+    "metaTitleEn": "Teach Kids Fruit and Veg Names in Two Languages",
+    "metaDescriptionEn": "Fruits and vegetables are easy first words in Indonesian and English. Get word lists, kitchen and market games, and tips to help children eat more vegetables.",
+    "keywordsEn": [
+      "fruit names for kids",
+      "teaching vegetables to children",
+      "fruit and vegetable vocabulary",
+      "picky eater vegetables",
+      "english for kids"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains why produce is ideal first vocabulary, gives Indonesian-English fruit and vegetable lists, kitchen and market games, ways to encourage vegetable eating, and using a fruit memory game as a supplement.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why start with fruit and vegetables",
+        "content": [
+          "Multi-sensory experience makes words stick, and children who know and handle food are more willing to try new things."
+        ]
+      },
+      {
+        "id": "fruits",
+        "title": "Easy fruits to introduce",
+        "content": [
+          "Say both names:"
+        ],
+        "bulletPoints": [
+          "Pisang (banana)",
+          "Apel (apple)",
+          "Jeruk (orange)",
+          "Mangga (mango)",
+          "Semangka (watermelon)",
+          "Anggur (grape)",
+          "Pepaya (papaya)",
+          "Nanas (pineapple)",
+          "Stroberi (strawberry)",
+          "Alpukat (avocado)"
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Easy vegetables to introduce",
+        "content": [
+          "Show them raw and cooked:"
+        ],
+        "bulletPoints": [
+          "Wortel (carrot)",
+          "Tomat (tomato)",
+          "Bayam (spinach)",
+          "Brokoli (broccoli)",
+          "Jagung (corn)",
+          "Kentang (potato)",
+          "Timun (cucumber)",
+          "Kubis (cabbage)",
+          "Buncis (green beans)",
+          "Labu (pumpkin)"
+        ],
+        "tipBox": {
+          "title": "Little by little",
+          "text": "Three to five new words a week, repeated whenever you meet them.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "kitchen",
+        "title": "Kitchen games",
+        "content": [
+          "Safe, age-appropriate tasks:"
+        ],
+        "bulletPoints": [
+          "Wash vegetables while naming them.",
+          "Blindfold touch-and-smell guessing.",
+          "Count fruit in both languages.",
+          "Sort produce by colour.",
+          "Make a rainbow plate."
+        ]
+      },
+      {
+        "id": "market",
+        "title": "Learning at the market",
+        "content": [
+          "Use a picture shopping list, let your child pick one new item weekly, and discover local produce like rambutan, salak, kangkung, and bitter gourd."
+        ]
+      },
+      {
+        "id": "eating",
+        "title": "Encouraging vegetable eating",
+        "content": [
+          "What helps:"
+        ],
+        "bulletPoints": [
+          "Offer repeatedly without pressure.",
+          "Involve kids in choosing and preparing.",
+          "Eat vegetables together.",
+          "Serve fun shapes.",
+          "Never use vegetables as punishment or dessert as reward."
+        ],
+        "tipBox": {
+          "title": "Patience is key",
+          "text": "Rejecting new foods is normal; keep offering small portions calmly.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "game",
+        "title": "Learning on screen",
+        "content": [
+          "In **Fruit Match: Memory Puzzle**, children flip cards to match fruit; name each fruit in both languages as it appears. It builds memory and focus, works offline, and suits a sturdy tablet case. Keep sessions to about 10 minutes, then find the real fruit."
+        ]
+      },
+      {
+        "id": "closing",
+        "title": "Vocabulary that grows with taste",
+        "content": [
+          "Two-language words, healthier eating, and quality time all start with the fruit in your kitchen today."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Is it OK to teach two languages at once?",
+        "a": "Yes. Children can learn two languages; keep the home language strong."
+      },
+      {
+        "q": "My child refuses all vegetables. What now?",
+        "a": "Offer small portions repeatedly without pressure, involve them in cooking, and model eating vegetables."
+      },
+      {
+        "q": "How many new words a week?",
+        "a": "About three to five, repeated in daily life."
+      },
+      {
+        "q": "When can kids help in the kitchen?",
+        "a": "From around 2 to 3 with simple supervised tasks like washing vegetables."
+      }
+    ],
+    "coverImage": "/images/apps/fruity-merge-3d-match-puzzle/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
