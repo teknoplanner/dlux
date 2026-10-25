@@ -4271,6 +4271,18 @@ export class WorldEngine {
 
         this.npcBoatSpeed = THREE.MathUtils.lerp(this.npcBoatSpeed, targetNpcSpeed, 3.0 * delta);
 
+        // Jax obeys the same hazards as the player, so dodging them is a real way to overtake
+        for (const w of this.boatRaceWhirls) {
+          if (Math.hypot(this.npcBoatPos.x - w.pos.x, this.npcBoatPos.z - w.pos.z) < w.radius) {
+            this.npcBoatSpeed = THREE.MathUtils.lerp(this.npcBoatSpeed, 5.5, 1 - Math.exp(-3 * delta));
+          }
+        }
+        for (const obs of this.boatRaceObstacles) {
+          if (this.npcBoatSpeed > 4.0 && Math.hypot(this.npcBoatPos.x - obs.pos.x, this.npcBoatPos.z - obs.pos.z) < obs.radius + 0.9) {
+            this.npcBoatSpeed = 3.5;
+          }
+        }
+
         this.npcBoatPos.x += -Math.sin(this.npcBoatRotY) * this.npcBoatSpeed * delta;
         this.npcBoatPos.z += -Math.cos(this.npcBoatRotY) * this.npcBoatSpeed * delta;
         this.npcBoatPos.y = 0.05 + Math.sin(time * 3.8 + 1.0) * 0.04;
