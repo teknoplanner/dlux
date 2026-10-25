@@ -1967,5 +1967,732 @@ export const gearQueueArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengenal-refresh-rate-dan-touch-sampling-rate-layar-hp-untuk-game",
+    "slugEn": "refresh-rate-and-touch-sampling-rate-explained-for-mobile-gaming",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "finger-sleeves",
+      "mobile-controller"
+    ],
+    "publishedDate": "2026-12-14T09:45:00+07:00",
+    "title": "Mengenal Refresh Rate dan Touch Sampling Rate Layar HP untuk Game: Apa Bedanya dan Seberapa Penting?",
+    "metaTitle": "Refresh Rate vs Touch Sampling Rate untuk Game",
+    "metaDescription": "90Hz, 120Hz, 240Hz, apa artinya untuk main game? Pahami beda refresh rate dan touch sampling rate, kapan angka tinggi benar-benar terasa, cara mengaturnya, dan aksesori yang membantu kontrol sentuh.",
+    "keywords": [
+      "refresh rate hp",
+      "touch sampling rate",
+      "layar 120hz untuk game",
+      "hp layar 90hz",
+      "spesifikasi layar hp gaming"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "angka",
+        "title": "Angka di brosur yang sering membingungkan",
+        "content": [
+          "Saat melihat spesifikasi HP, kita sering menemukan angka seperti 90Hz, 120Hz, atau touch sampling 240Hz. Produsen menonjolkan angka ini sebagai keunggulan untuk game. Tapi apa sebenarnya artinya, dan apakah angka lebih tinggi selalu lebih baik?",
+          "Memahami dua istilah ini membantu Anda memilih HP sesuai kebutuhan, dan tidak membayar lebih untuk fitur yang mungkin tidak terlalu terasa dalam game yang Anda mainkan."
+        ]
+      },
+      {
+        "id": "refresh",
+        "title": "Apa itu refresh rate",
+        "content": [
+          "Refresh rate adalah berapa kali layar memperbarui gambar setiap detik, diukur dalam hertz (Hz). Layar 60Hz memperbarui gambar 60 kali per detik, sementara layar 120Hz memperbarui 120 kali per detik.",
+          "Semakin tinggi refresh rate, gerakan di layar terlihat semakin halus. Perbedaannya paling terasa saat menggulir halaman dan dalam game yang bergerak cepat. Banyak orang yang sudah terbiasa dengan layar 120Hz merasa layar 60Hz terlihat sedikit patah-patah."
+        ],
+        "tipBox": {
+          "title": "Refresh rate bukan FPS",
+          "text": "Refresh rate adalah kemampuan layar, sedangkan FPS adalah jumlah gambar yang dihasilkan game. Layar 120Hz hanya terasa maksimal jika game juga berjalan mendekati 120 FPS.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "touch",
+        "title": "Apa itu touch sampling rate",
+        "content": [
+          "Touch sampling rate adalah berapa kali layar memeriksa sentuhan jari setiap detik. Layar dengan touch sampling 240Hz memeriksa sentuhan 240 kali per detik. Semakin tinggi angkanya, semakin cepat HP mendeteksi ketukan dan geseran Anda.",
+          "Dalam game yang membutuhkan reaksi cepat, seperti game tembak-menembak atau game yang mengandalkan geseran presisi, touch sampling yang tinggi membuat kontrol terasa lebih responsif. Selisihnya hanya beberapa milidetik, tapi bisa terasa bagi pemain yang kompetitif."
+        ]
+      },
+      {
+        "id": "beda",
+        "title": "Perbedaan keduanya secara sederhana",
+        "content": [
+          "Bayangkan refresh rate sebagai seberapa sering layar menunjukkan gambar baru kepada Anda, sedangkan touch sampling rate adalah seberapa sering layar mendengarkan jari Anda. Yang satu berkaitan dengan apa yang Anda lihat, yang lain berkaitan dengan seberapa cepat perintah Anda diterima."
+        ]
+      },
+      {
+        "id": "perlu",
+        "title": "Seberapa tinggi yang Anda butuhkan",
+        "content": [
+          "Kebutuhan setiap pemain berbeda:"
+        ],
+        "bulletPoints": [
+          "Pemain santai dan game kasual: 60Hz sampai 90Hz sudah nyaman.",
+          "Pemain rutin yang suka game aksi: 90Hz sampai 120Hz memberi peningkatan yang terasa.",
+          "Pemain kompetitif: 120Hz atau lebih dengan touch sampling tinggi, asalkan prosesor mampu menjalankan game dengan FPS tinggi.",
+          "Pengguna yang mengutamakan baterai: pilih HP dengan refresh rate adaptif yang bisa turun otomatis."
+        ],
+        "tipBox": {
+          "title": "Perhatikan prosesornya",
+          "text": "Layar 120Hz di HP dengan prosesor lemah tidak banyak membantu, karena game tidak bisa mencapai FPS tinggi. Layar dan prosesor harus seimbang.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "baterai",
+        "title": "Dampak pada baterai dan panas",
+        "content": [
+          "Refresh rate tinggi membutuhkan lebih banyak daya. Banyak HP modern memakai refresh rate adaptif yang menyesuaikan dengan konten: tinggi saat bermain atau menggulir, rendah saat menampilkan gambar diam. Jika baterai cepat habis, coba atur refresh rate ke mode otomatis atau standar di pengaturan layar."
+        ]
+      },
+      {
+        "id": "atur",
+        "title": "Cara memeriksa dan mengatur",
+        "content": [
+          "Buka Pengaturan, lalu Layar, dan cari opsi kecepatan refresh atau kehalusan gerakan. Di sana Anda bisa memilih antara standar, tinggi, atau otomatis. Sebagian game juga memiliki pengaturan FPS sendiri di menu grafis. Aktifkan opsi FPS tinggi jika HP mendukung dan suhu tetap nyaman."
+        ]
+      },
+      {
+        "id": "aksesori",
+        "title": "Aksesori yang membantu kontrol sentuh",
+        "content": [
+          "Selain spesifikasi layar, kondisi jari juga memengaruhi responsivitas. Jari yang berkeringat bisa membuat geseran tersendat. Sarung jari gaming yang tipis membantu jari meluncur lebih lancar dan mengurangi keringat di layar. Untuk game tertentu, controller HP memberi tombol fisik yang lebih presisi.",
+          "Game dengan kontrol geser seperti **Stickman Penalty Rush** adalah contoh yang baik untuk merasakan perbedaan ini. Arah dan kekuatan tendangan ditentukan oleh geseran jari, jadi layar yang responsif dan jari yang meluncur lancar membuat tendangan lebih akurat. Game ini juga ringan dan bisa dimainkan offline, sehingga tetap lancar di HP dengan layar 60Hz."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah layar 120Hz wajib untuk main game?",
+        "a": "Tidak wajib. Layar 60Hz atau 90Hz tetap nyaman untuk game kasual. 120Hz terasa manfaatnya di game cepat dan kompetitif."
+      },
+      {
+        "q": "Apa beda refresh rate dan touch sampling rate?",
+        "a": "Refresh rate adalah seberapa sering layar memperbarui gambar, touch sampling rate adalah seberapa sering layar membaca sentuhan."
+      },
+      {
+        "q": "Apakah refresh rate tinggi boros baterai?",
+        "a": "Ya, lebih boros. Gunakan mode adaptif atau otomatis untuk menghemat baterai."
+      },
+      {
+        "q": "Kenapa HP 120Hz saya tetap terasa patah-patah di game?",
+        "a": "Kemungkinan game tidak mencapai FPS tinggi karena keterbatasan prosesor, panas, atau pengaturan grafis."
+      }
+    ],
+    "titleEn": "Refresh Rate and Touch Sampling Rate Explained for Mobile Gaming",
+    "metaTitleEn": "Refresh Rate vs Touch Sampling for Gaming",
+    "metaDescriptionEn": "90Hz, 120Hz, 240Hz: what do they mean for gaming? Understand refresh rate versus touch sampling rate, when higher numbers matter, how to set them, and accessories that help touch control.",
+    "keywordsEn": [
+      "phone refresh rate",
+      "touch sampling rate",
+      "120hz screen gaming",
+      "90hz phone",
+      "gaming phone display specs"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Defines refresh rate and touch sampling rate, how they differ from FPS, what levels suit different players, the processor balance, battery impact, how to adjust settings, and accessories that improve touch control.",
+    "sectionsEn": [
+      {
+        "id": "numbers",
+        "title": "Confusing brochure numbers",
+        "content": [
+          "Understanding these terms helps you avoid paying for features you may not notice."
+        ]
+      },
+      {
+        "id": "refresh",
+        "title": "What refresh rate is",
+        "content": [
+          "How many times per second the screen updates. Higher is smoother, most noticeable when scrolling and in fast games."
+        ],
+        "tipBox": {
+          "title": "Not the same as FPS",
+          "text": "A 120Hz screen only shines when the game runs near 120 FPS.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "touch",
+        "title": "What touch sampling rate is",
+        "content": [
+          "How often the screen checks for touch. Higher rates make controls more responsive by a few milliseconds."
+        ]
+      },
+      {
+        "id": "difference",
+        "title": "The difference simply",
+        "content": [
+          "Refresh rate is how often the screen shows you something new; touch sampling is how often it listens to your finger."
+        ]
+      },
+      {
+        "id": "need",
+        "title": "How much you need",
+        "content": [
+          "By player type:"
+        ],
+        "bulletPoints": [
+          "Casual: 60 to 90Hz.",
+          "Regular action players: 90 to 120Hz.",
+          "Competitive: 120Hz+ with high touch sampling and a capable processor.",
+          "Battery-focused: adaptive refresh."
+        ],
+        "tipBox": {
+          "title": "Mind the processor",
+          "text": "A fast screen with a weak chip will not reach high FPS.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "battery",
+        "title": "Battery and heat",
+        "content": [
+          "Higher rates use more power; adaptive or standard modes help."
+        ]
+      },
+      {
+        "id": "settings",
+        "title": "Checking and adjusting",
+        "content": [
+          "Find refresh options in Display settings and enable high FPS in-game if temperatures stay comfortable."
+        ]
+      },
+      {
+        "id": "accessories",
+        "title": "Accessories for touch control",
+        "content": [
+          "Finger sleeves reduce sweat drag and controllers add physical buttons. Swipe-controlled games like **Stickman Penalty Rush** show the difference, yet run smoothly offline even at 60Hz."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Is 120Hz required for gaming?",
+        "a": "No; it matters most in fast competitive games."
+      },
+      {
+        "q": "Refresh rate versus touch sampling?",
+        "a": "Image updates versus touch reads per second."
+      },
+      {
+        "q": "Does high refresh drain battery?",
+        "a": "Yes; use adaptive mode."
+      },
+      {
+        "q": "Why does my 120Hz phone still stutter?",
+        "a": "The game may not reach high FPS due to the processor, heat, or settings."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengenal-posisi-dan-peran-pemain-dalam-sepak-bola-panduan-untuk-pemula",
+    "slugEn": "football-positions-and-roles-explained-a-beginners-guide",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "lifestyle",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "mobile-controller",
+      "finger-sleeves"
+    ],
+    "publishedDate": "2026-12-23T09:45:00+07:00",
+    "title": "Mengenal Posisi dan Peran Pemain dalam Sepak Bola: Panduan untuk Pemula",
+    "metaTitle": "Posisi & Peran Pemain Sepak Bola untuk Pemula",
+    "metaDescription": "Bingung membedakan bek sayap, gelandang bertahan, dan penyerang tengah? Pelajari posisi dalam sepak bola, tugas setiap peran, formasi yang sering dipakai, dan cara memahaminya lewat menonton maupun bermain.",
+    "keywords": [
+      "posisi dalam sepak bola",
+      "peran pemain sepak bola",
+      "formasi sepak bola",
+      "tugas gelandang bertahan",
+      "istilah sepak bola untuk pemula"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "pengantar",
+        "title": "Lebih seru jika paham posisi",
+        "content": [
+          "Menonton sepak bola akan jauh lebih menyenangkan jika Anda memahami peran setiap pemain. Komentator sering menyebut istilah seperti bek sayap, gelandang bertahan, atau penyerang sayap, dan tanpa memahaminya, pertandingan bisa terasa seperti 22 orang mengejar satu bola.",
+          "Setiap tim terdiri dari 11 pemain di lapangan: satu penjaga gawang dan sepuluh pemain lapangan. Kesepuluh pemain itu dibagi ke dalam tiga lini utama, yaitu belakang, tengah, dan depan. Setiap lini punya tugas yang berbeda, tapi semuanya harus bekerja sama."
+        ]
+      },
+      {
+        "id": "kiper",
+        "title": "Penjaga gawang",
+        "content": [
+          "Penjaga gawang adalah satu-satunya pemain yang boleh menyentuh bola dengan tangan, itupun hanya di dalam kotak penalti. Tugas utamanya mencegah bola masuk ke gawang. Penjaga gawang modern juga diharapkan pandai mengoper dengan kaki untuk memulai serangan dari belakang.",
+          "Selain refleks, penjaga gawang perlu kemampuan membaca permainan, mengatur posisi rekan di lini belakang, dan keberanian keluar dari gawang untuk memotong umpan. Dalam adu penalti, penjaga gawang menjadi sorotan utama karena harus menebak arah tendangan dalam sepersekian detik."
+        ]
+      },
+      {
+        "id": "belakang",
+        "title": "Lini belakang",
+        "content": [
+          "Lini belakang bertugas menghentikan serangan lawan sebelum mendekati gawang:"
+        ],
+        "bulletPoints": [
+          "Bek tengah: menjaga area di depan gawang, memenangkan duel udara, dan menghalau bola dari penyerang lawan.",
+          "Bek sayap kanan dan kiri: menjaga sisi lapangan, sekaligus sering ikut membantu serangan dengan berlari ke depan dan memberi umpan silang.",
+          "Wing-back: variasi bek sayap yang lebih menyerang, biasanya dipakai dalam formasi dengan tiga bek tengah."
+        ],
+        "tipBox": {
+          "title": "Komunikasi adalah kunci",
+          "text": "Pemain belakang harus saling berbicara untuk menjaga garis pertahanan tetap rapi. Satu pemain yang terlambat naik atau turun bisa membuat lawan lolos dari jebakan offside.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "tengah",
+        "title": "Lini tengah",
+        "content": [
+          "Lini tengah sering disebut jantung permainan karena menghubungkan pertahanan dan serangan:"
+        ],
+        "bulletPoints": [
+          "Gelandang bertahan: berdiri di depan lini belakang, merebut bola, dan memutus serangan lawan.",
+          "Gelandang tengah: mengatur tempo permainan, mengalirkan bola, dan membantu bertahan maupun menyerang.",
+          "Gelandang serang: bermain di belakang penyerang, menciptakan peluang dengan umpan terobosan, dan sesekali mencetak gol.",
+          "Gelandang sayap: bermain di sisi lapangan, mengandalkan kecepatan dan umpan silang."
+        ]
+      },
+      {
+        "id": "depan",
+        "title": "Lini depan",
+        "content": [
+          "Lini depan bertugas mencetak gol. Penyerang tengah biasanya berada paling dekat dengan gawang lawan, mengandalkan penyelesaian akhir, sundulan, dan kemampuan menahan bola. Penyerang sayap bermain dari sisi lapangan, menggiring bola melewati bek, lalu menembak atau memberi umpan.",
+          "Ada juga peran penyerang bayangan atau false nine, yaitu penyerang yang sering turun ke lini tengah untuk menarik bek lawan keluar dari posisinya, sehingga membuka ruang bagi rekan setim."
+        ]
+      },
+      {
+        "id": "formasi",
+        "title": "Formasi yang sering dipakai",
+        "content": [
+          "Formasi ditulis dengan angka yang menunjukkan jumlah pemain di setiap lini, dimulai dari belakang, tanpa menghitung penjaga gawang. Beberapa formasi yang populer:"
+        ],
+        "bulletPoints": [
+          "4-4-2: empat bek, empat gelandang, dua penyerang. Seimbang dan mudah dipahami.",
+          "4-3-3: empat bek, tiga gelandang, tiga penyerang. Mengandalkan serangan dari sayap.",
+          "4-2-3-1: dua gelandang bertahan melindungi lini belakang, satu penyerang tunggal di depan.",
+          "3-5-2: tiga bek tengah, lima gelandang termasuk wing-back, dua penyerang."
+        ],
+        "tipBox": {
+          "title": "Formasi bersifat dinamis",
+          "text": "Saat menyerang dan bertahan, bentuk formasi bisa berubah. Angka formasi hanya gambaran posisi dasar.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "belajar",
+        "title": "Cara cepat memahami posisi",
+        "content": [
+          "Saat menonton pertandingan, cobalah fokus pada satu pemain selama beberapa menit dan perhatikan ke mana ia bergerak saat timnya menyerang dan bertahan. Cara ini membantu memahami tugas setiap posisi lebih cepat daripada hanya mengikuti bola.",
+          "Bermain langsung, meskipun hanya di lapangan kecil bersama teman, juga membantu. Anda akan merasakan sendiri bagaimana sulitnya menjaga posisi dan pentingnya kerja sama tim."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Merasakan duel kiper dan penendang lewat game",
+        "content": [
+          "Momen yang paling mempertemukan dua posisi secara langsung adalah adu penalti: satu penendang melawan satu penjaga gawang. **Stickman Penalty Rush** menghadirkan duel ini di HP. Anda bisa bergantian menjadi penendang yang menentukan arah dan kekuatan tendangan, lalu menjadi kiper yang harus menebak arah bola.",
+          "Game ini ringan, bisa dimainkan offline, dan cocok untuk mengisi waktu sebelum atau setelah menonton pertandingan. Sarung jari gaming membantu geseran lebih lancar, sementara controller HP bisa menjadi pilihan bagi yang lebih suka tombol fisik di game sepak bola lainnya."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa jumlah pemain dalam satu tim sepak bola?",
+        "a": "Sebelas pemain di lapangan, terdiri dari satu penjaga gawang dan sepuluh pemain lapangan."
+      },
+      {
+        "q": "Apa beda bek sayap dan wing-back?",
+        "a": "Wing-back lebih menyerang dan biasanya dipakai dalam formasi tiga bek tengah, sedangkan bek sayap lebih seimbang antara bertahan dan menyerang."
+      },
+      {
+        "q": "Apa arti formasi 4-3-3?",
+        "a": "Empat pemain bertahan, tiga gelandang, dan tiga penyerang, tidak termasuk penjaga gawang."
+      },
+      {
+        "q": "Posisi apa yang cocok untuk pemula?",
+        "a": "Coba beberapa posisi terlebih dahulu. Banyak pemula mulai dari posisi yang sesuai dengan kelebihannya, seperti kecepatan untuk posisi sayap."
+      }
+    ],
+    "titleEn": "Football Positions and Roles Explained: A Beginner's Guide",
+    "metaTitleEn": "Football Positions and Roles for Beginners",
+    "metaDescriptionEn": "Confused by full-backs, defensive midfielders, and centre-forwards? Learn football positions, each role's duties, popular formations, and how to understand them by watching and playing.",
+    "keywordsEn": [
+      "football positions",
+      "football player roles",
+      "football formations",
+      "defensive midfielder role",
+      "football terms for beginners"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains the goalkeeper, defenders, midfielders, and forwards, popular formations like 4-4-2 and 4-3-3, tips for learning positions by watching one player, and experiencing the keeper-versus-taker duel in a penalty game.",
+    "sectionsEn": [
+      {
+        "id": "intro",
+        "title": "Understanding positions makes it fun",
+        "content": [
+          "Eleven players per side: a goalkeeper and ten outfield players across defence, midfield, and attack."
+        ]
+      },
+      {
+        "id": "keeper",
+        "title": "Goalkeeper",
+        "content": [
+          "The only player allowed to handle the ball in the box, now also expected to pass well, organise the defence, and face penalties."
+        ]
+      },
+      {
+        "id": "defence",
+        "title": "Defence",
+        "content": [
+          "Roles:"
+        ],
+        "bulletPoints": [
+          "Centre-backs guard the area and win headers.",
+          "Full-backs defend the flanks and overlap.",
+          "Wing-backs are more attacking, used with three centre-backs."
+        ],
+        "tipBox": {
+          "title": "Communication matters",
+          "text": "One defender out of line can break the offside trap.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "midfield",
+        "title": "Midfield",
+        "content": [
+          "The heart of the game:"
+        ],
+        "bulletPoints": [
+          "Defensive midfielders win the ball.",
+          "Central midfielders control tempo.",
+          "Attacking midfielders create chances.",
+          "Wide midfielders use pace and crosses."
+        ]
+      },
+      {
+        "id": "attack",
+        "title": "Attack",
+        "content": [
+          "Centre-forwards finish and hold up play, wingers beat defenders, and false nines drop deep to open space."
+        ]
+      },
+      {
+        "id": "formations",
+        "title": "Common formations",
+        "content": [
+          "Counted from the back, excluding the keeper:"
+        ],
+        "bulletPoints": [
+          "4-4-2: balanced.",
+          "4-3-3: wing-focused.",
+          "4-2-3-1: two holding midfielders.",
+          "3-5-2: three centre-backs with wing-backs."
+        ],
+        "tipBox": {
+          "title": "Formations shift",
+          "text": "Shapes change between attacking and defending.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "learn",
+        "title": "Learning positions quickly",
+        "content": [
+          "Watch one player for a few minutes and play small-sided games yourself."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "The keeper-versus-taker duel in a game",
+        "content": [
+          "**Stickman Penalty Rush** lets you alternate between shooting and saving, offline and lightweight. Finger sleeves help swipes; controllers suit other football games."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How many players are on a team?",
+        "a": "Eleven: one goalkeeper and ten outfield players."
+      },
+      {
+        "q": "Full-back versus wing-back?",
+        "a": "Wing-backs are more attacking, usually in back-three systems."
+      },
+      {
+        "q": "What does 4-3-3 mean?",
+        "a": "Four defenders, three midfielders, three forwards."
+      },
+      {
+        "q": "Which position suits beginners?",
+        "a": "Try several and play to your strengths."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-mengatur-waktu-main-game-untuk-orang-dewasa-agar-tidak-mengganggu-kerja-dan-keluarga",
+    "slugEn": "how-adults-can-manage-gaming-time-without-hurting-work-and-family",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "gaming-tws",
+      "phone-cooler"
+    ],
+    "publishedDate": "2026-12-31T09:45:00+07:00",
+    "title": "Cara Mengatur Waktu Main Game untuk Orang Dewasa agar Tidak Mengganggu Kerja dan Keluarga",
+    "metaTitle": "Atur Waktu Main Game untuk Orang Dewasa",
+    "metaDescription": "Main game adalah hobi yang sah untuk orang dewasa, asalkan tidak mengorbankan tidur, pekerjaan, dan waktu bersama keluarga. Pelajari cara menetapkan jadwal bermain, memilih game sesuai waktu luang, dan menjaga keseimbangan di tahun baru.",
+    "keywords": [
+      "mengatur waktu main game",
+      "main game untuk orang dewasa",
+      "hobi gaming dan pekerjaan",
+      "kecanduan game dewasa",
+      "game singkat untuk orang sibuk"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "hobi",
+        "title": "Gaming adalah hobi yang sah",
+        "content": [
+          "Banyak orang dewasa menikmati main game untuk melepas penat setelah bekerja, sama seperti orang lain menikmati membaca, menonton film, atau berolahraga. Game bisa menjadi hiburan, cara bersosialisasi dengan teman, bahkan latihan berpikir strategis.",
+          "Masalah muncul ketika waktu bermain mulai menggeser hal-hal penting: tidur menjadi larut, pekerjaan tertunda, atau pasangan dan anak merasa diabaikan. Tujuannya bukan berhenti bermain, melainkan mengatur agar hobi ini tetap menyenangkan tanpa mengorbankan bagian lain dalam hidup."
+        ]
+      },
+      {
+        "id": "tanda",
+        "title": "Tanda waktu bermain mulai berlebihan",
+        "content": [
+          "Perhatikan apakah beberapa tanda berikut mulai muncul:"
+        ],
+        "bulletPoints": [
+          "Sering tidur larut karena \"satu pertandingan lagi\" dan mengantuk di tempat kerja.",
+          "Pekerjaan atau tanggung jawab rumah tangga sering tertunda.",
+          "Merasa gelisah atau mudah marah saat tidak bisa bermain.",
+          "Pasangan atau keluarga sering mengeluhkan waktu bermain.",
+          "Pengeluaran untuk game melebihi anggaran hiburan.",
+          "Bermain bukan lagi untuk bersenang-senang, tapi karena merasa harus."
+        ],
+        "tipBox": {
+          "title": "Kapan perlu bantuan",
+          "text": "Jika sulit mengendalikan waktu bermain meskipun sudah berusaha, dan hal itu mengganggu pekerjaan atau hubungan, pertimbangkan berkonsultasi dengan psikolog.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "jadwal",
+        "title": "Langkah 1: Tetapkan jadwal bermain",
+        "content": [
+          "Perlakukan game seperti hobi lain yang punya waktu khusus. Tentukan kapan Anda bermain, misalnya setelah anak tidur sampai jam sepuluh malam di hari kerja, dan lebih lama di akhir pekan. Jadwal yang jelas membantu Anda menikmati waktu bermain tanpa rasa bersalah, karena tanggung jawab lain sudah terpenuhi.",
+          "Tetapkan juga jam berhenti, bukan hanya jam mulai. Gunakan alarm sebagai pengingat 15 menit sebelum waktu habis, agar Anda bisa menyelesaikan pertandingan yang sedang berjalan tanpa memulai yang baru."
+        ]
+      },
+      {
+        "id": "pilih",
+        "title": "Langkah 2: Pilih game sesuai waktu luang",
+        "content": [
+          "Jenis game sangat memengaruhi seberapa mudah Anda berhenti. Game dengan pertandingan panjang atau tanpa titik simpan membuat sulit berhenti di tengah jalan. Sesuaikan pilihan game dengan waktu yang tersedia:"
+        ],
+        "bulletPoints": [
+          "Waktu 5 sampai 10 menit, seperti saat istirahat atau menunggu: game kasual dengan ronde singkat.",
+          "Waktu 30 sampai 60 menit di malam hari kerja: game dengan sesi atau level yang jelas.",
+          "Waktu panjang di akhir pekan: game cerita atau strategi yang membutuhkan fokus lebih lama."
+        ]
+      },
+      {
+        "id": "singkat",
+        "title": "Game singkat untuk orang sibuk",
+        "content": [
+          "Bagi orang dewasa yang sibuk, game dengan ronde singkat adalah pilihan yang sangat praktis. **Stickman Penalty Rush** adalah contohnya: game adu penalti dengan kontrol geser sederhana, di mana satu sesi bisa selesai dalam beberapa menit. Cocok dimainkan saat istirahat makan siang atau dalam perjalanan pulang tanpa mengganggu jadwal.",
+          "Game ini ringan dan bisa dimainkan offline, sehingga tidak menguras kuota atau membuat HP cepat panas. Untuk sesi bermain yang lebih panjang di malam hari, earphone TWS dengan latensi rendah membuat Anda bisa bermain tanpa mengganggu anggota keluarga yang sudah tidur, dan kipas pendingin membantu menjaga performa HP tetap stabil."
+        ],
+        "tipBox": {
+          "title": "Ronde singkat, berhenti lebih mudah",
+          "text": "Game dengan ronde pendek memiliki titik berhenti yang alami, sehingga lebih mudah menepati jadwal yang sudah Anda tetapkan.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "keluarga",
+        "title": "Langkah 3: Libatkan keluarga",
+        "content": [
+          "Bicarakan jadwal bermain dengan pasangan agar tidak menimbulkan konflik. Pasangan yang tahu kapan Anda bermain dan kapan Anda sepenuhnya hadir untuk keluarga biasanya lebih mendukung hobi Anda.",
+          "Jika memiliki anak, game juga bisa menjadi kegiatan bersama. Pilih game yang sesuai usia anak dan mainkan bersama di akhir pekan. Ini sekaligus kesempatan mencontohkan kebiasaan bermain yang sehat, seperti berhenti saat waktu habis."
+        ]
+      },
+      {
+        "id": "tidur",
+        "title": "Langkah 4: Lindungi waktu tidur",
+        "content": [
+          "Tidur adalah hal pertama yang sering dikorbankan oleh pemain dewasa. Padahal kurang tidur berdampak pada konsentrasi kerja, suasana hati, dan kesehatan. Hentikan bermain setidaknya 30 sampai 60 menit sebelum tidur, karena game yang seru membuat otak tetap waspada.",
+          "Jangan membawa HP ke tempat tidur untuk bermain. Jika perlu, gunakan fitur waktu henti di pengaturan kesejahteraan digital yang membatasi aplikasi game setelah jam tertentu."
+        ]
+      },
+      {
+        "id": "anggaran",
+        "title": "Langkah 5: Tetapkan anggaran hiburan",
+        "content": [
+          "Pembelian dalam game, langganan, dan aksesori bisa menumpuk tanpa disadari. Tetapkan anggaran hiburan bulanan yang mencakup pengeluaran game, dan catat setiap pembelian. Dengan anggaran yang jelas, Anda bisa menikmati hobi tanpa mengganggu keuangan keluarga."
+        ]
+      },
+      {
+        "id": "tahunbaru",
+        "title": "Resolusi gaming yang sehat untuk tahun baru",
+        "content": [
+          "Tahun baru adalah waktu yang tepat untuk mengevaluasi kebiasaan bermain. Tidak perlu resolusi ekstrem seperti berhenti total. Cukup satu atau dua perubahan yang realistis, misalnya tidak bermain setelah jam sebelas malam di hari kerja, atau menyisihkan Minggu sore khusus untuk keluarga. Hobi yang dijalankan dengan seimbang akan terasa jauh lebih menyenangkan."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa lama waktu bermain game yang wajar untuk orang dewasa?",
+        "a": "Tidak ada angka baku. Yang penting, waktu bermain tidak mengorbankan tidur, pekerjaan, kesehatan, dan hubungan dengan keluarga."
+      },
+      {
+        "q": "Bagaimana agar tidak terus bermain \"satu pertandingan lagi\"?",
+        "a": "Tetapkan jam berhenti, pasang alarm pengingat 15 menit sebelumnya, dan pilih game dengan ronde singkat di malam hari kerja."
+      },
+      {
+        "q": "Apakah main game buruk untuk orang dewasa?",
+        "a": "Tidak. Game adalah hobi yang sah selama dijalankan dengan seimbang dan tidak mengganggu tanggung jawab lain."
+      },
+      {
+        "q": "Kapan main game perlu diwaspadai?",
+        "a": "Jika sulit dikendalikan, mengganggu pekerjaan atau hubungan, dan menimbulkan gelisah saat tidak bermain. Pertimbangkan konsultasi dengan psikolog."
+      }
+    ],
+    "titleEn": "How Adults Can Manage Gaming Time Without Hurting Work and Family",
+    "metaTitleEn": "Managing Gaming Time as an Adult",
+    "metaDescriptionEn": "Gaming is a legitimate adult hobby, as long as it does not cost sleep, work, or family time. Learn to schedule play, choose games that fit your free time, and keep balance in the new year.",
+    "keywordsEn": [
+      "manage gaming time",
+      "gaming for adults",
+      "gaming hobby and work",
+      "adult gaming addiction",
+      "short games for busy people"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Frames gaming as a valid hobby, lists warning signs, and covers scheduling with stop times, matching games to available time, short-round games for busy adults, involving family, protecting sleep, an entertainment budget, and realistic new-year gaming resolutions.",
+    "sectionsEn": [
+      {
+        "id": "hobby",
+        "title": "Gaming is a legitimate hobby",
+        "content": [
+          "It relaxes, connects, and challenges, but should not displace sleep, work, or family."
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs it is too much",
+        "content": [
+          "Watch for:"
+        ],
+        "bulletPoints": [
+          "Late nights and daytime sleepiness.",
+          "Delayed work or chores.",
+          "Restlessness when not playing.",
+          "Family complaints.",
+          "Overspending.",
+          "Playing out of obligation."
+        ],
+        "tipBox": {
+          "title": "When to get help",
+          "text": "If control is hard and it disrupts life, consider a psychologist.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "schedule",
+        "title": "Step 1: Schedule play",
+        "content": [
+          "Set start and stop times, with an alarm 15 minutes before the end."
+        ]
+      },
+      {
+        "id": "choose",
+        "title": "Step 2: Match games to free time",
+        "content": [
+          "By time available:"
+        ],
+        "bulletPoints": [
+          "5 to 10 minutes: quick casual rounds.",
+          "30 to 60 minutes on weeknights: games with clear sessions.",
+          "Long weekends: story or strategy games."
+        ]
+      },
+      {
+        "id": "short",
+        "title": "Short games for busy people",
+        "content": [
+          "**Stickman Penalty Rush** sessions last minutes, run offline, and suit lunch breaks. Low-latency earbuds keep night play quiet and a cooler keeps performance steady."
+        ],
+        "tipBox": {
+          "title": "Short rounds, easier stops",
+          "text": "Natural stopping points help you keep your schedule.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "family",
+        "title": "Step 3: Involve family",
+        "content": [
+          "Agree on play times with your partner and play age-appropriate games with kids, modelling healthy stopping."
+        ]
+      },
+      {
+        "id": "sleep",
+        "title": "Step 4: Protect sleep",
+        "content": [
+          "Stop 30 to 60 minutes before bed, keep the phone out of bed, and use downtime limits."
+        ]
+      },
+      {
+        "id": "budget",
+        "title": "Step 5: An entertainment budget",
+        "content": [
+          "Include in-game purchases and accessories in a monthly budget and log them."
+        ]
+      },
+      {
+        "id": "newyear",
+        "title": "Healthy gaming resolutions",
+        "content": [
+          "Pick one or two realistic changes, like no weeknight play after 11 pm."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How much gaming is reasonable for adults?",
+        "a": "No fixed number; it should not cost sleep, work, health, or relationships."
+      },
+      {
+        "q": "How do I stop the \"one more match\" habit?",
+        "a": "Set a stop time with an early alarm and choose short-round games on weeknights."
+      },
+      {
+        "q": "Is gaming bad for adults?",
+        "a": "No, when balanced."
+      },
+      {
+        "q": "When should gaming be a concern?",
+        "a": "When it is hard to control and disrupts life; consider a psychologist."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];

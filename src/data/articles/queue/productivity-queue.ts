@@ -4468,5 +4468,3073 @@ export const productivityQueueArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/soundfx-studio/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-menabung-untuk-tujuan-besar-dengan-metode-sinking-fund-dp-motor-rumah-dan-liburan",
+    "slugEn": "how-to-save-for-big-goals-with-sinking-funds-motorbike-house-and-holidays",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-12-09T09:45:00+07:00",
+    "title": "Cara Menabung untuk Tujuan Besar dengan Metode Sinking Fund: DP Motor, Rumah, dan Liburan",
+    "metaTitle": "Sinking Fund: Menabung untuk DP & Tujuan Besar",
+    "metaDescription": "Ingin membeli motor, membayar DP rumah, atau liburan tanpa berutang? Metode sinking fund membagi tujuan besar menjadi setoran bulanan yang jelas. Pelajari cara menghitung, memisahkan, dan memantaunya.",
+    "keywords": [
+      "sinking fund adalah",
+      "cara menabung untuk dp rumah",
+      "menabung untuk beli motor",
+      "tabungan tujuan",
+      "cara mengatur keuangan untuk tujuan besar"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "apa",
+        "title": "Apa itu sinking fund",
+        "content": [
+          "Sinking fund adalah tabungan yang disisihkan sedikit demi sedikit untuk satu tujuan tertentu dengan tenggat yang jelas. Berbeda dengan dana darurat yang disiapkan untuk kejadian tak terduga, sinking fund dipakai untuk pengeluaran yang sudah bisa diperkirakan, seperti DP motor, biaya pernikahan, liburan akhir tahun, atau servis kendaraan tahunan.",
+          "Ide dasarnya sederhana: daripada kaget harus mengeluarkan uang besar sekaligus, atau terpaksa mencicil dengan bunga, Anda membagi jumlah itu menjadi setoran bulanan yang ringan sejak jauh hari."
+        ]
+      },
+      {
+        "id": "kenapa",
+        "title": "Kenapa metode ini efektif",
+        "content": [
+          "Banyak orang sebenarnya mampu membeli barang yang diinginkan, tapi uangnya habis untuk pengeluaran kecil sebelum sempat terkumpul. Sinking fund mengubah tujuan yang terasa jauh menjadi angka bulanan yang konkret, sehingga lebih mudah dijalankan.",
+          "Metode ini juga mengurangi ketergantungan pada cicilan dan paylater. Membeli dengan uang tunai yang sudah ditabung berarti tidak ada bunga, tidak ada denda, dan tidak ada beban cicilan di bulan-bulan berikutnya."
+        ]
+      },
+      {
+        "id": "hitung",
+        "title": "Langkah 1: Tentukan tujuan dan hitung setoran",
+        "content": [
+          "Tuliskan tujuan dengan tiga informasi: apa yang ingin dicapai, berapa biayanya, dan kapan dibutuhkan. Rumus setoran bulanannya adalah jumlah yang dibutuhkan dibagi jumlah bulan sampai tenggat.",
+          "Contoh: Anda membutuhkan DP motor sebesar Rp6.000.000 dalam 12 bulan. Setoran yang diperlukan adalah Rp500.000 per bulan. Jika angka itu terlalu berat, ada dua pilihan: perpanjang waktunya atau turunkan target, misalnya memilih motor dengan harga lebih rendah."
+        ],
+        "tipBox": {
+          "title": "Tambahkan cadangan",
+          "text": "Harga barang bisa naik dalam setahun. Tambahkan sekitar 5 sampai 10 persen dari target sebagai cadangan agar tidak kekurangan di akhir.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "prioritas",
+        "title": "Langkah 2: Urutkan beberapa tujuan",
+        "content": [
+          "Kebanyakan orang punya lebih dari satu tujuan. Daftarkan semuanya, lalu urutkan berdasarkan kepentingan dan tenggat. Tujuan yang wajib dan dekat, seperti biaya sekolah anak tahun depan, didahulukan dibandingkan tujuan keinginan seperti gawai baru.",
+          "Jumlahkan seluruh setoran bulanan dan bandingkan dengan sisa penghasilan setelah kebutuhan pokok. Jika totalnya terlalu besar, tunda atau perpanjang tenggat beberapa tujuan."
+        ],
+        "bulletPoints": [
+          "Kewajiban rutin tahunan: pajak kendaraan, premi asuransi, biaya sekolah.",
+          "Tujuan menengah: DP motor, renovasi kecil, biaya pernikahan.",
+          "Tujuan jangka panjang: DP rumah, dana pensiun tambahan.",
+          "Tujuan keinginan: liburan, gawai baru, hobi."
+        ]
+      },
+      {
+        "id": "pisahkan",
+        "title": "Langkah 3: Pisahkan uangnya",
+        "content": [
+          "Uang sinking fund yang bercampur dengan uang harian sangat mudah terpakai. Pisahkan ke rekening atau kantong tabungan yang berbeda. Banyak bank digital menyediakan fitur kantong tabungan dengan nama tujuan, sehingga Anda bisa memiliki beberapa kantong sekaligus.",
+          "Lakukan setoran di awal bulan, segera setelah gajian, bukan menunggu sisa di akhir bulan. Jika memungkinkan, atur transfer otomatis agar tidak bergantung pada ingatan dan kemauan."
+        ]
+      },
+      {
+        "id": "simpan",
+        "title": "Di mana menyimpan sinking fund",
+        "content": [
+          "Untuk tujuan kurang dari satu tahun, pilih tempat yang aman dan mudah dicairkan, seperti tabungan biasa atau deposito jangka pendek. Hindari instrumen yang nilainya naik turun tajam, karena uangnya bisa berkurang tepat saat dibutuhkan.",
+          "Untuk tujuan lebih dari beberapa tahun seperti DP rumah, sebagian orang memilih instrumen dengan potensi imbal hasil lebih tinggi. Pelajari risikonya dengan baik atau konsultasikan dengan perencana keuangan sebelum memutuskan."
+        ],
+        "tipBox": {
+          "title": "Bukan untuk spekulasi",
+          "text": "Tujuan sinking fund adalah memastikan uang tersedia di waktu yang tepat. Keamanan dan kemudahan pencairan lebih penting daripada imbal hasil tinggi.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "pantau",
+        "title": "Langkah 4: Pantau kemajuan dengan Kucing Atur Duit",
+        "content": [
+          "Melihat tabungan bertambah adalah motivasi terbesar untuk terus menabung. Di **Kucing Atur Duit**, catat setiap setoran sinking fund sebagai kategori tersendiri, misalnya \"Tabungan DP Motor\" atau \"Dana Liburan\", agar terlihat terpisah dari pengeluaran sehari-hari.",
+          "Dengan mencatat pengeluaran harian di aplikasi yang sama, Anda bisa melihat ruang yang tersedia untuk menabung. Grafik kategori membantu menemukan pos yang bisa dikurangi untuk mempercepat tujuan, dan peringatan anggaran mencegah pengeluaran harian memakan jatah setoran. Data tersimpan privat di HP dan bisa dipakai tanpa koneksi internet."
+        ]
+      },
+      {
+        "id": "hambatan",
+        "title": "Mengatasi hambatan",
+        "content": [
+          "Ada bulan ketika setoran tidak bisa dipenuhi karena kebutuhan mendesak. Tidak apa-apa. Setor sebisanya, lalu sesuaikan rencana: perpanjang tenggat atau naikkan setoran sedikit di bulan berikutnya. Yang penting kebiasaan menabung tidak berhenti.",
+          "Jika mendapat penghasilan tambahan seperti bonus atau THR, pertimbangkan menyisihkan sebagian untuk mempercepat sinking fund. Setelah tujuan tercapai, alihkan setoran bulanan ke tujuan berikutnya, karena Anda sudah terbiasa hidup tanpa uang itu."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apa beda sinking fund dan dana darurat?",
+        "a": "Dana darurat untuk kejadian tak terduga seperti sakit atau kehilangan pekerjaan. Sinking fund untuk pengeluaran yang sudah direncanakan dengan tenggat jelas."
+      },
+      {
+        "q": "Berapa banyak sinking fund yang sebaiknya dimiliki?",
+        "a": "Sebanyak tujuan yang realistis dengan penghasilan Anda. Mulailah dari satu atau dua tujuan terpenting."
+      },
+      {
+        "q": "Lebih baik menabung dulu atau mencicil?",
+        "a": "Menabung dulu menghindari bunga dan denda. Cicilan bisa dipertimbangkan untuk kebutuhan mendesak dengan bunga yang jelas dan terjangkau."
+      },
+      {
+        "q": "Di mana sebaiknya menyimpan sinking fund jangka pendek?",
+        "a": "Di tempat yang aman dan mudah dicairkan seperti tabungan terpisah atau deposito jangka pendek."
+      }
+    ],
+    "titleEn": "How to Save for Big Goals with Sinking Funds: Motorbike, House Deposit, and Holidays",
+    "metaTitleEn": "Sinking Funds: Saving for Big Goals",
+    "metaDescriptionEn": "Want a motorbike, a house deposit, or a holiday without debt? Sinking funds split big goals into clear monthly deposits. Learn how to calculate, separate, and track them.",
+    "keywordsEn": [
+      "what is a sinking fund",
+      "save for house deposit",
+      "save for a motorbike",
+      "goal savings",
+      "budgeting for big goals"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains sinking funds versus emergency funds, why they work, calculating monthly deposits with a buffer, prioritising goals, separating money with automatic transfers, where to keep it, tracking in Kucing Atur Duit, and handling missed months.",
+    "sectionsEn": [
+      {
+        "id": "what",
+        "title": "What a sinking fund is",
+        "content": [
+          "Money set aside gradually for a specific, dated, predictable expense, unlike an emergency fund for the unexpected."
+        ]
+      },
+      {
+        "id": "why",
+        "title": "Why it works",
+        "content": [
+          "It turns distant goals into concrete monthly amounts and reduces reliance on instalments and paylater, avoiding interest and fees."
+        ]
+      },
+      {
+        "id": "calculate",
+        "title": "Step 1: Set the goal and deposit",
+        "content": [
+          "Monthly deposit equals the amount needed divided by months remaining. A Rp6,000,000 deposit in 12 months needs Rp500,000 monthly; extend time or lower the target if too high."
+        ],
+        "tipBox": {
+          "title": "Add a buffer",
+          "text": "Add 5 to 10 percent in case prices rise.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "priority",
+        "title": "Step 2: Order multiple goals",
+        "content": [
+          "Rank by importance and deadline and compare total deposits with what remains after essentials:"
+        ],
+        "bulletPoints": [
+          "Annual obligations: vehicle tax, insurance, school fees.",
+          "Medium goals: motorbike deposit, renovations, weddings.",
+          "Long-term: house deposit, extra retirement savings.",
+          "Wants: holidays, gadgets, hobbies."
+        ]
+      },
+      {
+        "id": "separate",
+        "title": "Step 3: Separate the money",
+        "content": [
+          "Use separate accounts or savings pockets, deposit right after payday, and automate transfers."
+        ]
+      },
+      {
+        "id": "where",
+        "title": "Where to keep it",
+        "content": [
+          "Short goals belong in safe, liquid places; longer goals may justify higher-return options after understanding the risks."
+        ],
+        "tipBox": {
+          "title": "Not for speculation",
+          "text": "Availability on time matters more than returns.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "track",
+        "title": "Step 4: Track with Kucing Atur Duit",
+        "content": [
+          "Log each deposit in its own category in **Kucing Atur Duit**, track daily spending alongside it, and use charts and alerts to protect your deposits. Data stays private and works offline."
+        ]
+      },
+      {
+        "id": "obstacles",
+        "title": "Handling setbacks",
+        "content": [
+          "Deposit what you can in tough months and adjust. Use bonuses to speed up, and roll finished deposits into the next goal."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Sinking fund versus emergency fund?",
+        "a": "Emergency funds cover the unexpected; sinking funds cover planned, dated expenses."
+      },
+      {
+        "q": "How many sinking funds should I have?",
+        "a": "As many as your income realistically supports; start with one or two."
+      },
+      {
+        "q": "Save first or pay in instalments?",
+        "a": "Saving first avoids interest and fees."
+      },
+      {
+        "q": "Where should short-term funds go?",
+        "a": "Safe, liquid places like a separate savings account or short deposits."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membuat-portofolio-pdf-yang-profesional-dari-hp-untuk-freelancer-dan-pencari-kerja",
+    "slugEn": "how-to-build-a-professional-pdf-portfolio-on-your-phone-for-freelancers-and-job-seekers",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus",
+      "paper-screen-protector"
+    ],
+    "publishedDate": "2026-12-10T09:45:00+07:00",
+    "title": "Cara Membuat Portofolio PDF yang Profesional dari HP untuk Freelancer dan Pencari Kerja",
+    "metaTitle": "Buat Portofolio PDF Profesional dari HP",
+    "metaDescription": "Portofolio yang rapi bisa menjadi pembeda saat melamar kerja atau menawarkan jasa. Pelajari struktur portofolio yang efektif, cara memilih karya, menyusun halaman, menggabungkan, dan mengompres PDF langsung dari HP.",
+    "keywords": [
+      "cara membuat portofolio pdf",
+      "portofolio freelancer",
+      "contoh susunan portofolio",
+      "portofolio desain grafis pdf",
+      "portofolio untuk melamar kerja"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Portofolio berbicara lebih banyak dari CV",
+        "content": [
+          "CV menjelaskan apa yang pernah Anda kerjakan, sementara portofolio menunjukkan hasilnya. Bagi desainer, penulis, fotografer, pengembang, atau pemasar, portofolio sering menjadi alasan utama klien atau perekrut memilih seseorang.",
+          "Portofolio dalam format PDF masih sangat populer karena mudah dikirim lewat email atau aplikasi pesan, tampilannya konsisten di berbagai perangkat, dan bisa dibuka tanpa koneksi internet. Anda pun tidak harus memiliki laptop untuk menyusunnya."
+        ]
+      },
+      {
+        "id": "struktur",
+        "title": "Struktur portofolio yang efektif",
+        "content": [
+          "Portofolio yang baik tidak harus panjang. Perekrut sering hanya meluangkan beberapa menit, jadi susunannya harus jelas:"
+        ],
+        "bulletPoints": [
+          "Halaman sampul: nama, bidang keahlian, dan kontak.",
+          "Perkenalan singkat: siapa Anda dan jenis pekerjaan yang Anda tawarkan, dalam satu paragraf.",
+          "Karya pilihan: lima sampai sepuluh proyek terbaik.",
+          "Studi kasus: satu atau dua proyek yang dijelaskan lebih dalam.",
+          "Testimoni klien jika ada.",
+          "Halaman penutup: kontak, tautan profil, dan ajakan untuk menghubungi."
+        ],
+        "tipBox": {
+          "title": "Kualitas di atas kuantitas",
+          "text": "Lima karya terbaik lebih meyakinkan daripada dua puluh karya dengan kualitas campur aduk. Satu karya yang lemah bisa menurunkan kesan keseluruhan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "pilih",
+        "title": "Memilih karya yang tepat",
+        "content": [
+          "Sesuaikan isi portofolio dengan pekerjaan yang dilamar. Jika melamar posisi desainer media sosial, tonjolkan karya untuk media sosial, bukan logo atau ilustrasi buku. Anda bisa memiliki beberapa versi portofolio untuk jenis pekerjaan yang berbeda.",
+          "Pastikan Anda berhak menampilkan karya tersebut. Beberapa proyek klien terikat perjanjian kerahasiaan. Jika perlu, minta izin terlebih dahulu atau samarkan informasi sensitif seperti nama klien dan data internal."
+        ]
+      },
+      {
+        "id": "studi-kasus",
+        "title": "Menulis studi kasus singkat",
+        "content": [
+          "Studi kasus menunjukkan cara berpikir Anda, bukan hanya hasil akhir. Gunakan struktur sederhana untuk setiap studi kasus:"
+        ],
+        "bulletPoints": [
+          "Masalah: apa tantangan atau kebutuhan klien.",
+          "Peran Anda: bagian mana yang Anda kerjakan.",
+          "Proses: langkah dan pertimbangan utama.",
+          "Hasil: dampak yang terukur jika ada, misalnya kenaikan penjualan atau waktu yang dihemat."
+        ]
+      },
+      {
+        "id": "halaman",
+        "title": "Menyiapkan halaman di HP",
+        "content": [
+          "Buat setiap halaman dengan aplikasi desain atau presentasi di HP, lalu ekspor sebagai PDF. Gunakan ukuran halaman yang sama untuk semua bagian, misalnya A4 atau format lanskap 16:9, agar hasil gabungan terlihat konsisten.",
+          "Pilih satu atau dua jenis huruf dan palet warna yang sederhana. Berikan ruang kosong yang cukup di sekitar karya agar mata pembaca fokus. Stylus membantu saat menata elemen kecil di layar HP, dan pelindung layar bertekstur kertas memberi kontrol lebih jika Anda membuat sketsa langsung di layar."
+        ]
+      },
+      {
+        "id": "gabung",
+        "title": "Menggabungkan dan merapikan dengan Offline PDF Editor & Sign",
+        "content": [
+          "Setelah semua halaman siap, gabungkan dengan **Offline PDF Editor & Sign**. Susun urutannya sesuai struktur, putar halaman yang salah orientasi, dan hapus halaman yang tidak diperlukan.",
+          "Fitur pemisahan memudahkan membuat beberapa versi portofolio. Misalnya, buat satu file lengkap, lalu pisahkan halaman tertentu untuk versi singkat yang dikirim ke klien dengan kebutuhan spesifik. Karena semua berjalan offline, karya yang belum dipublikasikan tetap aman di perangkat Anda."
+        ]
+      },
+      {
+        "id": "ukuran",
+        "title": "Menjaga ukuran file tetap ringan",
+        "content": [
+          "Portofolio dengan banyak gambar bisa berukuran sangat besar dan sulit dikirim lewat email. Kompres PDF dan periksa hasilnya: gambar karya harus tetap tajam saat diperbesar. Untuk portofolio desain, kualitas visual sangat penting, jadi cari keseimbangan antara ukuran dan ketajaman.",
+          "Sebagai patokan, usahakan ukuran file di bawah batas lampiran email yang umum. Jika masih terlalu besar, kurangi jumlah karya atau perkecil resolusi gambar sumber sebelum diekspor."
+        ],
+        "tipBox": {
+          "title": "Beri nama file yang jelas",
+          "text": "Gunakan nama file seperti \"Portofolio_NamaAnda_DesainGrafis.pdf\", bukan \"final_revisi2.pdf\". Nama yang jelas memudahkan perekrut menemukannya kembali.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "kirim",
+        "title": "Sebelum mengirim",
+        "content": [
+          "Buka file di perangkat lain untuk memastikan tampilan konsisten. Periksa ejaan, tautan yang bisa diklik, dan informasi kontak. Perbarui portofolio setiap kali menyelesaikan proyek yang lebih baik, dan ganti karya lama yang kurang mewakili kemampuan Anda saat ini."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa jumlah karya yang ideal dalam portofolio?",
+        "a": "Sekitar lima sampai sepuluh karya terbaik yang relevan dengan pekerjaan yang dilamar."
+      },
+      {
+        "q": "Apakah portofolio PDF masih relevan?",
+        "a": "Masih. PDF mudah dikirim, tampilannya konsisten, dan bisa dibuka offline. Banyak orang memakainya bersama portofolio daring."
+      },
+      {
+        "q": "Bolehkah menampilkan karya untuk klien?",
+        "a": "Boleh jika tidak terikat perjanjian kerahasiaan. Jika ragu, minta izin atau samarkan informasi sensitif."
+      },
+      {
+        "q": "Bagaimana jika file portofolio terlalu besar?",
+        "a": "Kompres PDF, kurangi jumlah karya, atau perkecil resolusi gambar sumber sebelum diekspor."
+      }
+    ],
+    "titleEn": "How to Build a Professional PDF Portfolio on Your Phone for Freelancers and Job Seekers",
+    "metaTitleEn": "Build a Professional PDF Portfolio on a Phone",
+    "metaDescriptionEn": "A tidy portfolio can set you apart when applying or pitching. Learn an effective structure, how to choose work, prepare pages, merge, and compress a PDF directly on your phone.",
+    "keywordsEn": [
+      "how to make a pdf portfolio",
+      "freelancer portfolio",
+      "portfolio structure",
+      "graphic design portfolio pdf",
+      "portfolio for job applications"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers why portfolios matter, an effective structure, choosing relevant work with permission, short case studies, preparing consistent pages on a phone, merging and splitting versions offline, keeping file size manageable, and final checks.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "A portfolio says more than a CV",
+        "content": [
+          "It shows results. PDF portfolios are easy to send, look consistent, open offline, and can be made without a laptop."
+        ]
+      },
+      {
+        "id": "structure",
+        "title": "An effective structure",
+        "content": [
+          "Keep it clear:"
+        ],
+        "bulletPoints": [
+          "Cover with name, field, and contact.",
+          "One-paragraph introduction.",
+          "Five to ten selected projects.",
+          "One or two case studies.",
+          "Client testimonials.",
+          "Closing page with contact and links."
+        ],
+        "tipBox": {
+          "title": "Quality over quantity",
+          "text": "One weak piece can drag down the whole impression.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "choose",
+        "title": "Choosing work",
+        "content": [
+          "Tailor to the role, keep versions for different jobs, and respect confidentiality agreements."
+        ]
+      },
+      {
+        "id": "case",
+        "title": "Short case studies",
+        "content": [
+          "Use this structure:"
+        ],
+        "bulletPoints": [
+          "Problem.",
+          "Your role.",
+          "Process.",
+          "Measurable results."
+        ]
+      },
+      {
+        "id": "pages",
+        "title": "Preparing pages on a phone",
+        "content": [
+          "Export each page to PDF at one page size, use one or two fonts, and leave white space. A stylus and paper-feel protector help with detail work."
+        ]
+      },
+      {
+        "id": "merge",
+        "title": "Merging with Offline PDF Editor & Sign",
+        "content": [
+          "Merge, reorder, rotate, and delete pages, then split out short versions for specific clients, all offline."
+        ]
+      },
+      {
+        "id": "size",
+        "title": "Keeping file size light",
+        "content": [
+          "Compress while keeping work sharp when zoomed, staying under common email limits."
+        ],
+        "tipBox": {
+          "title": "Name files clearly",
+          "text": "Use \"Portfolio_YourName_GraphicDesign.pdf\", not \"final_rev2.pdf\".",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "send",
+        "title": "Before sending",
+        "content": [
+          "Check on another device, proofread, test links, and refresh with better projects over time."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How many pieces should a portfolio include?",
+        "a": "About five to ten relevant best pieces."
+      },
+      {
+        "q": "Are PDF portfolios still relevant?",
+        "a": "Yes, often alongside an online portfolio."
+      },
+      {
+        "q": "Can I show client work?",
+        "a": "If not under NDA; ask or anonymise when unsure."
+      },
+      {
+        "q": "What if the file is too big?",
+        "a": "Compress, cut pieces, or lower source image resolution."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membuat-ringtone-dan-nada-notifikasi-sendiri-di-hp-android",
+    "slugEn": "how-to-make-your-own-ringtones-and-notification-sounds-on-android",
+    "targetAppSlug": "soundfx-studio",
+    "category": "lifestyle",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "gaming-tws"
+    ],
+    "publishedDate": "2026-12-11T09:45:00+07:00",
+    "title": "Cara Membuat Ringtone dan Nada Notifikasi Sendiri di HP Android",
+    "metaTitle": "Cara Membuat Ringtone & Nada Notifikasi Sendiri",
+    "metaDescription": "Bosan dengan nada dering bawaan? Pelajari cara membuat ringtone dan nada notifikasi unik dari suara sendiri, memotong durasi yang pas, menambah efek, dan memasangnya untuk kontak atau aplikasi tertentu di Android.",
+    "keywords": [
+      "cara membuat ringtone sendiri",
+      "nada notifikasi unik",
+      "ringtone dari rekaman suara",
+      "cara memasang ringtone android",
+      "nada dering untuk kontak tertentu"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa membuat nada sendiri",
+        "content": [
+          "Pernahkah Anda meraih HP karena mendengar nada dering, lalu sadar itu HP orang lain? Nada bawaan dipakai jutaan orang, sehingga mudah tertukar di tempat umum. Nada dering dan notifikasi buatan sendiri membuat HP Anda langsung dikenali.",
+          "Nada khusus juga praktis. Anda bisa memberi nada berbeda untuk keluarga, kantor, atau aplikasi tertentu, sehingga tahu siapa yang menghubungi tanpa melihat layar. Dan membuatnya ternyata tidak sulit."
+        ]
+      },
+      {
+        "id": "ide",
+        "title": "Ide suara untuk nada dering",
+        "content": [
+          "Hampir semua suara bisa menjadi nada dering asalkan jelas dan tidak terlalu panjang. Beberapa ide yang menarik:"
+        ],
+        "bulletPoints": [
+          "Suara anak atau pasangan memanggil nama Anda.",
+          "Suara hewan peliharaan, seperti meong kucing atau gonggongan anjing.",
+          "Siulan atau senandung nada sederhana buatan sendiri.",
+          "Suara benda sehari-hari, seperti denting gelas atau ketukan meja yang berirama.",
+          "Rekaman suara Anda yang diubah menjadi suara robot atau karakter lucu."
+        ],
+        "tipBox": {
+          "title": "Hindari musik berhak cipta untuk dibagikan",
+          "text": "Memakai potongan lagu untuk HP pribadi umumnya tidak menjadi masalah, tapi hindari membagikan atau menjual ringtone dari lagu berhak cipta tanpa izin.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "rekam",
+        "title": "Merekam suara yang jernih",
+        "content": [
+          "Rekam di ruangan yang tenang, matikan kipas atau AC sementara, dan dekatkan HP sekitar satu jengkal dari sumber suara. Rekam beberapa kali dan pilih hasil terbaik.",
+          "Untuk nada dering, suara yang keras dan jelas lebih baik daripada suara yang pelan dan halus, karena harus terdengar di tengah keramaian. Untuk nada notifikasi, pilih suara pendek yang tidak mengagetkan."
+        ]
+      },
+      {
+        "id": "durasi",
+        "title": "Durasi yang tepat",
+        "content": [
+          "Panjang nada sangat berpengaruh pada kenyamanan:"
+        ],
+        "bulletPoints": [
+          "Nada notifikasi: sekitar setengah sampai dua detik. Cukup untuk menarik perhatian tanpa mengganggu.",
+          "Nada dering: sekitar 15 sampai 30 detik, dan sebaiknya bisa diulang dengan mulus.",
+          "Alarm: bisa lebih panjang, dengan awal yang lembut lalu semakin keras."
+        ]
+      },
+      {
+        "id": "olah",
+        "title": "Mengolah suara dengan SoundFX Studio",
+        "content": [
+          "**SoundFX Studio** memudahkan mengubah rekaman biasa menjadi nada yang unik. Rekam langsung di aplikasi atau impor rekaman yang sudah ada, lalu coba berbagai efek: suara chipmunk yang lucu untuk notifikasi pesan, suara robot untuk email kantor, atau echo untuk nada dering yang dramatis.",
+          "Mode manual dengan pengaturan pitch dan tempo terpisah memberi kendali lebih halus, sehingga Anda bisa membuat suara lebih tinggi tanpa membuatnya lebih cepat. Lebih dari 100 efek suara siap pakai juga bisa digabungkan untuk nada yang lebih kreatif. Semua proses berjalan offline di HP, lalu hasilnya bisa disimpan sebagai file audio."
+        ],
+        "tipBox": {
+          "title": "Dengarkan dengan earphone",
+          "text": "Saat mengolah suara, dengarkan dengan earphone agar detail seperti desis atau suara latar lebih mudah terdengar sebelum disimpan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "pasang",
+        "title": "Memasang nada di Android",
+        "content": [
+          "Setelah file audio tersimpan, langkah memasangnya umumnya seperti berikut, meskipun nama menu bisa sedikit berbeda di setiap merek HP:"
+        ],
+        "bulletPoints": [
+          "Pindahkan file ke folder Ringtones atau Notifications di penyimpanan internal jika belum terdeteksi.",
+          "Buka Pengaturan, lalu Suara dan getaran.",
+          "Pilih Nada dering atau Suara notifikasi default.",
+          "Pilih file yang baru dibuat dari daftar, atau gunakan opsi tambah dari penyimpanan.",
+          "Untuk kontak tertentu, buka aplikasi Kontak, pilih kontak, lalu atur nada dering khusus."
+        ]
+      },
+      {
+        "id": "aplikasi",
+        "title": "Nada berbeda untuk aplikasi tertentu",
+        "content": [
+          "Di Android versi baru, setiap aplikasi bisa memiliki suara notifikasi sendiri. Buka pengaturan notifikasi aplikasi, pilih kategori notifikasinya, lalu ganti suaranya. Misalnya, pesan dari grup keluarga memakai suara meong kucing, sementara aplikasi kerja memakai bunyi denting singkat.",
+          "Dengan cara ini, Anda bisa memutuskan apakah perlu segera membuka HP hanya dari suaranya. Ini membantu mengurangi kebiasaan mengecek HP setiap ada notifikasi."
+        ]
+      },
+      {
+        "id": "etika",
+        "title": "Etika memakai nada unik",
+        "content": [
+          "Nada dering yang lucu bisa menjadi bahan tertawa di rumah, tapi pertimbangkan tempatnya. Di kantor, ruang rapat, atau tempat ibadah, aktifkan mode senyap atau pilih nada yang lebih netral. Nada yang terlalu keras atau mengagetkan juga bisa mengganggu orang di sekitar."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Format file apa yang bisa dipakai untuk ringtone Android?",
+        "a": "Umumnya MP3, OGG, dan beberapa format audio lain didukung. Format yang tersedia bisa berbeda tergantung HP."
+      },
+      {
+        "q": "Kenapa ringtone buatan saya tidak muncul di daftar?",
+        "a": "Coba pindahkan file ke folder Ringtones atau Notifications, lalu buka kembali pengaturan suara."
+      },
+      {
+        "q": "Berapa durasi ideal untuk nada notifikasi?",
+        "a": "Sekitar setengah sampai dua detik agar jelas tanpa mengganggu."
+      },
+      {
+        "q": "Bisakah memberi nada dering berbeda untuk setiap kontak?",
+        "a": "Bisa. Atur melalui aplikasi Kontak di detail masing-masing kontak."
+      }
+    ],
+    "titleEn": "How to Make Your Own Ringtones and Notification Sounds on Android",
+    "metaTitleEn": "Make Your Own Ringtones and Notification Sounds",
+    "metaDescriptionEn": "Bored of default tones? Learn to create unique ringtones and notification sounds from your own recordings, trim the right length, add effects, and assign them to contacts or apps on Android.",
+    "keywordsEn": [
+      "make your own ringtone",
+      "custom notification sound",
+      "ringtone from voice recording",
+      "set ringtone android",
+      "contact specific ringtone"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Covers why custom tones help, sound ideas and copyright caution, clean recording, ideal lengths, shaping sounds with SoundFX Studio offline, setting tones on Android and per contact, per-app notification sounds, and etiquette.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why make your own tones",
+        "content": [
+          "Default tones cause mix-ups in public. Custom tones identify your phone and tell you who is calling without looking."
+        ]
+      },
+      {
+        "id": "ideas",
+        "title": "Sound ideas",
+        "content": [
+          "Clear, short sounds work:"
+        ],
+        "bulletPoints": [
+          "A family member calling your name.",
+          "Your pet.",
+          "A whistle or hum.",
+          "Rhythmic everyday sounds.",
+          "Your voice as a robot or cartoon character."
+        ],
+        "tipBox": {
+          "title": "Copyright",
+          "text": "Avoid sharing or selling ringtones made from copyrighted songs.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "record",
+        "title": "Recording clearly",
+        "content": [
+          "Record in a quiet room a hand-span from the source, take several takes, keep ringtones bold and notifications gentle."
+        ]
+      },
+      {
+        "id": "length",
+        "title": "The right length",
+        "content": [
+          "Guidelines:"
+        ],
+        "bulletPoints": [
+          "Notifications: half a second to two seconds.",
+          "Ringtones: 15 to 30 seconds, looping smoothly.",
+          "Alarms: longer, starting soft."
+        ]
+      },
+      {
+        "id": "edit",
+        "title": "Shaping sound with SoundFX Studio",
+        "content": [
+          "Record or import, then try chipmunk, robot, or echo effects in **SoundFX Studio**. Separate pitch and tempo controls and 100+ effects allow creative tones, all offline, saved as audio files."
+        ],
+        "tipBox": {
+          "title": "Use earphones",
+          "text": "Hiss and background noise are easier to hear before saving.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "install",
+        "title": "Setting tones on Android",
+        "content": [
+          "Menu names vary:"
+        ],
+        "bulletPoints": [
+          "Move files to Ringtones or Notifications folders if needed.",
+          "Open Settings, Sound and vibration.",
+          "Choose ringtone or default notification sound.",
+          "Select the new file or add from storage.",
+          "Set per-contact tones in Contacts."
+        ]
+      },
+      {
+        "id": "apps",
+        "title": "Per-app sounds",
+        "content": [
+          "Change a notification category's sound in each app's settings, helping you decide whether to check your phone by ear."
+        ]
+      },
+      {
+        "id": "etiquette",
+        "title": "Etiquette",
+        "content": [
+          "Use silent mode or neutral tones at work, in meetings, and in places of worship."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Which formats work for Android ringtones?",
+        "a": "MP3 and OGG are commonly supported; it varies by phone."
+      },
+      {
+        "q": "Why does my ringtone not appear?",
+        "a": "Move it to the Ringtones or Notifications folder and reopen sound settings."
+      },
+      {
+        "q": "Ideal notification length?",
+        "a": "About half a second to two seconds."
+      },
+      {
+        "q": "Can each contact have its own ringtone?",
+        "a": "Yes, via the Contacts app."
+      }
+    ],
+    "coverImage": "/images/apps/soundfx-studio/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-melatih-daya-ingat-untuk-orang-dewasa-yang-sibuk-kebiasaan-teknik-dan-permainan",
+    "slugEn": "how-busy-adults-can-train-their-memory-habits-techniques-and-games",
+    "targetAppSlug": "fruity-merge-3d-match-puzzle",
+    "category": "lifestyle",
+    "publishedDate": "2026-12-12T09:45:00+07:00",
+    "title": "Cara Melatih Daya Ingat untuk Orang Dewasa yang Sibuk: Kebiasaan, Teknik, dan Permainan",
+    "metaTitle": "Melatih Daya Ingat untuk Orang Dewasa Sibuk",
+    "metaDescription": "Sering lupa menaruh kunci, nama orang, atau tugas penting? Pelajari kebiasaan yang mendukung daya ingat, teknik mengingat yang terbukti membantu, dan cara memakai permainan ringan sebagai latihan sehari-hari.",
+    "keywords": [
+      "cara melatih daya ingat",
+      "sering lupa",
+      "teknik mengingat",
+      "meningkatkan konsentrasi orang dewasa",
+      "permainan melatih memori"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "lupa",
+        "title": "Sering lupa bukan selalu tanda masalah",
+        "content": [
+          "Lupa di mana menaruh kunci, masuk ruangan lalu lupa tujuan, atau tidak ingat nama orang yang baru dikenal adalah pengalaman yang sangat umum. Pada orang dewasa yang sibuk, penyebab utamanya sering bukan masalah otak, melainkan perhatian yang terbagi, kurang tidur, dan stres.",
+          "Otak tidak bisa menyimpan informasi yang tidak benar-benar diperhatikan. Ketika kita menaruh kunci sambil membalas pesan, informasi tentang letak kunci tidak pernah tersimpan dengan baik. Karena itu, langkah pertama melatih daya ingat adalah memperbaiki cara kita memperhatikan."
+        ],
+        "tipBox": {
+          "title": "Kapan perlu ke dokter",
+          "text": "Jika lupa semakin sering, mengganggu pekerjaan atau kehidupan sehari-hari, atau disertai kebingungan, sebaiknya konsultasikan dengan dokter.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "kebiasaan",
+        "title": "Kebiasaan yang mendukung daya ingat",
+        "content": [
+          "Beberapa kebiasaan sederhana berpengaruh besar pada kemampuan mengingat:"
+        ],
+        "bulletPoints": [
+          "Tidur cukup. Selama tidur, otak memproses dan menyimpan informasi yang didapat sepanjang hari.",
+          "Bergerak aktif. Aktivitas fisik rutin seperti jalan cepat mendukung kesehatan otak.",
+          "Kelola stres. Stres berkepanjangan membuat sulit fokus dan mengingat.",
+          "Kurangi multitasking. Kerjakan satu hal dalam satu waktu untuk hal-hal yang penting diingat.",
+          "Minum cukup air dan makan bergizi seimbang."
+        ]
+      },
+      {
+        "id": "tempat",
+        "title": "Teknik 1: Tempat tetap untuk barang penting",
+        "content": [
+          "Cara termudah agar tidak lupa menaruh barang adalah tidak perlu mengingatnya. Tentukan satu tempat tetap untuk kunci, dompet, dan kacamata, misalnya mangkuk kecil di dekat pintu. Biasakan selalu menaruh di sana. Setelah beberapa minggu, kebiasaan ini berjalan otomatis."
+        ]
+      },
+      {
+        "id": "ucap",
+        "title": "Teknik 2: Ucapkan dan ulangi",
+        "content": [
+          "Saat berkenalan dengan orang baru, ulangi namanya dalam percakapan: \"Senang bertemu, Mbak Rina.\" Saat memarkir kendaraan, ucapkan dalam hati lokasi parkirnya. Mengucapkan informasi membuat otak memprosesnya lebih dalam dibandingkan hanya mendengar."
+        ]
+      },
+      {
+        "id": "bayang",
+        "title": "Teknik 3: Buat gambaran yang hidup",
+        "content": [
+          "Otak lebih mudah mengingat gambar daripada kata-kata. Untuk mengingat daftar belanja seperti telur, sabun, dan roti, bayangkan adegan lucu: telur raksasa mandi dengan sabun sambil memakan roti. Semakin aneh dan berwarna bayangannya, semakin mudah diingat.",
+          "Teknik ini bisa dikembangkan menjadi metode istana ingatan, yaitu menempatkan setiap informasi di lokasi yang sudah dikenal, seperti ruangan di rumah. Saat ingin mengingat, Anda cukup berjalan dalam bayangan melewati ruangan-ruangan itu."
+        ]
+      },
+      {
+        "id": "kelompok",
+        "title": "Teknik 4: Kelompokkan informasi",
+        "content": [
+          "Mengingat 12 angka acak terasa sulit, tapi mengingat tiga kelompok yang masing-masing berisi empat angka jauh lebih mudah. Itulah sebabnya nomor telepon biasanya ditulis berkelompok. Terapkan prinsip yang sama untuk daftar tugas: kelompokkan menjadi tugas kantor, rumah, dan pribadi."
+        ],
+        "tipBox": {
+          "title": "Catat juga tidak apa-apa",
+          "text": "Melatih daya ingat bukan berarti harus mengingat semuanya. Untuk hal penting seperti janji temu, tetap gunakan catatan atau pengingat di HP agar pikiran lebih lega.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "ulang",
+        "title": "Teknik 5: Ulangi dengan jeda",
+        "content": [
+          "Informasi yang ingin diingat dalam jangka panjang, seperti materi pelatihan atau kosakata bahasa asing, lebih efektif diulang dengan jeda yang semakin panjang. Misalnya, ulangi setelah satu hari, tiga hari, lalu seminggu. Pengulangan berjeda ini jauh lebih efektif daripada membaca berulang-ulang dalam satu malam."
+        ]
+      },
+      {
+        "id": "permainan",
+        "title": "Permainan ringan sebagai latihan harian",
+        "content": [
+          "Permainan yang menuntut kita mengingat posisi atau pola bisa menjadi latihan memori kerja yang menyenangkan di sela kesibukan. **Fruit Match: Memory Puzzle** adalah game mencocokkan kartu buah: pemain membalik kartu dan harus mengingat posisi gambar untuk menemukan pasangannya.",
+          "Tingkat kesulitannya naik bertahap, sehingga tetap menantang. Satu atau dua ronde saat menunggu atau saat istirahat bisa menjadi jeda yang menyegarkan dibandingkan menggulir media sosial tanpa tujuan. Perlu diingat, permainan seperti ini sebaiknya dianggap sebagai latihan ringan dan hiburan, bukan pengganti tidur cukup, olahraga, dan kebiasaan sehat lainnya."
+        ]
+      },
+      {
+        "id": "mulai",
+        "title": "Mulai dari satu kebiasaan",
+        "content": [
+          "Tidak perlu menerapkan semua teknik sekaligus. Pilih satu masalah yang paling sering terjadi, misalnya lupa menaruh kunci, lalu terapkan satu teknik selama dua minggu. Setelah berhasil, tambahkan teknik berikutnya."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah sering lupa tanda pikun?",
+        "a": "Tidak selalu. Pada orang dewasa yang sibuk, lupa sering disebabkan perhatian terbagi, kurang tidur, dan stres. Konsultasikan ke dokter jika lupa semakin parah atau mengganggu aktivitas."
+      },
+      {
+        "q": "Apakah game bisa meningkatkan daya ingat?",
+        "a": "Game yang melatih ingatan bisa menjadi latihan ringan yang menyenangkan, tapi kebiasaan seperti tidur cukup dan aktivitas fisik tetap lebih penting."
+      },
+      {
+        "q": "Teknik mengingat apa yang paling mudah dimulai?",
+        "a": "Tempat tetap untuk barang penting dan mengucapkan informasi saat menerimanya adalah dua teknik yang paling mudah diterapkan."
+      },
+      {
+        "q": "Berapa lama sampai terlihat hasilnya?",
+        "a": "Kebiasaan sederhana seperti tempat tetap untuk kunci biasanya mulai terasa dalam dua sampai tiga minggu jika konsisten."
+      }
+    ],
+    "titleEn": "How Busy Adults Can Train Their Memory: Habits, Techniques, and Games",
+    "metaTitleEn": "Memory Training for Busy Adults",
+    "metaDescriptionEn": "Often forget your keys, names, or important tasks? Learn habits that support memory, proven memory techniques, and how to use light games as daily practice.",
+    "keywordsEn": [
+      "how to improve memory",
+      "forgetfulness",
+      "memory techniques",
+      "improve focus adults",
+      "memory training games"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Explains why busy adults forget, supporting habits, five techniques (fixed places, saying it aloud, vivid imagery, chunking, spaced repetition), light memory games as practice, and starting with one habit.",
+    "sectionsEn": [
+      {
+        "id": "forget",
+        "title": "Forgetting is not always a problem",
+        "content": [
+          "Divided attention, poor sleep, and stress are common causes. Information you never truly noticed is never stored."
+        ],
+        "tipBox": {
+          "title": "When to see a doctor",
+          "text": "If forgetfulness worsens, disrupts daily life, or comes with confusion, consult a doctor.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "habits",
+        "title": "Habits that support memory",
+        "content": [
+          "These matter:"
+        ],
+        "bulletPoints": [
+          "Enough sleep.",
+          "Regular physical activity.",
+          "Stress management.",
+          "Less multitasking.",
+          "Water and balanced meals."
+        ]
+      },
+      {
+        "id": "place",
+        "title": "Technique 1: A fixed place",
+        "content": [
+          "Keep keys, wallet, and glasses in one spot by the door until it becomes automatic."
+        ]
+      },
+      {
+        "id": "say",
+        "title": "Technique 2: Say it and repeat it",
+        "content": [
+          "Repeat new names in conversation and say your parking spot to yourself."
+        ]
+      },
+      {
+        "id": "imagery",
+        "title": "Technique 3: Vivid images",
+        "content": [
+          "Turn lists into absurd scenes and extend this into a memory palace."
+        ]
+      },
+      {
+        "id": "chunk",
+        "title": "Technique 4: Chunking",
+        "content": [
+          "Group numbers and tasks into smaller sets."
+        ],
+        "tipBox": {
+          "title": "Notes are fine",
+          "text": "Use reminders for appointments to free your mind.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "spaced",
+        "title": "Technique 5: Spaced repetition",
+        "content": [
+          "Review after one day, three days, then a week."
+        ]
+      },
+      {
+        "id": "games",
+        "title": "Light games as daily practice",
+        "content": [
+          "**Fruit Match: Memory Puzzle** asks you to remember card positions, with gradually rising difficulty, making a refreshing break. Treat it as light practice, not a substitute for sleep and exercise."
+        ]
+      },
+      {
+        "id": "start",
+        "title": "Start with one habit",
+        "content": [
+          "Pick your most common lapse and apply one technique for two weeks."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Is frequent forgetting a sign of dementia?",
+        "a": "Not necessarily; see a doctor if it worsens or disrupts life."
+      },
+      {
+        "q": "Can games improve memory?",
+        "a": "They are light, enjoyable practice; sleep and exercise matter more."
+      },
+      {
+        "q": "Which technique is easiest?",
+        "a": "A fixed place for items and saying information aloud."
+      },
+      {
+        "q": "How soon will I see results?",
+        "a": "Simple habits often stick within two to three weeks."
+      }
+    ],
+    "coverImage": "/images/apps/fruity-merge-3d-match-puzzle/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "kenapa-sering-berhenti-mencatat-pengeluaran-7-alasan-dan-solusinya",
+    "slugEn": "why-people-stop-tracking-expenses-7-reasons-and-fixes",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-12-15T09:45:00+07:00",
+    "title": "Kenapa Sering Berhenti Mencatat Pengeluaran? 7 Alasan Umum dan Solusinya",
+    "metaTitle": "Sering Berhenti Mencatat Pengeluaran? Ini Solusinya",
+    "metaDescription": "Semangat mencatat pengeluaran di awal bulan, lalu berhenti di minggu kedua? Kenali tujuh alasan paling umum orang berhenti mencatat keuangan dan solusi praktis agar kebiasaan ini bertahan.",
+    "keywords": [
+      "cara konsisten mencatat pengeluaran",
+      "mencatat keuangan pribadi",
+      "aplikasi catatan keuangan",
+      "kebiasaan mencatat pengeluaran",
+      "tips mengatur keuangan harian"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "pola",
+        "title": "Pola yang sangat umum",
+        "content": [
+          "Banyak orang memulai bulan dengan tekad mencatat setiap rupiah. Minggu pertama berjalan lancar. Minggu kedua mulai ada yang terlewat. Di minggu ketiga, catatan berhenti sama sekali, dan bulan berikutnya siklus yang sama terulang.",
+          "Jika Anda mengalaminya, Anda tidak sendiri. Mencatat pengeluaran adalah kebiasaan, dan kebiasaan gagal bukan karena kurang niat, melainkan karena caranya terlalu berat untuk dijalankan setiap hari. Berikut tujuh alasan paling umum dan cara mengatasinya."
+        ]
+      },
+      {
+        "id": "satu",
+        "title": "1. Prosesnya terlalu lama",
+        "content": [
+          "Jika mencatat satu transaksi membutuhkan banyak langkah, membuka file, mencari baris, mengetik kategori, maka kebiasaan ini cepat terasa membebani. Solusinya adalah membuat pencatatan secepat mungkin. Targetkan kurang dari sepuluh detik per transaksi. Gunakan aplikasi yang langsung membuka layar input dengan keyboard angka."
+        ]
+      },
+      {
+        "id": "dua",
+        "title": "2. Menunda sampai malam",
+        "content": [
+          "Banyak orang berniat mencatat semua pengeluaran di malam hari. Masalahnya, di malam hari kita lelah dan lupa detailnya. Catat langsung setelah membayar, saat masih berdiri di kasir atau setelah menutup aplikasi belanja. Kebiasaan kecil ini jauh lebih bertahan."
+        ],
+        "tipBox": {
+          "title": "Kaitkan dengan kebiasaan yang ada",
+          "text": "Jadikan \"setelah membayar, langsung catat\" sebagai satu rangkaian. Mengaitkan kebiasaan baru dengan tindakan yang sudah rutin membuatnya lebih mudah diingat.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "tiga",
+        "title": "3. Kategori terlalu banyak",
+        "content": [
+          "Membuat 30 kategori yang sangat rinci terdengar teliti, tapi justru membuat setiap pencatatan menjadi keputusan yang melelahkan. Mulailah dengan sekitar tujuh sampai sepuluh kategori utama, seperti makan, transportasi, tagihan, belanja rumah tangga, hiburan, kesehatan, dan lain-lain. Tambahkan kategori baru hanya jika benar-benar diperlukan."
+        ]
+      },
+      {
+        "id": "empat",
+        "title": "4. Merasa bersalah melihat angkanya",
+        "content": [
+          "Sebagian orang berhenti mencatat karena tidak nyaman melihat betapa besar pengeluaran mereka. Ini reaksi yang wajar. Ingat bahwa tujuan mencatat bukan untuk menghakimi diri sendiri, melainkan untuk memahami. Angka yang tidak menyenangkan adalah informasi berharga untuk membuat keputusan yang lebih baik bulan depan."
+        ]
+      },
+      {
+        "id": "lima",
+        "title": "5. Tidak tahu harus berbuat apa dengan datanya",
+        "content": [
+          "Mencatat tanpa pernah melihat hasilnya membuat kegiatan ini terasa sia-sia. Jadwalkan lima menit setiap akhir pekan untuk melihat ringkasan: kategori mana yang paling besar, dan apakah ada yang mengejutkan. Dari situ, pilih satu perubahan kecil untuk minggu berikutnya."
+        ]
+      },
+      {
+        "id": "enam",
+        "title": "6. Satu transaksi terlewat, semuanya ditinggalkan",
+        "content": [
+          "Ketika beberapa transaksi terlewat, banyak orang merasa catatannya sudah tidak akurat dan memilih berhenti. Padahal catatan yang 90 persen lengkap jauh lebih berguna daripada tidak ada catatan sama sekali. Jika lupa, perkirakan saja jumlahnya dan lanjutkan. Kesempurnaan bukan tujuannya."
+        ],
+        "tipBox": {
+          "title": "Lanjutkan, jangan mulai ulang",
+          "text": "Tidak perlu menunggu awal bulan untuk memulai lagi. Mulailah dari transaksi berikutnya, hari ini juga.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "tujuh",
+        "title": "7. Tidak ada tujuan yang jelas",
+        "content": [
+          "Mencatat hanya karena \"katanya bagus\" sulit dipertahankan. Hubungkan kebiasaan mencatat dengan tujuan nyata, misalnya mengumpulkan DP motor, melunasi cicilan, atau mengurangi jajan agar bisa menabung untuk liburan. Tujuan yang jelas memberi alasan untuk terus mencatat."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Kucing Atur Duit dirancang agar mencatat terasa ringan",
+        "content": [
+          "**Kucing Atur Duit** dibuat untuk mengatasi banyak alasan di atas. Keyboard kalkulator bawaan membuat input pengeluaran sangat cepat. Kategori bisa diatur sesuai kebutuhan, grafik menunjukkan ke mana uang pergi, dan peringatan anggaran memberi tanda sebelum batas terlewati.",
+          "Yang membuatnya berbeda adalah maskot kucing yang bereaksi terhadap pengeluaran Anda. Sentuhan kecil ini membuat mencatat terasa lebih seperti merawat hewan peliharaan daripada mengisi laporan. Data tersimpan privat di HP, bisa dipakai offline, dan bisa diekspor ke CSV jika ingin dianalisis lebih lanjut."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa lama sampai mencatat pengeluaran menjadi kebiasaan?",
+        "a": "Bervariasi, tapi banyak orang mulai merasa otomatis setelah beberapa minggu mencatat secara konsisten."
+      },
+      {
+        "q": "Perlukah mencatat pengeluaran kecil seperti parkir?",
+        "a": "Sebaiknya ya, karena pengeluaran kecil yang sering bisa bertambah besar. Namun jangan berhenti hanya karena satu transaksi kecil terlewat."
+      },
+      {
+        "q": "Lebih baik mencatat di aplikasi atau buku?",
+        "a": "Pilih yang paling mudah Anda jalankan setiap hari. Aplikasi memudahkan ringkasan dan grafik otomatis."
+      },
+      {
+        "q": "Bagaimana jika sudah berhenti mencatat berminggu-minggu?",
+        "a": "Mulai lagi dari transaksi berikutnya tanpa perlu melengkapi yang terlewat."
+      }
+    ],
+    "titleEn": "Why Do People Stop Tracking Expenses? 7 Common Reasons and Fixes",
+    "metaTitleEn": "Why You Stop Tracking Expenses and How to Fix It",
+    "metaDescriptionEn": "Keen to track spending at the start of the month, then quit by week two? Learn the seven most common reasons people stop and practical fixes that make the habit stick.",
+    "keywordsEn": [
+      "consistent expense tracking",
+      "personal finance tracking",
+      "expense tracker app",
+      "expense tracking habit",
+      "daily money tips"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Explains why tracking habits fail and fixes seven causes: slow entry, delaying until night, too many categories, guilt, not using the data, quitting after gaps, and lacking goals, then shows how Kucing Atur Duit keeps tracking light.",
+    "sectionsEn": [
+      {
+        "id": "pattern",
+        "title": "A very common pattern",
+        "content": [
+          "Habits fail when they are too heavy for daily life, not from lack of will."
+        ]
+      },
+      {
+        "id": "one",
+        "title": "1. It takes too long",
+        "content": [
+          "Aim for under ten seconds per entry with an app that opens straight to a number pad."
+        ]
+      },
+      {
+        "id": "two",
+        "title": "2. Waiting until night",
+        "content": [
+          "Log right after paying while details are fresh."
+        ],
+        "tipBox": {
+          "title": "Stack the habit",
+          "text": "Make \"pay, then log\" one routine.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "three",
+        "title": "3. Too many categories",
+        "content": [
+          "Start with seven to ten main categories."
+        ]
+      },
+      {
+        "id": "four",
+        "title": "4. Guilt about the numbers",
+        "content": [
+          "Tracking is for understanding, not judgement."
+        ]
+      },
+      {
+        "id": "five",
+        "title": "5. Not using the data",
+        "content": [
+          "Spend five minutes each weekend reviewing and choose one small change."
+        ]
+      },
+      {
+        "id": "six",
+        "title": "6. Quitting after gaps",
+        "content": [
+          "A 90 percent complete record beats none; estimate and continue."
+        ],
+        "tipBox": {
+          "title": "Continue, do not restart",
+          "text": "Start again with the next transaction today.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "seven",
+        "title": "7. No clear goal",
+        "content": [
+          "Link tracking to a real goal like a deposit or paying off debt."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Kucing Atur Duit keeps it light",
+        "content": [
+          "A calculator keyboard, flexible categories, charts, budget alerts, and a reactive cat mascot make **Kucing Atur Duit** easy to stick with. Data stays private, works offline, and exports to CSV."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How long until tracking becomes a habit?",
+        "a": "Many people feel it is automatic after a few consistent weeks."
+      },
+      {
+        "q": "Should I log small costs like parking?",
+        "a": "Yes, but do not quit over one missed entry."
+      },
+      {
+        "q": "App or notebook?",
+        "a": "Whichever you will use daily; apps summarise automatically."
+      },
+      {
+        "q": "What if I stopped weeks ago?",
+        "a": "Restart from the next transaction without backfilling."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-memeriksa-kontrak-kerja-atau-perjanjian-sewa-pdf-sebelum-tanda-tangan",
+    "slugEn": "how-to-review-a-job-contract-or-rental-agreement-pdf-before-signing",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus"
+    ],
+    "publishedDate": "2026-12-16T09:45:00+07:00",
+    "title": "Cara Memeriksa Kontrak Kerja atau Perjanjian Sewa PDF sebelum Tanda Tangan: Poin yang Wajib Dicek",
+    "metaTitle": "Cek Kontrak Kerja & Perjanjian Sewa sebelum TTD",
+    "metaDescription": "Kontrak sering dikirim dalam PDF dan diminta ditandatangani segera. Pelajari poin penting yang wajib dicek di kontrak kerja dan perjanjian sewa, cara menandai bagian yang perlu ditanyakan, dan menyimpan salinan dengan aman.",
+    "keywords": [
+      "cara membaca kontrak kerja",
+      "poin penting perjanjian sewa",
+      "tanda tangan kontrak pdf",
+      "cek kontrak sebelum tanda tangan",
+      "kontrak kerja pkwt"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Jangan terburu-buru menandatangani",
+        "content": [
+          "Kontrak kerja, perjanjian sewa rumah atau kos, dan perjanjian kerja sama freelance kini sering dikirim dalam bentuk PDF dengan pesan \"mohon ditandatangani hari ini\". Karena terburu-buru atau sungkan bertanya, banyak orang langsung menandatangani tanpa membaca isinya dengan teliti.",
+          "Padahal setelah ditandatangani, isi kontrak mengikat kedua belah pihak. Meluangkan waktu untuk membaca dan menandai bagian yang belum jelas bisa mencegah kerugian dan perselisihan di kemudian hari."
+        ],
+        "tipBox": {
+          "title": "Bukan nasihat hukum",
+          "text": "Artikel ini adalah panduan umum. Untuk kontrak bernilai besar atau yang isinya rumit, konsultasikan dengan ahli hukum atau lembaga bantuan hukum.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "cara",
+        "title": "Cara membaca kontrak dengan efektif",
+        "content": [
+          "Baca kontrak setidaknya dua kali. Bacaan pertama untuk memahami gambaran umum, bacaan kedua untuk memeriksa detail. Saat membaca, tandai setiap bagian yang belum Anda pahami, terasa merugikan, atau berbeda dengan kesepakatan lisan sebelumnya.",
+          "Perhatikan definisi di awal kontrak. Istilah seperti \"jam kerja\", \"masa sewa\", atau \"hasil kerja\" bisa didefinisikan dengan cara yang memengaruhi seluruh isi kontrak."
+        ]
+      },
+      {
+        "id": "kerja",
+        "title": "Poin wajib dicek di kontrak kerja",
+        "content": [
+          "Untuk kontrak kerja, periksa bagian-bagian berikut dengan teliti:"
+        ],
+        "bulletPoints": [
+          "Jenis kontrak: waktu tertentu atau tidak tertentu, serta lama masa kontraknya.",
+          "Posisi, tugas, dan lokasi kerja.",
+          "Gaji, tunjangan, dan waktu pembayaran.",
+          "Jam kerja, lembur, dan cuti.",
+          "Masa percobaan dan ketentuannya.",
+          "Ketentuan pemutusan hubungan kerja dan masa pemberitahuan.",
+          "Klausul kerahasiaan dan larangan bekerja di perusahaan pesaing.",
+          "Jaminan sosial seperti BPJS Kesehatan dan Ketenagakerjaan."
+        ]
+      },
+      {
+        "id": "sewa",
+        "title": "Poin wajib dicek di perjanjian sewa",
+        "content": [
+          "Untuk sewa rumah, apartemen, atau kos, perhatikan:"
+        ],
+        "bulletPoints": [
+          "Masa sewa, harga, dan cara pembayaran.",
+          "Besar uang jaminan dan syarat pengembaliannya.",
+          "Siapa yang menanggung biaya listrik, air, internet, dan iuran lingkungan.",
+          "Tanggung jawab perbaikan kerusakan.",
+          "Aturan tentang tamu, hewan peliharaan, atau renovasi.",
+          "Ketentuan jika salah satu pihak ingin mengakhiri sewa lebih awal.",
+          "Kondisi properti saat serah terima, sebaiknya dilengkapi foto."
+        ],
+        "tipBox": {
+          "title": "Foto kondisi saat masuk",
+          "text": "Ambil foto dan video kondisi setiap ruangan saat mulai menyewa. Bukti ini sangat membantu saat pengembalian uang jaminan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "tandai",
+        "title": "Menandai dan mencatat pertanyaan di PDF",
+        "content": [
+          "Dengan **Offline PDF Editor & Sign**, Anda bisa membuka kontrak di HP dan memberi tanda pada bagian yang perlu ditanyakan atau dinegosiasikan. Catat pertanyaan Anda, lalu sampaikan kepada pihak lain sebelum menandatangani. Perubahan sebaiknya dituangkan dalam kontrak versi baru, bukan hanya disepakati secara lisan.",
+          "Karena aplikasi bekerja tanpa koneksi internet, isi kontrak yang berisi data pribadi seperti nomor KTP, alamat, dan gaji tidak perlu diunggah ke layanan daring. Stylus membantu memberi tanda dan tanda tangan dengan lebih rapi."
+        ]
+      },
+      {
+        "id": "ttd",
+        "title": "Saat menandatangani",
+        "content": [
+          "Setelah semua pertanyaan terjawab dan isi kontrak sesuai, Anda bisa menandatangani. Jika pihak lain menerima tanda tangan digital, tambahkan tanda tangan langsung di PDF. Pastikan versi yang ditandatangani adalah versi final yang sudah disepakati.",
+          "Periksa juga apakah kontrak memerlukan materai atau tanda tangan basah. Ketentuan ini bisa berbeda tergantung jenis perjanjian dan kebijakan masing-masing pihak."
+        ]
+      },
+      {
+        "id": "simpan",
+        "title": "Menyimpan salinan dengan aman",
+        "content": [
+          "Simpan salinan kontrak yang sudah ditandatangani kedua belah pihak, bukan hanya versi yang Anda tandatangani sendiri. Simpan di setidaknya dua tempat, misalnya di HP dan penyimpanan awan. Beri nama file yang jelas, misalnya \"Kontrak_Kerja_NamaPerusahaan_2026.pdf\".",
+          "Kunci file dengan kata sandi jika berisi informasi sensitif. Catat juga tanggal penting dari kontrak, seperti akhir masa sewa atau akhir masa kontrak kerja, di kalender HP agar tidak terlewat."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bolehkah meminta waktu untuk membaca kontrak?",
+        "a": "Boleh dan wajar. Pihak yang profesional biasanya memberi waktu untuk membaca dan bertanya."
+      },
+      {
+        "q": "Apakah tanda tangan digital di PDF sah?",
+        "a": "Tergantung jenis perjanjian dan kesepakatan para pihak. Untuk kontrak penting, tanyakan apakah tanda tangan digital diterima."
+      },
+      {
+        "q": "Bagaimana jika ada poin yang merugikan?",
+        "a": "Tandai dan diskusikan sebelum menandatangani. Minta perubahannya dituangkan dalam kontrak versi baru."
+      },
+      {
+        "q": "Perlukah menyimpan kontrak setelah selesai?",
+        "a": "Ya, simpan beberapa waktu setelah kontrak berakhir sebagai bukti jika terjadi perselisihan."
+      }
+    ],
+    "titleEn": "How to Review a Job Contract or Rental Agreement PDF Before Signing: Key Points to Check",
+    "metaTitleEn": "Review Contracts and Leases Before Signing",
+    "metaDescriptionEn": "Contracts often arrive as PDFs with a request to sign today. Learn the key points to check in job contracts and rental agreements, how to mark questions, and how to store copies safely.",
+    "keywordsEn": [
+      "how to read a job contract",
+      "rental agreement checklist",
+      "sign contract pdf",
+      "check contract before signing",
+      "fixed-term employment contract"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers why not to rush, reading contracts twice, key points for job contracts and rental agreements, marking questions offline in a PDF, signing the final version, and storing signed copies securely (general guidance, not legal advice).",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Do not rush to sign",
+        "content": [
+          "Once signed, terms bind both sides. Reading carefully prevents losses and disputes."
+        ],
+        "tipBox": {
+          "title": "Not legal advice",
+          "text": "Consult a lawyer or legal aid for large or complex contracts.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "how",
+        "title": "Reading effectively",
+        "content": [
+          "Read twice, mark anything unclear or different from verbal agreements, and check definitions."
+        ]
+      },
+      {
+        "id": "job",
+        "title": "Job contract checklist",
+        "content": [
+          "Check:"
+        ],
+        "bulletPoints": [
+          "Contract type and length.",
+          "Role, duties, location.",
+          "Pay, allowances, payment dates.",
+          "Hours, overtime, leave.",
+          "Probation terms.",
+          "Termination and notice.",
+          "Confidentiality and non-compete.",
+          "Social security coverage."
+        ]
+      },
+      {
+        "id": "rental",
+        "title": "Rental agreement checklist",
+        "content": [
+          "Check:"
+        ],
+        "bulletPoints": [
+          "Term, price, payment.",
+          "Deposit and return conditions.",
+          "Utility and fee responsibilities.",
+          "Repair responsibilities.",
+          "Rules on guests, pets, renovations.",
+          "Early termination.",
+          "Handover condition with photos."
+        ],
+        "tipBox": {
+          "title": "Photograph move-in condition",
+          "text": "Photos and video help recover your deposit.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "mark",
+        "title": "Marking questions in the PDF",
+        "content": [
+          "Mark sections in **Offline PDF Editor & Sign**, raise questions before signing, and put changes in a new version. Offline processing keeps ID numbers and salaries private."
+        ]
+      },
+      {
+        "id": "sign",
+        "title": "Signing",
+        "content": [
+          "Sign the agreed final version digitally if accepted, and check whether stamp duty or wet signatures are required."
+        ]
+      },
+      {
+        "id": "store",
+        "title": "Storing copies safely",
+        "content": [
+          "Keep the fully signed copy in two places with a clear name, password-protect sensitive files, and add key dates to your calendar."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can I ask for time to read a contract?",
+        "a": "Yes, it is normal."
+      },
+      {
+        "q": "Are PDF digital signatures valid?",
+        "a": "It depends on the agreement and parties; ask whether they are accepted."
+      },
+      {
+        "q": "What if a clause is unfair?",
+        "a": "Mark it, discuss it, and get changes into a new version."
+      },
+      {
+        "q": "Should I keep contracts after they end?",
+        "a": "Yes, as evidence in case of disputes."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membuat-ucapan-selamat-tahun-baru-dan-ulang-tahun-dengan-suara-lucu-dari-hp",
+    "slugEn": "how-to-make-funny-voice-greetings-for-new-year-and-birthdays-on-your-phone",
+    "targetAppSlug": "soundfx-studio",
+    "category": "lifestyle",
+    "publishedDate": "2026-12-19T09:45:00+07:00",
+    "title": "Cara Membuat Ucapan Selamat Tahun Baru dan Ulang Tahun dengan Suara Lucu dari HP",
+    "metaTitle": "Buat Ucapan Tahun Baru & Ultah dengan Suara Lucu",
+    "metaDescription": "Ucapan selamat lewat pesan teks mudah terlupakan. Buat ucapan suara yang lucu dan personal untuk tahun baru, ulang tahun, atau hari raya: dari menulis naskah, merekam, menambah efek suara, hingga membagikannya.",
+    "keywords": [
+      "ucapan tahun baru unik",
+      "ucapan ulang tahun lucu",
+      "voice note ucapan",
+      "membuat ucapan dengan efek suara",
+      "ide ucapan selamat kreatif"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Ucapan yang diingat",
+        "content": [
+          "Setiap tahun baru atau ulang tahun, kita menerima puluhan pesan ucapan yang hampir sama. Ucapan dalam bentuk suara, apalagi yang lucu dan personal, jauh lebih mudah diingat. Penerima bisa mendengar nada suara, tawa, dan kehangatan yang tidak bisa disampaikan teks.",
+          "Membuatnya juga tidak sulit. Dengan HP dan sedikit kreativitas, Anda bisa membuat ucapan suara yang membuat keluarga dan teman tersenyum."
+        ]
+      },
+      {
+        "id": "naskah",
+        "title": "Langkah 1: Tulis naskah singkat",
+        "content": [
+          "Ucapan yang baik biasanya pendek, sekitar 15 sampai 45 detik. Tuliskan naskah sederhana agar tidak tersendat saat merekam. Struktur yang mudah diikuti:"
+        ],
+        "bulletPoints": [
+          "Sapaan dengan nama penerima.",
+          "Kenangan atau lelucon kecil yang hanya dimengerti kalian berdua.",
+          "Doa atau harapan untuk tahun yang akan datang.",
+          "Penutup yang hangat atau lucu."
+        ],
+        "tipBox": {
+          "title": "Personal lebih bermakna",
+          "text": "Menyebut kenangan khusus, misalnya liburan bersama atau kebiasaan lucu penerima, membuat ucapan terasa dibuat khusus untuknya, bukan disalin dari internet.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "ide",
+        "title": "Ide ucapan suara yang kreatif",
+        "content": [
+          "Beberapa ide yang bisa dicoba:"
+        ],
+        "bulletPoints": [
+          "Ucapan dari \"hewan peliharaan\": rekam suara Anda lalu ubah menjadi suara kecil yang lucu, seolah kucing atau anjing peliharaan yang mengucapkan selamat.",
+          "Ucapan dari robot masa depan yang datang dari tahun 2027.",
+          "Paduan suara keluarga: setiap anggota keluarga merekam satu kalimat, lalu digabungkan.",
+          "Ucapan ala penyiar radio dengan efek gema.",
+          "Lagu ulang tahun dengan suara chipmunk yang dinyanyikan anak-anak."
+        ]
+      },
+      {
+        "id": "rekam",
+        "title": "Langkah 2: Merekam dengan jelas",
+        "content": [
+          "Rekam di ruangan yang tenang dan sedikit bergema, misalnya kamar dengan kasur dan gorden. Letakkan HP sekitar satu jengkal dari mulut. Bicara dengan semangat dan sedikit lebih lambat dari biasanya, karena efek suara tertentu bisa membuat ucapan terdengar lebih cepat.",
+          "Rekam beberapa kali dan pilih yang terbaik. Jangan khawatir jika ada tawa yang tidak sengaja terekam, kadang justru itu yang membuat ucapan terasa alami."
+        ]
+      },
+      {
+        "id": "efek",
+        "title": "Langkah 3: Menambah efek dengan SoundFX Studio",
+        "content": [
+          "**SoundFX Studio** menyediakan berbagai efek untuk mengubah rekaman biasa menjadi ucapan yang menghibur. Efek chipmunk cocok untuk ucapan dari hewan peliharaan atau anak-anak, efek robot untuk ucapan bertema masa depan, dan efek gema untuk gaya penyiar.",
+          "Mode manual memungkinkan mengatur pitch dan tempo secara terpisah, sehingga suara bisa dibuat lebih tinggi tanpa terdengar terlalu cepat dan tetap mudah dimengerti. Lebih dari 100 efek suara siap pakai, seperti tepuk tangan atau suara terompet, bisa ditambahkan untuk suasana perayaan. Semua proses berjalan offline di HP."
+        ],
+        "tipBox": {
+          "title": "Uji sebelum dikirim",
+          "text": "Dengarkan hasil akhir dengan speaker HP biasa, karena sebagian besar penerima akan mendengarnya dengan cara itu. Pastikan setiap kata tetap jelas.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "gabung",
+        "title": "Menggabungkan dengan video atau foto",
+        "content": [
+          "Ucapan suara bisa dibuat lebih menarik dengan menggabungkannya dengan foto atau video singkat menggunakan aplikasi edit video di HP. Misalnya, foto hewan peliharaan dengan suara lucu, atau kolase foto kenangan bersama penerima sepanjang tahun."
+        ]
+      },
+      {
+        "id": "bagikan",
+        "title": "Langkah 4: Membagikan ucapan",
+        "content": [
+          "Kirim ucapan langsung melalui aplikasi pesan, atau bagikan di grup keluarga. Untuk ucapan tengah malam tahun baru, siapkan file sebelumnya dan kirim tepat waktu.",
+          "Perhatikan juga etika. Ucapan yang lucu untuk teman dekat mungkin kurang cocok untuk atasan atau kolega. Sesuaikan gaya dan efek dengan hubungan Anda dengan penerima."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa durasi ideal ucapan suara?",
+        "a": "Sekitar 15 sampai 45 detik sudah cukup agar tetap menarik dan tidak terlalu panjang."
+      },
+      {
+        "q": "Apakah efek suara membuat ucapan sulit dimengerti?",
+        "a": "Bisa jika berlebihan. Gunakan pengaturan pitch dan tempo terpisah agar suara tetap jelas."
+      },
+      {
+        "q": "Bisakah membuat ucapan dengan beberapa suara anggota keluarga?",
+        "a": "Bisa. Rekam masing-masing kalimat secara terpisah, lalu gabungkan menjadi satu ucapan."
+      },
+      {
+        "q": "Apakah perlu internet untuk mengolah suara?",
+        "a": "Tidak, jika menggunakan aplikasi yang memproses suara secara offline di HP."
+      }
+    ],
+    "titleEn": "How to Make Funny Voice Greetings for New Year and Birthdays on Your Phone",
+    "metaTitleEn": "Funny Voice Greetings for New Year and Birthdays",
+    "metaDescriptionEn": "Text greetings are easily forgotten. Make funny, personal voice greetings for New Year, birthdays, or holidays: writing a script, recording, adding effects, and sharing.",
+    "keywordsEn": [
+      "unique new year greetings",
+      "funny birthday greetings",
+      "voice note greetings",
+      "greetings with sound effects",
+      "creative greeting ideas"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Covers why voice greetings stand out, writing a short personal script, creative ideas, recording clearly, adding effects with SoundFX Studio offline, combining with photos or video, and sharing with appropriate etiquette.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Greetings people remember",
+        "content": [
+          "Voice carries tone, laughter, and warmth that text cannot."
+        ]
+      },
+      {
+        "id": "script",
+        "title": "Step 1: A short script",
+        "content": [
+          "Keep it 15 to 45 seconds:"
+        ],
+        "bulletPoints": [
+          "Greet by name.",
+          "Share an inside joke or memory.",
+          "Offer a wish for the year.",
+          "Close warmly or playfully."
+        ],
+        "tipBox": {
+          "title": "Personal means more",
+          "text": "A shared memory makes it feel made just for them.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "ideas",
+        "title": "Creative ideas",
+        "content": [
+          "Try:"
+        ],
+        "bulletPoints": [
+          "A greeting from your pet in a tiny voice.",
+          "A robot from 2027.",
+          "A family chorus, one line each.",
+          "A radio-host style with echo.",
+          "A chipmunk birthday song."
+        ]
+      },
+      {
+        "id": "record",
+        "title": "Step 2: Record clearly",
+        "content": [
+          "Record in a quiet, soft room a hand-span from the phone, speak a little slower, and keep the best take."
+        ]
+      },
+      {
+        "id": "effects",
+        "title": "Step 3: Add effects with SoundFX Studio",
+        "content": [
+          "Use chipmunk, robot, or echo effects in **SoundFX Studio**, adjust pitch and tempo separately, and add applause or horns from 100+ effects, all offline."
+        ],
+        "tipBox": {
+          "title": "Test before sending",
+          "text": "Listen on a normal phone speaker to check clarity.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "combine",
+        "title": "Adding photos or video",
+        "content": [
+          "Pair the audio with a pet photo or a collage of the year's memories."
+        ]
+      },
+      {
+        "id": "share",
+        "title": "Step 4: Share",
+        "content": [
+          "Send via chat or family groups, prepare midnight greetings in advance, and match the tone to the recipient."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Ideal length for a voice greeting?",
+        "a": "About 15 to 45 seconds."
+      },
+      {
+        "q": "Do effects make greetings hard to understand?",
+        "a": "Only if overdone; separate pitch and tempo help."
+      },
+      {
+        "q": "Can several family members join?",
+        "a": "Yes, record lines separately and combine them."
+      },
+      {
+        "q": "Do I need internet to process audio?",
+        "a": "Not with an offline app."
+      }
+    ],
+    "coverImage": "/images/apps/soundfx-studio/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "generasi-sandwich-cara-mengatur-keuangan-saat-menanggung-orang-tua-dan-anak",
+    "slugEn": "sandwich-generation-managing-money-while-supporting-parents-and-children",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-12-21T09:45:00+07:00",
+    "title": "Generasi Sandwich: Cara Mengatur Keuangan saat Menanggung Orang Tua dan Anak Sekaligus",
+    "metaTitle": "Generasi Sandwich: Cara Mengatur Keuangan",
+    "metaDescription": "Menanggung kebutuhan orang tua sambil membesarkan anak adalah kenyataan banyak keluarga Indonesia. Pelajari cara memetakan kewajiban, berbicara terbuka dengan keluarga, membagi anggaran, dan tetap menyiapkan masa depan sendiri.",
+    "keywords": [
+      "generasi sandwich",
+      "keuangan generasi sandwich",
+      "menanggung orang tua dan anak",
+      "cara mengatur gaji untuk keluarga",
+      "memutus rantai generasi sandwich"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "kenyataan",
+        "title": "Kenyataan yang dihadapi banyak keluarga",
+        "content": [
+          "Istilah generasi sandwich menggambarkan orang dewasa yang berada di tengah: menanggung kebutuhan orang tua yang sudah tidak bekerja, sekaligus membiayai anak sendiri. Di Indonesia, kondisi ini sangat umum karena budaya berbakti kepada orang tua yang kuat, sementara banyak orang tua tidak memiliki dana pensiun yang memadai.",
+          "Menanggung keluarga adalah bentuk kasih sayang. Namun tanpa perencanaan, beban ganda ini bisa membuat tabungan terkuras, utang menumpuk, dan masa depan sendiri tidak tersiapkan. Akibatnya, rantai yang sama bisa berlanjut ke generasi anak kita. Kabar baiknya, dengan pengelolaan yang terencana, Anda bisa tetap berbakti tanpa mengorbankan masa depan keluarga sendiri."
+        ]
+      },
+      {
+        "id": "peta",
+        "title": "Langkah 1: Petakan semua kewajiban",
+        "content": [
+          "Mulailah dengan menuliskan semua pengeluaran yang Anda tanggung, dipisahkan berdasarkan siapa yang ditanggung. Pemetaan ini sering membuka mata, karena banyak pengeluaran untuk keluarga besar yang terjadi sedikit-sedikit dan tidak pernah dijumlahkan.",
+          "Kelompokkan menjadi tiga bagian:"
+        ],
+        "bulletPoints": [
+          "Keluarga inti: kebutuhan rumah tangga, pendidikan anak, cicilan, dan tabungan.",
+          "Orang tua: uang bulanan, obat dan kontrol kesehatan, tagihan rumah orang tua, serta kebutuhan mendadak.",
+          "Keluarga besar lain: bantuan untuk adik, saudara, atau acara keluarga."
+        ],
+        "tipBox": {
+          "title": "Catat selama satu sampai dua bulan",
+          "text": "Angka perkiraan sering meleset. Catat pengeluaran nyata untuk setiap kelompok selama satu sampai dua bulan agar anggaran yang dibuat realistis.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "bicara",
+        "title": "Langkah 2: Bicarakan secara terbuka",
+        "content": [
+          "Banyak generasi sandwich menanggung beban sendirian karena sungkan membicarakan uang dengan orang tua atau saudara. Padahal percakapan yang jujur sering menjadi titik balik. Sampaikan kondisi keuangan Anda dengan bahasa yang hormat, misalnya \"Saya ingin terus membantu Bapak dan Ibu, jadi saya perlu mengaturnya supaya bisa rutin setiap bulan.\"",
+          "Jika memiliki saudara kandung, diskusikan pembagian tanggung jawab. Pembagian tidak harus sama rata dalam bentuk uang. Saudara yang tinggal dekat bisa membantu dengan tenaga dan waktu, seperti mengantar kontrol ke dokter, sementara yang lain berkontribusi dengan dana."
+        ]
+      },
+      {
+        "id": "anggaran",
+        "title": "Langkah 3: Tetapkan jumlah bantuan yang tetap",
+        "content": [
+          "Bantuan yang tidak menentu, kadang besar kadang kecil tergantung permintaan, membuat anggaran sulit dikendalikan. Lebih baik menetapkan jumlah bulanan yang tetap untuk orang tua, ditransfer di waktu yang sama setiap bulan. Orang tua pun bisa merencanakan pengeluaran mereka dengan lebih tenang.",
+          "Urutan prioritas yang bisa dipertimbangkan saat mengatur gaji:"
+        ],
+        "bulletPoints": [
+          "Kebutuhan pokok keluarga inti dan cicilan wajib.",
+          "Dana darurat keluarga inti.",
+          "Bantuan bulanan tetap untuk orang tua.",
+          "Asuransi kesehatan untuk diri sendiri dan keluarga.",
+          "Tabungan pendidikan anak dan dana pensiun sendiri.",
+          "Bantuan untuk keluarga besar dan keinginan lainnya."
+        ]
+      },
+      {
+        "id": "kesehatan",
+        "title": "Langkah 4: Siapkan biaya kesehatan orang tua",
+        "content": [
+          "Biaya kesehatan adalah pengeluaran yang paling sering mengguncang keuangan generasi sandwich. Pastikan orang tua terdaftar sebagai peserta BPJS Kesehatan dan iurannya dibayar rutin. Pertimbangkan juga menyisihkan dana khusus kesehatan orang tua, terpisah dari dana darurat keluarga inti.",
+          "Ajak orang tua melakukan pemeriksaan kesehatan rutin. Mendeteksi penyakit lebih awal biasanya jauh lebih murah dan lebih baik hasilnya dibandingkan penanganan setelah kondisi memburuk."
+        ],
+        "tipBox": {
+          "title": "Jangan berutang untuk kebutuhan konsumtif keluarga",
+          "text": "Meminjam untuk biaya pengobatan darurat kadang tidak terhindarkan, tapi hindari berutang untuk acara atau keinginan keluarga besar. Utang konsumtif memperberat beban di bulan-bulan berikutnya.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "putus",
+        "title": "Langkah 5: Putus rantainya dengan menyiapkan masa depan sendiri",
+        "content": [
+          "Salah satu hal terpenting yang sering terlupakan adalah dana pensiun sendiri. Jika Anda tidak menyiapkannya, kemungkinan besar anak Anda kelak akan berada di posisi yang sama. Menyisihkan untuk pensiun bukan egois, justru itu cara melindungi anak dari beban yang sama.",
+          "Mulailah meskipun jumlahnya kecil. Manfaatkan program jaminan hari tua dari tempat kerja, dan tambahkan tabungan atau investasi jangka panjang sesuai kemampuan. Ajarkan juga anak tentang pengelolaan uang sejak dini agar mereka tumbuh dengan kebiasaan finansial yang lebih baik."
+        ]
+      },
+      {
+        "id": "pantau",
+        "title": "Memantau semua pos dengan Kucing Atur Duit",
+        "content": [
+          "Mengelola banyak pos pengeluaran untuk beberapa pihak membutuhkan catatan yang rapi. Di **Kucing Atur Duit**, buat kategori terpisah seperti \"Rumah Tangga\", \"Orang Tua\", \"Pendidikan Anak\", dan \"Keluarga Besar\", lalu tetapkan anggaran bulanan untuk masing-masing.",
+          "Grafik kategori menunjukkan proporsi pengeluaran untuk setiap pihak, sehingga Anda bisa melihat apakah bantuan masih seimbang dengan kebutuhan keluarga inti. Peringatan anggaran memberi tanda jika satu pos mulai melewati batas. Data tersimpan privat di HP, dan bisa diekspor ke CSV jika ingin dibahas bersama pasangan atau saudara."
+        ]
+      },
+      {
+        "id": "diri",
+        "title": "Jaga juga kesehatan mental Anda",
+        "content": [
+          "Beban ganda tidak hanya soal uang, tapi juga tenaga dan perasaan. Wajar jika sesekali merasa lelah atau bersalah karena tidak bisa memberi lebih. Bicarakan dengan pasangan, cari dukungan dari saudara, dan sisihkan sedikit waktu untuk diri sendiri. Keluarga membutuhkan Anda dalam kondisi sehat, baik secara fisik maupun mental."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa persen gaji yang wajar untuk membantu orang tua?",
+        "a": "Tidak ada angka baku. Tentukan setelah kebutuhan pokok, dana darurat, dan kewajiban keluarga inti terpenuhi, lalu tetapkan jumlah yang tetap setiap bulan."
+      },
+      {
+        "q": "Bagaimana cara membicarakan uang dengan orang tua tanpa menyinggung?",
+        "a": "Gunakan bahasa yang hormat, tekankan bahwa Anda ingin terus membantu secara rutin, dan ajak orang tua ikut merencanakan."
+      },
+      {
+        "q": "Perlukah tetap menabung pensiun saat menanggung orang tua?",
+        "a": "Sangat perlu. Menyiapkan pensiun sendiri mencegah anak Anda menghadapi beban yang sama di masa depan."
+      },
+      {
+        "q": "Bagaimana jika saudara tidak mau ikut menanggung?",
+        "a": "Diskusikan dengan tenang dan tawarkan bentuk bantuan lain seperti waktu dan tenaga. Fokus pada apa yang bisa Anda kendalikan."
+      }
+    ],
+    "titleEn": "Sandwich Generation: Managing Money While Supporting Parents and Children",
+    "metaTitleEn": "Sandwich Generation: Managing Family Money",
+    "metaDescriptionEn": "Supporting parents while raising children is a reality for many Indonesian families. Learn to map obligations, talk openly, set fixed support, plan for parents' health, and still prepare your own future.",
+    "keywordsEn": [
+      "sandwich generation",
+      "sandwich generation finances",
+      "supporting parents and children",
+      "budgeting salary for family",
+      "breaking the sandwich generation cycle"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "Covers mapping obligations by household, honest family conversations and sharing duties, fixed monthly support and priorities, parents' health costs, saving for your own retirement to break the cycle, tracking categories in Kucing Atur Duit, and mental health.",
+    "sectionsEn": [
+      {
+        "id": "reality",
+        "title": "A common reality",
+        "content": [
+          "Supporting retired parents and your own children is an act of love, but without planning it drains savings and passes the burden to the next generation."
+        ]
+      },
+      {
+        "id": "map",
+        "title": "Step 1: Map every obligation",
+        "content": [
+          "Group spending by who it supports:"
+        ],
+        "bulletPoints": [
+          "Your household: essentials, schooling, instalments, savings.",
+          "Parents: allowance, medicine, their bills, emergencies.",
+          "Extended family: siblings and family events."
+        ],
+        "tipBox": {
+          "title": "Track for one to two months",
+          "text": "Real numbers beat estimates.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "talk",
+        "title": "Step 2: Talk openly",
+        "content": [
+          "Explain respectfully that you want to help consistently, and share duties with siblings through money, time, or care."
+        ]
+      },
+      {
+        "id": "budget",
+        "title": "Step 3: Fixed monthly support",
+        "content": [
+          "A fixed, regular transfer helps everyone plan. A suggested order:"
+        ],
+        "bulletPoints": [
+          "Household essentials and required instalments.",
+          "Your emergency fund.",
+          "Fixed support for parents.",
+          "Health insurance.",
+          "Children's education and your retirement.",
+          "Extended family and wants."
+        ]
+      },
+      {
+        "id": "health",
+        "title": "Step 4: Parents' health costs",
+        "content": [
+          "Ensure national health insurance is active, set aside a separate health fund, and encourage regular check-ups."
+        ],
+        "tipBox": {
+          "title": "Avoid consumer debt for family",
+          "text": "Emergency medical loans may be unavoidable; borrowing for events is not.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "break",
+        "title": "Step 5: Break the cycle",
+        "content": [
+          "Saving for your own retirement protects your children. Start small and teach kids money skills early."
+        ]
+      },
+      {
+        "id": "track",
+        "title": "Tracking with Kucing Atur Duit",
+        "content": [
+          "Create categories per party in **Kucing Atur Duit** with budgets, use charts to keep balance, and export CSV to discuss with your partner or siblings."
+        ]
+      },
+      {
+        "id": "self",
+        "title": "Look after yourself",
+        "content": [
+          "The load is emotional too. Lean on your partner and siblings and protect some time for yourself."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What share of salary should go to parents?",
+        "a": "No fixed rule; decide after essentials and your emergency fund, then keep it consistent."
+      },
+      {
+        "q": "How do I discuss money with parents?",
+        "a": "Respectfully, emphasising consistent support and planning together."
+      },
+      {
+        "q": "Should I still save for retirement?",
+        "a": "Yes, to spare your children the same burden."
+      },
+      {
+        "q": "What if siblings will not contribute?",
+        "a": "Discuss calmly, offer non-financial roles, and focus on what you control."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "membuat-buku-resep-keluarga-dalam-pdf-dari-catatan-ibu-hadiah-hari-ibu",
+    "slugEn": "making-a-family-recipe-book-pdf-from-moms-notes-a-mothers-day-gift",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "lifestyle",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus",
+      "paper-screen-protector"
+    ],
+    "publishedDate": "2026-12-22T09:45:00+07:00",
+    "title": "Membuat Buku Resep Keluarga dalam PDF dari Catatan Ibu: Hadiah Hari Ibu yang Bermakna",
+    "metaTitle": "Buku Resep Keluarga PDF: Hadiah Hari Ibu",
+    "metaDescription": "Resep andalan ibu sering hanya tersimpan di ingatan atau buku catatan lusuh. Abadikan menjadi buku resep keluarga dalam PDF: cara mengumpulkan resep, memotret catatan tulisan tangan, menyusun halaman, dan membagikannya ke seluruh keluarga.",
+    "keywords": [
+      "buku resep keluarga",
+      "hadiah hari ibu",
+      "ide kado hari ibu",
+      "membuat buku resep pdf",
+      "mendokumentasikan resep keluarga"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Resep adalah warisan keluarga",
+        "content": [
+          "Hampir setiap keluarga punya masakan yang selalu membuat rindu rumah: rendang buatan ibu saat Lebaran, sayur asem yang dimasak setiap Minggu, atau kue yang hanya muncul di hari ulang tahun. Sayangnya, banyak resep itu hanya tersimpan di ingatan atau di buku catatan yang kertasnya mulai menguning.",
+          "Hari Ibu pada 22 Desember adalah momen yang tepat untuk mengabadikannya. Buku resep keluarga dalam bentuk PDF bukan hanya hadiah yang menyentuh hati, tapi juga cara menjaga warisan rasa agar bisa diteruskan ke anak dan cucu. Formatnya mudah dibagikan ke seluruh anggota keluarga di mana pun mereka tinggal."
+        ]
+      },
+      {
+        "id": "kumpulkan",
+        "title": "Langkah 1: Kumpulkan resep sambil mengobrol",
+        "content": [
+          "Cara terbaik mengumpulkan resep adalah memasak bersama ibu atau nenek. Banyak resep keluarga tidak memakai takaran pasti, melainkan \"secukupnya\" atau \"segenggam\". Dengan ikut memasak, Anda bisa mencatat takaran yang sebenarnya dan langkah-langkah kecil yang sering terlupa.",
+          "Tanyakan juga cerita di balik setiap resep. Dari siapa resep ini diturunkan? Kapan biasanya dimasak? Cerita-cerita ini membuat buku resep jauh lebih bermakna daripada sekadar daftar bahan."
+        ],
+        "bulletPoints": [
+          "Siapkan daftar masakan yang ingin dicatat sebelum mulai.",
+          "Ukur bahan yang biasanya hanya dikira-kira, misalnya dengan sendok atau gelas ukur.",
+          "Foto setiap tahap memasak dan hasil akhirnya.",
+          "Rekam obrolan dengan izin, agar cerita dan tips tidak terlewat.",
+          "Catat variasi, misalnya versi yang tidak pedas untuk anak-anak."
+        ],
+        "tipBox": {
+          "title": "Jadikan acara keluarga",
+          "text": "Ajak saudara dan anak-anak ikut memasak. Proses mengumpulkan resep bisa menjadi kenangan tersendiri yang tidak kalah berharga dari bukunya.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "tulisan",
+        "title": "Langkah 2: Abadikan tulisan tangan asli",
+        "content": [
+          "Jika ibu memiliki buku catatan resep tulisan tangan, foto atau pindai halaman-halamannya. Tulisan tangan asli memberi sentuhan personal yang tidak tergantikan. Foto di tempat yang terang dengan cahaya alami, pastikan kertas rata, dan seluruh halaman terlihat.",
+          "Anda bisa menempatkan halaman tulisan tangan asli di samping versi ketikan yang lebih mudah dibaca. Dengan begitu, buku tetap praktis dipakai sambil memasak, tapi juga menyimpan kenangan visual tulisan ibu."
+        ]
+      },
+      {
+        "id": "susun",
+        "title": "Langkah 3: Susun halaman resep yang konsisten",
+        "content": [
+          "Buat setiap resep dengan format yang sama agar mudah dibaca. Format yang umum dipakai:"
+        ],
+        "bulletPoints": [
+          "Nama masakan dan foto hasil akhir.",
+          "Cerita singkat atau kenangan tentang masakan tersebut.",
+          "Jumlah porsi dan perkiraan waktu memasak.",
+          "Daftar bahan dengan takaran yang jelas.",
+          "Langkah memasak yang diberi nomor.",
+          "Tips dan variasi dari ibu."
+        ]
+      },
+      {
+        "id": "bab",
+        "title": "Langkah 4: Kelompokkan menjadi bab",
+        "content": [
+          "Kelompokkan resep agar buku mudah dijelajahi, misalnya bab masakan sehari-hari, masakan hari raya, kue dan camilan, sambal, serta minuman. Tambahkan halaman pembuka berisi foto ibu dan kata pengantar dari anak-anak, serta daftar isi di bagian depan.",
+          "Setiap bab bisa dibuat sebagai file PDF terpisah terlebih dahulu dengan aplikasi dokumen atau desain di HP. Gunakan ukuran halaman dan jenis huruf yang sama di semua bab agar hasil akhirnya terlihat seragam."
+        ]
+      },
+      {
+        "id": "gabung",
+        "title": "Langkah 5: Gabungkan dengan Offline PDF Editor & Sign",
+        "content": [
+          "Setelah semua bab siap, gabungkan menjadi satu buku dengan **Offline PDF Editor & Sign**. Susun urutan halaman, masukkan halaman pindaian tulisan tangan di tempat yang tepat, dan putar halaman yang orientasinya salah. Jika ukuran file terlalu besar karena banyak foto, kompres PDF agar mudah dikirim lewat aplikasi pesan.",
+          "Tambahkan sentuhan personal dengan menulis pesan tangan di halaman pertama menggunakan stylus. Semua proses berjalan offline di HP, sehingga foto keluarga dan catatan pribadi tidak perlu diunggah ke layanan daring."
+        ]
+      },
+      {
+        "id": "bagikan",
+        "title": "Membagikan dan mencetak",
+        "content": [
+          "Kirim buku resep PDF ke grup keluarga pada Hari Ibu, atau berikan langsung sebagai hadiah. Jika ingin memberi versi fisik, cetak di percetakan dengan kertas yang tebal dan jilid spiral agar mudah dibuka datar saat memasak.",
+          "Buku resep keluarga bisa terus bertambah. Simpan file sumbernya, lalu tambahkan resep baru setiap tahun. Anak-anak yang sudah dewasa pun bisa menyumbang resep mereka sendiri, sehingga buku ini tumbuh bersama keluarga."
+        ],
+        "tipBox": {
+          "title": "Simpan cadangan",
+          "text": "Simpan file buku resep dan foto-foto aslinya di lebih dari satu tempat. Ini adalah dokumen keluarga yang tidak tergantikan.",
+          "type": "tip"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bagaimana mencatat resep yang takarannya hanya dikira-kira?",
+        "a": "Ikut memasak bersama dan ukur setiap bahan dengan sendok atau gelas ukur saat dimasukkan."
+      },
+      {
+        "q": "Apakah tulisan tangan asli perlu dimasukkan?",
+        "a": "Sangat disarankan sebagai kenangan. Letakkan di samping versi ketikan yang lebih mudah dibaca."
+      },
+      {
+        "q": "Berapa resep yang ideal untuk buku resep keluarga?",
+        "a": "Tidak ada batasan. Mulailah dari 10 sampai 20 resep andalan, lalu tambahkan seiring waktu."
+      },
+      {
+        "q": "Bagaimana jika file PDF terlalu besar untuk dikirim?",
+        "a": "Kompres PDF atau perkecil ukuran foto sebelum digabungkan."
+      }
+    ],
+    "titleEn": "Making a Family Recipe Book PDF from Mom's Notes: A Meaningful Mother's Day Gift",
+    "metaTitleEn": "Family Recipe Book PDF: A Mother's Day Gift",
+    "metaDescriptionEn": "Mom's signature recipes often live only in memory or worn notebooks. Preserve them in a family recipe book PDF: collecting recipes, photographing handwritten notes, laying out pages, and sharing with the whole family.",
+    "keywordsEn": [
+      "family recipe book",
+      "mothers day gift",
+      "mothers day gift ideas",
+      "make a recipe book pdf",
+      "preserve family recipes"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Timed for Indonesian Mother's Day on 22 December, it covers cooking together to capture real measurements and stories, preserving handwritten pages, a consistent recipe layout, chapters, merging and compressing offline, and sharing or printing the book.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Recipes are family heritage",
+        "content": [
+          "Mother's Day in Indonesia (22 December) is a perfect moment to preserve signature dishes in a shareable PDF for future generations."
+        ]
+      },
+      {
+        "id": "collect",
+        "title": "Step 1: Collect recipes while chatting",
+        "content": [
+          "Cook together to capture real measurements and stories:"
+        ],
+        "bulletPoints": [
+          "List dishes in advance.",
+          "Measure \"a pinch\" amounts.",
+          "Photograph each stage.",
+          "Record conversations with permission.",
+          "Note variations."
+        ],
+        "tipBox": {
+          "title": "Make it a family event",
+          "text": "The process becomes a memory in itself.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "handwriting",
+        "title": "Step 2: Preserve original handwriting",
+        "content": [
+          "Photograph notebook pages in good light and place them beside typed versions."
+        ]
+      },
+      {
+        "id": "layout",
+        "title": "Step 3: A consistent recipe layout",
+        "content": [
+          "Each recipe includes:"
+        ],
+        "bulletPoints": [
+          "Name and photo.",
+          "A short story.",
+          "Servings and time.",
+          "Measured ingredients.",
+          "Numbered steps.",
+          "Mom's tips and variations."
+        ]
+      },
+      {
+        "id": "chapters",
+        "title": "Step 4: Group into chapters",
+        "content": [
+          "Daily dishes, festive dishes, cakes, sambals, drinks, plus an opening page, foreword, and contents, all at one page size and font."
+        ]
+      },
+      {
+        "id": "merge",
+        "title": "Step 5: Merge with Offline PDF Editor & Sign",
+        "content": [
+          "Merge chapters, insert scans, rotate pages, compress for sharing, and add a handwritten note with a stylus, all offline."
+        ]
+      },
+      {
+        "id": "share",
+        "title": "Sharing and printing",
+        "content": [
+          "Send it to the family group or print with thick paper and spiral binding. Keep sources to add recipes yearly."
+        ],
+        "tipBox": {
+          "title": "Keep backups",
+          "text": "Store the book and original photos in more than one place.",
+          "type": "tip"
+        }
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How do I record recipes with no fixed measurements?",
+        "a": "Cook together and measure as ingredients go in."
+      },
+      {
+        "q": "Should original handwriting be included?",
+        "a": "Yes, beside a typed version."
+      },
+      {
+        "q": "How many recipes should it have?",
+        "a": "Start with 10 to 20 favourites and add over time."
+      },
+      {
+        "q": "What if the PDF is too big to send?",
+        "a": "Compress it or shrink photos first."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengenal-istilah-audio-pitch-tempo-reverb-dan-echo-dijelaskan-dengan-sederhana",
+    "slugEn": "audio-terms-explained-simply-pitch-tempo-reverb-and-echo",
+    "targetAppSlug": "soundfx-studio",
+    "category": "lifestyle",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "gaming-tws"
+    ],
+    "publishedDate": "2026-12-26T09:45:00+07:00",
+    "title": "Mengenal Istilah Audio: Pitch, Tempo, Reverb, dan Echo Dijelaskan dengan Sederhana",
+    "metaTitle": "Pitch, Tempo, Reverb, Echo: Istilah Audio Simpel",
+    "metaDescription": "Mau mulai mengedit suara tapi bingung dengan istilahnya? Pahami arti pitch, tempo, reverb, echo, gain, dan equalizer dengan bahasa sederhana, contoh penggunaannya, dan cara mencobanya langsung di HP.",
+    "keywords": [
+      "apa itu pitch",
+      "beda pitch dan tempo",
+      "apa itu reverb",
+      "beda reverb dan echo",
+      "istilah edit audio untuk pemula"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "pengantar",
+        "title": "Istilah yang sering membingungkan pemula",
+        "content": [
+          "Saat pertama kali membuka aplikasi pengolah suara, banyak orang langsung disambut tombol dan penggeser dengan nama seperti pitch, tempo, reverb, atau EQ. Tanpa memahami artinya, mengedit suara terasa seperti menebak-nebak.",
+          "Padahal konsep di balik istilah-istilah itu cukup sederhana dan bisa dijelaskan dengan contoh sehari-hari. Setelah memahaminya, Anda bisa mengubah suara dengan sengaja, bukan sekadar mencoba-coba sampai terdengar bagus."
+        ]
+      },
+      {
+        "id": "pitch",
+        "title": "Pitch: tinggi rendahnya suara",
+        "content": [
+          "Pitch adalah tinggi atau rendahnya nada suara. Suara anak kecil atau burung memiliki pitch tinggi, sedangkan suara pria dewasa atau gajah memiliki pitch rendah. Dalam musik, pitch berkaitan dengan nada seperti do, re, mi.",
+          "Saat menaikkan pitch rekaman suara, suara terdengar lebih tinggi seperti tokoh kartun yang kecil. Saat menurunkannya, suara terdengar lebih berat dan dalam, cocok untuk tokoh raksasa atau monster. Efek suara chipmunk yang populer pada dasarnya adalah pitch yang dinaikkan cukup tinggi."
+        ]
+      },
+      {
+        "id": "tempo",
+        "title": "Tempo: cepat lambatnya suara",
+        "content": [
+          "Tempo adalah kecepatan suara atau musik diputar. Menaikkan tempo membuat ucapan atau lagu terdengar lebih cepat, sedangkan menurunkannya membuat lebih lambat.",
+          "Dulu, saat kaset atau piringan hitam diputar lebih cepat, pitch dan tempo berubah bersamaan, sehingga suara menjadi cepat sekaligus tinggi. Teknologi modern memungkinkan keduanya diatur terpisah. Artinya, Anda bisa membuat suara lebih tinggi tanpa membuatnya lebih cepat, atau memperlambat ucapan tanpa membuatnya terdengar berat."
+        ],
+        "tipBox": {
+          "title": "Kenapa pengaturan terpisah penting",
+          "text": "Dengan pitch dan tempo terpisah, suara yang diubah tetap mudah dimengerti. Ini sangat berguna untuk dongeng, video edukasi, atau suara karakter.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "reverb",
+        "title": "Reverb: kesan ruangan",
+        "content": [
+          "Reverb, kependekan dari reverberation, adalah pantulan suara yang sangat banyak dan rapat sehingga menyatu menjadi dengungan halus. Reverb memberi kesan di mana suara itu berada. Suara di kamar mandi atau aula besar terdengar \"bergaung\" karena reverb, sedangkan suara di kamar penuh kasur dan gorden terdengar kering karena sedikit pantulan.",
+          "Dalam pengeditan, reverb dipakai untuk memberi kesan ruangan tertentu, misalnya suara tokoh di dalam gua, katedral, atau stadion. Sedikit reverb juga bisa membuat suara nyanyian terdengar lebih lembut dan penuh."
+        ]
+      },
+      {
+        "id": "echo",
+        "title": "Echo: pantulan yang terdengar jelas",
+        "content": [
+          "Echo atau gema adalah pantulan suara yang terdengar terpisah dan jelas, seperti saat Anda berteriak di lembah lalu mendengar suara Anda kembali beberapa saat kemudian. Berbeda dengan reverb yang menyatu, echo terdengar sebagai pengulangan yang bisa dihitung.",
+          "Echo sering dipakai untuk efek dramatis, misalnya pada pengumuman ala penyiar, pembuka video, atau suara yang seolah datang dari tempat yang sangat jauh."
+        ]
+      },
+      {
+        "id": "lain",
+        "title": "Istilah lain yang sering ditemui",
+        "content": [
+          "Selain empat istilah utama di atas, ada beberapa istilah lain yang berguna diketahui:"
+        ],
+        "bulletPoints": [
+          "Gain atau volume: seberapa keras suara. Menaikkan gain terlalu tinggi bisa membuat suara pecah.",
+          "Clipping: suara pecah atau kasar karena terlalu keras melebihi batas.",
+          "Equalizer atau EQ: mengatur keseimbangan suara rendah (bass), tengah, dan tinggi (treble).",
+          "Noise: suara latar yang tidak diinginkan, seperti dengung kipas atau desis.",
+          "Fade in dan fade out: suara yang perlahan muncul atau perlahan menghilang.",
+          "Sample rate: seberapa rinci suara direkam, biasanya ditulis dalam kHz."
+        ],
+        "tipBox": {
+          "title": "Hindari clipping saat merekam",
+          "text": "Suara yang sudah pecah saat direkam sulit diperbaiki. Lebih baik merekam sedikit lebih pelan, lalu naikkan volumenya saat mengedit.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "coba",
+        "title": "Mencoba langsung dengan SoundFX Studio",
+        "content": [
+          "Cara terbaik memahami istilah-istilah ini adalah mendengarnya langsung. Dengan **SoundFX Studio**, rekam satu kalimat pendek, lalu coba ubah satu pengaturan pada satu waktu. Naikkan pitch dan dengarkan perbedaannya, lalu kembalikan dan ubah tempo. Setelah itu, coba tambahkan reverb dan echo untuk mendengar bedanya.",
+          "Mode manual di aplikasi ini menyediakan pengaturan pitch dan tempo yang terpisah, sehingga Anda bisa langsung merasakan perbedaan keduanya. Tersedia juga lebih dari 100 efek suara siap pakai yang bisa dipelajari satu per satu. Semua pemrosesan berjalan di HP tanpa koneksi internet. Dengarkan dengan earphone agar perbedaan halus, terutama pada reverb, lebih mudah terdengar."
+        ]
+      },
+      {
+        "id": "latihan",
+        "title": "Latihan sederhana untuk melatih telinga",
+        "content": [
+          "Rekam kalimat yang sama, lalu buat lima versi: pitch tinggi, pitch rendah, tempo cepat, dengan reverb, dan dengan echo. Dengarkan kelimanya berurutan dan tebak efek apa yang dipakai tanpa melihat. Latihan sederhana ini membantu telinga Anda mengenali setiap efek, sehingga saat mengedit proyek sungguhan, Anda tahu persis pengaturan apa yang perlu diubah."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apa beda pitch dan tempo?",
+        "a": "Pitch adalah tinggi rendahnya nada, sedangkan tempo adalah cepat lambatnya suara diputar. Aplikasi modern bisa mengatur keduanya secara terpisah."
+      },
+      {
+        "q": "Apa beda reverb dan echo?",
+        "a": "Reverb adalah pantulan rapat yang menyatu dan memberi kesan ruangan, sedangkan echo adalah pantulan yang terdengar jelas sebagai pengulangan."
+      },
+      {
+        "q": "Kenapa suara rekaman saya pecah?",
+        "a": "Kemungkinan terjadi clipping karena suara terlalu keras saat direkam. Rekam lebih pelan atau jauhkan sedikit HP dari mulut."
+      },
+      {
+        "q": "Apakah perlu earphone untuk mengedit suara?",
+        "a": "Sangat disarankan agar detail seperti reverb, desis, atau noise lebih mudah terdengar."
+      }
+    ],
+    "titleEn": "Audio Terms Explained Simply: Pitch, Tempo, Reverb, and Echo",
+    "metaTitleEn": "Pitch, Tempo, Reverb, Echo Explained Simply",
+    "metaDescriptionEn": "Want to start editing sound but confused by the jargon? Understand pitch, tempo, reverb, echo, gain, and EQ in plain language, with examples and ways to try them on your phone.",
+    "keywordsEn": [
+      "what is pitch",
+      "pitch vs tempo",
+      "what is reverb",
+      "reverb vs echo",
+      "audio editing terms for beginners"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains pitch, tempo (and why separate control matters), reverb, echo, and related terms like gain, clipping, EQ, noise, and fades, then suggests hands-on experiments in SoundFX Studio and an ear-training exercise.",
+    "sectionsEn": [
+      {
+        "id": "intro",
+        "title": "Confusing beginner terms",
+        "content": [
+          "The concepts behind audio jargon are simple, and understanding them lets you edit on purpose."
+        ]
+      },
+      {
+        "id": "pitch",
+        "title": "Pitch: high or low",
+        "content": [
+          "Raising pitch makes cartoon-like voices; lowering it creates giants. The chipmunk effect is raised pitch."
+        ]
+      },
+      {
+        "id": "tempo",
+        "title": "Tempo: fast or slow",
+        "content": [
+          "Old tapes changed pitch and tempo together; modern tools separate them so you can raise pitch without speeding up."
+        ],
+        "tipBox": {
+          "title": "Why separate controls matter",
+          "text": "Changed voices stay intelligible for stories and characters.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "reverb",
+        "title": "Reverb: the sense of a room",
+        "content": [
+          "Dense reflections that blend into a soft wash, used to place a voice in a cave, cathedral, or stadium."
+        ]
+      },
+      {
+        "id": "echo",
+        "title": "Echo: distinct reflections",
+        "content": [
+          "Separate, countable repeats, used for dramatic announcements or distant voices."
+        ]
+      },
+      {
+        "id": "more",
+        "title": "Other common terms",
+        "content": [
+          "Also useful:"
+        ],
+        "bulletPoints": [
+          "Gain or volume.",
+          "Clipping: distortion from excess level.",
+          "EQ: bass, mids, treble balance.",
+          "Noise: unwanted background sound.",
+          "Fade in and out.",
+          "Sample rate in kHz."
+        ],
+        "tipBox": {
+          "title": "Avoid clipping when recording",
+          "text": "Record slightly quieter and raise volume later.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "try",
+        "title": "Try it in SoundFX Studio",
+        "content": [
+          "Record one line in **SoundFX Studio** and change one setting at a time: pitch, tempo, reverb, echo. Separate pitch and tempo controls and 100+ effects make comparisons easy offline; use earphones."
+        ]
+      },
+      {
+        "id": "practice",
+        "title": "Ear-training exercise",
+        "content": [
+          "Make five versions of the same line and guess each effect blind."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Pitch versus tempo?",
+        "a": "Pitch is how high or low; tempo is how fast. Modern apps control them separately."
+      },
+      {
+        "q": "Reverb versus echo?",
+        "a": "Reverb blends into room ambience; echo repeats distinctly."
+      },
+      {
+        "q": "Why does my recording distort?",
+        "a": "Likely clipping; record quieter or farther away."
+      },
+      {
+        "q": "Do I need earphones to edit?",
+        "a": "Strongly recommended."
+      }
+    ],
+    "coverImage": "/images/apps/soundfx-studio/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-berhenti-doomscrolling-ganti-dengan-kebiasaan-ringan-yang-lebih-menyegarkan",
+    "slugEn": "how-to-stop-doomscrolling-and-replace-it-with-lighter-habits",
+    "targetAppSlug": "fruity-merge-3d-match-puzzle",
+    "category": "lifestyle",
+    "publishedDate": "2026-12-27T09:45:00+07:00",
+    "title": "Cara Berhenti Doomscrolling: Ganti dengan Kebiasaan Ringan yang Lebih Menyegarkan",
+    "metaTitle": "Cara Berhenti Doomscrolling di HP",
+    "metaDescription": "Niat membuka HP sebentar, tahu-tahu satu jam habis untuk menggulir berita dan media sosial? Pahami kenapa doomscrolling sulit dihentikan, kenali pemicunya, dan ganti dengan kebiasaan ringan yang lebih menyegarkan.",
+    "keywords": [
+      "cara berhenti doomscrolling",
+      "kecanduan scroll media sosial",
+      "mengurangi main hp",
+      "digital detox",
+      "kebiasaan sehat memakai hp"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "apa",
+        "title": "Apa itu doomscrolling",
+        "content": [
+          "Doomscrolling adalah kebiasaan terus menggulir layar, terutama berita buruk atau konten media sosial, meskipun hal itu membuat kita merasa cemas, lelah, atau tidak nyaman. Banyak orang mengalaminya di malam hari sebelum tidur: niatnya mengecek HP sebentar, tapi tiba-tiba sudah lewat tengah malam.",
+          "Kebiasaan ini bukan semata soal kurang disiplin. Aplikasi media sosial dirancang dengan umpan yang tidak pernah habis dan konten yang terus berganti, sehingga otak selalu penasaran dengan apa yang muncul berikutnya. Memahami mekanisme ini adalah langkah pertama untuk keluar dari lingkarannya."
+        ]
+      },
+      {
+        "id": "dampak",
+        "title": "Dampak yang sering tidak disadari",
+        "content": [
+          "Menggulir tanpa henti memengaruhi lebih dari sekadar waktu yang hilang:"
+        ],
+        "bulletPoints": [
+          "Tidur menjadi lebih larut dan kualitasnya menurun.",
+          "Perasaan cemas atau sedih meningkat setelah terpapar banyak berita buruk.",
+          "Konsentrasi menurun karena otak terbiasa dengan rangsangan cepat.",
+          "Waktu untuk keluarga, hobi, dan istirahat berkurang.",
+          "Muncul perasaan membandingkan diri dengan kehidupan orang lain di media sosial."
+        ]
+      },
+      {
+        "id": "pemicu",
+        "title": "Langkah 1: Kenali pemicunya",
+        "content": [
+          "Doomscrolling biasanya dipicu oleh situasi tertentu. Perhatikan kapan Anda paling sering terjebak: saat bosan menunggu, setelah bangun tidur, saat menunda pekerjaan, atau sebelum tidur. Mengetahui pemicu membantu Anda menyiapkan kebiasaan pengganti tepat di momen itu.",
+          "Fitur pemantau waktu layar di pengaturan HP bisa menunjukkan aplikasi mana yang paling banyak memakan waktu dan di jam berapa. Data ini sering mengejutkan, tapi sangat membantu."
+        ],
+        "tipBox": {
+          "title": "Tanyakan pada diri sendiri",
+          "text": "Sebelum membuka aplikasi media sosial, tanyakan: \"Apa yang sedang saya cari?\" Jika tidak ada jawaban yang jelas, kemungkinan itu dorongan kebiasaan, bukan kebutuhan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "hambatan",
+        "title": "Langkah 2: Tambahkan sedikit hambatan",
+        "content": [
+          "Semakin mudah sebuah kebiasaan dilakukan, semakin sering kita melakukannya. Tambahkan sedikit hambatan pada aplikasi yang paling sering membuat Anda terjebak:"
+        ],
+        "bulletPoints": [
+          "Pindahkan aplikasi media sosial dari layar utama ke dalam folder.",
+          "Keluar dari akun setelah selesai, sehingga harus masuk lagi setiap kali membuka.",
+          "Matikan notifikasi yang tidak penting.",
+          "Atur batas waktu harian untuk aplikasi tertentu di pengaturan kesejahteraan digital.",
+          "Letakkan HP di luar kamar tidur saat malam, dan gunakan jam alarm biasa."
+        ]
+      },
+      {
+        "id": "ganti",
+        "title": "Langkah 3: Siapkan kebiasaan pengganti",
+        "content": [
+          "Menghentikan kebiasaan lama tanpa pengganti biasanya gagal, karena kebutuhan di baliknya, seperti mengisi waktu atau mencari hiburan, tetap ada. Siapkan kegiatan ringan yang bisa dilakukan di momen pemicu:"
+        ],
+        "bulletPoints": [
+          "Saat menunggu: membaca beberapa halaman buku digital atau memainkan satu ronde game puzzle singkat.",
+          "Setelah bangun tidur: minum air, membuka jendela, dan meregangkan badan sebelum menyentuh HP.",
+          "Saat menunda pekerjaan: berjalan sebentar atau merapikan meja selama lima menit.",
+          "Sebelum tidur: membaca buku fisik, menulis jurnal singkat, atau mendengarkan musik yang menenangkan."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Game singkat sebagai pengganti yang lebih ringan",
+        "content": [
+          "Tidak semua waktu di HP sama dampaknya. Satu ronde game puzzle dengan awal dan akhir yang jelas berbeda dengan umpan media sosial yang tidak pernah berakhir. **Fruit Match: Memory Puzzle** adalah game mencocokkan kartu buah di mana Anda harus mengingat posisi gambar untuk menemukan pasangannya.",
+          "Setiap ronde selesai dalam waktu singkat, sehingga ada titik berhenti yang alami. Game ini juga melatih daya ingat dan fokus, bukan sekadar menyerap konten secara pasif, dan bisa dimainkan offline tanpa notifikasi yang menarik Anda kembali ke media sosial. Tetapkan batas, misalnya dua ronde, lalu letakkan HP."
+        ],
+        "tipBox": {
+          "title": "Tetap tetapkan batas",
+          "text": "Game pun bisa menjadi kebiasaan yang berlebihan. Gunakan sebagai pengganti singkat, bukan pelarian baru.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "berita",
+        "title": "Mengonsumsi berita dengan lebih sehat",
+        "content": [
+          "Tetap mengikuti berita itu penting, tapi tidak perlu setiap jam. Tentukan satu atau dua waktu dalam sehari untuk membaca berita dari sumber yang tepercaya, misalnya pagi dan sore. Pilih membaca ringkasan berita daripada menggulir komentar yang sering memancing emosi."
+        ]
+      },
+      {
+        "id": "pelan",
+        "title": "Berubah secara bertahap",
+        "content": [
+          "Tidak perlu langsung menghapus semua media sosial. Mulailah dari satu perubahan kecil, misalnya tidak membuka HP di 30 menit pertama setelah bangun tidur. Setelah terbiasa, tambahkan perubahan berikutnya. Perhatikan bagaimana perasaan dan kualitas tidur Anda membaik seiring waktu, dan jadikan itu motivasi untuk terus melanjutkan."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apa itu doomscrolling?",
+        "a": "Kebiasaan terus menggulir layar, terutama berita buruk atau media sosial, meskipun membuat cemas atau lelah."
+      },
+      {
+        "q": "Bagaimana cara cepat mengurangi waktu media sosial?",
+        "a": "Matikan notifikasi, pindahkan aplikasi dari layar utama, dan atur batas waktu harian di pengaturan HP."
+      },
+      {
+        "q": "Apakah main game lebih baik daripada scroll media sosial?",
+        "a": "Game singkat dengan titik berhenti yang jelas bisa menjadi pengganti yang lebih ringan, asalkan tetap dibatasi."
+      },
+      {
+        "q": "Perlukah menghapus akun media sosial?",
+        "a": "Tidak harus. Banyak orang berhasil mengurangi waktu layar dengan perubahan kecil yang bertahap."
+      }
+    ],
+    "titleEn": "How to Stop Doomscrolling: Replace It with Lighter, More Refreshing Habits",
+    "metaTitleEn": "How to Stop Doomscrolling",
+    "metaDescriptionEn": "Meant to check your phone for a minute and lost an hour scrolling? Learn why doomscrolling is hard to stop, identify your triggers, and replace it with lighter habits.",
+    "keywordsEn": [
+      "how to stop doomscrolling",
+      "social media scrolling addiction",
+      "reduce phone use",
+      "digital detox",
+      "healthy phone habits"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Defines doomscrolling and why infinite feeds hook us, lists hidden effects, and gives steps: identify triggers, add friction, prepare replacement habits, use short games with natural stopping points, consume news deliberately, and change gradually.",
+    "sectionsEn": [
+      {
+        "id": "what",
+        "title": "What doomscrolling is",
+        "content": [
+          "Endless scrolling through bad news or social feeds despite feeling anxious, driven by feeds designed never to end."
+        ]
+      },
+      {
+        "id": "effects",
+        "title": "Hidden effects",
+        "content": [
+          "It affects:"
+        ],
+        "bulletPoints": [
+          "Sleep timing and quality.",
+          "Anxiety and low mood.",
+          "Concentration.",
+          "Time for family and hobbies.",
+          "Social comparison."
+        ]
+      },
+      {
+        "id": "triggers",
+        "title": "Step 1: Identify triggers",
+        "content": [
+          "Notice when it happens and check screen-time stats."
+        ],
+        "tipBox": {
+          "title": "Ask yourself",
+          "text": "\"What am I looking for?\" No answer usually means habit.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "friction",
+        "title": "Step 2: Add friction",
+        "content": [
+          "Make scrolling harder:"
+        ],
+        "bulletPoints": [
+          "Move apps into folders.",
+          "Log out after use.",
+          "Disable non-essential notifications.",
+          "Set daily app limits.",
+          "Keep the phone out of the bedroom."
+        ]
+      },
+      {
+        "id": "replace",
+        "title": "Step 3: Prepare replacements",
+        "content": [
+          "Match a light activity to each trigger:"
+        ],
+        "bulletPoints": [
+          "Waiting: a few pages or one short puzzle round.",
+          "Waking: water, light, and a stretch first.",
+          "Procrastinating: a short walk or tidy-up.",
+          "Bedtime: a paper book, journal, or calm music."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Short games as a lighter substitute",
+        "content": [
+          "**Fruit Match: Memory Puzzle** rounds end quickly, exercise memory, and work offline without social notifications. Set a limit like two rounds."
+        ],
+        "tipBox": {
+          "title": "Still set limits",
+          "text": "Do not trade one habit for another.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "news",
+        "title": "Healthier news habits",
+        "content": [
+          "Read trusted summaries at set times instead of hourly comment-scrolling."
+        ]
+      },
+      {
+        "id": "gradual",
+        "title": "Change gradually",
+        "content": [
+          "Start with one change, like no phone for 30 minutes after waking, then build."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What is doomscrolling?",
+        "a": "Compulsive scrolling through negative or social content despite feeling worse."
+      },
+      {
+        "q": "Quickest way to cut social media time?",
+        "a": "Disable notifications, hide apps, and set daily limits."
+      },
+      {
+        "q": "Are games better than scrolling?",
+        "a": "Short games with clear endpoints can be a lighter substitute if limited."
+      },
+      {
+        "q": "Must I delete my accounts?",
+        "a": "No; gradual changes work for many people."
+      }
+    ],
+    "coverImage": "/images/apps/fruity-merge-3d-match-puzzle/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "resolusi-keuangan-2027-yang-realistis-cara-menetapkan-target-dengan-metode-smart",
+    "slugEn": "realistic-2027-money-resolutions-setting-smart-financial-goals",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-12-28T09:45:00+07:00",
+    "title": "Resolusi Keuangan 2027 yang Realistis: Cara Menetapkan Target dengan Metode SMART",
+    "metaTitle": "Resolusi Keuangan 2027 dengan Metode SMART",
+    "metaDescription": "Resolusi keuangan sering gagal karena terlalu umum, seperti \"tahun depan harus lebih hemat\". Pelajari cara mengevaluasi tahun 2026, menetapkan target keuangan 2027 dengan metode SMART, memecahnya menjadi langkah bulanan, dan memantaunya sepanjang tahun.",
+    "keywords": [
+      "resolusi keuangan 2027",
+      "target keuangan tahun baru",
+      "metode smart keuangan",
+      "cara mencapai resolusi tahun baru",
+      "rencana keuangan tahunan"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "gagal",
+        "title": "Kenapa resolusi keuangan sering gagal",
+        "content": [
+          "Setiap akhir tahun, banyak orang menulis resolusi seperti \"tahun depan harus lebih hemat\" atau \"mulai rajin menabung\". Namun di bulan Februari, resolusi itu sering sudah terlupakan. Masalahnya jarang terletak pada niat, melainkan pada cara resolusi itu dirumuskan.",
+          "Resolusi yang terlalu umum tidak memberi petunjuk tentang apa yang harus dilakukan setiap hari, dan tidak bisa diukur apakah sudah berhasil atau belum. Tanpa ukuran yang jelas, mudah sekali merasa gagal lalu berhenti. Metode SMART membantu mengubah niat yang samar menjadi rencana yang bisa dijalankan."
+        ]
+      },
+      {
+        "id": "evaluasi",
+        "title": "Langkah 1: Evaluasi keuangan tahun 2026",
+        "content": [
+          "Sebelum menetapkan target baru, luangkan waktu untuk melihat ke belakang. Evaluasi yang jujur membuat target tahun depan lebih realistis. Jawab beberapa pertanyaan berikut:"
+        ],
+        "bulletPoints": [
+          "Berapa total penghasilan dan pengeluaran selama setahun?",
+          "Pos pengeluaran apa yang paling besar, dan apakah ada yang mengejutkan?",
+          "Berapa yang berhasil ditabung atau diinvestasikan?",
+          "Apakah utang bertambah atau berkurang?",
+          "Target keuangan apa yang tercapai, dan mana yang belum? Apa penyebabnya?"
+        ],
+        "tipBox": {
+          "title": "Pakai data, bukan ingatan",
+          "text": "Jika Anda mencatat pengeluaran sepanjang tahun, lihat ringkasan dan grafiknya. Ingatan cenderung meremehkan pengeluaran kecil yang sering terjadi.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "smart",
+        "title": "Langkah 2: Rumuskan target dengan metode SMART",
+        "content": [
+          "SMART adalah singkatan dari lima ciri target yang baik. Gunakan sebagai daftar periksa untuk setiap resolusi:"
+        ],
+        "bulletPoints": [
+          "Specific (spesifik): jelas apa yang ingin dicapai. Bukan \"menabung\", tapi \"menabung untuk dana darurat\".",
+          "Measurable (terukur): ada angka yang bisa dipantau, misalnya Rp12.000.000.",
+          "Achievable (bisa dicapai): sesuai dengan penghasilan dan kondisi Anda saat ini.",
+          "Relevant (relevan): penting bagi hidup Anda, bukan sekadar ikut tren.",
+          "Time-bound (berbatas waktu): ada tenggat, misalnya sebelum 31 Desember 2027."
+        ]
+      },
+      {
+        "id": "contoh",
+        "title": "Contoh mengubah resolusi umum menjadi SMART",
+        "content": [
+          "Perhatikan perbedaan antara resolusi umum dan versi SMART-nya:"
+        ],
+        "bulletPoints": [
+          "\"Lebih hemat\" menjadi \"Mengurangi pengeluaran pesan antar dari Rp1.200.000 menjadi Rp600.000 per bulan mulai Januari 2027\".",
+          "\"Rajin menabung\" menjadi \"Mengumpulkan dana darurat Rp12.000.000 dengan menabung Rp1.000.000 setiap tanggal gajian sampai Desember 2027\".",
+          "\"Bebas utang\" menjadi \"Melunasi sisa cicilan kartu kredit Rp6.000.000 dalam delapan bulan dengan membayar Rp750.000 per bulan\".",
+          "\"Mulai investasi\" menjadi \"Menyisihkan Rp300.000 per bulan ke instrumen investasi yang sudah dipelajari risikonya, mulai Maret 2027\"."
+        ],
+        "tipBox": {
+          "title": "Cukup tiga target",
+          "text": "Terlalu banyak resolusi membuat fokus terpecah. Pilih maksimal tiga target keuangan utama untuk tahun 2027.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "pecah",
+        "title": "Langkah 3: Pecah menjadi langkah bulanan dan mingguan",
+        "content": [
+          "Target tahunan terasa jauh. Pecah setiap target menjadi angka bulanan, lalu tentukan tindakan mingguan yang mendukungnya. Misalnya, untuk mengurangi pesan antar, tindakan mingguannya adalah menyusun rencana menu setiap Minggu dan memasak bekal tiga kali seminggu.",
+          "Tuliskan kapan tindakan itu dilakukan. Setoran tabungan sebaiknya otomatis di tanggal gajian, sehingga tidak bergantung pada ingatan dan kemauan. Semakin sedikit keputusan yang harus diambil setiap bulan, semakin besar peluang target tercapai."
+        ]
+      },
+      {
+        "id": "pantau",
+        "title": "Langkah 4: Pantau kemajuan dengan Kucing Atur Duit",
+        "content": [
+          "Target yang tidak dipantau mudah terlupakan. **Kucing Atur Duit** membantu memantau resolusi keuangan sepanjang tahun. Tetapkan anggaran bulanan untuk setiap kategori yang ingin dikurangi, misalnya pesan antar atau belanja daring, dan biarkan peringatan anggaran memberi tanda saat mendekati batas.",
+          "Catat setoran tabungan sebagai kategori tersendiri agar kemajuannya terlihat jelas. Grafik bulanan menunjukkan apakah kebiasaan Anda benar-benar berubah. Maskot kucing yang bereaksi terhadap pengeluaran membuat proses ini terasa lebih ringan, dan semua data tersimpan privat di HP serta bisa dipakai offline."
+        ]
+      },
+      {
+        "id": "tinjau",
+        "title": "Langkah 5: Tinjau setiap tiga bulan",
+        "content": [
+          "Jadwalkan evaluasi singkat setiap akhir kuartal, yaitu Maret, Juni, September, dan Desember. Lihat apakah target masih di jalur yang benar. Jika tertinggal, cari penyebabnya dan sesuaikan rencana. Jika kondisi berubah, misalnya penghasilan naik atau ada kebutuhan baru, tidak apa-apa mengubah target.",
+          "Rayakan juga pencapaian kecil. Berhasil mengurangi pesan antar selama tiga bulan berturut-turut adalah kemajuan nyata yang layak diapresiasi, misalnya dengan hadiah kecil yang sudah dianggarkan."
+        ],
+        "tipBox": {
+          "title": "Gagal sebulan bukan berarti gagal setahun",
+          "text": "Bulan yang meleset adalah hal biasa. Yang penting adalah kembali ke rencana di bulan berikutnya, bukan meninggalkan resolusi sepenuhnya.",
+          "type": "tip"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apa itu metode SMART dalam keuangan?",
+        "a": "Cara merumuskan target yang spesifik, terukur, bisa dicapai, relevan, dan berbatas waktu, agar resolusi bisa dijalankan dan dipantau."
+      },
+      {
+        "q": "Berapa banyak resolusi keuangan yang ideal?",
+        "a": "Sebaiknya maksimal tiga target utama agar fokus tidak terpecah."
+      },
+      {
+        "q": "Bagaimana jika di tengah tahun target terasa tidak realistis?",
+        "a": "Tinjau dan sesuaikan. Mengubah target sesuai kondisi lebih baik daripada meninggalkannya sama sekali."
+      },
+      {
+        "q": "Kapan sebaiknya mulai menyusun resolusi keuangan?",
+        "a": "Akhir tahun adalah waktu yang baik, setelah mengevaluasi keuangan selama setahun terakhir."
+      }
+    ],
+    "titleEn": "Realistic 2027 Money Resolutions: Setting SMART Financial Goals",
+    "metaTitleEn": "SMART Money Resolutions for 2027",
+    "metaDescriptionEn": "Money resolutions often fail because they are vague, like \"spend less next year\". Learn to review 2026, set SMART goals for 2027, break them into monthly steps, and track them all year.",
+    "keywordsEn": [
+      "2027 financial resolutions",
+      "new year money goals",
+      "smart financial goals",
+      "achieve new year resolutions",
+      "annual financial plan"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "Explains why vague resolutions fail, reviewing 2026 with data, the SMART criteria with before-and-after examples, limiting to three goals, monthly and weekly actions with automation, tracking in Kucing Atur Duit, and quarterly reviews.",
+    "sectionsEn": [
+      {
+        "id": "fail",
+        "title": "Why money resolutions fail",
+        "content": [
+          "Vague goals give no daily direction and no way to measure success. SMART turns intentions into plans."
+        ]
+      },
+      {
+        "id": "review",
+        "title": "Step 1: Review 2026",
+        "content": [
+          "Ask:"
+        ],
+        "bulletPoints": [
+          "Total income and spending?",
+          "Biggest and most surprising categories?",
+          "How much was saved or invested?",
+          "Did debt rise or fall?",
+          "Which goals were met and why not others?"
+        ],
+        "tipBox": {
+          "title": "Use data, not memory",
+          "text": "Memory underestimates frequent small spending.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "smart",
+        "title": "Step 2: SMART goals",
+        "content": [
+          "Each goal should be:"
+        ],
+        "bulletPoints": [
+          "Specific.",
+          "Measurable.",
+          "Achievable.",
+          "Relevant.",
+          "Time-bound."
+        ]
+      },
+      {
+        "id": "examples",
+        "title": "Examples",
+        "content": [
+          "Before and after:"
+        ],
+        "bulletPoints": [
+          "\"Spend less\" becomes cutting delivery from Rp1,200,000 to Rp600,000 monthly from January.",
+          "\"Save more\" becomes Rp12,000,000 emergency fund at Rp1,000,000 each payday.",
+          "\"Be debt-free\" becomes clearing Rp6,000,000 in eight months.",
+          "\"Start investing\" becomes Rp300,000 monthly from March after learning the risks."
+        ],
+        "tipBox": {
+          "title": "Three goals is enough",
+          "text": "Too many resolutions split focus.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "break",
+        "title": "Step 3: Monthly and weekly steps",
+        "content": [
+          "Turn yearly targets into monthly numbers and weekly actions, and automate savings on payday."
+        ]
+      },
+      {
+        "id": "track",
+        "title": "Step 4: Track with Kucing Atur Duit",
+        "content": [
+          "Set category budgets and alerts, log savings separately, and watch monthly charts in **Kucing Atur Duit**, privately and offline."
+        ]
+      },
+      {
+        "id": "revisit",
+        "title": "Step 5: Quarterly reviews",
+        "content": [
+          "Check in each quarter, adjust when life changes, and celebrate small wins."
+        ],
+        "tipBox": {
+          "title": "One bad month is not a failed year",
+          "text": "Return to the plan next month.",
+          "type": "tip"
+        }
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What is the SMART method for money?",
+        "a": "Specific, measurable, achievable, relevant, time-bound goals."
+      },
+      {
+        "q": "How many resolutions?",
+        "a": "Up to three main goals."
+      },
+      {
+        "q": "What if a goal becomes unrealistic?",
+        "a": "Review and adjust rather than abandon it."
+      },
+      {
+        "q": "When should I set them?",
+        "a": "Year-end, after reviewing the past year."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "merapikan-arsip-dokumen-digital-menjelang-tahun-baru-folder-penamaan-dan-cadangan",
+    "slugEn": "tidying-your-digital-documents-before-the-new-year-folders-naming-and-backups",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus"
+    ],
+    "publishedDate": "2026-12-29T09:45:00+07:00",
+    "title": "Merapikan Arsip Dokumen Digital Menjelang Tahun Baru: Folder, Penamaan File, dan Cadangan",
+    "metaTitle": "Rapikan Arsip Dokumen Digital Sebelum Tahun Baru",
+    "metaDescription": "Folder Unduhan penuh file bernama acak dan dokumen penting sulit ditemukan saat dibutuhkan? Rapikan arsip digital Anda menjelang tahun baru dengan struktur folder sederhana, aturan penamaan file, penggabungan PDF, dan sistem cadangan yang aman.",
+    "keywords": [
+      "cara merapikan file di hp",
+      "arsip dokumen digital",
+      "cara memberi nama file",
+      "struktur folder dokumen",
+      "backup dokumen penting"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Tumpukan file yang terus bertambah",
+        "content": [
+          "Sepanjang tahun, HP kita menerima puluhan bahkan ratusan dokumen: slip gaji, bukti transfer, tagihan, tiket perjalanan, surat dari sekolah anak, kontrak, dan hasil pindaian. Kebanyakan tersimpan otomatis di folder Unduhan dengan nama seperti \"document(3).pdf\" atau \"IMG_20260514.jpg\".",
+          "Masalahnya baru terasa saat dokumen itu dibutuhkan mendadak, misalnya saat mengurus pajak, klaim asuransi, atau pendaftaran sekolah. Akhir tahun adalah waktu yang tepat untuk merapikan semuanya, agar tahun baru dimulai dengan arsip yang tertata."
+        ]
+      },
+      {
+        "id": "struktur",
+        "title": "Langkah 1: Buat struktur folder sederhana",
+        "content": [
+          "Struktur folder yang baik tidak perlu rumit. Semakin sederhana, semakin mudah dijalankan. Contoh struktur yang bisa dipakai:"
+        ],
+        "bulletPoints": [
+          "01_Identitas: dokumen kependudukan, paspor, dan dokumen pribadi penting lainnya.",
+          "02_Keuangan: dengan subfolder per tahun, misalnya 2026 dan 2027, berisi slip gaji, bukti pajak, dan rekening koran.",
+          "03_Rumah dan Kendaraan: kontrak sewa, sertifikat, pajak kendaraan, dan garansi barang.",
+          "04_Kesehatan: kartu asuransi, hasil pemeriksaan, dan resep.",
+          "05_Pendidikan dan Pekerjaan: ijazah, sertifikat, CV, dan kontrak kerja.",
+          "06_Anak: rapor, surat sekolah, dan catatan kesehatan anak.",
+          "99_Arsip: dokumen lama yang jarang dibuka tapi masih perlu disimpan."
+        ],
+        "tipBox": {
+          "title": "Kenapa memakai angka di depan",
+          "text": "Angka di awal nama folder membuat urutannya tetap sama di semua perangkat, dan folder yang paling sering dipakai selalu muncul di atas.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "nama",
+        "title": "Langkah 2: Terapkan aturan penamaan file",
+        "content": [
+          "Nama file yang konsisten membuat dokumen mudah dicari dan diurutkan. Format yang mudah diingat adalah tanggal, jenis dokumen, lalu keterangan singkat. Gunakan format tanggal tahun-bulan-hari agar file otomatis terurut.",
+          "Contoh nama file yang baik: \"2026-03-15_Slip-Gaji_Maret.pdf\", \"2026-07-02_Polis-Asuransi_Kesehatan.pdf\", atau \"2026-11-20_Rapor_Kakak_Semester1.pdf\". Hindari spasi berlebihan dan karakter khusus yang kadang tidak terbaca di perangkat lain."
+        ]
+      },
+      {
+        "id": "sortir",
+        "title": "Langkah 3: Sortir folder Unduhan",
+        "content": [
+          "Buka folder Unduhan dan sortir file satu per satu. Gunakan tiga kategori sederhana:"
+        ],
+        "bulletPoints": [
+          "Simpan: dokumen penting yang dipindahkan ke folder yang sesuai dan diberi nama ulang.",
+          "Hapus: file duplikat, brosur promo, dan dokumen yang sudah tidak berlaku.",
+          "Ragu: masukkan ke folder sementara, lalu tinjau lagi setelah satu bulan."
+        ],
+        "tipBox": {
+          "title": "Sedikit demi sedikit",
+          "text": "Jika file sangat banyak, sortir 15 menit setiap hari selama seminggu. Lebih mudah dijalankan daripada menghabiskan satu hari penuh.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "gabung",
+        "title": "Langkah 4: Gabungkan dokumen yang saling terkait",
+        "content": [
+          "Banyak dokumen sebenarnya lebih praktis jika digabung menjadi satu file. Misalnya, dua belas slip gaji setahun digabung menjadi \"2026_Slip-Gaji_Lengkap.pdf\", atau semua bukti pembayaran pajak kendaraan digabung menjadi satu.",
+          "**Offline PDF Editor & Sign** memudahkan proses ini langsung di HP. Gabungkan beberapa PDF menjadi satu, susun urutan halamannya, dan kompres agar ukurannya tetap ringan. Sebaliknya, jika ada satu file besar berisi banyak dokumen berbeda, pisahkan menjadi file-file terpisah sesuai jenisnya. Semua berjalan offline, sehingga dokumen pribadi seperti slip gaji dan data kesehatan tidak perlu diunggah ke layanan daring."
+        ]
+      },
+      {
+        "id": "lindungi",
+        "title": "Langkah 5: Lindungi dokumen sensitif",
+        "content": [
+          "Dokumen yang berisi nomor identitas, data rekening, atau informasi kesehatan sebaiknya diberi perlindungan tambahan. Kunci PDF dengan kata sandi yang kuat, dan simpan kata sandinya di tempat yang aman, misalnya pengelola kata sandi.",
+          "Aktifkan juga kunci layar HP dengan PIN atau biometrik. Jika HP hilang, dokumen di dalamnya tidak langsung bisa diakses orang lain."
+        ],
+        "tipBox": {
+          "title": "Hati-hati saat berbagi",
+          "text": "Saat mengirim salinan dokumen identitas, pertimbangkan menambahkan tanda air berisi keperluan pengiriman, misalnya \"Hanya untuk pendaftaran sekolah\", untuk mengurangi risiko penyalahgunaan.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "cadangan",
+        "title": "Langkah 6: Buat sistem cadangan",
+        "content": [
+          "Arsip yang rapi tidak ada artinya jika HP rusak atau hilang dan semua dokumen ikut lenyap. Terapkan prinsip sederhana: simpan dokumen penting di setidaknya dua tempat berbeda, misalnya di HP dan di penyimpanan awan, atau di HP dan di laptop atau hard disk eksternal.",
+          "Jadwalkan pengecekan cadangan secara rutin, misalnya setiap akhir bulan. Pastikan file terbaru sudah ikut tercadangkan dan bisa dibuka dengan baik."
+        ]
+      },
+      {
+        "id": "kebiasaan",
+        "title": "Menjaga kerapian sepanjang tahun",
+        "content": [
+          "Setelah arsip rapi, kuncinya adalah menjaga kebiasaan. Setiap kali menerima dokumen penting, langsung beri nama yang sesuai dan pindahkan ke folder yang tepat. Kebiasaan dua menit ini mencegah folder Unduhan kembali menumpuk, dan membuat merapikan arsip di akhir tahun depan jauh lebih ringan."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bagaimana format nama file yang paling mudah dicari?",
+        "a": "Gunakan format tahun-bulan-hari, jenis dokumen, lalu keterangan singkat, misalnya 2026-03-15_Slip-Gaji_Maret.pdf."
+      },
+      {
+        "q": "Perlukah menggabungkan slip gaji menjadi satu file?",
+        "a": "Sangat praktis, terutama untuk keperluan pajak atau pengajuan kredit yang meminta dokumen beberapa bulan sekaligus."
+      },
+      {
+        "q": "Di mana sebaiknya menyimpan cadangan dokumen penting?",
+        "a": "Di setidaknya dua tempat berbeda, misalnya HP dan penyimpanan awan, atau HP dan perangkat penyimpanan eksternal."
+      },
+      {
+        "q": "Bagaimana melindungi dokumen sensitif di HP?",
+        "a": "Kunci PDF dengan kata sandi, aktifkan kunci layar HP, dan hati-hati saat membagikan salinan dokumen identitas."
+      }
+    ],
+    "titleEn": "Tidying Your Digital Documents Before the New Year: Folders, File Naming, and Backups",
+    "metaTitleEn": "Tidy Your Digital Documents Before New Year",
+    "metaDescriptionEn": "Downloads folder full of randomly named files and important documents impossible to find? Tidy your digital archive before the new year with simple folders, naming rules, PDF merging, and safe backups.",
+    "keywordsEn": [
+      "organise files on phone",
+      "digital document archive",
+      "file naming convention",
+      "document folder structure",
+      "back up important documents"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers a simple numbered folder structure, a date-first naming rule, sorting the Downloads folder, merging related PDFs offline, protecting sensitive files, a two-location backup routine, and a two-minute habit to stay organised.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "The growing pile",
+        "content": [
+          "Payslips, receipts, tickets, and school letters pile up as \"document(3).pdf\" until you need one urgently. Year-end is a good time to tidy."
+        ]
+      },
+      {
+        "id": "folders",
+        "title": "Step 1: Simple folders",
+        "content": [
+          "For example:"
+        ],
+        "bulletPoints": [
+          "01_Identity.",
+          "02_Finance with yearly subfolders.",
+          "03_Home and Vehicle.",
+          "04_Health.",
+          "05_Education and Work.",
+          "06_Children.",
+          "99_Archive."
+        ],
+        "tipBox": {
+          "title": "Why number folders",
+          "text": "Order stays the same on every device.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "naming",
+        "title": "Step 2: Naming rules",
+        "content": [
+          "Use year-month-day, document type, and a short note, like \"2026-03-15_Payslip_March.pdf\"."
+        ]
+      },
+      {
+        "id": "sort",
+        "title": "Step 3: Sort Downloads",
+        "content": [
+          "Three piles:"
+        ],
+        "bulletPoints": [
+          "Keep: rename and file.",
+          "Delete: duplicates and expired items.",
+          "Unsure: revisit in a month."
+        ],
+        "tipBox": {
+          "title": "A little at a time",
+          "text": "Fifteen minutes a day for a week works.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "merge",
+        "title": "Step 4: Merge related documents",
+        "content": [
+          "Combine a year of payslips into one file, or split mixed files, with **Offline PDF Editor & Sign**, compressing as needed, all offline."
+        ]
+      },
+      {
+        "id": "protect",
+        "title": "Step 5: Protect sensitive files",
+        "content": [
+          "Password-protect PDFs with ID or health data and lock your phone."
+        ],
+        "tipBox": {
+          "title": "Careful when sharing",
+          "text": "Watermark ID copies with their purpose to reduce misuse.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "backup",
+        "title": "Step 6: Backups",
+        "content": [
+          "Keep important documents in two places and check backups monthly."
+        ]
+      },
+      {
+        "id": "habit",
+        "title": "Staying tidy all year",
+        "content": [
+          "Rename and file each new document immediately; two minutes now saves hours later."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What file naming format is easiest to search?",
+        "a": "Year-month-day, type, then a note."
+      },
+      {
+        "q": "Should payslips be merged?",
+        "a": "Yes, handy for tax or loan applications."
+      },
+      {
+        "q": "Where should backups go?",
+        "a": "At least two places, such as phone plus cloud or external storage."
+      },
+      {
+        "q": "How do I protect sensitive files?",
+        "a": "Password-protect PDFs, lock your phone, and share ID copies carefully."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];

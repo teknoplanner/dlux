@@ -4099,5 +4099,2206 @@ export const kidstechQueueArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/fruity-merge-3d-match-puzzle/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-memilih-game-yang-aman-untuk-anak-rating-usia-iklan-dan-pembelian-dalam-aplikasi",
+    "slugEn": "how-to-choose-safe-games-for-kids-age-ratings-ads-and-in-app-purchases",
+    "targetAppSlug": "milo-cat-adventure",
+    "category": "gaming",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-case"
+    ],
+    "publishedDate": "2026-12-07T09:45:00+07:00",
+    "title": "Cara Memilih Game yang Aman untuk Anak: Rating Usia, Iklan, dan Pembelian dalam Aplikasi",
+    "metaTitle": "Cara Memilih Game Aman untuk Anak di Android",
+    "metaDescription": "Tidak semua game berlabel anak benar-benar aman. Pelajari cara membaca rating usia di Play Store, mengenali iklan dan pembelian dalam aplikasi, memeriksa fitur obrolan, dan mencoba game sebelum diberikan ke anak.",
+    "keywords": [
+      "game aman untuk anak",
+      "rating usia game",
+      "pembelian dalam aplikasi anak",
+      "game anak tanpa iklan",
+      "memilih game android untuk anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Label \"untuk anak\" saja tidak cukup",
+        "content": [
+          "Saat mencari game untuk anak di Play Store, orang tua sering hanya melihat gambar yang lucu dan jumlah unduhan. Padahal di balik tampilan yang ramah anak, ada game yang penuh iklan, mendorong pembelian dalam aplikasi, atau memiliki fitur obrolan dengan orang asing.",
+          "Kabar baiknya, Play Store sebenarnya menyediakan banyak informasi untuk membantu orang tua menilai sebuah game. Informasi itu hanya perlu dibaca dengan teliti sebelum menekan tombol pasang."
+        ]
+      },
+      {
+        "id": "rating",
+        "title": "Membaca rating usia",
+        "content": [
+          "Setiap game di Play Store memiliki rating usia, misalnya 3+, 7+, 12+, atau 16+. Rating ini menunjukkan kesesuaian konten seperti kekerasan, bahasa kasar, atau tema yang menakutkan. Game dengan rating 3+ umumnya dianggap sesuai untuk semua usia.",
+          "Namun rating usia tidak menilai segalanya. Rating tidak selalu mencerminkan berapa banyak iklan yang muncul, seberapa agresif tawaran pembeliannya, atau apakah game itu cocok dengan tahap perkembangan anak Anda. Gunakan rating sebagai saringan pertama, bukan satu-satunya pertimbangan."
+        ],
+        "tipBox": {
+          "title": "Cari keterangan tambahan",
+          "text": "Di bawah rating, Play Store sering menampilkan keterangan seperti \"Berisi iklan\" atau \"Pembelian dalam aplikasi\". Dua keterangan ini sangat penting untuk game anak.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "iklan",
+        "title": "Mengenali iklan dalam game",
+        "content": [
+          "Banyak game gratis mendapat penghasilan dari iklan. Iklan itu sendiri tidak selalu buruk, tapi cara penempatannya bisa bermasalah untuk anak. Waspadai game yang menampilkan iklan video panjang di tengah permainan, iklan yang sulit ditutup, atau iklan yang mengarahkan ke aplikasi lain.",
+          "Anak kecil sering tidak bisa membedakan iklan dengan bagian dari permainan. Mereka bisa tidak sengaja mengetuk iklan dan keluar ke toko aplikasi atau situs lain. Membaca ulasan orang tua lain di Play Store sering memberi gambaran seberapa sering iklan muncul."
+        ]
+      },
+      {
+        "id": "pembelian",
+        "title": "Pembelian dalam aplikasi dan cara mengamankannya",
+        "content": [
+          "Pembelian dalam aplikasi memungkinkan pemain membeli koin, karakter, atau membuka level dengan uang sungguhan. Untuk anak, ini bisa berujung pada tagihan yang tidak terduga.",
+          "Langkah pengamanan yang bisa dilakukan:"
+        ],
+        "bulletPoints": [
+          "Aktifkan autentikasi untuk setiap pembelian di pengaturan Play Store.",
+          "Jangan menyimpan kartu kredit atau saldo dompet digital di akun yang dipakai anak.",
+          "Gunakan akun anak yang dikelola orang tua jika memungkinkan.",
+          "Jelaskan kepada anak bahwa koin dan hadiah di game bisa memakai uang sungguhan.",
+          "Periksa riwayat pembelian di akun secara berkala."
+        ],
+        "tipBox": {
+          "title": "Hati-hati dengan tekanan waktu",
+          "text": "Beberapa game menampilkan tawaran \"hanya hari ini\" atau hitung mundur untuk mendorong pembelian. Teknik ini sangat efektif pada anak, jadi lebih baik pilih game yang tidak memakainya.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "sosial",
+        "title": "Periksa fitur obrolan dan online",
+        "content": [
+          "Game yang bisa dimainkan online kadang memiliki fitur obrolan dengan pemain lain. Untuk anak kecil, fitur ini membuka risiko berinteraksi dengan orang asing. Periksa deskripsi game dan pengaturannya: apakah obrolan bisa dimatikan, dan apakah ada fitur laporan.",
+          "Game yang bisa dimainkan sepenuhnya offline menghilangkan sebagian besar risiko ini. Selain lebih aman, game offline juga bisa dimainkan saat perjalanan tanpa menghabiskan kuota."
+        ]
+      },
+      {
+        "id": "izin",
+        "title": "Lihat izin yang diminta",
+        "content": [
+          "Perhatikan izin yang diminta game saat dipasang atau saat pertama dibuka. Game sederhana untuk anak umumnya tidak membutuhkan akses ke kontak, lokasi, atau mikrofon. Jika ada izin yang terasa tidak masuk akal, tolak atau pertimbangkan game lain. Bagian Keamanan Data di halaman Play Store juga menjelaskan data apa yang dikumpulkan dan dibagikan."
+        ]
+      },
+      {
+        "id": "coba",
+        "title": "Coba dulu sebelum diberikan",
+        "content": [
+          "Cara terbaik menilai sebuah game adalah memainkannya sendiri selama 10 sampai 15 menit. Perhatikan seberapa sering iklan muncul, apakah ada tawaran pembelian yang mengganggu, dan apakah tingkat kesulitannya sesuai dengan kemampuan anak.",
+          "Setelah itu, mainkan bersama anak di sesi pertama. Selain memastikan keamanan, bermain bersama memberi kesempatan untuk membicarakan aturan, seperti berapa lama boleh bermain dan apa yang harus dilakukan jika muncul iklan."
+        ]
+      },
+      {
+        "id": "contoh",
+        "title": "Contoh game yang ramah keluarga",
+        "content": [
+          "**Milo Cat Adventure** adalah contoh game platformer 2D yang cocok sebagai pilihan keluarga. Pemain mengendalikan kucing bernama Milo yang berlari, melompat, dan mengumpulkan koin melewati berbagai dunia. Game ini memiliki rating 3+, kontrolnya sederhana, dan bisa dimainkan offline.",
+          "Seperti game apa pun, tetap coba terlebih dahulu dan dampingi anak. Tablet dengan casing anti-banting dan pengaturan pembelian yang terkunci membuat pengalaman bermain lebih tenang bagi orang tua."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "Checklist singkat sebelum memasang game",
+        "content": [
+          "Gunakan daftar ini setiap kali anak meminta game baru:"
+        ],
+        "bulletPoints": [
+          "Rating usia sesuai.",
+          "Jumlah dan jenis iklan wajar.",
+          "Pembelian dalam aplikasi terkunci dengan autentikasi.",
+          "Fitur obrolan tidak ada atau bisa dimatikan.",
+          "Izin yang diminta masuk akal.",
+          "Sudah dicoba sendiri oleh orang tua."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah game dengan rating 3+ pasti aman?",
+        "a": "Rating 3+ berarti kontennya sesuai semua usia, tapi tetap periksa iklan, pembelian dalam aplikasi, dan fitur online."
+      },
+      {
+        "q": "Bagaimana mencegah anak membeli item di game?",
+        "a": "Aktifkan autentikasi untuk setiap pembelian di Play Store dan jangan simpan metode pembayaran di akun anak."
+      },
+      {
+        "q": "Apakah game offline lebih aman untuk anak?",
+        "a": "Umumnya ya, karena tidak ada obrolan dengan orang asing dan iklan sering lebih sedikit, tapi tetap periksa isinya."
+      },
+      {
+        "q": "Perlukah orang tua mencoba game sebelum anak?",
+        "a": "Sangat disarankan. Sepuluh sampai lima belas menit sudah cukup untuk menilai iklan, pembelian, dan kesulitannya."
+      }
+    ],
+    "titleEn": "How to Choose Safe Games for Kids: Age Ratings, Ads, and In-App Purchases",
+    "metaTitleEn": "How to Choose Safe Android Games for Kids",
+    "metaDescriptionEn": "Not every game labelled for kids is truly safe. Learn to read Play Store age ratings, spot ads and in-app purchases, check chat features, and test games before handing them over.",
+    "keywordsEn": [
+      "safe games for kids",
+      "game age ratings",
+      "kids in-app purchases",
+      "kids games without ads",
+      "choosing android games for children"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers reading age ratings, recognising ad placement, securing in-app purchases, checking chat and online features, reviewing permissions and data safety, testing games first, an example family game, and a pre-install checklist.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "A kids label is not enough",
+        "content": [
+          "Cute art and download counts hide ads, purchase pressure, and chat with strangers. The Play Store gives the information you need if you read it."
+        ]
+      },
+      {
+        "id": "rating",
+        "title": "Reading age ratings",
+        "content": [
+          "Ratings like 3+ or 12+ describe content, not ad volume or purchase pressure. Use them as a first filter."
+        ],
+        "tipBox": {
+          "title": "Look for extra labels",
+          "text": "\"Contains ads\" and \"In-app purchases\" matter most for children's games.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "ads",
+        "title": "Spotting ads",
+        "content": [
+          "Watch for long mid-game videos, hard-to-close ads, and ads that open other apps. Young children often cannot tell ads from gameplay; parent reviews help."
+        ]
+      },
+      {
+        "id": "purchases",
+        "title": "Securing in-app purchases",
+        "content": [
+          "Protect against surprise bills:"
+        ],
+        "bulletPoints": [
+          "Require authentication for every purchase.",
+          "Keep payment methods off the child's account.",
+          "Use a parent-managed child account.",
+          "Explain that coins can cost real money.",
+          "Check purchase history regularly."
+        ],
+        "tipBox": {
+          "title": "Beware time pressure",
+          "text": "Countdown offers work very well on children; prefer games without them.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "social",
+        "title": "Chat and online features",
+        "content": [
+          "Check whether chat can be disabled and reported. Fully offline games remove most of this risk and save data on trips."
+        ]
+      },
+      {
+        "id": "permissions",
+        "title": "Check permissions",
+        "content": [
+          "Simple kids' games rarely need contacts, location, or microphone. Read the Data Safety section too."
+        ]
+      },
+      {
+        "id": "try",
+        "title": "Try it first",
+        "content": [
+          "Play 10 to 15 minutes yourself, then play the first session together and agree on rules."
+        ]
+      },
+      {
+        "id": "example",
+        "title": "A family-friendly example",
+        "content": [
+          "**Milo Cat Adventure** is a 2D platformer rated 3+, simple to control, and playable offline. Still test it and supervise; a sturdy case and locked purchases help."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "Quick checklist",
+        "content": [
+          "Before installing:"
+        ],
+        "bulletPoints": [
+          "Suitable age rating.",
+          "Reasonable ads.",
+          "Purchases locked.",
+          "No chat or chat can be disabled.",
+          "Sensible permissions.",
+          "Tested by a parent."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Are 3+ games always safe?",
+        "a": "Content suits all ages, but still check ads, purchases, and online features."
+      },
+      {
+        "q": "How do I stop kids buying items?",
+        "a": "Require authentication for purchases and keep payment methods off their account."
+      },
+      {
+        "q": "Are offline games safer?",
+        "a": "Generally, since there is no stranger chat, but still check content."
+      },
+      {
+        "q": "Should parents try games first?",
+        "a": "Yes, 10 to 15 minutes is usually enough."
+      }
+    ],
+    "coverImage": "/images/apps/milo-cat-adventure/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "belajar-perkalian-untuk-anak-kelas-2-3-dari-konsep-kelompok-sampai-hafal-tabel",
+    "slugEn": "learning-multiplication-for-grades-2-3-from-groups-to-times-tables",
+    "targetAppSlug": "monster-math-train-brain",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-stylus"
+    ],
+    "publishedDate": "2026-12-08T09:45:00+07:00",
+    "title": "Belajar Perkalian untuk Anak Kelas 2-3: Dari Konsep Kelompok sampai Hafal Tabel",
+    "metaTitle": "Belajar Perkalian Kelas 2-3: Konsep sampai Hafal",
+    "metaDescription": "Menghafal tabel perkalian tanpa memahami konsepnya membuat anak cepat lupa. Ikuti urutan belajar perkalian dari kelompok benda, penjumlahan berulang, pola tabel, hingga trik dan latihan harian yang menyenangkan.",
+    "keywords": [
+      "cara mengajari anak perkalian",
+      "belajar perkalian kelas 2",
+      "trik hafal perkalian",
+      "tabel perkalian 1-10",
+      "perkalian untuk anak sd"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Kenapa hafalan saja tidak cukup",
+        "content": [
+          "Banyak orang tua mengingat masa sekolah ketika tabel perkalian harus dihafal sambil dinyanyikan. Hafalan memang penting, tapi anak yang hanya menghafal tanpa memahami artinya sering kebingungan saat bertemu soal cerita atau lupa ketika satu baris tabel terlewat.",
+          "Perkalian akan lebih mudah diingat jika anak lebih dulu memahami apa artinya. Setelah konsepnya kuat, hafalan menjadi lebih cepat dan bertahan lebih lama."
+        ]
+      },
+      {
+        "id": "kelompok",
+        "title": "Tahap 1: Perkalian sebagai kelompok yang sama",
+        "content": [
+          "Mulailah dengan benda nyata. Siapkan beberapa piring dan kelereng atau kacang. Minta anak meletakkan tiga kelereng di setiap piring, lalu siapkan empat piring. Tanyakan berapa jumlah semuanya.",
+          "Jelaskan bahwa 4 x 3 berarti empat kelompok yang masing-masing berisi tiga. Ulangi dengan jumlah kelompok dan isi yang berbeda. Biarkan anak membuat soal sendiri dengan benda-benda di rumah, misalnya roda pada tiga mobil mainan."
+        ],
+        "tipBox": {
+          "title": "Bahasa yang konsisten",
+          "text": "Gunakan kalimat yang sama setiap kali, misalnya \"empat kelompok isi tiga\". Bahasa yang konsisten membantu anak mengaitkan simbol dengan maknanya.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "berulang",
+        "title": "Tahap 2: Penjumlahan berulang",
+        "content": [
+          "Setelah memahami kelompok, tunjukkan bahwa perkalian adalah cara singkat menulis penjumlahan yang berulang. 4 x 3 sama dengan 3 + 3 + 3 + 3. Tuliskan keduanya berdampingan agar anak melihat hubungannya.",
+          "Tahap ini juga membantu anak yang lupa satu hasil perkalian. Jika lupa 6 x 4, anak bisa menghitung 6 x 3 yang sudah diingat, lalu menambahkan 6 lagi."
+        ]
+      },
+      {
+        "id": "susunan",
+        "title": "Tahap 3: Susunan baris dan kolom",
+        "content": [
+          "Susun benda dalam baris dan kolom, misalnya tiga baris yang masing-masing berisi lima tutup botol. Anak akan melihat bahwa 3 x 5 dan 5 x 3 menghasilkan jumlah yang sama, hanya cara melihatnya yang berbeda.",
+          "Pemahaman bahwa urutan perkalian bisa ditukar sangat menghemat usaha. Jika anak sudah tahu 2 x 7, ia otomatis tahu 7 x 2. Jumlah fakta perkalian yang perlu dihafal pun berkurang hampir setengahnya."
+        ]
+      },
+      {
+        "id": "urutan",
+        "title": "Tahap 4: Urutan menghafal yang lebih mudah",
+        "content": [
+          "Tidak perlu menghafal tabel secara berurutan dari 1 sampai 10. Mulailah dari tabel yang paling mudah polanya:"
+        ],
+        "bulletPoints": [
+          "Perkalian 1 dan 10: angka tetap atau ditambah nol di belakangnya.",
+          "Perkalian 2: menggandakan angka.",
+          "Perkalian 5: hasilnya selalu berakhir dengan 0 atau 5.",
+          "Perkalian 4: gandakan dua kali.",
+          "Perkalian 9: gunakan trik jari tangan atau pola puluhan naik dan satuan turun.",
+          "Perkalian 3, 6, 7, dan 8 terakhir, karena sebagian besar sudah dikuasai dari tabel lain."
+        ]
+      },
+      {
+        "id": "trik",
+        "title": "Trik yang membantu",
+        "content": [
+          "Beberapa trik membuat perkalian yang sulit menjadi lebih mudah:"
+        ],
+        "bulletPoints": [
+          "Perkalian 9 dengan jari: buka sepuluh jari, tekuk jari ke-n. Jari di kiri adalah puluhan, jari di kanan adalah satuan.",
+          "Perkalian 6: kalikan dengan 5, lalu tambahkan satu kelompok lagi.",
+          "Perkalian 8: gandakan tiga kali berturut-turut.",
+          "Bilangan kembar seperti 6 x 6, 7 x 7, dan 8 x 8 bisa dihafal sebagai kelompok khusus.",
+          "Hafalkan 7 x 8 = 56 dengan urutan angka 5, 6, 7, 8."
+        ],
+        "tipBox": {
+          "title": "Satu trik pada satu waktu",
+          "text": "Jangan mengajarkan semua trik sekaligus. Kenalkan satu trik, latih beberapa hari, lalu tambahkan yang lain.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "latihan",
+        "title": "Latihan harian yang singkat",
+        "content": [
+          "Latihan singkat setiap hari lebih efektif daripada latihan panjang seminggu sekali. Lima sampai sepuluh menit sudah cukup. Gunakan kartu bergambar soal di satu sisi dan jawaban di sisi lain. Pisahkan kartu yang sudah dikuasai dan fokus pada yang belum.",
+          "Sisipkan perkalian dalam kegiatan sehari-hari: menghitung kaki kursi di ruang makan, jumlah telur dalam beberapa wadah, atau harga beberapa barang yang sama saat berbelanja. Soal cerita sederhana seperti ini membantu anak melihat kegunaan perkalian."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Latihan menyenangkan dengan Monster Math",
+        "content": [
+          "**Monster Math: Train Your Brain** dapat menjadi variasi latihan agar anak tidak bosan. Anak menjawab soal matematika untuk mengalahkan monster, dengan tingkat kesulitan yang meningkat bertahap. Suasana permainan membuat latihan berulang terasa seperti tantangan, bukan pekerjaan rumah.",
+          "Gunakan sebagai pelengkap setelah anak memahami konsep dengan benda nyata. Batasi sesi sekitar 10 sampai 15 menit, dan perhatikan soal mana yang masih sering salah untuk dilatih kembali dengan kartu. Stylus berujung tebal bisa membantu anak yang lebih nyaman menulis atau mengetuk jawaban dengan pena."
+        ]
+      },
+      {
+        "id": "sikap",
+        "title": "Menjaga semangat anak",
+        "content": [
+          "Perkalian adalah salah satu tahap yang membuat sebagian anak mulai merasa matematika sulit. Puji usaha dan kemajuan, bukan hanya jawaban benar. Jika anak frustrasi, kembali ke benda nyata dan tahap yang sudah dikuasai. Kemajuan kecil setiap hari jauh lebih berharga daripada menekan anak untuk hafal dalam seminggu."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kapan anak mulai belajar perkalian?",
+        "a": "Di banyak sekolah, konsep perkalian mulai dikenalkan di kelas 2 dan diperdalam di kelas 3. Ikuti materi dari sekolah anak."
+      },
+      {
+        "q": "Apakah anak harus hafal tabel perkalian?",
+        "a": "Hafal sangat membantu untuk materi selanjutnya, tapi sebaiknya didahului pemahaman konsep agar hafalan lebih bertahan."
+      },
+      {
+        "q": "Tabel perkalian mana yang paling sulit?",
+        "a": "Banyak anak kesulitan di tabel 6, 7, dan 8. Gunakan trik dan sifat tukar agar jumlah yang perlu dihafal berkurang."
+      },
+      {
+        "q": "Berapa lama latihan perkalian setiap hari?",
+        "a": "Sekitar 5 sampai 10 menit setiap hari sudah efektif jika dilakukan konsisten."
+      }
+    ],
+    "titleEn": "Learning Multiplication for Grades 2-3: From Equal Groups to Times Tables",
+    "metaTitleEn": "Teaching Multiplication: Concept to Times Tables",
+    "metaDescriptionEn": "Memorising tables without understanding leads to forgetting. Follow a sequence from equal groups and repeated addition to arrays, an easier table order, tricks, and short daily practice.",
+    "keywordsEn": [
+      "teach kids multiplication",
+      "grade 2 multiplication",
+      "times table tricks",
+      "times tables 1-10",
+      "multiplication for primary school"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers equal groups with real objects, repeated addition, arrays and the commutative property, an easier order for learning tables, tricks for 6, 8, and 9, short daily practice, a math game as a supplement, and keeping motivation up.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "Why memorising alone fails",
+        "content": [
+          "Children who memorise without meaning struggle with word problems and forget missing rows. Understanding first makes memory stick."
+        ]
+      },
+      {
+        "id": "groups",
+        "title": "Stage 1: Equal groups",
+        "content": [
+          "Put three marbles on each of four plates: 4 x 3 means four groups of three. Let children invent their own problems."
+        ],
+        "tipBox": {
+          "title": "Consistent language",
+          "text": "Repeat the same phrase, like \"four groups of three\".",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "repeated",
+        "title": "Stage 2: Repeated addition",
+        "content": [
+          "4 x 3 equals 3 + 3 + 3 + 3. This also lets children recover a forgotten fact from a known one."
+        ]
+      },
+      {
+        "id": "arrays",
+        "title": "Stage 3: Arrays",
+        "content": [
+          "Rows and columns show that 3 x 5 equals 5 x 3, nearly halving the facts to memorise."
+        ]
+      },
+      {
+        "id": "order",
+        "title": "Stage 4: An easier order",
+        "content": [
+          "Learn by pattern, not 1 to 10:"
+        ],
+        "bulletPoints": [
+          "1s and 10s.",
+          "2s by doubling.",
+          "5s ending in 0 or 5.",
+          "4s by doubling twice.",
+          "9s with the finger trick.",
+          "3s, 6s, 7s, and 8s last."
+        ]
+      },
+      {
+        "id": "tricks",
+        "title": "Helpful tricks",
+        "content": [
+          "Try:"
+        ],
+        "bulletPoints": [
+          "9s on fingers.",
+          "6s as 5s plus one group.",
+          "8s by doubling three times.",
+          "Square facts as a set.",
+          "7 x 8 = 56 as 5, 6, 7, 8."
+        ],
+        "tipBox": {
+          "title": "One trick at a time",
+          "text": "Introduce one trick, practise for days, then add another.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "practice",
+        "title": "Short daily practice",
+        "content": [
+          "Five to ten minutes daily with flashcards beats long weekly sessions. Use everyday counting like eggs in boxes or prices of identical items."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Fun practice with Monster Math",
+        "content": [
+          "**Monster Math: Train Your Brain** turns repetition into monster battles with gradually rising difficulty. Use it after concepts are solid, for 10 to 15 minutes, and note which facts need card practice."
+        ]
+      },
+      {
+        "id": "attitude",
+        "title": "Keeping motivation up",
+        "content": [
+          "Praise effort, return to objects when frustrated, and value small daily progress."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When do children learn multiplication?",
+        "a": "Often introduced in grade 2 and deepened in grade 3; follow the school."
+      },
+      {
+        "q": "Must children memorise tables?",
+        "a": "It helps later work, but understanding should come first."
+      },
+      {
+        "q": "Which tables are hardest?",
+        "a": "Often 6, 7, and 8; tricks and commutativity reduce the load."
+      },
+      {
+        "q": "How long should daily practice be?",
+        "a": "About 5 to 10 minutes, consistently."
+      }
+    ],
+    "coverImage": "/images/apps/monster-math-train-brain/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "belajar-bahasa-lewat-lagu-anak-cara-memakai-lagu-untuk-mengenalkan-huruf-dan-kata",
+    "slugEn": "learning-language-through-kids-songs-using-songs-to-teach-letters-and-words",
+    "targetAppSlug": "baby-shark-abc-kids-learning",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-case"
+    ],
+    "publishedDate": "2026-12-13T09:45:00+07:00",
+    "title": "Belajar Bahasa lewat Lagu Anak: Cara Memakai Lagu untuk Mengenalkan Huruf dan Kata",
+    "metaTitle": "Belajar Huruf & Kata lewat Lagu Anak",
+    "metaDescription": "Lagu adalah salah satu cara paling alami bagi anak untuk belajar bahasa. Pelajari kenapa lagu efektif, jenis lagu yang membantu mengenal huruf dan kata, cara bernyanyi secara interaktif, dan menjaga waktu layar tetap seimbang.",
+    "keywords": [
+      "lagu anak untuk belajar",
+      "belajar huruf lewat lagu",
+      "lagu abc anak",
+      "manfaat bernyanyi untuk anak",
+      "lagu edukasi balita"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa lagu membantu anak belajar bahasa",
+        "content": [
+          "Hampir semua orang masih ingat lagu yang dipelajari di masa kecil. Melodi dan irama membuat kata-kata lebih mudah diingat. Pada anak, lagu juga memperlambat ucapan, memperjelas setiap suku kata, dan mengulang kata yang sama berkali-kali, kondisi yang ideal untuk belajar bahasa.",
+          "Bernyanyi juga melatih pendengaran fonologis, yaitu kemampuan mendengar dan membedakan bunyi dalam kata. Kemampuan ini merupakan salah satu dasar penting sebelum anak belajar membaca. Lagu dengan rima, seperti kata-kata yang berakhiran sama, membantu anak menyadari bahwa kata tersusun dari bunyi-bunyi."
+        ]
+      },
+      {
+        "id": "jenis",
+        "title": "Jenis lagu yang membantu",
+        "content": [
+          "Tidak semua lagu sama manfaatnya untuk belajar bahasa. Beberapa jenis yang sangat membantu:"
+        ],
+        "bulletPoints": [
+          "Lagu alfabet: mengenalkan urutan dan nama huruf.",
+          "Lagu dengan gerakan: seperti lagu tentang anggota tubuh, sehingga kata terhubung dengan gerakan.",
+          "Lagu berhitung: mengenalkan angka sekaligus kata.",
+          "Lagu berima dan berulang: kata yang sama muncul berkali-kali dengan pola yang mudah ditebak.",
+          "Lagu tentang kegiatan sehari-hari: mandi, makan, dan tidur, sehingga kosakata langsung terpakai."
+        ],
+        "tipBox": {
+          "title": "Lagu daerah dan nasional juga berharga",
+          "text": "Selain lagu berbahasa Inggris, lagu anak Indonesia dan lagu daerah memperkaya kosakata dan mengenalkan budaya. Campurkan keduanya.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "interaktif",
+        "title": "Bernyanyi secara interaktif",
+        "content": [
+          "Lagu paling bermanfaat jika anak ikut terlibat, bukan hanya mendengarkan. Beberapa cara membuat bernyanyi lebih interaktif:"
+        ],
+        "bulletPoints": [
+          "Berhenti sebelum kata terakhir dan biarkan anak melanjutkan.",
+          "Tambahkan gerakan tangan atau tubuh untuk setiap kata penting.",
+          "Ganti kata dalam lagu dengan nama anak atau benda di sekitarnya.",
+          "Bernyanyi pelan lalu cepat, atau berbisik lalu keras, untuk melatih kontrol suara.",
+          "Tunjukkan gambar atau benda saat kata tersebut dinyanyikan."
+        ]
+      },
+      {
+        "id": "huruf",
+        "title": "Dari lagu alfabet ke mengenal huruf",
+        "content": [
+          "Banyak anak bisa menyanyikan lagu ABC dengan lancar, tapi belum tentu mengenali bentuk hurufnya. Itu wajar, karena menyanyikan urutan huruf berbeda dengan memahami setiap huruf. Lagu alfabet adalah langkah awal yang baik, tapi perlu dilanjutkan.",
+          "Sambil bernyanyi, tunjuk huruf di kartu atau poster. Lalu perlambat dan fokus pada satu huruf, misalnya \"B untuk bola\". Kaitkan nama huruf dengan bunyinya, karena bunyi huruf inilah yang nantinya dipakai saat membaca."
+        ]
+      },
+      {
+        "id": "rutinitas",
+        "title": "Masukkan lagu ke rutinitas harian",
+        "content": [
+          "Lagu bisa menjadi penanda kegiatan sehari-hari. Nyanyikan lagu yang sama setiap kali mandi, membereskan mainan, atau sebelum tidur. Selain membantu anak belajar kosakata, lagu rutinitas juga membuat transisi antarkegiatan lebih lancar, karena anak tahu apa yang akan terjadi selanjutnya.",
+          "Tidak perlu suara yang merdu. Anak tidak menilai kualitas suara orang tuanya. Yang mereka rasakan adalah kehangatan dan perhatian saat bernyanyi bersama."
+        ],
+        "tipBox": {
+          "title": "Suara orang tua paling berharga",
+          "text": "Video lagu bisa menjadi variasi, tapi bernyanyi langsung bersama orang tua memberi interaksi dan ikatan yang tidak bisa digantikan layar.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "layar",
+        "title": "Video dan aplikasi lagu: gunakan dengan bijak",
+        "content": [
+          "Video lagu anak sangat populer, tapi menonton terus-menerus tanpa interaksi tidak sebermanfaat bernyanyi bersama. Jika memakai layar, pilih durasi singkat, dampingi anak, dan ajak ia bernyanyi serta bergerak, bukan hanya menonton.",
+          "Pilih konten dengan tempo yang tidak terlalu cepat dan visual yang tidak berlebihan. Konten yang sangat cepat dan penuh warna mencolok bisa membuat anak sulit fokus pada kata-katanya."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Melanjutkan dengan Baby Shark ABC",
+        "content": [
+          "Setelah anak akrab dengan lagu alfabet, **Baby Shark ABC: Kids Learning** dapat membantu menghubungkan nama huruf dengan bunyi dan bentuknya. Aplikasi ini mengajarkan huruf A sampai Z dengan audio bunyi huruf yang jelas dan animasi hiu kecil yang ceria, sehingga suasananya tetap terasa seperti bermain.",
+          "Navigasinya sederhana untuk tangan kecil dan bisa dipakai offline, termasuk saat perjalanan. Gunakan dalam sesi singkat sekitar 10 menit dengan pendampingan, lalu lanjutkan dengan menyanyikan huruf yang baru dipelajari bersama-sama. Tablet dengan casing anti-banting membuat pemakaian lebih aman bagi balita."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Usia berapa anak bisa mulai belajar lewat lagu?",
+        "a": "Sejak bayi. Bayi sudah menikmati suara orang tua yang bernyanyi, dan manfaatnya terus berlanjut hingga usia sekolah."
+      },
+      {
+        "q": "Apakah lagu bahasa Inggris membingungkan anak?",
+        "a": "Umumnya tidak. Anak mampu mengenal dua bahasa. Tetap jaga bahasa utama di rumah agar sering dipakai."
+      },
+      {
+        "q": "Anak saya hafal lagu ABC tapi belum kenal huruf. Normal?",
+        "a": "Normal. Menyanyikan urutan huruf berbeda dengan mengenali bentuk dan bunyinya. Lanjutkan dengan menunjuk huruf saat bernyanyi."
+      },
+      {
+        "q": "Berapa lama boleh menonton video lagu anak?",
+        "a": "Gunakan sesi singkat dengan pendampingan dan ikuti panduan waktu layar sesuai usia dari tenaga kesehatan."
+      }
+    ],
+    "titleEn": "Learning Language Through Kids' Songs: Using Songs to Teach Letters and Words",
+    "metaTitleEn": "Teaching Letters and Words Through Songs",
+    "metaDescriptionEn": "Songs are one of the most natural ways for children to learn language. Learn why they work, which songs help with letters and words, how to sing interactively, and how to balance screen time.",
+    "keywordsEn": [
+      "learning songs for kids",
+      "learning letters through songs",
+      "abc songs",
+      "benefits of singing for children",
+      "educational songs for toddlers"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Explains how melody, rhythm, and rhyme support language and phonological awareness, helpful song types, interactive singing, moving from the alphabet song to letter recognition, routine songs, mindful screen use, and continuing with a phonics app.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why songs help language",
+        "content": [
+          "Melody makes words memorable, slows speech, clarifies syllables, and repeats words. Rhymes build phonological awareness, a foundation for reading."
+        ]
+      },
+      {
+        "id": "types",
+        "title": "Helpful song types",
+        "content": [
+          "Especially useful:"
+        ],
+        "bulletPoints": [
+          "Alphabet songs.",
+          "Action songs.",
+          "Counting songs.",
+          "Rhyming, repetitive songs.",
+          "Daily routine songs."
+        ],
+        "tipBox": {
+          "title": "Local songs matter too",
+          "text": "Indonesian and regional children's songs build vocabulary and culture. Mix both.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "interactive",
+        "title": "Singing interactively",
+        "content": [
+          "Get children involved:"
+        ],
+        "bulletPoints": [
+          "Pause before the last word.",
+          "Add gestures.",
+          "Swap in your child's name.",
+          "Vary speed and volume.",
+          "Show pictures or objects."
+        ]
+      },
+      {
+        "id": "letters",
+        "title": "From the alphabet song to letters",
+        "content": [
+          "Singing the sequence differs from recognising letters. Point to letters as you sing, then focus on one with its sound, like \"B for ball\"."
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "Songs in daily routines",
+        "content": [
+          "Use the same songs for bath, tidy-up, and bedtime to ease transitions. Your voice does not need to be good."
+        ],
+        "tipBox": {
+          "title": "A parent's voice matters most",
+          "text": "Live singing gives interaction and bonding screens cannot replace.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "screens",
+        "title": "Using videos wisely",
+        "content": [
+          "Keep sessions short, supervised, and active, and choose slower, calmer content."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Continuing with Baby Shark ABC",
+        "content": [
+          "**Baby Shark ABC: Kids Learning** links letter names to sounds and shapes with clear audio and a cheerful shark, works offline, and suits short supervised sessions followed by singing together."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When can children start learning through songs?",
+        "a": "From infancy, continuing into school age."
+      },
+      {
+        "q": "Do English songs confuse children?",
+        "a": "Generally no; keep the home language strong."
+      },
+      {
+        "q": "My child sings ABC but cannot recognise letters. Normal?",
+        "a": "Yes; point to letters while singing."
+      },
+      {
+        "q": "How long can children watch song videos?",
+        "a": "Short supervised sessions following age-based health guidance."
+      }
+    ],
+    "coverImage": "/images/apps/baby-shark-abc-kids-learning/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengatasi-kecemasan-matematika-pada-anak-tanda-penyebab-dan-cara-membantunya",
+    "slugEn": "helping-children-with-math-anxiety-signs-causes-and-support",
+    "targetAppSlug": "monster-math-train-brain",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet"
+    ],
+    "publishedDate": "2026-12-17T09:45:00+07:00",
+    "title": "Mengatasi Kecemasan Matematika pada Anak: Tanda, Penyebab, dan Cara Membantunya",
+    "metaTitle": "Atasi Kecemasan Matematika pada Anak",
+    "metaDescription": "Anak menangis atau menghindar saat belajar matematika? Bisa jadi ia mengalami kecemasan matematika. Kenali tandanya, penyebab yang sering tidak disadari, dan cara orang tua membantu anak kembali percaya diri.",
+    "keywords": [
+      "kecemasan matematika anak",
+      "anak takut matematika",
+      "anak tidak suka matematika",
+      "cara membuat anak suka matematika",
+      "math anxiety"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "apa",
+        "title": "Apa itu kecemasan matematika",
+        "content": [
+          "Kecemasan matematika adalah perasaan takut, tegang, atau panik saat berhadapan dengan angka dan soal matematika. Anak yang mengalaminya bukan berarti tidak pintar. Banyak anak sebenarnya mampu, tapi rasa cemas membuat pikiran mereka \"kosong\" saat mengerjakan soal.",
+          "Kecemasan ini bisa menjadi lingkaran: anak cemas sehingga menghindari latihan, kurang latihan membuat kemampuannya tertinggal, dan ketertinggalan membuatnya semakin cemas. Kabar baiknya, lingkaran ini bisa diputus dengan dukungan yang tepat."
+        ]
+      },
+      {
+        "id": "tanda",
+        "title": "Tanda-tanda yang perlu diperhatikan",
+        "content": [
+          "Beberapa tanda anak mungkin mengalami kecemasan matematika:"
+        ],
+        "bulletPoints": [
+          "Mengeluh sakit perut atau pusing menjelang pelajaran atau ulangan matematika.",
+          "Menunda atau menghindari mengerjakan PR matematika.",
+          "Mudah menangis atau marah saat belajar angka.",
+          "Mengatakan \"aku bodoh matematika\" atau \"aku tidak bisa\".",
+          "Bisa mengerjakan soal saat santai, tapi gagal saat diberi batas waktu.",
+          "Menebak jawaban asal-asalan agar cepat selesai."
+        ]
+      },
+      {
+        "id": "penyebab",
+        "title": "Penyebab yang sering tidak disadari",
+        "content": [
+          "Kecemasan matematika jarang muncul tanpa sebab. Beberapa penyebab yang umum:"
+        ],
+        "bulletPoints": [
+          "Tekanan waktu yang terus-menerus, seperti latihan berhitung cepat dengan stopwatch.",
+          "Pengalaman dipermalukan saat salah menjawab di depan kelas.",
+          "Konsep dasar yang belum dikuasai, sehingga materi baru terasa sangat sulit.",
+          "Ucapan orang dewasa seperti \"Ayah juga dulu tidak bisa matematika\".",
+          "Fokus berlebihan pada nilai dan jawaban benar, bukan proses."
+        ],
+        "tipBox": {
+          "title": "Kecemasan bisa menular",
+          "text": "Anak sering meniru sikap orang tua terhadap matematika. Jika orang tua menunjukkan rasa takut atau benci, anak bisa menyerapnya tanpa disadari.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "bicara",
+        "title": "Langkah 1: Ubah cara berbicara tentang matematika",
+        "content": [
+          "Hindari mengatakan bahwa ada orang yang \"memang tidak berbakat matematika\". Kemampuan matematika berkembang dengan latihan. Gunakan kalimat seperti \"Kamu belum bisa, tapi nanti pasti bisa\" atau \"Soal ini menantang, ayo kita cari caranya\".",
+          "Puji usaha, strategi, dan ketekunan, bukan kecepatan atau kepintaran. Kalimat \"Kamu tidak menyerah dan mencoba cara lain\" lebih membangun daripada \"Kamu pintar sekali\"."
+        ]
+      },
+      {
+        "id": "dasar",
+        "title": "Langkah 2: Kembali ke dasar tanpa malu",
+        "content": [
+          "Seringkali kecemasan muncul karena ada konsep dasar yang belum kuat. Jika anak kesulitan dengan perkalian, mungkin penjumlahannya belum lancar. Kembali ke materi sebelumnya bukan berarti mundur, tapi membangun fondasi agar materi berikutnya lebih mudah.",
+          "Gunakan benda nyata dan gambar untuk menjelaskan konsep. Matematika yang bisa dilihat dan dipegang terasa jauh lebih ramah dibandingkan angka di kertas."
+        ]
+      },
+      {
+        "id": "tekanan",
+        "title": "Langkah 3: Kurangi tekanan waktu",
+        "content": [
+          "Untuk anak yang cemas, mulailah latihan tanpa batas waktu. Biarkan anak fokus pada ketepatan dan pemahaman. Setelah anak merasa percaya diri, kecepatan biasanya meningkat dengan sendirinya.",
+          "Latihan singkat dan sering lebih baik daripada sesi panjang yang melelahkan. Lima sampai sepuluh menit yang menyenangkan setiap hari membangun rasa percaya diri lebih efektif daripada satu jam penuh tekanan."
+        ],
+        "tipBox": {
+          "title": "Rayakan kemajuan kecil",
+          "text": "Catat soal yang dulu sulit dan sekarang sudah bisa. Melihat kemajuan sendiri adalah obat terbaik untuk rasa cemas.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "main",
+        "title": "Langkah 4: Hadirkan matematika dalam permainan",
+        "content": [
+          "Permainan membuat anak berlatih tanpa merasa sedang diuji. Permainan papan dengan dadu, kartu angka, atau menghitung belanjaan bersama adalah cara alami untuk berlatih.",
+          "**Monster Math: Train Your Brain** dapat menjadi salah satu pilihan. Soal matematika dikemas sebagai pertarungan melawan monster, dengan tingkat kesulitan yang meningkat bertahap. Untuk anak yang cemas, mulailah dari level yang mudah agar anak merasakan keberhasilan terlebih dahulu. Dampingi di awal, beri semangat saat salah, dan batasi sesi agar tetap menyenangkan."
+        ]
+      },
+      {
+        "id": "sekolah",
+        "title": "Langkah 5: Bekerja sama dengan guru",
+        "content": [
+          "Ceritakan kepada guru apa yang Anda amati di rumah. Guru mungkin melihat pola yang sama di kelas dan bisa membantu, misalnya dengan memberi waktu tambahan atau tidak meminta anak menjawab di depan kelas sementara waktu. Jika kecemasan sangat berat dan mengganggu kehidupan sehari-hari, pertimbangkan berkonsultasi dengan psikolog anak."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah kecemasan matematika berarti anak tidak pintar?",
+        "a": "Tidak. Banyak anak yang cemas sebenarnya mampu, tapi rasa takut membuat mereka sulit berpikir jernih saat mengerjakan soal."
+      },
+      {
+        "q": "Usia berapa kecemasan matematika bisa muncul?",
+        "a": "Bisa muncul sejak awal sekolah dasar, terutama saat materi mulai bertambah sulit atau ada tekanan waktu."
+      },
+      {
+        "q": "Perlukah latihan berhitung cepat dengan waktu?",
+        "a": "Untuk anak yang cemas, sebaiknya mulai tanpa batas waktu. Fokus pada pemahaman terlebih dahulu."
+      },
+      {
+        "q": "Kapan perlu bantuan profesional?",
+        "a": "Jika kecemasan sangat berat, berlangsung lama, atau mengganggu sekolah dan kehidupan sehari-hari."
+      }
+    ],
+    "titleEn": "Helping Children with Math Anxiety: Signs, Causes, and How to Support Them",
+    "metaTitleEn": "Helping Children Overcome Math Anxiety",
+    "metaDescriptionEn": "Does your child cry or avoid maths? It may be math anxiety. Learn the signs, overlooked causes, and how parents can help children regain confidence.",
+    "keywordsEn": [
+      "math anxiety children",
+      "child afraid of math",
+      "child dislikes math",
+      "help kids enjoy math",
+      "math anxiety"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Defines math anxiety and its cycle, lists signs and common causes, and gives five steps: change how you talk about maths, revisit basics, reduce time pressure, use games, and work with teachers or professionals.",
+    "sectionsEn": [
+      {
+        "id": "what",
+        "title": "What math anxiety is",
+        "content": [
+          "Fear or panic around numbers that blanks the mind, even in capable children, creating a cycle of avoidance and falling behind."
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs to watch",
+        "content": [
+          "Watch for:"
+        ],
+        "bulletPoints": [
+          "Stomach aches before maths.",
+          "Avoiding homework.",
+          "Tears or anger.",
+          "\"I am bad at maths.\"",
+          "Failing only under time limits.",
+          "Random guessing."
+        ]
+      },
+      {
+        "id": "causes",
+        "title": "Overlooked causes",
+        "content": [
+          "Common causes:"
+        ],
+        "bulletPoints": [
+          "Constant timed drills.",
+          "Being embarrassed in class.",
+          "Gaps in basics.",
+          "Adults saying they were bad at maths.",
+          "Overfocus on grades."
+        ],
+        "tipBox": {
+          "title": "Anxiety spreads",
+          "text": "Children absorb parents' attitudes toward maths.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "talk",
+        "title": "Step 1: Change the talk",
+        "content": [
+          "Use growth language and praise effort and strategy over speed."
+        ]
+      },
+      {
+        "id": "basics",
+        "title": "Step 2: Revisit basics",
+        "content": [
+          "Strengthen foundations with objects and pictures."
+        ]
+      },
+      {
+        "id": "pressure",
+        "title": "Step 3: Reduce time pressure",
+        "content": [
+          "Practise untimed in short daily sessions."
+        ],
+        "tipBox": {
+          "title": "Celebrate small wins",
+          "text": "Track problems that used to be hard.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "play",
+        "title": "Step 4: Bring maths into play",
+        "content": [
+          "Board games and shopping help. **Monster Math: Train Your Brain** turns problems into monster battles; start at easy levels, encourage mistakes, and keep sessions short."
+        ]
+      },
+      {
+        "id": "school",
+        "title": "Step 5: Work with teachers",
+        "content": [
+          "Share observations, ask for accommodations, and consider a child psychologist if anxiety is severe."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Does math anxiety mean a child is not smart?",
+        "a": "No; fear blocks clear thinking."
+      },
+      {
+        "q": "When can it start?",
+        "a": "As early as primary school."
+      },
+      {
+        "q": "Should anxious kids do timed drills?",
+        "a": "Start untimed and focus on understanding."
+      },
+      {
+        "q": "When is professional help needed?",
+        "a": "When anxiety is severe, lasting, or disrupts daily life."
+      }
+    ],
+    "coverImage": "/images/apps/monster-math-train-brain/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "jadwal-liburan-sekolah-akhir-tahun-untuk-anak-seimbang-antara-main-belajar-dan-layar",
+    "slugEn": "year-end-school-holiday-schedule-for-kids-balancing-play-learning-and-screens",
+    "targetAppSlug": "milo-cat-adventure",
+    "category": "lifestyle",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-case"
+    ],
+    "publishedDate": "2026-12-18T09:45:00+07:00",
+    "title": "Jadwal Liburan Sekolah Akhir Tahun untuk Anak: Seimbang antara Main, Belajar, dan Waktu Layar",
+    "metaTitle": "Jadwal Liburan Sekolah Anak yang Seimbang",
+    "metaDescription": "Liburan sekolah panjang sering berubah menjadi hari-hari penuh layar. Buat jadwal liburan yang seimbang dengan contoh rutinitas harian, ide kegiatan, aturan waktu layar yang disepakati bersama, dan tips untuk orang tua yang tetap bekerja.",
+    "keywords": [
+      "jadwal liburan sekolah anak",
+      "kegiatan liburan anak di rumah",
+      "rutinitas anak saat libur",
+      "batasan screen time liburan",
+      "ide liburan akhir tahun anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "tantangan",
+        "title": "Tantangan liburan panjang",
+        "content": [
+          "Liburan sekolah akhir tahun bisa berlangsung beberapa minggu. Di hari-hari pertama, anak senang bebas dari jadwal sekolah. Namun tanpa rutinitas, banyak anak mulai bosan, tidur terlalu larut, dan menghabiskan sebagian besar waktu di depan layar.",
+          "Liburan tetap harus terasa seperti liburan. Tujuannya bukan memindahkan jadwal sekolah ke rumah, melainkan memberi struktur ringan agar hari-hari terasa lebih teratur, menyenangkan, dan tidak dikuasai layar."
+        ]
+      },
+      {
+        "id": "prinsip",
+        "title": "Prinsip jadwal liburan yang baik",
+        "content": [
+          "Beberapa prinsip yang membantu menyusun jadwal liburan:"
+        ],
+        "bulletPoints": [
+          "Jam bangun dan tidur tetap teratur, meskipun boleh sedikit lebih santai dari hari sekolah.",
+          "Ada waktu untuk bergerak aktif setiap hari.",
+          "Ada waktu bebas tanpa jadwal, agar anak belajar mengisi waktunya sendiri.",
+          "Waktu layar disepakati bersama, bukan diatur sepihak.",
+          "Anak ikut menyusun jadwal agar merasa memiliki."
+        ],
+        "tipBox": {
+          "title": "Libatkan anak",
+          "text": "Ajak anak menulis atau menggambar jadwalnya sendiri di kertas besar. Anak lebih mau mengikuti aturan yang ikut ia buat.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "contoh",
+        "title": "Contoh rutinitas harian",
+        "content": [
+          "Berikut contoh rutinitas yang bisa disesuaikan dengan usia anak dan kondisi keluarga:"
+        ],
+        "bulletPoints": [
+          "Pagi: bangun, sarapan, membereskan tempat tidur.",
+          "Pagi menjelang siang: kegiatan aktif di luar rumah, seperti bersepeda, berenang, atau bermain di taman.",
+          "Siang: makan siang dan waktu tenang, seperti membaca atau tidur siang.",
+          "Sore: kegiatan kreatif atau belajar ringan selama 20 sampai 30 menit.",
+          "Sore menjelang malam: waktu layar sesuai kesepakatan.",
+          "Malam: makan bersama, mandi, membaca buku, lalu tidur."
+        ]
+      },
+      {
+        "id": "ide",
+        "title": "Ide kegiatan selama liburan",
+        "content": [
+          "Variasi kegiatan membuat liburan tidak membosankan. Beberapa ide yang bisa dicoba:"
+        ],
+        "bulletPoints": [
+          "Proyek liburan: membuat kebun kecil, merakit miniatur dari kardus, atau menulis buku cerita sendiri.",
+          "Membantu di dapur dan membuat kue sederhana.",
+          "Mengunjungi perpustakaan, museum, atau taman kota.",
+          "Bertemu dan bermain dengan sepupu atau teman.",
+          "Belajar keterampilan baru seperti bersepeda tanpa roda bantu atau berenang.",
+          "Membuat jurnal liburan berisi gambar dan cerita setiap hari."
+        ]
+      },
+      {
+        "id": "layar",
+        "title": "Menyepakati waktu layar",
+        "content": [
+          "Waktu layar yang disepakati bersama lebih mudah dijalankan daripada larangan mendadak. Duduklah bersama anak dan sepakati berapa lama waktu layar per hari, kapan waktunya, dan apa yang terjadi jika waktu habis.",
+          "Pisahkan juga jenis waktu layar. Menonton video berjam-jam berbeda dengan bermain game bersama saudara atau menggunakan aplikasi belajar. Gunakan pengatur waktu yang terlihat agar anak tahu sisa waktunya, dan beri peringatan beberapa menit sebelum waktu habis."
+        ],
+        "tipBox": {
+          "title": "Layar setelah kegiatan aktif",
+          "text": "Menempatkan waktu layar setelah kegiatan aktif dan tugas harian membuat anak lebih mudah berhenti, karena energinya sudah tersalurkan.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "game",
+        "title": "Memilih game untuk waktu layar",
+        "content": [
+          "Saat waktu layar tiba, pilih game yang sesuai usia dan tidak dirancang untuk dimainkan tanpa henti. **Milo Cat Adventure** adalah game platformer 2D dengan rating 3+, di mana anak membantu kucing Milo berlari, melompat, dan mengumpulkan koin melewati berbagai level. Game ini bisa dimainkan offline, sehingga juga cocok untuk perjalanan liburan.",
+          "Tetapkan target yang jelas, misalnya menyelesaikan dua level, lalu berhenti. Tablet dengan casing anti-banting membuat anak lebih leluasa bermain tanpa orang tua khawatir perangkat jatuh."
+        ]
+      },
+      {
+        "id": "bekerja",
+        "title": "Untuk orang tua yang tetap bekerja",
+        "content": [
+          "Tidak semua orang tua ikut libur saat anak libur. Jika Anda bekerja dari rumah, siapkan kotak kegiatan berisi buku, alat gambar, dan permainan yang bisa dilakukan anak secara mandiri saat Anda rapat. Jadwalkan waktu bersama yang singkat tapi penuh perhatian, misalnya makan siang atau sore bersama.",
+          "Jika anak dititipkan kepada kakek nenek atau pengasuh, bagikan jadwal dan kesepakatan waktu layar agar aturannya konsisten di mana pun anak berada."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Perlukah jadwal ketat selama liburan?",
+        "a": "Tidak perlu ketat. Struktur ringan dengan jam bangun dan tidur yang teratur sudah membantu."
+      },
+      {
+        "q": "Berapa lama waktu layar yang wajar saat liburan?",
+        "a": "Ikuti panduan sesuai usia dari tenaga kesehatan dan sepakati bersama anak. Utamakan kegiatan aktif dan interaksi."
+      },
+      {
+        "q": "Bagaimana jika anak terus bilang bosan?",
+        "a": "Rasa bosan wajar dan bisa mendorong kreativitas. Siapkan beberapa pilihan kegiatan, tapi biarkan anak belajar mengisi waktunya sendiri."
+      },
+      {
+        "q": "Haruskah anak belajar selama liburan?",
+        "a": "Belajar ringan 20 sampai 30 menit sehari bisa membantu menjaga kebiasaan, tapi liburan tetap perlu terasa santai."
+      }
+    ],
+    "titleEn": "Year-End School Holiday Schedule for Kids: Balancing Play, Learning, and Screen Time",
+    "metaTitleEn": "A Balanced School Holiday Schedule for Kids",
+    "metaDescriptionEn": "Long school holidays often turn into screen-filled days. Build a balanced plan with a sample daily routine, activity ideas, agreed screen-time rules, and tips for working parents.",
+    "keywordsEn": [
+      "school holiday schedule kids",
+      "holiday activities at home",
+      "kids holiday routine",
+      "holiday screen time limits",
+      "year-end holiday ideas for kids"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers holiday challenges, scheduling principles, a sample daily routine, activity ideas, agreeing screen time together, choosing age-appropriate games, and tips for working parents.",
+    "sectionsEn": [
+      {
+        "id": "challenge",
+        "title": "The long-holiday challenge",
+        "content": [
+          "Without routine, children get bored, sleep late, and drift to screens. Light structure keeps holidays fun."
+        ]
+      },
+      {
+        "id": "principles",
+        "title": "Principles",
+        "content": [
+          "Aim for:"
+        ],
+        "bulletPoints": [
+          "Regular sleep and wake times.",
+          "Daily active play.",
+          "Unscheduled free time.",
+          "Agreed screen time.",
+          "Children helping plan."
+        ],
+        "tipBox": {
+          "title": "Involve your child",
+          "text": "Children follow rules they helped make.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "sample",
+        "title": "A sample routine",
+        "content": [
+          "Adapt as needed:"
+        ],
+        "bulletPoints": [
+          "Morning: wake, breakfast, make bed.",
+          "Late morning: outdoor activity.",
+          "Midday: lunch and quiet time.",
+          "Afternoon: 20 to 30 minutes of light learning or crafts.",
+          "Early evening: agreed screen time.",
+          "Night: family dinner, bath, book, bed."
+        ]
+      },
+      {
+        "id": "ideas",
+        "title": "Activity ideas",
+        "content": [
+          "Try:"
+        ],
+        "bulletPoints": [
+          "A holiday project.",
+          "Baking together.",
+          "Library, museum, or park visits.",
+          "Playdates with cousins.",
+          "A new skill like cycling or swimming.",
+          "A holiday journal."
+        ]
+      },
+      {
+        "id": "screens",
+        "title": "Agreeing screen time",
+        "content": [
+          "Agree on how long, when, and what happens when time is up, use a visible timer, and give warnings."
+        ],
+        "tipBox": {
+          "title": "Screens after active play",
+          "text": "Children stop more easily once energy is spent.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "games",
+        "title": "Choosing games",
+        "content": [
+          "**Milo Cat Adventure** is a 3+ offline platformer; set a clear target like two levels, and use a sturdy case."
+        ]
+      },
+      {
+        "id": "working",
+        "title": "For working parents",
+        "content": [
+          "Prepare an independent activity box, schedule short focused time together, and share rules with caregivers."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Do holidays need a strict schedule?",
+        "a": "No; light structure is enough."
+      },
+      {
+        "q": "How much screen time is reasonable?",
+        "a": "Follow age-based health guidance and agree with your child."
+      },
+      {
+        "q": "What if my child keeps saying they are bored?",
+        "a": "Boredom can spark creativity; offer options but let them fill time."
+      },
+      {
+        "q": "Should children study during holidays?",
+        "a": "20 to 30 minutes of light learning can help keep habits."
+      }
+    ],
+    "coverImage": "/images/apps/milo-cat-adventure/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "persiapan-anak-masuk-tk-kemandirian-sosial-dan-kebiasaan-yang-perlu-dilatih",
+    "slugEn": "preparing-your-child-for-kindergarten-independence-social-skills-and-habits",
+    "targetAppSlug": "baby-shark-abc-kids-learning",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-stylus",
+      "kids-tablet"
+    ],
+    "publishedDate": "2026-12-20T09:45:00+07:00",
+    "title": "Persiapan Anak Masuk TK: Kemandirian, Kemampuan Sosial, dan Kebiasaan yang Perlu Dilatih",
+    "metaTitle": "Persiapan Anak Masuk TK: Mandiri & Sosial",
+    "metaDescription": "Siap masuk TK bukan soal sudah bisa membaca. Kenali kemampuan yang lebih penting: kemandirian sehari-hari, kemampuan bersosialisasi, mengelola emosi, dan rutinitas. Lengkap dengan cara melatihnya di rumah.",
+    "keywords": [
+      "persiapan anak masuk tk",
+      "anak siap sekolah",
+      "kemandirian anak prasekolah",
+      "anak menangis hari pertama sekolah",
+      "kemampuan anak sebelum tk"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "siap",
+        "title": "Siap sekolah bukan berarti sudah bisa membaca",
+        "content": [
+          "Menjelang tahun ajaran baru, banyak orang tua khawatir apakah anaknya sudah siap masuk TK. Kekhawatiran yang paling sering muncul adalah apakah anak sudah bisa membaca, menulis, atau berhitung. Padahal guru TK umumnya lebih memperhatikan kemampuan lain yang tidak kalah penting.",
+          "Anak yang bisa mengurus dirinya sendiri, berbicara dengan guru dan teman, serta mengelola rasa kecewa biasanya lebih mudah beradaptasi. Kemampuan akademik akan berkembang di sekolah, sementara kemampuan dasar ini sebaiknya mulai dilatih di rumah."
+        ]
+      },
+      {
+        "id": "mandiri",
+        "title": "Kemandirian sehari-hari",
+        "content": [
+          "Di sekolah, guru mengurus banyak anak sekaligus. Anak yang bisa melakukan hal-hal dasar sendiri akan lebih percaya diri:"
+        ],
+        "bulletPoints": [
+          "Pergi ke toilet, membersihkan diri, dan mencuci tangan.",
+          "Makan dan minum sendiri, termasuk membuka kotak bekal dan botol minum.",
+          "Memakai dan melepas sepatu, terutama yang berperekat.",
+          "Merapikan barang miliknya ke dalam tas.",
+          "Memakai dan melepas jaket atau seragam sederhana."
+        ],
+        "tipBox": {
+          "title": "Latih dengan barang yang akan dipakai",
+          "text": "Biarkan anak berlatih membuka kotak bekal, botol minum, dan tas yang akan dibawa ke sekolah. Barang yang sudah familiar membuat hari pertama lebih mudah.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "sosial",
+        "title": "Kemampuan bersosialisasi",
+        "content": [
+          "Sekolah adalah tempat anak belajar bergaul dengan teman sebaya. Kemampuan sosial yang bisa dilatih sejak di rumah antara lain bergantian memakai mainan, menunggu giliran, meminta tolong, mengucapkan terima kasih, dan meminta maaf.",
+          "Ajak anak bermain bersama sepupu, tetangga, atau teman di taman. Permainan sederhana yang membutuhkan giliran, seperti melempar bola atau permainan papan, melatih anak bersabar dan mengikuti aturan."
+        ]
+      },
+      {
+        "id": "emosi",
+        "title": "Mengenal dan mengelola emosi",
+        "content": [
+          "Anak usia prasekolah masih belajar mengenali perasaannya. Bantu anak memberi nama pada emosinya: \"Kamu sedih karena mainannya dipinjam, ya?\" Anak yang bisa menyebut perasaannya lebih mudah meminta bantuan daripada menangis atau marah.",
+          "Ajarkan cara sederhana untuk menenangkan diri, seperti menarik napas dalam-dalam atau memeluk boneka kesayangan. Bacakan buku cerita tentang perasaan dan diskusikan bagaimana tokohnya mengatasi masalah."
+        ]
+      },
+      {
+        "id": "rutinitas",
+        "title": "Membiasakan rutinitas sekolah",
+        "content": [
+          "Beberapa minggu sebelum sekolah dimulai, sesuaikan jam tidur dan bangun anak dengan jadwal sekolah. Perubahan bertahap lebih mudah daripada mendadak di hari pertama.",
+          "Latih juga kebiasaan duduk dan mendengarkan cerita selama beberapa menit, karena di sekolah anak akan diminta fokus dalam kegiatan kelompok. Mulailah dari waktu singkat dan tingkatkan perlahan."
+        ]
+      },
+      {
+        "id": "akademik",
+        "title": "Bagaimana dengan huruf dan angka?",
+        "content": [
+          "Mengenalkan huruf dan angka secara santai tetap bermanfaat, asalkan tanpa tekanan. Anak yang mengenal beberapa huruf, terutama huruf di namanya sendiri, dan bisa berhitung sampai sepuluh biasanya sudah cukup.",
+          "**Baby Shark ABC: Kids Learning** dapat menjadi cara ringan mengenalkan huruf A sampai Z melalui audio bunyi huruf yang jelas dan animasi yang ceria. Mulailah dari huruf-huruf di nama anak agar terasa personal. Gunakan dalam sesi singkat dengan pendampingan; stylus berujung tebal juga membantu anak berlatih memegang alat tulis sebelum memakai pensil sungguhan."
+        ],
+        "tipBox": {
+          "title": "Jangan memaksa",
+          "text": "Tekanan untuk bisa membaca sebelum TK bisa membuat anak kehilangan minat belajar. Biarkan prosesnya menyenangkan.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "hari-pertama",
+        "title": "Menyiapkan hari pertama",
+        "content": [
+          "Ceritakan kepada anak apa yang akan terjadi di sekolah: bertemu guru, bermain dengan teman, makan bekal, lalu dijemput. Jika memungkinkan, kunjungi sekolah sebelum hari pertama agar anak mengenal tempatnya.",
+          "Saat berpisah di hari pertama, ucapkan selamat tinggal dengan jelas dan janjikan kapan akan menjemput. Hindari pergi diam-diam, karena anak bisa merasa ditinggalkan. Wajar jika anak menangis di hari-hari awal; sebagian besar anak beradaptasi dalam beberapa minggu."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah anak harus bisa membaca sebelum masuk TK?",
+        "a": "Tidak. TK adalah tempat anak mulai belajar. Kemandirian dan kemampuan sosial lebih penting sebagai persiapan."
+      },
+      {
+        "q": "Bagaimana jika anak menangis setiap pagi di awal sekolah?",
+        "a": "Wajar di minggu-minggu awal. Buat rutinitas pagi yang konsisten, ucapkan selamat tinggal dengan jelas, dan bicarakan dengan guru."
+      },
+      {
+        "q": "Kapan mulai menyesuaikan jam tidur?",
+        "a": "Sekitar dua sampai tiga minggu sebelum sekolah dimulai, secara bertahap."
+      },
+      {
+        "q": "Anak saya belum bisa ke toilet sendiri. Bagaimana?",
+        "a": "Mulai latihan secara konsisten dan beri tahu guru. Banyak sekolah memahami bahwa sebagian anak masih belajar."
+      }
+    ],
+    "titleEn": "Preparing Your Child for Kindergarten: Independence, Social Skills, and Habits",
+    "metaTitleEn": "Preparing for Kindergarten: Beyond Reading",
+    "metaDescriptionEn": "Kindergarten readiness is not about reading. Learn the skills that matter more: everyday independence, social skills, managing emotions, and routines, with ways to practise at home.",
+    "keywordsEn": [
+      "preparing for kindergarten",
+      "school readiness",
+      "preschool independence",
+      "first day of school tears",
+      "skills before kindergarten"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains that readiness is more than academics, covering self-care independence, social skills, naming and managing emotions, adjusting routines, gentle letter and number exposure with an app, and preparing for the first day.",
+    "sectionsEn": [
+      {
+        "id": "ready",
+        "title": "Ready does not mean reading",
+        "content": [
+          "Teachers value self-care, communication, and coping more than early academics."
+        ]
+      },
+      {
+        "id": "independence",
+        "title": "Everyday independence",
+        "content": [
+          "Practise:"
+        ],
+        "bulletPoints": [
+          "Toileting and handwashing.",
+          "Eating and opening lunch boxes and bottles.",
+          "Shoes on and off.",
+          "Packing their bag.",
+          "Jackets and simple uniforms."
+        ],
+        "tipBox": {
+          "title": "Practise with real items",
+          "text": "Familiar lunch boxes and bags make day one easier.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "social",
+        "title": "Social skills",
+        "content": [
+          "Practise sharing, waiting turns, asking for help, and saying thanks and sorry through play with others."
+        ]
+      },
+      {
+        "id": "emotions",
+        "title": "Naming and managing emotions",
+        "content": [
+          "Name feelings, teach deep breaths or a comfort toy, and read stories about feelings."
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "Building school routines",
+        "content": [
+          "Shift sleep gradually and practise short listening times."
+        ]
+      },
+      {
+        "id": "academic",
+        "title": "What about letters and numbers?",
+        "content": [
+          "Knowing letters in their name and counting to ten is usually plenty. **Baby Shark ABC: Kids Learning** introduces A to Z gently; start with name letters, keep sessions short, and a chunky stylus builds grip."
+        ],
+        "tipBox": {
+          "title": "Do not push",
+          "text": "Pressure to read early can kill interest.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "firstday",
+        "title": "Preparing for day one",
+        "content": [
+          "Describe the day, visit beforehand, say a clear goodbye with a pick-up promise, and expect a few weeks of adjustment."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Must children read before kindergarten?",
+        "a": "No; independence and social skills matter more."
+      },
+      {
+        "q": "What if my child cries every morning?",
+        "a": "Normal early on; keep routines consistent and talk to the teacher."
+      },
+      {
+        "q": "When should sleep schedules shift?",
+        "a": "Two to three weeks before school, gradually."
+      },
+      {
+        "q": "My child is not toilet-independent yet. What now?",
+        "a": "Practise consistently and tell the teacher."
+      }
+    ],
+    "coverImage": "/images/apps/baby-shark-abc-kids-learning/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengenal-pola-dan-urutan-bilangan-dasar-berpikir-aljabar-untuk-anak-sd",
+    "slugEn": "patterns-and-number-sequences-early-algebraic-thinking-for-primary-kids",
+    "targetAppSlug": "monster-math-train-brain",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-stylus"
+    ],
+    "publishedDate": "2026-12-24T09:45:00+07:00",
+    "title": "Mengenal Pola dan Urutan Bilangan: Dasar Berpikir Aljabar untuk Anak SD",
+    "metaTitle": "Pola & Urutan Bilangan: Dasar Aljabar Anak SD",
+    "metaDescription": "Kemampuan mengenali pola adalah fondasi aljabar dan pemecahan masalah. Pelajari tahapan mengenalkan pola pada anak, dari pola warna dan bentuk hingga barisan bilangan, lengkap dengan kegiatan di rumah dan contoh soal.",
+    "keywords": [
+      "pola bilangan anak sd",
+      "barisan bilangan",
+      "mengenal pola untuk anak",
+      "berpikir aljabar anak",
+      "soal pola bilangan kelas 2"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa pola itu penting",
+        "content": [
+          "Matematika pada dasarnya adalah ilmu tentang pola. Saat anak menyadari bahwa 2, 4, 6, 8 bertambah dua setiap langkah, ia sedang melakukan hal yang sama dengan yang dilakukan ahli matematika: mengamati keteraturan dan memprediksi apa yang terjadi selanjutnya.",
+          "Kemampuan mengenali pola menjadi dasar banyak materi di kelas yang lebih tinggi, terutama aljabar. Anak yang terbiasa mencari pola juga cenderung lebih baik dalam memecahkan masalah, karena ia tidak langsung menyerah saat menemukan soal baru, melainkan mencari keteraturan di dalamnya."
+        ]
+      },
+      {
+        "id": "tahap1",
+        "title": "Tahap 1: Pola benda, warna, dan bentuk",
+        "content": [
+          "Sebelum mengenal pola bilangan, anak perlu terbiasa dengan pola yang bisa dilihat dan dipegang. Mulailah dengan pola sederhana yang berulang, seperti merah, biru, merah, biru, lalu minta anak melanjutkannya.",
+          "Tingkatkan kerumitannya secara bertahap:"
+        ],
+        "bulletPoints": [
+          "Pola AB: merah, biru, merah, biru.",
+          "Pola AAB: kotak, kotak, lingkaran, kotak, kotak, lingkaran.",
+          "Pola ABC: apel, pisang, jeruk, apel, pisang, jeruk.",
+          "Pola tumbuh: satu balok, dua balok, tiga balok, yang setiap langkah bertambah."
+        ],
+        "tipBox": {
+          "title": "Minta anak membuat polanya sendiri",
+          "text": "Setelah bisa melanjutkan pola, minta anak membuat pola sendiri dan menantang Anda menebak kelanjutannya. Membuat pola melatih pemahaman yang lebih dalam.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "tahap2",
+        "title": "Tahap 2: Pola dalam bunyi dan gerakan",
+        "content": [
+          "Pola juga bisa didengar dan dirasakan. Tepuk tangan, ketuk meja, tepuk tangan, ketuk meja. Atau lompat, jongkok, jongkok, lompat, jongkok, jongkok. Kegiatan ini menyenangkan untuk anak yang aktif dan membantu mereka memahami bahwa pola tidak selalu berupa gambar.",
+          "Lagu dan puisi anak juga penuh pola, dari irama hingga kata yang diulang. Ajak anak menemukan bagian yang berulang dalam lagu favoritnya."
+        ]
+      },
+      {
+        "id": "tahap3",
+        "title": "Tahap 3: Barisan bilangan",
+        "content": [
+          "Setelah memahami pola benda, anak siap mengenal barisan bilangan. Mulailah dengan menghitung loncat menggunakan garis bilangan atau tangga mainan:"
+        ],
+        "bulletPoints": [
+          "Loncat dua: 2, 4, 6, 8, 10.",
+          "Loncat lima: 5, 10, 15, 20, 25.",
+          "Loncat sepuluh: 10, 20, 30, 40.",
+          "Pola mundur: 20, 18, 16, 14.",
+          "Pola bertambah tidak tetap: 1, 2, 4, 7, 11, yang selisihnya bertambah satu setiap langkah."
+        ]
+      },
+      {
+        "id": "aturan",
+        "title": "Tahap 4: Menemukan dan menjelaskan aturan",
+        "content": [
+          "Langkah berikutnya adalah meminta anak menjelaskan aturan pola dengan kata-katanya sendiri. Dari barisan 3, 6, 9, 12, anak mungkin berkata \"tambah tiga terus\". Kemampuan menjelaskan aturan ini adalah awal berpikir aljabar.",
+          "Untuk anak yang lebih besar, tanyakan pertanyaan yang menantang, misalnya \"Berapa angka ke-10 dalam barisan ini?\" Anak akan mulai menyadari bahwa tidak perlu menulis semua angka untuk menemukannya, cukup memakai aturannya. Inilah jembatan menuju rumus di kelas yang lebih tinggi."
+        ],
+        "tipBox": {
+          "title": "Tidak ada jawaban yang salah dalam menjelaskan",
+          "text": "Satu pola bisa dijelaskan dengan beberapa cara. Hargai setiap penjelasan yang masuk akal, meskipun berbeda dengan cara Anda.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "rumah",
+        "title": "Kegiatan pola di rumah",
+        "content": [
+          "Pola ada di sekitar kita. Beberapa kegiatan yang bisa dilakukan sehari-hari:"
+        ],
+        "bulletPoints": [
+          "Mencari pola pada ubin lantai, motif batik, atau kain sarung.",
+          "Merangkai manik-manik atau kancing dengan pola warna.",
+          "Menata buah di piring dengan pola tertentu.",
+          "Mengamati pola kalender: hari yang berulang setiap tujuh hari.",
+          "Bermain tebak angka berikutnya saat di perjalanan."
+        ]
+      },
+      {
+        "id": "batik",
+        "title": "Pola dalam budaya Indonesia",
+        "content": [
+          "Indonesia kaya akan pola dalam seni tradisional. Motif batik seperti kawung dan parang tersusun dari pola yang berulang dengan teratur. Ajak anak mengamati kain batik di rumah dan menemukan bagian yang berulang. Kegiatan ini menggabungkan matematika dengan pengenalan budaya, dan sering membuat anak takjub bahwa matematika ada di pakaian yang dikenakan sehari-hari."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Latihan berhitung yang menyenangkan",
+        "content": [
+          "Pemahaman pola bilangan akan semakin kuat jika didukung kelancaran berhitung. **Monster Math: Train Your Brain** membantu anak berlatih operasi hitung dengan cara yang seru, menjawab soal untuk mengalahkan monster dengan tingkat kesulitan yang meningkat bertahap.",
+          "Anak yang lancar berhitung lebih mudah melihat hubungan antarbilangan, sehingga pola seperti loncat tiga atau loncat lima terasa lebih alami. Gunakan dalam sesi singkat sekitar 10 sampai 15 menit, lalu lanjutkan dengan kegiatan pola menggunakan benda nyata di rumah."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Usia berapa anak bisa mulai mengenal pola?",
+        "a": "Anak usia prasekolah sudah bisa mengenal pola sederhana dengan warna dan bentuk. Pola bilangan biasanya dikenalkan di kelas awal SD."
+      },
+      {
+        "q": "Apa hubungan pola dengan aljabar?",
+        "a": "Aljabar dimulai dari kemampuan menemukan dan menjelaskan aturan pola. Rumus pada dasarnya adalah cara singkat menuliskan aturan tersebut."
+      },
+      {
+        "q": "Anak saya kesulitan melanjutkan pola bilangan. Apa yang harus dilakukan?",
+        "a": "Kembali ke pola benda dan gunakan garis bilangan agar anak bisa melihat loncatannya."
+      },
+      {
+        "q": "Bagaimana membuat belajar pola lebih menarik?",
+        "a": "Gunakan benda nyata, gerakan, lagu, dan pola di lingkungan sekitar seperti motif batik dan ubin lantai."
+      }
+    ],
+    "titleEn": "Patterns and Number Sequences: Early Algebraic Thinking for Primary Kids",
+    "metaTitleEn": "Patterns and Sequences: Early Algebra for Kids",
+    "metaDescriptionEn": "Recognising patterns underpins algebra and problem solving. Learn the stages from colour and shape patterns to number sequences, with home activities and examples.",
+    "keywordsEn": [
+      "number patterns for kids",
+      "number sequences",
+      "teaching patterns to children",
+      "algebraic thinking kids",
+      "grade 2 pattern problems"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains why patterns matter and progresses from object patterns, sound and movement patterns, and skip-counting sequences to describing rules, with home activities, batik motifs, and arithmetic practice in a math game.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why patterns matter",
+        "content": [
+          "Mathematics is the study of patterns. Spotting regularity underpins algebra and problem solving."
+        ]
+      },
+      {
+        "id": "stage1",
+        "title": "Stage 1: Object, colour, and shape patterns",
+        "content": [
+          "Build up gradually:"
+        ],
+        "bulletPoints": [
+          "AB patterns.",
+          "AAB patterns.",
+          "ABC patterns.",
+          "Growing patterns."
+        ],
+        "tipBox": {
+          "title": "Let children create patterns",
+          "text": "Creating patterns shows deeper understanding.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "stage2",
+        "title": "Stage 2: Sound and movement patterns",
+        "content": [
+          "Clap-tap sequences and repeating parts of songs show patterns are not only visual."
+        ]
+      },
+      {
+        "id": "stage3",
+        "title": "Stage 3: Number sequences",
+        "content": [
+          "Skip count on a number line:"
+        ],
+        "bulletPoints": [
+          "By twos.",
+          "By fives.",
+          "By tens.",
+          "Backwards by twos.",
+          "Growing differences like 1, 2, 4, 7, 11."
+        ]
+      },
+      {
+        "id": "rules",
+        "title": "Stage 4: Describing the rule",
+        "content": [
+          "Explaining \"add three each time\" and finding the 10th term without listing all terms bridges to formulas."
+        ],
+        "tipBox": {
+          "title": "Many valid explanations",
+          "text": "Value any sensible description.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "home",
+        "title": "Home activities",
+        "content": [
+          "Try:"
+        ],
+        "bulletPoints": [
+          "Floor tiles and batik.",
+          "Bead patterns.",
+          "Fruit plate patterns.",
+          "Calendar weeks.",
+          "Guess-the-next-number on trips."
+        ]
+      },
+      {
+        "id": "batik",
+        "title": "Patterns in Indonesian culture",
+        "content": [
+          "Batik motifs like kawung and parang are repeating patterns, linking maths with culture."
+        ]
+      },
+      {
+        "id": "app",
+        "title": "Fun arithmetic practice",
+        "content": [
+          "Fluency helps children see number relationships. **Monster Math: Train Your Brain** offers short monster-battle practice; follow with hands-on pattern play."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When can children start patterns?",
+        "a": "Preschoolers with colours and shapes; number patterns in early primary."
+      },
+      {
+        "q": "How do patterns relate to algebra?",
+        "a": "Algebra begins with finding and describing rules."
+      },
+      {
+        "q": "My child struggles with number patterns. What helps?",
+        "a": "Return to objects and use a number line."
+      },
+      {
+        "q": "How can patterns be more engaging?",
+        "a": "Use objects, movement, songs, and real-world patterns like batik."
+      }
+    ],
+    "coverImage": "/images/apps/monster-math-train-brain/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-menjaga-kesehatan-mata-anak-saat-memakai-gawai-jarak-cahaya-dan-istirahat",
+    "slugEn": "protecting-childrens-eyes-on-devices-distance-lighting-and-breaks",
+    "targetAppSlug": "milo-cat-adventure",
+    "category": "lifestyle",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-case"
+    ],
+    "publishedDate": "2026-12-25T09:45:00+07:00",
+    "title": "Cara Menjaga Kesehatan Mata Anak saat Memakai Gawai: Jarak, Cahaya, dan Waktu Istirahat",
+    "metaTitle": "Jaga Mata Anak saat Main Gawai: Jarak & Istirahat",
+    "metaDescription": "Anak sering mengucek mata atau mengeluh pusing setelah memakai HP? Pelajari kebiasaan sederhana untuk menjaga kesehatan mata anak: jarak layar, pencahayaan ruangan, aturan istirahat 20-20-20, waktu bermain di luar, dan tanda perlu periksa mata.",
+    "keywords": [
+      "kesehatan mata anak",
+      "mata anak dan gadget",
+      "aturan 20-20-20",
+      "anak sering mengucek mata",
+      "jarak aman layar hp untuk anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Mata anak masih berkembang",
+        "content": [
+          "Mata anak terus berkembang sepanjang masa kanak-kanak. Kebiasaan melihat dari jarak dekat dalam waktu lama, baik membaca buku maupun menatap layar, ditambah kurangnya waktu bermain di luar ruangan, sering dikaitkan dengan meningkatnya kasus rabun jauh pada anak.",
+          "Gawai kini menjadi bagian dari kehidupan anak, baik untuk belajar maupun bermain. Melarang sepenuhnya sering tidak realistis. Yang bisa dilakukan orang tua adalah membangun kebiasaan yang membantu menjaga kesehatan mata anak saat memakai gawai."
+        ],
+        "tipBox": {
+          "title": "Bukan pengganti saran dokter",
+          "text": "Artikel ini berisi panduan umum. Jika ada keluhan pada mata anak, periksakan ke dokter mata atau tenaga kesehatan.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "jarak",
+        "title": "Jaga jarak layar",
+        "content": [
+          "Anak cenderung mendekatkan wajah ke layar, terutama saat asyik bermain. Biasakan jarak yang cukup antara mata dan layar. Untuk HP dan tablet, usahakan setidaknya sejauh siku anak dari mata, atau sekitar 30 sampai 40 sentimeter. Untuk televisi, semakin jauh semakin baik.",
+          "Layar yang lebih besar seperti tablet membantu anak tidak perlu mendekatkan wajah untuk melihat detail. Penyangga tablet atau casing berdiri juga membantu menjaga posisi layar tetap stabil di meja, sehingga anak tidak memegangnya terlalu dekat."
+        ]
+      },
+      {
+        "id": "cahaya",
+        "title": "Atur pencahayaan ruangan dan layar",
+        "content": [
+          "Bermain gawai di ruangan gelap membuat mata bekerja lebih keras karena perbedaan terang antara layar dan sekitarnya. Pastikan ruangan cukup terang saat anak memakai gawai.",
+          "Beberapa pengaturan layar yang membantu:"
+        ],
+        "bulletPoints": [
+          "Sesuaikan kecerahan layar dengan kondisi ruangan, tidak terlalu terang dan tidak terlalu redup.",
+          "Aktifkan kecerahan otomatis jika tersedia.",
+          "Perbesar ukuran teks agar anak tidak menyipitkan mata.",
+          "Gunakan mode nyaman mata atau mode malam di sore dan malam hari.",
+          "Hindari memakai gawai di kendaraan yang bergerak dalam waktu lama."
+        ]
+      },
+      {
+        "id": "istirahat",
+        "title": "Biasakan istirahat dengan aturan 20-20-20",
+        "content": [
+          "Aturan 20-20-20 adalah cara mudah mengingat waktu istirahat mata: setiap 20 menit melihat layar, alihkan pandangan ke benda yang jaraknya sekitar 20 kaki atau 6 meter selama 20 detik. Melihat jauh membantu otot mata yang tegang saat fokus dekat menjadi rileks.",
+          "Untuk anak, buat aturan ini lebih menyenangkan. Misalnya, setiap kali timer berbunyi, anak mencari tiga benda berwarna merah di luar jendela. Selain mengistirahatkan mata, kebiasaan ini juga mengajarkan anak untuk berhenti sejenak dari layar."
+        ],
+        "tipBox": {
+          "title": "Ingatkan untuk berkedip",
+          "text": "Saat fokus pada layar, kita cenderung jarang berkedip sehingga mata terasa kering. Ajak anak berkedip beberapa kali dengan sengaja saat istirahat.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "luar",
+        "title": "Waktu bermain di luar ruangan",
+        "content": [
+          "Bermain di luar ruangan dengan cahaya alami sering dianjurkan oleh para ahli kesehatan mata untuk anak. Selain baik untuk mata, aktivitas di luar juga mendukung kesehatan fisik, kemampuan motorik, dan suasana hati.",
+          "Jadwalkan waktu bermain di luar setiap hari, misalnya bersepeda sore, bermain di taman, atau sekadar berjalan-jalan di sekitar rumah. Jadikan ini bagian dari rutinitas, bukan hanya pengisi waktu luang."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Memilih konten dan sesi yang tepat",
+        "content": [
+          "Jenis konten juga berpengaruh. Game dengan sesi pendek dan titik berhenti yang jelas memudahkan anak beristirahat dibandingkan video yang terus berputar otomatis. **Milo Cat Adventure** adalah game platformer dengan level-level pendek: setelah menyelesaikan satu atau dua level, anak bisa berhenti dan mengistirahatkan matanya.",
+          "Visual game yang cerah dengan karakter yang jelas juga lebih nyaman dilihat dibandingkan konten dengan teks kecil dan detail yang rumit. Game ini memiliki rating 3+ dan bisa dimainkan offline. Tetap batasi durasi bermain dan dampingi anak, terutama untuk usia balita."
+        ]
+      },
+      {
+        "id": "tanda",
+        "title": "Tanda anak perlu periksa mata",
+        "content": [
+          "Perhatikan tanda-tanda berikut, dan periksakan anak ke dokter mata jika muncul:"
+        ],
+        "bulletPoints": [
+          "Sering menyipitkan mata saat melihat jauh.",
+          "Mendekatkan wajah ke layar atau buku.",
+          "Sering mengucek mata atau mengeluh mata lelah dan pusing.",
+          "Kesulitan membaca tulisan di papan tulis.",
+          "Memiringkan kepala saat melihat sesuatu.",
+          "Mata sering merah atau berair."
+        ]
+      },
+      {
+        "id": "rutin",
+        "title": "Pemeriksaan rutin",
+        "content": [
+          "Selain saat ada keluhan, pemeriksaan mata rutin membantu mendeteksi masalah sejak dini. Anak sering tidak menyadari penglihatannya kurang jelas karena mengira semua orang melihat dengan cara yang sama. Tanyakan kepada dokter atau tenaga kesehatan tentang jadwal pemeriksaan mata yang sesuai untuk usia anak."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa jarak aman layar HP untuk anak?",
+        "a": "Usahakan sekitar 30 sampai 40 sentimeter, atau kira-kira sejauh siku anak dari matanya."
+      },
+      {
+        "q": "Apa itu aturan 20-20-20?",
+        "a": "Setiap 20 menit melihat layar, alihkan pandangan ke jarak sekitar 6 meter selama 20 detik."
+      },
+      {
+        "q": "Apakah mode malam melindungi mata anak?",
+        "a": "Mode malam bisa membuat layar lebih nyaman di malam hari, tapi jarak, istirahat, dan durasi pemakaian tetap lebih penting."
+      },
+      {
+        "q": "Kapan anak perlu diperiksakan ke dokter mata?",
+        "a": "Jika anak sering menyipitkan mata, mendekatkan wajah ke layar, atau mengeluh pusing. Pemeriksaan rutin juga dianjurkan."
+      }
+    ],
+    "titleEn": "Protecting Children's Eyes on Devices: Distance, Lighting, and Breaks",
+    "metaTitleEn": "Protecting Kids' Eyes on Devices",
+    "metaDescriptionEn": "Does your child rub their eyes or complain of headaches after using a phone? Learn simple habits for children's eye health: screen distance, room lighting, the 20-20-20 rule, outdoor play, and signs it is time for an eye test.",
+    "keywordsEn": [
+      "children's eye health",
+      "kids eyes and gadgets",
+      "20-20-20 rule",
+      "child rubbing eyes",
+      "safe screen distance for kids"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers developing eyes and near work, screen distance, room and screen lighting settings, the 20-20-20 rule and blinking, outdoor play, choosing content with natural stopping points, signs of vision problems, and routine check-ups (general guidance, not medical advice).",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Children's eyes are still developing",
+        "content": [
+          "Long near work and little outdoor time are linked to rising short-sightedness. Healthy habits matter more than bans."
+        ],
+        "tipBox": {
+          "title": "Not medical advice",
+          "text": "See an eye doctor if your child has symptoms.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "distance",
+        "title": "Keep screens at a distance",
+        "content": [
+          "About 30 to 40 cm, roughly elbow length, for phones and tablets. A tablet stand helps."
+        ]
+      },
+      {
+        "id": "lighting",
+        "title": "Room and screen lighting",
+        "content": [
+          "Use devices in well-lit rooms and:"
+        ],
+        "bulletPoints": [
+          "Match brightness to the room.",
+          "Use auto-brightness.",
+          "Enlarge text.",
+          "Use eye-comfort mode in the evening.",
+          "Avoid long use in moving vehicles."
+        ]
+      },
+      {
+        "id": "breaks",
+        "title": "The 20-20-20 rule",
+        "content": [
+          "Every 20 minutes, look about 6 metres away for 20 seconds. Make it a game, like finding three red things outside."
+        ],
+        "tipBox": {
+          "title": "Remember to blink",
+          "text": "Deliberate blinking relieves dry eyes.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "outdoors",
+        "title": "Outdoor play",
+        "content": [
+          "Daily outdoor time in natural light is widely recommended for children's eyes and overall health."
+        ]
+      },
+      {
+        "id": "content",
+        "title": "Choosing content and sessions",
+        "content": [
+          "Short levels with clear stopping points help. **Milo Cat Adventure** has short levels, clear visuals, a 3+ rating, and offline play; still limit time."
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of a vision problem",
+        "content": [
+          "Watch for:"
+        ],
+        "bulletPoints": [
+          "Squinting at distance.",
+          "Moving close to screens or books.",
+          "Rubbing eyes, tiredness, headaches.",
+          "Trouble reading the board.",
+          "Tilting the head.",
+          "Red or watery eyes."
+        ]
+      },
+      {
+        "id": "checkups",
+        "title": "Routine check-ups",
+        "content": [
+          "Children often do not realise they see poorly. Ask a health professional about age-appropriate eye exams."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Safe phone distance for children?",
+        "a": "About 30 to 40 cm."
+      },
+      {
+        "q": "What is the 20-20-20 rule?",
+        "a": "Every 20 minutes, look 6 metres away for 20 seconds."
+      },
+      {
+        "q": "Does night mode protect eyes?",
+        "a": "It adds comfort, but distance, breaks, and duration matter more."
+      },
+      {
+        "q": "When should a child see an eye doctor?",
+        "a": "With squinting, close viewing, or headaches, plus routine checks."
+      }
+    ],
+    "coverImage": "/images/apps/milo-cat-adventure/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "rutinitas-sebelum-tidur-untuk-balita-langkah-langkah-agar-anak-tidur-lebih-mudah",
+    "slugEn": "bedtime-routines-for-toddlers-steps-to-help-children-fall-asleep-easier",
+    "targetAppSlug": "baby-shark-abc-kids-learning",
+    "category": "lifestyle",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet"
+    ],
+    "publishedDate": "2026-12-30T09:45:00+07:00",
+    "title": "Rutinitas sebelum Tidur untuk Balita: Langkah-Langkah agar Anak Tidur Lebih Mudah",
+    "metaTitle": "Rutinitas Tidur Balita agar Mudah Tidur",
+    "metaDescription": "Drama setiap malam saat waktunya tidur? Rutinitas sebelum tidur yang konsisten membantu balita lebih tenang dan mudah terlelap. Simak contoh rutinitas, cara mengatur waktu layar di malam hari, dan solusi untuk tantangan yang sering muncul.",
+    "keywords": [
+      "rutinitas tidur balita",
+      "cara membuat anak cepat tidur",
+      "anak susah tidur malam",
+      "jam tidur anak balita",
+      "kebiasaan sebelum tidur anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa rutinitas tidur penting",
+        "content": [
+          "Bagi balita, perpindahan dari bermain ke tidur bukan hal yang mudah. Mereka belum bisa mengatur energi dan emosinya sendiri. Rutinitas sebelum tidur yang dilakukan dengan urutan yang sama setiap malam memberi sinyal kepada tubuh dan pikiran anak bahwa waktu tidur sudah dekat.",
+          "Anak yang tahu apa yang akan terjadi cenderung merasa lebih aman dan tidak terlalu melawan. Tidur yang cukup juga berpengaruh besar pada suasana hati, konsentrasi, dan tumbuh kembang anak. Bagi orang tua, rutinitas yang berjalan lancar berarti malam yang lebih tenang."
+        ]
+      },
+      {
+        "id": "contoh",
+        "title": "Contoh rutinitas sebelum tidur",
+        "content": [
+          "Rutinitas tidak perlu panjang. Sekitar 20 sampai 40 menit sudah cukup. Berikut contoh urutan yang bisa disesuaikan:"
+        ],
+        "bulletPoints": [
+          "Makan malam ringan atau camilan sehat, setidaknya satu jam sebelum tidur.",
+          "Merapikan mainan bersama sebagai tanda waktu bermain selesai.",
+          "Mandi air hangat atau cuci muka dan kaki.",
+          "Memakai piyama dan menggosok gigi.",
+          "Membaca satu atau dua buku cerita di tempat tidur.",
+          "Mengobrol singkat tentang hal menyenangkan hari ini.",
+          "Pelukan, ucapan selamat tidur, lalu lampu dimatikan."
+        ],
+        "tipBox": {
+          "title": "Urutan yang sama setiap malam",
+          "text": "Konsistensi lebih penting daripada isi rutinitasnya. Lakukan urutan yang sama setiap malam, termasuk di akhir pekan sebisa mungkin.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "jam",
+        "title": "Tetapkan jam tidur yang teratur",
+        "content": [
+          "Tidur dan bangun di jam yang kurang lebih sama setiap hari membantu mengatur jam biologis anak. Perhatikan tanda-tanda mengantuk seperti menguap, mengucek mata, atau mulai rewel, lalu mulai rutinitas sebelum anak terlalu lelah. Anak yang terlalu lelah justru sering lebih sulit tidur.",
+          "Kebutuhan tidur setiap anak berbeda. Tanyakan kepada tenaga kesehatan tentang jumlah jam tidur yang dianjurkan sesuai usia anak, termasuk tidur siang."
+        ]
+      },
+      {
+        "id": "layar",
+        "title": "Atur waktu layar di malam hari",
+        "content": [
+          "Layar gawai dan televisi menjelang tidur bisa membuat anak lebih sulit tenang. Konten yang seru membuat pikiran tetap aktif, dan cahaya terang dari layar bisa mengganggu rasa kantuk alami.",
+          "Sebaiknya matikan semua layar setidaknya satu jam sebelum waktu tidur. Jika anak memakai aplikasi belajar di sore hari, jadwalkan lebih awal sebagai bagian dari kegiatan sore, bukan bagian dari rutinitas tidur. Misalnya, sesi singkat **Baby Shark ABC: Kids Learning** untuk mengenal huruf bisa dilakukan setelah mandi sore, lalu dilanjutkan dengan membaca buku fisik di malam hari dengan huruf-huruf yang sama."
+        ],
+        "tipBox": {
+          "title": "Ganti layar dengan buku",
+          "text": "Membaca buku cerita bersama adalah kegiatan sebelum tidur yang menenangkan sekaligus mendukung perkembangan bahasa anak.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "kamar",
+        "title": "Siapkan kamar yang nyaman untuk tidur",
+        "content": [
+          "Lingkungan kamar juga berpengaruh pada kualitas tidur anak:"
+        ],
+        "bulletPoints": [
+          "Suhu ruangan sejuk dan sirkulasi udara baik.",
+          "Lampu redup atau gelap; gunakan lampu tidur kecil jika anak takut gelap.",
+          "Suasana tenang, kurangi suara televisi atau percakapan keras di dekat kamar.",
+          "Tempat tidur yang nyaman dengan boneka atau selimut kesayangan.",
+          "Simpan mainan yang terlalu menarik di luar jangkauan tempat tidur."
+        ]
+      },
+      {
+        "id": "tantangan",
+        "title": "Mengatasi tantangan yang sering muncul",
+        "content": [
+          "Beberapa tantangan yang umum dan cara menghadapinya:"
+        ],
+        "bulletPoints": [
+          "Anak terus meminta satu cerita lagi: sepakati jumlah buku sebelum mulai membaca.",
+          "Anak keluar kamar berkali-kali: antar kembali dengan tenang tanpa banyak bicara.",
+          "Anak takut gelap: gunakan lampu tidur redup dan bicarakan ketakutannya di siang hari.",
+          "Anak meminta minum atau ke toilet terus: masukkan keduanya ke dalam rutinitas sebelum naik ke tempat tidur."
+        ],
+        "tipBox": {
+          "title": "Tetap tenang dan konsisten",
+          "text": "Anak sering menguji batasan di awal rutinitas baru. Respons yang tenang dan konsisten biasanya membuat anak menerima rutinitas dalam beberapa minggu.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "ubah",
+        "title": "Saat rutinitas berubah",
+        "content": [
+          "Liburan, menginap di rumah kakek nenek, atau anak sakit bisa mengganggu rutinitas tidur. Usahakan mempertahankan bagian-bagian utama, seperti membaca buku dan pelukan sebelum tidur, meskipun di tempat yang berbeda. Bawa boneka atau selimut kesayangan anak saat bepergian. Setelah kembali ke rumah, kembalikan rutinitas seperti biasa secara bertahap.",
+          "Jika anak terus mengalami kesulitan tidur dalam waktu lama, sering terbangun, mendengkur keras, atau tampak sangat lelah di siang hari, konsultasikan dengan dokter anak."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa lama rutinitas sebelum tidur yang ideal untuk balita?",
+        "a": "Sekitar 20 sampai 40 menit biasanya cukup. Yang terpenting adalah urutan yang konsisten setiap malam."
+      },
+      {
+        "q": "Kapan sebaiknya layar dimatikan sebelum tidur?",
+        "a": "Sebaiknya sekitar satu jam sebelum waktu tidur, lalu ganti dengan kegiatan tenang seperti membaca buku."
+      },
+      {
+        "q": "Bagaimana jika anak menolak tidur?",
+        "a": "Tetap tenang dan konsisten dengan rutinitas. Anak biasanya menerima rutinitas baru dalam beberapa minggu."
+      },
+      {
+        "q": "Apakah tidur siang memengaruhi tidur malam?",
+        "a": "Bisa. Tidur siang yang terlalu sore atau terlalu lama kadang membuat anak sulit tidur malam. Sesuaikan jadwalnya dengan usia anak."
+      }
+    ],
+    "titleEn": "Bedtime Routines for Toddlers: Steps to Help Children Fall Asleep More Easily",
+    "metaTitleEn": "Toddler Bedtime Routines for Easier Sleep",
+    "metaDescriptionEn": "Nightly bedtime battles? A consistent routine helps toddlers calm down and fall asleep. See a sample routine, how to handle evening screens, and solutions to common challenges.",
+    "keywordsEn": [
+      "toddler bedtime routine",
+      "help child fall asleep",
+      "toddler wont sleep",
+      "toddler sleep schedule",
+      "bedtime habits for kids"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains why routines help, gives a 20 to 40 minute sample sequence, regular sleep times, switching screens off an hour before bed and scheduling learning apps earlier, a sleep-friendly room, common challenges, and handling disruptions.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why routines matter",
+        "content": [
+          "A consistent sequence signals that sleep is coming, making children feel secure and resist less."
+        ]
+      },
+      {
+        "id": "sample",
+        "title": "A sample routine",
+        "content": [
+          "About 20 to 40 minutes:"
+        ],
+        "bulletPoints": [
+          "Light snack an hour before bed.",
+          "Tidy toys together.",
+          "Warm bath or wash.",
+          "Pyjamas and teeth.",
+          "One or two stories.",
+          "A short chat about the day.",
+          "Hugs, goodnight, lights off."
+        ],
+        "tipBox": {
+          "title": "Same order every night",
+          "text": "Consistency matters more than content.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "time",
+        "title": "Regular sleep times",
+        "content": [
+          "Start before overtiredness sets in and ask a health professional about age-appropriate sleep needs."
+        ]
+      },
+      {
+        "id": "screens",
+        "title": "Evening screens",
+        "content": [
+          "Switch screens off about an hour before bed. Schedule apps like **Baby Shark ABC: Kids Learning** in the afternoon, then read paper books with the same letters at night."
+        ],
+        "tipBox": {
+          "title": "Swap screens for books",
+          "text": "Shared reading calms and builds language.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "room",
+        "title": "A sleep-friendly room",
+        "content": [
+          "Aim for:"
+        ],
+        "bulletPoints": [
+          "Cool, airy temperature.",
+          "Dim or dark lighting with a small night light if needed.",
+          "Quiet surroundings.",
+          "A comfy bed with a favourite toy.",
+          "Exciting toys out of reach."
+        ]
+      },
+      {
+        "id": "challenges",
+        "title": "Common challenges",
+        "content": [
+          "Try:"
+        ],
+        "bulletPoints": [
+          "Agree the number of books first.",
+          "Return wanderers calmly.",
+          "Use a dim light for fear of the dark.",
+          "Build drinks and toilet into the routine."
+        ],
+        "tipBox": {
+          "title": "Calm and consistent",
+          "text": "Most children accept a new routine within weeks.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "changes",
+        "title": "When routines change",
+        "content": [
+          "Keep core steps when travelling, bring comfort items, and see a paediatrician for persistent sleep problems."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How long should a toddler bedtime routine be?",
+        "a": "About 20 to 40 minutes, done consistently."
+      },
+      {
+        "q": "When should screens go off?",
+        "a": "About an hour before bed."
+      },
+      {
+        "q": "What if my child refuses to sleep?",
+        "a": "Stay calm and consistent; acceptance usually comes within weeks."
+      },
+      {
+        "q": "Do naps affect night sleep?",
+        "a": "Late or long naps can; adjust for age."
+      }
+    ],
+    "coverImage": "/images/apps/baby-shark-abc-kids-learning/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
