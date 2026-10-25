@@ -17,7 +17,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pembersih-semprotan-layar-antibak.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pembersih Semprotan Layar Antibakteri (Ulasan 2026 #16)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih Semprotan Layar Antibakteri (Ulasan 2026 #16)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pembersih Semprotan Layar Antibakteri (Ulasan 2026 #16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -172,7 +172,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-tas-pouch-simpan-aksesoris-gaming.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Tas Pouch Simpan Aksesoris Gaming (Ulasan 2026 #17)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tas Pouch  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tas Pouch Simpan Aksesoris Gaming (Ulasan 2026 #17)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Tas Pouch Simpan Aksesoris Gaming (Ulasan 2026 #17). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -327,7 +327,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kabel-lan-rj45-ke-type-c-internet.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kabel LAN RJ45 ke Type-C Internet Stabil (Ulasan 2026 #18)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel LAN  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel LAN RJ45 ke Type-C Internet Stabil (Ulasan 2026 #18)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kabel LAN RJ45 ke Type-C Internet Stabil (Ulasan 2026 #18). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -482,7 +482,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-docking-hub-6-in-1-hdmi-4k-monito.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Docking Hub 6 in 1 HDMI 4K Monitor (Ulasan 2026 #19)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Docking Hu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Docking Hub 6 in 1 HDMI 4K Monitor (Ulasan 2026 #19)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Docking Hub 6 in 1 HDMI 4K Monitor (Ulasan 2026 #19). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -637,7 +637,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-monitor-gaming-portabel-144hz-typ.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Monitor Gaming Portabel 144Hz Type-C (Ulasan 2026 #20)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Monitor Ga | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Monitor Gaming Portabel 144Hz Type-C (Ulasan 2026 #20)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Monitor Gaming Portabel 144Hz Type-C (Ulasan 2026 #20). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -792,7 +792,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kursi-ergonomis-bantal-punggung-g.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kursi Ergonomis Bantal Punggung Gaming (Ulasan 2026 #21)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kursi Ergo | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kursi Ergonomis Bantal Punggung Gaming (Ulasan 2026 #21)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kursi Ergonomis Bantal Punggung Gaming (Ulasan 2026 #21). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -947,7 +947,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-lampu-led-meja-screenbar-lindungi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Lampu LED Meja Screenbar Lindungi Mata (Ulasan 2026 #22)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Lampu LED  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Lampu LED Meja Screenbar Lindungi Mata (Ulasan 2026 #22)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Lampu LED Meja Screenbar Lindungi Mata (Ulasan 2026 #22). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -1102,7 +1102,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-microphone-clip-on-noise-cancelli.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Microphone Clip On Noise Cancelling (Ulasan 2026 #23)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Microphone | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Microphone Clip On Noise Cancelling (Ulasan 2026 #23)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Microphone Clip On Noise Cancelling (Ulasan 2026 #23). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -1257,7 +1257,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-webcam-eksternal-streaming-game-h.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Webcam Eksternal Streaming Game HP (Ulasan 2026 #24)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Webcam Eks | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Webcam Eksternal Streaming Game HP (Ulasan 2026 #24)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Webcam Eksternal Streaming Game HP (Ulasan 2026 #24). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -1412,7 +1412,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kipas-angin-meja-mini-usb-senyap-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kipas Angin Meja Mini USB Senyap (Ulasan 2026 #25)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kipas Angi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kipas Angin Meja Mini USB Senyap (Ulasan 2026 #25)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kipas Angin Meja Mini USB Senyap (Ulasan 2026 #25). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -1567,7 +1567,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kabel-data-braided-kuat-tahan-tar.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kabel Data Braided Kuat Tahan Tarik (Ulasan 2026 #26)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Data | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Data Braided Kuat Tahan Tarik (Ulasan 2026 #26)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kabel Data Braided Kuat Tahan Tarik (Ulasan 2026 #26). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -1722,7 +1722,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-adapter-charger-gan-100w-dingin-r.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Adapter Charger GaN 100W Dingin Ringkas (Ulasan 2026 #27)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Adapter Ch | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Adapter Charger GaN 100W Dingin Ringkas (Ulasan 2026 #27)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Adapter Charger GaN 100W Dingin Ringkas (Ulasan 2026 #27). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -1877,7 +1877,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-case-hp-lubang-ventilasi-grafena-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Case HP Lubang Ventilasi Grafena (Ulasan 2026 #28)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Case HP Lu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Case HP Lubang Ventilasi Grafena (Ulasan 2026 #28)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Case HP Lubang Ventilasi Grafena (Ulasan 2026 #28). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -2032,7 +2032,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pelekat-magnetik-plat-besi-cooler.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pelekat Magnetik Plat Besi Cooler (Ulasan 2026 #29)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelekat Ma | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelekat Magnetik Plat Besi Cooler (Ulasan 2026 #29)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pelekat Magnetik Plat Besi Cooler (Ulasan 2026 #29). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -2187,7 +2187,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pelindung-kamera-belakang-hp-anti.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pelindung Kamera Belakang HP Anti Gores (Ulasan 2026 #30)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung Kamera Belakang HP Anti Gores (Ulasan 2026 #30)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pelindung Kamera Belakang HP Anti Gores (Ulasan 2026 #30). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -2342,7 +2342,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-tester-sensitivitas-layar-sentuh-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Tester Sensitivitas Layar Sentuh Hz (Ulasan 2026 #31)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tester Sen | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tester Sensitivitas Layar Sentuh Hz (Ulasan 2026 #31)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Tester Sensitivitas Layar Sentuh Hz (Ulasan 2026 #31). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -2497,7 +2497,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-aplikasi-monitoring-suhu-cpu-gpu-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Aplikasi Monitoring Suhu CPU GPU (Ulasan 2026 #32)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Aplikasi M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Aplikasi Monitoring Suhu CPU GPU (Ulasan 2026 #32)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Aplikasi Monitoring Suhu CPU GPU (Ulasan 2026 #32). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -2652,7 +2652,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-setting-developer-options-120-fps.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Setting Developer Options 120 FPS (Ulasan 2026 #33)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Setting De | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Setting Developer Options 120 FPS (Ulasan 2026 #33)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Setting Developer Options 120 FPS (Ulasan 2026 #33). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -2807,7 +2807,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-disable-animasi-transisi-percepat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Disable Animasi Transisi Percepat HP (Ulasan 2026 #34)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Disable An | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Disable Animasi Transisi Percepat HP (Ulasan 2026 #34)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Disable Animasi Transisi Percepat HP (Ulasan 2026 #34). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -2962,7 +2962,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-hapus-cache-tersembunyi-ruang-leg.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Hapus Cache Tersembunyi Ruang Lega (Ulasan 2026 #35)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Hapus Cach | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Hapus Cache Tersembunyi Ruang Lega (Ulasan 2026 #35)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Hapus Cache Tersembunyi Ruang Lega (Ulasan 2026 #35). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -3117,7 +3117,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-optimasi-ram-virtual-swap-ekstern.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Optimasi RAM Virtual Swap Eksternal (Ulasan 2026 #36)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Optimasi R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Optimasi RAM Virtual Swap Eksternal (Ulasan 2026 #36)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Optimasi RAM Virtual Swap Eksternal (Ulasan 2026 #36). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -3272,7 +3272,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kalibrasi-baterai-hp-supaya-akura.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kalibrasi Baterai HP Supaya Akurat (Ulasan 2026 #37)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kalibrasi  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kalibrasi Baterai HP Supaya Akurat (Ulasan 2026 #37)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kalibrasi Baterai HP Supaya Akurat (Ulasan 2026 #37). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -3427,7 +3427,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-bypass-charging-main-sambil-cas-a.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Bypass Charging Main Sambil Cas Aman (Ulasan 2026 #38)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Bypass Cha | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Bypass Charging Main Sambil Cas Aman (Ulasan 2026 #38)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Bypass Charging Main Sambil Cas Aman (Ulasan 2026 #38). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -3582,7 +3582,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-mode-jangan-ganggu-game-turbo-akt.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Mode Jangan Ganggu Game Turbo Aktif (Ulasan 2026 #39)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Mode Janga | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Mode Jangan Ganggu Game Turbo Aktif (Ulasan 2026 #39)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Mode Jangan Ganggu Game Turbo Aktif (Ulasan 2026 #39). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -3737,7 +3737,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-setting-dns-cloudflare-internet-c.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Setting DNS Cloudflare Internet Cepat (Ulasan 2026 #40)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Setting DN | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Setting DNS Cloudflare Internet Cepat (Ulasan 2026 #40)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Setting DNS Cloudflare Internet Cepat (Ulasan 2026 #40). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -3892,7 +3892,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-uji-latensi-bluetooth-audio-delay.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Uji Latensi Bluetooth Audio Delay Test (Ulasan 2026 #41)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Uji Latens | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Uji Latensi Bluetooth Audio Delay Test (Ulasan 2026 #41)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Uji Latensi Bluetooth Audio Delay Test (Ulasan 2026 #41). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4047,7 +4047,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-setting-equalizer-suara-langkah-k.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Setting Equalizer Suara Langkah Kaki (Ulasan 2026 #42)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Setting Eq | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Setting Equalizer Suara Langkah Kaki (Ulasan 2026 #42)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Setting Equalizer Suara Langkah Kaki (Ulasan 2026 #42). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4202,7 +4202,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pembersih-debu-port-speaker-type-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pembersih Debu Port Speaker Type-C (Ulasan 2026 #43)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih Debu Port Speaker Type-C (Ulasan 2026 #43)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pembersih Debu Port Speaker Type-C (Ulasan 2026 #43). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4357,7 +4357,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pelindung-kabel-spiral-anti-putus.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pelindung Kabel Spiral Anti Putus (Ulasan 2026 #44)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung Kabel Spiral Anti Putus (Ulasan 2026 #44)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pelindung Kabel Spiral Anti Putus (Ulasan 2026 #44). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4512,7 +4512,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-grip-holder-tangan-ergonomis-nyam.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Grip Holder Tangan Ergonomis Nyaman (Ulasan 2026 #45)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Grip Holde | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Grip Holder Tangan Ergonomis Nyaman (Ulasan 2026 #45)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Grip Holder Tangan Ergonomis Nyaman (Ulasan 2026 #45). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4667,7 +4667,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-gamepad-teleskopik-hp-jadi-ninten.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Gamepad Teleskopik HP Jadi Nintendo Switch (Ulasan 2026 #46)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Gamepad Te | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Gamepad Teleskopik HP Jadi Nintendo Switch (Ulasan 2026 #46)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Gamepad Teleskopik HP Jadi Nintendo Switch (Ulasan 2026 #46). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4822,7 +4822,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-mouse-keyboard-converter-hp-fps-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Mouse & Keyboard Converter HP FPS (Ulasan 2026 #47)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Mouse & Ke | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Mouse & Keyboard Converter HP FPS (Ulasan 2026 #47)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Mouse & Keyboard Converter HP FPS (Ulasan 2026 #47). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4977,7 +4977,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kacamata-anti-radiasi-blue-light-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kacamata Anti Radiasi Blue Light (Ulasan 2026 #48)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kacamata A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kacamata Anti Radiasi Blue Light (Ulasan 2026 #48)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kacamata Anti Radiasi Blue Light (Ulasan 2026 #48). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -5132,7 +5132,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-matras-meja-deskmat-lebar-halus-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Matras Meja Deskmat Lebar Halus (Ulasan 2026 #49)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Matras Mej | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Matras Meja Deskmat Lebar Halus (Ulasan 2026 #49)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Matras Meja Deskmat Lebar Halus (Ulasan 2026 #49). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -5287,7 +5287,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kabel-aux-audio-speaker-eksternal.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kabel Aux Audio Speaker Eksternal (Ulasan 2026 #50)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Aux  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Aux Audio Speaker Eksternal (Ulasan 2026 #50)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kabel Aux Audio Speaker Eksternal (Ulasan 2026 #50). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -5442,7 +5442,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-power-strip-colokan-listrik-surge.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Power Strip Colokan Listrik Surge Protector (Ulasan 2026 #51)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Power Stri | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Power Strip Colokan Listrik Surge Protector (Ulasan 2026 #51)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Power Strip Colokan Listrik Surge Protector (Ulasan 2026 #51). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -5597,7 +5597,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-holder-mobil-vent-ac-gps-dingin-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Holder Mobil Vent Ac GPS Dingin (Ulasan 2026 #52)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Holder Mob | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Holder Mobil Vent Ac GPS Dingin (Ulasan 2026 #52)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Holder Mobil Vent Ac GPS Dingin (Ulasan 2026 #52). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -5752,7 +5752,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pembersih-gel-slime-debu-keyboard.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pembersih Gel Slime Debu Keyboard (Ulasan 2026 #53)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih Gel Slime Debu Keyboard (Ulasan 2026 #53)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pembersih Gel Slime Debu Keyboard (Ulasan 2026 #53). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -5907,7 +5907,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-lap-microfiber-kacamata-layar-ber.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Lap Microfiber Kacamata Layar Bersih (Ulasan 2026 #54)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Lap Microf | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Lap Microfiber Kacamata Layar Bersih (Ulasan 2026 #54)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Lap Microfiber Kacamata Layar Bersih (Ulasan 2026 #54). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6062,7 +6062,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-ring-light-holder-konten-kreator-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Ring Light Holder Konten Kreator HP (Ulasan 2026 #55)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Ring Light | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Ring Light Holder Konten Kreator HP (Ulasan 2026 #55)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Ring Light Holder Konten Kreator HP (Ulasan 2026 #55). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6217,7 +6217,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-green-screen-lipat-portabel-strea.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Green Screen Lipat Portabel Streaming (Ulasan 2026 #56)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Green Scre | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Green Screen Lipat Portabel Streaming (Ulasan 2026 #56)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Green Screen Lipat Portabel Streaming (Ulasan 2026 #56). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6372,7 +6372,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-tripod-hp-kokoh-ketinggian-fleksi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Tripod HP Kokoh Ketinggian Fleksibel (Ulasan 2026 #57)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tripod HP  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tripod HP Kokoh Ketinggian Fleksibel (Ulasan 2026 #57)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Tripod HP Kokoh Ketinggian Fleksibel (Ulasan 2026 #57). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6527,7 +6527,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pelindung-sudut-bumper-hp-anti-ja.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pelindung Sudut Bumper HP Anti Jatuh (Ulasan 2026 #58)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung Sudut Bumper HP Anti Jatuh (Ulasan 2026 #58)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pelindung Sudut Bumper HP Anti Jatuh (Ulasan 2026 #58). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6682,7 +6682,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-stiker-skin-belakang-hp-tekstur-k.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Stiker Skin Belakang HP Tekstur Karbon (Ulasan 2026 #59)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Stiker Ski | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Stiker Skin Belakang HP Tekstur Karbon (Ulasan 2026 #59)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Stiker Skin Belakang HP Tekstur Karbon (Ulasan 2026 #59). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6837,7 +6837,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pembersih-kontak-cleaner-elektron.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pembersih Kontak Cleaner Elektronik (Ulasan 2026 #60)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pembersih Kontak Cleaner Elektronik (Ulasan 2026 #60)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pembersih Kontak Cleaner Elektronik (Ulasan 2026 #60). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6992,7 +6992,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-uji-benchmark-antutu-geekbench-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Uji Benchmark AnTuTu Geekbench 2026 (Ulasan 2026 #61)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Uji Benchm | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Uji Benchmark AnTuTu Geekbench 2026 (Ulasan 2026 #61)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Uji Benchmark AnTuTu Geekbench 2026 (Ulasan 2026 #61). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -7147,7 +7147,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-perbandingan-layar-amoled-vs-ips-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Perbandingan Layar AMOLED vs IPS Game (Ulasan 2026 #62)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Perbanding | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Perbandingan Layar AMOLED vs IPS Game (Ulasan 2026 #62)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Perbandingan Layar AMOLED vs IPS Game (Ulasan 2026 #62). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -7302,7 +7302,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pengaruh-suhu-ruangan-terhadap-fp.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pengaruh Suhu Ruangan Terhadap FPS HP (Ulasan 2026 #63)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pengaruh S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pengaruh Suhu Ruangan Terhadap FPS HP (Ulasan 2026 #63)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pengaruh Suhu Ruangan Terhadap FPS HP (Ulasan 2026 #63). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -7457,7 +7457,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-bahaya-bermain-game-sambil-menidi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Bahaya Bermain Game Sambil Menidih Cas (Ulasan 2026 #64)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Bahaya Ber | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Bahaya Bermain Game Sambil Menidih Cas (Ulasan 2026 #64)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Bahaya Bermain Game Sambil Menidih Cas (Ulasan 2026 #64). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -7612,7 +7612,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-tips-baterai-sehat-3-tahun-tanpa-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Tips Baterai Sehat 3 Tahun Tanpa Gembung (Ulasan 2026 #65)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tips Bater | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Tips Baterai Sehat 3 Tahun Tanpa Gembung (Ulasan 2026 #65)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Tips Baterai Sehat 3 Tahun Tanpa Gembung (Ulasan 2026 #65). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -7767,7 +7767,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-koneksi-wifi-6-vs-kuota-data-5g-g.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Koneksi WiFi 6 vs Kuota Data 5G Game (Ulasan 2026 #66)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Koneksi Wi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Koneksi WiFi 6 vs Kuota Data 5G Game (Ulasan 2026 #66)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Koneksi WiFi 6 vs Kuota Data 5G Game (Ulasan 2026 #66). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -7922,7 +7922,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-cara-menghindari-ghost-touch-laya.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Cara Menghindari Ghost Touch Layar Basah (Ulasan 2026 #67)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Cara Mengh | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Cara Menghindari Ghost Touch Layar Basah (Ulasan 2026 #67)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Cara Menghindari Ghost Touch Layar Basah (Ulasan 2026 #67). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -8077,7 +8077,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pilihan-gear-gaming-hemat-mahasis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pilihan Gear Gaming Hemat Mahasiswa (Ulasan 2026 #68)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pilihan Ge | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pilihan Gear Gaming Hemat Mahasiswa (Ulasan 2026 #68)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pilihan Gear Gaming Hemat Mahasiswa (Ulasan 2026 #68). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -8232,7 +8232,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-review-aksesoris-gaming-resmi-ama.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Review Aksesoris Gaming Resmi Amazon (Ulasan 2026 #69)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Review Aks | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Review Aksesoris Gaming Resmi Amazon (Ulasan 2026 #69)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Review Aksesoris Gaming Resmi Amazon (Ulasan 2026 #69). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -8387,7 +8387,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-investasi-gear-fisik-tingkatkan-s.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Investasi Gear Fisik Tingkatkan Skill (Ulasan 2026 #70)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Investasi  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Investasi Gear Fisik Tingkatkan Skill (Ulasan 2026 #70)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Investasi Gear Fisik Tingkatkan Skill (Ulasan 2026 #70). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -8542,7 +8542,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pendingin-hp-peltier-magnetik-vs-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #71)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pendingin  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #71)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #71). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -8697,7 +8697,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-sarung-jari-serat-perak-03mm-lici.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #72)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Sarung Jar | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #72)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #72). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -8852,7 +8852,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-gamepad-controller-bluetooth-andr.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #73)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Gamepad Co | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #73)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #73). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9007,7 +9007,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-tws-gaming-latensi-rendah-40ms-ul.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #74)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: TWS Gaming | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #74)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #74). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9162,7 +9162,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kabel-charger-siku-90-derajat-l-s.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #75)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Char | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #75)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #75). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9317,7 +9317,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kabel-converter-type-c-audio-char.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #76)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Conv | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #76)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #76). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9472,7 +9472,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-screen-protector-tempered-glass-m.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #77)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Screen Pro | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #77)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #77). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9627,7 +9627,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pelindung-layar-anti-sidik-jari-k.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #78)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #78)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #78). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9782,7 +9782,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-power-bank-fast-charging-65w-ring.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #79)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Power Bank | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #79)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #79). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9937,7 +9937,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-dudukan-hp-stand-meja-ergonomis-h.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #80)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Dudukan HP | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #80)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #80). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -10092,7 +10092,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-headset-gaming-jack-35mm-surround.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #81)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Headset Ga | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #81)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #81). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -10247,7 +10247,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-stylus-pen-presisi-palm-rejection.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #82)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Stylus Pen | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #82)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #82). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -10402,7 +10402,7 @@ export const gearQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-cooler-rgb-hp-dual-fan-super-ding.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #83)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Cooler RGB | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #83)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #83). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",

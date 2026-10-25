@@ -17,7 +17,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-pendaratan-cepat.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Pendaratan Cepat Hot Drop Pochinki (Panduan 2026 #16)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Pendaratan Cepat Hot Drop Pochinki (Panduan 2026 #16)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Pendaratan Cepat Hot Drop Pochinki (Panduan 2026 #16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -174,7 +174,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-looting-efisien-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Looting Efisien 2 Menit Siap Tempur (Panduan 2026 #17)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: L | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Looting Efisien 2 Menit Siap Tempur (Panduan 2026 #17)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Looting Efisien 2 Menit Siap Tempur (Panduan 2026 #17). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -331,7 +331,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-attachment-kompe.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Attachment Kompensator vs Suppressor (Panduan 2026 #18)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Attachment Kompensator vs Suppressor (Panduan 2026 #18)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Attachment Kompensator vs Suppressor (Panduan 2026 #18). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -488,7 +488,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-attachment-verti.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Attachment Vertical Grip vs Angled (Panduan 2026 #19)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Attachment Vertical Grip vs Angled (Panduan 2026 #19)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Attachment Vertical Grip vs Angled (Panduan 2026 #19). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -645,7 +645,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-extended-mag-qui.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Extended Mag Quickdraw Wajib (Panduan 2026 #20)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: E | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Extended Mag Quickdraw Wajib (Panduan 2026 #20)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Extended Mag Quickdraw Wajib (Panduan 2026 #20). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -802,7 +802,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-manajemen-granat.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Manajemen Granat Asap Smoke Wall (Panduan 2026 #21)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Manajemen Granat Asap Smoke Wall (Panduan 2026 #21)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Manajemen Granat Asap Smoke Wall (Panduan 2026 #21). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -959,7 +959,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-granat-ledak-fra.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Granat Ledak Frag Waktu 3 Detik (Panduan 2026 #22)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Granat Ledak Frag Waktu 3 Detik (Panduan 2026 #22)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Granat Ledak Frag Waktu 3 Detik (Panduan 2026 #22). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -1116,7 +1116,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-molotov-koktail-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Molotov Koktail Bakar Kompon (Panduan 2026 #23)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Molotov Koktail Bakar Kompon (Panduan 2026 #23)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Molotov Koktail Bakar Kompon (Panduan 2026 #23). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -1273,7 +1273,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-flashbang-butaka.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Flashbang Butakan Musuh Ruangan (Panduan 2026 #24)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: F | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Flashbang Butakan Musuh Ruangan (Panduan 2026 #24)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Flashbang Butakan Musuh Ruangan (Panduan 2026 #24). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -1430,7 +1430,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-revive-rekan-tim.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Revive Rekan Tim di Asap Tebal (Panduan 2026 #25)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Revive Rekan Tim di Asap Tebal (Panduan 2026 #25)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Revive Rekan Tim di Asap Tebal (Panduan 2026 #25). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -1587,7 +1587,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-komunikasi-suara.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Komunikasi Suara Mikrofon Squad (Panduan 2026 #26)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Komunikasi Suara Mikrofon Squad (Panduan 2026 #26)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Komunikasi Suara Mikrofon Squad (Panduan 2026 #26). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -1744,7 +1744,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-formasi-rusher-f.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Formasi Rusher Flanker Support (Panduan 2026 #27)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: F | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Formasi Rusher Flanker Support (Panduan 2026 #27)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Formasi Rusher Flanker Support (Panduan 2026 #27). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -1901,7 +1901,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-sniper-pengintai.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Sniper Pengintai Informasi Bukit (Panduan 2026 #28)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Sniper Pengintai Informasi Bukit (Panduan 2026 #28)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Sniper Pengintai Informasi Bukit (Panduan 2026 #28). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -2058,7 +2058,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-kendaraan-dacia-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Kendaraan Dacia vs UAZ Lindungi (Panduan 2026 #29)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Kendaraan Dacia vs UAZ Lindungi (Panduan 2026 #29)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Kendaraan Dacia vs UAZ Lindungi (Panduan 2026 #29). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -2215,7 +2215,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-buggy-bermanuver.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Buggy Bermanuver Cepat Tebing (Panduan 2026 #30)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Buggy Bermanuver Cepat Tebing (Panduan 2026 #30)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Buggy Bermanuver Cepat Tebing (Panduan 2026 #30). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -2372,7 +2372,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-air-drop-kotak-m.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Air Drop Kotak Merah Senjata Groza (Panduan 2026 #31)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Air Drop Kotak Merah Senjata Groza (Panduan 2026 #31)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Air Drop Kotak Merah Senjata Groza (Panduan 2026 #31). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -2529,7 +2529,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-senjata-awm-vs-a.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata AWM vs AMR Anti Kendaraan (Panduan 2026 #32)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata AWM vs AMR Anti Kendaraan (Panduan 2026 #32)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Senjata AWM vs AMR Anti Kendaraan (Panduan 2026 #32). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -2686,7 +2686,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-senjata-mg3-lmg-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata MG3 LMG Tembak Cepat (Panduan 2026 #33)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata MG3 LMG Tembak Cepat (Panduan 2026 #33)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Senjata MG3 LMG Tembak Cepat (Panduan 2026 #33). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -2843,7 +2843,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-senjata-dbs-shot.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata DBS Shotgun Raja Rumah (Panduan 2026 #34)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata DBS Shotgun Raja Rumah (Panduan 2026 #34)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Senjata DBS Shotgun Raja Rumah (Panduan 2026 #34). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -3000,7 +3000,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-senjata-ump45-la.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata UMP45 Laser Jarak Dekat (Panduan 2026 #35)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Senjata UMP45 Laser Jarak Dekat (Panduan 2026 #35)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Senjata UMP45 Laser Jarak Dekat (Panduan 2026 #35). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -3157,7 +3157,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-audio-jejak-kaki.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Audio Jejak Kaki Headset Presisi (Panduan 2026 #36)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Audio Jejak Kaki Headset Presisi (Panduan 2026 #36)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Audio Jejak Kaki Headset Presisi (Panduan 2026 #36). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -3314,7 +3314,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-grafis-smooth-ex.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Grafis Smooth Extreme 90 FPS (Panduan 2026 #37)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Grafis Smooth Extreme 90 FPS (Panduan 2026 #37)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Grafis Smooth Extreme 90 FPS (Panduan 2026 #37). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -3471,7 +3471,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-atasi-frame-drop.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Atasi Frame Drop Pertempuran Akhir (Panduan 2026 #38)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Atasi Frame Drop Pertempuran Akhir (Panduan 2026 #38)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Atasi Frame Drop Pertempuran Akhir (Panduan 2026 #38). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -3628,7 +3628,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-posisi-duduk-erg.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Posisi Duduk Ergonomis Mabar 4 Jam (Panduan 2026 #39)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Posisi Duduk Ergonomis Mabar 4 Jam (Panduan 2026 #39)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Posisi Duduk Ergonomis Mabar 4 Jam (Panduan 2026 #39). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -3785,7 +3785,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-kain-pembersih-l.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Kain Pembersih Layar Sentuh Licin (Panduan 2026 #40)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Kain Pembersih Layar Sentuh Licin (Panduan 2026 #40)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Kain Pembersih Layar Sentuh Licin (Panduan 2026 #40). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -3942,7 +3942,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-map-erangel-rute.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Map Erangel Rute Jembatan Militer (Panduan 2026 #41)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Map Erangel Rute Jembatan Militer (Panduan 2026 #41)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Map Erangel Rute Jembatan Militer (Panduan 2026 #41). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -4099,7 +4099,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-map-miramar-tebi.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Map Miramar Tebing Sniper AWM (Panduan 2026 #42)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Map Miramar Tebing Sniper AWM (Panduan 2026 #42)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Map Miramar Tebing Sniper AWM (Panduan 2026 #42). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -4256,7 +4256,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-map-sanhok-semak.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Map Sanhok Semak Kamuflase Rumput (Panduan 2026 #43)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Map Sanhok Semak Kamuflase Rumput (Panduan 2026 #43)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Map Sanhok Semak Kamuflase Rumput (Panduan 2026 #43). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -4413,7 +4413,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-map-vikendi-salj.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Map Vikendi Salju Jejak Kaki (Panduan 2026 #44)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Map Vikendi Salju Jejak Kaki (Panduan 2026 #44)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Map Vikendi Salju Jejak Kaki (Panduan 2026 #44). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -4570,7 +4570,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-map-livik-pertem.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Map Livik Pertempuran Kilat 15 Menit (Panduan 2026 #45)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Map Livik Pertempuran Kilat 15 Menit (Panduan 2026 #45)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Map Livik Pertempuran Kilat 15 Menit (Panduan 2026 #45). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -4727,7 +4727,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-event-kolaborasi.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Event Kolaborasi Mode Khusus PUBGM (Panduan 2026 #46)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: E | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Event Kolaborasi Mode Khusus PUBGM (Panduan 2026 #46)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Event Kolaborasi Mode Khusus PUBGM (Panduan 2026 #46). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -4884,7 +4884,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-codm-custom-guns.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Custom Gunsmith Meta 2026 (Panduan 2026 #47)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Custom Gunsmith Meta 2026 (Panduan 2026 #47)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: CODM Custom Gunsmith Meta 2026 (Panduan 2026 #47). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -5041,7 +5041,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-codm-operator-cl.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Operator Class Medic Ninja (Panduan 2026 #48)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Operator Class Medic Ninja (Panduan 2026 #48)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: CODM Operator Class Medic Ninja (Panduan 2026 #48). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -5198,7 +5198,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-codm-sniper-kar9.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Sniper Kar98k Quick Scope (Panduan 2026 #49)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Sniper Kar98k Quick Scope (Panduan 2026 #49)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: CODM Sniper Kar98k Quick Scope (Panduan 2026 #49). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -5355,7 +5355,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-codm-shotgun-krm.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Shotgun KRM Sliding Jump (Panduan 2026 #50)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: CODM Shotgun KRM Sliding Jump (Panduan 2026 #50)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: CODM Shotgun KRM Sliding Jump (Panduan 2026 #50). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -5512,7 +5512,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-turnamen-pmgc-pm.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Turnamen PMGC & PMGO Indonesia (Panduan 2026 #51)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Turnamen PMGC & PMGO Indonesia (Panduan 2026 #51)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Turnamen PMGC & PMGO Indonesia (Panduan 2026 #51). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -5669,7 +5669,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-mental-baja-clut.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Mental Baja Clutch 1 Lawan 4 (Panduan 2026 #52)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Mental Baja Clutch 1 Lawan 4 (Panduan 2026 #52)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Mental Baja Clutch 1 Lawan 4 (Panduan 2026 #52). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -5826,7 +5826,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-review-killcam-e.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Review Killcam Evaluasi Mati (Panduan 2026 #53)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Review Killcam Evaluasi Mati (Panduan 2026 #53)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Review Killcam Evaluasi Mati (Panduan 2026 #53). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -5983,7 +5983,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-warm-up-tdm-lati.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Warm Up TDM Latihan Aim 15 Menit (Panduan 2026 #54)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: W | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Warm Up TDM Latihan Aim 15 Menit (Panduan 2026 #54)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Warm Up TDM Latihan Aim 15 Menit (Panduan 2026 #54). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -6140,7 +6140,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-cheater-report-s.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Cheater Report Sistem Tencent (Panduan 2026 #55)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Cheater Report Sistem Tencent (Panduan 2026 #55)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Cheater Report Sistem Tencent (Panduan 2026 #55). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -6297,7 +6297,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-keamanan-akun-ve.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Keamanan Akun Verifikasi 2 Langkah (Panduan 2026 #56)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Keamanan Akun Verifikasi 2 Langkah (Panduan 2026 #56)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Keamanan Akun Verifikasi 2 Langkah (Panduan 2026 #56). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -6454,7 +6454,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-top-up-uc-legal-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Top Up UC Legal Promo Resmi (Panduan 2026 #57)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Top Up UC Legal Promo Resmi (Panduan 2026 #57)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Top Up UC Legal Promo Resmi (Panduan 2026 #57). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -6611,7 +6611,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-skin-senjata-upg.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Skin Senjata Upgrade Efek Kill (Panduan 2026 #58)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Skin Senjata Upgrade Efek Kill (Panduan 2026 #58)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Skin Senjata Upgrade Efek Kill (Panduan 2026 #58). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -6768,7 +6768,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-title-gelaran-ke.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Title Gelaran Keren Profil Akun (Panduan 2026 #59)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Title Gelaran Keren Profil Akun (Panduan 2026 #59)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Title Gelaran Keren Profil Akun (Panduan 2026 #59). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -6925,7 +6925,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-tier-conqueror-t.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Tier Conqueror Target Awal Musim (Panduan 2026 #60)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Tier Conqueror Target Awal Musim (Panduan 2026 #60)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Tier Conqueror Target Awal Musim (Panduan 2026 #60). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -7082,7 +7082,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-point-rank-minus.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Point Rank Minus Pencegahan Trik (Panduan 2026 #61)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Point Rank Minus Pencegahan Trik (Panduan 2026 #61)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Point Rank Minus Pencegahan Trik (Panduan 2026 #61). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -7239,7 +7239,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-mabar-duo-serasi.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Mabar Duo Serasi Komunikasi (Panduan 2026 #62)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Mabar Duo Serasi Komunikasi (Panduan 2026 #62)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Mabar Duo Serasi Komunikasi (Panduan 2026 #62). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -7396,7 +7396,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-sensitiv.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas iPad vs HP (Panduan 2026 #63)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas iPad vs HP (Panduan 2026 #63)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas iPad vs HP (Panduan 2026 #63). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -7553,7 +7553,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-lay.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Layar Sentuh Lengket (Panduan 2026 #64)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Layar Sentuh Lengket (Panduan 2026 #64)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Layar Sentuh Lengket (Panduan 2026 #64). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -7710,7 +7710,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-pencegahan-panas.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Pencegahan Panas HP Baterai Awet (Panduan 2026 #65)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Pencegahan Panas HP Baterai Awet (Panduan 2026 #65)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Pencegahan Panas HP Baterai Awet (Panduan 2026 #65). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -7867,7 +7867,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-suara-peluru-sil.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Suara Peluru Silencer Jarak Jauh (Panduan 2026 #66)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Suara Peluru Silencer Jarak Jauh (Panduan 2026 #66)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Suara Peluru Silencer Jarak Jauh (Panduan 2026 #66). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -8024,7 +8024,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-recoil-beryl-m76.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Recoil Beryl M762 Peluru 7.62 (Panduan 2026 #67)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Recoil Beryl M762 Peluru 7.62 (Panduan 2026 #67)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Recoil Beryl M762 Peluru 7.62 (Panduan 2026 #67). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -8181,7 +8181,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-recoil-akm-jarak.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Recoil AKM Jarak Dekat Mematikan (Panduan 2026 #68)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Recoil AKM Jarak Dekat Mematikan (Panduan 2026 #68)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Recoil AKM Jarak Dekat Mematikan (Panduan 2026 #68). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -8338,7 +8338,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-dmr-slr-vs-sks-p.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: DMR SLR vs SKS Pilihan Pro (Panduan 2026 #69)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: D | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: DMR SLR vs SKS Pilihan Pro (Panduan 2026 #69)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: DMR SLR vs SKS Pilihan Pro (Panduan 2026 #69). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -8495,7 +8495,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-pistol-scorpion-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Pistol Scorpion Darurat Awal Turun (Panduan 2026 #70)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Pistol Scorpion Darurat Awal Turun (Panduan 2026 #70)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Pistol Scorpion Darurat Awal Turun (Panduan 2026 #70). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -8652,7 +8652,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-trik-panjat-tebi.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Panjat Tebing Parkour Gedung (Panduan 2026 #71)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Panjat Tebing Parkour Gedung (Panduan 2026 #71)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Trik Panjat Tebing Parkour Gedung (Panduan 2026 #71). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -8809,7 +8809,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-pintu-rumah-jeba.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Pintu Rumah Jebakan Ledakan (Panduan 2026 #72)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Pintu Rumah Jebakan Ledakan (Panduan 2026 #72)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Pintu Rumah Jebakan Ledakan (Panduan 2026 #72). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -8966,7 +8966,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-atap-rumah-posis.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Atap Rumah Posisi Tembak Rahasia (Panduan 2026 #73)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Atap Rumah Posisi Tembak Rahasia (Panduan 2026 #73)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Atap Rumah Posisi Tembak Rahasia (Panduan 2026 #73). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -9123,7 +9123,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-kolong-jembatan-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Kolong Jembatan Sembunyi Zona (Panduan 2026 #74)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Kolong Jembatan Sembunyi Zona (Panduan 2026 #74)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Kolong Jembatan Sembunyi Zona (Panduan 2026 #74). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -9280,7 +9280,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-taktik-chicken-d.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Taktik Chicken Dinner Konsisten (Panduan 2026 #75)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Taktik Chicken Dinner Konsisten (Panduan 2026 #75)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Taktik Chicken Dinner Konsisten (Panduan 2026 #75). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -9437,7 +9437,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-gyroscop.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #76)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #76)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #76). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -9594,7 +9594,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-ads.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #77)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #77)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #77). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -9751,7 +9751,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-sensitiv.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #78)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #78)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #78). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -9908,7 +9908,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-fre.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #79)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #79)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #79). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -10065,7 +10065,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-3x.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #80)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #80)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #80). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -10222,7 +10222,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-4x.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #81)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #81)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #81). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -10379,7 +10379,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-6x.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #82)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #82)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #82). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -10536,7 +10536,7 @@ export const battleroyaleQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-awm-one-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #83)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #83)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #83). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",

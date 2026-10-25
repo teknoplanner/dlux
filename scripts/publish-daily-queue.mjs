@@ -29,6 +29,17 @@ const queueFiles = [
   { file: "productivity-queue.ts", varName: "productivityQueueArticles" },
 ];
 
+// Body paragraphs with **bold** names normalized, so "Build X" vs "Build Y" templates compare equal.
+const paragraphs = (a) =>
+  (a.sections || []).flatMap((s) => [...(s.content || []), ...(s.bulletPoints || [])]).map((p) => p.replace(/\*\*[^*]+\*\*/g, "X").trim());
+
+// Hold back templated near-duplicates: Google penalizes scaled content (most of the page reused across articles).
+const MAX_DUP_RATIO = 0.5;
+function dupRatio(art, seen) {
+  const ps = paragraphs(art);
+  return ps.length ? ps.filter((p) => seen.has(p)).length / ps.length : 1;
+}
+
 async function main() {
   const now = new Date();
   console.log(`Checking article queue at: ${now.toISOString()} (${now.toLocaleString("id-ID", { timeZone: "Asia/Jakarta" })} WIB)`);
@@ -40,8 +51,10 @@ async function main() {
     currentPublished = mod.publishedGamingArticles || [];
   }
 
+  const seen = new Set(currentPublished.flatMap(paragraphs));
   const newlyPublished = [];
   let totalRemaining = 0;
+  let held = 0;
 
   for (const qf of queueFiles) {
     const filePath = path.join(queueDir, qf.file);
@@ -53,10 +66,14 @@ async function main() {
     const remaining = [];
     for (const art of queueList) {
       const pubDate = new Date(art.publishedDate);
-      if (pubDate.getTime() <= now.getTime()) {
-        newlyPublished.push(art);
-      } else {
+      if (pubDate.getTime() > now.getTime()) {
         remaining.push(art);
+      } else if (dupRatio(art, seen) > MAX_DUP_RATIO) {
+        held++;
+        remaining.push(art);
+      } else {
+        paragraphs(art).forEach((p) => seen.add(p));
+        newlyPublished.push(art);
       }
     }
 
@@ -84,6 +101,7 @@ async function main() {
     console.log("No articles due for publishing at this moment.");
   }
 
+  if (held) console.log(`Held back ${held} due articles: >${MAX_DUP_RATIO * 100}% of their paragraphs duplicate existing articles.`);
   console.log(`Total articles remaining in queue: ${totalRemaining}`);
 }
 

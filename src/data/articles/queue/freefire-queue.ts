@@ -17,7 +17,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-custom-hud-3-jari-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 3 Jari (Update ke-17)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 3 Jari (Update ke-17)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 3 Jari (Update ke-17). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -176,7 +176,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-custom-hud-4-jari-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 4 Jari (Update ke-18)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 4 Jari (Update ke-18)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 4 Jari (Update ke-18). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -335,7 +335,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-fast-gloo-wall-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Fast Gloo Wall (Update ke-19)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik F | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Fast Gloo Wall (Update ke-19)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Fast Gloo Wall (Update ke-19). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -494,7 +494,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-kombinasi-skill-al.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kombinasi Skill Alok (Update ke-20)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kombinasi Skill Alok (Update ke-20)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Kombinasi Skill Alok (Update ke-20). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -653,7 +653,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-karakter-tatsuya-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Tatsuya (Update ke-21)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Tatsuya (Update ke-21)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Tatsuya (Update ke-21). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -812,7 +812,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-karakter-dimitri-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Dimitri (Update ke-22)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Dimitri (Update ke-22)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Dimitri (Update ke-22). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -971,7 +971,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-karakter-chrono-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Chrono (Update ke-23)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Chrono (Update ke-23)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Chrono (Update ke-23). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -1130,7 +1130,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-karakter-homer-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Homer (Update ke-24)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Homer (Update ke-24)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Homer (Update ke-24). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -1289,7 +1289,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-karakter-santino-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Santino (Update ke-25)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Santino (Update ke-25)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Karakter Santino (Update ke-25). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -1448,7 +1448,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-setting-dpi-aman-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Setting DPI Aman (Update ke-26)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Setting DPI Aman (Update ke-26)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Setting DPI Aman (Update ke-26). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -1607,7 +1607,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-clash-squad-ranked.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Clash Squad Ranked (Update ke-27)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Clash Squad Ranked (Update ke-27)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Clash Squad Ranked (Update ke-27). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -1766,7 +1766,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-solo-vs-squad-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Solo vs Squad (Update ke-28)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Solo vs Squad (Update ke-28)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Solo vs Squad (Update ke-28). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -1925,7 +1925,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-rotasi-map-bermuda.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Rotasi Map Bermuda (Update ke-29)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Rotasi Map Bermuda (Update ke-29)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Rotasi Map Bermuda (Update ke-29). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -2084,7 +2084,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-grafis-halus-60-fp.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Grafis Halus 60 FPS (Update ke-30)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Grafis Halus 60 FPS (Update ke-30)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Grafis Halus 60 FPS (Update ke-30). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -2243,7 +2243,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-pola-lari-anti-sni.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Pola Lari Anti Sniper (Update ke-31)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Pola Lari Anti Sniper (Update ke-31)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Pola Lari Anti Sniper (Update ke-31). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -2402,7 +2402,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-taktik-zona-akhir-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Zona Akhir (Update ke-32)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Zona Akhir (Update ke-32)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Zona Akhir (Update ke-32). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -2561,7 +2561,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-senjata-ar-meta-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata AR Meta (Update ke-33)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata AR Meta (Update ke-33)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata AR Meta (Update ke-33). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -2720,7 +2720,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-teknik-drag-shot-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Teknik Drag Shot (Update ke-34)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Teknik Drag Shot (Update ke-34)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Teknik Drag Shot (Update ke-34). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -2879,7 +2879,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-guild-war-formasi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Guild War Formasi (Update ke-35)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Guild War Formasi (Update ke-35)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Guild War Formasi (Update ke-35). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3038,7 +3038,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-mental-juara-booya.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Mental Juara Booyah (Update ke-36)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Mental Juara Booyah (Update ke-36)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Mental Juara Booyah (Update ke-36). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3197,7 +3197,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-jump-shot-shotgun-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jump Shot Shotgun (Update ke-37)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik J | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jump Shot Shotgun (Update ke-37)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Jump Shot Shotgun (Update ke-37). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3356,7 +3356,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-scope-4x-akurat-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Scope 4x Akurat (Update ke-38)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Scope 4x Akurat (Update ke-38)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Scope 4x Akurat (Update ke-38). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3515,7 +3515,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-deteksi-musuh-pet-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Deteksi Musuh Pet (Update ke-39)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik D | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Deteksi Musuh Pet (Update ke-39)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Deteksi Musuh Pet (Update ke-39). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3674,7 +3674,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-attachment-silence.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Attachment Silencer (Update ke-40)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Attachment Silencer (Update ke-40)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Attachment Silencer (Update ke-40). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3833,7 +3833,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-pendaratan-clock-t.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Pendaratan Clock Tower (Update ke-41)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Pendaratan Clock Tower (Update ke-41)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Pendaratan Clock Tower (Update ke-41). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3992,7 +3992,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-jalur-aman-purgato.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jalur Aman Purgatory (Update ke-42)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik J | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jalur Aman Purgatory (Update ke-42)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Jalur Aman Purgatory (Update ke-42). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -4151,7 +4151,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-bertahan-di-nexter.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Bertahan di NexTerra (Update ke-43)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Bertahan di NexTerra (Update ke-43)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Bertahan di NexTerra (Update ke-43). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -4310,7 +4310,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-kombo-kelly-hayato.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kombo Kelly & Hayato (Update ke-44)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kombo Kelly & Hayato (Update ke-44)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Kombo Kelly & Hayato (Update ke-44). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -4469,7 +4469,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-trik-tembak-kepala.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Tembak Kepala (Update ke-45)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Tembak Kepala (Update ke-45)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Tembak Kepala (Update ke-45). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -4628,7 +4628,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-uji-kepekaan-touch.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Uji Kepekaan Touch (Update ke-46)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik U | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Uji Kepekaan Touch (Update ke-46)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Uji Kepekaan Touch (Update ke-46). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -4787,7 +4787,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-sensitivitas-layar.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Sensitivitas Layar Licin (Update ke-47)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Sensitivitas Layar Licin (Update ke-47)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Sensitivitas Layar Licin (Update ke-47). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -4946,7 +4946,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-aim-merah-jarak-de.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Aim Merah Jarak Dekat (Update ke-48)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Aim Merah Jarak Dekat (Update ke-48)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Aim Merah Jarak Dekat (Update ke-48). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -5105,7 +5105,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-kontrol-recoil-smg.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kontrol Recoil SMG (Update ke-49)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kontrol Recoil SMG (Update ke-49)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Kontrol Recoil SMG (Update ke-49). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -5264,7 +5264,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-senjata-ump-mp5-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata UMP & MP5 (Update ke-50)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata UMP & MP5 (Update ke-50)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata UMP & MP5 (Update ke-50). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -5423,7 +5423,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-granat-flashbang-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Flashbang (Update ke-51)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Flashbang (Update ke-51)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Flashbang (Update ke-51). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -5582,7 +5582,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-medkit-healing-zon.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Medkit Healing Zona (Update ke-52)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Medkit Healing Zona (Update ke-52)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Medkit Healing Zona (Update ke-52). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -5741,7 +5741,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-revive-point-takti.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Revive Point Taktik (Update ke-53)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Revive Point Taktik (Update ke-53)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Revive Point Taktik (Update ke-53). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -5900,7 +5900,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-airdrop-looting-ce.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Airdrop Looting Cepat (Update ke-54)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Airdrop Looting Cepat (Update ke-54)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Airdrop Looting Cepat (Update ke-54). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -6059,7 +6059,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-senjata-charge-bus.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata Charge Buster (Update ke-55)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata Charge Buster (Update ke-55)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Senjata Charge Buster (Update ke-55). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -6218,7 +6218,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-trik-panjat-atap-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Panjat Atap (Update ke-56)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Panjat Atap (Update ke-56)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Panjat Atap (Update ke-56). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -6377,7 +6377,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-sniper-awm-tembus-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper AWM Tembus Vest (Update ke-57)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper AWM Tembus Vest (Update ke-57)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper AWM Tembus Vest (Update ke-57). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -6536,7 +6536,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-baju-pelindung-lev.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Baju Pelindung Level 4 (Update ke-58)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Baju Pelindung Level 4 (Update ke-58)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Baju Pelindung Level 4 (Update ke-58). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -6695,7 +6695,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-helm-anti-headshot.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Helm Anti Headshot (Update ke-59)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik H | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Helm Anti Headshot (Update ke-59)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Helm Anti Headshot (Update ke-59). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -6854,7 +6854,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-peta-radar-mini-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Peta Radar Mini (Update ke-60)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Peta Radar Mini (Update ke-60)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Peta Radar Mini (Update ke-60). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -7013,7 +7013,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-suara-langkah-musu.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Suara Langkah Musuh (Update ke-61)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Suara Langkah Musuh (Update ke-61)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Suara Langkah Musuh (Update ke-61). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -7172,7 +7172,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-setting-tombol-tem.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Setting Tombol Tembak Kiri (Update ke-62)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Setting Tombol Tembak Kiri (Update ke-62)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Setting Tombol Tembak Kiri (Update ke-62). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -7331,7 +7331,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-ukuran-tombol-anal.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Ukuran Tombol Analog (Update ke-63)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik U | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Ukuran Tombol Analog (Update ke-63)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Ukuran Tombol Analog (Update ke-63). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -7490,7 +7490,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-transparansi-tombo.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Transparansi Tombol HUD (Update ke-64)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Transparansi Tombol HUD (Update ke-64)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Transparansi Tombol HUD (Update ke-64). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -7649,7 +7649,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-trik-peek-semak-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Peek Semak (Update ke-65)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Peek Semak (Update ke-65)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Trik Peek Semak (Update ke-65). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -7808,7 +7808,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-taktik-rusher-duo-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Rusher Duo (Update ke-66)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Rusher Duo (Update ke-66)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Taktik Rusher Duo (Update ke-66). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -7967,7 +7967,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-support-medis-squa.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Support Medis Squad (Update ke-67)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Support Medis Squad (Update ke-67)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Support Medis Squad (Update ke-67). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -8126,7 +8126,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-sniper-penjaga-bel.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper Penjaga Belakang (Update ke-68)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper Penjaga Belakang (Update ke-68)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Sniper Penjaga Belakang (Update ke-68). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -8285,7 +8285,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-kendaraan-monster-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kendaraan Monster Truck (Update ke-69)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kendaraan Monster Truck (Update ke-69)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Kendaraan Monster Truck (Update ke-69). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -8444,7 +8444,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-zip-line-manuver-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Zip Line Manuver (Update ke-70)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Z | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Zip Line Manuver (Update ke-70)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Zip Line Manuver (Update ke-70). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -8603,7 +8603,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-peluncur-launch-pa.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Peluncur Launch Pad (Update ke-71)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Peluncur Launch Pad (Update ke-71)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Peluncur Launch Pad (Update ke-71). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -8762,7 +8762,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-pintu-rumah-pertah.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Pintu Rumah Pertahanan (Update ke-72)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Pintu Rumah Pertahanan (Update ke-72)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Pintu Rumah Pertahanan (Update ke-72). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -8921,7 +8921,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-jendela-tembak-mun.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jendela Tembak Mundur (Update ke-73)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik J | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jendela Tembak Mundur (Update ke-73)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Jendela Tembak Mundur (Update ke-73). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -9080,7 +9080,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-granat-asap-penyel.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Asap Penyelamat (Update ke-74)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Asap Penyelamat (Update ke-74)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Granat Asap Penyelamat (Update ke-74). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -9239,7 +9239,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-lampu-sinyal-uav-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Lampu Sinyal UAV (Update ke-75)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik L | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Lampu Sinyal UAV (Update ke-75)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Lampu Sinyal UAV (Update ke-75). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -9398,7 +9398,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-mesin-penjual-koin.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Mesin Penjual Koin (Update ke-76)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Mesin Penjual Koin (Update ke-76)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Mesin Penjual Koin (Update ke-76). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -9557,7 +9557,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-chip-senjata-level.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Chip Senjata Level 3 (Update ke-77)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Chip Senjata Level 3 (Update ke-77)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Chip Senjata Level 3 (Update ke-77). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -9716,7 +9716,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-vending-machine-tr.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Vending Machine Trik (Update ke-78)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik V | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Vending Machine Trik (Update ke-78)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Vending Machine Trik (Update ke-78). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -9875,7 +9875,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-armor-plate-pengga.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Armor Plate Pengganti (Update ke-79)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Armor Plate Pengganti (Update ke-79)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Armor Plate Pengganti (Update ke-79). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -10034,7 +10034,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-darah-putih-ep-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Darah Putih EP (Update ke-80)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik D | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Darah Putih EP (Update ke-80)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Darah Putih EP (Update ke-80). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -10193,7 +10193,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-inhaler-stamina-ce.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Inhaler Stamina Cepat (Update ke-81)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik I | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Inhaler Stamina Cepat (Update ke-81)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Inhaler Stamina Cepat (Update ke-81). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -10352,7 +10352,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-jamur-jamur-level-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jamur Jamur Level 4 (Update ke-82)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik J | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Jamur Jamur Level 4 (Update ke-82)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Jamur Jamur Level 4 (Update ke-82). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -10511,7 +10511,7 @@ export const freefireQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-kemenangan-booyah-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kemenangan Booyah Konsisten (Update ke-83)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Kemenangan Booyah Konsisten (Update ke-83)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Kemenangan Booyah Konsisten (Update ke-83). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",

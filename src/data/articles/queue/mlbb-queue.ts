@@ -17,7 +17,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-chou-tersakit-rotasi-meta-solo-rank-2026-hari-ke-17.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Chou Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-17)",
-    "metaTitle": "Build Chou Tersakit & Rotasi Meta Solo Rank 2026 ( | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Chou Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-17)",
     "metaDescription": "Ulasan mendalam Build Chou Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-17). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -208,7 +208,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-yu-zhong-tersakit-rotasi-meta-solo-rank-2026-hari-ke-18.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Yu Zhong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-18)",
-    "metaTitle": "Build Yu Zhong Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Yu Zhong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-18)",
     "metaDescription": "Ulasan mendalam Build Yu Zhong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-18). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -399,7 +399,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-paquito-tersakit-rotasi-meta-solo-rank-2026-hari-ke-19.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Paquito Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-19)",
-    "metaTitle": "Build Paquito Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Paquito Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-19)",
     "metaDescription": "Ulasan mendalam Build Paquito Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-19). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -590,7 +590,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-terizla-tersakit-rotasi-meta-solo-rank-2026-hari-ke-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Terizla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-20)",
-    "metaTitle": "Build Terizla Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Terizla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-20)",
     "metaDescription": "Ulasan mendalam Build Terizla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-20). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -781,7 +781,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-cici-tersakit-rotasi-meta-solo-rank-2026-hari-ke-21.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Cici Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-21)",
-    "metaTitle": "Build Cici Tersakit & Rotasi Meta Solo Rank 2026 ( | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Cici Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-21)",
     "metaDescription": "Ulasan mendalam Build Cici Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-21). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -972,7 +972,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-lunox-tersakit-rotasi-meta-solo-rank-2026-hari-ke-22.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Lunox Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-22)",
-    "metaTitle": "Build Lunox Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Lunox Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-22)",
     "metaDescription": "Ulasan mendalam Build Lunox Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-22). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -1163,7 +1163,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-kagura-tersakit-rotasi-meta-solo-rank-2026-hari-ke-23.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Kagura Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-23)",
-    "metaTitle": "Build Kagura Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Kagura Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-23)",
     "metaDescription": "Ulasan mendalam Build Kagura Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-23). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -1354,7 +1354,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-novaria-tersakit-rotasi-meta-solo-rank-2026-hari-ke-24.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Novaria Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-24)",
-    "metaTitle": "Build Novaria Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Novaria Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-24)",
     "metaDescription": "Ulasan mendalam Build Novaria Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-24). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -1545,7 +1545,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-zhuxin-tersakit-rotasi-meta-solo-rank-2026-hari-ke-25.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Zhuxin Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-25)",
-    "metaTitle": "Build Zhuxin Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Zhuxin Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-25)",
     "metaDescription": "Ulasan mendalam Build Zhuxin Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-25). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -1736,7 +1736,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-mathilda-tersakit-rotasi-meta-solo-rank-2026-hari-ke-26.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Mathilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-26)",
-    "metaTitle": "Build Mathilda Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Mathilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-26)",
     "metaDescription": "Ulasan mendalam Build Mathilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-26). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -1927,7 +1927,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-diggie-tersakit-rotasi-meta-solo-rank-2026-hari-ke-27.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Diggie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-27)",
-    "metaTitle": "Build Diggie Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Diggie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-27)",
     "metaDescription": "Ulasan mendalam Build Diggie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-27). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -2118,7 +2118,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-fredrinn-tersakit-rotasi-meta-solo-rank-2026-hari-ke-28.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Fredrinn Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-28)",
-    "metaTitle": "Build Fredrinn Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Fredrinn Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-28)",
     "metaDescription": "Ulasan mendalam Build Fredrinn Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-28). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -2309,7 +2309,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-baxia-tersakit-rotasi-meta-solo-rank-2026-hari-ke-29.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Baxia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-29)",
-    "metaTitle": "Build Baxia Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Baxia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-29)",
     "metaDescription": "Ulasan mendalam Build Baxia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-29). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -2500,7 +2500,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-akai-tersakit-rotasi-meta-solo-rank-2026-hari-ke-30.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Akai Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-30)",
-    "metaTitle": "Build Akai Tersakit & Rotasi Meta Solo Rank 2026 ( | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Akai Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-30)",
     "metaDescription": "Ulasan mendalam Build Akai Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-30). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -2691,7 +2691,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-arlott-tersakit-rotasi-meta-solo-rank-2026-hari-ke-31.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Arlott Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-31)",
-    "metaTitle": "Build Arlott Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Arlott Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-31)",
     "metaDescription": "Ulasan mendalam Build Arlott Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-31). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -2882,7 +2882,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-lapu-lapu-tersakit-rotasi-meta-solo-rank-2026-hari-ke-32.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-32)",
-    "metaTitle": "Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank 2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-32)",
     "metaDescription": "Ulasan mendalam Build Lapu-Lapu Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-32). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -3073,7 +3073,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-joy-tersakit-rotasi-meta-solo-rank-2026-hari-ke-33.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Joy Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-33)",
-    "metaTitle": "Build Joy Tersakit & Rotasi Meta Solo Rank 2026 (H | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Joy Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-33)",
     "metaDescription": "Ulasan mendalam Build Joy Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-33). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -3264,7 +3264,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-benedetta-tersakit-rotasi-meta-solo-rank-2026-hari-ke-34.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Benedetta Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-34)",
-    "metaTitle": "Build Benedetta Tersakit & Rotasi Meta Solo Rank 2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Benedetta Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-34)",
     "metaDescription": "Ulasan mendalam Build Benedetta Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-34). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -3455,7 +3455,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-natalia-tersakit-rotasi-meta-solo-rank-2026-hari-ke-35.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Natalia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-35)",
-    "metaTitle": "Build Natalia Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Natalia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-35)",
     "metaDescription": "Ulasan mendalam Build Natalia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-35). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -3646,7 +3646,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-helcurt-tersakit-rotasi-meta-solo-rank-2026-hari-ke-36.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Helcurt Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-36)",
-    "metaTitle": "Build Helcurt Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Helcurt Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-36)",
     "metaDescription": "Ulasan mendalam Build Helcurt Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-36). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -3837,7 +3837,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-saber-tersakit-rotasi-meta-solo-rank-2026-hari-ke-37.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Saber Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-37)",
-    "metaTitle": "Build Saber Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Saber Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-37)",
     "metaDescription": "Ulasan mendalam Build Saber Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-37). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -4028,7 +4028,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-karina-tersakit-rotasi-meta-solo-rank-2026-hari-ke-38.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Karina Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-38)",
-    "metaTitle": "Build Karina Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Karina Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-38)",
     "metaDescription": "Ulasan mendalam Build Karina Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-38). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -4219,7 +4219,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-harley-tersakit-rotasi-meta-solo-rank-2026-hari-ke-39.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Harley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-39)",
-    "metaTitle": "Build Harley Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Harley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-39)",
     "metaDescription": "Ulasan mendalam Build Harley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-39). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -4410,7 +4410,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-cyclops-tersakit-rotasi-meta-solo-rank-2026-hari-ke-40.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Cyclops Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-40)",
-    "metaTitle": "Build Cyclops Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Cyclops Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-40)",
     "metaDescription": "Ulasan mendalam Build Cyclops Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-40). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -4601,7 +4601,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-vale-tersakit-rotasi-meta-solo-rank-2026-hari-ke-41.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Vale Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-41)",
-    "metaTitle": "Build Vale Tersakit & Rotasi Meta Solo Rank 2026 ( | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Vale Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-41)",
     "metaDescription": "Ulasan mendalam Build Vale Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-41). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -4792,7 +4792,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-pharsa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-42.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Pharsa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-42)",
-    "metaTitle": "Build Pharsa Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Pharsa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-42)",
     "metaDescription": "Ulasan mendalam Build Pharsa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-42). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -4983,7 +4983,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-yve-tersakit-rotasi-meta-solo-rank-2026-hari-ke-43.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Yve Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-43)",
-    "metaTitle": "Build Yve Tersakit & Rotasi Meta Solo Rank 2026 (H | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Yve Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-43)",
     "metaDescription": "Ulasan mendalam Build Yve Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-43). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -5174,7 +5174,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-xavier-tersakit-rotasi-meta-solo-rank-2026-hari-ke-44.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Xavier Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-44)",
-    "metaTitle": "Build Xavier Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Xavier Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-44)",
     "metaDescription": "Ulasan mendalam Build Xavier Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-44). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -5365,7 +5365,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-cecilion-tersakit-rotasi-meta-solo-rank-2026-hari-ke-45.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Cecilion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-45)",
-    "metaTitle": "Build Cecilion Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Cecilion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-45)",
     "metaDescription": "Ulasan mendalam Build Cecilion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-45). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -5556,7 +5556,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-lylia-tersakit-rotasi-meta-solo-rank-2026-hari-ke-46.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Lylia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-46)",
-    "metaTitle": "Build Lylia Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Lylia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-46)",
     "metaDescription": "Ulasan mendalam Build Lylia Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-46). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -5747,7 +5747,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-kadita-tersakit-rotasi-meta-solo-rank-2026-hari-ke-47.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Kadita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-47)",
-    "metaTitle": "Build Kadita Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Kadita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-47)",
     "metaDescription": "Ulasan mendalam Build Kadita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-47). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -5938,7 +5938,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-lesley-tersakit-rotasi-meta-solo-rank-2026-hari-ke-48.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Lesley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-48)",
-    "metaTitle": "Build Lesley Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Lesley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-48)",
     "metaDescription": "Ulasan mendalam Build Lesley Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-48). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -6129,7 +6129,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-clint-tersakit-rotasi-meta-solo-rank-2026-hari-ke-49.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Clint Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-49)",
-    "metaTitle": "Build Clint Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Clint Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-49)",
     "metaDescription": "Ulasan mendalam Build Clint Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-49). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -6320,7 +6320,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-granger-tersakit-rotasi-meta-solo-rank-2026-hari-ke-50.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Granger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-50)",
-    "metaTitle": "Build Granger Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Granger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-50)",
     "metaDescription": "Ulasan mendalam Build Granger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-50). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -6511,7 +6511,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-bruno-tersakit-rotasi-meta-solo-rank-2026-hari-ke-51.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Bruno Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-51)",
-    "metaTitle": "Build Bruno Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Bruno Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-51)",
     "metaDescription": "Ulasan mendalam Build Bruno Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-51). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -6702,7 +6702,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-irithel-tersakit-rotasi-meta-solo-rank-2026-hari-ke-52.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Irithel Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-52)",
-    "metaTitle": "Build Irithel Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Irithel Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-52)",
     "metaDescription": "Ulasan mendalam Build Irithel Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-52). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -6893,7 +6893,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-popol-kupa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-53.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Popol & Kupa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-53)",
-    "metaTitle": "Build Popol & Kupa Tersakit & Rotasi Meta Solo Ran | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Popol & Kupa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-53)",
     "metaDescription": "Ulasan mendalam Build Popol & Kupa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-53). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -7084,7 +7084,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-melissa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-54.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Melissa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-54)",
-    "metaTitle": "Build Melissa Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Melissa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-54)",
     "metaDescription": "Ulasan mendalam Build Melissa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-54). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -7275,7 +7275,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-natan-tersakit-rotasi-meta-solo-rank-2026-hari-ke-55.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Natan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-55)",
-    "metaTitle": "Build Natan Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Natan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-55)",
     "metaDescription": "Ulasan mendalam Build Natan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-55). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -7466,7 +7466,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-miya-tersakit-rotasi-meta-solo-rank-2026-hari-ke-56.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Miya Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-56)",
-    "metaTitle": "Build Miya Tersakit & Rotasi Meta Solo Rank 2026 ( | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Miya Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-56)",
     "metaDescription": "Ulasan mendalam Build Miya Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-56). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -7657,7 +7657,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-layla-tersakit-rotasi-meta-solo-rank-2026-hari-ke-57.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Layla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-57)",
-    "metaTitle": "Build Layla Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Layla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-57)",
     "metaDescription": "Ulasan mendalam Build Layla Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-57). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -7848,7 +7848,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-hanabi-tersakit-rotasi-meta-solo-rank-2026-hari-ke-58.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Hanabi Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-58)",
-    "metaTitle": "Build Hanabi Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Hanabi Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-58)",
     "metaDescription": "Ulasan mendalam Build Hanabi Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-58). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -8039,7 +8039,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-edith-tersakit-rotasi-meta-solo-rank-2026-hari-ke-59.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Edith Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-59)",
-    "metaTitle": "Build Edith Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Edith Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-59)",
     "metaDescription": "Ulasan mendalam Build Edith Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-59). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -8230,7 +8230,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-gatotkaca-tersakit-rotasi-meta-solo-rank-2026-hari-ke-60.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Gatotkaca Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-60)",
-    "metaTitle": "Build Gatotkaca Tersakit & Rotasi Meta Solo Rank 2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Gatotkaca Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-60)",
     "metaDescription": "Ulasan mendalam Build Gatotkaca Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-60). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -8421,7 +8421,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-grock-tersakit-rotasi-meta-solo-rank-2026-hari-ke-61.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Grock Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-61)",
-    "metaTitle": "Build Grock Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Grock Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-61)",
     "metaDescription": "Ulasan mendalam Build Grock Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-61). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -8612,7 +8612,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-atlas-tersakit-rotasi-meta-solo-rank-2026-hari-ke-62.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Atlas Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-62)",
-    "metaTitle": "Build Atlas Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Atlas Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-62)",
     "metaDescription": "Ulasan mendalam Build Atlas Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-62). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -8803,7 +8803,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-belerick-tersakit-rotasi-meta-solo-rank-2026-hari-ke-63.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Belerick Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-63)",
-    "metaTitle": "Build Belerick Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Belerick Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-63)",
     "metaDescription": "Ulasan mendalam Build Belerick Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-63). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -8994,7 +8994,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-hylos-tersakit-rotasi-meta-solo-rank-2026-hari-ke-64.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Hylos Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-64)",
-    "metaTitle": "Build Hylos Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Hylos Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-64)",
     "metaDescription": "Ulasan mendalam Build Hylos Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-64). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -9185,7 +9185,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-lolita-tersakit-rotasi-meta-solo-rank-2026-hari-ke-65.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Lolita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-65)",
-    "metaTitle": "Build Lolita Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Lolita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-65)",
     "metaDescription": "Ulasan mendalam Build Lolita Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-65). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -9376,7 +9376,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-johnson-tersakit-rotasi-meta-solo-rank-2026-hari-ke-66.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Johnson Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-66)",
-    "metaTitle": "Build Johnson Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Johnson Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-66)",
     "metaDescription": "Ulasan mendalam Build Johnson Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-66). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -9567,7 +9567,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-ruby-tersakit-rotasi-meta-solo-rank-2026-hari-ke-67.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-67)",
-    "metaTitle": "Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 ( | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-67)",
     "metaDescription": "Ulasan mendalam Build Ruby Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-67). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -9758,7 +9758,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-alpha-tersakit-rotasi-meta-solo-rank-2026-hari-ke-68.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Alpha Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-68)",
-    "metaTitle": "Build Alpha Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Alpha Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-68)",
     "metaDescription": "Ulasan mendalam Build Alpha Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-68). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -9949,7 +9949,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-martis-tersakit-rotasi-meta-solo-rank-2026-hari-ke-69.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Martis Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-69)",
-    "metaTitle": "Build Martis Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Martis Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-69)",
     "metaDescription": "Ulasan mendalam Build Martis Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-69). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -10140,7 +10140,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-thamuz-tersakit-rotasi-meta-solo-rank-2026-hari-ke-70.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Thamuz Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-70)",
-    "metaTitle": "Build Thamuz Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Thamuz Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-70)",
     "metaDescription": "Ulasan mendalam Build Thamuz Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-70). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -10331,7 +10331,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-dyrroth-tersakit-rotasi-meta-solo-rank-2026-hari-ke-71.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Dyrroth Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-71)",
-    "metaTitle": "Build Dyrroth Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Dyrroth Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-71)",
     "metaDescription": "Ulasan mendalam Build Dyrroth Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-71). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -10522,7 +10522,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-silvanna-tersakit-rotasi-meta-solo-rank-2026-hari-ke-72.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Silvanna Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-72)",
-    "metaTitle": "Build Silvanna Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Silvanna Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-72)",
     "metaDescription": "Ulasan mendalam Build Silvanna Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-72). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -10713,7 +10713,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-guinevere-tersakit-rotasi-meta-solo-rank-2026-hari-ke-73.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Guinevere Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-73)",
-    "metaTitle": "Build Guinevere Tersakit & Rotasi Meta Solo Rank 2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Guinevere Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-73)",
     "metaDescription": "Ulasan mendalam Build Guinevere Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-73). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -10904,7 +10904,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-badang-tersakit-rotasi-meta-solo-rank-2026-hari-ke-74.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Badang Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-74)",
-    "metaTitle": "Build Badang Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Badang Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-74)",
     "metaDescription": "Ulasan mendalam Build Badang Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-74). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -11095,7 +11095,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-leomord-tersakit-rotasi-meta-solo-rank-2026-hari-ke-75.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Leomord Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-75)",
-    "metaTitle": "Build Leomord Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Leomord Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-75)",
     "metaDescription": "Ulasan mendalam Build Leomord Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-75). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -11286,7 +11286,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-aldous-tersakit-rotasi-meta-solo-rank-2026-hari-ke-76.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Aldous Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-76)",
-    "metaTitle": "Build Aldous Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Aldous Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-76)",
     "metaDescription": "Ulasan mendalam Build Aldous Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-76). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -11477,7 +11477,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-jawhead-tersakit-rotasi-meta-solo-rank-2026-hari-ke-77.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Jawhead Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-77)",
-    "metaTitle": "Build Jawhead Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Jawhead Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-77)",
     "metaDescription": "Ulasan mendalam Build Jawhead Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-77). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -11668,7 +11668,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-roger-tersakit-rotasi-meta-solo-rank-2026-hari-ke-78.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Roger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-78)",
-    "metaTitle": "Build Roger Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Roger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-78)",
     "metaDescription": "Ulasan mendalam Build Roger Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-78). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -11859,7 +11859,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-sun-tersakit-rotasi-meta-solo-rank-2026-hari-ke-79.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Sun Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-79)",
-    "metaTitle": "Build Sun Tersakit & Rotasi Meta Solo Rank 2026 (H | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Sun Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-79)",
     "metaDescription": "Ulasan mendalam Build Sun Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-79). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -12050,7 +12050,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-argus-tersakit-rotasi-meta-solo-rank-2026-hari-ke-80.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Argus Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-80)",
-    "metaTitle": "Build Argus Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Argus Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-80)",
     "metaDescription": "Ulasan mendalam Build Argus Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-80). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -12241,7 +12241,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-alucard-tersakit-rotasi-meta-solo-rank-2026-hari-ke-81.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Alucard Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-81)",
-    "metaTitle": "Build Alucard Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Alucard Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-81)",
     "metaDescription": "Ulasan mendalam Build Alucard Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-81). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -12432,7 +12432,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-zilong-tersakit-rotasi-meta-solo-rank-2026-hari-ke-82.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Zilong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-82)",
-    "metaTitle": "Build Zilong Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Zilong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-82)",
     "metaDescription": "Ulasan mendalam Build Zilong Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-82). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -12623,7 +12623,7 @@ export const mlbbQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-hilda-tersakit-rotasi-meta-solo-rank-2026-hari-ke-83.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Hilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-83)",
-    "metaTitle": "Build Hilda Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Hilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-83)",
     "metaDescription": "Ulasan mendalam Build Hilda Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-83). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",

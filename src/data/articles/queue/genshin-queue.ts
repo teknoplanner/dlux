@@ -16,7 +16,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-xilonen-geo-resonansi-shred-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Xilonen  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Xilonen Geo Resonansi Shred (Edisi 2026 #17). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -168,7 +168,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-chasca-anemo-flying-gun-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Chasca A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Chasca Anemo Flying Gun (Edisi 2026 #18). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -320,7 +320,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-mavuika-pyro-archon-teori-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Mavuika  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Mavuika Pyro Archon Teori (Edisi 2026 #19). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -472,7 +472,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-capitano-fatui-harbinger-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Capitano | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Capitano Fatui Harbinger (Edisi 2026 #20). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -624,7 +624,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-honkai-star-rail-memory-of-chaos-1.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Honkai Star Ra | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Honkai Star Rail Memory of Chaos 12 (Edisi 2026 #21). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -776,7 +776,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-firefly-super-break-ruan-mei.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Firefly  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Firefly Super Break Ruan Mei (Edisi 2026 #22). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -928,7 +928,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-acheron-nihility-nuke-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Acheron  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Acheron Nihility Nuke (Edisi 2026 #23). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1080,7 +1080,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-feixiao-hunt-follow-up-edisi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Feixiao  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Feixiao Hunt Follow-Up (Edisi 2026 #24). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1232,7 +1232,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-robin-harmony-chorus-edisi-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Robin Ha | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Robin Harmony Chorus (Edisi 2026 #25). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1384,7 +1384,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-aventurine-preservation-shie.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Aventuri | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Aventurine Preservation Shield (Edisi 2026 #26). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1536,7 +1536,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-sparkle-quantum-action-advan.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Sparkle  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Sparkle Quantum Action Advance (Edisi 2026 #27). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1688,7 +1688,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-ruan-mei-break-speed-buffer-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Ruan Mei | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Ruan Mei Break Speed Buffer (Edisi 2026 #28). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1840,7 +1840,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-dan-heng-il-propagation-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Dan Heng | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Dan Heng IL Propagation (Edisi 2026 #29). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1992,7 +1992,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-jingliu-destruction-transmig.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Jingliu  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Jingliu Destruction Transmigration (Edisi 2026 #30). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -2144,7 +2144,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-speed-tuning-134-breakpoint-hsr-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Speed Tuning 1 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Speed Tuning 134 Breakpoint HSR (Edisi 2026 #31). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -2296,7 +2296,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-energy-recharge-threshold-genshin-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Energy Recharg | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Energy Recharge Threshold Genshin (Edisi 2026 #32). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -2448,7 +2448,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-elemental-gauge-theory-icd-trik-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Elemental Gaug | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Elemental Gauge Theory ICD Trik (Edisi 2026 #33). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -2600,7 +2600,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-farm-primogem-gratis-natlan-map-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Farm Primogem  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Farm Primogem Gratis Natlan Map (Edisi 2026 #34). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -2752,7 +2752,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-farm-stellar-jade-penacony-chest-e.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Farm Stellar J | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Farm Stellar Jade Penacony Chest (Edisi 2026 #35). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -2904,7 +2904,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-simulated-universe-gold-and-gears-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Simulated Univ | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Simulated Universe Gold and Gears (Edisi 2026 #36). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -3056,7 +3056,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-divergent-universe-path-resonance-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Divergent Univ | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Divergent Universe Path Resonance (Edisi 2026 #37). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -3208,7 +3208,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-echo-of-war-boss-farming-material-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Echo of War Bo | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Echo of War Boss Farming Material (Edisi 2026 #38). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -3360,7 +3360,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-reroll-substat-artefak-roll-4-crit.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Reroll Substat | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Reroll Substat Artefak Roll 4 Crit (Edisi 2026 #39). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -3512,7 +3512,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-crit-ratio-12-golden-rule-edisi-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Crit Ratio 1:2 Golden Rule (Edisi 2026 #40). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -3664,7 +3664,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-ascension-material-boss-route-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Ascension Mate | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Ascension Material Boss Route (Edisi 2026 #41). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -3816,7 +3816,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-local-specialty-168-karakter-cepat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Local Specialt | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Local Specialty 168 Karakter Cepat (Edisi 2026 #42). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -3968,7 +3968,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-senjata-bintang-4-f2p-alternatif-e.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Senjata Bintan | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Senjata Bintang 4 F2P Alternatif (Edisi 2026 #43). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -4120,7 +4120,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-light-cone-bintang-4-herta-store-e.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Light Cone Bin | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Light Cone Bintang 4 Herta Store (Edisi 2026 #44). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -4272,7 +4272,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-daily-resin-management-efisien-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Daily Resin Ma | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Daily Resin Management Efisien (Edisi 2026 #45). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -4424,7 +4424,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-trailblaze-power-cap-farm-relic-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Trailblaze Pow | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Trailblaze Power Cap Farm Relic (Edisi 2026 #46). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -4576,7 +4576,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-lore-teyvat-rahasia-khaenriah-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Lore Teyvat Ra | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Lore Teyvat Rahasia Khaenriah (Edisi 2026 #47). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -4728,7 +4728,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-lore-penacony-stellaron-hunter-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Lore Penacony  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Lore Penacony Stellaron Hunter (Edisi 2026 #48). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -4880,7 +4880,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-co-op-domain-tips-mabar-cepat-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Co-op Domain T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Co-op Domain Tips Mabar Cepat (Edisi 2026 #49). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5032,7 +5032,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-event-limited-waktu-reward-edisi-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Event Limited  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Event Limited Waktu Reward (Edisi 2026 #50). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5184,7 +5184,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-fishing-the-catch-tombak-gratis-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Fishing The Ca | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Fishing The Catch Tombak Gratis (Edisi 2026 #51). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5336,7 +5336,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-reputation-reward-glider-natlan-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Reputation Rew | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Reputation Reward Glider Natlan (Edisi 2026 #52). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5488,7 +5488,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-teapot-dekorasi-load-limit-edisi-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Teapot Dekoras | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Teapot Dekorasi Load Limit (Edisi 2026 #53). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5640,7 +5640,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-paimon-bargain-fate-bulanan-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Paimon Bargain | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Paimon Bargain Fate Bulanan (Edisi 2026 #54). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5792,7 +5792,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-starlight-exchange-senjata-blackcl.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Starlight Exch | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Starlight Exchange Senjata Blackcliff (Edisi 2026 #55). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5944,7 +5944,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-banner-pity-5050-strategi-simpan-e.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Banner Pity 50 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Banner Pity 50:50 Strategi Simpan (Edisi 2026 #56). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -6096,7 +6096,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-weapon-banner-fate-point-trik-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Weapon Banner  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Weapon Banner Fate Point Trik (Edisi 2026 #57). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -6248,7 +6248,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-battle-pass-senjata-rekomendasi-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Battle Pass Se | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Battle Pass Senjata Rekomendasi (Edisi 2026 #58). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -6400,7 +6400,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-suikoden-saurian-natlan-mekanik-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Suikoden Sauri | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Suikoden Saurian Natlan Mekanik (Edisi 2026 #59). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -6552,7 +6552,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-phlogiston-bar-natlan-movement-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Phlogiston Bar | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Phlogiston Bar Natlan Movement (Edisi 2026 #60). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -6704,7 +6704,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-nightsoul-transmission-trik-ganti-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Nightsoul Tran | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Nightsoul Transmission Trik Ganti (Edisi 2026 #61). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -6856,7 +6856,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-pure-fiction-erudition-team-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Pure Fiction E | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Pure Fiction Erudition Team (Edisi 2026 #62). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7008,7 +7008,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-apocalyptic-shadow-boss-trik-edisi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Apocalyptic Sh | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Apocalyptic Shadow Boss Trik (Edisi 2026 #63). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7160,7 +7160,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-planar-ornaments-world-9-farm-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Planar Ornamen | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Planar Ornaments World 9 Farm (Edisi 2026 #64). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7312,7 +7312,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-relic-synthesis-self-modeling-resi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Relic Synthesi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Relic Synthesis Self-Modeling Resin (Edisi 2026 #65). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7464,7 +7464,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-genshin-cooking-stat-buff-boss-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Genshin Cookin | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Genshin Cooking Stat Buff Boss (Edisi 2026 #66). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7616,7 +7616,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-condensed-resin-crafting-hemat-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Condensed Resi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Condensed Resin Crafting Hemat (Edisi 2026 #67). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7768,7 +7768,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-parametric-transformer-loot-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Parametric Tra | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Parametric Transformer Loot (Edisi 2026 #68). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7920,7 +7920,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-treasure-compass-natlan-100-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Treasure Compa | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Treasure Compass Natlan 100% (Edisi 2026 #69). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8072,7 +8072,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-oculi-natlan-pyroculus-lokasi-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Oculi Natlan P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Oculi Natlan Pyroculus Lokasi (Edisi 2026 #70). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8224,7 +8224,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-shrine-of-depths-kunci-natlan-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Shrine of Dept | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Shrine of Depths Kunci Natlan (Edisi 2026 #71). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8376,7 +8376,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-spiral-abyss-buff-lunar-phase-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Spiral Abyss B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Spiral Abyss Buff Lunar Phase (Edisi 2026 #72). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8528,7 +8528,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-floor-11-monolith-defense-trik-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Floor 11 Monol | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Floor 11 Monolith Defense Trik (Edisi 2026 #73). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8680,7 +8680,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-teyvat-fishing-weapon-polearm-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Teyvat Fishing | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Teyvat Fishing Weapon Polearm (Edisi 2026 #74). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8832,7 +8832,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-natlan-tribe-reputation-max-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Natlan Tribe R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Natlan Tribe Reputation Max (Edisi 2026 #75). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8984,7 +8984,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-hsr-fate-collaboration-update-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik HSR Fate Colla | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik HSR Fate Collaboration Update (Edisi 2026 #76). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -9136,7 +9136,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-genshin-anime-ufotable-update-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Genshin Anime  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Genshin Anime Ufotable Update (Edisi 2026 #77). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -9288,7 +9288,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-mobile-graphics-60-fps-suhu-dingin.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Mobile Graphic | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Mobile Graphics 60 FPS Suhu Dingin (Edisi 2026 #78). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -9440,7 +9440,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-controller-bluetooth-support-andro.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Controller Blu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Controller Bluetooth Support Android (Edisi 2026 #79). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -9592,7 +9592,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-cross-save-pc-mobile-cloud-edisi-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Cross Save PC  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Cross Save PC Mobile Cloud (Edisi 2026 #80). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -9744,7 +9744,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-genshin-endgame-mode-teori-2026-ed.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Genshin Endgam | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Genshin Endgame Mode Teori 2026 (Edisi 2026 #81). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -9896,7 +9896,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-hsr-powercreep-management-edisi-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik HSR Powercreep | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik HSR Powercreep Management (Edisi 2026 #82). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -10048,7 +10048,7 @@ export const genshinQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-bilingual-voice-cast-pilihan-seru-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Bilingual Voic | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Bilingual Voice Cast Pilihan Seru (Edisi 2026 #83). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",

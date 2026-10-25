@@ -16,7 +16,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-umpan-terobosan-lambung-l1-segitiga-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Umpan Terobosan Lambung L1 Segitiga (Update 2026 #16)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Umpan Terobos | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Umpan Terobosan Lambung L1 Segitiga (Update 2026 #16)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Umpan Terobosan Lambung L1 Segitiga (Update 2026 #16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -170,7 +170,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-crossing-umpan-silang-tiang-jauh-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Crossing Umpan Silang Tiang Jauh (Update 2026 #17)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Crossing Umpa | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Crossing Umpan Silang Tiang Jauh (Update 2026 #17)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Crossing Umpan Silang Tiang Jauh (Update 2026 #17). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -324,7 +324,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-sundulan-kepala-heading-power-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Sundulan Kepala Heading Power (Update 2026 #18)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Sundulan Kepa | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Sundulan Kepala Heading Power (Update 2026 #18)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Sundulan Kepala Heading Power (Update 2026 #18). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -478,7 +478,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-tendangan-bebas-free-kick-curve-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Tendangan Bebas Free Kick Curve (Update 2026 #19)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Tendangan Beb | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Tendangan Bebas Free Kick Curve (Update 2026 #19)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Tendangan Bebas Free Kick Curve (Update 2026 #19). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -632,7 +632,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-penalti-panenka-tipu-kiper-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Penalti Panenka Tipu Kiper (Update 2026 #20)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Penalti Panen | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Penalti Panenka Tipu Kiper (Update 2026 #20)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Penalti Panenka Tipu Kiper (Update 2026 #20). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -786,7 +786,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-tendangan-sudut-corner-kick-glitch-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Tendangan Sudut Corner Kick Glitch (Update 2026 #21)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Tendangan Sud | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Tendangan Sudut Corner Kick Glitch (Update 2026 #21)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Tendangan Sudut Corner Kick Glitch (Update 2026 #21). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -940,7 +940,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-manajemen-stamina-babak-kedua-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Manajemen Stamina Babak Kedua (Update 2026 #22)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Manajemen Sta | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Manajemen Stamina Babak Kedua (Update 2026 #22)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Manajemen Stamina Babak Kedua (Update 2026 #22). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -1094,7 +1094,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-super-sub-penyerang-sayap-cepat-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Super Sub Penyerang Sayap Cepat (Update 2026 #23)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Super Sub Pen | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Super Sub Penyerang Sayap Cepat (Update 2026 #23)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Super Sub Penyerang Sayap Cepat (Update 2026 #23). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -1248,7 +1248,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-setting-kamera-tele-broadcast-lebar-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Setting Kamera Tele Broadcast Lebar (Update 2026 #24)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Setting Kamer | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Setting Kamera Tele Broadcast Lebar (Update 2026 #24)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Setting Kamera Tele Broadcast Lebar (Update 2026 #24). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -1402,7 +1402,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-setting-tombol-virtual-stick-halus-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Setting Tombol Virtual Stick Halus (Update 2026 #25)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Setting Tombo | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Setting Tombol Virtual Stick Halus (Update 2026 #25)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Setting Tombol Virtual Stick Halus (Update 2026 #25). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -1556,7 +1556,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-efootball-formasi-quick-counter-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik eFootball Formasi Quick Counter (Update 2026 #26)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball For | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Formasi Quick Counter (Update 2026 #26)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik eFootball Formasi Quick Counter (Update 2026 #26). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -1710,7 +1710,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-efootball-trik-possession-game-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik eFootball Trik Possession Game (Update 2026 #27)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Tri | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Trik Possession Game (Update 2026 #27)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik eFootball Trik Possession Game (Update 2026 #27). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -1864,7 +1864,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-efootball-match-up-defense-intersep-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik eFootball Match-up Defense Intersep (Update 2026 #28)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Mat | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Match-up Defense Intersep (Update 2026 #28)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik eFootball Match-up Defense Intersep (Update 2026 #28). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2018,7 +2018,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-efootball-stunner-cross-umpan-maut-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik eFootball Stunner Cross Umpan Maut (Update 2026 #29)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Stu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Stunner Cross Umpan Maut (Update 2026 #29)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik eFootball Stunner Cross Umpan Maut (Update 2026 #29). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2172,7 +2172,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-efootball-stunning-shot-jarum-jam-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik eFootball Stunning Shot Jarum Jam (Update 2026 #30)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Stu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik eFootball Stunning Shot Jarum Jam (Update 2026 #30)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik eFootball Stunning Shot Jarum Jam (Update 2026 #30). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2326,7 +2326,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-farming-koin-efootball-gratis-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Farming Koin eFootball Gratis (Update 2026 #31)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Farming Koin  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Farming Koin eFootball Gratis (Update 2026 #31)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Farming Koin eFootball Gratis (Update 2026 #31). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2480,7 +2480,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-farming-fc-points-gems-efisien-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Farming FC Points & Gems Efisien (Update 2026 #32)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Farming FC Po | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Farming FC Points & Gems Efisien (Update 2026 #32)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Farming FC Points & Gems Efisien (Update 2026 #32). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2634,7 +2634,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-event-division-rivals-rank-1-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Event Division Rivals Rank 1 (Update 2026 #33)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Event Divisio | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Event Division Rivals Rank 1 (Update 2026 #33)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Event Division Rivals Rank 1 (Update 2026 #33). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2788,7 +2788,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-weekend-league-juara-20-win-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Weekend League Juara 20 Win (Update 2026 #34)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Weekend Leagu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Weekend League Juara 20 Win (Update 2026 #34)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Weekend League Juara 20 Win (Update 2026 #34). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2942,7 +2942,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-pasar-transfer-trading-pemain-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Pasar Transfer Trading Pemain (Update 2026 #35)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pasar Transfe | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pasar Transfer Trading Pemain (Update 2026 #35)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Pasar Transfer Trading Pemain (Update 2026 #35). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -3096,7 +3096,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-investasi-kartu-rating-tinggi-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Investasi Kartu Rating Tinggi (Update 2026 #36)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Investasi Kar | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Investasi Kartu Rating Tinggi (Update 2026 #36)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Investasi Kartu Rating Tinggi (Update 2026 #36). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -3250,7 +3250,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-evolution-player-kartu-favorit-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Evolution Player Kartu Favorit (Update 2026 #37)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Evolution Pla | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Evolution Player Kartu Favorit (Update 2026 #37)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Evolution Player Kartu Favorit (Update 2026 #37). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -3404,7 +3404,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-chemistry-squad-33-penuh-update-2026.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Chemistry Squad 33 Penuh (Update 2026 #38)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Chemistry Squ | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Chemistry Squad 33 Penuh (Update 2026 #38)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Chemistry Squad 33 Penuh (Update 2026 #38). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -3558,7 +3558,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-kiper-terbaik-refleks-kucing-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Kiper Terbaik Refleks Kucing (Update 2026 #39)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kiper Terbaik | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kiper Terbaik Refleks Kucing (Update 2026 #39)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Kiper Terbaik Refleks Kucing (Update 2026 #39). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -3712,7 +3712,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-bek-tengah-cb-cepat-anti-terobos-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Bek Tengah CB Cepat Anti Terobos (Update 2026 #40)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Bek Tengah CB | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Bek Tengah CB Cepat Anti Terobos (Update 2026 #40)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Bek Tengah CB Cepat Anti Terobos (Update 2026 #40). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -3866,7 +3866,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-gelandang-bertahan-cdm-badak-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Gelandang Bertahan CDM Badak (Update 2026 #41)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Gelandang Ber | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Gelandang Bertahan CDM Badak (Update 2026 #41)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Gelandang Bertahan CDM Badak (Update 2026 #41). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4020,7 +4020,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-playmaker-cam-umpan-ajaib-update-202.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Playmaker CAM Umpan Ajaib (Update 2026 #42)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Playmaker CAM | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Playmaker CAM Umpan Ajaib (Update 2026 #42)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Playmaker CAM Umpan Ajaib (Update 2026 #42). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4174,7 +4174,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-sayap-kilat-pace-95-lari-update-2026.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Sayap Kilat Pace 95+ Lari (Update 2026 #43)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Sayap Kilat P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Sayap Kilat Pace 95+ Lari (Update 2026 #43)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Sayap Kilat Pace 95+ Lari (Update 2026 #43). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4328,7 +4328,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-striker-monster-finishing-90-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Striker Monster Finishing 90+ (Update 2026 #44)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Striker Monst | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Striker Monster Finishing 90+ (Update 2026 #44)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Striker Monster Finishing 90+ (Update 2026 #44). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4482,7 +4482,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-atasi-delay-koneksi-ping-hijau-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Atasi Delay Koneksi Ping Hijau (Update 2026 #45)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Atasi Delay K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Atasi Delay Koneksi Ping Hijau (Update 2026 #45)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Atasi Delay Koneksi Ping Hijau (Update 2026 #45). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4636,7 +4636,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-main-pakai-stik-bluetooth-hp-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Main Pakai Stik Bluetooth HP (Update 2026 #46)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Main Pakai St | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Main Pakai Stik Bluetooth HP (Update 2026 #46)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Main Pakai Stik Bluetooth HP (Update 2026 #46). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4790,7 +4790,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-trik-hindari-scripting-comeback-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Trik Hindari Scripting Comeback (Update 2026 #47)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Hindari  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Hindari Scripting Comeback (Update 2026 #47)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Trik Hindari Scripting Comeback (Update 2026 #47). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4944,7 +4944,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-mental-tenang-adu-penalti-final-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Mental Tenang Adu Penalti Final (Update 2026 #48)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Mental Tenang | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Mental Tenang Adu Penalti Final (Update 2026 #48)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Mental Tenang Adu Penalti Final (Update 2026 #48). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -5098,7 +5098,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-analisis-taktik-pep-vs-ancelotti-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Analisis Taktik Pep vs Ancelotti (Update 2026 #49)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Analisis Takt | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Analisis Taktik Pep vs Ancelotti (Update 2026 #49)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Analisis Taktik Pep vs Ancelotti (Update 2026 #49). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -5252,7 +5252,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-turnamen-esports-mobile-indo-2026-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Turnamen Esports Mobile Indo 2026 (Update 2026 #50)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Turnamen Espo | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Turnamen Esports Mobile Indo 2026 (Update 2026 #50)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Turnamen Esports Mobile Indo 2026 (Update 2026 #50). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -5406,7 +5406,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-5-2-3-anti-kebobolan-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 5-2-3 Anti Kebobolan (Update 2026 #51)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 5-2-3 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 5-2-3 Anti Kebobolan (Update 2026 #51)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 5-2-3 Anti Kebobolan (Update 2026 #51). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -5560,7 +5560,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-4-2-klasik-solid-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-4-2 Klasik Solid (Update 2026 #52)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-4-2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-4-2 Klasik Solid (Update 2026 #52)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-4-2 Klasik Solid (Update 2026 #52). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -5714,7 +5714,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-trik-dribble-r1-sprint-halus-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Trik Dribble R1 Sprint Halus (Update 2026 #53)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Dribble  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Dribble R1 Sprint Halus (Update 2026 #53)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Trik Dribble R1 Sprint Halus (Update 2026 #53). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -5868,7 +5868,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-fake-shot-stop-hentikan-bola-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Fake Shot Stop Hentikan Bola (Update 2026 #54)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Fake Shot Sto | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Fake Shot Stop Hentikan Bola (Update 2026 #54)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Fake Shot Stop Hentikan Bola (Update 2026 #54). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -6022,7 +6022,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-driven-lobbed-through-ball-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Driven Lobbed Through Ball (Update 2026 #55)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Driven Lobbed | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Driven Lobbed Through Ball (Update 2026 #55)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Driven Lobbed Through Ball (Update 2026 #55). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -6176,7 +6176,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-trik-pagar-hidup-melompat-update-202.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Trik Pagar Hidup Melompat (Update 2026 #56)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Pagar Hi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Pagar Hidup Melompat (Update 2026 #56)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Trik Pagar Hidup Melompat (Update 2026 #56). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -6330,7 +6330,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-kiper-maju-keluar-kotak-update-2026-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Kiper Maju Keluar Kotak (Update 2026 #57)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kiper Maju Ke | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kiper Maju Keluar Kotak (Update 2026 #57)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Kiper Maju Keluar Kotak (Update 2026 #57). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -6484,7 +6484,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-build-squad-budget-1-juta-koin-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Build Squad Budget 1 Juta Koin (Update 2026 #58)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Build Squad B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Build Squad Budget 1 Juta Koin (Update 2026 #58)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Build Squad Budget 1 Juta Koin (Update 2026 #58). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -6638,7 +6638,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-pemain-muda-wonderkid-murah-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Pemain Muda Wonderkid Murah (Update 2026 #59)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pemain Muda W | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pemain Muda Wonderkid Murah (Update 2026 #59)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Pemain Muda Wonderkid Murah (Update 2026 #59). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -6792,7 +6792,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-master-league-mode-offline-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Master League Mode Offline (Update 2026 #60)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Master League | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Master League Mode Offline (Update 2026 #60)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Master League Mode Offline (Update 2026 #60). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -6946,7 +6946,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-manager-mode-taktik-otomatis-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Manager Mode Taktik Otomatis (Update 2026 #61)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Manager Mode  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Manager Mode Taktik Otomatis (Update 2026 #61)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Manager Mode Taktik Otomatis (Update 2026 #61). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -7100,7 +7100,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-pelatih-taktik-out-wide-efootball-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Pelatih Taktik Out Wide eFootball (Update 2026 #62)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pelatih Takti | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pelatih Taktik Out Wide eFootball (Update 2026 #62)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Pelatih Taktik Out Wide eFootball (Update 2026 #62). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -7254,7 +7254,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-pelatih-long-ball-counter-update-202.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Pelatih Long Ball Counter (Update 2026 #63)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pelatih Long  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pelatih Long Ball Counter (Update 2026 #63)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Pelatih Long Ball Counter (Update 2026 #63). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -7408,7 +7408,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-progression-points-reset-trik-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Progression Points Reset Trik (Update 2026 #64)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Progression P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Progression Points Reset Trik (Update 2026 #64)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Progression Points Reset Trik (Update 2026 #64). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -7562,7 +7562,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-player-skills-tambahan-konami-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Player Skills Tambahan Konami (Update 2026 #65)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Player Skills | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Player Skills Tambahan Konami (Update 2026 #65)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Player Skills Tambahan Konami (Update 2026 #65). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -7716,7 +7716,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-double-touch-efootball-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Double Touch eFootball (Update 2026 #66)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Double  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Double Touch eFootball (Update 2026 #66)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Double Touch eFootball (Update 2026 #66). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -7870,7 +7870,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-marseille-turn-cepat-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Marseille Turn Cepat (Update 2026 #67)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Marseil | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Marseille Turn Cepat (Update 2026 #67)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Marseille Turn Cepat (Update 2026 #67). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -8024,7 +8024,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-one-touch-pass-wajib-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill One-Touch Pass Wajib (Update 2026 #68)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill One-Tou | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill One-Touch Pass Wajib (Update 2026 #68)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill One-Touch Pass Wajib (Update 2026 #68). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -8178,7 +8178,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-interception-bek-terbaik-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Interception Bek Terbaik (Update 2026 #69)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Interce | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Interception Bek Terbaik (Update 2026 #69)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Interception Bek Terbaik (Update 2026 #69). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -8332,7 +8332,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-blocker-blokir-tembakan-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Blocker Blokir Tembakan (Update 2026 #70)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Blocker | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Blocker Blokir Tembakan (Update 2026 #70)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Blocker Blokir Tembakan (Update 2026 #70). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -8486,7 +8486,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-server-maintenance-waktu-rutin-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Server Maintenance Waktu Rutin (Update 2026 #71)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Server Mainte | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Server Maintenance Waktu Rutin (Update 2026 #71)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Server Maintenance Waktu Rutin (Update 2026 #71). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -8640,7 +8640,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-pemberian-booster-efootball-2026-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Pemberian Booster eFootball 2026 (Update 2026 #72)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pemberian Boo | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Pemberian Booster eFootball 2026 (Update 2026 #72)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Pemberian Booster eFootball 2026 (Update 2026 #72). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -8794,7 +8794,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-update-transfer-musim-dingin-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Update Transfer Musim Dingin (Update 2026 #73)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Update Transf | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Update Transfer Musim Dingin (Update 2026 #73)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Update Transfer Musim Dingin (Update 2026 #73). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -8948,7 +8948,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-kartu-icon-legenda-sepak-bola-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Kartu Icon Legenda Sepak Bola (Update 2026 #74)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kartu Icon Le | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kartu Icon Legenda Sepak Bola (Update 2026 #74)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Kartu Icon Legenda Sepak Bola (Update 2026 #74). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -9102,7 +9102,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-event-co-op-mabar-3v3-teman-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Event Co-op Mabar 3v3 Teman (Update 2026 #75)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Event Co-op M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Event Co-op Mabar 3v3 Teman (Update 2026 #75)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Event Co-op Mabar 3v3 Teman (Update 2026 #75). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -9256,7 +9256,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-koneksi-lan-kabel-via-type-c-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Koneksi LAN Kabel via Type-C (Update 2026 #76)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Koneksi LAN K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Koneksi LAN Kabel via Type-C (Update 2026 #76)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Koneksi LAN Kabel via Type-C (Update 2026 #76). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -9410,7 +9410,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-layar-120hz-respons-sentuhan-stik-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Layar 120Hz Respons Sentuhan Stik (Update 2026 #77)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Layar 120Hz R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Layar 120Hz Respons Sentuhan Stik (Update 2026 #77)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Layar 120Hz Respons Sentuhan Stik (Update 2026 #77). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -9564,7 +9564,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-turnamen-komunitas-cafe-mabar-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Turnamen Komunitas Cafe Mabar (Update 2026 #78)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Turnamen Komu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Turnamen Komunitas Cafe Mabar (Update 2026 #78)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Turnamen Komunitas Cafe Mabar (Update 2026 #78). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -9718,7 +9718,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-3-3-false-nine-juara-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #79)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #79)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #79). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -9872,7 +9872,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-2-2-counter-attack-cepat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #80)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #80)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #80). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -10026,7 +10026,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-1-2-1-2-narrow-tiki-taka-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #81)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #81)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #81). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -10180,7 +10180,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-3-5-2-wing-play-silang-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #82)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #82)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #82). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -10334,7 +10334,7 @@ export const eafcQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-3-1-penguasaan-bola-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #83)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #83)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #83). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",

@@ -35,12 +35,13 @@ export function generateSoftwareAppSchema(app: AppItem) {
       name: developer.name,
       url: developer.website,
     },
-    ...(app.rating
+    // Only real Play Store counts: a made-up ratingCount is misleading markup to Google.
+    ...(app.rating && app.reviewsCount
       ? {
           aggregateRating: {
             "@type": "AggregateRating",
             ratingValue: app.rating.toString(),
-            ratingCount: "100",
+            ratingCount: app.reviewsCount.toString(),
             bestRating: "5",
             worstRating: "1",
           },

@@ -213,7 +213,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-ling-tersakit-rotasi-meta-solo-rank-2026-hari-ke-1.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Ling Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-1)",
-    "metaTitle": "Build Ling Tersakit & Rotasi Meta Solo Rank 2026 ( | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Ling Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-1)",
     "metaDescription": "Ulasan mendalam Build Ling Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -404,7 +404,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-semua-hp-android-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Semua HP Android (Update ke-1)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Semua HP Android (Update ke-1)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Semua HP Android (Update ke-1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -562,7 +562,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-kode-redeem-blox-fruits-terbaru-trik-rahasia-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Kode Redeem Blox Fruits Terbaru: Trik Rahasia Update 2026 (Seri #1)",
-    "metaTitle": "Panduan Lengkap Kode Redeem Blox Fruits Terbaru: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Kode Redeem Blox Fruits Terbaru: Trik Rahasia Update 2026 (Seri #1)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Kode Redeem Blox Fruits Terbaru: Trik Rahasia Update 2026 (Seri #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -716,7 +716,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-seed-desa-berdampingan-mansion-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Seed Desa Berdampingan Mansion (Update 2026 Seri #1)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Seed Desa Berdampi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Seed Desa Berdampingan Mansion (Update 2026 Seri #1)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Seed Desa Berdampingan Mansion (Update 2026 Seri #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -870,7 +870,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-spiral-abyss-lantai-12-komposisi-t.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Spiral Abyss Lantai 12 Komposisi Tim (Edisi 2026 #1)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Spiral Abyss L | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Spiral Abyss Lantai 12 Komposisi Tim (Edisi 2026 #1)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Spiral Abyss Lantai 12 Komposisi Tim (Edisi 2026 #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -1022,7 +1022,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-3-3-false-nine-juara-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #1)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #1)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-3-3 False Nine Juara (Update 2026 #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -1177,7 +1177,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-gyroscop.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #1)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #1)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Gyroscope Full 400% PUBGM (Panduan 2026 #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -1334,7 +1334,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pendingin-hp-peltier-magnetik-vs-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #1)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pendingin  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #1)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pendingin HP Peltier Magnetik vs Kipas (Ulasan 2026 #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -1488,7 +1488,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-batas-waktu-layar-screen-time.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Batas Waktu Layar Screen Time Sehat Anak (Tips 2026 #1)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Batas Wakt | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Batas Waktu Layar Screen Time Sehat Anak (Tips 2026 #1)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Batas Waktu Layar Screen Time Sehat Anak (Tips 2026 #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -1641,7 +1641,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-edit-teks-dokumen-pdf-off.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Edit Teks Dokumen PDF Offline Tanpa Internet (Solusi 2026 #1)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Edit Teks  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Edit Teks Dokumen PDF Offline Tanpa Internet (Solusi 2026 #1)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Edit Teks Dokumen PDF Offline Tanpa Internet (Solusi 2026 #1). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -1796,7 +1796,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-fanny-tersakit-rotasi-meta-solo-rank-2026-hari-ke-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2)",
-    "metaTitle": "Build Fanny Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2)",
     "metaDescription": "Ulasan mendalam Build Fanny Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -1987,7 +1987,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-oppo-reno-a-series.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik O | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Oppo Reno & A Series (Update ke-2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -2145,7 +2145,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-tier-list-devil-fruit-blox-fruits-trik-rahasia-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Tier List Devil Fruit Blox Fruits: Trik Rahasia Update 2026 (Seri #2)",
-    "metaTitle": "Panduan Lengkap Tier List Devil Fruit Blox Fruits: | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Tier List Devil Fruit Blox Fruits: Trik Rahasia Update 2026 (Seri #2)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Tier List Devil Fruit Blox Fruits: Trik Rahasia Update 2026 (Seri #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -2299,7 +2299,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-seed-survival-island-ekstrem-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Seed Survival Island Ekstrem (Update 2026 Seri #2)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Seed Survival Isla | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Seed Survival Island Ekstrem (Update 2026 Seri #2)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Seed Survival Island Ekstrem (Update 2026 Seri #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2453,7 +2453,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-artefak-farming-efisien-domain-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Artefak Farmin | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Artefak Farming Efisien Domain (Edisi 2026 #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -2605,7 +2605,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-2-2-counter-attack-cepat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #2)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #2)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-2-2-2 Counter Attack Cepat (Update 2026 #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -2760,7 +2760,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-ads.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #2)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #2)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas ADS No Recoil M416 (Panduan 2026 #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -2917,7 +2917,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-sarung-jari-serat-perak-03mm-lici.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #2)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Sarung Jar | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #2)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Sarung Jari Serat Perak 0.3mm Licin (Ulasan 2026 #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -3071,7 +3071,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-belajar-berhitung-me.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi Belajar Berhitung Menyenangkan (Tips 2026 #2)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi Belajar Berhitung Menyenangkan (Tips 2026 #2)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Aplikasi Belajar Berhitung Menyenangkan (Tips 2026 #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -3224,7 +3224,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-tanda-tangan-digital-form.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Tanda Tangan Digital Formulir PDF Cepat (Solusi 2026 #2)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Tanda Tang | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Tanda Tangan Digital Formulir PDF Cepat (Solusi 2026 #2)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Tanda Tangan Digital Formulir PDF Cepat (Solusi 2026 #2). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -3379,7 +3379,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-hayabusa-tersakit-rotasi-meta-solo-rank-2026-hari-ke-3.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Hayabusa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-3)",
-    "metaTitle": "Build Hayabusa Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Hayabusa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-3)",
     "metaDescription": "Ulasan mendalam Build Hayabusa Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -3570,7 +3570,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-vivo-y-v-series-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Vivo Y & V Series (Update ke-3)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik V | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Vivo Y & V Series (Update ke-3)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Vivo Y & V Series (Update ke-3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -3728,7 +3728,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-rute-menuju-sea-2-sea-3-trik-rahasia-update-2026-ser.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Rute Menuju Sea 2 & Sea 3: Trik Rahasia Update 2026 (Seri #3)",
-    "metaTitle": "Panduan Lengkap Rute Menuju Sea 2 & Sea 3: Trik Ra | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Rute Menuju Sea 2 & Sea 3: Trik Rahasia Update 2026 (Seri #3)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Rute Menuju Sea 2 & Sea 3: Trik Rahasia Update 2026 (Seri #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -3882,7 +3882,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-iron-golem-otomatis-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Iron Golem Otomatis (Update 2026 Seri #3)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Iron Golem Ot | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Iron Golem Otomatis (Update 2026 Seri #3)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Iron Golem Otomatis (Update 2026 Seri #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4036,7 +4036,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-hyperbloom-kuki-shinobu-alha.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Hyperblo | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Hyperbloom Kuki Shinobu Alhaitham (Edisi 2026 #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -4188,7 +4188,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-1-2-1-2-narrow-tiki-taka-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #3)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #3)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-1-2-1-2 Narrow Tiki-Taka (Update 2026 #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -4343,7 +4343,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-sensitiv.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #3)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #3)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Sensitivitas CODM Battle Royale (Panduan 2026 #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -4500,7 +4500,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-gamepad-controller-bluetooth-andr.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #3)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Gamepad Co | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #3)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Gamepad Controller Bluetooth Android (Ulasan 2026 #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -4654,7 +4654,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-mengenal-huruf-alfab.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi Mengenal Huruf Alfabet Interaktif (Tips 2026 #3)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi Mengenal Huruf Alfabet Interaktif (Tips 2026 #3)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Aplikasi Mengenal Huruf Alfabet Interaktif (Tips 2026 #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -4807,7 +4807,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-isi-formulir-pdf-lamaran-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Isi Formulir PDF Lamaran Kerja Beasiswa (Solusi 2026 #3)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Isi Formul | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Isi Formulir PDF Lamaran Kerja Beasiswa (Solusi 2026 #3)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Isi Formulir PDF Lamaran Kerja Beasiswa (Solusi 2026 #3). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -4962,7 +4962,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-lancelot-tersakit-rotasi-meta-solo-rank-2026-hari-ke-4.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Lancelot Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-4)",
-    "metaTitle": "Build Lancelot Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Lancelot Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-4)",
     "metaDescription": "Ulasan mendalam Build Lancelot Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -5153,7 +5153,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-samsung-galaxy-a-s.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Samsung Galaxy A Series (Update ke-4)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Samsung Galaxy A Series (Update ke-4)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Samsung Galaxy A Series (Update ke-4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -5311,7 +5311,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-panduan-awakening-devil-fruit-trik-rahasia-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Panduan Awakening Devil Fruit: Trik Rahasia Update 2026 (Seri #4)",
-    "metaTitle": "Panduan Lengkap Panduan Awakening Devil Fruit: Tri | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Panduan Awakening Devil Fruit: Trik Rahasia Update 2026 (Seri #4)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Panduan Awakening Devil Fruit: Trik Rahasia Update 2026 (Seri #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -5465,7 +5465,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-mob-xp-5-menit-level-30-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Mob XP 5 Menit Level 30 (Update 2026 Seri #4)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Mob XP 5 Meni | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Mob XP 5 Menit Level 30 (Update 2026 Seri #4)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Mob XP 5 Menit Level 30 (Update 2026 Seri #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -5619,7 +5619,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-neuvillette-solo-carry-edisi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Neuville | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Neuvillette Solo Carry (Edisi 2026 #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -5771,7 +5771,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-3-5-2-wing-play-silang-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #4)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #4)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 3-5-2 Wing Play Silang (Update 2026 #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -5926,7 +5926,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-sensitivitas-fre.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #4)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #4)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Sensitivitas Free Look & Red Dot (Panduan 2026 #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -6083,7 +6083,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-tws-gaming-latensi-rendah-40ms-ul.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #4)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: TWS Gaming | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #4)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: TWS Gaming Latensi Rendah 40ms (Ulasan 2026 #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -6237,7 +6237,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-game-teka-teki-asah-otak-anak.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Game Teka Teki Asah Otak Anak Usia Dini (Tips 2026 #4)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Game Teka  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Game Teka Teki Asah Otak Anak Usia Dini (Tips 2026 #4)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Game Teka Teki Asah Otak Anak Usia Dini (Tips 2026 #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -6390,7 +6390,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-gabung-banyak-file-pdf-ja.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Gabung Banyak File PDF Jadi Satu Dokumen (Solusi 2026 #4)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Gabung Ban | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Gabung Banyak File PDF Jadi Satu Dokumen (Solusi 2026 #4)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Gabung Banyak File PDF Jadi Satu Dokumen (Solusi 2026 #4). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -6545,7 +6545,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-gusion-tersakit-rotasi-meta-solo-rank-2026-hari-ke-5.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Gusion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-5)",
-    "metaTitle": "Build Gusion Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Gusion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-5)",
     "metaDescription": "Ulasan mendalam Build Gusion Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -6736,7 +6736,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-xiaomi-redmi-poco-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Xiaomi Redmi & Poco (Update ke-5)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik X | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Xiaomi Redmi & Poco (Update ke-5)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Xiaomi Redmi & Poco (Update ke-5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -6894,7 +6894,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-cara-dapatkan-cursed-dual-katana-trik-rahasia-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Cara Dapatkan Cursed Dual Katana: Trik Rahasia Update 2026 (Seri #5)",
-    "metaTitle": "Panduan Lengkap Cara Dapatkan Cursed Dual Katana:  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Cara Dapatkan Cursed Dual Katana: Trik Rahasia Update 2026 (Seri #5)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Cara Dapatkan Cursed Dual Katana: Trik Rahasia Update 2026 (Seri #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -7048,7 +7048,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-ancient-debris-netherite-tempat-ti.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Ancient Debris Netherite Tempat Tidur (Update 2026 Seri #5)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Ancient Debris Net | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Ancient Debris Netherite Tempat Tidur (Update 2026 Seri #5)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Ancient Debris Netherite Tempat Tidur (Update 2026 Seri #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -7202,7 +7202,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-furina-buff-fanfare-edisi-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Furina B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Furina Buff Fanfare (Edisi 2026 #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -7354,7 +7354,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-formasi-4-2-3-1-penguasaan-bola-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #5)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #5)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Formasi 4-2-3-1 Penguasaan Bola (Update 2026 #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -7509,7 +7509,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-3x.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #5)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #5)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 3x Semprotan Laser (Panduan 2026 #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -7666,7 +7666,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kabel-charger-siku-90-derajat-l-s.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #5)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Char | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #5)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kabel Charger Siku 90 Derajat L-Shape (Ulasan 2026 #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -7820,7 +7820,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-aplikasi-menggambar-mewarnai-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi Menggambar & Mewarnai Digital (Tips 2026 #5)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Aplikasi Menggambar & Mewarnai Digital (Tips 2026 #5)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Aplikasi Menggambar & Mewarnai Digital (Tips 2026 #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -7973,7 +7973,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-pisahkan-halaman-pdf-tert.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Pisahkan Halaman PDF Tertentu Tanpa Ribet (Solusi 2026 #5)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Pisahkan H | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Pisahkan Halaman PDF Tertentu Tanpa Ribet (Solusi 2026 #5)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Pisahkan Halaman PDF Tertentu Tanpa Ribet (Solusi 2026 #5). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -8128,7 +8128,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-nolan-tersakit-rotasi-meta-solo-rank-2026-hari-ke-6.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Nolan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-6)",
-    "metaTitle": "Build Nolan Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Nolan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-6)",
     "metaDescription": "Ulasan mendalam Build Nolan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -8319,7 +8319,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-infinix-hot-note-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Infinix Hot & Note (Update ke-6)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik I | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Infinix Hot & Note (Update ke-6)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Infinix Hot & Note (Update ke-6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -8477,7 +8477,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-tips-farming-fragment-cepat-trik-rahasia-update-2026.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Tips Farming Fragment Cepat: Trik Rahasia Update 2026 (Seri #6)",
-    "metaTitle": "Panduan Lengkap Tips Farming Fragment Cepat: Trik  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Tips Farming Fragment Cepat: Trik Rahasia Update 2026 (Seri #6)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Tips Farming Fragment Cepat: Trik Rahasia Update 2026 (Seri #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -8631,7 +8631,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-kalahkan-ender-dragon-panah-air-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Kalahkan Ender Dragon Panah & Air (Update 2026 Seri #6)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Kalahkan Ender Dra | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Kalahkan Ender Dragon Panah & Air (Update 2026 Seri #6)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Kalahkan Ender Dragon Panah & Air (Update 2026 Seri #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8785,7 +8785,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-arlecchino-bond-of-life-edis.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Arlecchi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Arlecchino Bond of Life (Edisi 2026 #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -8937,7 +8937,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-trik-driven-ground-pass-menembus-bek.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Trik Driven Ground Pass Menembus Bek (Update 2026 #6)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Driven G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Trik Driven Ground Pass Menembus Bek (Update 2026 #6)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Trik Driven Ground Pass Menembus Bek (Update 2026 #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -9092,7 +9092,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-4x.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #6)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #6)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 4x DMR Mini 14 (Panduan 2026 #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -9249,7 +9249,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-kabel-converter-type-c-audio-char.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #6)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Conv | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #6)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Kabel Converter Type-C Audio Charger (Ulasan 2026 #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -9403,7 +9403,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-fitur-google-family-link-pand.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Fitur Google Family Link Panduan Orang Tua (Tips 2026 #6)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Fitur Goog | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Fitur Google Family Link Panduan Orang Tua (Tips 2026 #6)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Fitur Google Family Link Panduan Orang Tua (Tips 2026 #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -9556,7 +9556,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-kompres-ukuran-file-pdf-t.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Kompres Ukuran File PDF Tetap Terbaca Jelas (Solusi 2026 #6)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Kompres Uk | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Kompres Ukuran File PDF Tetap Terbaca Jelas (Solusi 2026 #6)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Kompres Ukuran File PDF Tetap Terbaca Jelas (Solusi 2026 #6). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -9711,7 +9711,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-beatrix-tersakit-rotasi-meta-solo-rank-2026-hari-ke-7.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Beatrix Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-7)",
-    "metaTitle": "Build Beatrix Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Beatrix Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-7)",
     "metaDescription": "Ulasan mendalam Build Beatrix Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -9902,7 +9902,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-realme-number-c-se.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Realme Number & C Series (Update ke-7)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Realme Number & C Series (Update ke-7)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Realme Number & C Series (Update ke-7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -10060,7 +10060,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-pet-simulator-99-huge-pet-trik-rahasia-update-2026-s.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Pet Simulator 99 Huge Pet: Trik Rahasia Update 2026 (Seri #7)",
-    "metaTitle": "Panduan Lengkap Pet Simulator 99 Huge Pet: Trik Ra | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Pet Simulator 99 Huge Pet: Trik Rahasia Update 2026 (Seri #7)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Pet Simulator 99 Huge Pet: Trik Rahasia Update 2026 (Seri #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -10214,7 +10214,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-end-city-elytra-shulker-box-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik End City Elytra & Shulker Box (Update 2026 Seri #7)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik End City Elytra &  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik End City Elytra & Shulker Box (Update 2026 Seri #7)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik End City Elytra & Shulker Box (Update 2026 Seri #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -10368,7 +10368,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-raiden-shogun-national-team-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Raiden S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Raiden Shogun National Team (Edisi 2026 #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -10520,7 +10520,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-finesse-shot-melengkung-luar-kotak-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Finesse Shot Melengkung Luar Kotak (Update 2026 #7)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Finesse Shot  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Finesse Shot Melengkung Luar Kotak (Update 2026 #7)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Finesse Shot Melengkung Luar Kotak (Update 2026 #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -10675,7 +10675,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-scope-6x.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #7)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #7)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting Scope 6x Ubah ke 3x M416 (Panduan 2026 #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -10832,7 +10832,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-screen-protector-tempered-glass-m.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #7)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Screen Pro | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #7)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Screen Protector Tempered Glass Matte (Ulasan 2026 #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -10986,7 +10986,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-kunci-layar-sematkan-aplikasi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Kunci Layar Sematkan Aplikasi Pin Screen (Tips 2026 #7)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Kunci Laya | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Kunci Layar Sematkan Aplikasi Pin Screen (Tips 2026 #7)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Kunci Layar Sematkan Aplikasi Pin Screen (Tips 2026 #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -11139,7 +11139,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-kunci-pdf-password-lindun.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Kunci PDF Password Lindungi Data Rahasia (Solusi 2026 #7)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Kunci PDF  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Kunci PDF Password Lindungi Data Rahasia (Solusi 2026 #7)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Kunci PDF Password Lindungi Data Rahasia (Solusi 2026 #7). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -11294,7 +11294,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-wanwan-tersakit-rotasi-meta-solo-rank-2026-hari-ke-8.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Wanwan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-8)",
-    "metaTitle": "Build Wanwan Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Wanwan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-8)",
     "metaDescription": "Ulasan mendalam Build Wanwan Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -11485,7 +11485,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-tecno-pova-camon-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Tecno Pova & Camon (Update ke-8)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Tecno Pova & Camon (Update ke-8)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Tecno Pova & Camon (Update ke-8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -11643,7 +11643,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-adopt-me-panduan-trading-aman-trik-rahasia-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Adopt Me Panduan Trading Aman: Trik Rahasia Update 2026 (Seri #8)",
-    "metaTitle": "Panduan Lengkap Adopt Me Panduan Trading Aman: Tri | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Adopt Me Panduan Trading Aman: Trik Rahasia Update 2026 (Seri #8)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Adopt Me Panduan Trading Aman: Trik Rahasia Update 2026 (Seri #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -11797,7 +11797,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-desain-rumah-kayu-estetik-pemula-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Desain Rumah Kayu Estetik Pemula (Update 2026 Seri #8)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Desain Rumah Kayu  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Desain Rumah Kayu Estetik Pemula (Update 2026 Seri #8)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Desain Rumah Kayu Estetik Pemula (Update 2026 Seri #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -11951,7 +11951,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-nahida-dendro-applicator-edi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Nahida D | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Nahida Dendro Applicator (Edisi 2026 #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -12103,7 +12103,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-power-shot-timing-hijau-presisi-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Power Shot Timing Hijau Presisi (Update 2026 #8)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Power Shot Ti | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Power Shot Timing Hijau Presisi (Update 2026 #8)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Power Shot Timing Hijau Presisi (Update 2026 #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -12258,7 +12258,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-setting-awm-one-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #8)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #8)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Setting AWM One Shot Satu Peluru (Panduan 2026 #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -12415,7 +12415,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-pelindung-layar-anti-sidik-jari-k.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #8)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #8)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Pelindung Layar Anti Sidik Jari Keringat (Ulasan 2026 #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -12569,7 +12569,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-mematikan-pembelian-dalam-gam.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Mematikan Pembelian Dalam Game In-App Purchases (Tips 2026 #8)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Mematikan  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Mematikan Pembelian Dalam Game In-App Purchases (Tips 2026 #8)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Mematikan Pembelian Dalam Game In-App Purchases (Tips 2026 #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -12722,7 +12722,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-hapus-password-pdf-milik-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Hapus Password PDF Milik Sendiri Praktis (Solusi 2026 #8)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Hapus Pass | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Hapus Password PDF Milik Sendiri Praktis (Solusi 2026 #8)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Hapus Password PDF Milik Sendiri Praktis (Solusi 2026 #8). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -12877,7 +12877,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-claude-tersakit-rotasi-meta-solo-rank-2026-hari-ke-9.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Claude Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-9)",
-    "metaTitle": "Build Claude Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Claude Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-9)",
     "metaDescription": "Ulasan mendalam Build Claude Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -13068,7 +13068,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-asus-rog-phone-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Asus ROG Phone (Update ke-9)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Asus ROG Phone (Update ke-9)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Asus ROG Phone (Update ke-9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -13226,7 +13226,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-dress-to-impress-layering-juara-trik-rahasia-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Dress to Impress Layering Juara: Trik Rahasia Update 2026 (Seri #9)",
-    "metaTitle": "Panduan Lengkap Dress to Impress Layering Juara: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Dress to Impress Layering Juara: Trik Rahasia Update 2026 (Seri #9)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Dress to Impress Layering Juara: Trik Rahasia Update 2026 (Seri #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -13380,7 +13380,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-dekorasi-interior-modern-kamar-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Dekorasi Interior Modern Kamar (Update 2026 Seri #9)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Dekorasi Interior  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Dekorasi Interior Modern Kamar (Update 2026 Seri #9)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Dekorasi Interior Modern Kamar (Update 2026 Seri #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -13534,7 +13534,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-kazuha-swirl-double-vv-edisi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Kazuha S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Kazuha Swirl Double VV (Edisi 2026 #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -13686,7 +13686,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-move-heel-to-heel-flick-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Move Heel to Heel Flick (Update 2026 #9)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move He | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move Heel to Heel Flick (Update 2026 #9)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Move Heel to Heel Flick (Update 2026 #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -13841,7 +13841,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-trik-close-comba.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Close Combat Jiggle Gerak Cepat (Panduan 2026 #9)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Close Combat Jiggle Gerak Cepat (Panduan 2026 #9)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Trik Close Combat Jiggle Gerak Cepat (Panduan 2026 #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -13998,7 +13998,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-power-bank-fast-charging-65w-ring.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #9)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Power Bank | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #9)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Power Bank Fast Charging 65W Ringan (Ulasan 2026 #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -14152,7 +14152,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-memblokir-konten-dewasa-iklan.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Memblokir Konten Dewasa & Iklan Berbahaya (Tips 2026 #9)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Memblokir  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Memblokir Konten Dewasa & Iklan Berbahaya (Tips 2026 #9)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Memblokir Konten Dewasa & Iklan Berbahaya (Tips 2026 #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -14305,7 +14305,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-ubah-foto-kertas-scan-jad.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Ubah Foto Kertas Scan Jadi PDF Rapi (Solusi 2026 #9)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Ubah Foto  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Ubah Foto Kertas Scan Jadi PDF Rapi (Solusi 2026 #9)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Ubah Foto Kertas Scan Jadi PDF Rapi (Solusi 2026 #9). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -14460,7 +14460,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-brody-tersakit-rotasi-meta-solo-rank-2026-hari-ke-10.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Brody Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-10)",
-    "metaTitle": "Build Brody Tersakit & Rotasi Meta Solo Rank 2026  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Brody Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-10)",
     "metaDescription": "Ulasan mendalam Build Brody Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -14651,7 +14651,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-iqoo-neo-z-series-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik iQOO Neo & Z Series (Update ke-10)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik i | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik iQOO Neo & Z Series (Update ke-10)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik iQOO Neo & Z Series (Update ke-10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -14809,7 +14809,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-blade-ball-timing-parry-sempurna-trik-rahasia-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Blade Ball Timing Parry Sempurna: Trik Rahasia Update 2026 (Seri #10)",
-    "metaTitle": "Panduan Lengkap Blade Ball Timing Parry Sempurna:  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Blade Ball Timing Parry Sempurna: Trik Rahasia Update 2026 (Seri #10)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Blade Ball Timing Parry Sempurna: Trik Rahasia Update 2026 (Seri #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -14963,7 +14963,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-shaders-minecraft-pe-ringan-60-fps.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Shaders Minecraft PE Ringan 60 FPS (Update 2026 Seri #10)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Shaders Minecraft  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Shaders Minecraft PE Ringan 60 FPS (Update 2026 Seri #10)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Shaders Minecraft PE Ringan 60 FPS (Update 2026 Seri #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -15117,7 +15117,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-zhongli-shield-kebal-bintang.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Zhongli  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Zhongli Shield Kebal Bintang 5 (Edisi 2026 #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -15269,7 +15269,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-move-lane-change-roll-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Move Lane Change Roll (Update 2026 #10)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move La | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move Lane Change Roll (Update 2026 #10)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Move Lane Change Roll (Update 2026 #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -15424,7 +15424,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-trik-crouch-shoo.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Crouch Shoot Tembak Jongkok (Panduan 2026 #10)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Crouch Shoot Tembak Jongkok (Panduan 2026 #10)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Trik Crouch Shoot Tembak Jongkok (Panduan 2026 #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -15581,7 +15581,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-dudukan-hp-stand-meja-ergonomis-h.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #10)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Dudukan HP | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #10)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Dudukan HP Stand Meja Ergonomis Holder (Ulasan 2026 #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -15735,7 +15735,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-pencarian-suara-ramah-anak-yo.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Pencarian Suara Ramah Anak YouTube Kids (Tips 2026 #10)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Pencarian  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Pencarian Suara Ramah Anak YouTube Kids (Tips 2026 #10)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Pencarian Suara Ramah Anak YouTube Kids (Tips 2026 #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -15888,7 +15888,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-konversi-pdf-ke-gambar-jp.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Konversi PDF ke Gambar JPEG Transparan (Solusi 2026 #10)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Konversi P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Konversi PDF ke Gambar JPEG Transparan (Solusi 2026 #10)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Konversi PDF ke Gambar JPEG Transparan (Solusi 2026 #10). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -16043,7 +16043,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-moskov-tersakit-rotasi-meta-solo-rank-2026-hari-ke-11.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Moskov Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-11)",
-    "metaTitle": "Build Moskov Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Moskov Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-11)",
     "metaDescription": "Ulasan mendalam Build Moskov Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -16234,7 +16234,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-m1887-shotgun-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik M1887 Shotgun (Update ke-11)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik M1887 Shotgun (Update ke-11)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik M1887 Shotgun (Update ke-11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -16392,7 +16392,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-tier-list-skill-blade-ball-trik-rahasia-update-2026-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Tier List Skill Blade Ball: Trik Rahasia Update 2026 (Seri #11)",
-    "metaTitle": "Panduan Lengkap Tier List Skill Blade Ball: Trik R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Tier List Skill Blade Ball: Trik Rahasia Update 2026 (Seri #11)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Tier List Skill Blade Ball: Trik Rahasia Update 2026 (Seri #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -16546,7 +16546,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-7-addon-bedrock-terbaik-update-202.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik 7 Addon Bedrock Terbaik (Update 2026 Seri #11)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik 7 Addon Bedrock Te | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik 7 Addon Bedrock Terbaik (Update 2026 Seri #11)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik 7 Addon Bedrock Terbaik (Update 2026 Seri #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -16700,7 +16700,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-hu-tao-vaporize-yelan-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Hu Tao V | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Hu Tao Vaporize Yelan (Edisi 2026 #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -16852,7 +16852,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-move-roulette-berputar-cepat-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Move Roulette Berputar Cepat (Update 2026 #11)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move Ro | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move Roulette Berputar Cepat (Update 2026 #11)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Move Roulette Berputar Cepat (Update 2026 #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -17007,7 +17007,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-trik-prone-shoot.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Prone Shoot Tiarap Dadakan (Panduan 2026 #11)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Prone Shoot Tiarap Dadakan (Panduan 2026 #11)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Trik Prone Shoot Tiarap Dadakan (Panduan 2026 #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -17164,7 +17164,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-headset-gaming-jack-35mm-surround.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #11)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Headset Ga | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #11)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Headset Gaming Jack 3.5mm Surround 7.1 (Ulasan 2026 #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -17318,7 +17318,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-tablet-belajar-anak-casing-ta.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Tablet Belajar Anak Casing Tahan Banting (Tips 2026 #11)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Tablet Bel | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Tablet Belajar Anak Casing Tahan Banting (Tips 2026 #11)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Tablet Belajar Anak Casing Tahan Banting (Tips 2026 #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -17471,7 +17471,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-anotasi-catatan-garis-baw.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Anotasi Catatan Garis Bawah Dokumen PDF (Solusi 2026 #11)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Anotasi Ca | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Anotasi Catatan Garis Bawah Dokumen PDF (Solusi 2026 #11)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Anotasi Catatan Garis Bawah Dokumen PDF (Solusi 2026 #11). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -17626,7 +17626,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-karrie-tersakit-rotasi-meta-solo-rank-2026-hari-ke-12.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Karrie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-12)",
-    "metaTitle": "Build Karrie Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Karrie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-12)",
     "metaDescription": "Ulasan mendalam Build Karrie Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -17817,7 +17817,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-mp40-smg-update-ke.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik MP40 SMG (Update ke-12)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik MP40 SMG (Update ke-12)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik MP40 SMG (Update ke-12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -17975,7 +17975,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-the-strongest-battlegrounds-combo-trik-rahasia-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap The Strongest Battlegrounds Combo: Trik Rahasia Update 2026 (Seri #12)",
-    "metaTitle": "Panduan Lengkap The Strongest Battlegrounds Combo: | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap The Strongest Battlegrounds Combo: Trik Rahasia Update 2026 (Seri #12)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap The Strongest Battlegrounds Combo: Trik Rahasia Update 2026 (Seri #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -18129,7 +18129,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-pintu-rahasia-2x2-redstone-piston-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Pintu Rahasia 2x2 Redstone Piston (Update 2026 Seri #12)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Pintu Rahasia 2x2  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Pintu Rahasia 2x2 Redstone Piston (Update 2026 Seri #12)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Pintu Rahasia 2x2 Redstone Piston (Update 2026 Seri #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -18283,7 +18283,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-navia-geo-crystallize-nuke-e.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Navia Ge | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Navia Geo Crystallize Nuke (Edisi 2026 #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -18435,7 +18435,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-skill-move-rainbow-flick-chip-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Skill Move Rainbow Flick Chip (Update 2026 #12)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move Ra | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Skill Move Rainbow Flick Chip (Update 2026 #12)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Skill Move Rainbow Flick Chip (Update 2026 #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -18590,7 +18590,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-trik-jump-shot-l.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Jump Shot Lompat Tembak (Panduan 2026 #12)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Jump Shot Lompat Tembak (Panduan 2026 #12)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Trik Jump Shot Lompat Tembak (Panduan 2026 #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -18747,7 +18747,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-stylus-pen-presisi-palm-rejection.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #12)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Stylus Pen | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #12)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Stylus Pen Presisi Palm Rejection (Ulasan 2026 #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -18901,7 +18901,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-stylus-pen-ujung-lembut-ramah.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Stylus Pen Ujung Lembut Ramah Jari Anak (Tips 2026 #12)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Stylus Pen | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Stylus Pen Ujung Lembut Ramah Jari Anak (Tips 2026 #12)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Stylus Pen Ujung Lembut Ramah Jari Anak (Tips 2026 #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -19054,7 +19054,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-sorot-teks-stabilo-warna-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Sorot Teks Stabilo Warna PDF Buku Pelajaran (Solusi 2026 #12)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Sorot Teks | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Sorot Teks Stabilo Warna PDF Buku Pelajaran (Solusi 2026 #12)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Sorot Teks Stabilo Warna PDF Buku Pelajaran (Solusi 2026 #12). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -19209,7 +19209,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-tigreal-tersakit-rotasi-meta-solo-rank-2026-hari-ke-13.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Tigreal Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-13)",
-    "metaTitle": "Build Tigreal Tersakit & Rotasi Meta Solo Rank 202 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Tigreal Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-13)",
     "metaDescription": "Ulasan mendalam Build Tigreal Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -19400,7 +19400,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-woodpecker-svd-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Woodpecker & SVD (Update ke-13)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik W | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Woodpecker & SVD (Update ke-13)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Woodpecker & SVD (Update ke-13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -19558,7 +19558,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-anime-defenders-formasi-unit-trik-rahasia-update-202.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Anime Defenders Formasi Unit: Trik Rahasia Update 2026 (Seri #13)",
-    "metaTitle": "Panduan Lengkap Anime Defenders Formasi Unit: Trik | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Anime Defenders Formasi Unit: Trik Rahasia Update 2026 (Seri #13)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Anime Defenders Formasi Unit: Trik Rahasia Update 2026 (Seri #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -19712,7 +19712,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-brewing-stand-resep-semua-ramuan-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Brewing Stand Resep Semua Ramuan (Update 2026 Seri #13)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Brewing Stand Rese | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Brewing Stand Resep Semua Ramuan (Update 2026 Seri #13)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Brewing Stand Resep Semua Ramuan (Update 2026 Seri #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -19866,7 +19866,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-clorinde-electro-pistol-dash.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Clorinde | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Clorinde Electro Pistol Dash (Edisi 2026 #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -20018,7 +20018,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-jockey-defense-tahan-tombol-l2-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Jockey Defense Tahan Tombol L2 (Update 2026 #13)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Jockey Defens | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Jockey Defense Tahan Tombol L2 (Update 2026 #13)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Jockey Defense Tahan Tombol L2 (Update 2026 #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -20173,7 +20173,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-trik-peek-kiri-k.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Peek Kiri Kanan Cepat Semak (Panduan 2026 #13)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: T | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Trik Peek Kiri Kanan Cepat Semak (Panduan 2026 #13)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Trik Peek Kiri Kanan Cepat Semak (Panduan 2026 #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -20330,7 +20330,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-cooler-rgb-hp-dual-fan-super-ding.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #13)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Cooler RGB | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #13)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Cooler RGB HP Dual Fan Super Dingin (Ulasan 2026 #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -20484,7 +20484,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-pelindung-layar-mata-anti-rad.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Pelindung Layar Mata Anti Radiasi Anak (Tips 2026 #13)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Pelindung  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Pelindung Layar Mata Anti Radiasi Anak (Tips 2026 #13)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Pelindung Layar Mata Anti Radiasi Anak (Tips 2026 #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -20637,7 +20637,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-beri-stempel-lunas-sah-pa.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Beri Stempel Lunas Sah Pada Faktur PDF (Solusi 2026 #13)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Beri Stemp | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Beri Stempel Lunas Sah Pada Faktur PDF (Solusi 2026 #13)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Beri Stempel Lunas Sah Pada Faktur PDF (Solusi 2026 #13). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -20792,7 +20792,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-khufra-tersakit-rotasi-meta-solo-rank-2026-hari-ke-14.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Khufra Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-14)",
-    "metaTitle": "Build Khufra Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Khufra Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-14)",
     "metaDescription": "Ulasan mendalam Build Khufra Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -20983,7 +20983,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-groza-scar-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Groza & Scar (Update ke-14)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik G | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Groza & Scar (Update ke-14)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Groza & Scar (Update ke-14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -21141,7 +21141,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-all-star-tower-defense-unit-bintang-6-trik-rahasia-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap All Star Tower Defense Unit Bintang 6: Trik Rahasia Update 2026 (Seri #14)",
-    "metaTitle": "Panduan Lengkap All Star Tower Defense Unit Bintan | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap All Star Tower Defense Unit Bintang 6: Trik Rahasia Update 2026 (Seri #14)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap All Star Tower Defense Unit Bintang 6: Trik Rahasia Update 2026 (Seri #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -21295,7 +21295,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-jinakkan-hewan-peliharaan-serigala.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Jinakkan Hewan Peliharaan Serigala (Update 2026 Seri #14)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Jinakkan Hewan Pel | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Jinakkan Hewan Peliharaan Serigala (Update 2026 Seri #14)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Jinakkan Hewan Peliharaan Serigala (Update 2026 Seri #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -21449,7 +21449,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-emilie-dendro-burning-edisi-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Emilie D | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Emilie Dendro Burning (Edisi 2026 #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -21601,7 +21601,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-second-man-press-jebakan-offside-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Second Man Press Jebakan Offside (Update 2026 #14)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Second Man Pr | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Second Man Press Jebakan Offside (Update 2026 #14)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Second Man Press Jebakan Offside (Update 2026 #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -21756,7 +21756,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-rotasi-zona-biru.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Zona Biru Pinggir Peta (Panduan 2026 #14)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Zona Biru Pinggir Peta (Panduan 2026 #14)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Zona Biru Pinggir Peta (Panduan 2026 #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -21913,7 +21913,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-trigger-l1-r1-tombol-fisik-layar-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Trigger L1 R1 Tombol Fisik Layar (Ulasan 2026 #14)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Trigger L1 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Trigger L1 R1 Tombol Fisik Layar (Ulasan 2026 #14)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Trigger L1 R1 Tombol Fisik Layar (Ulasan 2026 #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -22067,7 +22067,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-headphone-batas-volume-aman-8.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Headphone Batas Volume Aman 85 Desibel (Tips 2026 #14)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Headphone  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Headphone Batas Volume Aman 85 Desibel (Tips 2026 #14)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Headphone Batas Volume Aman 85 Desibel (Tips 2026 #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -22220,7 +22220,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-beri-cap-watermark-rahasi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Beri Cap Watermark Rahasia Draft Dokumen (Solusi 2026 #14)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Beri Cap W | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Beri Cap Watermark Rahasia Draft Dokumen (Solusi 2026 #14)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Beri Cap Watermark Rahasia Draft Dokumen (Solusi 2026 #14). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -22375,7 +22375,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-minotaur-tersakit-rotasi-meta-solo-rank-2026-hari-ke-15.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Minotaur Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-15)",
-    "metaTitle": "Build Minotaur Tersakit & Rotasi Meta Solo Rank 20 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Minotaur Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-15)",
     "metaDescription": "Ulasan mendalam Build Minotaur Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -22566,7 +22566,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-ak47-m4a1-update-k.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik AK47 & M4A1 (Update ke-15)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik A | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik AK47 & M4A1 (Update ke-15)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik AK47 & M4A1 (Update ke-15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -22724,7 +22724,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-fisch-lokasi-ikan-mitos-trik-rahasia-update-2026-ser.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Fisch Lokasi Ikan Mitos: Trik Rahasia Update 2026 (Seri #15)",
-    "metaTitle": "Panduan Lengkap Fisch Lokasi Ikan Mitos: Trik Raha | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Fisch Lokasi Ikan Mitos: Trik Rahasia Update 2026 (Seri #15)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Fisch Lokasi Ikan Mitos: Trik Rahasia Update 2026 (Seri #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -22878,7 +22878,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-villager-trading-hall-mending-1-za.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Villager Trading Hall Mending 1 Zamrud (Update 2026 Seri #15)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Villager Trading H | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Villager Trading Hall Mending 1 Zamrud (Update 2026 Seri #15)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Villager Trading Hall Mending 1 Zamrud (Update 2026 Seri #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -23032,7 +23032,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-kinich-saurian-grapple-edisi.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Kinich S | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Kinich Saurian Grapple (Edisi 2026 #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",
@@ -23184,7 +23184,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/eafc-taktik-juara-ea-fc-efootball-trik-kiper-manual-tutup-sudut-sempit-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Taktik Juara EA FC & eFootball: Trik Kiper Manual Tutup Sudut Sempit (Update 2026 #15)",
-    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kiper Manual  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Taktik Juara EA FC & eFootball: Trik Kiper Manual Tutup Sudut Sempit (Update 2026 #15)",
     "metaDescription": "Ulasan mendalam Taktik Juara EA FC & eFootball: Trik Kiper Manual Tutup Sudut Sempit (Update 2026 #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "ea fc & efootball",
@@ -23339,7 +23339,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/battleroyale-setting-sensitivitas-trik-juara-battle-royale-rotasi-kendaraan.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Kendaraan Kompon Aman (Panduan 2026 #15)",
-    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: R | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Kendaraan Kompon Aman (Panduan 2026 #15)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas & Trik Juara Battle Royale: Rotasi Kendaraan Kompon Aman (Panduan 2026 #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "battle royale & action",
@@ -23496,7 +23496,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/gear-panduan-hardware-optimasi-hp-android-thumb-grip-analog-karet-anti-slip.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Hardware & Optimasi HP Android: Thumb Grip Analog Karet Anti Slip (Ulasan 2026 #15)",
-    "metaTitle": "Panduan Hardware & Optimasi HP Android: Thumb Grip | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Hardware & Optimasi HP Android: Thumb Grip Analog Karet Anti Slip (Ulasan 2026 #15)",
     "metaDescription": "Ulasan mendalam Panduan Hardware & Optimasi HP Android: Thumb Grip Analog Karet Anti Slip (Ulasan 2026 #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "gaming gear & hardware",
@@ -23650,7 +23650,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/kidstech-panduan-belajar-anak-gadget-edukatif-dudukan-tablet-meja-belajar-e.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Belajar Anak & Gadget Edukatif: Dudukan Tablet Meja Belajar Ergonomis (Tips 2026 #15)",
-    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Dudukan Ta | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Belajar Anak & Gadget Edukatif: Dudukan Tablet Meja Belajar Ergonomis (Tips 2026 #15)",
     "metaDescription": "Ulasan mendalam Panduan Belajar Anak & Gadget Edukatif: Dudukan Tablet Meja Belajar Ergonomis (Tips 2026 #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "kids tech & learning",
@@ -23803,7 +23803,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/productivity-panduan-dokumen-produktivitas-mobile-ubah-urutan-halaman-pdf-g.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Dokumen & Produktivitas Mobile: Ubah Urutan Halaman PDF Geser Fleksibel (Solusi 2026 #15)",
-    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Ubah Uruta | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Dokumen & Produktivitas Mobile: Ubah Urutan Halaman PDF Geser Fleksibel (Solusi 2026 #15)",
     "metaDescription": "Ulasan mendalam Panduan Dokumen & Produktivitas Mobile: Ubah Urutan Halaman PDF Geser Fleksibel (Solusi 2026 #15). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "productivity & pdf work",
@@ -23958,7 +23958,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/mlbb-build-franco-tersakit-rotasi-meta-solo-rank-2026-hari-ke-16.webp",
     "author": "D Lucky X Editorial",
     "title": "Build Franco Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-16)",
-    "metaTitle": "Build Franco Tersakit & Rotasi Meta Solo Rank 2026 | Panduan Lengkap D Lucky X",
+    "metaTitle": "Build Franco Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-16)",
     "metaDescription": "Ulasan mendalam Build Franco Tersakit & Rotasi Meta Solo Rank 2026 (Hari ke-16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "mobile legends",
@@ -24149,7 +24149,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/freefire-setting-sensitivitas-ff-auto-headshot-2026-trik-custom-hud-2-jari-.webp",
     "author": "D Lucky X Editorial",
     "title": "Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 2 Jari (Update ke-16)",
-    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik C | Panduan Lengkap D Lucky X",
+    "metaTitle": "Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 2 Jari (Update ke-16)",
     "metaDescription": "Ulasan mendalam Setting Sensitivitas FF Auto Headshot 2026: Trik Custom HUD 2 Jari (Update ke-16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "free fire",
@@ -24307,7 +24307,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/roblox-panduan-lengkap-doors-trik-lolos-hadapi-rush-trik-rahasia-update-202.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Doors Trik Lolos Hadapi Rush: Trik Rahasia Update 2026 (Seri #16)",
-    "metaTitle": "Panduan Lengkap Doors Trik Lolos Hadapi Rush: Trik | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Doors Trik Lolos Hadapi Rush: Trik Rahasia Update 2026 (Seri #16)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Doors Trik Lolos Hadapi Rush: Trik Rahasia Update 2026 (Seri #16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "roblox",
@@ -24461,7 +24461,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-pillager-raid-totem-of-undying-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Pillager Raid Totem of Undying (Update 2026 Seri #16)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Pillager Raid Tote | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Pillager Raid Totem of Undying (Update 2026 Seri #16)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Pillager Raid Totem of Undying (Update 2026 Seri #16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -24615,7 +24615,7 @@ export const publishedGamingArticles: ArticleItem[] = [
     "coverImage": "/images/blog/genshin-panduan-meta-genshin-honkai-trik-build-mualani-shark-surf-vaporize-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16)",
-    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Mualani  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16)",
     "metaDescription": "Ulasan mendalam Panduan Meta Genshin & Honkai: Trik Build Mualani Shark Surf Vaporize (Edisi 2026 #16). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "genshin & honkai",

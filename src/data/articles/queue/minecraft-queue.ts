@@ -16,7 +16,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-ancient-city-warden-sensor-wool-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Ancient City Warden Sensor Wool (Update 2026 Seri #17)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Ancient City Warde | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Ancient City Warden Sensor Wool (Update 2026 Seri #17)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Ancient City Warden Sensor Wool (Update 2026 Seri #17). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -170,7 +170,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-kapal-karam-peti-harta-karun-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Kapal Karam Peti Harta Karun (Update 2026 Seri #18)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Kapal Karam Peti H | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Kapal Karam Peti Harta Karun (Update 2026 Seri #18)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Kapal Karam Peti Harta Karun (Update 2026 Seri #18). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -324,7 +324,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-bangun-kastil-batu-megah-benteng-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Bangun Kastil Batu Megah Benteng (Update 2026 Seri #19)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Bangun Kastil Batu | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Bangun Kastil Batu Megah Benteng (Update 2026 Seri #19)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Bangun Kastil Batu Megah Benteng (Update 2026 Seri #19). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -478,7 +478,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-gandum-wortel-villager-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Gandum & Wortel Villager (Update 2026 Seri #20)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Gandum & Wort | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Gandum & Wortel Villager (Update 2026 Seri #20)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Gandum & Wortel Villager (Update 2026 Seri #20). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -632,7 +632,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-kombinasi-enchantment-senjata-armo.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Kombinasi Enchantment Senjata Armor (Update 2026 Seri #21)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Kombinasi Enchantm | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Kombinasi Enchantment Senjata Armor (Update 2026 Seri #21)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Kombinasi Enchantment Senjata Armor (Update 2026 Seri #21). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -786,7 +786,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-peta-kartografi-navigasi-kompas-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Peta Kartografi & Navigasi Kompas (Update 2026 Seri #22)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Peta Kartografi &  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Peta Kartografi & Navigasi Kompas (Update 2026 Seri #22)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Peta Kartografi & Navigasi Kompas (Update 2026 Seri #22). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -940,7 +940,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-jinakkan-kuda-unta-gurun-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Jinakkan Kuda & Unta Gurun (Update 2026 Seri #23)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Jinakkan Kuda & Un | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Jinakkan Kuda & Unta Gurun (Update 2026 Seri #23)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Jinakkan Kuda & Unta Gurun (Update 2026 Seri #23). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -1094,7 +1094,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-tebu-bambu-observer-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Tebu & Bambu Observer (Update 2026 Seri #24)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Tebu & Bambu  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Tebu & Bambu Observer (Update 2026 Seri #24)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Tebu & Bambu Observer (Update 2026 Seri #24). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -1248,7 +1248,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-woodland-mansion-kalahkan-evoker-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Woodland Mansion Kalahkan Evoker (Update 2026 Seri #25)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Woodland Mansion K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Woodland Mansion Kalahkan Evoker (Update 2026 Seri #25)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Woodland Mansion Kalahkan Evoker (Update 2026 Seri #25). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -1402,7 +1402,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-bertahan-di-bioma-salju-powder-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Bertahan di Bioma Salju Powder (Update 2026 Seri #26)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Bertahan di Bioma  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Bertahan di Bioma Salju Powder (Update 2026 Seri #26)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Bertahan di Bioma Salju Powder (Update 2026 Seri #26). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -1556,7 +1556,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-trik-mancing-buku-mitos-sakti-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Trik Mancing Buku Mitos Sakti (Update 2026 Seri #27)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Trik Mancing Buku  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Trik Mancing Buku Mitos Sakti (Update 2026 Seri #27)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Trik Mancing Buku Mitos Sakti (Update 2026 Seri #27). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -1710,7 +1710,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-lift-air-soul-sand-gelembung-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Lift Air Soul Sand Gelembung (Update 2026 Seri #28)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Lift Air Soul Sand | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Lift Air Soul Sand Gelembung (Update 2026 Seri #28)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Lift Air Soul Sand Gelembung (Update 2026 Seri #28). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -1864,7 +1864,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-setting-grafis-hp-kentang-120-fps-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Setting Grafis HP Kentang 120 FPS (Update 2026 Seri #29)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Setting Grafis HP  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Setting Grafis HP Kentang 120 FPS (Update 2026 Seri #29)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Setting Grafis HP Kentang 120 FPS (Update 2026 Seri #29). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2018,7 +2018,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-mabar-realms-server-gratis-hp-pc-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Mabar Realms Server Gratis HP PC (Update 2026 Seri #30)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Mabar Realms Serve | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Mabar Realms Server Gratis HP PC (Update 2026 Seri #30)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Mabar Realms Server Gratis HP PC (Update 2026 Seri #30). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2172,7 +2172,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-emas-nether-piglin-otomatis-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Emas Nether Piglin Otomatis (Update 2026 Seri #31)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Emas Nether P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Emas Nether Piglin Otomatis (Update 2026 Seri #31)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Emas Nether Piglin Otomatis (Update 2026 Seri #31). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2326,7 +2326,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-raid-emerald-tanpa-batas-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Raid Emerald Tanpa Batas (Update 2026 Seri #32)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Raid Emerald  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Raid Emerald Tanpa Batas (Update 2026 Seri #32)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Raid Emerald Tanpa Batas (Update 2026 Seri #32). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2480,7 +2480,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-slime-chunk-bawah-tanah-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Slime Chunk Bawah Tanah (Update 2026 Seri #33)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Slime Chunk B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Slime Chunk Bawah Tanah (Update 2026 Seri #33)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Slime Chunk Bawah Tanah (Update 2026 Seri #33). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2634,7 +2634,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-enderman-void-cepat-xp-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Enderman Void Cepat XP (Update 2026 Seri #34)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Enderman Void | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Enderman Void Cepat XP (Update 2026 Seri #34)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Enderman Void Cepat XP (Update 2026 Seri #34). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2788,7 +2788,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-kayu-otomatis-tnt-blast-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Kayu Otomatis TNT Blast (Update 2026 Seri #35)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Kayu Otomatis | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Kayu Otomatis TNT Blast (Update 2026 Seri #35)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Kayu Otomatis TNT Blast (Update 2026 Seri #35). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -2942,7 +2942,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-trial-chambers-kalahkan-breeze-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Trial Chambers Kalahkan Breeze (Update 2026 Seri #36)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Trial Chambers Kal | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Trial Chambers Kalahkan Breeze (Update 2026 Seri #36)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Trial Chambers Kalahkan Breeze (Update 2026 Seri #36). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -3096,7 +3096,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-senjata-mace-kombo-wind-charge-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Senjata Mace Kombo Wind Charge (Update 2026 Seri #37)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Senjata Mace Kombo | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Senjata Mace Kombo Wind Charge (Update 2026 Seri #37)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Senjata Mace Kombo Wind Charge (Update 2026 Seri #37). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -3250,7 +3250,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-armadillo-scute-armor-serigala-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Armadillo Scute Armor Serigala (Update 2026 Seri #38)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Armadillo Scute Ar | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Armadillo Scute Armor Serigala (Update 2026 Seri #38)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Armadillo Scute Armor Serigala (Update 2026 Seri #38). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -3404,7 +3404,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-auto-crafter-redstone-fabrikasi-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Auto Crafter Redstone Fabrikasi (Update 2026 Seri #39)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Auto Crafter Redst | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Auto Crafter Redstone Fabrikasi (Update 2026 Seri #39)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Auto Crafter Redstone Fabrikasi (Update 2026 Seri #39). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -3558,7 +3558,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-copper-bulb-delay-mekanisme-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Copper Bulb Delay Mekanisme (Update 2026 Seri #40)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Copper Bulb Delay  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Copper Bulb Delay Mekanisme (Update 2026 Seri #40)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Copper Bulb Delay Mekanisme (Update 2026 Seri #40). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -3712,7 +3712,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-desain-jembatan-gantung-estetik-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Desain Jembatan Gantung Estetik (Update 2026 Seri #41)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Desain Jembatan Ga | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Desain Jembatan Gantung Estetik (Update 2026 Seri #41)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Desain Jembatan Gantung Estetik (Update 2026 Seri #41). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -3866,7 +3866,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-ide-mercusuar-tepi-pantai-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Ide Mercusuar Tepi Pantai (Update 2026 Seri #42)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Ide Mercusuar Tepi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Ide Mercusuar Tepi Pantai (Update 2026 Seri #42)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Ide Mercusuar Tepi Pantai (Update 2026 Seri #42). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4020,7 +4020,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-desain-kincir-angin-pertanian-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Desain Kincir Angin Pertanian (Update 2026 Seri #43)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Desain Kincir Angi | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Desain Kincir Angin Pertanian (Update 2026 Seri #43)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Desain Kincir Angin Pertanian (Update 2026 Seri #43). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4174,7 +4174,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-rumah-bawah-tanah-rahasia-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Rumah Bawah Tanah Rahasia (Update 2026 Seri #44)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Rumah Bawah Tanah  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Rumah Bawah Tanah Rahasia (Update 2026 Seri #44)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Rumah Bawah Tanah Rahasia (Update 2026 Seri #44). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4328,7 +4328,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-bunker-anti-creeper-kaca-update-20.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Bunker Anti Creeper Kaca (Update 2026 Seri #45)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Bunker Anti Creepe | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Bunker Anti Creeper Kaca (Update 2026 Seri #45)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Bunker Anti Creeper Kaca (Update 2026 Seri #45). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4482,7 +4482,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-kolam-ikan-hias-akuarium-kaca-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Kolam Ikan Hias Akuarium Kaca (Update 2026 Seri #46)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Kolam Ikan Hias Ak | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Kolam Ikan Hias Akuarium Kaca (Update 2026 Seri #46)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Kolam Ikan Hias Akuarium Kaca (Update 2026 Seri #46). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4636,7 +4636,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-taman-bunga-lebah-honey-farm-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Taman Bunga Lebah Honey Farm (Update 2026 Seri #47)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Taman Bunga Lebah  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Taman Bunga Lebah Honey Farm (Update 2026 Seri #47)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Taman Bunga Lebah Honey Farm (Update 2026 Seri #47). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4790,7 +4790,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-farm-katak-froglight-rawa-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Farm Katak Froglight Rawa (Update 2026 Seri #48)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Katak Froglig | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Farm Katak Froglight Rawa (Update 2026 Seri #48)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Farm Katak Froglight Rawa (Update 2026 Seri #48). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -4944,7 +4944,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-axolotl-kolam-bioma-lush-cave-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Axolotl Kolam Bioma Lush Cave (Update 2026 Seri #49)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Axolotl Kolam Biom | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Axolotl Kolam Bioma Lush Cave (Update 2026 Seri #49)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Axolotl Kolam Bioma Lush Cave (Update 2026 Seri #49). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -5098,7 +5098,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-glow-berry-tanaman-hias-cahaya-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Glow Berry Tanaman Hias Cahaya (Update 2026 Seri #50)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Glow Berry Tanaman | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Glow Berry Tanaman Hias Cahaya (Update 2026 Seri #50)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Glow Berry Tanaman Hias Cahaya (Update 2026 Seri #50). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -5252,7 +5252,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-amethyst-geode-kristal-suara-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Amethyst Geode Kristal Suara (Update 2026 Seri #51)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Amethyst Geode Kri | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Amethyst Geode Kristal Suara (Update 2026 Seri #51)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Amethyst Geode Kristal Suara (Update 2026 Seri #51). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -5406,7 +5406,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-deepslate-tambang-berlian-y-58-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Deepslate Tambang Berlian Y-58 (Update 2026 Seri #52)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Deepslate Tambang  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Deepslate Tambang Berlian Y-58 (Update 2026 Seri #52)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Deepslate Tambang Berlian Y-58 (Update 2026 Seri #52). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -5560,7 +5560,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-gua-karst-dripstone-lava-tanpa-bat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Gua Karst Dripstone Lava Tanpa Batas (Update 2026 Seri #53)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Gua Karst Dripston | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Gua Karst Dripstone Lava Tanpa Batas (Update 2026 Seri #53)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Gua Karst Dripstone Lava Tanpa Batas (Update 2026 Seri #53). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -5714,7 +5714,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-sculk-catalyst-xp-generator-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Sculk Catalyst XP Generator (Update 2026 Seri #54)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Sculk Catalyst XP  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Sculk Catalyst XP Generator (Update 2026 Seri #54)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Sculk Catalyst XP Generator (Update 2026 Seri #54). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -5868,7 +5868,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-allay-otomatis-sortir-barang-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Allay Otomatis Sortir Barang (Update 2026 Seri #55)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Allay Otomatis Sor | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Allay Otomatis Sortir Barang (Update 2026 Seri #55)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Allay Otomatis Sortir Barang (Update 2026 Seri #55). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -6022,7 +6022,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-piston-door-3x3-kompak-redstone-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Piston Door 3x3 Kompak Redstone (Update 2026 Seri #56)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Piston Door 3x3 Ko | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Piston Door 3x3 Kompak Redstone (Update 2026 Seri #56)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Piston Door 3x3 Kompak Redstone (Update 2026 Seri #56). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -6176,7 +6176,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-item-sorter-gudang-otomatis-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Item Sorter Gudang Otomatis (Update 2026 Seri #57)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Item Sorter Gudang | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Item Sorter Gudang Otomatis (Update 2026 Seri #57)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Item Sorter Gudang Otomatis (Update 2026 Seri #57). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -6330,7 +6330,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-furnace-smelter-super-cepat-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Furnace Smelter Super Cepat (Update 2026 Seri #58)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Furnace Smelter Su | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Furnace Smelter Super Cepat (Update 2026 Seri #58)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Furnace Smelter Super Cepat (Update 2026 Seri #58). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -6484,7 +6484,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-brewing-otomatis-potion-generator-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Brewing Otomatis Potion Generator (Update 2026 Seri #59)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Brewing Otomatis P | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Brewing Otomatis Potion Generator (Update 2026 Seri #59)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Brewing Otomatis Potion Generator (Update 2026 Seri #59). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -6638,7 +6638,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-lonceng-alarm-desa-sensor-cahaya-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Lonceng Alarm Desa Sensor Cahaya (Update 2026 Seri #60)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Lonceng Alarm Desa | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Lonceng Alarm Desa Sensor Cahaya (Update 2026 Seri #60)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Lonceng Alarm Desa Sensor Cahaya (Update 2026 Seri #60). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -6792,7 +6792,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-buku-catatan-lectern-rahasia-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Buku Catatan Lectern Rahasia (Update 2026 Seri #61)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Buku Catatan Lecte | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Buku Catatan Lectern Rahasia (Update 2026 Seri #61)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Buku Catatan Lectern Rahasia (Update 2026 Seri #61). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -6946,7 +6946,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-armor-stand-pose-kustom-show-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Armor Stand Pose Kustom Show (Update 2026 Seri #62)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Armor Stand Pose K | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Armor Stand Pose Kustom Show (Update 2026 Seri #62)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Armor Stand Pose Kustom Show (Update 2026 Seri #62). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -7100,7 +7100,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-banner-bendera-desain-keren-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Banner Bendera Desain Keren (Update 2026 Seri #63)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Banner Bendera Des | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Banner Bendera Desain Keren (Update 2026 Seri #63)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Banner Bendera Desain Keren (Update 2026 Seri #63). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -7254,7 +7254,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-pot-bunga-sniffer-biji-kuno-update.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Pot Bunga Sniffer Biji Kuno (Update 2026 Seri #64)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Pot Bunga Sniffer  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Pot Bunga Sniffer Biji Kuno (Update 2026 Seri #64)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Pot Bunga Sniffer Biji Kuno (Update 2026 Seri #64). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -7408,7 +7408,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-sniffer-farm-tanaman-purba-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Sniffer Farm Tanaman Purba (Update 2026 Seri #65)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Sniffer Farm Tanam | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Sniffer Farm Tanaman Purba (Update 2026 Seri #65)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Sniffer Farm Tanaman Purba (Update 2026 Seri #65). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -7562,7 +7562,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-armor-trim-pola-keren-baju-update-.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Armor Trim Pola Keren Baju (Update 2026 Seri #66)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Armor Trim Pola Ke | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Armor Trim Pola Keren Baju (Update 2026 Seri #66)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Armor Trim Pola Keren Baju (Update 2026 Seri #66). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -7716,7 +7716,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-netherite-upgrade-template-duplika.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Netherite Upgrade Template Duplikasi (Update 2026 Seri #67)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Netherite Upgrade  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Netherite Upgrade Template Duplikasi (Update 2026 Seri #67)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Netherite Upgrade Template Duplikasi (Update 2026 Seri #67). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -7870,7 +7870,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-pottery-sherd-arkeologi-pasir-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Pottery Sherd Arkeologi Pasir (Update 2026 Seri #68)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Pottery Sherd Arke | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Pottery Sherd Arkeologi Pasir (Update 2026 Seri #68)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Pottery Sherd Arkeologi Pasir (Update 2026 Seri #68). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8024,7 +8024,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-kuas-arkeologi-kuil-gurun-update-2.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Kuas Arkeologi Kuil Gurun (Update 2026 Seri #69)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Kuas Arkeologi Kui | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Kuas Arkeologi Kuil Gurun (Update 2026 Seri #69)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Kuas Arkeologi Kuil Gurun (Update 2026 Seri #69). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8178,7 +8178,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-sponge-keringkan-monumen-laut-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Sponge Keringkan Monumen Laut (Update 2026 Seri #70)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Sponge Keringkan M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Sponge Keringkan Monumen Laut (Update 2026 Seri #70)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Sponge Keringkan Monumen Laut (Update 2026 Seri #70). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8332,7 +8332,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-kalahkan-elder-guardian-prismarine.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Kalahkan Elder Guardian Prismarine (Update 2026 Seri #71)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Kalahkan Elder Gua | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Kalahkan Elder Guardian Prismarine (Update 2026 Seri #71)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Kalahkan Elder Guardian Prismarine (Update 2026 Seri #71). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8486,7 +8486,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-conduit-jantung-laut-nafas-air-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Conduit Jantung Laut Nafas Air (Update 2026 Seri #72)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Conduit Jantung La | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Conduit Jantung Laut Nafas Air (Update 2026 Seri #72)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Conduit Jantung Laut Nafas Air (Update 2026 Seri #72). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8640,7 +8640,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-beacon-cahaya-kecepatan-haste-2-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Beacon Cahaya Kecepatan Haste 2 (Update 2026 Seri #73)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Beacon Cahaya Kece | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Beacon Cahaya Kecepatan Haste 2 (Update 2026 Seri #73)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Beacon Cahaya Kecepatan Haste 2 (Update 2026 Seri #73). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8794,7 +8794,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-wither-boss-trik-bawah-bedrock-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Wither Boss Trik Bawah Bedrock (Update 2026 Seri #74)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Wither Boss Trik B | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Wither Boss Trik Bawah Bedrock (Update 2026 Seri #74)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Wither Boss Trik Bawah Bedrock (Update 2026 Seri #74). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -8948,7 +8948,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-wither-skeleton-tengkorak-hitam-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Wither Skeleton Tengkorak Hitam (Update 2026 Seri #75)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Wither Skeleton Te | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Wither Skeleton Tengkorak Hitam (Update 2026 Seri #75)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Wither Skeleton Tengkorak Hitam (Update 2026 Seri #75). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -9102,7 +9102,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-nether-fortress-blaze-rod-farm-upd.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Nether Fortress Blaze Rod Farm (Update 2026 Seri #76)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Nether Fortress Bl | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Nether Fortress Blaze Rod Farm (Update 2026 Seri #76)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Nether Fortress Blaze Rod Farm (Update 2026 Seri #76). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -9256,7 +9256,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-piglin-bartering-emas-mutiara-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Piglin Bartering Emas Mutiara (Update 2026 Seri #77)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Piglin Bartering E | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Piglin Bartering Emas Mutiara (Update 2026 Seri #77)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Piglin Bartering Emas Mutiara (Update 2026 Seri #77). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -9410,7 +9410,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-ghast-tear-ramuan-regenerasi-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Ghast Tear Ramuan Regenerasi (Update 2026 Seri #78)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Ghast Tear Ramuan  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Ghast Tear Ramuan Regenerasi (Update 2026 Seri #78)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Ghast Tear Ramuan Regenerasi (Update 2026 Seri #78). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -9564,7 +9564,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-magma-cream-tahan-api-ramuan-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Magma Cream Tahan Api Ramuan (Update 2026 Seri #79)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Magma Cream Tahan  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Magma Cream Tahan Api Ramuan (Update 2026 Seri #79)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Magma Cream Tahan Api Ramuan (Update 2026 Seri #79). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -9718,7 +9718,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-phantom-membrane-membran-elytra-up.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Phantom Membrane Membran Elytra (Update 2026 Seri #80)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Phantom Membrane M | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Phantom Membrane Membran Elytra (Update 2026 Seri #80)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Phantom Membrane Membran Elytra (Update 2026 Seri #80). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -9872,7 +9872,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-turtle-helmet-nafas-air-tambahan-u.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Turtle Helmet Nafas Air Tambahan (Update 2026 Seri #81)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Turtle Helmet Nafa | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Turtle Helmet Nafas Air Tambahan (Update 2026 Seri #81)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Turtle Helmet Nafas Air Tambahan (Update 2026 Seri #81). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -10026,7 +10026,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-trident-riptide-terbang-hujan-upda.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Trident Riptide Terbang Hujan (Update 2026 Seri #82)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Trident Riptide Te | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Trident Riptide Terbang Hujan (Update 2026 Seri #82)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Trident Riptide Terbang Hujan (Update 2026 Seri #82). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
@@ -10180,7 +10180,7 @@ export const minecraftQueueArticles: ArticleItem[] = [
     "coverImage": "/images/blog/minecraft-panduan-lengkap-minecraft-trik-minecraft-mastery-guide-2026-updat.webp",
     "author": "D Lucky X Editorial",
     "title": "Panduan Lengkap Minecraft: Trik Minecraft Mastery Guide 2026 (Update 2026 Seri #83)",
-    "metaTitle": "Panduan Lengkap Minecraft: Trik Minecraft Mastery  | Panduan Lengkap D Lucky X",
+    "metaTitle": "Panduan Lengkap Minecraft: Trik Minecraft Mastery Guide 2026 (Update 2026 Seri #83)",
     "metaDescription": "Ulasan mendalam Panduan Lengkap Minecraft: Trik Minecraft Mastery Guide 2026 (Update 2026 Seri #83). Pelajari rahasia teknis, langkah eksekusi pro, rekomendasi setup resmi, dan tips menang konsisten 2026.",
     "keywords": [
       "minecraft",
