@@ -39,4 +39,6 @@ export interface ArticleItem {
   englishSummary: string;
   sectionsEn: ArticleSection[];
   faqEn: { q: string; a: string }[];
+  // Older templated posts kept live for their URLs but hidden from search until rewritten.
+  noindex?: boolean;
 }

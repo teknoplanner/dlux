@@ -93,6 +93,7 @@ try {
 
   // Indonesian Blog Articles
   for (const art of allArticles) {
+    if (art.noindex) continue;
     const artDate = new Date(art.publishedDate).toISOString();
     const slugEn = art.slugEn || art.slug;
     addUrl(`${baseUrl}/blog/${art.slug}/`, artDate, "weekly", "0.8", [
@@ -103,6 +104,7 @@ try {
 
   // English Blog Articles
   for (const art of allArticles) {
+    if (art.noindex) continue;
     const artDate = new Date(art.publishedDate).toISOString();
     const slugEn = art.slugEn || art.slug;
     addUrl(`${baseUrl}/en/blog/${slugEn}/`, artDate, "weekly", "0.8", [

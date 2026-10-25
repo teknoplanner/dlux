@@ -30,6 +30,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title: { absolute: `${seoTitle(article.metaTitle)} | D Lucky X` },
     description: seoDescription(article.metaDescription),
     keywords: article.keywords,
+    robots: article.noindex ? { index: false, follow: true } : undefined,
     alternates: {
       canonical: `${developer.website}/blog/${article.slug}/`,
       languages: {
