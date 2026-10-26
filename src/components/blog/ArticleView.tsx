@@ -75,9 +75,11 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
 
   const articleSchema = generateArticleSchema(article, targetApp, lang);
   const faqSchema = generateFaqSchema(faq);
+  const categoryName = article.category.charAt(0).toUpperCase() + article.category.slice(1);
   const breadcrumb = generateBreadcrumbSchema([
     { name: t.home, url: `${developer.website}/` },
     { name: "Blog", url: `${developer.website}${t.blogPath}` },
+    { name: categoryName, url: `${developer.website}${t.blogPath}?category=${article.category}` },
     { name: title, url },
   ]);
   const otherHref = isEn ? `/blog/${article.slug}/` : `/en/blog/${article.slugEn}/`;
@@ -96,6 +98,13 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
               <Link href="/" className="inline-flex items-center min-h-[44px] hover:text-slate-950">{t.home}</Link>
               <span aria-hidden="true">/</span>
               <Link href={t.blogPath} className="inline-flex items-center min-h-[44px] hover:text-slate-950">Blog</Link>
+              <span aria-hidden="true">/</span>
+              <Link
+                href={`${t.blogPath}?category=${article.category}`}
+                className="inline-flex items-center min-h-[44px] hover:text-slate-950 capitalize font-medium text-emerald-800"
+              >
+                {article.category}
+              </Link>
             </nav>
             <Link href={otherHref} hrefLang={isEn ? "id" : "en"} className="inline-flex items-center min-h-[44px] px-4 rounded-lg border border-slate-300 font-bold text-slate-800 hover:bg-slate-100">
               {t.other}
@@ -164,6 +173,32 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                     </section>
                     {idx === 0 && targetApp && <AppCtaBanner app={targetApp} variant="inline" lang={lang} />}
                     {idx === 1 && affiliate.length > 0 && <AmazonInlineCallout product={affiliate[0]} lang={lang} />}
+                    {idx === 1 && related.length > 0 && (
+                      <aside className="my-8 rounded-xl border border-emerald-200 bg-emerald-50/60 p-5 not-prose">
+                        <p className="font-display font-bold text-sm text-emerald-900 uppercase tracking-wider mb-2 flex items-center gap-2">
+                          <span className="w-2 h-2 rounded-full bg-emerald-600 inline-block" />
+                          {isEn ? "Recommended in this Topic Silo" : "Panduan Rekomendasi Terkait"}
+                        </p>
+                        <ul className="space-y-2.5">
+                          {related.slice(0, 2).map((relArt) => {
+                            const relTitle = isEn ? relArt.titleEn : relArt.title;
+                            const relSlug = isEn ? relArt.slugEn || relArt.slug : relArt.slug;
+                            const relHref = `${isEn ? "/en/blog/" : "/blog/"}${relSlug}/`;
+                            return (
+                              <li key={relArt.slug} className="flex items-start gap-2 text-base">
+                                <span className="text-emerald-700 font-bold shrink-0">→</span>
+                                <Link
+                                  href={relHref}
+                                  className="font-bold text-slate-900 hover:text-emerald-800 underline underline-offset-2 decoration-emerald-400 hover:decoration-emerald-700 transition-colors"
+                                >
+                                  {relTitle}
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </aside>
+                    )}
                   </React.Fragment>
                 ))}
               </div>

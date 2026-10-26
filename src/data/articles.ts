@@ -39,27 +39,57 @@ export function getArticleBySlug(slug: string): ArticleItem | undefined {
   return articles.find((article) => article.slug === slug || article.slugEn === slug);
 }
 
-export function getArticlesByApp(appSlug: string): ArticleItem[] {
-  return articles.filter((article) => article.targetAppSlug === appSlug);
+export function getArticlesByApp(appSlug: string, onlyIndexed = true): ArticleItem[] {
+  return articles.filter((article) => {
+    if (article.targetAppSlug !== appSlug) return false;
+    if (onlyIndexed && article.noindex) return false;
+    return true;
+  });
 }
 
 export function getRelatedArticles(currentSlug: string, limit = 3): ArticleItem[] {
   const current = getArticleBySlug(currentSlug);
+  // Strictly filter for indexed articles to channel link equity to ranking URLs
+  const candidates = articles.filter(
+    (a) => !a.noindex && a.slug !== currentSlug && a.slugEn !== currentSlug
+  );
+
   if (!current) {
-    return articles
-      .filter((article) => article.slug !== currentSlug && article.slugEn !== currentSlug)
-      .slice(0, limit);
+    return candidates.slice(0, limit);
   }
 
-  const sameApp = articles.filter(
-    (a) => a.slug !== current.slug && a.slugEn !== current.slugEn && a.targetAppSlug === current.targetAppSlug
+  const currentWords = new Set(
+    `${current.slug} ${(current.keywords || []).join(" ")}`
+      .toLowerCase()
+      .split(/[^a-z0-9]+/)
+      .filter((w) => w.length > 3)
   );
-  if (sameApp.length >= limit) {
-    return sameApp.slice(0, limit);
-  }
 
-  const otherApp = articles.filter(
-    (a) => a.slug !== current.slug && a.slugEn !== current.slugEn && a.targetAppSlug !== current.targetAppSlug
-  );
-  return [...sameApp, ...otherApp].slice(0, limit);
+  // Score candidate articles for topical silo affinity
+  const scored = candidates.map((a) => {
+    let score = 0;
+    // 1. Same target app (Hub-and-spoke cluster)
+    if (a.targetAppSlug === current.targetAppSlug) score += 50;
+    // 2. Same category silo (Gaming, Productivity, Education, etc.)
+    if (a.category === current.category) score += 30;
+
+    // 3. Keyword / sub-topic alignment
+    const candWords = `${a.slug} ${(a.keywords || []).join(" ")}`
+      .toLowerCase()
+      .split(/[^a-z0-9]+/)
+      .filter((w) => w.length > 3);
+
+    for (const w of candWords) {
+      if (currentWords.has(w)) score += 15;
+    }
+
+    return { article: a, score };
+  });
+
+  scored.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return new Date(b.article.publishedDate).getTime() - new Date(a.article.publishedDate).getTime();
+  });
+
+  return scored.slice(0, limit).map((s) => s.article);
 }

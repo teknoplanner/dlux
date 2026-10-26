@@ -168,8 +168,11 @@ export default function AppDetailPage({ params }: PageProps) {
             <section aria-labelledby="guides" className="pt-12 border-t border-slate-200">
               <div className="flex items-baseline justify-between gap-4 mb-6">
                 <h2 id="guides" className="font-display font-bold text-2xl text-slate-950">Panduan dan tips untuk {app.name}</h2>
-                <Link href="/blog/" className="inline-flex items-center min-h-[44px] text-sm font-bold text-emerald-800 underline underline-offset-4 shrink-0">
-                  Semua artikel
+                <Link
+                  href={`/blog/?category=${app.category === "tool" ? "productivity" : app.category === "education" ? "education" : "gaming"}`}
+                  className="inline-flex items-center min-h-[44px] text-sm font-bold text-emerald-800 underline underline-offset-4 shrink-0"
+                >
+                  Semua artikel {categoryLabel}
                 </Link>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

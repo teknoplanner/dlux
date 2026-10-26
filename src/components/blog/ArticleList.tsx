@@ -1,9 +1,18 @@
 "use client";
 
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { ArticleCard, CardArticle } from "@/components/blog/ArticleCard";
 
 const PER_PAGE = 9;
+const categories = [
+  { id: "all", labelId: "Semua Topik", labelEn: "All Topics" },
+  { id: "gaming", labelId: "Gaming", labelEn: "Gaming" },
+  { id: "productivity", labelId: "Produktivitas", labelEn: "Productivity" },
+  { id: "education", labelId: "Edukasi Anak", labelEn: "Kids & Learning" },
+  { id: "finance", labelId: "Keuangan", labelEn: "Finance" },
+  { id: "lifestyle", labelId: "Gear / Aksesoris", labelEn: "Hardware Gear" },
+] as const;
+
 const copy = {
   id: { heading: "Semua artikel", label: "Cari artikel", ph: "Cari judul atau topik", found: "artikel ditemukan", none: "Tidak ada artikel yang cocok. Coba kata kunci lain.", prev: "Sebelumnya", next: "Berikutnya", page: "Halaman", nav: "Halaman artikel" },
   en: { heading: "All articles", label: "Search articles", ph: "Search by title or topic", found: "articles found", none: "No articles match. Try another keyword.", prev: "Previous", next: "Next", page: "Page", nav: "Article pages" },
@@ -14,16 +23,33 @@ const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9\s]/g, " ");
 export function ArticleList({ items, lang }: { items: CardArticle[]; lang: "id" | "en" }) {
   const t = copy[lang];
   const isEn = lang === "en";
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [q, setQ] = useState("");
   const [page, setPage] = useState(1);
   const top = useRef<HTMLHeadingElement>(null);
 
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get("category");
+      if (cat && categories.some((c) => c.id === cat)) {
+        setSelectedCategory(cat);
+      }
+    }
+  }, []);
+
+  // First filter by category silo
+  const catFiltered = useMemo(() => {
+    if (selectedCategory === "all") return items;
+    return items.filter((a) => a.category === selectedCategory);
+  }, [items, selectedCategory]);
+
   const index = useMemo(
-    () => items.map((a) => norm(`${isEn ? a.titleEn : a.title} ${isEn ? a.metaDescriptionEn : a.metaDescription} ${a.category}`)),
-    [items, isEn]
+    () => catFiltered.map((a) => norm(`${isEn ? a.titleEn : a.title} ${isEn ? a.metaDescriptionEn : a.metaDescription} ${a.category}`)),
+    [catFiltered, isEn]
   );
   const terms = norm(q).split(/\s+/).filter(Boolean);
-  const matches = terms.length ? items.filter((_, i) => terms.every((w) => index[i].includes(w))) : items;
+  const matches = terms.length ? catFiltered.filter((_, i) => terms.every((w) => index[i].includes(w))) : catFiltered;
   const pages = Math.max(1, Math.ceil(matches.length / PER_PAGE));
   const cur = Math.min(page, pages);
   const shown = matches.slice((cur - 1) * PER_PAGE, cur * PER_PAGE);
@@ -44,6 +70,31 @@ export function ArticleList({ items, lang }: { items: CardArticle[]; lang: "id" 
       <h2 id="all" ref={top} className="font-display font-bold text-xl text-slate-900 mb-4">
         {t.heading}
       </h2>
+
+      {/* Category Silo Filter Pills */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {categories.map((c) => {
+          const active = selectedCategory === c.id;
+          return (
+            <button
+              key={c.id}
+              type="button"
+              onClick={() => {
+                setSelectedCategory(c.id);
+                setPage(1);
+              }}
+              className={`inline-flex items-center min-h-[38px] px-4 rounded-full text-sm font-bold transition-all ${
+                active
+                  ? "bg-emerald-700 text-white shadow-xs"
+                  : "bg-white border border-slate-300 text-slate-700 hover:bg-slate-100 hover:border-slate-400"
+              }`}
+            >
+              {isEn ? c.labelEn : c.labelId}
+            </button>
+          );
+        })}
+      </div>
+
       <div className="mb-6 max-w-md">
         <label htmlFor="article-search" className="sr-only">
           {t.label}
