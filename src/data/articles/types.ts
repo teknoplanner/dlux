@@ -3,6 +3,10 @@ export interface ArticleSection {
   title: string;
   content: string[];
   bulletPoints?: string[];
+  table?: {
+    headers: string[];
+    rows: string[][];
+  };
   tipBox?: {
     title: string;
     text: string;

@@ -91,7 +91,12 @@ export function generateArticleSchema(
       "@id": pageUrl,
     },
     keywords,
-    inLanguage: isEn ? "en" : "id",
+    inLanguage: isEn ? "en-US" : "id-ID",
+    isAccessibleForFree: true,
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: [".ai-summary", "h1", "article header p"],
+    },
     ...(app
       ? {
           about: {

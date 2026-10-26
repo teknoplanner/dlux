@@ -2504,6 +2504,16 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Gerakan cepat atau terbang untuk berpindah antar spawn.",
           "Contoh yang lama dikenal kuat untuk grinding: Magma dan Light di awal game, serta Buddha karena ukurannya membuat jangkauan serangan jauh lebih besar."
         ],
+        "table": {
+          "headers": ["Nama Buah", "Tipe", "Peran Utama", "Keunggulan"],
+          "rows": [
+            ["Buddha", "Beast", "Grinding & Raid (S-Tier)", "Jangkauan melee raksasa, damage reduction masif"],
+            ["Magma (Awakened)", "Elemental", "Sea Beast & Boss (S-Tier)", "Damage tertinggi per detik di seluruh game"],
+            ["Light", "Elemental", "Early Leveling Sea 1 (A-Tier)", "Terbang tercepat, elemental immunity terhadap mob biasa"],
+            ["Dough (Awakened)", "Special Paramecia", "PvP & Combo (S-Tier)", "Stun beruntun dan kombo lock yang mematikan"],
+            ["Kitsune / Dragon", "Beast / Mythical", "PvP & Speed (S-Tier)", "Mobilitas ekstrem dan burst damage jarak jauh"]
+          ]
+        },
         "tipBox": {
           "title": "Jangan buru-buru membangkitkan",
           "text": "Untuk pemain baru, buah sedang yang Anda kuasai lebih berguna daripada buah langka yang belum Anda pahami. Fokus naik level dulu sampai Sea 2.",
@@ -2585,6 +2595,16 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Fast movement or flight to travel between spawns.",
           "Long-standing grinding favorites: Magma and Light early on, and Buddha because its size greatly extends attack range."
         ],
+        "table": {
+          "headers": ["Devil Fruit", "Type", "Primary Role", "Key Advantage"],
+          "rows": [
+            ["Buddha", "Beast", "Grinding & Raids (S-Tier)", "Massive melee hitboxes, incredible damage reduction"],
+            ["Magma (Awakened)", "Elemental", "Sea Beasts & Bosses (S-Tier)", "Highest DPS damage output across the game"],
+            ["Light", "Elemental", "Early Sea 1 Leveling (A-Tier)", "Fastest travel speed, elemental immunity to low mobs"],
+            ["Dough (Awakened)", "Special Paramecia", "PvP & Combos (S-Tier)", "Relentless crowd-control and one-shot combo locks"],
+            ["Kitsune / Dragon", "Beast / Mythical", "PvP & Mobility (S-Tier)", "Extreme passive speed and high burst AOE damage"]
+          ]
+        },
         "tipBox": {
           "title": "Don't rush awakening",
           "text": "For new players, a mid-tier fruit you understand beats a rare fruit you do not. Focus on leveling to Sea 2 first.",
@@ -17855,7 +17875,17 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Infinity (S Tier): Gravitasi penahan bola absolut, sangat ramah pemula dan mutlak berguna di babak final 1v1.",
           "Rapture (S Tier): Serangan lompat vertikal yang mengubah arah lintasan bola dari atas ke bawah secara mendadak.",
           "Reaper (S Tier): Scaling kecepatan pasif yang membuat karakter Anda mustahil dikejar saat ronde memasuki fase late game."
-        ]
+        ],
+        "table": {
+          "headers": ["Skill Blade Ball", "Tier", "Tipe Bermain", "Kelebihan Utama"],
+          "rows": [
+            ["Infinity", "S-Tier", "Defensif / 1v1", "Menahan bola di udara 3 detik, menghapus panik bola cepat"],
+            ["Rapture", "S-Tier", "Ofensif / Smash", "Melompat tinggi dan membanting bola ke bawah dengan speed 2x"],
+            ["Reaper", "S-Tier", "Snowball / Speed", "Kecepatan lari dan cooldown parry makin kencang per kill"],
+            ["Forcefield", "A-Tier", "Auto Parry", "Menangkis bola otomatis 1 kali saat Anda salah timing"],
+            ["Dash / Blink", "B-Tier", "Mobilitas Pemula", "Relokasi posisi cepat dengan cooldown sangat singkat"]
+          ]
+        }
       },
       {
         "id": "skill-tier-a-taktis",
@@ -17929,7 +17959,17 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Infinity (S Tier): Absolute kinetic suspension, forgiving for connection lag and dominant during 1v1 showdowns.",
           "Rapture (S Tier): High-angle aerial slams that completely alter incoming projectile trajectories.",
           "Reaper (S Tier): Stacking momentum scaling that renders your avatar hyper-mobile in endgame stages."
-        ]
+        ],
+        "table": {
+          "headers": ["Blade Ball Ability", "Tier", "Playstyle Focus", "Key Strategic Advantage"],
+          "rows": [
+            ["Infinity", "S-Tier", "Defensive / 1v1", "Freezes ball kinetic energy for 3s, eliminates close-range panic"],
+            ["Rapture", "S-Tier", "Offensive / Smash", "Launches aerial spike downward with 2x compounded exit velocity"],
+            ["Reaper", "S-Tier", "Snowball / Speed", "Permanently increases movement speed and parry cooldown per takedown"],
+            ["Forcefield", "A-Tier", "Auto Parry", "Automatically returns one lethal projectile when timing is missed"],
+            ["Dash / Blink", "B-Tier", "Beginner Mobility", "Instant repositioning tool on a very short reset timer"]
+          ]
+        }
       },
       {
         "id": "tactical-a-tier-en",

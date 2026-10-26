@@ -133,6 +133,21 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                 <ArticleCover article={article} />
               </div>
 
+              {/* AI Key Takeaways & Direct Answer (GEO Optimized) */}
+              <aside className="ai-summary mt-8 p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200 shadow-sm not-prose" aria-label={isEn ? "Key Takeaways" : "Ringkasan Poin Kunci"}>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-600 text-white text-xs font-bold" aria-hidden="true">
+                    ✓
+                  </span>
+                  <p className="font-display font-bold text-emerald-950 text-base">
+                    {isEn ? "Quick Answer & Key Takeaways" : "Ringkasan Inti & Poin Kunci"}
+                  </p>
+                </div>
+                <p className="text-slate-700 text-base leading-relaxed">
+                  {description}
+                </p>
+              </aside>
+
               {!isEn && article.englishSummary && (
                 <p className="mt-8 text-slate-700 leading-relaxed">
                   <span className="font-bold text-slate-900">{t.summary}: </span>
@@ -164,6 +179,32 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                           ))}
                         </ul>
                       ) : null}
+                      {section.table && (
+                        <div className="my-6 overflow-x-auto rounded-xl border border-slate-200 bg-white">
+                          <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+                            <thead className="bg-slate-50 font-display font-bold text-slate-900">
+                              <tr>
+                                {section.table.headers.map((h, i) => (
+                                  <th key={i} scope="col" className="px-4 py-3 sm:px-6">
+                                    {h}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-100 text-slate-700">
+                              {section.table.rows.map((row, rIdx) => (
+                                <tr key={rIdx} className={rIdx % 2 === 0 ? "bg-white" : "bg-slate-50/50"}>
+                                  {row.map((cell, cIdx) => (
+                                    <td key={cIdx} className="px-4 py-3 sm:px-6">
+                                      <FormattedText text={cell} />
+                                    </td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
                       {section.tipBox && (
                         <div className={`rounded-xl border p-5 ${section.tipBox.type === "warning" ? "border-amber-300 bg-amber-50" : "border-slate-300 bg-white"}`}>
                           <p className="font-display font-bold text-slate-950">{section.tipBox.title}</p>
