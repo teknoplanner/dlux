@@ -9,6 +9,7 @@ import { ArticleCover } from "@/components/blog/ArticleCover";
 import { FormattedText } from "@/components/blog/FormattedText";
 import { StickyLeftAd } from "@/components/blog/StickyLeftAd";
 import { InArticleAd } from "@/components/blog/InArticleAd";
+import { SocialShare } from "@/components/blog/SocialShare";
 import { AmazonGearShowcase, AmazonInlineCallout } from "@/components/blog/AmazonProductCard";
 import { getAmazonProductsByCategory, getAmazonProductsByIds } from "@/data/amazonProducts";
 import { generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from "@/lib/seo";
@@ -207,6 +208,8 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
 
               {affiliate.length > 0 && <AmazonGearShowcase products={affiliate} lang={lang} title={gearTitle} subtitle={gearSub} />}
               {targetApp && <AppCtaBanner app={targetApp} variant="bottom" lang={lang} />}
+
+              <SocialShare url={url} title={title} lang={lang} />
 
               {faq && faq.length > 0 && (
                 <section id="faq" className="scroll-mt-28 mt-12">

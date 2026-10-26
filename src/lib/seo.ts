@@ -73,9 +73,9 @@ export function generateArticleSchema(
     datePublished: article.publishedDate,
     dateModified: article.publishedDate,
     author: {
-      "@type": "Organization",
-      name: developer.name,
-      url: developer.website,
+      "@type": "Person",
+      name: article.author || developer.name,
+      url: `${developer.website}/contact/`,
     },
     publisher: {
       "@type": "Organization",
