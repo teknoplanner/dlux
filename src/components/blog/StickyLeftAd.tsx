@@ -76,10 +76,10 @@ export function StickyLeftAd() {
 
   return (
     <aside
-      className="hidden xl:block w-[160px] shrink-0"
+      className="hidden xl:block w-[160px] shrink-0 self-stretch"
       aria-label="Iklan Sponsor"
     >
-      <div className="sticky top-28 w-[160px] overflow-hidden">
+      <div className="sticky top-24 w-[160px] overflow-hidden">
         <span className="block text-[10px] text-slate-400 font-medium uppercase tracking-wider text-center mb-1">
           Sponsor
         </span>

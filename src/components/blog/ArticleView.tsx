@@ -281,8 +281,8 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
               )}
             </article>
 
-            <aside className="hidden lg:block w-[260px] shrink-0">
-              <div className="sticky top-28 space-y-6">
+            <aside className="hidden lg:block w-[260px] shrink-0 self-stretch">
+              <div className="sticky top-24 space-y-6">
                 <TableOfContents sections={sections} lang={lang} hasFaq={Boolean(faq?.length)} />
                 {targetApp && (
                   <div className="p-4 rounded-2xl border border-slate-200 bg-white shadow-sm text-center not-prose">
@@ -295,8 +295,18 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                         className="rounded-xl shadow-xs"
                       />
                     </div>
-                    <span className="inline-block px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[10px] font-bold uppercase tracking-wider mb-1">
-                      {isEn ? "Featured Game" : "Game Resmi Studio"}
+                    <span className="inline-block px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[10px] font-bold uppercase tracking-wider mb-1">
+                      {targetApp.category === "game"
+                        ? isEn
+                          ? "Featured Game"
+                          : "Game Resmi Studio"
+                        : targetApp.category === "education"
+                        ? isEn
+                          ? "Educational App"
+                          : "Aplikasi Edukasi"
+                        : isEn
+                        ? "Productivity Tool"
+                        : "Aplikasi Resmi Studio"}
                     </span>
                     <p className="font-display font-bold text-sm text-slate-900 leading-tight">
                       {targetApp.name}
@@ -310,7 +320,13 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                       rel="noopener noreferrer"
                       className="mt-3 inline-flex items-center justify-center w-full min-h-[36px] px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs transition-colors shadow-xs"
                     >
-                      {isEn ? "Get on Google Play" : "Install di Google Play"}
+                      {targetApp.category === "game"
+                        ? isEn
+                          ? "Play on Google Play"
+                          : "Mainkan di Google Play"
+                        : isEn
+                        ? "Get on Google Play"
+                        : "Install di Google Play"}
                     </a>
                   </div>
                 )}
