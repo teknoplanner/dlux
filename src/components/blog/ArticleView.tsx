@@ -8,6 +8,7 @@ import { ArticleCard } from "@/components/blog/ArticleCard";
 import { ArticleCover } from "@/components/blog/ArticleCover";
 import { FormattedText } from "@/components/blog/FormattedText";
 import { StickyLeftAd } from "@/components/blog/StickyLeftAd";
+import { InArticleAd } from "@/components/blog/InArticleAd";
 import { AmazonGearShowcase, AmazonInlineCallout } from "@/components/blog/AmazonProductCard";
 import { getAmazonProductsByCategory, getAmazonProductsByIds } from "@/data/amazonProducts";
 import { generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from "@/lib/seo";
@@ -199,6 +200,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                         </ul>
                       </aside>
                     )}
+                    {idx === Math.min(2, Math.max(0, sections.length - 1)) && <InArticleAd />}
                   </React.Fragment>
                 ))}
               </div>
