@@ -1,17 +1,83 @@
-import { AppItem, developer } from "@/data/apps";
+import { AppItem, apps, developer } from "@/data/apps";
 import { ArticleItem } from "@/data/articles";
 import { AmazonProduct } from "@/data/amazonProducts";
 
 export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: developer.name,
-    url: developer.website,
-    logo: `${developer.website}/images/logo.png`,
-    sameAs: [developer.playStoreUrl],
-    description: developer.tagline,
-    email: developer.email,
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${developer.website}/#organization`,
+        name: developer.name,
+        alternateName: ["D Lucky X Studio", "D Lucky X Android Games & Apps"],
+        url: developer.website,
+        logo: {
+          "@type": "ImageObject",
+          "@id": `${developer.website}/#logo`,
+          url: `${developer.website}/images/logo.png`,
+          contentUrl: `${developer.website}/images/logo.png`,
+          caption: "D Lucky X Studio Logo",
+          width: "512",
+          height: "512",
+        },
+        image: {
+          "@id": `${developer.website}/#logo`,
+        },
+        sameAs: [
+          developer.playStoreUrl,
+          "https://github.com/teknoplanner",
+        ],
+        email: developer.email,
+        description: developer.description,
+        knowsAbout: [
+          "Android Game Development",
+          "Casual and Sports Mobile Games",
+          "Offline PDF Utility and Security",
+          "Kids Math Educational Games",
+          "Android Software Engineering",
+        ],
+        contactPoint: {
+          "@type": "ContactPoint",
+          email: developer.email,
+          contactType: "technical support",
+          url: `${developer.website}/contact/`,
+        },
+        owns: apps.map((app) => ({
+          "@type": app.category === "game" ? "VideoGame" : "SoftwareApplication",
+          name: app.name,
+          operatingSystem: "Android",
+          applicationCategory:
+            app.category === "game"
+              ? "GameApplication"
+              : app.category === "education"
+              ? "EducationalApplication"
+              : "BusinessApplication",
+          url: `${developer.website}/apps/${app.slug}/`,
+          installUrl: app.playUrl,
+        })),
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${developer.website}/#website`,
+        url: developer.website,
+        name: "D Lucky X",
+        alternateName: "D Lucky X Games & Apps",
+        description: developer.tagline,
+        publisher: {
+          "@id": `${developer.website}/#organization`,
+        },
+        inLanguage: ["id-ID", "en-US"],
+        potentialAction: {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: `${developer.website}/blog/?q={search_term_string}`,
+          },
+          "query-input": "required name=search_term_string",
+        },
+      },
+    ],
   };
 }
 
@@ -20,9 +86,15 @@ export function generateSoftwareAppSchema(app: AppItem) {
   return {
     "@context": "https://schema.org",
     "@type": isGame ? "VideoGame" : "SoftwareApplication",
+    "@id": `${developer.website}/apps/${app.slug}/#app`,
     name: app.name,
     operatingSystem: "Android",
-    applicationCategory: isGame ? "GameApplication" : "EducationalApplication",
+    applicationCategory:
+      app.category === "game"
+        ? "GameApplication"
+        : app.category === "education"
+        ? "EducationalApplication"
+        : "BusinessApplication",
     description: app.description,
     image: `${developer.website}${app.icon}`,
     offers: {
@@ -32,9 +104,19 @@ export function generateSoftwareAppSchema(app: AppItem) {
     },
     author: {
       "@type": "Organization",
+      "@id": `${developer.website}/#organization`,
       name: developer.name,
       url: developer.website,
     },
+    publisher: {
+      "@type": "Organization",
+      "@id": `${developer.website}/#organization`,
+      name: developer.name,
+      url: developer.website,
+    },
+    downloadUrl: app.playUrl,
+    installUrl: app.playUrl,
+    sameAs: [app.playUrl],
     // Only real Play Store counts: a made-up ratingCount is misleading markup to Google.
     ...(app.rating && app.reviewsCount
       ? {
@@ -47,7 +129,6 @@ export function generateSoftwareAppSchema(app: AppItem) {
           },
         }
       : {}),
-    installUrl: app.playUrl,
   };
 }
 
@@ -79,12 +160,20 @@ export function generateArticleSchema(
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${developer.website}/#organization`,
       name: developer.name,
       url: developer.website,
       logo: {
         "@type": "ImageObject",
+        "@id": `${developer.website}/#logo`,
         url: `${developer.website}/images/logo.png`,
       },
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": `${developer.website}/#website`,
+      name: "D Lucky X",
+      url: developer.website,
     },
     mainEntityOfPage: {
       "@type": "WebPage",
