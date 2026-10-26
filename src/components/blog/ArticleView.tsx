@@ -11,6 +11,9 @@ import { FormattedText } from "@/components/blog/FormattedText";
 import { StickyLeftAd } from "@/components/blog/StickyLeftAd";
 import { InArticleAd } from "@/components/blog/InArticleAd";
 import { SocialShare } from "@/components/blog/SocialShare";
+import { FeedbackWidget } from "@/components/blog/FeedbackWidget";
+import { ScrollProgressBar } from "@/components/blog/ScrollProgressBar";
+import { FloatingNavControls } from "@/components/blog/FloatingNavControls";
 import { AmazonGearShowcase, AmazonInlineCallout } from "@/components/blog/AmazonProductCard";
 import { getAmazonProductsByCategory, getAmazonProductsByIds } from "@/data/amazonProducts";
 import { generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from "@/lib/seo";
@@ -100,6 +103,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <ScrollProgressBar />
       <div className="read-progress" aria-hidden="true" />
 
       <div className="bg-[#fafaf9] pt-28 pb-24">
@@ -259,6 +263,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
               {affiliate.length > 0 && <AmazonGearShowcase products={affiliate} lang={lang} title={gearTitle} subtitle={gearSub} />}
               {targetApp && <AppCtaBanner app={targetApp} variant="bottom" lang={lang} />}
 
+              <FeedbackWidget articleSlug={article.slug} lang={lang} />
               <SocialShare url={url} title={title} lang={lang} />
 
               {faq && faq.length > 0 && (
@@ -352,6 +357,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
         </div>
       </div>
 
+      <FloatingNavControls lang={lang} />
     </>
   );
 }
