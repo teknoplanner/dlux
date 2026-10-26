@@ -27,8 +27,6 @@ const copy = {
     faq: "Pertanyaan yang sering diajukan",
     related: "Panduan lainnya",
     all: "Semua artikel",
-    summary: "Ringkasan dalam bahasa Inggris",
-    readEn: "Baca versi lengkap dalam bahasa Inggris",
     gear: {
       gaming: ["Aksesoris untuk sesi bermain panjang", "HP yang panas dan jari yang berkeringat sering mengganggu permainan. Ini aksesoris yang bisa membantu."],
       education: ["Aksesoris tablet untuk belajar anak", "Lindungi tablet dari benturan dan bantu anak melatih genggaman dengan aksesoris yang aman."],
@@ -43,8 +41,6 @@ const copy = {
     faq: "Frequently asked questions",
     related: "More guides",
     all: "All articles",
-    summary: "",
-    readEn: "",
     gear: {
       gaming: ["Accessories for longer play sessions", "Heat and sweaty fingers often hold gameplay back. These accessories can help."],
       education: ["Tablet accessories for kids learning", "Protect the tablet from drops and help children practice their grip with child-safe accessories."],
@@ -146,9 +142,9 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                 <ArticleCover article={article} />
               </div>
 
-              {/* AI Key Takeaways & Direct Answer (GEO Optimized) */}
-              <aside className="ai-summary mt-8 p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200 shadow-sm not-prose" aria-label={isEn ? "Key Takeaways" : "Ringkasan Poin Kunci"}>
-                <div className="flex items-center gap-2 mb-2">
+              {/* AI Key Takeaways & Direct Answer (GEO / Direct Answers) */}
+              <aside className="ai-summary mt-8 p-5 sm:p-6 rounded-2xl bg-emerald-50/70 border border-emerald-200 shadow-sm not-prose" aria-label={isEn ? "Key Takeaways" : "Ringkasan Poin Kunci"}>
+                <div className="flex items-center gap-2 mb-3">
                   <span className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-600 text-white text-xs font-bold" aria-hidden="true">
                     ✓
                   </span>
@@ -156,18 +152,23 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                     {isEn ? "Quick Answer & Key Takeaways" : "Ringkasan Inti & Poin Kunci"}
                   </p>
                 </div>
-                <p className="text-slate-700 text-base leading-relaxed">
-                  {description}
-                </p>
+                <ul className="space-y-2.5">
+                  {sections.slice(0, 3).map((s) => {
+                    const firstParagraph = s.content[0] || "";
+                    const firstSentence = firstParagraph.split(". ")[0].replace(/^["'#*`]+|["'#*`]+$/g, "").trim();
+                    const cleanSentence = firstSentence.endsWith(".") ? firstSentence : `${firstSentence}.`;
+                    return (
+                      <li key={s.id} className="flex items-start gap-2.5 text-sm sm:text-base text-slate-800 leading-relaxed">
+                        <span className="text-emerald-700 font-bold shrink-0 mt-0.5" aria-hidden="true">▸</span>
+                        <span>
+                          <strong className="text-slate-950 font-semibold">{s.title}: </strong>
+                          <FormattedText text={cleanSentence} />
+                        </span>
+                      </li>
+                    );
+                  })}
+                </ul>
               </aside>
-
-              {!isEn && article.englishSummary && (
-                <p className="mt-8 text-slate-700 leading-relaxed">
-                  <span className="font-bold text-slate-900">{t.summary}: </span>
-                  {article.englishSummary}{" "}
-                  <Link href={otherHref} className="font-bold text-emerald-800 underline underline-offset-4">{t.readEn}</Link>
-                </p>
-              )}
 
               <div className="lg:hidden mt-8 rounded-xl border border-slate-200 bg-white p-4">
                 <TableOfContents sections={sections} lang={lang} hasFaq={Boolean(faq?.length)} />
