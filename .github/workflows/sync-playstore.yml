@@ -40,8 +40,12 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           if [[ -n $(git status --porcelain) ]]; then
-            git add src/data/apps.ts public/images/apps/ scripts/playstore-full.json public/sitemap.xml public/rss.xml
+            git add src/data/apps.ts scripts/playstore-full.json public/sitemap.xml public/feed.xml
+            if [[ -d "public/images/apps" ]]; then
+              git add public/images/apps/
+            fi
             git commit -m "chore(playstore): auto-crawl and sync apps from Google Play Store"
+            git pull --rebase origin main
             git push origin main
           else
             echo "No Play Store changes or new apps detected."

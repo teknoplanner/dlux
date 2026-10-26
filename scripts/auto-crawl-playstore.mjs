@@ -135,48 +135,81 @@ async function downloadAndOptimizeImage(srcUrl, outPath, width, height, fit = "c
   try {
     res = await fetch(fullUrl, {
       headers: { "User-Agent": USER_AGENT },
+      signal: AbortSignal.timeout(15000),
     });
-  } catch (err) {
+  } catch {
     res = null;
   }
 
   if (!res || !res.ok) {
-    res = await fetch(srcUrl, { headers: { "User-Agent": USER_AGENT } });
+    try {
+      res = await fetch(srcUrl, {
+        headers: { "User-Agent": USER_AGENT },
+        signal: AbortSignal.timeout(15000),
+      });
+    } catch {
+      res = null;
+    }
   }
 
-  if (!res.ok) {
-    throw new Error(`Failed to download ${srcUrl}: HTTP ${res.status}`);
+  if (!res || !res.ok) {
+    console.warn(`  [WARN] Could not download image ${srcUrl}`);
+    return;
   }
 
-  const buf = Buffer.from(await res.arrayBuffer());
-  await sharp(buf)
-    .resize(width, height, { fit, kernel: sharp.kernel.lanczos3, withoutEnlargement: true })
-    .webp({ quality: 90 })
-    .toFile(outPath);
+  try {
+    const buf = Buffer.from(await res.arrayBuffer());
+    await sharp(buf)
+      .resize(width, height, { fit, kernel: sharp.kernel.lanczos3, withoutEnlargement: true })
+      .webp({ quality: 90 })
+      .toFile(outPath);
+  } catch (err) {
+    console.warn(`  [WARN] Failed optimizing image to ${outPath}:`, err.message);
+  }
 }
 
 async function fetchPlayStoreApp(packageId) {
   const url = `https://play.google.com/store/apps/details?id=${packageId}&hl=en`;
   console.log(`  Fetching Play Store details for ${packageId}...`);
 
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent": USER_AGENT,
-      "Accept-Language": "en-US,en;q=0.9",
-    },
-  });
+  let res;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      res = await fetch(url, {
+        headers: {
+          "User-Agent": USER_AGENT,
+          "Accept-Language": "en-US,en;q=0.9",
+        },
+        signal: AbortSignal.timeout(20000),
+      });
+      if (res.ok) break;
+    } catch (err) {
+      if (attempt === 2) throw err;
+      await new Promise((r) => setTimeout(r, 1500));
+    }
+  }
 
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} for ${url}`);
+  if (!res || !res.ok) {
+    throw new Error(`HTTP ${res?.status || "TIMEOUT"} for ${url}`);
   }
 
   const html = await res.text();
 
-  const regex = /AF_initDataCallback\(\{key:\s*['"]ds:5['"][\s\S]*?data:([\s\S]*?),\s*sideChannel:/;
-  const match = regex.exec(html);
+  let regex = /AF_initDataCallback\(\{key:\s*['"]ds:5['"][\s\S]*?data:([\s\S]*?),\s*sideChannel:/;
+  let match = regex.exec(html);
 
   if (!match) {
-    throw new Error(`Could not find ds:5 in HTML for ${packageId}`);
+    regex = /AF_initDataCallback\(\{key:\s*['"]ds:[345]['"][\s\S]*?data:([\s\S]*?),\s*sideChannel:/;
+    match = regex.exec(html);
+  }
+
+  if (!match) {
+    regex = /AF_initDataCallback\(\{key:\s*['"]ds:\d+['"][\s\S]*?data:(\[\[[\s\S]*?\]\]),\s*sideChannel:/;
+    match = regex.exec(html);
+  }
+
+  if (!match) {
+    throw new Error(`Could not find data payload in HTML for ${packageId}`);
   }
 
   const d5 = JSON.parse(match[1]);
