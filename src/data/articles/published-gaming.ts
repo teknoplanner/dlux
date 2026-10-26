@@ -2505,13 +2505,43 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Contoh yang lama dikenal kuat untuk grinding: Magma dan Light di awal game, serta Buddha karena ukurannya membuat jangkauan serangan jauh lebih besar."
         ],
         "table": {
-          "headers": ["Nama Buah", "Tipe", "Peran Utama", "Keunggulan"],
+          "headers": [
+            "Nama Buah",
+            "Tipe",
+            "Peran Utama",
+            "Keunggulan"
+          ],
           "rows": [
-            ["Buddha", "Beast", "Grinding & Raid (S-Tier)", "Jangkauan melee raksasa, damage reduction masif"],
-            ["Magma (Awakened)", "Elemental", "Sea Beast & Boss (S-Tier)", "Damage tertinggi per detik di seluruh game"],
-            ["Light", "Elemental", "Early Leveling Sea 1 (A-Tier)", "Terbang tercepat, elemental immunity terhadap mob biasa"],
-            ["Dough (Awakened)", "Special Paramecia", "PvP & Combo (S-Tier)", "Stun beruntun dan kombo lock yang mematikan"],
-            ["Kitsune / Dragon", "Beast / Mythical", "PvP & Speed (S-Tier)", "Mobilitas ekstrem dan burst damage jarak jauh"]
+            [
+              "Buddha",
+              "Beast",
+              "Grinding & Raid (S-Tier)",
+              "Jangkauan melee raksasa, damage reduction masif"
+            ],
+            [
+              "Magma (Awakened)",
+              "Elemental",
+              "Sea Beast & Boss (S-Tier)",
+              "Damage tertinggi per detik di seluruh game"
+            ],
+            [
+              "Light",
+              "Elemental",
+              "Early Leveling Sea 1 (A-Tier)",
+              "Terbang tercepat, elemental immunity terhadap mob biasa"
+            ],
+            [
+              "Dough (Awakened)",
+              "Special Paramecia",
+              "PvP & Combo (S-Tier)",
+              "Stun beruntun dan kombo lock yang mematikan"
+            ],
+            [
+              "Kitsune / Dragon",
+              "Beast / Mythical",
+              "PvP & Speed (S-Tier)",
+              "Mobilitas ekstrem dan burst damage jarak jauh"
+            ]
           ]
         },
         "tipBox": {
@@ -2596,13 +2626,43 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Long-standing grinding favorites: Magma and Light early on, and Buddha because its size greatly extends attack range."
         ],
         "table": {
-          "headers": ["Devil Fruit", "Type", "Primary Role", "Key Advantage"],
+          "headers": [
+            "Devil Fruit",
+            "Type",
+            "Primary Role",
+            "Key Advantage"
+          ],
           "rows": [
-            ["Buddha", "Beast", "Grinding & Raids (S-Tier)", "Massive melee hitboxes, incredible damage reduction"],
-            ["Magma (Awakened)", "Elemental", "Sea Beasts & Bosses (S-Tier)", "Highest DPS damage output across the game"],
-            ["Light", "Elemental", "Early Sea 1 Leveling (A-Tier)", "Fastest travel speed, elemental immunity to low mobs"],
-            ["Dough (Awakened)", "Special Paramecia", "PvP & Combos (S-Tier)", "Relentless crowd-control and one-shot combo locks"],
-            ["Kitsune / Dragon", "Beast / Mythical", "PvP & Mobility (S-Tier)", "Extreme passive speed and high burst AOE damage"]
+            [
+              "Buddha",
+              "Beast",
+              "Grinding & Raids (S-Tier)",
+              "Massive melee hitboxes, incredible damage reduction"
+            ],
+            [
+              "Magma (Awakened)",
+              "Elemental",
+              "Sea Beasts & Bosses (S-Tier)",
+              "Highest DPS damage output across the game"
+            ],
+            [
+              "Light",
+              "Elemental",
+              "Early Sea 1 Leveling (A-Tier)",
+              "Fastest travel speed, elemental immunity to low mobs"
+            ],
+            [
+              "Dough (Awakened)",
+              "Special Paramecia",
+              "PvP & Combos (S-Tier)",
+              "Relentless crowd-control and one-shot combo locks"
+            ],
+            [
+              "Kitsune / Dragon",
+              "Beast / Mythical",
+              "PvP & Mobility (S-Tier)",
+              "Extreme passive speed and high burst AOE damage"
+            ]
           ]
         },
         "tipBox": {
@@ -17877,13 +17937,43 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Reaper (S Tier): Scaling kecepatan pasif yang membuat karakter Anda mustahil dikejar saat ronde memasuki fase late game."
         ],
         "table": {
-          "headers": ["Skill Blade Ball", "Tier", "Tipe Bermain", "Kelebihan Utama"],
+          "headers": [
+            "Skill Blade Ball",
+            "Tier",
+            "Tipe Bermain",
+            "Kelebihan Utama"
+          ],
           "rows": [
-            ["Infinity", "S-Tier", "Defensif / 1v1", "Menahan bola di udara 3 detik, menghapus panik bola cepat"],
-            ["Rapture", "S-Tier", "Ofensif / Smash", "Melompat tinggi dan membanting bola ke bawah dengan speed 2x"],
-            ["Reaper", "S-Tier", "Snowball / Speed", "Kecepatan lari dan cooldown parry makin kencang per kill"],
-            ["Forcefield", "A-Tier", "Auto Parry", "Menangkis bola otomatis 1 kali saat Anda salah timing"],
-            ["Dash / Blink", "B-Tier", "Mobilitas Pemula", "Relokasi posisi cepat dengan cooldown sangat singkat"]
+            [
+              "Infinity",
+              "S-Tier",
+              "Defensif / 1v1",
+              "Menahan bola di udara 3 detik, menghapus panik bola cepat"
+            ],
+            [
+              "Rapture",
+              "S-Tier",
+              "Ofensif / Smash",
+              "Melompat tinggi dan membanting bola ke bawah dengan speed 2x"
+            ],
+            [
+              "Reaper",
+              "S-Tier",
+              "Snowball / Speed",
+              "Kecepatan lari dan cooldown parry makin kencang per kill"
+            ],
+            [
+              "Forcefield",
+              "A-Tier",
+              "Auto Parry",
+              "Menangkis bola otomatis 1 kali saat Anda salah timing"
+            ],
+            [
+              "Dash / Blink",
+              "B-Tier",
+              "Mobilitas Pemula",
+              "Relokasi posisi cepat dengan cooldown sangat singkat"
+            ]
           ]
         }
       },
@@ -17961,13 +18051,43 @@ export const publishedGamingArticles: ArticleItem[] = [
           "Reaper (S Tier): Stacking momentum scaling that renders your avatar hyper-mobile in endgame stages."
         ],
         "table": {
-          "headers": ["Blade Ball Ability", "Tier", "Playstyle Focus", "Key Strategic Advantage"],
+          "headers": [
+            "Blade Ball Ability",
+            "Tier",
+            "Playstyle Focus",
+            "Key Strategic Advantage"
+          ],
           "rows": [
-            ["Infinity", "S-Tier", "Defensive / 1v1", "Freezes ball kinetic energy for 3s, eliminates close-range panic"],
-            ["Rapture", "S-Tier", "Offensive / Smash", "Launches aerial spike downward with 2x compounded exit velocity"],
-            ["Reaper", "S-Tier", "Snowball / Speed", "Permanently increases movement speed and parry cooldown per takedown"],
-            ["Forcefield", "A-Tier", "Auto Parry", "Automatically returns one lethal projectile when timing is missed"],
-            ["Dash / Blink", "B-Tier", "Beginner Mobility", "Instant repositioning tool on a very short reset timer"]
+            [
+              "Infinity",
+              "S-Tier",
+              "Defensive / 1v1",
+              "Freezes ball kinetic energy for 3s, eliminates close-range panic"
+            ],
+            [
+              "Rapture",
+              "S-Tier",
+              "Offensive / Smash",
+              "Launches aerial spike downward with 2x compounded exit velocity"
+            ],
+            [
+              "Reaper",
+              "S-Tier",
+              "Snowball / Speed",
+              "Permanently increases movement speed and parry cooldown per takedown"
+            ],
+            [
+              "Forcefield",
+              "A-Tier",
+              "Auto Parry",
+              "Automatically returns one lethal projectile when timing is missed"
+            ],
+            [
+              "Dash / Blink",
+              "B-Tier",
+              "Beginner Mobility",
+              "Instant repositioning tool on a very short reset timer"
+            ]
           ]
         }
       },
@@ -27547,6 +27667,374 @@ export const publishedGamingArticles: ArticleItem[] = [
       {
         "q": "Which hardware accessories improve mobile contract review?",
         "a": "A precision capacitive stylus and matte paper-feel screen film eliminate glare and allow fluid markup directly across document pages."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengatasi-thermal-throttling-dan-layar-redup-otomatis-saat-main-game-di-hp",
+    "slugEn": "fix-thermal-throttling-and-auto-screen-dimming-in-mobile-gaming",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "phone-cooler",
+      "finger-sleeves"
+    ],
+    "publishedDate": "2026-10-27T06:00:00+07:00",
+    "title": "Mengatasi Thermal Throttling dan Layar Redup Otomatis Saat Main Game di HP: Panduan Menjaga FPS Stabil",
+    "metaTitle": "Atasi Thermal Throttling & Layar Redup Main Game",
+    "metaDescription": "Kenapa HP mendadak lag dan layar meredup sendiri setelah 15 menit main game? Pahami penyebab thermal throttling, cara kerja cooler peltier, dan setting grafis terbaik.",
+    "keywords": [
+      "penyebab hp cepat panas saat main game",
+      "cara mengatasi thermal throttling android",
+      "layar hp meredup sendiri saat main game",
+      "cooler hp semikonduktor peltier",
+      "cara menjaga fps stabil di hp kentang"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "gejala-panas",
+        "title": "Kenapa game lancar di menit awal tapi patah-patah di menit ke-20?",
+        "content": [
+          "Pernahkah Anda mengalami saat baru masuk ke dalam game, grafik terasa sangat mulus dengan 60 FPS yang stabil, namun setelah bermain 15 sampai 20 menit, gerakan karakter mulai patah-patah (frame drop), bodi belakang HP terasa membakar, dan kecerahan layar tiba-tiba meredup sendiri padahal setelan auto-brightness sudah dimatikan?",
+          "Gejala tersebut bukanlah kerusakan pada layar ponsel Anda, melainkan mekanisme perlindungan darurat yang disebut **thermal throttling**. Sistem operasi ponsel secara paksa menurunkan kecepatan clock chipset CPU dan GPU untuk mencegah komponen internal meleleh akibat panas berlebih."
+        ]
+      },
+      {
+        "id": "mekanisme-throttling",
+        "title": "Bagaimana panas merusak performa game di smartphone",
+        "content": [
+          "Berbeda dengan komputer PC atau laptop gaming yang memiliki kipas pendingin internal dan pipa pendingin besar, smartphone mengandalkan pembuangan panas pasif melalui bodi logam atau kaca yang sangat sempit. Saat Anda memainkan game kompetitif dengan grafis tinggi, baterai dan chipset menghasilkan panas simultan.",
+          "Ketika sensor suhu mendeteksi suhu inti prosesor menyentuh angka kritis (biasanya di atas 45–48 derajat Celsius), sistem akan mengambil tiga tindakan otomatis:"
+        ],
+        "bulletPoints": [
+          "Menurunkan clock GPU: FPS yang awalnya 60 akan dipangkas paksa menjadi 35–40 FPS, menimbulkan stuttering atau patah-patah mendadak.",
+          "Meredupkan kecerahan panel layar AMOLED: Panel layar menghasilkan panas yang cukup besar saat memancarkan cahaya tinggi; meredupkannya membantu mendinginkan bodi depan.",
+          "Mengurangi laju pengisian daya: Jika Anda bermain sambil mengisi daya, kecepatan charging akan melambat drastis untuk mencegah baterai melembung."
+        ],
+        "tipBox": {
+          "title": "Bahaya jangka panjang",
+          "text": "Sering membiarkan smartphone berada dalam kondisi panas ekstrem di atas 45°C mempercepat degradasi kesehatan baterai lithium-ion dan memicu lepasnya lem penutup kaca belakang ponsel.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "cooler-peltier",
+        "title": "Cara kerja pendingin semikonduktor Peltier vs kipas biasa",
+        "content": [
+          "Banyak gamer membeli aksesoris kipas angin mini murah yang hanya meniupkan angin biasa ke bodi HP. Masalahnya, kipas angin biasa hanya memindahkan udara di permukaan casing dan hampir tidak berdaya melawan panas inti prosesor dari dalam.",
+          "Solusi paling efektif adalah pendingin ponsel berbasis **plat semikonduktor Peltier (thermoelectric cooler)**. Komponen ini memanfaatkan efek termoelektrik untuk memindahkan panas secara aktif: satu sisi plat menyerap panas secara instan hingga terasa sedingin es batu dalam 30 detik, sementara kipas di sisi luar membuang panas tersebut ke udara bebas.",
+          "Menggunakan cooler peltier dapat menurunkan suhu bodi HP hingga belasan derajat, menjaga suhu prosesor tetap di bawah ambang batas throttling sehingga FPS tetap terkunci maksimal sepanjang pertandingan panjang."
+        ]
+      },
+      {
+        "id": "setting-grafis",
+        "title": "Setting grafis cerdas: prioritaskan frame rate di atas efek visual",
+        "content": [
+          "Selain menggunakan pendingin fisik, setting game yang tepat sangat menentukan kestabilan. Banyak pemain keliru memilih opsi 'Grafis Rata Kanan (Ultra)' dengan bayangan realistis dan pantulan air.",
+          "Aturan emas untuk gameplay kompetitif: setel resolusi grafis ke tingkat Menengah (Medium) atau Rendah (Low), namun atur pengaturan **Frame Rate ke tingkat Maksimal (High / Ultra / 60 FPS)**. Efek bayangan rumit dan partikel daun hanya membebani GPU tanpa memberi keuntungan taktis dalam permainan."
+        ]
+      },
+      {
+        "id": "uji-sentuhan",
+        "title": "Uji respon kontrol layar dengan Stickman Penalty Rush",
+        "content": [
+          "Suhu HP yang terlalu tinggi juga sering membuat respon layar sentuh menjadi kurang akurat (ghost touch). Untuk mengecek apakah layar dan chipset ponsel Anda merespon sentuhan dengan presisi tinggi tanpa panas berlebih, cobalah game ringan seperti **Stickman Penalty Rush**.",
+          "Game adu penalti sepak bola ini menuntut akurasi gesekan swipe jari yang sangat presisi untuk menaklukkan kiper. Karena game ini ringan dan dapat dimainkan 100% offline, perangkat Anda tidak akan mengalami panas berlebih, menjadikannya tolak ukur yang ideal untuk menguji respon fisik layar ponsel Anda."
+        ],
+        "tipBox": {
+          "title": "Gunakan sarung jempol",
+          "text": "Keringat akibat tangan yang panas sering membuat gesekan jari tersendat di atas layar. Mengombinasikan cooler pendingin dengan sarung jempol gaming anti-keringat menjamin swipe Anda tetap licin dan akurat.",
+          "type": "tip"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah cooler peltier semikonduktor bisa membuat HP berembun (kondensasi)?",
+        "a": "Bisa jika dinyalakan tanpa menempel pada bodi HP di ruangan lembap. Namun saat cooler terpasang menempel pada bodi ponsel yang sedang bekerja panas, embun tidak akan terbentuk karena panas HP langsung menetralisir suhu dingin plat."
+      },
+      {
+        "q": "Mengapa layar HP saya tiba-tiba gelap sendiri padahal auto-brightness sudah dimatikan?",
+        "a": "Itu adalah fitur perlindungan termal bawaan sistem operasi untuk melindungi panel AMOLED dari panas berlebih yang dapat menyebabkan efek burn-in permanen."
+      },
+      {
+        "q": "Berapa suhu normal smartphone saat memainkan game berat?",
+        "a": "Suhu operasional yang aman berada di kisaran 36°C hingga 41°C. Jika suhu permukaan bodi melewati 44°C, performa game akan mulai mengalami penurunan FPS."
+      },
+      {
+        "q": "Apakah bermain game sambil cas baterai aman jika memakai cooler?",
+        "a": "Cooler peltier membantu meredam panas baterai, namun tetap disarankan mengisi daya saat istirahat untuk memperpanjang usia siklus baterai ponsel."
+      }
+    ],
+    "titleEn": "How to Fix Thermal Throttling and Automatic Screen Dimming in Mobile Gaming",
+    "metaTitleEn": "Fix Thermal Throttling & Screen Dimming in Mobile Gaming",
+    "metaDescriptionEn": "Why do mobile games stutter and screens dim after 15 minutes? Understand thermal throttling mechanics, semiconductor Peltier coolers, and optimal graphic setups.",
+    "keywordsEn": [
+      "why does phone get hot during gaming",
+      "how to fix thermal throttling android",
+      "screen auto dimming while playing games",
+      "semiconductor peltier mobile cooler",
+      "maintain stable 60 fps mobile gaming"
+    ],
+    "readTimeEn": "10 min read",
+    "englishSummary": "An in-depth analysis of hardware thermal dissipation bottlenecks in modern mobile gaming—explaining emergency CPU clock reductions, automated AMOLED brightness throttling, and the mechanics of semiconductor Peltier coolers.",
+    "sectionsEn": [
+      {
+        "id": "gejala-panas",
+        "title": "Why games run fluidly initially but stutter by minute twenty",
+        "content": [
+          "Many mobile gamers encounter a familiar frustration: matches commence at an immaculate 60 FPS, yet after fifteen to twenty minutes, animations stutter, chassis temperatures rise uncomfortably, and screen illumination abruptly dims despite disabling auto-brightness sensors.",
+          "This behavior does not indicate display failure; rather, it represents a protective intervention known as **thermal throttling**. Hardware controllers forcibly downclock CPU and GPU clock speeds to shield internal circuitry from thermal damage."
+        ]
+      },
+      {
+        "id": "mekanisme-throttling",
+        "title": "How thermal buildup undermines mobile gaming performance",
+        "content": [
+          "Unlike desktop towers equipped with liquid cooling radiators and exhaust fans, smartphones rely on passive thermal conduction across thin metallic chassis walls. Demanding competitive engines drive simultaneous battery draw and chipset calculations.",
+          "When internal sensors record die temperatures breaching threshold margins (frequently 45–48°C), firmware executes automatic safeguards:"
+        ],
+        "bulletPoints": [
+          "GPU clock throttling: 60 FPS frame targets drop abruptly to 35–40 FPS, causing disruptive visual stuttering during engagements.",
+          "AMOLED luminance suppression: Displays generate significant heat under peak brightness; reducing luminance moderates front-panel temperatures.",
+          "Battery charging current suppression: Charging while gaming induces combined thermal loads, prompting devices to throttle charging intake."
+        ],
+        "tipBox": {
+          "title": "Long-term hardware impact",
+          "text": "Sustained operation above 45°C accelerates lithium-ion battery degradation and weakens rear structural adhesives over time.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "cooler-peltier",
+        "title": "Mechanics of semiconductor Peltier coolers vs basic airflow fans",
+        "content": [
+          "Budget gaming fans merely circulate ambient air against plastic casing, doing little to draw intense core processor heat outwards.",
+          "A proven solution utilizes **semiconductor Peltier thermoelectric plates**. Leveraging thermoelectric heat flux, one surface drops to near-freezing temperatures within thirty seconds, while external turbofans evacuate thermal loads into surrounding air.",
+          "Active Peltier hardware suppresses chassis temperatures by up to fifteen degrees, holding silicon under throttling ceilings to lock maximal FPS over extended sessions."
+        ]
+      },
+      {
+        "id": "setting-grafis",
+        "title": "Smart graphics settings: prioritizing frame rates over visual flair",
+        "content": [
+          "Beyond active cooling accessories, configuration strategies prove decisive. Players often make the mistake of choosing ultra-high shadow textures and environmental water reflections.",
+          "The competitive rule of thumb: calibrate visual textures to Medium or Low, but configure **Frame Rate to Maximum / Ultra (60+ FPS)**. Complex particle shadows burden processors without offering tactical advantages."
+        ]
+      },
+      {
+        "id": "uji-sentuhan",
+        "title": "Verifying touchscreen touch response with Stickman Penalty Rush",
+        "content": [
+          "Elevated chassis temperatures frequently trigger erratic touch registration (ghost touches). To evaluate whether your display maintains responsive touch tracking without thermal strain, test lightweight titles like **Stickman Penalty Rush**.",
+          "This penalty soccer challenge demands precise swipe curves to beat goalkeepers. Operating smoothly offline without computational bloat, it serves as an ideal baseline for evaluating raw screen responsiveness."
+        ],
+        "tipBox": {
+          "title": "Deploy gaming finger sleeves",
+          "text": "Warm palms promote fingertip sweat that catches on display glass. Pairing coolers with silver-fiber finger sleeves ensures smooth swiping trajectory.",
+          "type": "tip"
+        }
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can semiconductor Peltier mobile coolers cause internal condensation?",
+        "a": "Condensation risks only occur if powered detached in humid environments. When mounted against working, warm smartphone backs, chassis heat neutralizes chilled condensation plates."
+      },
+      {
+        "q": "Why does my mobile screen automatically dim during intense gaming matches?",
+        "a": "Operating system thermal policies intervene to safeguard delicate AMOLED layers against thermal stress and permanent burn-in."
+      },
+      {
+        "q": "What constitutes normal smartphone temperature under sustained gaming loads?",
+        "a": "Safe operational ceilings range between 36°C and 41°C. Surface measurements exceeding 44°C trigger noticeable frame drops."
+      },
+      {
+        "q": "Is charging during gameplay safe when supported by active coolers?",
+        "a": "Coolers alleviate thermal strain, but dedicating charge cycles during breaks remains the optimal practice for battery health."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "mengubah-foto-dokumen-kamera-menjadi-pdf-jelas-tanpa-scanner-mahal",
+    "slugEn": "convert-camera-document-photos-to-clear-pdf-without-scanner",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus",
+      "paper-screen-protector"
+    ],
+    "publishedDate": "2026-10-27T05:00:00+07:00",
+    "title": "Mengubah Foto Dokumen Kamera Menjadi PDF yang Bersih dan Jelas Tanpa Mesin Scanner Mahal",
+    "metaTitle": "Ubah Foto Kamera Jadi PDF Jelas Tanpa Scanner",
+    "metaDescription": "Jangan kirim foto dokumen yang miring dan ada bayangan jari. Pelajari cara memotret berkas fisik dengan HP, meluruskan perspektif, dan menyatukannya jadi PDF jernih.",
+    "keywords": [
+      "ubah foto jadi pdf rapi",
+      "cara scan dokumen dengan kamera hp",
+      "menghilangkan bayangan saat foto dokumen",
+      "convert jpg ke pdf di android offline",
+      "scan dokumen ijazah lewat hp"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "masalah-foto-hp",
+        "title": "Kesan amatir dari foto dokumen kamera langsung",
+        "content": [
+          "Banyak orang saat diminta mengirimkan berkas fisik langsung mengambil foto di atas meja dan mengirimkan file JPG mentah. Hasilnya sering kali mengecewakan: ada bayangan ponsel di tengah kertas, sudut halaman miring atau bergelombang, dan latar belakang taplak meja ikut terekam.",
+          "Mengirimkan foto dokumen mentah memberi kesan ceroboh dalam urusan profesional. Selain itu, banyak sistem portal pendaftaran menolak format gambar mentah dan mewajibkan file dalam format PDF tunggal yang rapi layaknya hasil mesin flatbed scanner."
+        ]
+      },
+      {
+        "id": "trik-memotret",
+        "title": "Trik memotret dokumen fisik agar sebanding dengan scanner",
+        "content": [
+          "Anda tidak perlu membeli mesin scanner seharga jutaan rupiah untuk mendapatkan hasil pindaian yang bersih. Cukup terapkan trik fotografi dokumen berikut menggunakan kamera HP Anda:"
+        ],
+        "bulletPoints": [
+          "Pencahayaan dari samping, bukan dari atas: Jangan memotret tepat di bawah lampu ruangan karena bayangan badan ponsel akan jatuh ke kertas. Cari sumber cahaya alami dari samping atau gunakan cahaya jendela.",
+          "Alasi dokumen dengan permukaan kontras: Letakkan kertas putih di atas meja berwarna gelap agar batas tepi kertas terlihat jelas.",
+          "Posisikan lensa sejajar tegak lurus (90 derajat): Tahan ponsel sejajar dengan permukaan kertas untuk meminimalkan distorsi perspektif trapesium.",
+          "Gunakan zoom 1.5x atau 2x: Memotret dari jarak sedikit lebih jauh dengan zoom optik atau hybrid mencegah distorsi lensa sudut lebar (wide-angle barrel distortion)."
+        ],
+        "tipBox": {
+          "title": "Bersihkan lensa kamera",
+          "text": "Kaca lensa ponsel yang terkena minyak sidik jari adalah penyebab nomor satu hasil scan berkabut. Seka lensa dengan kain lembut sebelum memotret.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "konversi-offline",
+        "title": "Konversi batch foto ke PDF di Offline PDF Editor",
+        "content": [
+          "Setelah lembar dokumen selesai dipotret, satukan seluruh foto menjadi dokumen PDF tunggal yang rapi di aplikasi **Offline PDF Editor & Sign**:"
+        ],
+        "bulletPoints": [
+          "Pilih fitur Images to PDF, lalu pilih beberapa foto dokumen dari galeri ponsel secara berurutan.",
+          "Susun orientasi halaman agar tidak ada lembaran yang terbalik atau miring.",
+          "Aktifkan kompresi seimbang agar file gabungan tidak berukuran raksasa.",
+          "Ekspor menjadi satu file PDF yang siap dibagikan ke WhatsApp, email, atau portal kerja."
+        ]
+      },
+      {
+        "id": "keuntungan-privasi",
+        "title": "Keamanan tanpa mengirim foto pribadi ke internet",
+        "content": [
+          "Aplikasi scanner online pihak ketiga sering kali mengunggah foto dokumen Anda ke server luar negeri untuk diproses OCR. Menggunakan aplikasi offline lokal menjamin foto dokumen berharga seperti sertifikat tanah, kartu keluarga, atau catatan medis tetap berada 100% di dalam ponsel Anda tanpa risiko bocor."
+        ],
+        "tipBox": {
+          "title": "Pemrosesan privat",
+          "text": "Semua pengubahan format gambar JPG menjadi PDF berlangsung di dalam memori internal ponsel Anda tanpa menggunakan kuota data seluler.",
+          "type": "highlight"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bagaimana cara agar bayangan HP tidak jatuh di atas kertas dokumen?",
+        "a": "Miringkan posisi berdiri Anda terhadap sumber cahaya dan gunakan zoom kamera 1.5x dari jarak sekitar 40 cm di atas kertas agar bayangan tubuh Anda jatuh di luar area dokumen."
+      },
+      {
+        "q": "Bisakah menggabungkan 10 foto sekaligus menjadi satu file PDF di HP?",
+        "a": "Bisa. Fitur Images to PDF pada Offline PDF Editor & Sign mendukung pemilihan batch hingga puluhan foto sekaligus untuk disatukan menjadi satu file PDF terstruktur."
+      },
+      {
+        "q": "Mengapa resolusi foto dokumen saya menjadi terlalu besar hingga belasan megabita?",
+        "a": "Kamera HP modern menghasilkan foto resolusi sangat tinggi. Saat mengonversi ke PDF, gunakan kompresi dokumen terintegrasi untuk mengecilkan ukuran file tanpa membuat teks menjadi kabur."
+      },
+      {
+        "q": "Apakah aplikasi konversi ini membutuhkan kuota internet?",
+        "a": "Tidak. Seluruh fungsi pembuatan PDF dari gambar di Offline PDF Editor & Sign berjalan 100% offline di memori ponsel."
+      }
+    ],
+    "titleEn": "How to Convert Camera Document Photos into Crisp PDFs Without an Expensive Scanner",
+    "metaTitleEn": "Convert Camera Photos to Clear PDFs on Mobile",
+    "metaDescriptionEn": "Avoid sending skewed document captures plagued by phone shadows. Learn how to photograph physical papers, align perspective, and assemble crisp PDFs offline.",
+    "keywordsEn": [
+      "convert camera photo to crisp pdf",
+      "how to scan physical documents with smartphone",
+      "eliminate shadows when taking photo of paper",
+      "jpg to pdf converter android offline",
+      "scan diplomas on mobile"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "A practical guide to mobile document capture techniques—eliminating harsh casting shadows, correcting wide-angle optical warping, and combining image sequences into standardized PDF dossiers entirely offline.",
+    "sectionsEn": [
+      {
+        "id": "masalah-foto-hp",
+        "title": "The unpolished appearance of raw mobile camera captures",
+        "content": [
+          "When requested to supply physical credentials, many individuals take unadjusted smartphone snapshots and submit raw JPG files. Outcomes routinely disappoint: heavy device silhouettes obscuring paragraphs, trapezoidal distortion, and distracting background tabletop textures.",
+          "Submitting raw camera photos undermines professionalism in business and academic contexts. Furthermore, digital application systems routinely reject standalone image files in favor of standardized single PDF documents."
+        ]
+      },
+      {
+        "id": "trik-memotret",
+        "title": "Mobile capture principles matching flatbed scanner clarity",
+        "content": [
+          "Acquiring high-grade digitized documents does not require commercial scanning hardware. Apply fundamental document photography practices using existing smartphone optics:"
+        ],
+        "bulletPoints": [
+          "Cross-directional lighting: Never position devices directly beneath overhead ceiling lamps. Position papers near natural window illumination.",
+          "High-contrast backdrops: Rest light paper documents against dark desks to accentuate boundary edges.",
+          "Perpendicular 90-degree alignment: Align the camera sensor plane strictly parallel to document surfaces to avoid geometric distortion.",
+          "Utilize 1.5x to 2x zoom: Capturing from slightly further back with moderate magnification counters wide-angle optical barrel curvature."
+        ],
+        "tipBox": {
+          "title": "Clean lens glass",
+          "text": "Fingerprint residue across smartphone camera lenses is the leading cause of hazy document scans. Wipe optics with a microfiber cloth before capture.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "konversi-offline",
+        "title": "Batch image-to-PDF compilation via Offline PDF Editor",
+        "content": [
+          "Following image capture, synthesize multi-page sequences into unified PDF assets using **Offline PDF Editor & Sign**:"
+        ],
+        "bulletPoints": [
+          "Access Images to PDF, selecting document image sequences from device storage.",
+          "Review preview thumbnails to verify consistent upright layout orientation.",
+          "Apply balanced compression to safeguard against oversized multi-megabyte payloads.",
+          "Export into a cohesive PDF dossier ready for distribution via email or administrative portals."
+        ]
+      },
+      {
+        "id": "keuntungan-privasi",
+        "title": "Absolute privacy protection without cloud transmission",
+        "content": [
+          "Unverified cloud scanning tools frequently route sensitive files through foreign server clusters. Utilizing native on-device utilities guarantees that sensitive family records or medical reports remain safely confined to local device hardware."
+        ],
+        "tipBox": {
+          "title": "Isolated on-device execution",
+          "text": "All graphic processing and container packaging tasks execute strictly in local memory with zero mobile network reliance.",
+          "type": "highlight"
+        }
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How can I prevent smartphone shadows from covering captured documents?",
+        "a": "Step back from overhead lighting fixtures and deploy 1.5x camera magnification from roughly 40 cm above the document canvas."
+      },
+      {
+        "q": "Can I combine ten separate photos into one single PDF on mobile?",
+        "a": "Yes. The batch Images to PDF tool supports bulk selection of image assets, compiling them into a sequential single file."
+      },
+      {
+        "q": "Why do converted photo documents occupy massive storage space?",
+        "a": "Modern camera sensors capture vast raw pixel counts. Deploying integrated PDF compression scales file dimensions into email-compliant parameters without damaging text."
+      },
+      {
+        "q": "Does this file conversion workflow necessitate an internet connection?",
+        "a": "No. The entire conversion architecture operates completely offline within device memory."
       }
     ],
     "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
