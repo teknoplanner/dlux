@@ -7,6 +7,7 @@ import { AppCtaBanner } from "@/components/blog/AppCtaBanner";
 import { ArticleCard } from "@/components/blog/ArticleCard";
 import { ArticleCover } from "@/components/blog/ArticleCover";
 import { FormattedText } from "@/components/blog/FormattedText";
+import { StickyLeftAd } from "@/components/blog/StickyLeftAd";
 import { AmazonGearShowcase, AmazonInlineCallout } from "@/components/blog/AmazonProductCard";
 import { getAmazonProductsByCategory, getAmazonProductsByIds } from "@/data/amazonProducts";
 import { generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from "@/lib/seo";
@@ -89,7 +90,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
       <div className="read-progress" aria-hidden="true" />
 
       <div className="bg-[#fafaf9] pt-28 pb-24">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between gap-3 mb-8 text-sm">
             <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-x-2 text-slate-600">
               <Link href="/" className="inline-flex items-center min-h-[44px] hover:text-slate-950">{t.home}</Link>
@@ -101,8 +102,9 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
             </Link>
           </div>
 
-          <div className="grid lg:grid-cols-[minmax(0,1fr)_260px] gap-12">
-            <article className="min-w-0 max-w-[44rem]">
+          <div className="flex flex-col lg:flex-row items-start justify-center gap-8 xl:gap-12">
+            <StickyLeftAd />
+            <article className="min-w-0 max-w-[44rem] flex-1">
               <header>
                 <p className="text-sm text-slate-600">
                   <span className="font-bold text-emerald-800 capitalize">{article.category}</span>
@@ -189,7 +191,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
               )}
             </article>
 
-            <aside className="hidden lg:block">
+            <aside className="hidden lg:block w-[260px] shrink-0">
               <div className="sticky top-28">
                 <TableOfContents sections={sections} lang={lang} hasFaq={Boolean(faq?.length)} />
               </div>
