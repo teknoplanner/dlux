@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArticleItem, getRelatedArticles } from "@/data/articles";
 import { apps, developer } from "@/data/apps";
 import { TableOfContents } from "@/components/blog/TableOfContents";
@@ -59,7 +60,15 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
   const faq = isEn ? article.faqEn : article.faq;
   const slug = isEn ? article.slugEn : article.slug;
   const url = `${developer.website}${isEn ? "/en/blog/" : "/blog/"}${slug}/`;
-  const targetApp = apps.find((a) => a.slug === article.targetAppSlug);
+  const targetApp =
+    apps.find((a) => a.slug === article.targetAppSlug) ||
+    (article.category === "gaming"
+      ? apps.find((a) => a.slug === "stickman-penalty-rush") || apps[1]
+      : article.category === "productivity"
+      ? apps.find((a) => a.slug === "offline-pdf-editor") || apps[0]
+      : article.category === "education"
+      ? apps.find((a) => a.slug === "monster-math-brain-training") || apps[2]
+      : apps[0]);
   const related = getRelatedArticles(article.slug, 3);
   const date = new Date(article.publishedDate).toLocaleDateString(isEn ? "en-US" : "id-ID", { day: "numeric", month: "long", year: "numeric" });
 
@@ -273,8 +282,38 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
             </article>
 
             <aside className="hidden lg:block w-[260px] shrink-0">
-              <div className="sticky top-28">
+              <div className="sticky top-28 space-y-6">
                 <TableOfContents sections={sections} lang={lang} hasFaq={Boolean(faq?.length)} />
+                {targetApp && (
+                  <div className="p-4 rounded-2xl border border-slate-200 bg-white shadow-sm text-center not-prose">
+                    <div className="flex justify-center mb-2.5">
+                      <Image
+                        src={targetApp.icon}
+                        alt={targetApp.name}
+                        width={52}
+                        height={52}
+                        className="rounded-xl shadow-xs"
+                      />
+                    </div>
+                    <span className="inline-block px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[10px] font-bold uppercase tracking-wider mb-1">
+                      {isEn ? "Featured Game" : "Game Resmi Studio"}
+                    </span>
+                    <p className="font-display font-bold text-sm text-slate-900 leading-tight">
+                      {targetApp.name}
+                    </p>
+                    <p className="text-xs text-slate-600 mt-1 line-clamp-2 leading-relaxed">
+                      {targetApp.tagline}
+                    </p>
+                    <a
+                      href={targetApp.playUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-3 inline-flex items-center justify-center w-full min-h-[36px] px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs transition-colors shadow-xs"
+                    >
+                      {isEn ? "Get on Google Play" : "Install di Google Play"}
+                    </a>
+                  </div>
+                )}
               </div>
             </aside>
           </div>
