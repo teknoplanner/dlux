@@ -36,24 +36,46 @@ const btnBase =
 
 export const AmazonProductCard: React.FC<{ product: AmazonProduct; lang?: Lang }> = ({ product, lang = "en" }) => {
   const isEn = lang === "en";
-  const buy = useBuy(product, lang, "gear_showcase");
+  const isIndonesia = useIsIndonesia(lang);
+  const name = isEn ? product.nameEn : product.name;
   const features = isEn ? product.featuresEn : product.features;
+  const hasShopee = isIndonesia && Boolean(product.shopeeUrl);
+
   return (
     <article className="flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white">
       <div className="relative aspect-[16/10] bg-slate-100">
-        <Thumb product={product} name={buy.name} sizes="(max-width: 768px) 100vw, 50vw" />
+        <Thumb product={product} name={name} sizes="(max-width: 768px) 100vw, 50vw" />
       </div>
       <div className="flex flex-col gap-3 p-5 flex-1">
-        <h4 className="font-display font-bold text-lg text-slate-900 leading-snug">{buy.name}</h4>
+        <h4 className="font-display font-bold text-lg text-slate-900 leading-snug">{name}</h4>
         <p className="text-sm text-slate-700 leading-relaxed">{isEn ? product.taglineEn : product.tagline}</p>
         <ul className="list-disc pl-5 text-sm text-slate-700 space-y-1">
           {features.slice(0, 2).map((f) => (
             <li key={f}>{f}</li>
           ))}
         </ul>
-        <a href={buy.href} target="_blank" rel="sponsored noopener noreferrer" onClick={buy.onClick} className={`${btnBase} ${buy.btn} mt-auto`}>
-          {buy.label}
-        </a>
+        <div className="mt-auto pt-2 flex flex-col sm:flex-row gap-2">
+          {hasShopee && (
+            <a
+              href={product.shopeeUrl}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              onClick={() => trackShopeeClick(product.id, name, "gear_showcase")}
+              className={`${btnBase} bg-[#c2381a] hover:bg-[#a52e14] text-white flex-1 text-center`}
+            >
+              Beli di Shopee
+            </a>
+          )}
+          <a
+            href={product.url}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            onClick={() => trackAmazonClick(product.id, name, "gear_showcase")}
+            className={`${btnBase} bg-amber-500 hover:bg-amber-400 text-slate-950 flex-1 text-center`}
+          >
+            {hasShopee ? "Cek di Amazon" : isEn ? "Check price on Amazon" : "Cek harga di Amazon"}
+          </a>
+        </div>
       </div>
     </article>
   );
@@ -89,19 +111,41 @@ export const AmazonGearShowcase: React.FC<{ products: AmazonProduct[]; lang?: La
 
 export const AmazonInlineCallout: React.FC<{ product: AmazonProduct; lang?: Lang }> = ({ product, lang = "en" }) => {
   const isEn = lang === "en";
-  const buy = useBuy(product, lang, "inline_callout");
+  const isIndonesia = useIsIndonesia(lang);
+  const name = isEn ? product.nameEn : product.name;
+  const hasShopee = isIndonesia && Boolean(product.shopeeUrl);
+
   return (
     <aside className="my-10 flex flex-col sm:flex-row sm:items-center gap-4 rounded-xl border border-slate-300 bg-white p-4 sm:p-5">
       <div className="relative w-full sm:w-36 aspect-[16/10] shrink-0 overflow-hidden rounded-lg bg-slate-100">
-        <Thumb product={product} name={buy.name} sizes="144px" />
+        <Thumb product={product} name={name} sizes="144px" />
       </div>
       <div className="flex-1 min-w-0">
-        <p className="font-display font-bold text-slate-900 leading-snug">{buy.name}</p>
+        <p className="font-display font-bold text-slate-900 leading-snug">{name}</p>
         <p className="mt-1 text-sm text-slate-700 line-clamp-2">{isEn ? product.taglineEn : product.tagline}</p>
       </div>
-      <a href={buy.href} target="_blank" rel="sponsored noopener noreferrer" onClick={buy.onClick} className={`${btnBase} ${buy.btn} shrink-0`}>
-        {buy.label}
-      </a>
+      <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 shrink-0">
+        {hasShopee && (
+          <a
+            href={product.shopeeUrl}
+            target="_blank"
+            rel="sponsored noopener noreferrer"
+            onClick={() => trackShopeeClick(product.id, name, "inline_callout")}
+            className={`${btnBase} bg-[#c2381a] hover:bg-[#a52e14] text-white`}
+          >
+            Shopee
+          </a>
+        )}
+        <a
+          href={product.url}
+          target="_blank"
+          rel="sponsored noopener noreferrer"
+          onClick={() => trackAmazonClick(product.id, name, "inline_callout")}
+          className={`${btnBase} bg-amber-500 hover:bg-amber-400 text-slate-950`}
+        >
+          {hasShopee ? "Amazon" : isEn ? "Check on Amazon" : "Cek di Amazon"}
+        </a>
+      </div>
     </aside>
   );
 };
