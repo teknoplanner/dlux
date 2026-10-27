@@ -172,7 +172,7 @@ export const apps: AppItem[] = [
       "/images/apps/monster-math-train-brain/screenshot-4.webp"
     ],
     "rating": 5,
-    "reviewsCount": 10,
+    "reviewsCount": null,
     "downloads": "500+",
     "contentRating": "3+",
     "hasAds": false,
@@ -206,7 +206,7 @@ export const apps: AppItem[] = [
       "/images/apps/baby-shark-abc-kids-learning/screenshot-3.webp"
     ],
     "rating": 5,
-    "reviewsCount": 10,
+    "reviewsCount": null,
     "downloads": "500+",
     "contentRating": "3+",
     "hasAds": true,
@@ -241,7 +241,7 @@ export const apps: AppItem[] = [
       "/images/apps/fruity-merge-3d-match-puzzle/screenshot-4.webp"
     ],
     "rating": 5,
-    "reviewsCount": 16,
+    "reviewsCount": null,
     "downloads": "500+",
     "contentRating": "3+",
     "hasAds": true,
