@@ -168,6 +168,39 @@
     "playUrl": "https://play.google.com/store/apps/details?id=com.miloadventure.game"
   },
   {
+    "packageId": "com.guardianorbit",
+    "name": "Guardian Orbit: Tower Defense",
+    "tagline": "Defend Earth in epic space Tower defense battles",
+    "description": "Tower Defense is an epic sci-fi strategy game where you defend Earth from relentless alien invasions!\n\nCommand powerful orbital towers, deploy advanced space technology, and stop waves of enemy forces before they breach the planet’s defenses.",
+    "downloads": "10+",
+    "contentRating": "Everyone",
+    "rating": 5,
+    "reviewsCount": null,
+    "genre": [
+      "Action",
+      [
+        null,
+        null,
+        null,
+        null,
+        [
+          null,
+          null,
+          "/store/apps/category/GAME_ACTION"
+        ]
+      ],
+      "GAME_ACTION"
+    ],
+    "iconUrl": "https://play-lh.googleusercontent.com/Rs_9GwcIUzb9r2FI1f36zKO8ykPf9lY9BY7nVqPaByxrHMO2wydU6Y_GjUwof_3fEqXaSnfCYKo2rMErRrWmeg",
+    "screenshotUrls": [
+      "https://play-lh.googleusercontent.com/QOHhgozZhUOk4H0ddLuhJ9yecer2suRekj4mg02Ry9LUDSen3UDfoas_easLMMqvQBMQyIrEgi-jhpRWztB6",
+      "https://play-lh.googleusercontent.com/7pr-5-tOaIxbZbw0dbpQUN6E9i71aF3EbUMnlwaSz6uG3ZQvSTlLALWvSQWtzuB1tSA0yRBxxkZ2vlf6POW9",
+      "https://play-lh.googleusercontent.com/oPR4D8lSx9x-P4XOFYEfV3HCVYcmMfYN-ntY6h_ewOEQP2ouMLXD4skkCLIHyfKk6qa9-5gTqscp366If0s8uPM",
+      "https://play-lh.googleusercontent.com/y9pC2DF3XkMe7yBYIU7sSxX5-JJpHywZOHlL2B5YCXby-zmsJgZ6M2p2mQcLjfMIRHvy3Tuqq3XOUFkHJIGG"
+    ],
+    "playUrl": "https://play.google.com/store/apps/details?id=com.guardianorbit"
+  },
+  {
     "packageId": "com.sharksmartalphabet",
     "name": "Baby Shark ABC: Kids Learning",
     "tagline": "Fun ABC learning game for kids with a friendly smart shark! Play & learn today.",

@@ -317,5 +317,40 @@ export const apps: AppItem[] = [
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.soundfx.studio",
     "color": "#8b5cf6"
+  },
+  {
+    "slug": "guardian-orbit",
+    "name": "Guardian Orbit: Tower Defense",
+    "packageId": "com.guardianorbit",
+    "tagline": "Defend Earth in epic space Tower defense battles",
+    "description": "Tower Defense is an epic sci-fi strategy game where you defend Earth from relentless alien invasions!\n\nCommand powerful orbital towers, deploy advanced space technology, and stop waves of enemy forces before they breach the planet’s defenses.",
+    "category": "game",
+    "tags": [
+      "Guardian",
+      "Orbit",
+      "Tower",
+      "Defense",
+      "Arcade"
+    ],
+    "features": [
+      "Lightning-fast and user-friendly experience designed for Android devices",
+      "100% on-device private processing with zero personal data tracking",
+      "Seamless offline accessibility without requiring persistent internet connection",
+      "Regular updates with continuous performance enhancements"
+    ],
+    "icon": "/images/apps/guardian-orbit/icon.webp",
+    "screenshots": [
+      "/images/apps/guardian-orbit/screenshot-1.webp",
+      "/images/apps/guardian-orbit/screenshot-2.webp",
+      "/images/apps/guardian-orbit/screenshot-3.webp",
+      "/images/apps/guardian-orbit/screenshot-4.webp"
+    ],
+    "rating": 5,
+    "reviewsCount": null,
+    "downloads": "10+",
+    "contentRating": "Everyone",
+    "hasAds": false,
+    "playUrl": "https://play.google.com/store/apps/details?id=com.guardianorbit",
+    "color": "#6366f1"
   }
 ];
