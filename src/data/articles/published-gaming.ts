@@ -30704,5 +30704,244 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/milo-cat-adventure/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "persiapan-asesmen-numerasi-akm-anak-sd-kemampuan-yang-diuji-dan-latihan-di-rumah",
+    "slugEn": "preparing-primary-school-kids-for-numeracy-assessments-skills-and-home-practice",
+    "targetAppSlug": "monster-math-train-brain",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-stylus"
+    ],
+    "publishedDate": "2026-10-28T09:45:00+07:00",
+    "title": "Persiapan Asesmen Numerasi (AKM) untuk Anak SD: Kemampuan yang Diuji dan Latihan di Rumah",
+    "metaTitle": "Persiapan AKM Numerasi Anak SD di Rumah",
+    "metaDescription": "Numerasi bukan sekadar hitung-hitungan. Pahami empat domain yang biasa diuji, contoh soal bergaya cerita, dan rutinitas latihan 15 menit di rumah yang membangun pemahaman, bukan hafalan.",
+    "keywords": [
+      "persiapan akm numerasi",
+      "soal numerasi sd",
+      "latihan numerasi di rumah",
+      "asesmen kompetensi minimum",
+      "belajar matematika anak sd"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "apa-itu",
+        "title": "Numerasi berbeda dengan matematika hafalan",
+        "content": [
+          "Asesmen Kompetensi Minimum (AKM) adalah bagian dari Asesmen Nasional yang mengukur dua kemampuan dasar: literasi membaca dan numerasi. Di jenjang SD, asesmen ini diikuti oleh sebagian siswa kelas 5 yang dipilih sebagai sampel sekolah. Hasilnya dipakai untuk memetakan mutu sekolah, bukan untuk menentukan kelulusan anak.",
+          "Numerasi berarti kemampuan memakai matematika untuk memecahkan masalah sehari-hari. Soalnya jarang berbunyi \"hitunglah 24 × 15\". Yang lebih sering muncul adalah cerita: harga tiket, jadwal kereta, grafik hasil panen, atau denah rumah, lalu anak diminta menarik kesimpulan. Anak yang hafal rumus tapi jarang membaca soal cerita sering kesulitan di sini."
+        ],
+        "tipBox": {
+          "title": "Tetap tenang",
+          "text": "Karena AKM tidak menentukan nilai rapor atau kelulusan, tujuan latihan di rumah adalah membangun kemampuan yang memang berguna, bukan mengejar skor. Anak yang tegang justru sulit berpikir jernih.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "domain",
+        "title": "Empat domain yang biasa diuji",
+        "content": [
+          "Soal numerasi umumnya mencakup empat kelompok konten. Mengenal keempatnya membantu orang tua melihat bagian mana yang perlu diperkuat:"
+        ],
+        "bulletPoints": [
+          "Bilangan: operasi hitung, pecahan, desimal, perbandingan, dan memperkirakan hasil.",
+          "Geometri dan pengukuran: bangun datar dan ruang, keliling, luas, satuan panjang, berat, dan waktu.",
+          "Data dan ketidakpastian: membaca tabel, diagram batang, diagram lingkaran, dan peluang sederhana.",
+          "Aljabar: pola bilangan, hubungan antarbesaran, dan mencari nilai yang belum diketahui."
+        ]
+      },
+      {
+        "id": "level",
+        "title": "Tiga tingkat berpikir dalam soal",
+        "content": [
+          "Selain konten, soal juga dibedakan menurut proses berpikir. Ada soal pemahaman (mengenali dan menghitung), soal penerapan (memakai konsep di situasi baru), dan soal penalaran (menilai, membandingkan, dan memberi alasan).",
+          "Jenis soalnya pun beragam: pilihan ganda, pilihan ganda dengan lebih dari satu jawaban benar, menjodohkan, isian singkat, dan uraian. Anak yang terbiasa hanya memilih satu jawaban perlu dikenalkan dengan soal yang jawabannya bisa lebih dari satu."
+        ]
+      },
+      {
+        "id": "contoh",
+        "title": "Contoh soal bergaya numerasi yang bisa dibuat di rumah",
+        "content": [
+          "Anda tidak perlu membeli buku tebal untuk berlatih. Situasi sehari-hari di rumah adalah bahan soal yang sangat baik. Contohnya:"
+        ],
+        "bulletPoints": [
+          "Belanja: \"Minyak goreng 2 liter Rp38.000, yang 1 liter Rp20.000. Mana yang lebih hemat jika kita butuh 2 liter? Berapa selisihnya?\"",
+          "Waktu: \"Kereta berangkat 07.45 dan perjalanan 2 jam 30 menit. Pukul berapa kita sampai? Kalau kereta terlambat 20 menit?\"",
+          "Data: catat suhu pagi selama seminggu, buat diagram batang bersama, lalu tanyakan hari terdingin dan selisih suhunya.",
+          "Pengukuran: \"Karpet kamar berukuran 2 m × 3 m. Berapa luasnya? Muat tidak di kamar berukuran 3 m × 3 m?\""
+        ]
+      },
+      {
+        "id": "rutinitas",
+        "title": "Rutinitas latihan 15 menit sehari",
+        "content": [
+          "Konsistensi lebih penting daripada durasi. Sesi pendek setiap hari lebih efektif daripada dua jam di akhir pekan. Coba susunan berikut:",
+          "Lima menit pertama untuk pemanasan hitung cepat, misalnya perkalian dasar atau penjumlahan bersusun. Lima menit kedua untuk satu soal cerita yang dibaca bersama. Minta anak menjelaskan dengan kata-katanya sendiri apa yang ditanyakan sebelum mulai menghitung. Lima menit terakhir untuk membahas jawaban, termasuk jawaban yang salah."
+        ],
+        "tipBox": {
+          "title": "Tanyakan \"kenapa\"",
+          "text": "Setelah anak menjawab, tanyakan bagaimana ia mendapatkannya. Kebiasaan menjelaskan alasan adalah inti soal penalaran, dan membantu Anda melihat di mana pemahamannya keliru.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "game",
+        "title": "Memakai game edukasi sebagai pemanasan",
+        "content": [
+          "Bagian pemanasan hitung cepat paling mudah dijalankan lewat game. **Monster Math** menggabungkan pertempuran monster dengan soal penjumlahan, pengurangan, perkalian, dan pembagian. Setiap jawaban benar membuat monster lebih kuat, sehingga anak terdorong menjawab cepat dan tepat.",
+          "Kecepatan berhitung dasar penting karena membebaskan pikiran anak untuk fokus pada logika soal cerita. Anak yang masih lama menghitung 7 × 8 akan kehabisan tenaga sebelum sampai ke bagian penalaran. Game ini bisa dimainkan tanpa internet, jadi aman dipakai di rumah tanpa iklan pop-up yang mengganggu konsentrasi.",
+          "Batasi sesi game sekitar 5 sampai 10 menit, lalu lanjutkan dengan soal cerita di kertas. Kombinasi layar dan kertas memberi kecepatan sekaligus kebiasaan menulis langkah."
+        ]
+      },
+      {
+        "id": "kesalahan",
+        "title": "Kesalahan yang sering terjadi saat mendampingi",
+        "content": [
+          "Beberapa kebiasaan orang tua tanpa sadar membuat anak makin takut matematika:"
+        ],
+        "bulletPoints": [
+          "Langsung memberi jawaban saat anak diam. Beri waktu berpikir minimal satu menit sebelum membantu.",
+          "Membandingkan dengan saudara atau teman. Bandingkan dengan kemampuan anak minggu lalu.",
+          "Hanya melatih soal yang sudah dikuasai. Sisipkan satu soal yang sedikit lebih sulit setiap sesi.",
+          "Mengabaikan kemampuan membaca. Banyak kesalahan numerasi sebenarnya berasal dari salah memahami kalimat soal."
+        ]
+      },
+      {
+        "id": "perangkat",
+        "title": "Perangkat belajar yang membantu",
+        "content": [
+          "Tablet dengan kontrol orang tua memudahkan anak berlatih tanpa membuka aplikasi lain. Stylus berujung tebal membantu anak menulis langkah hitung atau mencorat-coret di aplikasi catatan, kebiasaan yang juga berguna saat mengerjakan soal uraian. Namun perangkat hanya alat bantu. Yang paling menentukan tetap pendampingan Anda selama 15 menit itu."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah semua siswa kelas 5 mengikuti AKM?",
+        "a": "Tidak. Pesertanya adalah sampel siswa yang dipilih dari setiap sekolah. Namun kemampuan numerasi tetap penting bagi semua anak."
+      },
+      {
+        "q": "Apakah hasil AKM memengaruhi nilai rapor?",
+        "a": "Tidak. Hasilnya dipakai untuk evaluasi dan perbaikan mutu sekolah, bukan untuk menilai siswa secara perorangan."
+      },
+      {
+        "q": "Mulai kelas berapa sebaiknya berlatih numerasi?",
+        "a": "Sejak kelas awal. Ajak anak menghitung kembalian atau membaca jam sejak kelas 1 dan 2, lalu tingkatkan ke soal cerita bertahap."
+      },
+      {
+        "q": "Anak saya cepat berhitung tapi sering salah di soal cerita. Kenapa?",
+        "a": "Biasanya karena terburu-buru membaca. Latih anak menggarisbawahi pertanyaan dan menjelaskan isi soal sebelum menghitung."
+      }
+    ],
+    "titleEn": "Preparing Primary School Kids for Numeracy Assessments: Skills Tested and Practice at Home",
+    "metaTitleEn": "Numeracy Assessment Prep for Kids at Home",
+    "metaDescriptionEn": "Numeracy is more than arithmetic. Learn the four content areas usually tested, story-style practice problems, and a 15-minute daily home routine that builds understanding instead of memorisation.",
+    "keywordsEn": [
+      "numeracy assessment prep",
+      "primary school numeracy",
+      "math practice at home",
+      "indonesia akm",
+      "kids math learning"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains what Indonesia's AKM numeracy test measures, its four content domains and thinking levels, everyday practice problems, a 15-minute routine, and how a math game helps with speed.",
+    "sectionsEn": [
+      {
+        "id": "what",
+        "title": "Numeracy is not rote arithmetic",
+        "content": [
+          "Indonesia's Minimum Competency Assessment (AKM) is part of the National Assessment and measures reading literacy and numeracy. In primary school it is taken by a sample of grade 5 students, and results are used to map school quality, not to decide whether a child passes.",
+          "Numeracy means using math to solve everyday problems. Questions are usually stories about prices, timetables, charts, or floor plans, which trips up children who memorise formulas but rarely read word problems."
+        ],
+        "tipBox": {
+          "title": "Stay calm",
+          "text": "AKM does not affect report cards, so home practice should build real skills rather than chase scores.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "domains",
+        "title": "The four content areas",
+        "content": [
+          "Numeracy questions usually cover:"
+        ],
+        "bulletPoints": [
+          "Numbers: operations, fractions, decimals, ratios, and estimation.",
+          "Geometry and measurement: shapes, perimeter, area, and units of length, weight, and time.",
+          "Data and uncertainty: tables, bar and pie charts, simple probability.",
+          "Algebra: number patterns, relationships, and finding unknown values."
+        ]
+      },
+      {
+        "id": "levels",
+        "title": "Three levels of thinking",
+        "content": [
+          "Questions test understanding, application, and reasoning, and use formats such as multiple choice with more than one correct answer, matching, short answer, and essays. Introduce children to questions that can have several right answers."
+        ]
+      },
+      {
+        "id": "examples",
+        "title": "Practice problems from everyday life",
+        "content": [
+          "Compare the price of one 2-litre bottle of cooking oil with two 1-litre bottles, work out arrival times from a train timetable, chart a week of morning temperatures, or check whether a 2 m × 3 m rug fits a room. Daily life is the best workbook."
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "A 15-minute daily routine",
+        "content": [
+          "Five minutes of quick arithmetic, five minutes on one word problem read together (ask your child to restate the question first), and five minutes reviewing answers, including wrong ones. Consistency beats long weekend sessions."
+        ],
+        "tipBox": {
+          "title": "Ask why",
+          "text": "Ask how your child reached the answer. Explaining reasoning is the core of reasoning questions.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "game",
+        "title": "Using an educational game as a warm-up",
+        "content": [
+          "**Monster Math** mixes monster battles with addition, subtraction, multiplication, and division, so each correct answer powers up a monster. Fast basic arithmetic frees a child's mind for the logic of word problems. It works offline; keep sessions to 5 to 10 minutes, then move to paper."
+        ]
+      },
+      {
+        "id": "mistakes",
+        "title": "Common coaching mistakes",
+        "content": [
+          "Giving answers too quickly, comparing with siblings, practising only easy questions, and ignoring reading skills. Many numeracy errors are really reading errors."
+        ]
+      },
+      {
+        "id": "devices",
+        "title": "Helpful learning tools",
+        "content": [
+          "A tablet with parental controls keeps practice focused, and a chunky stylus helps children write out steps. Tools help, but your 15 minutes of guidance matters most."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Do all grade 5 students take AKM?",
+        "a": "No, a sample from each school does. Numeracy still matters for every child."
+      },
+      {
+        "q": "Does AKM affect report cards?",
+        "a": "No. Results are used to evaluate and improve schools."
+      },
+      {
+        "q": "When should numeracy practice start?",
+        "a": "From the early grades, with change-counting and clock reading, then gradually harder word problems."
+      },
+      {
+        "q": "My child calculates fast but misses word problems. Why?",
+        "a": "Usually rushed reading. Have them underline the question and restate it before calculating."
+      }
+    ],
+    "coverImage": "/images/apps/monster-math-train-brain/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
