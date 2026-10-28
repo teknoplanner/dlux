@@ -70,7 +70,7 @@ export const apps: AppItem[] = [
     "rating": 5,
     "reviewsCount": null,
     "downloads": "100+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.pdflocal.editor.offline",
     "color": "#0284c7"
@@ -106,7 +106,7 @@ export const apps: AppItem[] = [
     "rating": 5,
     "reviewsCount": null,
     "downloads": "10+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": true,
     "playUrl": "https://play.google.com/store/apps/details?id=com.stickmanpenaltyrush.game",
     "color": "#22c55e"
@@ -141,7 +141,7 @@ export const apps: AppItem[] = [
     "rating": 5,
     "reviewsCount": null,
     "downloads": "10+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": true,
     "playUrl": "https://play.google.com/store/apps/details?id=com.miloadventure.game",
     "color": "#f472b6"
@@ -175,9 +175,9 @@ export const apps: AppItem[] = [
       "/images/apps/monster-math-train-brain/screenshot-5.webp"
     ],
     "rating": 5,
-    "reviewsCount": 10,
+    "reviewsCount": null,
     "downloads": "500+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.monsteradventuremath",
     "color": "#8b5cf6"
@@ -209,9 +209,9 @@ export const apps: AppItem[] = [
       "/images/apps/baby-shark-abc-kids-learning/screenshot-3.webp"
     ],
     "rating": 5,
-    "reviewsCount": 10,
+    "reviewsCount": null,
     "downloads": "500+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": true,
     "playUrl": "https://play.google.com/store/apps/details?id=com.sharksmartalphabet",
     "color": "#22d3ee"
@@ -244,9 +244,9 @@ export const apps: AppItem[] = [
       "/images/apps/fruity-merge-3d-match-puzzle/screenshot-4.webp"
     ],
     "rating": 5,
-    "reviewsCount": 16,
+    "reviewsCount": null,
     "downloads": "500+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": true,
     "playUrl": "https://play.google.com/store/apps/details?id=com.fruitmatchfun",
     "color": "#f59e0b"
@@ -282,7 +282,7 @@ export const apps: AppItem[] = [
     "rating": 5,
     "reviewsCount": null,
     "downloads": "50+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.aturduitapp",
     "color": "#f97316"
@@ -317,7 +317,7 @@ export const apps: AppItem[] = [
     "rating": 5,
     "reviewsCount": null,
     "downloads": "50+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.soundfx.studio",
     "color": "#8b5cf6"
@@ -352,7 +352,7 @@ export const apps: AppItem[] = [
     "rating": 5,
     "reviewsCount": null,
     "downloads": "10+",
-    "contentRating": "3+",
+    "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.guardianorbit",
     "color": "#6366f1"
