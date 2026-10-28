@@ -99,7 +99,9 @@ export const apps: AppItem[] = [
     "screenshots": [
       "/images/apps/stickman-penalty-rush/screenshot-1.webp",
       "/images/apps/stickman-penalty-rush/screenshot-2.webp",
-      "/images/apps/stickman-penalty-rush/screenshot-3.webp"
+      "/images/apps/stickman-penalty-rush/screenshot-3.webp",
+      "/images/apps/stickman-penalty-rush/screenshot-4.webp",
+      "/images/apps/stickman-penalty-rush/screenshot-5.webp"
     ],
     "rating": 5,
     "reviewsCount": null,
