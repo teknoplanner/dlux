@@ -195,24 +195,44 @@ async function fetchPlayStoreApp(packageId) {
 
   const html = await res.text();
 
-  let regex = /AF_initDataCallback\(\{key:\s*['"]ds:5['"][\s\S]*?data:([\s\S]*?),\s*sideChannel:/;
-  let match = regex.exec(html);
+  let d5 = null;
 
-  if (!match) {
-    regex = /AF_initDataCallback\(\{key:\s*['"]ds:[345]['"][\s\S]*?data:([\s\S]*?),\s*sideChannel:/;
-    match = regex.exec(html);
+  // Try ds:5 callback
+  const ds5Match = /AF_initDataCallback\(\{key:\s*['"]ds:5['"].*?data:([\s\S]*?),\s*sideChannel:/m.exec(html);
+  if (ds5Match) {
+    try {
+      d5 = JSON.parse(ds5Match[1]);
+    } catch {}
   }
 
-  if (!match) {
-    regex = /AF_initDataCallback\(\{key:\s*['"]ds:\d+['"][\s\S]*?data:(\[\[[\s\S]*?\]\]),\s*sideChannel:/;
-    match = regex.exec(html);
+  // Fallback 1: Try ds:4, ds:3
+  if (!d5) {
+    const dsOtherMatch = /AF_initDataCallback\(\{key:\s*['"]ds:[34]['"].*?data:([\s\S]*?),\s*sideChannel:/m.exec(html);
+    if (dsOtherMatch) {
+      try {
+        d5 = JSON.parse(dsOtherMatch[1]);
+      } catch {}
+    }
   }
 
-  if (!match) {
-    throw new Error(`Could not find data payload in HTML for ${packageId}`);
+  // Fallback 2: Iterate all AF_initDataCallback blocks and find the one containing app data
+  if (!d5) {
+    const cbRegex = /AF_initDataCallback\(\{key:\s*['"]([^'"]+)['"].*?data:([\s\S]*?),\s*sideChannel:/g;
+    let m;
+    while ((m = cbRegex.exec(html)) !== null) {
+      try {
+        const parsed = JSON.parse(m[2]);
+        if (parsed?.[1]?.[2]?.[0]?.[0] || parsed?.[1]?.[2]?.[95]?.[0]?.[3]?.[2]) {
+          d5 = parsed;
+          break;
+        }
+      } catch {}
+    }
   }
 
-  const d5 = JSON.parse(match[1]);
+  if (!d5) {
+    throw new Error(`Could not find valid app data payload in HTML for ${packageId}`);
+  }
 
   const title = d5[1]?.[2]?.[0]?.[0] || packageId;
   const tagline = d5[1]?.[2]?.[73]?.[0]?.[1] || "";
@@ -265,32 +285,46 @@ async function fetchPlayStoreApp(packageId) {
 }
 
 async function discoverDeveloperPackages() {
-  console.log(`\n[1/4] Discovering apps from developer page: ${DEVELOPER_PAGE_URL}...`);
-  try {
-    const res = await fetch(DEVELOPER_PAGE_URL, {
-      headers: {
-        "User-Agent": USER_AGENT,
-        "Accept-Language": "en-US,en;q=0.9",
-      },
-    });
+  const discoveryUrls = [
+    DEVELOPER_PAGE_URL,
+    "https://play.google.com/store/apps/dev?id=5090788794635737630&hl=id",
+    "https://play.google.com/store/search?q=pub%3A%22D%20Lucky%20X%22&c=apps&hl=en",
+  ];
+  console.log(`\n[1/4] Discovering apps from developer page & search...`);
+  const uniquePackages = new Set();
 
-    if (!res.ok) {
-      console.warn(`[WARN] Developer page fetch returned HTTP ${res.status}`);
-      return [];
+  for (const url of discoveryUrls) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent": USER_AGENT,
+          "Accept-Language": "en-US,en;q=0.9",
+        },
+        signal: AbortSignal.timeout(15000),
+      });
+
+      if (!res.ok) {
+        console.warn(`[WARN] Discovery URL returned HTTP ${res.status}: ${url}`);
+        continue;
+      }
+
+      const html = await res.text();
+      const matches = [...html.matchAll(/\/store\/apps\/details\?id=([a-zA-Z0-9._]+)/g)].map(
+        (m) => m[1]
+      );
+      matches.forEach((pkg) => uniquePackages.add(pkg));
+    } catch (err) {
+      console.error(`[ERROR] Failed to discover apps from ${url}:`, err.message);
     }
-
-    const html = await res.text();
-    const matches = [...html.matchAll(/\/store\/apps\/details\?id=([a-zA-Z0-9._]+)/g)].map(
-      (m) => m[1]
-    );
-
-    const uniquePackages = Array.from(new Set(matches));
-    console.log(`  Found ${uniquePackages.length} package IDs on developer page:`, uniquePackages);
-    return uniquePackages;
-  } catch (err) {
-    console.error("[ERROR] Failed to discover apps from developer page:", err.message);
-    return [];
   }
+
+  // Accept optional CLI package arguments (e.g. node scripts/auto-crawl-playstore.mjs com.newapp.id)
+  const cliArgs = process.argv.slice(2).filter((arg) => !arg.startsWith("-") && arg.includes("."));
+  cliArgs.forEach((pkg) => uniquePackages.add(pkg));
+
+  const pkgList = Array.from(uniquePackages);
+  console.log(`  Found ${pkgList.length} unique package IDs across discovery sources:`, pkgList);
+  return pkgList;
 }
 
 async function main() {
@@ -359,9 +393,9 @@ async function main() {
           await downloadAndOptimizeImage(details.iconUrl, iconFullPath, 512, 512, "cover");
         }
 
-        // Download Screenshots (up to 4)
+        // Download Screenshots (up to 5)
         const screenshots = [];
-        const shotsToDownload = details.screenshotUrls.slice(0, 4);
+        const shotsToDownload = details.screenshotUrls.slice(0, 5);
         for (let sIdx = 0; sIdx < shotsToDownload.length; sIdx++) {
           const shotUrl = shotsToDownload[sIdx];
           const shotRelPath = `/images/apps/${slug}/screenshot-${sIdx + 1}.webp`;
@@ -395,7 +429,7 @@ async function main() {
         existingPkgMap.set(packageId, appEntry);
         addedCount++;
       } else {
-        // --- EXISTING APP UPDATE METRICS ---
+        // --- EXISTING APP UPDATE METRICS & ASSETS ---
         let changed = false;
         if (details.rating && appEntry.rating !== details.rating) {
           console.log(`  ★ Rating changed: ${appEntry.rating} -> ${details.rating}`);
@@ -412,15 +446,38 @@ async function main() {
           appEntry.downloads = details.downloads;
           changed = true;
         }
-
-        // Check if icons or screenshots are missing on disk
-        const appDir = path.join(process.cwd(), "public", "images", "apps", appEntry.slug);
-        const iconFullPath = path.join(appDir, "icon.webp");
-        if (!fs.existsSync(iconFullPath) && details.iconUrl) {
-          fs.mkdirSync(appDir, { recursive: true });
-          console.log(`  Re-downloading missing icon -> ${iconFullPath}`);
-          await downloadAndOptimizeImage(details.iconUrl, iconFullPath, 512, 512, "cover");
+        if (details.contentRating && appEntry.contentRating !== details.contentRating) {
+          appEntry.contentRating = details.contentRating;
           changed = true;
+        }
+
+        // Refresh Play Store assets (icons and screenshots)
+        const appDir = path.join(process.cwd(), "public", "images", "apps", appEntry.slug);
+        fs.mkdirSync(appDir, { recursive: true });
+
+        if (details.iconUrl) {
+          const iconFullPath = path.join(appDir, "icon.webp");
+          console.log(`  Refreshing high-res icon -> /images/apps/${appEntry.slug}/icon.webp`);
+          await downloadAndOptimizeImage(details.iconUrl, iconFullPath, 512, 512, "cover");
+          appEntry.icon = `/images/apps/${appEntry.slug}/icon.webp`;
+          changed = true;
+        }
+
+        if (details.screenshotUrls && details.screenshotUrls.length > 0) {
+          const shotsToDownload = details.screenshotUrls.slice(0, 5);
+          const newScreenshots = [];
+          for (let sIdx = 0; sIdx < shotsToDownload.length; sIdx++) {
+            const shotUrl = shotsToDownload[sIdx];
+            const shotRelPath = `/images/apps/${appEntry.slug}/screenshot-${sIdx + 1}.webp`;
+            const shotFullPath = path.join(appDir, `screenshot-${sIdx + 1}.webp`);
+            console.log(`  Refreshing screenshot ${sIdx + 1} -> ${shotRelPath}`);
+            await downloadAndOptimizeImage(shotUrl, shotFullPath, 1080, 1920, "inside");
+            newScreenshots.push(shotRelPath);
+          }
+          if (newScreenshots.length > 0) {
+            appEntry.screenshots = newScreenshots;
+            changed = true;
+          }
         }
 
         if (changed) {

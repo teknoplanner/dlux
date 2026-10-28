@@ -169,10 +169,11 @@ export const apps: AppItem[] = [
       "/images/apps/monster-math-train-brain/screenshot-1.webp",
       "/images/apps/monster-math-train-brain/screenshot-2.webp",
       "/images/apps/monster-math-train-brain/screenshot-3.webp",
-      "/images/apps/monster-math-train-brain/screenshot-4.webp"
+      "/images/apps/monster-math-train-brain/screenshot-4.webp",
+      "/images/apps/monster-math-train-brain/screenshot-5.webp"
     ],
     "rating": 5,
-    "reviewsCount": null,
+    "reviewsCount": 10,
     "downloads": "500+",
     "contentRating": "3+",
     "hasAds": false,
@@ -206,7 +207,7 @@ export const apps: AppItem[] = [
       "/images/apps/baby-shark-abc-kids-learning/screenshot-3.webp"
     ],
     "rating": 5,
-    "reviewsCount": null,
+    "reviewsCount": 10,
     "downloads": "500+",
     "contentRating": "3+",
     "hasAds": true,
@@ -241,7 +242,7 @@ export const apps: AppItem[] = [
       "/images/apps/fruity-merge-3d-match-puzzle/screenshot-4.webp"
     ],
     "rating": 5,
-    "reviewsCount": null,
+    "reviewsCount": 16,
     "downloads": "500+",
     "contentRating": "3+",
     "hasAds": true,
@@ -273,7 +274,8 @@ export const apps: AppItem[] = [
       "/images/apps/kucing-atur-duit/screenshot-1.webp",
       "/images/apps/kucing-atur-duit/screenshot-2.webp",
       "/images/apps/kucing-atur-duit/screenshot-3.webp",
-      "/images/apps/kucing-atur-duit/screenshot-4.webp"
+      "/images/apps/kucing-atur-duit/screenshot-4.webp",
+      "/images/apps/kucing-atur-duit/screenshot-5.webp"
     ],
     "rating": 5,
     "reviewsCount": null,
@@ -348,7 +350,7 @@ export const apps: AppItem[] = [
     "rating": 5,
     "reviewsCount": null,
     "downloads": "10+",
-    "contentRating": "Everyone",
+    "contentRating": "3+",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.guardianorbit",
     "color": "#6366f1"
