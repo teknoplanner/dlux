@@ -316,7 +316,7 @@ export const apps: AppItem[] = [
     ],
     "rating": 5,
     "reviewsCount": null,
-    "downloads": "50+",
+    "downloads": "100+",
     "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.soundfx.studio",
