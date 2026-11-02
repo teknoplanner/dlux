@@ -32008,5 +32008,279 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/milo-cat-adventure/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-mengatur-keuangan-rumah-tangga-bersama-pasangan-rekening-pos-dan-rapat-bulanan",
+    "slugEn": "managing-household-money-as-a-couple-accounts-categories-and-monthly-check-ins",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-11-02T09:45:00+07:00",
+    "title": "Cara Mengatur Keuangan Rumah Tangga Bersama Pasangan: Sistem Rekening, Pembagian Pos, dan Rapat Bulanan",
+    "metaTitle": "Atur Keuangan Rumah Tangga Bersama Pasangan",
+    "metaDescription": "Tiga sistem rekening untuk pasangan, cara membagi tagihan secara adil saat penghasilan berbeda, dan format rapat keuangan bulanan 30 menit yang mencegah pertengkaran soal uang.",
+    "keywords": [
+      "mengatur keuangan rumah tangga",
+      "keuangan suami istri",
+      "rekening bersama pasangan",
+      "budget keluarga bulanan",
+      "aplikasi catat keuangan keluarga"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Uang adalah topik yang paling sering dihindari pasangan",
+        "content": [
+          "Banyak pasangan bisa membicarakan apa saja, kecuali uang. Topik ini terasa canggung karena menyentuh harga diri, kebiasaan keluarga masing-masing, dan rasa takut dihakimi. Akibatnya, keputusan keuangan diambil diam-diam, tagihan dibayar siapa saja yang sempat, dan kekesalan menumpuk sampai meledak di saat yang tidak tepat.",
+          "Kabar baiknya, sebagian besar konflik keuangan bukan soal jumlah uang, melainkan soal sistem yang tidak jelas. Siapa membayar apa, berapa yang boleh dipakai tanpa bertanya, dan ke mana tabungan diarahkan. Begitu sistemnya disepakati, obrolan soal uang berubah dari pertengkaran menjadi rapat kecil yang rutin."
+        ]
+      },
+      {
+        "id": "kenali",
+        "title": "Mulai dengan saling mengenal kebiasaan uang",
+        "content": [
+          "Sebelum memilih sistem, luangkan satu malam untuk berbagi cerita. Bagaimana orang tua kalian dulu mengatur uang? Apa yang membuat kalian merasa aman secara finansial? Pengeluaran apa yang menurut kalian wajar, dan apa yang terasa boros?",
+          "Pertanyaan ini sering membuka hal yang tidak pernah dibicarakan. Satu orang mungkin tumbuh di keluarga yang selalu menabung untuk berjaga-jaga, sementara yang lain terbiasa menikmati uang selagi ada. Tidak ada yang salah, tapi perbedaan ini perlu diketahui agar tidak saling menuduh."
+        ],
+        "bulletPoints": [
+          "Sebutkan seluruh penghasilan bersih per bulan, termasuk penghasilan sampingan.",
+          "Buka semua utang yang dimiliki, termasuk paylater dan cicilan yang dibawa sebelum menikah.",
+          "Ceritakan tanggungan keluarga, misalnya membantu orang tua atau adik yang masih sekolah.",
+          "Tuliskan tiga tujuan keuangan terbesar masing-masing untuk lima tahun ke depan."
+        ],
+        "tipBox": {
+          "title": "Jujur sejak awal",
+          "text": "Utang yang disembunyikan adalah sumber konflik paling berat dalam rumah tangga. Lebih baik canggung sekarang daripada kehilangan kepercayaan nanti.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "sistem",
+        "title": "Tiga sistem rekening untuk pasangan",
+        "content": [
+          "Tidak ada satu sistem yang cocok untuk semua pasangan. Pilih yang paling sesuai dengan kebiasaan dan tingkat kenyamanan kalian:"
+        ],
+        "bulletPoints": [
+          "Semua digabung: seluruh penghasilan masuk ke satu rekening bersama, semua pengeluaran keluar dari sana. Paling sederhana dan transparan, cocok untuk pasangan yang sudah sangat sepakat soal gaya belanja.",
+          "Sebagian digabung: masing-masing menyetor porsi tertentu ke rekening bersama untuk kebutuhan rumah tangga, sisanya tetap di rekening pribadi. Sistem paling populer karena memberi kebersamaan sekaligus kebebasan.",
+          "Terpisah dengan pembagian tagihan: rekening tetap terpisah, tagihan dibagi per pos. Misalnya satu orang membayar sewa dan listrik, yang lain belanja dapur dan sekolah anak. Cocok untuk pasangan dengan penghasilan tidak menentu, tapi butuh catatan yang rapi agar tetap adil."
+        ]
+      },
+      {
+        "id": "adil",
+        "title": "Membagi beban secara adil saat penghasilan berbeda",
+        "content": [
+          "Membagi tagihan 50:50 terdengar adil, tapi bisa terasa berat bagi pasangan yang penghasilannya jauh lebih kecil. Cara yang sering lebih adil adalah membagi secara proporsional terhadap penghasilan.",
+          "Contohnya, penghasilan bersih suami Rp8 juta dan istri Rp4 juta, total Rp12 juta. Kebutuhan rumah tangga bersama Rp6 juta per bulan. Dengan pembagian proporsional, suami menyetor dua pertiga atau Rp4 juta, istri sepertiga atau Rp2 juta. Masing-masing menyisakan setengah penghasilannya untuk tabungan dan kebutuhan pribadi.",
+          "Ingat juga kontribusi yang tidak berbentuk uang. Pasangan yang mengurus anak dan rumah penuh waktu memberi nilai besar bagi keluarga, dan tetap berhak atas uang pribadi yang bisa dipakai tanpa harus meminta izin untuk setiap pembelian kecil."
+        ]
+      },
+      {
+        "id": "pos",
+        "title": "Menyusun pos anggaran rumah tangga",
+        "content": [
+          "Setelah sistem rekening disepakati, susun pos anggaran bersama. Pos yang umum dipakai keluarga di Indonesia antara lain:"
+        ],
+        "bulletPoints": [
+          "Tempat tinggal: sewa atau cicilan rumah, iuran lingkungan, perbaikan kecil.",
+          "Tagihan rutin: listrik, air, internet, pulsa, gas.",
+          "Dapur dan kebutuhan harian: belanja pasar, galon, sabun, popok.",
+          "Transportasi: bensin, servis kendaraan, ongkos ojek atau kereta.",
+          "Anak: sekolah, les, uang jajan, kesehatan.",
+          "Keluarga besar dan sosial: kiriman untuk orang tua, kondangan, arisan.",
+          "Tabungan dan dana darurat: disisihkan di awal bulan, bukan dari sisa.",
+          "Uang pribadi masing-masing: jumlah yang sama atau proporsional, bebas dipakai tanpa laporan."
+        ],
+        "tipBox": {
+          "title": "Pos uang pribadi itu penting",
+          "text": "Uang pribadi yang disepakati membuat masing-masing tetap punya kebebasan kecil, seperti membeli hobi atau traktir teman, tanpa merasa harus meminta izin. Ini mengurangi banyak gesekan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "rapat",
+        "title": "Rapat keuangan bulanan 30 menit",
+        "content": [
+          "Rapat keuangan tidak harus formal. Yang penting rutin, misalnya setiap tanggal gajian atau hari Minggu pertama setiap bulan. Siapkan minuman favorit dan pilih waktu ketika anak sudah tidur.",
+          "Gunakan susunan sederhana ini agar rapat tidak berubah menjadi sesi saling menyalahkan:"
+        ],
+        "bulletPoints": [
+          "Lima menit: lihat ringkasan pengeluaran bulan lalu per pos. Mana yang sesuai rencana, mana yang lewat.",
+          "Sepuluh menit: bahas penyebab pos yang melebihi anggaran tanpa mencari siapa yang salah.",
+          "Sepuluh menit: rencanakan bulan depan, termasuk pengeluaran khusus seperti ulang tahun, sekolah, atau hari raya.",
+          "Lima menit: cek kemajuan tujuan bersama, misalnya dana darurat atau tabungan rumah, dan rayakan kemajuan sekecil apa pun."
+        ]
+      },
+      {
+        "id": "catat",
+        "title": "Mencatat bersama tanpa saling curiga",
+        "content": [
+          "Rapat bulanan hanya bermanfaat jika ada data. Di sinilah aplikasi pencatat keuangan membantu. Di **Kucing Atur Duit**, catat pengeluaran rumah tangga dengan kategori yang sama dengan pos anggaran kalian. Keyboard kalkulator bawaan membuat setiap transaksi tercatat dalam hitungan detik, dan maskot kucing yang bereaksi terhadap pengeluaran membuat kebiasaan mencatat terasa lebih ringan.",
+          "Di akhir bulan, grafik arus kas dan ringkasan kategori langsung menunjukkan ke mana uang pergi. Peringatan anggaran bulanan memberi tanda sebelum sebuah pos jebol, bukan sesudahnya. Karena data tersimpan di HP dan dapat dikunci PIN atau sidik jari, catatan keuangan keluarga tetap privat dan tidak bergantung pada server pihak ketiga.",
+          "Sepakati siapa yang mencatat apa. Misalnya, siapa pun yang belanja langsung mencatat di HP-nya, lalu ringkasannya dibahas bersama saat rapat bulanan."
+        ]
+      },
+      {
+        "id": "darurat",
+        "title": "Dana darurat dan tujuan bersama",
+        "content": [
+          "Prioritas pertama rumah tangga adalah dana darurat. Patokan yang sering dipakai adalah tiga sampai enam kali pengeluaran bulanan, dan lebih besar jika penghasilan tidak tetap atau ada anak kecil. Simpan di rekening terpisah yang mudah dicairkan tapi tidak tercampur dengan uang belanja.",
+          "Setelah dana darurat terbentuk, susun tujuan bersama dengan angka dan tenggat yang jelas: uang muka rumah, biaya masuk sekolah anak, atau liburan keluarga. Tujuan yang ditulis bersama membuat pengorbanan kecil sehari-hari terasa punya arti."
+        ]
+      },
+      {
+        "id": "konflik",
+        "title": "Ketika tetap terjadi perbedaan pendapat",
+        "content": [
+          "Perbedaan pendapat soal uang itu wajar. Sepakati batas pembelian yang perlu didiskusikan dulu, misalnya di atas Rp1 juta. Di bawah itu, masing-masing bebas memutuskan sendiri.",
+          "Jika diskusi memanas, tunda dan lanjutkan esok hari. Keputusan keuangan yang diambil dalam keadaan emosi jarang menjadi keputusan yang baik. Jika masalahnya berulang dan sulit diselesaikan berdua, konsultasi dengan perencana keuangan atau konselor pernikahan bisa membantu."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah wajib membuka rekening bersama setelah menikah?",
+        "a": "Tidak wajib. Yang penting ada kesepakatan jelas soal siapa membayar apa. Rekening bersama hanya mempermudah."
+      },
+      {
+        "q": "Bagaimana jika pasangan enggan mencatat pengeluaran?",
+        "a": "Mulailah dari pos terbesar saja, misalnya dapur dan transportasi. Tunjukkan manfaatnya saat rapat bulanan, bukan dengan memaksa."
+      },
+      {
+        "q": "Berapa besar uang pribadi yang ideal?",
+        "a": "Tidak ada angka baku. Banyak pasangan memakai 5 sampai 10 persen penghasilan atau jumlah tetap yang sama untuk masing-masing."
+      },
+      {
+        "q": "Apakah kiriman untuk orang tua perlu dimasukkan anggaran?",
+        "a": "Ya. Masukkan sebagai pos tetap agar tidak menimbulkan kejutan atau rasa tidak adil di kemudian hari."
+      }
+    ],
+    "titleEn": "Managing Household Money as a Couple: Account Systems, Budget Categories, and Monthly Check-Ins",
+    "metaTitleEn": "Managing Household Money as a Couple",
+    "metaDescriptionEn": "Three account systems for couples, fair ways to split bills when incomes differ, and a 30-minute monthly money meeting format that prevents arguments.",
+    "keywordsEn": [
+      "household budget couple",
+      "married couple finances",
+      "joint account",
+      "family monthly budget",
+      "family expense tracker app"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "Covers money conversations, three account systems, proportional bill splitting, household budget categories, a 30-minute monthly meeting, tracking with a private app, emergency funds, and handling disagreements.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Money is the topic couples avoid most",
+        "content": [
+          "Money touches pride, family habits, and fear of judgement, so many couples avoid it until resentment boils over. Most money conflict comes from unclear systems, not from the amount. Once the system is agreed, money talks become routine check-ins."
+        ]
+      },
+      {
+        "id": "know",
+        "title": "Start by learning each other's money habits",
+        "content": [
+          "Spend an evening sharing how your parents handled money and what makes you feel financially safe."
+        ],
+        "bulletPoints": [
+          "Share total net monthly income, including side income.",
+          "Disclose all debts, including paylater and pre-marriage installments.",
+          "Talk about family support obligations.",
+          "Write down each person's top three five-year goals."
+        ],
+        "tipBox": {
+          "title": "Be honest from day one",
+          "text": "Hidden debt is one of the hardest conflicts in a marriage.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "systems",
+        "title": "Three account systems",
+        "content": [
+          "Pick what suits you:"
+        ],
+        "bulletPoints": [
+          "Fully pooled: all income into one joint account. Simple and transparent.",
+          "Partly pooled: each contributes a share to a joint household account and keeps the rest. The most popular option.",
+          "Separate with split bills: each covers specific bills. Works for irregular income but needs tidy records."
+        ]
+      },
+      {
+        "id": "fair",
+        "title": "Fair splits when incomes differ",
+        "content": [
+          "A 50:50 split can burden the lower earner. A proportional split is often fairer: with Rp8 million and Rp4 million incomes and Rp6 million of shared costs, contributions of Rp4 million and Rp2 million leave each with half their income. Recognise unpaid work at home too."
+        ]
+      },
+      {
+        "id": "categories",
+        "title": "Household budget categories",
+        "content": [
+          "Common categories for Indonesian families:"
+        ],
+        "bulletPoints": [
+          "Housing, utilities, groceries, transport, children, extended family and social obligations, savings and emergency fund (set aside first), and personal money for each partner."
+        ],
+        "tipBox": {
+          "title": "Personal money matters",
+          "text": "An agreed personal allowance removes the need to ask permission for small purchases.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "meeting",
+        "title": "A 30-minute monthly money meeting",
+        "content": [
+          "Hold it on payday or the first Sunday of the month:"
+        ],
+        "bulletPoints": [
+          "5 minutes: review last month by category.",
+          "10 minutes: discuss overspending without blame.",
+          "10 minutes: plan next month and special expenses.",
+          "5 minutes: check shared goals and celebrate progress."
+        ]
+      },
+      {
+        "id": "track",
+        "title": "Tracking together without suspicion",
+        "content": [
+          "In **Kucing Atur Duit**, log household spending using the same categories as your budget. The calculator keyboard makes entries quick, monthly charts show where money went, and budget alerts warn before a category overruns. Data stays on the phone behind a PIN or fingerprint lock."
+        ]
+      },
+      {
+        "id": "emergency",
+        "title": "Emergency fund and shared goals",
+        "content": [
+          "Aim for three to six months of expenses, more with irregular income or young children, kept in a separate account. Then set shared goals with amounts and deadlines."
+        ]
+      },
+      {
+        "id": "conflict",
+        "title": "When you still disagree",
+        "content": [
+          "Agree a threshold above which purchases need discussion, pause heated talks until the next day, and consider a financial planner or counsellor for recurring issues."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Do we need a joint account after marriage?",
+        "a": "No. A clear agreement on who pays what matters more."
+      },
+      {
+        "q": "What if my partner will not track spending?",
+        "a": "Start with the biggest categories and show the benefits at the monthly meeting."
+      },
+      {
+        "q": "How much personal money is ideal?",
+        "a": "Many couples use 5 to 10 percent of income or an equal fixed amount."
+      },
+      {
+        "q": "Should support for parents be in the budget?",
+        "a": "Yes, as a fixed category to avoid surprises and resentment."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
