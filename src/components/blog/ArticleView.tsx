@@ -8,8 +8,9 @@ import { AppCtaBanner } from "@/components/blog/AppCtaBanner";
 import { ArticleCard } from "@/components/blog/ArticleCard";
 import { ArticleCover } from "@/components/blog/ArticleCover";
 import { FormattedText } from "@/components/blog/FormattedText";
-import { StickyLeftAd } from "@/components/blog/StickyLeftAd";
-import { InArticleAd } from "@/components/blog/InArticleAd";
+// Google AdSense (dinonaktifkan sementara - jangan dihapus jika sewaktu-waktu dipakai lagi)
+// import { StickyLeftAd } from "@/components/blog/StickyLeftAd";
+// import { InArticleAd } from "@/components/blog/InArticleAd";
 import { SocialShare } from "@/components/blog/SocialShare";
 import { FeedbackWidget } from "@/components/blog/FeedbackWidget";
 import { ScrollProgressBar } from "@/components/blog/ScrollProgressBar";
@@ -123,7 +124,8 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
           </div>
 
           <div className="flex flex-col lg:flex-row items-start justify-center gap-8 xl:gap-12">
-            <StickyLeftAd />
+            {/* Google AdSense: Sticky Left Ad (dinonaktifkan sementara) */}
+            {/* <StickyLeftAd /> */}
             <article className="min-w-0 max-w-[44rem] flex-1">
               <header>
                 <p className="text-sm text-slate-600">
@@ -256,7 +258,8 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                         </ul>
                       </aside>
                     )}
-                    {idx === Math.min(2, Math.max(0, sections.length - 1)) && <InArticleAd />}
+                    {/* Google AdSense: In-Article Ad (dinonaktifkan sementara) */}
+                    {/* {idx === Math.min(2, Math.max(0, sections.length - 1)) && <InArticleAd />} */}
                   </React.Fragment>
                 ))}
               </div>

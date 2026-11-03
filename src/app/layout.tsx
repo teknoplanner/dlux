@@ -122,12 +122,14 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
         />
-        {/* Google AdSense */}
+        {/* Google AdSense (Dinonaktifkan sementara - jangan dihapus jika sewaktu-waktu dipakai lagi) */}
+        {/*
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3408198783704510"
           crossOrigin="anonymous"
         />
+        */}
       </head>
       <body className="bg-[#fafaf9] text-slate-900 font-sans antialiased min-h-screen flex flex-col selection:bg-slate-900 selection:text-white">
         {/* Google Analytics tag (gtag.js) */}

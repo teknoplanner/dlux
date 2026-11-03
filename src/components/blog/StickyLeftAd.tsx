@@ -1,5 +1,11 @@
 "use client";
 
+/**
+ * Komponen Google AdSense (Sticky Sidebar Ad).
+ * Catatan: Jangan dihapus! Komponen ini diarsipkan/disimpan untuk sewaktu-waktu
+ * jika ingin mengaktifkan kembali monetisasi Google AdSense di ArticleView.tsx.
+ */
+
 import React, { useEffect, useRef, useState } from "react";
 
 export function StickyLeftAd() {
