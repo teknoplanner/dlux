@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Play, Menu, X, Gamepad2, Sparkles, BookOpen, Home, Compass } from "lucide-react";
+import { Play, Menu, X, Gamepad2, Sparkles, BookOpen, Home, Compass, Video } from "lucide-react";
 import { developer } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 import { BrandLogo } from "@/components/ui/BrandLogo";
@@ -85,6 +85,13 @@ export const Navbar: React.FC = () => {
               Gear
             </Link>
             <Link
+              href="/video"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+            >
+              Video
+              <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-full bg-red-100 text-red-700">Shorts</span>
+            </Link>
+            <Link
               href="/world"
               className="inline-flex items-center gap-1.5 text-sm font-bold text-emerald-600 hover:text-emerald-700 transition-colors"
             >
@@ -154,6 +161,17 @@ export const Navbar: React.FC = () => {
           >
             <Gamepad2 className="w-4 h-4 text-cyan-600" />
             Gear
+          </Link>
+          <Link
+            href="/video"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center justify-between text-sm font-semibold text-slate-800 hover:text-emerald-600 py-2.5 border-b border-slate-100"
+          >
+            <div className="flex items-center gap-3">
+              <Video className="w-4 h-4 text-red-600" />
+              Video
+            </div>
+            <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-red-100 text-red-700">Shorts</span>
           </Link>
           <Link
             href="/world"

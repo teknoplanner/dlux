@@ -82,6 +82,7 @@ try {
     { lang: "id", href: `${baseUrl}/gear/` },
   ]);
 
+  addUrl(`${baseUrl}/video/`, nowIso, "daily", "0.8");
   addUrl(`${baseUrl}/privacy/`, nowIso, "monthly", "0.7");
   addUrl(`${baseUrl}/contact/`, nowIso, "monthly", "0.7");
   addUrl(`${baseUrl}/terms/`, nowIso, "monthly", "0.7");
