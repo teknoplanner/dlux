@@ -23,6 +23,17 @@ export const youtubeChannel = {
 
 export const shorts: ShortVideo[] = [
   {
+    "id": "3Zxu6yn3cdg",
+    "title": "Jalan miring di game ternyata lebih cepat 41%! 🎮 #shorts",
+    "views": "1,2 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/3Zxu6yn3cdg/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCT7-044o_CpbIIuInX847xTa3TFA",
+    "category": "trivia",
+    "tags": [
+      "Gaming"
+    ],
+    "youtubeUrl": "https://www.youtube.com/shorts/3Zxu6yn3cdg"
+  },
+  {
     "id": "X7P2fUhkgbg",
     "title": "Jalan miring di game ternyata lebih cepat 41%! 🎮 #shorts",
     "views": "1,2 rb x ditonton",
@@ -37,7 +48,7 @@ export const shorts: ShortVideo[] = [
     "id": "hqzO4KRzsYU",
     "title": "Avatar teman di Roblox patah-patah? Bukan karena internetmu! 🎮 #shorts",
     "views": "1,3 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/hqzO4KRzsYU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAbG9VjGp5bACQsZV4Luw_psCvx3g",
+    "thumbnail": "https://i.ytimg.com/vi/hqzO4KRzsYU/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBEUaGB93LQDz2lIpLbDStlDGkGdQ",
     "category": "trivia",
     "tags": [
       "Roblox"
@@ -47,7 +58,7 @@ export const shorts: ShortVideo[] = [
   {
     "id": "HgIVUOohNm8",
     "title": "Tetris lahir di kantor Uni Soviet?! 🧱 #shorts",
-    "views": "1,1 rb x ditonton",
+    "views": "1,2 rb x ditonton",
     "thumbnail": "https://i.ytimg.com/vi/HgIVUOohNm8/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDw4D6zGkTQ-F-Ac8h_Re9lujZ7Cg",
     "category": "trivia",
     "tags": [
@@ -59,7 +70,7 @@ export const shorts: ShortVideo[] = [
     "id": "xHQDqVXupu4",
     "title": "Creeper Minecraft ternyata lahir dari SALAH ANGKA?! 💥 #shorts",
     "views": "1,4 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/xHQDqVXupu4/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCyxwx1eGSR86pKHjzPFCkcYU341w",
+    "thumbnail": "https://i.ytimg.com/vi/xHQDqVXupu4/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD2eFbcOETOcOl18X5fiuxIDy4mCA",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -104,7 +115,7 @@ export const shorts: ShortVideo[] = [
     "id": "Gk_Ov8zwyw4",
     "title": "4 hantu Pac-Man, cuma 1 yang benar-benar mengejarmu 👻 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/Gk_Ov8zwyw4/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC5iAIfAgvjZcbelyDuKl_8jg6-IQ",
+    "thumbnail": "https://i.ytimg.com/vi/Gk_Ov8zwyw4/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBibbjs5XD4ffxJsEd3ibebzg1Yjg",
     "category": "trivia",
     "tags": [
       "Pac-Man"
