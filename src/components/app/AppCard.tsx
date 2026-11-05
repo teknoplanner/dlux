@@ -21,17 +21,17 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
         };
       case "education":
         return {
-          label: "Education",
+          label: "Edukasi",
           badgeColor: "bg-purple-50 text-purple-800 border-purple-200",
         };
       case "tool":
         return {
-          label: "Tool",
+          label: "Alat",
           badgeColor: "bg-sky-50 text-sky-800 border-sky-200",
         };
       default:
         return {
-          label: "App",
+          label: "Aplikasi",
           badgeColor: "bg-slate-50 text-slate-800 border-slate-200",
         };
     }

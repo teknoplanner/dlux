@@ -5,10 +5,10 @@ import { apps } from "@/data/apps";
 import { AppCard } from "@/components/app/AppCard";
 
 const tabs = [
-  ["all", "All"],
-  ["game", "Games"],
-  ["tool", "Tools"],
-  ["education", "Education"],
+  ["all", "Semua"],
+  ["game", "Game"],
+  ["tool", "Alat"],
+  ["education", "Edukasi"],
 ] as const;
 
 export const AppGrid: React.FC = () => {
@@ -20,10 +20,10 @@ export const AppGrid: React.FC = () => {
     <section id="apps" className="py-16 sm:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold font-display text-slate-900 tracking-tight mb-6">
-          Android games and apps
+          Game dan aplikasi Android
         </h2>
 
-        <div className="flex flex-wrap gap-2 mb-8" role="group" aria-label="Filter apps by category">
+        <div className="flex flex-wrap gap-2 mb-8" role="group" aria-label="Filter aplikasi berdasarkan kategori">
           {tabs.map(([key, label]) => (
             <button
               key={key}

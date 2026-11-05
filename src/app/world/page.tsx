@@ -45,6 +45,11 @@ export const metadata: Metadata = {
 export default function WorldPage() {
   return (
     <main className="fixed inset-0 w-screen h-screen h-[100dvh] overflow-hidden bg-slate-950 select-none">
+      <h1 className="sr-only">D Lucky World 3D: Game Petualangan 3D Gratis di Browser</h1>
+      <p className="sr-only">
+        Jelajahi kepulauan game 3D bersama maskot Milo si Kucing langsung di browser, tanpa unduh. Berkendara, lari, dan lompat antar pulau,
+        kumpulkan token, cetak gol, dan pakai peta smartphone virtual untuk berpindah cepat.
+      </p>
       <WorldGameCanvas />
     </main>
   );

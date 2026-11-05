@@ -23,9 +23,9 @@ export const Featured: React.FC = () => {
       : topTool;
 
   const getSubcategory = () => {
-    if (currentApp.slug === "monster-math-train-brain") return "Math Education & Brain Training";
-    if (currentApp.slug === "stickman-penalty-rush") return "Casual Action & Sports";
-    return "Document Utility & Privacy";
+    if (currentApp.slug === "monster-math-train-brain") return "Edukasi Matematika & Asah Otak";
+    if (currentApp.slug === "stickman-penalty-rush") return "Aksi Kasual & Olahraga";
+    return "Utilitas Dokumen & Privasi";
   };
 
   const getSubcategoryColor = () => {
@@ -41,10 +41,10 @@ export const Featured: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
           <div>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 tracking-tight">
-              Start with these three
+              Mulai dari tiga ini
             </h2>
             <p className="text-sm sm:text-base text-slate-600 mt-2 max-w-xl">
-              One learning game, one sports game, one tool.
+              Satu game belajar, satu game olahraga, satu aplikasi alat.
             </p>
           </div>
 
@@ -146,7 +146,7 @@ export const Featured: React.FC = () => {
                     <span>{currentApp.rating ? currentApp.rating.toFixed(1) : "5.0"}</span>
                   </div>
                   <div className="text-[11px] text-slate-600 font-medium">
-                    {currentApp.reviewsCount ? `${currentApp.reviewsCount} Reviews` : "Play Store Rating"}
+                    {currentApp.reviewsCount ? `${currentApp.reviewsCount} Ulasan` : "Rating Play Store"}
                   </div>
                 </div>
                 <div>
@@ -154,7 +154,7 @@ export const Featured: React.FC = () => {
                     <Download className="w-4 h-4 text-sky-600" />
                     <span>{currentApp.downloads}</span>
                   </div>
-                  <div className="text-[11px] text-slate-600 font-medium">Total Downloads</div>
+                  <div className="text-[11px] text-slate-600 font-medium">Total Unduhan</div>
                 </div>
               </div>
 
@@ -168,7 +168,7 @@ export const Featured: React.FC = () => {
                   className="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-white shadow-sm font-bold"
                 >
                   <Play className="w-4 h-4 fill-current" />
-                  Get on Google Play
+                  Unduh di Google Play
                 </Button>
                 <Button
                   href={`/apps/${currentApp.slug}`}
@@ -176,7 +176,7 @@ export const Featured: React.FC = () => {
                   size="md"
                   className="w-full sm:w-auto bg-white border-slate-300 text-slate-900 hover:bg-slate-50 font-bold"
                 >
-                  <span>Full Details</span>
+                  <span>Detail Lengkap</span>
                   <ArrowRight className="w-4 h-4 text-slate-500" />
                 </Button>
               </div>
