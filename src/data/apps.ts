@@ -206,7 +206,9 @@ export const apps: AppItem[] = [
     "screenshots": [
       "/images/apps/baby-shark-abc-kids-learning/screenshot-1.webp",
       "/images/apps/baby-shark-abc-kids-learning/screenshot-2.webp",
-      "/images/apps/baby-shark-abc-kids-learning/screenshot-3.webp"
+      "/images/apps/baby-shark-abc-kids-learning/screenshot-3.webp",
+      "/images/apps/baby-shark-abc-kids-learning/screenshot-4.webp",
+      "/images/apps/baby-shark-abc-kids-learning/screenshot-5.webp"
     ],
     "rating": 5,
     "reviewsCount": null,
