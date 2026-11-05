@@ -39,6 +39,22 @@ export function getArticleBySlug(slug: string): ArticleItem | undefined {
   return articles.find((article) => article.slug === slug || article.slugEn === slug);
 }
 
+// Indexable buyer guides surfaced on the homepage, blog index and as related-link fallback.
+export const buyingGuideSlugs = [
+  "aksesoris-mobile-gaming-terbaik-2026-controller-cooler-finger-sleeves-earbuds",
+  "tablet-edukasi-anak-stylus-pen-casing-tahan-banting-terbaik-2026",
+  "stylus-pen-presisi-pelindung-layar-tekstur-kertas-edit-pdf-android",
+  "gear-panduan-hardware-optimasi-hp-android-pendingin-hp-peltier-magnetik-vs-",
+  "kidstech-panduan-belajar-anak-gadget-edukatif-batas-waktu-layar-screen-time",
+  "productivity-panduan-dokumen-produktivitas-mobile-edit-teks-dokumen-pdf-off",
+];
+
+export function getBuyingGuides(): ArticleItem[] {
+  return buyingGuideSlugs
+    .map((s) => articles.find((a) => a.slug === s))
+    .filter((a): a is ArticleItem => Boolean(a && !a.noindex));
+}
+
 export function getArticlesByApp(appSlug: string, onlyIndexed = true): ArticleItem[] {
   return articles.filter((article) => {
     if (article.targetAppSlug !== appSlug) return false;
@@ -72,6 +88,8 @@ export function getRelatedArticles(currentSlug: string, limit = 3): ArticleItem[
     if (a.targetAppSlug === current.targetAppSlug) score += 50;
     // 2. Same category silo (Gaming, Productivity, Education, etc.)
     if (a.category === current.category) score += 30;
+    // Buyer guides win ties so thin categories still link to money pages
+    if (buyingGuideSlugs.includes(a.slug)) score += 10;
 
     // 3. Keyword / sub-topic alignment
     const candWords = `${a.slug} ${(a.keywords || []).join(" ")}`

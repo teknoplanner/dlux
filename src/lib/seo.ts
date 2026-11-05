@@ -150,7 +150,7 @@ export function generateArticleSchema(
     "@type": "BlogPosting",
     headline,
     description,
-    image: `${developer.website}${article.coverImage}`,
+    image: article.coverImage.startsWith("http") ? article.coverImage : `${developer.website}${article.coverImage}`,
     datePublished: article.publishedDate,
     dateModified: article.publishedDate,
     author: {

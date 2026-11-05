@@ -27,6 +27,7 @@ const copy = {
     other: "English version",
     faq: "Pertanyaan yang sering diajukan",
     related: "Panduan lainnya",
+    products: "Produk yang dibahas di artikel ini",
     all: "Semua artikel",
     gear: {
       gaming: ["Aksesoris untuk sesi bermain panjang", "HP yang panas dan jari yang berkeringat sering mengganggu permainan. Ini aksesoris yang bisa membantu."],
@@ -41,6 +42,7 @@ const copy = {
     other: "Versi Indonesia",
     faq: "Frequently asked questions",
     related: "More guides",
+    products: "Products covered in this article",
     all: "All articles",
     gear: {
       gaming: ["Accessories for longer play sessions", "Heat and sweaty fingers often hold gameplay back. These accessories can help."],
@@ -85,7 +87,8 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
   const [gearTitle, gearSub] = t.gear[article.category === "gaming" ? "gaming" : article.category === "education" ? "education" : "other"];
 
   const articleSchema = generateArticleSchema(article, targetApp, lang);
-  const faqSchema = generateFaqSchema(faq);
+  // FAQ rich results only for pages we want in search
+  const faqSchema = article.noindex ? null : generateFaqSchema(faq);
   const categoryName = article.category.charAt(0).toUpperCase() + article.category.slice(1);
   const breadcrumb = generateBreadcrumbSchema([
     { name: t.home, url: `${developer.website}/` },
@@ -230,8 +233,13 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                         </div>
                       )}
                     </section>
+                    {idx === 0 && affiliate.length > 0 && (
+                      <div className="product-box">
+                        <p className="mt-2 text-sm font-bold text-slate-600">{t.products}</p>
+                        <AmazonInlineCallout product={affiliate[0]} lang={lang} />
+                      </div>
+                    )}
                     {idx === 0 && targetApp && <AppCtaBanner app={targetApp} variant="inline" lang={lang} />}
-                    {idx === 1 && affiliate.length > 0 && <AmazonInlineCallout product={affiliate[0]} lang={lang} />}
                     {idx === 1 && related.length > 0 && (
                       <aside className="my-8 rounded-xl border border-emerald-200 bg-emerald-50/60 p-5 not-prose">
                         <p className="font-display font-bold text-sm text-emerald-900 uppercase tracking-wider mb-2 flex items-center gap-2">
@@ -264,7 +272,12 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                 ))}
               </div>
 
-              {affiliate.length > 0 && <AmazonGearShowcase products={affiliate} lang={lang} title={gearTitle} subtitle={gearSub} />}
+              {affiliate.length > 0 && (
+                <div className="product-box">
+                  <p className="mt-2 text-sm font-bold text-slate-600">{t.products}</p>
+                  <AmazonGearShowcase products={affiliate} lang={lang} title={gearTitle} subtitle={gearSub} />
+                </div>
+              )}
               {targetApp && <AppCtaBanner app={targetApp} variant="bottom" lang={lang} />}
 
               <FeedbackWidget articleSlug={article.slug} lang={lang} />

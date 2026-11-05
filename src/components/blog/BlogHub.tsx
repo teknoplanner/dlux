@@ -4,6 +4,7 @@ import { articles } from "@/data/articles";
 import { developer } from "@/data/apps";
 import { ArticleCard } from "@/components/blog/ArticleCard";
 import { ArticleList } from "@/components/blog/ArticleList";
+import { BuyingGuides } from "@/components/blog/BuyingGuides";
 import { BlogArt } from "@/components/blog/BlogArt";
 import { generateBreadcrumbSchema } from "@/lib/seo";
 
@@ -13,6 +14,7 @@ const copy = {
     h1: "Panduan dan tips untuk game dan aplikasi Android",
     sub: "Artikel tentang mengelola dokumen PDF, bermain game offline, belajar anak, dan mencatat keuangan di Android.",
     latest: "Artikel terbaru",
+    index: "Indeks semua artikel",
     path: "/blog/",
   },
   en: {
@@ -20,13 +22,19 @@ const copy = {
     h1: "Guides and tips for Android games and apps",
     sub: "Articles on offline PDF editing, penalty shootouts, toddler phonics, retro platforming, and private budgeting on Android.",
     latest: "Latest article",
+    index: "Index of all articles",
     path: "/en/blog/",
   },
 } as const;
 
 export function BlogHub({ lang }: { lang: "id" | "en" }) {
   const t = copy[lang];
-  const [first, ...rest] = articles;
+  // Indexable articles first; stable sort keeps newest-first within each group.
+  const ordered = [...articles].sort((a, b) => Number(Boolean(a.noindex)) - Number(Boolean(b.noindex)));
+  const indexable = ordered.filter((a) => !a.noindex);
+  const isEn = lang === "en";
+  const href = (a: (typeof articles)[number]) => (isEn ? `/en/blog/${a.slugEn || a.slug}/` : `/blog/${a.slug}/`);
+  const [first, ...rest] = ordered;
   const slim = rest.map(({ slug, slugEn, title, titleEn, metaDescription, metaDescriptionEn, readTime, readTimeEn, publishedDate, category, targetAppSlug, affiliateProductIds }) => ({
     slug, slugEn, title, titleEn, metaDescription, metaDescriptionEn, readTime, readTimeEn, publishedDate, category, targetAppSlug, affiliateProductIds,
   }));
@@ -38,7 +46,7 @@ export function BlogHub({ lang }: { lang: "id" | "en" }) {
     inLanguage: lang,
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: articles.slice(0, 30).map((a, i) => ({
+      itemListElement: indexable.slice(0, 30).map((a, i) => ({
         "@type": "ListItem",
         position: i + 1,
         url: `${developer.website}${lang === "en" ? `/en/blog/${a.slugEn || a.slug}/` : `/blog/${a.slug}/`}`,
@@ -85,6 +93,8 @@ export function BlogHub({ lang }: { lang: "id" | "en" }) {
             </div>
           </header>
 
+          <BuyingGuides lang={lang} className="mb-14" />
+
           {first && (
             <section aria-labelledby="latest" className="mb-14">
               <h2 id="latest" className="font-display font-bold text-xl text-slate-900 mb-4">
@@ -95,6 +105,20 @@ export function BlogHub({ lang }: { lang: "id" | "en" }) {
           )}
 
           <ArticleList items={slim} lang={lang} />
+
+          {/* Plain links to every indexable article; the paginated list above only renders 9 in static HTML. */}
+          <details className="mt-14 rounded-xl border border-slate-200 bg-white p-5">
+            <summary className="cursor-pointer min-h-[44px] flex items-center font-display font-bold text-slate-900">{t.index}</summary>
+            <ul className="mt-3 grid gap-2 sm:grid-cols-2 text-sm">
+              {indexable.map((a) => (
+                <li key={a.slug}>
+                  <a href={href(a)} className="text-slate-800 underline underline-offset-2 hover:text-emerald-800">
+                    {isEn ? a.titleEn : a.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </details>
         </div>
       </div>
     </>
