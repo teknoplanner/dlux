@@ -85,7 +85,7 @@ export const HardwareCatalog: React.FC<{ lang?: "id" | "en" }> = ({ lang = "id" 
             const note = isEn ? p.editorNoteEn : p.editorNote;
             const ribbon = isEn ? p.ribbonEn : p.ribbon;
             const features = isEn ? p.featuresEn : p.features;
-            const shopee = isIndonesia && Boolean(p.shopeeUrl);
+            const shopee = Boolean(p.shopeeUrl) && (!isEn || isIndonesia);
             return (
               <article id={`gear-${p.id}`} key={p.id} className="flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white scroll-mt-28">
                 <div className="relative aspect-[16/10] bg-slate-100">
@@ -115,7 +115,7 @@ export const HardwareCatalog: React.FC<{ lang?: "id" | "en" }> = ({ lang = "id" 
                     <a
                       href={shopee ? p.shopeeUrl! : p.url}
                       target="_blank"
-                      rel="sponsored noopener noreferrer"
+                      rel="sponsored nofollow noopener"
                       onClick={() => (shopee ? trackShopeeClick(p.id, name, "hardware_catalog") : trackAmazonClick(p.id, name, "hardware_catalog"))}
                       className={`flex items-center justify-center min-h-[44px] rounded-lg px-4 text-sm font-bold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 ${
                         shopee ? "bg-[#c2381a] hover:bg-[#a52e14] text-white" : "bg-amber-500 hover:bg-amber-400 text-slate-950"
@@ -127,7 +127,7 @@ export const HardwareCatalog: React.FC<{ lang?: "id" | "en" }> = ({ lang = "id" 
                       <a
                         href={p.url}
                         target="_blank"
-                        rel="sponsored noopener noreferrer"
+                        rel="sponsored nofollow noopener"
                         onClick={() => trackAmazonClick(p.id, name, "hardware_catalog_secondary")}
                         className="block text-center text-xs text-slate-600 underline underline-offset-4 py-2"
                       >
@@ -162,9 +162,7 @@ export const HardwareCatalog: React.FC<{ lang?: "id" | "en" }> = ({ lang = "id" 
       <p className="text-sm text-slate-600 leading-relaxed max-w-3xl">
         {isEn
           ? "As an Amazon Associate, D Lucky X earns a commission from qualifying purchases through our links, at no extra cost to you."
-          : isIndonesia
-          ? "D Lucky X ikut program afiliasi Shopee dan Amazon, jadi kami menerima komisi dari pembelian lewat tautan di halaman ini tanpa biaya tambahan untuk Anda."
-          : "Sebagai Amazon Associate, D Lucky X menerima komisi dari pembelian yang memenuhi syarat lewat tautan kami, tanpa biaya tambahan untuk Anda."}
+          : "D Lucky X ikut program afiliasi Shopee dan Amazon, jadi kami menerima komisi dari pembelian lewat tautan di halaman ini tanpa biaya tambahan untuk Anda."}
       </p>
     </div>
   );

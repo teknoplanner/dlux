@@ -9,20 +9,14 @@ import { GearScene, hasGearScene } from "@/components/hardware/GearScene";
 
 type Lang = "en" | "id";
 
-function useBuy(product: AmazonProduct, lang: Lang, source: string) {
+// Indonesian pages always lead with Shopee; on /en/ pages the geo lookup can still switch Indonesian visitors to Shopee.
+export function useShopeeFirst(product: AmazonProduct, lang: Lang): boolean {
   const isIndonesia = useIsIndonesia(lang);
-  const isEn = lang === "en";
-  const shopee = isIndonesia && Boolean(product.shopeeUrl);
-  const name = isEn ? product.nameEn : product.name;
-  return {
-    name,
-    shopee,
-    href: shopee ? product.shopeeUrl! : product.url,
-    label: shopee ? "Beli di Shopee" : isEn ? "Check price on Amazon" : "Cek harga di Amazon",
-    onClick: () => (shopee ? trackShopeeClick(product.id, name, source) : trackAmazonClick(product.id, name, source)),
-    btn: shopee ? "bg-[#c2381a] hover:bg-[#a52e14] text-white" : "bg-amber-500 hover:bg-amber-400 text-slate-950",
-  };
+  return Boolean(product.shopeeUrl) && (lang === "id" || isIndonesia);
 }
+
+export const AFFILIATE_REL = "sponsored nofollow noopener";
+const secondaryLink = "inline-flex items-center justify-center min-h-[44px] px-2 text-sm font-semibold text-slate-700 underline underline-offset-2 hover:text-slate-900";
 
 const Thumb: React.FC<{ product: AmazonProduct; name: string; sizes: string }> = ({ product, name, sizes }) =>
   hasGearScene(product.id) ? (
@@ -36,10 +30,9 @@ const btnBase =
 
 export const AmazonProductCard: React.FC<{ product: AmazonProduct; lang?: Lang }> = ({ product, lang = "en" }) => {
   const isEn = lang === "en";
-  const isIndonesia = useIsIndonesia(lang);
   const name = isEn ? product.nameEn : product.name;
   const features = isEn ? product.featuresEn : product.features;
-  const hasShopee = isIndonesia && Boolean(product.shopeeUrl);
+  const hasShopee = useShopeeFirst(product, lang);
 
   return (
     <article className="flex flex-col overflow-hidden rounded-xl border border-slate-200 bg-white">
@@ -59,7 +52,7 @@ export const AmazonProductCard: React.FC<{ product: AmazonProduct; lang?: Lang }
             <a
               href={product.shopeeUrl}
               target="_blank"
-              rel="sponsored noopener noreferrer"
+              rel={AFFILIATE_REL}
               onClick={() => trackShopeeClick(product.id, name, "gear_showcase")}
               className={`${btnBase} bg-[#c2381a] hover:bg-[#a52e14] text-white flex-1 text-center`}
             >
@@ -69,9 +62,9 @@ export const AmazonProductCard: React.FC<{ product: AmazonProduct; lang?: Lang }
           <a
             href={product.url}
             target="_blank"
-            rel="sponsored noopener noreferrer"
+            rel={AFFILIATE_REL}
             onClick={() => trackAmazonClick(product.id, name, "gear_showcase")}
-            className={`${btnBase} bg-amber-500 hover:bg-amber-400 text-slate-950 flex-1 text-center`}
+            className={hasShopee ? secondaryLink : `${btnBase} bg-amber-500 hover:bg-amber-400 text-slate-950 flex-1 text-center`}
           >
             {hasShopee ? "Cek di Amazon" : isEn ? "Check price on Amazon" : "Cek harga di Amazon"}
           </a>
@@ -111,9 +104,8 @@ export const AmazonGearShowcase: React.FC<{ products: AmazonProduct[]; lang?: La
 
 export const AmazonInlineCallout: React.FC<{ product: AmazonProduct; lang?: Lang }> = ({ product, lang = "en" }) => {
   const isEn = lang === "en";
-  const isIndonesia = useIsIndonesia(lang);
   const name = isEn ? product.nameEn : product.name;
-  const hasShopee = isIndonesia && Boolean(product.shopeeUrl);
+  const hasShopee = useShopeeFirst(product, lang);
 
   return (
     <aside className="my-10 flex flex-col sm:flex-row sm:items-center gap-4 rounded-xl border border-slate-300 bg-white p-4 sm:p-5">
@@ -129,21 +121,21 @@ export const AmazonInlineCallout: React.FC<{ product: AmazonProduct; lang?: Lang
           <a
             href={product.shopeeUrl}
             target="_blank"
-            rel="sponsored noopener noreferrer"
+            rel={AFFILIATE_REL}
             onClick={() => trackShopeeClick(product.id, name, "inline_callout")}
             className={`${btnBase} bg-[#c2381a] hover:bg-[#a52e14] text-white`}
           >
-            Shopee
+            Beli di Shopee
           </a>
         )}
         <a
           href={product.url}
           target="_blank"
-          rel="sponsored noopener noreferrer"
+          rel={AFFILIATE_REL}
           onClick={() => trackAmazonClick(product.id, name, "inline_callout")}
-          className={`${btnBase} bg-amber-500 hover:bg-amber-400 text-slate-950`}
+          className={hasShopee ? secondaryLink : `${btnBase} bg-amber-500 hover:bg-amber-400 text-slate-950`}
         >
-          {hasShopee ? "Amazon" : isEn ? "Check on Amazon" : "Cek di Amazon"}
+          {hasShopee ? "atau Amazon" : isEn ? "Check on Amazon" : "Cek di Amazon"}
         </a>
       </div>
     </aside>
