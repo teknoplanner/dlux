@@ -5,10 +5,11 @@ import { apps, developer } from "@/data/apps";
 import { generateBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | D Lucky X Android Studio",
+  title: { absolute: "Terms of Service | D Lucky X Android Studio" },
   description: "Official public Terms of Service for D Lucky X Android applications and games.",
   alternates: {
     canonical: `${developer.website}/terms/`,
+    languages: { "x-default": `${developer.website}/terms/` },
   },
   openGraph: {
     title: "Terms of Service | D Lucky X Android Studio",

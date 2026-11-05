@@ -4,7 +4,7 @@ import { VideoHub } from "@/components/video/VideoHub";
 import { generateBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Video Shorts & Trivia Game | D Lucky X",
+  title: { absolute: "Video Shorts & Trivia Game | D Lucky X" },
   description:
     "Koleksi video YouTube Shorts resmi dari D Lucky X. Tonton fakta unik game Roblox, Minecraft, Tetris, rahasia game dev, dan cuplikan game studio.",
   alternates: {

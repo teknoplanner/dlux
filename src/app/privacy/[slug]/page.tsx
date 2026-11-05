@@ -35,6 +35,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     description: `Official Google Play Data Safety and privacy policy for ${app.name} (${app.packageId}).`,
     alternates: {
       canonical: `${developer.website}/privacy/${app.slug}/`,
+      languages: { "x-default": `${developer.website}/privacy/${app.slug}/` },
     },
   };
 }

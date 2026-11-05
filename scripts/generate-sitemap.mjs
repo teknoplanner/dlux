@@ -23,7 +23,6 @@ function loadTs(filePath) {
 
 try {
   const baseUrl = "https://dluckyx.cloud";
-  const nowIso = new Date().toISOString();
 
   // 1. Load apps
   const appsMod = loadTs("src/data/apps.ts");
@@ -44,6 +43,9 @@ try {
 
   // Sort articles by publishedDate desc
   allArticles.sort((a, b) => new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime());
+
+  // Stable lastmod: newest article date, so rebuilds without new content don't churn the sitemap.
+  const nowIso = new Date(allArticles[0]?.publishedDate || "2026-01-01").toISOString();
 
   const urls = [];
 
@@ -83,6 +85,7 @@ try {
   ]);
 
   addUrl(`${baseUrl}/video/`, nowIso, "daily", "0.8");
+  addUrl(`${baseUrl}/world/`, nowIso, "monthly", "0.6");
   addUrl(`${baseUrl}/privacy/`, nowIso, "monthly", "0.7");
   addUrl(`${baseUrl}/contact/`, nowIso, "monthly", "0.7");
   addUrl(`${baseUrl}/terms/`, nowIso, "monthly", "0.7");

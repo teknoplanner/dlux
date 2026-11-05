@@ -35,10 +35,11 @@ export function generateMetadata({ params }: PageProps): Metadata {
   if (!app) return { title: "App Not Found" };
 
   return {
-    title: `${app.name} | D Lucky X Android App`,
+    title: { absolute: `${app.name} | D Lucky X Android App` },
     description: summary(app.tagline, app.description),
     alternates: {
       canonical: `${developer.website}/apps/${app.slug}/`,
+      languages: { "x-default": `${developer.website}/apps/${app.slug}/` },
     },
     openGraph: {
       title: `${app.name} | D Lucky X`,

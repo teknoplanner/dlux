@@ -7,11 +7,12 @@ import { ContactForm } from "@/components/contact/ContactForm";
 import { generateBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Contact & Developer Support | D Lucky X",
+  title: { absolute: "Contact & Developer Support | D Lucky X" },
   description:
     "Get in touch with D Lucky X developer team for support, feature inquiries, bug reports, and partnership opportunities.",
   alternates: {
     canonical: `${developer.website}/contact/`,
+    languages: { "x-default": `${developer.website}/contact/` },
   },
   openGraph: {
     title: "Contact & Developer Support | D Lucky X",

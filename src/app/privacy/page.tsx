@@ -5,10 +5,11 @@ import { apps, developer } from "@/data/apps";
 import { generateBreadcrumbSchema } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | D Lucky X Android Studio",
+  title: { absolute: "Privacy Policy | D Lucky X Android Studio" },
   description: "Official Google Play Data Safety and Privacy Policy for D Lucky X Android applications and games.",
   alternates: {
     canonical: `${developer.website}/privacy/`,
+    languages: { "x-default": `${developer.website}/privacy/` },
   },
   openGraph: {
     title: "Privacy Policy | D Lucky X Android Studio",

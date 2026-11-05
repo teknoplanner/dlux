@@ -3,7 +3,7 @@ import { developer } from "@/data/apps";
 import { GearHub } from "@/components/hardware/GearHub";
 
 export const metadata: Metadata = {
-  title: "Mobile Gaming, Kids and PDF Accessories | D Lucky X",
+  title: { absolute: "Mobile Gaming, Kids and PDF Accessories | D Lucky X" },
   description:
     "A phone cooler, gaming finger sleeves, a kids tablet case, and a stylus for signing PDFs. Phone and tablet accessories picked by D Lucky X.",
   alternates: {

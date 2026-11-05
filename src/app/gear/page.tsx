@@ -3,7 +3,7 @@ import { developer } from "@/data/apps";
 import { GearHub } from "@/components/hardware/GearHub";
 
 export const metadata: Metadata = {
-  title: "Aksesoris Gaming, Anak, dan PDF untuk Android | D Lucky X",
+  title: { absolute: "Aksesoris Gaming, Anak, dan PDF untuk Android | D Lucky X" },
   description:
     "Pendingin HP, sarung jempol gaming, casing tablet anak, dan stylus untuk tanda tangan PDF. Pilihan aksesoris smartphone dan tablet dari D Lucky X.",
   alternates: {

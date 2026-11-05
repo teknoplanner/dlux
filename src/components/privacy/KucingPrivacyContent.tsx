@@ -65,9 +65,9 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
         <div className="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm space-y-9 text-slate-800 text-sm leading-relaxed">
           {/* Header Note */}
           <div className="border-b border-slate-100 pb-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
+            <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
               Kebijakan Privasi (Privacy Policy) : Kucing Atur Duit
-            </h2>
+            </h1>
             <p className="text-xs text-slate-500 mt-2">
               Terakhir Diperbarui: 8 Oktober 2026
             </p>
@@ -301,9 +301,9 @@ export const KucingPrivacyContent: React.FC<KucingPrivacyContentProps> = ({ app 
         <div className="bg-white border border-slate-200 rounded-2xl p-8 sm:p-12 shadow-sm space-y-9 text-slate-800 text-sm leading-relaxed">
           {/* Header Note */}
           <div className="border-b border-slate-100 pb-6">
-            <h2 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
+            <h1 className="text-2xl sm:text-3xl font-extrabold font-display text-slate-900">
               Privacy Policy : Kucing Atur Duit
-            </h2>
+            </h1>
             <p className="text-xs text-slate-500 mt-2">
               Last Updated: October 8, 2026
             </p>

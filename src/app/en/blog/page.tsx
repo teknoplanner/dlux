@@ -3,9 +3,9 @@ import { developer } from "@/data/apps";
 import { BlogHub } from "@/components/blog/BlogHub";
 
 export const metadata: Metadata = {
-  title: "Android Apps & Games Blog | Guides & Tips | D Lucky X",
+  title: { absolute: "Mobile Game Tips, Gaming Gear & Kids Tech Guides | D Lucky X" },
   description:
-    "Explore actionable guides on offline PDF editing, penalty shootout techniques, toddler phonics learning, retro 2D platforming, and private feline budgeting from D Lucky X.",
+    "Mobile game tips (MLBB, Free Fire, Roblox, Minecraft), phone gaming gear picks, kids tech guides and Android PDF tricks from D Lucky X.",
   alternates: {
     canonical: `${developer.website}/en/blog/`,
     languages: {
@@ -16,9 +16,9 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary" },
   openGraph: {
-    title: "Android Apps & Games Blog | Guides & Tips | D Lucky X",
+    title: "Mobile Game Tips, Gaming Gear & Kids Tech Guides | D Lucky X",
     description:
-      "Explore actionable guides on offline PDF editing, penalty shootout techniques, toddler phonics learning, retro 2D platforming, and private feline budgeting from D Lucky X.",
+      "Mobile game tips (MLBB, Free Fire, Roblox, Minecraft), phone gaming gear picks, kids tech guides and Android PDF tricks from D Lucky X.",
     url: `${developer.website}/en/blog/`,
     type: "website",
     images: [{ url: `${developer.website}/images/logo.png`, width: 512, height: 512 }],

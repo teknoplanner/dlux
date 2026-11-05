@@ -36,6 +36,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     description: `Official public Terms of Service for Android application ${app.name} (${app.packageId}).`,
     alternates: {
       canonical: `${developer.website}/terms/${app.slug}/`,
+      languages: { "x-default": `${developer.website}/terms/${app.slug}/` },
     },
   };
 }
