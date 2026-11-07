@@ -23,10 +23,32 @@ export const youtubeChannel = {
 
 export const shorts: ShortVideo[] = [
   {
+    "id": "P9AwOICNNjY",
+    "title": "Karakter jalan sendiri bukan hantu, ini penyebab analog drift! 🎮 #shorts",
+    "views": "1,3 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/P9AwOICNNjY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB5dmzaVlrJTA2559ojf5zwvbBEYg",
+    "category": "trivia",
+    "tags": [
+      "Gaming"
+    ],
+    "youtubeUrl": "https://www.youtube.com/shorts/P9AwOICNNjY"
+  },
+  {
+    "id": "FyjY5uWUqrc",
+    "title": "Jatuh dari 100 Blok Minecraft, Kok Bisa Selamat? Rahasia Water Bucket Clutch! 🪣⚡ #shorts",
+    "views": "2,9 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/FyjY5uWUqrc/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBcErvCMivWmtOKmmcC_GHbGnm-iw",
+    "category": "trivia",
+    "tags": [
+      "Minecraft"
+    ],
+    "youtubeUrl": "https://www.youtube.com/shorts/FyjY5uWUqrc"
+  },
+  {
     "id": "ooJE1cLoSUk",
     "title": "Tiup kaset game retro malah bikin cepat rusak?! 🎮 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/ooJE1cLoSUk/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBd5MP3OakUAICo_USmURlDQLf0DA",
+    "thumbnail": "https://i.ytimg.com/vi/ooJE1cLoSUk/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAvND9QeTZhdwUAURRYG1WY55Qpuw",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -37,7 +59,7 @@ export const shorts: ShortVideo[] = [
     "id": "3Zxu6yn3cdg",
     "title": "Jalan miring di game ternyata lebih cepat 41%! 🎮 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/3Zxu6yn3cdg/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBnMiBlde-vYrAeoWXidM26FpK3Tw",
+    "thumbnail": "https://i.ytimg.com/vi/3Zxu6yn3cdg/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCT7-044o_CpbIIuInX847xTa3TFA",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -48,7 +70,7 @@ export const shorts: ShortVideo[] = [
     "id": "X7P2fUhkgbg",
     "title": "Jalan miring di game ternyata lebih cepat 41%! 🎮 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/X7P2fUhkgbg/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAF1yS_6-AMT93fc2OAX4nbrgMdxw",
+    "thumbnail": "https://i.ytimg.com/vi/X7P2fUhkgbg/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAdUyCzSevuxdzcxIlfjeTz2rB3pg",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -70,7 +92,7 @@ export const shorts: ShortVideo[] = [
     "id": "HgIVUOohNm8",
     "title": "Tetris lahir di kantor Uni Soviet?! 🧱 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/HgIVUOohNm8/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA6VmXrgTwE5nZcSKuMHk7aZaPfng",
+    "thumbnail": "https://i.ytimg.com/vi/HgIVUOohNm8/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCdgPCcotlzl9IC2OYQC4Fozw6R0Q",
     "category": "trivia",
     "tags": [
       "Tetris"
@@ -92,7 +114,7 @@ export const shorts: ShortVideo[] = [
     "id": "lg6XMzj0qwQ",
     "title": "Karakter Roblox-mu ternyata cuma 6 BALOK?! 🧱 #shorts",
     "views": "2,4 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/lg6XMzj0qwQ/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAMv-6L3Cw9yB10vhqyIIo1NxZWIA",
+    "thumbnail": "https://i.ytimg.com/vi/lg6XMzj0qwQ/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBNoBmeNNE1Ag5o3jfuaUMfS_V2DQ",
     "category": "trivia",
     "tags": [
       "Roblox"
@@ -114,7 +136,7 @@ export const shorts: ShortVideo[] = [
     "id": "tXOiCI9EaJI",
     "title": "Alien Space Invaders makin ngebut itu ternyata BUG 👾 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/tXOiCI9EaJI/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAQABTuHjBuKTaWmAXdWDI_wZ_x6w",
+    "thumbnail": "https://i.ytimg.com/vi/tXOiCI9EaJI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBNLavyiZZ3NNPVvRFxZXWROU6mJQ",
     "category": "trivia",
     "tags": [
       "Retro Game",
@@ -148,7 +170,7 @@ export const shorts: ShortVideo[] = [
     "id": "DEvlJGtq86s",
     "title": "Stickman Penalty Rush ready on Playstore",
     "views": "138 x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/DEvlJGtq86s/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDNbI3Xoquf6bMosunoudkbUOAJJA",
+    "thumbnail": "https://i.ytimg.com/vi/DEvlJGtq86s/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBJwRQ2Ejocbz1Qa87iFJNSrQ6N6w",
     "category": "showcase",
     "tags": [
       "Action Game"
@@ -170,7 +192,7 @@ export const shorts: ShortVideo[] = [
     "id": "Y34s3-XwwPw",
     "title": "Shark Smart Alphabet Ready on Playstore #gameandroid",
     "views": "2,8 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/Y34s3-XwwPw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDEYLaxj6Ea0AWlwZrPXgap_6diJQ",
+    "thumbnail": "https://i.ytimg.com/vi/Y34s3-XwwPw/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAUQtov26hY50BSSCxAgeZ8P0OClQ",
     "category": "showcase",
     "tags": [
       "Edukasi Anak"
