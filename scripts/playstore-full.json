@@ -122,7 +122,7 @@
     "rating": 5,
     "reviewsCount": null,
     "genre": [
-      "Adventure",
+      "Sports",
       [
         null,
         null,
@@ -131,10 +131,10 @@
         [
           null,
           null,
-          "/store/apps/category/GAME_ADVENTURE"
+          "/store/apps/category/GAME_SPORTS"
         ]
       ],
-      "GAME_ADVENTURE"
+      "GAME_SPORTS"
     ],
     "iconUrl": "https://play-lh.googleusercontent.com/BUtYITMWBNPrAqd_M_H7j_Pj8OufV4cTThbyVyQzRUGOUmN1i6ggAWSQ0dViiPcUNBZ5Bs2s21U-ACGrp0x0x-E",
     "screenshotUrls": [
@@ -191,7 +191,7 @@
     "rating": 5,
     "reviewsCount": null,
     "genre": [
-      "Action",
+      "Strategy",
       [
         null,
         null,
@@ -200,10 +200,10 @@
         [
           null,
           null,
-          "/store/apps/category/GAME_ACTION"
+          "/store/apps/category/GAME_STRATEGY"
         ]
       ],
-      "GAME_ACTION"
+      "GAME_STRATEGY"
     ],
     "iconUrl": "https://play-lh.googleusercontent.com/Rs_9GwcIUzb9r2FI1f36zKO8ykPf9lY9BY7nVqPaByxrHMO2wydU6Y_GjUwof_3fEqXaSnfCYKo2rMErRrWmeg",
     "screenshotUrls": [
