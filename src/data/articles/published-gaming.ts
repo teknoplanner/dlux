@@ -33818,5 +33818,241 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/baby-shark-abc-kids-learning/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-menyiapkan-dana-pendidikan-anak-sejak-dini-menghitung-kebutuhan-dan-inflasi",
+    "slugEn": "how-to-start-saving-for-your-childs-education-early-estimating-costs-and-inflation",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-11-09T09:45:00+07:00",
+    "title": "Cara Menyiapkan Dana Pendidikan Anak sejak Dini: Menghitung Kebutuhan, Inflasi Biaya Sekolah, dan Menabung Rutin",
+    "metaTitle": "Cara Menyiapkan Dana Pendidikan Anak sejak Dini",
+    "metaDescription": "Biaya sekolah naik hampir setiap tahun. Pelajari cara memperkirakan biaya pendidikan anak di masa depan, menghitung tabungan bulanan yang dibutuhkan, dan memilih tempat menyimpan dana sesuai jangka waktunya.",
+    "keywords": [
+      "dana pendidikan anak",
+      "cara menabung untuk sekolah anak",
+      "inflasi biaya pendidikan",
+      "menghitung biaya kuliah anak",
+      "perencanaan keuangan keluarga"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "kenapa-awal",
+        "title": "Kenapa harus dimulai sekarang",
+        "content": [
+          "Banyak orang tua baru memikirkan biaya sekolah saat pendaftaran sudah di depan mata. Akibatnya, uang pangkal dan biaya awal tahun ajaran dibayar dengan utang, menjual barang, atau mengorbankan dana darurat. Padahal kebutuhan ini bisa diperkirakan bertahun-tahun sebelumnya.",
+          "Keuntungan terbesar memulai lebih awal adalah waktu. Menabung Rp300.000 per bulan selama 15 tahun terasa jauh lebih ringan daripada harus mengumpulkan jumlah yang sama dalam 3 tahun. Selain itu, dana yang disimpan lebih lama punya kesempatan tumbuh lebih besar."
+        ]
+      },
+      {
+        "id": "tahapan",
+        "title": "Petakan tahapan pendidikan anak",
+        "content": [
+          "Langkah pertama adalah membuat peta waktu. Tuliskan usia anak sekarang, lalu hitung berapa tahun lagi ia masuk setiap jenjang. Misalnya, anak berusia 2 tahun akan masuk TK sekitar 2 sampai 3 tahun lagi, SD sekitar 4 tahun lagi, SMP sekitar 10 tahun lagi, SMA sekitar 13 tahun lagi, dan kuliah sekitar 16 tahun lagi.",
+          "Setiap jenjang punya dua jenis biaya: biaya masuk yang besar dan dibayar sekali, serta biaya rutin bulanan seperti SPP, transportasi, dan buku. Dana pendidikan terutama disiapkan untuk biaya masuk, sementara biaya rutin sebaiknya bisa ditanggung dari penghasilan bulanan saat waktunya tiba."
+        ],
+        "bulletPoints": [
+          "Biaya masuk: uang pangkal, seragam, buku awal tahun, kegiatan orientasi.",
+          "Biaya rutin: SPP, uang makan, transportasi, les tambahan.",
+          "Biaya kuliah: uang kuliah per semester, biaya masuk jalur tertentu, biaya hidup jika merantau."
+        ]
+      },
+      {
+        "id": "perkiraan",
+        "title": "Memperkirakan biaya di masa depan",
+        "content": [
+          "Cari tahu biaya masuk sekolah yang Anda incar saat ini. Tanyakan langsung ke sekolah, lihat brosur penerimaan, atau tanyakan kepada orang tua murid yang anaknya sudah bersekolah di sana. Angka hari ini adalah titik awal perhitungan.",
+          "Lalu perhitungkan kenaikan biaya. Biaya pendidikan di Indonesia umumnya naik lebih cepat dari inflasi umum, dan banyak perencana keuangan memakai asumsi kenaikan sekitar 10 sampai 15 persen per tahun untuk perhitungan konservatif. Angka pastinya berbeda untuk setiap sekolah dan kota, jadi gunakan asumsi ini sebagai perkiraan, bukan kepastian.",
+          "Contoh sederhana: biaya masuk SD swasta incaran saat ini Rp15 juta, dan anak masuk SD 4 tahun lagi. Dengan asumsi kenaikan 10 persen per tahun, biayanya menjadi sekitar Rp15 juta × 1,1 × 1,1 × 1,1 × 1,1, yaitu sekitar Rp22 juta."
+        ],
+        "tipBox": {
+          "title": "Rumus kasar",
+          "text": "Biaya masa depan = biaya sekarang × (1 + persentase kenaikan) pangkat jumlah tahun. Kalkulator di HP atau spreadsheet bisa membantu menghitungnya dalam hitungan detik.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "tabungan-bulanan",
+        "title": "Menghitung tabungan bulanan yang dibutuhkan",
+        "content": [
+          "Setelah tahu target, bagi dengan jumlah bulan yang tersedia. Dari contoh di atas, Rp22 juta dalam 48 bulan berarti sekitar Rp460.000 per bulan jika uangnya hanya disimpan tanpa tumbuh. Jika disimpan di instrumen yang memberi imbal hasil, kebutuhan setoran bulanan bisa sedikit lebih kecil.",
+          "Lakukan perhitungan ini untuk setiap jenjang. Hasilnya mungkin terasa besar jika dijumlahkan sekaligus, tapi ingat bahwa setiap jenjang punya jangka waktu berbeda. Mulailah dari jenjang terdekat, lalu tambahkan setoran untuk jenjang berikutnya saat penghasilan meningkat."
+        ]
+      },
+      {
+        "id": "instrumen",
+        "title": "Memilih tempat menyimpan sesuai jangka waktu",
+        "content": [
+          "Prinsip umumnya, makin pendek jangka waktu, makin aman dan mudah dicairkan tempat menyimpannya. Makin panjang jangka waktunya, makin besar ruang untuk instrumen yang berpotensi tumbuh lebih tinggi tapi naik turun nilainya.",
+          "Pilihan yang sering dipertimbangkan keluarga di Indonesia antara lain:"
+        ],
+        "bulletPoints": [
+          "Kurang dari 3 tahun: tabungan terpisah atau deposito. Nilainya stabil dan mudah dicairkan saat dibutuhkan.",
+          "3 sampai 5 tahun: kombinasi deposito, reksa dana pasar uang, atau reksa dana pendapatan tetap.",
+          "Lebih dari 5 tahun: porsi tertentu di instrumen yang berpotensi tumbuh lebih tinggi seperti reksa dana campuran atau saham, sesuai profil risiko Anda.",
+          "Emas: sering dipakai sebagai pelengkap, tapi harganya juga bisa turun dalam jangka pendek."
+        ],
+        "tipBox": {
+          "title": "Pahami risikonya",
+          "text": "Artikel ini bukan rekomendasi produk investasi. Pilih produk yang terdaftar dan diawasi OJK, pahami biayanya, dan jangan menaruh dana pendidikan jangka pendek di instrumen yang nilainya bisa turun tajam.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "pisahkan",
+        "title": "Pisahkan rekening dan otomatiskan setoran",
+        "content": [
+          "Dana pendidikan yang tercampur dengan tabungan biasa sangat mudah terpakai untuk keperluan lain. Buka rekening atau akun investasi khusus, dan beri nama yang jelas, misalnya \"Dana SD Kakak\".",
+          "Atur setoran otomatis di tanggal gajian. Setoran yang terjadi sebelum uang sempat dibelanjakan jauh lebih konsisten daripada menunggu sisa di akhir bulan."
+        ]
+      },
+      {
+        "id": "pantau",
+        "title": "Memantau kemajuan dengan Kucing Atur Duit",
+        "content": [
+          "Rencana pendidikan berjalan bertahun-tahun, jadi Anda butuh cara sederhana untuk memantau. Di **Kucing Atur Duit**, buat kategori khusus seperti \"Tabungan Pendidikan\" dan catat setiap setoran. Grafik bulanan menunjukkan apakah setoran berjalan rutin atau sering terlewat.",
+          "Aplikasi ini juga membantu menemukan ruang untuk menambah setoran. Lihat kategori pengeluaran terbesar setiap bulan, lalu putuskan bersama pasangan pos mana yang bisa dikurangi sedikit demi pendidikan anak. Data tersimpan di HP dan bisa dikunci, sehingga catatan keuangan keluarga tetap privat.",
+          "Tinjau rencana setahun sekali: perbarui perkiraan biaya sekolah, cek apakah setoran masih cukup, dan sesuaikan jika ada perubahan penghasilan atau rencana sekolah."
+        ]
+      },
+      {
+        "id": "alternatif",
+        "title": "Jangan lupakan alternatif pembiayaan",
+        "content": [
+          "Dana pendidikan tidak harus menanggung semuanya. Sekolah negeri, beasiswa prestasi, beasiswa dari pemerintah daerah, dan program bantuan pendidikan bisa mengurangi beban secara signifikan. Kenali jalur-jalur ini sejak awal, karena beberapa beasiswa membutuhkan prestasi atau dokumen yang perlu disiapkan bertahun-tahun.",
+          "Yang terpenting, rencana dana pendidikan sebaiknya tidak mengorbankan dana darurat dan dana pensiun Anda sendiri. Anak bisa mencari beasiswa atau pinjaman pendidikan, tapi orang tua tidak bisa meminjam untuk masa pensiun."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa persen kenaikan biaya pendidikan yang dipakai untuk perhitungan?",
+        "a": "Banyak perencana keuangan memakai asumsi sekitar 10 sampai 15 persen per tahun. Sesuaikan dengan data sekolah incaran Anda."
+      },
+      {
+        "q": "Lebih baik asuransi pendidikan atau menabung sendiri?",
+        "a": "Bandingkan biaya dan manfaatnya. Banyak orang memisahkan proteksi (asuransi jiwa) dan dana pendidikan (tabungan atau investasi) agar lebih transparan."
+      },
+      {
+        "q": "Penghasilan saya pas-pasan. Tetap perlu menabung pendidikan?",
+        "a": "Ya, mulai dari jumlah kecil. Setoran kecil yang rutin lebih baik daripada tidak sama sekali, dan bisa dinaikkan saat penghasilan bertambah."
+      },
+      {
+        "q": "Kapan dana pendidikan sebaiknya dipindah ke instrumen aman?",
+        "a": "Sekitar 1 sampai 3 tahun sebelum dibutuhkan, agar nilainya tidak terpengaruh penurunan pasar menjelang waktu bayar."
+      }
+    ],
+    "titleEn": "How to Start Saving for Your Child's Education Early: Estimating Costs, School Fee Inflation, and Regular Saving",
+    "metaTitleEn": "Saving Early for Your Child's Education",
+    "metaDescriptionEn": "School fees rise almost every year. Learn to estimate future education costs, calculate the monthly saving you need, and choose where to keep the money based on time horizon.",
+    "keywordsEn": [
+      "education savings",
+      "saving for school fees",
+      "education cost inflation",
+      "college cost calculator",
+      "family financial planning"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "Covers mapping school stages, estimating future fees with an inflation assumption, monthly saving targets, matching instruments to time horizons, separate accounts and automation, tracking in Kucing Atur Duit, and scholarships.",
+    "sectionsEn": [
+      {
+        "id": "early",
+        "title": "Why start now",
+        "content": [
+          "Many parents think about fees only at enrolment and end up borrowing. Time is the biggest advantage: Rp300,000 a month over 15 years is far easier than the same total in 3 years."
+        ]
+      },
+      {
+        "id": "stages",
+        "title": "Map your child's school stages",
+        "content": [
+          "Note how many years until each stage. Each has a large one-off entry cost and monthly running costs; the education fund mainly targets entry costs."
+        ],
+        "bulletPoints": [
+          "Entry: enrolment fee, uniforms, first-year books.",
+          "Running: tuition, meals, transport, tutoring.",
+          "University: semester fees and living costs if studying away."
+        ]
+      },
+      {
+        "id": "estimate",
+        "title": "Estimating future costs",
+        "content": [
+          "Find today's fees, then apply an increase assumption; many planners use around 10 to 15 percent a year for Indonesian education. Example: Rp15 million today becomes about Rp22 million in four years at 10 percent."
+        ],
+        "tipBox": {
+          "title": "Rough formula",
+          "text": "Future cost = current cost × (1 + rate) to the power of years.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "monthly",
+        "title": "Monthly saving needed",
+        "content": [
+          "Divide the target by the months available: Rp22 million over 48 months is about Rp460,000 a month without growth. Start with the nearest stage and add later stages as income grows."
+        ]
+      },
+      {
+        "id": "where",
+        "title": "Where to keep the money",
+        "content": [
+          "Shorter horizons need safer, more liquid options:"
+        ],
+        "bulletPoints": [
+          "Under 3 years: separate savings or time deposits.",
+          "3 to 5 years: deposits, money market or fixed-income funds.",
+          "Over 5 years: some growth assets like balanced funds or equities, according to risk profile.",
+          "Gold as a complement, though it can fall short term."
+        ],
+        "tipBox": {
+          "title": "Understand the risks",
+          "text": "This is not product advice. Use OJK-supervised products and avoid volatile assets for short-term goals.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "separate",
+        "title": "Separate and automate",
+        "content": [
+          "Use a dedicated, clearly named account and schedule automatic transfers on payday."
+        ]
+      },
+      {
+        "id": "track",
+        "title": "Track progress with Kucing Atur Duit",
+        "content": [
+          "Create a \"Education Savings\" category in **Kucing Atur Duit** and log each deposit. Monthly charts show consistency and reveal categories to trim. Review the plan yearly."
+        ]
+      },
+      {
+        "id": "alternatives",
+        "title": "Other funding routes",
+        "content": [
+          "Public schools, merit and regional scholarships, and aid programmes reduce the burden. Do not sacrifice your emergency fund or retirement savings for education."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What fee increase should I assume?",
+        "a": "Around 10 to 15 percent a year is common; adjust using your target school's data."
+      },
+      {
+        "q": "Education insurance or self-saving?",
+        "a": "Compare costs. Many separate life cover from education savings for transparency."
+      },
+      {
+        "q": "My income is tight. Should I still save?",
+        "a": "Yes, start small and increase over time."
+      },
+      {
+        "q": "When should funds move to safe instruments?",
+        "a": "About 1 to 3 years before they are needed."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
