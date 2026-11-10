@@ -34054,5 +34054,267 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membuat-cv-pdf-yang-ramah-ats-dari-hp-format-isi-dan-ukuran-file",
+    "slugEn": "how-to-make-an-ats-friendly-pdf-cv-on-your-phone-format-content-and-file-size",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus"
+    ],
+    "publishedDate": "2026-11-10T09:45:00+07:00",
+    "title": "Cara Membuat CV PDF yang Ramah ATS dari HP: Format, Isi, dan Ukuran File agar Lolos Seleksi Awal",
+    "metaTitle": "CV PDF Ramah ATS dari HP: Panduan Lengkap",
+    "metaDescription": "Banyak perusahaan menyaring lamaran dengan sistem ATS. Pelajari format CV yang mudah dibaca mesin, cara menulis pengalaman dengan kata kunci yang tepat, dan cara menyiapkan file PDF yang rapi langsung dari HP.",
+    "keywords": [
+      "cv ramah ats",
+      "cara membuat cv di hp",
+      "format cv pdf",
+      "cv lolos seleksi",
+      "tips melamar kerja online"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "ats",
+        "title": "Apa itu ATS dan kenapa CV Anda bisa tersaring",
+        "content": [
+          "ATS atau Applicant Tracking System adalah perangkat lunak yang dipakai banyak perusahaan dan portal lowongan untuk mengelola lamaran. Sistem ini membaca isi CV, mengambil informasi seperti nama, pengalaman, pendidikan, dan keterampilan, lalu membantu perekrut menyaring kandidat berdasarkan kata kunci dan kriteria tertentu.",
+          "Masalahnya, CV yang terlihat cantik di mata manusia belum tentu terbaca dengan baik oleh mesin. Desain dengan banyak kolom, ikon, tabel, atau teks di dalam gambar bisa membuat informasi penting tidak terbaca. Akibatnya, kandidat yang sebenarnya cocok bisa tersaring sebelum CV-nya dilihat perekrut."
+        ]
+      },
+      {
+        "id": "format",
+        "title": "Format yang mudah dibaca mesin",
+        "content": [
+          "Prinsip utama CV ramah ATS adalah sederhana dan terstruktur. Gunakan satu kolom dengan urutan dari atas ke bawah. Hindari menaruh informasi penting di header atau footer dokumen, karena sebagian sistem tidak membacanya.",
+          "Pakai judul bagian yang umum dan mudah dikenali, seperti Pengalaman Kerja, Pendidikan, Keterampilan, dan Sertifikasi. Judul kreatif seperti \"Perjalanan Karier Saya\" bisa membingungkan sistem."
+        ],
+        "bulletPoints": [
+          "Satu kolom, rata kiri, tanpa tabel untuk isi utama.",
+          "Font standar seperti Arial, Calibri, atau Times New Roman dengan ukuran 10 sampai 12.",
+          "Tanpa foto, ikon, grafik keterampilan berbentuk bar, atau teks di dalam gambar.",
+          "Tanggal dengan format konsisten, misalnya Jan 2024 sampai Mar 2026.",
+          "Simpan sebagai PDF yang teksnya bisa diblok dan disalin, bukan hasil foto atau scan."
+        ],
+        "tipBox": {
+          "title": "Tes cepat",
+          "text": "Buka PDF CV Anda, blok semua teks, lalu salin ke aplikasi catatan. Jika teks yang tertempel berantakan atau ada bagian yang hilang, kemungkinan besar ATS juga kesulitan membacanya.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "struktur",
+        "title": "Struktur isi CV yang efektif",
+        "content": [
+          "Urutan yang umum dan mudah dipahami perekrut maupun mesin:"
+        ],
+        "bulletPoints": [
+          "Data diri: nama lengkap, nomor HP, email profesional, kota domisili, dan tautan LinkedIn atau portofolio jika ada.",
+          "Ringkasan profesional: dua sampai tiga kalimat tentang siapa Anda, pengalaman utama, dan nilai yang Anda tawarkan.",
+          "Pengalaman kerja: dari yang terbaru, berisi jabatan, nama perusahaan, periode, dan tiga sampai lima poin pencapaian.",
+          "Pendidikan: jenjang, jurusan, institusi, tahun lulus, dan IPK jika diminta atau membanggakan.",
+          "Keterampilan: keterampilan teknis dan perangkat lunak yang relevan dengan posisi.",
+          "Sertifikasi, pelatihan, dan organisasi jika relevan."
+        ]
+      },
+      {
+        "id": "kata-kunci",
+        "title": "Menyesuaikan kata kunci dengan lowongan",
+        "content": [
+          "ATS sering mencocokkan isi CV dengan kata kunci di deskripsi lowongan. Baca lowongan dengan teliti dan tandai keterampilan, perangkat lunak, dan tanggung jawab yang disebut berulang kali. Jika Anda memang memiliki keterampilan itu, pastikan istilah yang sama muncul di CV Anda.",
+          "Misalnya, lowongan menyebut \"analisis data dengan Excel dan SQL\". Daripada menulis \"mengolah angka di komputer\", tulis \"analisis data penjualan bulanan menggunakan Excel (pivot table) dan SQL\". Jangan menyalin kata kunci yang tidak benar-benar Anda kuasai, karena akan terlihat saat wawancara.",
+          "Ini berarti satu CV untuk semua lowongan bukan strategi terbaik. Simpan satu versi dasar, lalu sesuaikan ringkasan dan urutan poin pengalaman untuk setiap posisi yang Anda lamar."
+        ]
+      },
+      {
+        "id": "pencapaian",
+        "title": "Menulis pengalaman sebagai pencapaian",
+        "content": [
+          "Perekrut membaca ratusan CV yang berisi daftar tugas. Yang membuat CV menonjol adalah pencapaian yang terukur. Gunakan pola kata kerja aktif, apa yang dilakukan, dan hasilnya.",
+          "Bandingkan dua kalimat ini. \"Bertanggung jawab atas media sosial perusahaan\" hanya menyebut tugas. \"Mengelola tiga akun media sosial dan menaikkan rata-rata interaksi bulanan sekitar 40 persen dalam enam bulan\" menunjukkan hasil. Jika tidak punya angka pasti, gunakan perkiraan yang jujur atau skala yang bisa dipertanggungjawabkan."
+        ]
+      },
+      {
+        "id": "hp",
+        "title": "Menyusun CV dari HP",
+        "content": [
+          "Tidak punya laptop bukan alasan untuk CV yang berantakan. Aplikasi pengolah kata di HP sudah cukup untuk membuat CV satu kolom yang rapi. Pilih templat paling sederhana, atau mulai dari dokumen kosong dengan judul bagian yang jelas, lalu ekspor sebagai PDF.",
+          "Setelah PDF jadi, periksa beberapa hal di **Offline PDF Editor & Sign**. Gabungkan CV dengan dokumen pendukung jika lowongan meminta satu file, misalnya CV, ijazah, dan sertifikat dalam satu PDF. Kompres ukuran file jika portal membatasi ukuran unggahan. Hapus metadata dokumen yang mungkin berisi nama perangkat atau nama penulis lama dari templat yang Anda pakai.",
+          "Semua proses dilakukan di HP tanpa mengunggah dokumen ke server, sehingga data pribadi di CV Anda, seperti nomor HP, alamat, dan riwayat kerja, tidak tersebar ke pihak lain."
+        ],
+        "tipBox": {
+          "title": "Nama file yang profesional",
+          "text": "Beri nama file yang jelas seperti \"CV_NamaLengkap_PosisiYangDilamar.pdf\". Nama seperti \"cv final revisi 3.pdf\" memberi kesan kurang rapi.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "ukuran",
+        "title": "Ukuran file dan panjang CV",
+        "content": [
+          "Untuk lulusan baru dan pengalaman kurang dari lima tahun, CV satu halaman biasanya ideal. Untuk pengalaman lebih panjang, dua halaman masih wajar. Lebih dari itu, perekrut cenderung tidak membaca sampai akhir.",
+          "CV teks tanpa gambar biasanya berukuran kecil, jauh di bawah 1 MB. Jika ukuran file Anda besar, kemungkinan ada gambar atau font yang ikut tertanam. Kompres atau hapus elemen yang tidak perlu."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "Checklist sebelum mengirim lamaran",
+        "content": [
+          "Periksa hal berikut setiap kali mengirim CV:"
+        ],
+        "bulletPoints": [
+          "Nama, nomor HP, dan email benar dan aktif.",
+          "Ringkasan dan kata kunci sudah disesuaikan dengan lowongan.",
+          "Teks bisa diblok dan disalin dengan rapi.",
+          "Tidak ada salah ketik, terutama di nama perusahaan dan jabatan.",
+          "Format PDF, ukuran sesuai batas portal, dan nama file profesional.",
+          "Dokumen pendukung disusun sesuai urutan yang diminta."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah CV dengan desain kreatif tidak boleh dipakai?",
+        "a": "Boleh untuk dikirim langsung ke perekrut atau bidang desain. Untuk portal lowongan yang memakai ATS, versi sederhana satu kolom lebih aman."
+      },
+      {
+        "q": "Perlu mencantumkan foto di CV?",
+        "a": "Tidak wajib kecuali diminta. Foto tidak dibaca ATS dan bisa menambah ukuran file."
+      },
+      {
+        "q": "Format Word atau PDF?",
+        "a": "PDF lebih konsisten tampilannya, asalkan teksnya bisa disalin. Ikuti permintaan lowongan jika menyebut format tertentu."
+      },
+      {
+        "q": "Bagaimana jika pengalaman kerja saya sedikit?",
+        "a": "Tonjolkan magang, proyek kuliah, organisasi, kerja lepas, dan keterampilan yang relevan dengan posisi."
+      }
+    ],
+    "titleEn": "How to Make an ATS-Friendly PDF CV on Your Phone: Format, Content, and File Size",
+    "metaTitleEn": "ATS-Friendly PDF CV on Your Phone",
+    "metaDescriptionEn": "Many companies screen applications with ATS software. Learn a machine-readable CV format, how to write experience with the right keywords, and how to prepare a clean PDF from your phone.",
+    "keywordsEn": [
+      "ats friendly cv",
+      "make a cv on phone",
+      "pdf cv format",
+      "cv screening tips",
+      "online job application"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "Explains ATS screening, a single-column machine-readable format, CV structure, matching job-ad keywords, achievement-based bullets, building and checking the PDF on a phone, length and size, and a pre-send checklist.",
+    "sectionsEn": [
+      {
+        "id": "ats",
+        "title": "What ATS is and why CVs get filtered",
+        "content": [
+          "Applicant tracking systems parse CVs and help recruiters filter by keywords. Multi-column designs, icons, tables, and text in images can hide key details from the parser."
+        ]
+      },
+      {
+        "id": "format",
+        "title": "A machine-readable format",
+        "content": [
+          "Keep it simple, single-column, and use standard section headings."
+        ],
+        "bulletPoints": [
+          "One left-aligned column, no tables for main content.",
+          "Standard fonts at 10 to 12 pt.",
+          "No photos, icons, skill bars, or text in images.",
+          "Consistent date formats.",
+          "A PDF with selectable text, not a scan."
+        ],
+        "tipBox": {
+          "title": "Quick test",
+          "text": "Select all text in your PDF and paste it into a notes app. If it comes out jumbled, ATS will struggle too.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "structure",
+        "title": "An effective structure",
+        "content": [
+          "A common order:"
+        ],
+        "bulletPoints": [
+          "Contact details and portfolio link.",
+          "Two to three line professional summary.",
+          "Experience, newest first, with 3 to 5 achievements each.",
+          "Education.",
+          "Relevant skills and tools.",
+          "Certifications and activities."
+        ]
+      },
+      {
+        "id": "keywords",
+        "title": "Matching keywords to the job ad",
+        "content": [
+          "Mirror the exact terms the job ad repeats, but only for skills you genuinely have. Keep a base CV and tailor the summary and bullet order per application."
+        ]
+      },
+      {
+        "id": "achievements",
+        "title": "Write achievements, not duties",
+        "content": [
+          "Use an action verb, what you did, and the result, for example raising monthly engagement by about 40 percent in six months. Use honest estimates if exact figures are unavailable."
+        ]
+      },
+      {
+        "id": "phone",
+        "title": "Building the CV on a phone",
+        "content": [
+          "A mobile word processor is enough for a clean single-column CV. Then use **Offline PDF Editor & Sign** to merge supporting documents, compress to portal limits, and strip metadata, all on-device so personal details are not uploaded."
+        ],
+        "tipBox": {
+          "title": "A professional file name",
+          "text": "Use something like \"CV_FullName_Position.pdf\".",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "size",
+        "title": "Length and file size",
+        "content": [
+          "One page suits early careers; two pages is fine for longer experience. A text CV is usually well under 1 MB; large files often contain embedded images or fonts."
+        ]
+      },
+      {
+        "id": "checklist",
+        "title": "Pre-send checklist",
+        "content": [
+          "Before every application:"
+        ],
+        "bulletPoints": [
+          "Correct, active contact details.",
+          "Tailored summary and keywords.",
+          "Selectable, clean text.",
+          "No typos in company names or titles.",
+          "PDF within the size limit, professional file name.",
+          "Supporting documents in the requested order."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can I use a creative CV design?",
+        "a": "For direct emails or design roles, yes. For ATS portals, a simple single-column version is safer."
+      },
+      {
+        "q": "Should I include a photo?",
+        "a": "Only if requested. ATS ignores photos and they enlarge files."
+      },
+      {
+        "q": "Word or PDF?",
+        "a": "PDF with selectable text, unless the ad requests another format."
+      },
+      {
+        "q": "What if I have little experience?",
+        "a": "Highlight internships, projects, organisations, freelance work, and relevant skills."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
