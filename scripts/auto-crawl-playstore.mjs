@@ -272,10 +272,10 @@ async function fetchPlayStoreApp(packageId) {
     packageId,
     name: cleanText(title),
     tagline: cleanText(tagline || cleanDesc.split("\n")[0].slice(0, 120)),
-    description: cleanDesc,
+    description: cleanText(cleanDesc),
     downloads,
     contentRating,
-    rating: rating || 5.0,
+    rating,
     reviewsCount,
     genre,
     iconUrl,
@@ -431,7 +431,18 @@ async function main() {
       } else {
         // --- EXISTING APP UPDATE METRICS & ASSETS ---
         let changed = false;
-        if (details.rating && appEntry.rating !== details.rating) {
+        // Keep name, short description and description in step with the live listing.
+        for (const key of ["name", "tagline", "description"]) {
+          if (details[key] && appEntry[key] !== details[key]) {
+            appEntry[key] = details[key];
+            changed = true;
+          }
+        }
+        if (!details.reviewsCount && appEntry.rating) {
+          delete appEntry.rating;
+          changed = true;
+        }
+        if (details.rating && details.reviewsCount && appEntry.rating !== details.rating) {
           console.log(`  ★ Rating changed: ${appEntry.rating} -> ${details.rating}`);
           appEntry.rating = details.rating;
           changed = true;
