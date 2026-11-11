@@ -42,10 +42,10 @@ export const developer: DeveloperProfile = {
 export const apps: AppItem[] = [
   {
     "slug": "offline-pdf-editor",
-    "name": "Offline PDF Editor & Sign",
+    "name": "PDF Editor Offline - Sign PDF",
     "packageId": "com.pdflocal.editor.offline",
-    "tagline": "Fast & 100% offline PDF editor. Sign, merge, split, compress, and secure documents.",
-    "description": "Offline PDF Editor & Sign is a complete solution to edit, sign, and manage your PDF documents 100% offline, lightning fast, and securely right on your device without needing an internet connection.\n\nAll document processing runs purely inside your phone's local memory (On-Device RAM Sandbox). Your personal documents, contracts, forms, and digital signatures are never uploaded to any remote cloud server.\n\nKey Highlights of Offline PDF Editor & Sign:\n🖋️ Digital E-Sign\nDraw your signature or initials directly with your finger and place them onto any PDF page with precise sizing and position.\n\n📝 PDF Editor & Annotations\nAdd text notes, choose font families (Sans, Serif, Monospace), adjust font size and color, or redact sensitive confidential parts of documents.\n\n📑 Merge & Split Documents\nCombine multiple PDF files into one clean document, or extract and separate specific pages in seconds.\n\n🗜️ Compress PDF & Images\nShrink PDF document size without compromising readable quality so they are easy to send via email or chat apps.\n\n🖼️ PDF & Image Conversion\nConvert PDF pages into high-resolution images (exported as a ZIP archive), or convert gallery photos and scanned pages into a single PDF document.\n\n🔒 Lock & Protect PDF\nEncrypt essential PDF files with password protection and wipe unnecessary metadata.\n\n💧 Watermark & Document Stamps\nApply custom copyright text stamps, watermarks, or confidentiality labels across document pages.\n\n📄 Resume Builder & LaTeX Formulas\nCreate ATS-friendly, print-ready CV resumes or render LaTeX math equations into crisp vector graphics.\n\nWhy Choose Offline PDF Editor & Sign?\n✅ 100% Offline: Never consumes mobile data or requires internet access.\n✅ Guaranteed Privacy: Zero telemetry and zero data collection; your files stay entirely on your device.\n✅ Fast & Lightweight: No account registration, no login walls, and no subscription fees.\n✅ Dark Mode & Multi-Language: Supports Dark Theme and clean multilingual interfaces.",
+    "tagline": "Edit, sign, merge, split & compress PDF 100% offline. No login, no upload.",
+    "description": "Offline PDF Editor & Sign is your all-in-one toolkit to process, edit, and manage PDF documents 100% offline, lightning-fast, and securely on your device without requiring an internet connection.\n\nAll document processing runs strictly inside your phone’s local memory (On-Device RAM Sandbox). Your private documents, business agreements, forms, and handwritten signatures are never uploaded to any cloud server.\n\nKey Features of Offline PDF Editor & Sign:\n🖋️ Digital Signature (E-Sign) Draw your signature or initials directly with your finger and place them onto any PDF page with precision scaling and positioning.\n\n📝 PDF Editor & Annotation Add custom text notes, choose font families (Sans, Serif, Monospace), adjust font sizes and colors, and redact confidential sections.\n\n📑 Merge & Split Documents Combine multiple PDF files into one neatly organized document, or extract and split specific page ranges in seconds.\n\n🗜️ Compress PDF & Images Reduce the file size of PDF documents or photos while preserving optimal visual clarity for easy sharing via email or messaging apps.\n\n🖼️ Convert PDF & Photos\n\nConvert PDF pages into high-resolution images (exported as a ZIP archive).\nTurn gallery photos and scans into a multi-page PDF document.\n🔒 Protect & Lock PDF Encrypt your sensitive PDF files with password protection and strip unnecessary metadata.\n\n💧 Watermark & Document Stamp Overlay copyright stamps, text watermarks, or confidentiality labels across all document pages.\n\n📄 Resume Builder & LaTeX Equations Build ATS-friendly professional resumes ready for export, or render mathematical LaTeX formulas into crisp vector graphics.\n\nWhy Choose Offline PDF Editor & Sign?\n✅ 100% Offline – Zero internet or mobile data required.\n✅ Guaranteed Privacy – Zero telemetry and no data collection; your documents stay strictly on your device.\n✅ Fast & Lightweight – No account registration, logins, or paid subscriptions needed.\n✅ Dark Mode & Multi-Language – Native support for Dark Theme and bilingual interface (English & Indonesian).",
     "category": "tool",
     "tags": [
       "PDF",
@@ -67,7 +67,6 @@ export const apps: AppItem[] = [
       "/images/apps/offline-pdf-editor/screenshot-3.webp",
       "/images/apps/offline-pdf-editor/screenshot-4.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "100+",
     "contentRating": "Everyone",
@@ -77,10 +76,10 @@ export const apps: AppItem[] = [
   },
   {
     "slug": "stickman-penalty-rush",
-    "name": "Stickman Penalty: Soccer Rush",
+    "name": "Stickman Penalty: Soccer Kick",
     "packageId": "com.stickmanpenaltyrush.game",
-    "tagline": "Stickman penalty shootout: kick, beat the goalkeeper, and become the champion!",
-    "description": "Get ready for the fastest and most exciting football penalty shootout in Stickman Penalty! Step onto the pitch, face the goalkeeper, and show off your shooting skills to the world. Whether you are a casual player looking for quick fun or a passionate soccer fan chasing championship glory, this game will keep your adrenaline pumping!\n\n⚽ THE ULTIMATE PENALTY SHOOTOUT EXPERIENCE\nTake control of your favorite stickman player in thrilling 3D penalty shootouts. Swipe to strike, aim for the top corner, and outsmart the goalie to score spectacular goals. Test your reflexes and become a matchday hero!\n\n🏆 CLIMB THE RANKS IN CAREER MODE\nBegin your journey from amateur level to world elite! Prove your skills across dynamic stadiums and challenging difficulty tiers:\n- Amateur League\n- City League\n- National League\n- World Elite League\nCan you conquer them all and lift the championship trophy?\n\n👕 CUSTOMIZE YOUR STICKMAN\nEarn coins in every match and visit the Shop to upgrade your player! Unlock stylish jerseys, goalkeeper gloves, and unique character looks to stand out on the field.\n\n🌟 KEY FEATURES:\n- Intuitive swipe controls: simple to learn, fun for all ages\n- Stunning 3D graphics: fluid animations, realistic physics, immersive stadiums\n- Career Mode & Levels: progress through challenging soccer tournaments\n- Achievements & Rewards: complete challenges and unlock trophies\n- 100% Offline play: enjoy anywhere without WiFi or cellular data\n- Fast-paced action: quick penalty matches perfect for any break\n\nReady to become a true football legend? Lace up your boots, take aim, and shoot!\n\nDownload Stickman Penalty now and start scoring epic goals today!",
+    "tagline": "Swipe to shoot! Stickman football penalty shootout with leagues. Play offline.",
+    "description": "Get ready to experience the most thrilling and fast-paced soccer action in Stickman Penalty Rush! Step onto the pitch, face the goalkeeper, and show the world your striking skills. Whether you are a casual gamer looking for quick fun or a hardcore football fan aiming for the championship, this game will keep you on the edge of your seat!\n\n⚽ THE ULTIMATE PENALTY SHOOTOUT EXPERIENCE \nTake control of your favorite stickman athlete in intense, 3D penalty shootouts. Swipe to kick, aim for the top corners, and outsmart the goalkeeper to score spectacular goals. Show your reflexes, feel the tension of the stadium, and become the hero of the match!\n\n🏆 CLIMB THE RANKS IN CAREER MODE\nStart your journey in the local Street League and work your way up to the World Championship! Prove your skills across different stadiums and challenging leagues:\n• Street League\n• City League\n• National League\n• World Champions League\nCan you conquer them all and lift the ultimate trophy?\n\n👕 CUSTOMIZE YOUR STICKMAN\nEarn coins with every match and use them in the Shop to upgrade your player! Unlock cool jerseys, stylish goalkeeper gloves, and unique character styles to make your stickman stand out on the pitch. \n\n🌟 KEY FEATURES:\n• Intuitive Controls: Simple swipe-to-shoot mechanics. Perfect for players of all ages!\n• Stunning 3D Graphics: Enjoy smooth animations, realistic physics, and immersive stadium environments.\n• Career & Leagues: Progress through various challenging football tournaments.\n• Achievements & Rewards: Complete challenges and unlock exclusive achievements to show off your skills.\n• Offline Gameplay: Play anytime, anywhere—no Wi-Fi or internet connection required!\n• Fast-Paced Action: Quick penalty shootout matches that are perfect for playing on the go.\n\nAre you ready to become the ultimate football legend? Lace up your boots, take a deep breath, and hit the target! \n\nDownload Stickman Penalty Rush NOW and start scoring epic goals today",
     "category": "game",
     "tags": [
       "Soccer",
@@ -103,7 +102,6 @@ export const apps: AppItem[] = [
       "/images/apps/stickman-penalty-rush/screenshot-4.webp",
       "/images/apps/stickman-penalty-rush/screenshot-5.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "10+",
     "contentRating": "Everyone",
@@ -113,10 +111,10 @@ export const apps: AppItem[] = [
   },
   {
     "slug": "milo-cat-adventure",
-    "name": "Milo Cat: Alien Adventure",
+    "name": "Milo Cat: Space Platformer",
     "packageId": "com.miloadventure.game",
-    "tagline": "Milo the space cat jumps and battles cosmic aliens: fun 2D platformer!",
-    "description": "Get ready for an epic space adventure with Milo! 🚀🐾\n\nPlay as Milo, a brave ginger cat on a mission to save the galaxy! An alien mothership has invaded a beautiful neon planet, unleashing waves of hazardous cosmic monsters. Help Milo run, jump, and fight through dangerous alien landscapes to rescue the universe!\n\nMilo Cat Adventure is an action-packed 2D platformer blending classic arcade nostalgia with stunning modern sci-fi visuals and fluid controls.\n\n🚀 THRILLING PLATFORMER ACTION\nRun, jump, and dash across hovering platforms and neon bridges packed with traps. Master responsive mobile touch controls across vibrant stages filled with cunning enemies.\n\n🐾 MEET MILO: THE SPACE HERO CAT\nPlay the cutest hero in the galaxy! Equipped with sci-fi goggles and a heroic cape, Milo is no ordinary feline, he is a cosmic guardian!\n\n👾 BATTLE ALIEN MONSTERS & EPIC BOSSES\nThe alien planet swarms with bizarre creatures! Use your quick reflexes to dodge or strike back. Watch out for Level 11: a gripping Boss encounter awaits! Can you defeat all 10 elite cosmic foes?\n\n🪃 WIELD THE NEON BOOMERANG\nMilo never travels unarmed! Hurl futuristic glowing boomerangs to defeat incoming foes from a distance. Time your strikes before enemies can reach you.\n\n✨ KEY FEATURES:\n- Fast-paced 2D platforming with intuitive mobile touch controls\n- Play as an adorable, heroic space-traveling cat\n- Throw neon boomerangs to defeat cosmic monsters\n- Collect extra lives (up to 3 lives simultaneously!)\n- Thrilling \"Boss Mode\" challenge on Level 11\n- Crisp edge-to-edge visuals and upbeat sound effects\n- Fully playable offline without internet connection\n\nThe galaxy is calling, and only one brave cat can answer. Are you ready to guide Milo to victory?",
+    "tagline": "Jump, dash & throw your boomerang! 2D space cat platformer, play offline.",
+    "description": "Get ready for an epic cosmic journey with Milo Cat! 🚀🐾\n\nStep into the paws of Milo, a fearless and adorable orange tabby cat who has embarked on a daring mission across the galaxy! An unknown alien mothership has invaded a beautiful neon planet, unleashing waves of strange and dangerous cosmic monsters. It’s up to you to help Milo dash, jump, and battle his way through perilous alien landscapes to save the universe!\n\nMilo Cat is a premium, action-packed 2D platformer that brings back the golden era of classic arcade gaming, mixed with stunning modern sci-fi visuals and incredibly smooth controls.\n\nEXHILARATING PLATFORMER ACTION\nRun, jump, and dash across floating platforms, neon-lit bridges, and treacherous traps. Master the responsive touch controls as you navigate through beautifully crafted levels filled with surprises, hidden dangers, and tricky enemies.\n\nMEET MILO: THE SPACE CAT HERO\nPlay as the cutest hero in the galaxy! Equipped with cool sci-fi goggles and a superhero cape, Milo isn't just an ordinary cat—he’s a galactic warrior!\n\nBATTLE ALIEN MONSTERS & EPIC BOSSES\nThe planet is crawling with bizarre extraterrestrial enemies! Use your reflexes to dodge their attacks or fight back. And beware of Level 11—a massive, thrilling Boss Mode awaits! Can you survive the onslaught and defeat 10 elite monsters to prove your skills?\n\nWIELD THE NEON BOOMERANG\nMilo is never unarmed! Throw your glowing, futuristic boomerang to blast enemies out of your way. Time your attacks perfectly to defeat aliens before they can even touch you.\n\nSTUNNING SCI-FI VISUALS & SOUNDS\nImmerse yourself in breathtaking 2D artwork! Explore a vibrant alien world filled with glowing flora, neon cities, and starry cosmic skies. Every jump, dash, and attack is accompanied by premium, high-quality sound effects and an epic soundtrack that will keep your heart racing!\n\nKEY FEATURES:\n• Fast-paced 2D platformer gameplay with intuitive mobile controls.\n• Play as an adorable and heroic space cat.\n• Throw your glowing boomerang to defeat cosmic monsters.\n• Collect extra lives, but manage them wisely (maximum of 3 lives at a time!).\n• Thrilling \"Boss Mode\" level where the aliens actively hunt you down.\n• Epic edge-to-edge landscape visuals and high-quality game audio.\n• Completely playable offline—no internet required!\n\nThe galaxy is calling, and only one cat can save it. Do you have what it takes to guide Milo to victory?",
     "category": "game",
     "tags": [
       "Platformer",
@@ -138,7 +136,6 @@ export const apps: AppItem[] = [
       "/images/apps/milo-cat-adventure/screenshot-3.webp",
       "/images/apps/milo-cat-adventure/screenshot-4.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "10+",
     "contentRating": "Everyone",
@@ -150,8 +147,8 @@ export const apps: AppItem[] = [
     "slug": "monster-math-train-brain",
     "name": "Monster Math: Brain Training",
     "packageId": "com.monsteradventuremath",
-    "tagline": "Fun monster math battle game for learning and brain training!",
-    "description": "Monster Math Adventure is an exciting educational math game for kids and learners, combining thrilling monster battles with rewarding math puzzles.\n\nEmbark on an adventure where solving math equations powers up your monster, unlocks special abilities, defeats rivals, and clears entertaining stages.\n\nThis interactive learning game is designed to strengthen addition, subtraction, multiplication, and division skills in an engaging, encouraging environment. Perfect for children, students, and beginners looking to sharpen arithmetic while having fun.\n\n👾 Features:\n🎮 Exciting monster combat mechanics powered by math\n➗ Arithmetic challenges: addition, subtraction, multiplication & division\n🌟 Progressive levels and monster power-ups\n🧠 Brain training and logical thinking development\n👾 Colorful graphics and friendly monster characters\n📱 Fully playable offline: anytime, anywhere\n\n🎓 Why Kids & Parents Love It:\n• Makes learning math fun, active, and rewarding\n• Enhances focus, speed, and problem-solving confidence\n• Stimulates cognitive development\n• Family-friendly design made specifically for young learners",
+    "tagline": "Train your brain with fast mental math: add, subtract, multiply and divide!",
+    "description": "Monster Math is a mental math game that turns arithmetic practice into monster battles.\n\nSolve math problems to power up your monster, unlock new abilities, defeat enemies and progress through levels.\n\nSharpen your addition, subtraction, multiplication and division with quick challenges that keep you focused.\n\n👾 Features:\n🎮 Monster battle gameplay\n➗ Addition, subtraction, multiplication and division challenges\n🌟 Level progression and monster upgrades\n🧠 Brain training, focus and logic\n📱 Works offline – play anytime, anywhere\n\nWarm up your brain, improve your mental math and enjoy a monster adventure at the same time.",
     "category": "education",
     "tags": [
       "Math",
@@ -174,7 +171,6 @@ export const apps: AppItem[] = [
       "/images/apps/monster-math-train-brain/screenshot-4.webp",
       "/images/apps/monster-math-train-brain/screenshot-5.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "500+",
     "contentRating": "Everyone",
@@ -184,10 +180,10 @@ export const apps: AppItem[] = [
   },
   {
     "slug": "baby-shark-abc-kids-learning",
-    "name": "Baby Shark ABC: Kids Learning",
+    "name": "Shark Smart ABC: Kids Learning",
     "packageId": "com.sharksmartalphabet",
-    "tagline": "Fun ABC alphabet learning game for children with a friendly, smart shark! Play & learn today.",
-    "description": "Baby Shark ABC: Kids Learning is a fun and educational alphabet learning game designed to help children master letters, phonics sounds, and basic reading skills.\n\nJoin our smart and friendly Baby Shark on an exciting ABC adventure! This interactive learning game makes alphabet practice colorful, musical, and engaging for preschool kids, toddlers, and young learners.\n\nChildren can learn uppercase and lowercase letters, improve phonics pronunciation, and build foundational literacy through playful activities, catchy sounds, and vibrant animations.\n\n🦈 Exciting Features:\n🔤 Master the Alphabet: Learn letters from A to Z with ease.\n🎵 Phonics & Sounds: Clear letter pronunciation to assist speech and listening.\n🎮 Interactive Gameplay: Simple, intuitive controls tailored for small hands.\n🌈 Engaging Visuals: Cheerful graphics and kid-friendly animations with your shark friend.\n🧠 Brain Development: Nurtures early cognitive skills, memory, and pattern recognition.\n📱 Play Anywhere: 100% offline, ideal for learning at home or on the road!\n\n🎓 Why Parents Love This App:\n• Safe & Educational: A secure digital environment for independent play and learning.\n• Designed for Early Learners: Specially tailored for preschool and kindergarten ages.\n• Builds Confidence: Encourages letter recognition and early reading curiosity.\n• Positive Motivation: Gentle encouragement keeps children motivated throughout each activity.\n\nStart your child's joyful learning journey today with Baby Shark ABC: Kids Learning!",
+    "tagline": "Fun ABC learning game for kids with a friendly smart shark! Play & learn today.",
+    "description": "Shark Smart ABC: Kids Learning is a fun and educational alphabet learning game for kids designed to help children learn letters, sounds, and basic reading skills.\n\nJoin our smart and friendly Shark Smart on an exciting ABC adventure! This interactive learning game makes alphabet practice fun, colorful, and engaging for preschool kids, toddlers, and beginners.\n\nChildren can master uppercase and lowercase letters, improve pronunciation, and build early literacy skills through playful activities, catchy sounds, and vibrant animations.\n\n🦈 Exciting Features:\n🔤 Master the Alphabet: Learn ABC letters from A to Z with ease.\n\n🎵 Phonics & Sounds: Clear letter sounds and pronunciation to help speech development.\n\n🎮 Interactive Gameplay: Simple, intuitive, and easy for small hands to navigate.\n\n🌈 Engaging Visuals: Colorful graphics and a kid-friendly design featuring your favorite shark friend.\n\n🧠 Brain Development: Supports early childhood cognitive skills and memory.\n\n📱 Play Anywhere: Works offline – perfect for learning at home or on the go!\n\n🎓 Why Parents Love This App:\nSafe & Educational: A secure environment for kids to play and learn independently.\n\nDesigned for Early Learners: Tailored specifically for preschool, nursery, and toddlers.\n\nBoosts Confidence: Helps improve letter recognition and encourages early reading skills.\n\nFun Motivation: The friendly shark character keeps children motivated to finish every lesson.\n\nIf you are looking for the best ABC learning game for kids, Shark Smart ABC: Kids Learning is the perfect choice to start your child's educational journey!\n\nDownload now and start learning the alphabet with your smart shark friend today!",
     "category": "education",
     "tags": [
       "ABC Alphabet",
@@ -198,7 +194,7 @@ export const apps: AppItem[] = [
     ],
     "features": [
       "Learn letters A-Z with crisp phonics audio pronunciation",
-      "Friendly Baby Shark animations with interactive, joyful feedback",
+      "Friendly smart shark animations with interactive, joyful feedback",
       "Simple navigation designed specifically for little hands",
       "Safe, family-friendly learning environment with full offline play"
     ],
@@ -210,7 +206,6 @@ export const apps: AppItem[] = [
       "/images/apps/baby-shark-abc-kids-learning/screenshot-4.webp",
       "/images/apps/baby-shark-abc-kids-learning/screenshot-5.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "500+",
     "contentRating": "Everyone",
@@ -220,23 +215,23 @@ export const apps: AppItem[] = [
   },
   {
     "slug": "fruity-merge-3d-match-puzzle",
-    "name": "Fruit Match: Memory Puzzle",
+    "name": "Fruit Match 3D: Triple Puzzle",
     "packageId": "com.fruitmatchfun",
-    "tagline": "Fruit Match: fun memory card matching puzzle to boost focus & brainpower!",
-    "description": "Fruit Match is a cheerful, colorful memory puzzle game for children and the whole family! Flip cards, spot matching pairs of fresh fruits, and train your brain across dozens of enjoyable stages.\n\nThis memory matching game is crafted to enhance focus, concentration, and visual recall through relaxing, satisfying gameplay. Ideal for kids, students, and puzzle lovers of all ages.\n\n🍎 Why You'll Love Fruit Match:\n- Classic card-matching memory gameplay\n- Cute, colorful fresh fruit illustrations\n- Improves short-term memory, attention span, and focus\n- Easy to pick up and play for beginners and children\n- Multiple difficulty stages with progressively rewarding puzzles\n- Play offline anytime, anywhere without an active connection\n\nSharpen your mind, boost concentration, and enjoy the delightful fun of fruit matching!\n\nDownload Fruit Match today and kickstart your daily brain exercise!",
+    "tagline": "Tap 3D fruit, match 3 and clear the crate before time runs out! Offline puzzle.",
+    "description": "Dive into a crate of shiny 3D fruit and clear it one match at a time!\n\nTap the fruit you want, send it to your tray and match 3 of a kind to make them pop. Be quick and chain matches for big combos. Be careful: when all 7 tray slots fill up, it's over!\n\nHOW TO PLAY\n• Tap fruit in the crate to send it to the tray\n• Match 3 of the same fruit to clear them\n• Clear every fruit before the timer hits zero\n• Chain quick matches for combo points and more stars\n\nNEW CHALLENGES AS YOU GO\n• Bombs: touch one and lose 10 seconds\n• Frozen fruit: tap twice to break the ice\n• Locked tray slots: less room to work with\n• Rush mode: the clock is ticking faster\n• Boss levels: everything at once, with a bigger reward\n\nPOWER-UPS WHEN YOU'RE STUCK\n• Undo: put the last fruit back\n• Shuffle: toss the pile to uncover hidden fruit\n• Magic: automatically completes a set of three\n\nCOME BACK EVERY DAY\n• Daily reward with a 7-day streak bonus\n• Daily missions with coin rewards\n• Lucky wheel with coins and power-ups\n• Earn stars and coins on every level\n\nMORE TO LOVE\n• Smooth, colorful 3D graphics tuned for phones\n• Sign in with Google Play for leaderboards and cloud save\n• Plays offline (ads and online features need a connection)\n• English and Bahasa Indonesia\n\nEasy to pick up, hard to put down. Download Fruit Match 3D and see how far you can go!",
     "category": "game",
     "tags": [
-      "Card Puzzle",
-      "Memory Match",
+      "Triple Match",
+      "Match 3D",
       "Fruits",
-      "Brain Exercise",
-      "Casual"
+      "Puzzle",
+      "Offline"
     ],
     "features": [
-      "Match fruit card pairs to exercise visual memory and focus",
-      "Fresh, vibrant fruit artwork with calming background music",
-      "Progressive challenge levels suited for all ages",
-      "Relaxing casual puzzle with complete offline capability"
+      "Tap 3D fruit into a 7-slot tray and match 3 of a kind to clear them",
+      "Beat the timer and chain quick matches for combo points and stars",
+      "New challenges: bombs, frozen fruit, locked tray slots, rush mode and boss levels",
+      "Power-ups when stuck: undo, shuffle and magic auto-match, fully offline"
     ],
     "icon": "/images/apps/fruity-merge-3d-match-puzzle/icon.webp",
     "screenshots": [
@@ -245,7 +240,6 @@ export const apps: AppItem[] = [
       "/images/apps/fruity-merge-3d-match-puzzle/screenshot-3.webp",
       "/images/apps/fruity-merge-3d-match-puzzle/screenshot-4.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "500+",
     "contentRating": "Everyone",
@@ -255,10 +249,10 @@ export const apps: AppItem[] = [
   },
   {
     "slug": "kucing-atur-duit",
-    "name": "Kucing Atur Duit: Money Tracker",
+    "name": "Kucing Atur Duit: Catat Uang",
     "packageId": "com.aturduitapp",
-    "tagline": "Track daily finances with cute cat companions! Colorful reports, budgets & savings.",
-    "description": "# Kucing Atur Duit: Daily Money Tracker\n\nManage your daily income and expenses with ease alongside your friendly cat companion. Record transactions in seconds, plan budgets, monitor cash flow, and review intuitive visual financial reports.\n\nAll core features are free and your financial records remain stored 100% locally on your device, ensuring maximum privacy without requiring an internet connection.\n\n## Key Features\n\n### Built-in Calculator Keyboard\nEnter amounts quickly with an integrated arithmetic keyboard. Calculate expressions like 50 + 20 × 2 directly before saving transactions.\n\n### Interactive Cat Mascots\nChoose your favorite feline companion (Orange, Black, White, Gray, or Calico). Your mascot reacts dynamically to your financial milestones, cheering you on when you save or alerting you when approaching budget limits.\n\n### Visual Financial Insights\nMonitor financial health with clear charts and reports:\n* Expense breakdown by category\n* Income vs. expense comparisons\n* Net cash flow tracking\n* Spending trends over time\n* Budget utilization progress\n\n### Multiple Accounts & Ledgers\nOrganize all your money sources in one app: Cash, Bank Accounts, E-wallets, Credit Cards, and Loans. Create separate ledgers for personal, family, business, or travel needs.\n\n### Monthly Budgets\nSet spending limits for each category and stay on track with smart color-coded alerts (Safe, Caution, Over-budget).\n\n### Privacy & On-Device Security\n* 100% on-device local storage\n* No internet required to record transactions\n* App lock with PIN and biometric authentication\n* Secure local backup and restore\n* Option to blur transaction amounts in public\n* Zero invasive banner ads\n\nStart organizing your daily expenses and savings today with Kucing Atur Duit!",
+    "tagline": "Offline financial and expense tracking, budgeting, and reporting app.",
+    "description": "Kucing Atur Duit — Catatan Keuangan Harian\n\nKelola pemasukan dan pengeluaran harian dengan cara yang sederhana bersama Kucing Atur Duit. Catat transaksi dalam hitungan detik, atur anggaran, pantau kondisi keuangan, dan lihat laporan yang mudah dipahami.\n\nSemua fitur tersedia secara gratis dan data keuangan tersimpan secara lokal di perangkat, sehingga aplikasi dapat digunakan tanpa koneksi internet.\n\nFitur Utama\n\nKeyboard Kalkulator\n\nMasukkan nominal menggunakan keyboard kalkulator khusus. Kamu juga dapat langsung menghitung ekspresi seperti 50.000 + 20.000 × 2 sebelum menyimpan transaksi.\n\nTersedia nominal cepat seperti 10.000, 20.000, 50.000, dan 100.000 untuk mempercepat pencatatan.\n\nMaskot Kucing Interaktif\n\nPilih kucing yang ingin menemani aktivitas keuanganmu. Tersedia beberapa karakter seperti Oren, Hitam, Putih, Abu-abu, dan Calico.\n\nMaskot akan memberikan respons berdasarkan kondisi keuangan, misalnya ketika mendapatkan pemasukan, menghemat pengeluaran, mendekati batas anggaran, atau melewati anggaran yang sudah ditentukan.\n\nLaporan Keuangan\n\nPantau kondisi keuangan melalui berbagai laporan yang mudah dibaca, termasuk:\n\n• Komposisi pengeluaran berdasarkan kategori\n• Perbandingan pemasukan dan pengeluaran\n• Arus kas\n• Perkembangan pengeluaran dari waktu ke waktu\n• Ringkasan kondisi anggaran\n\nAplikasi juga dapat memberikan informasi sederhana mengenai perubahan pola pengeluaran.\n\nBanyak Akun dan Buku\n\nKelola berbagai sumber keuangan dalam satu aplikasi, seperti:\n\n• Tunai dan dompet\n• Rekening bank\n• E-wallet seperti GoPay, OVO, dan DANA\n• Kartu kredit\n• Utang dan piutang\n\nBuat buku terpisah untuk kebutuhan pribadi, keluarga, usaha, atau perjalanan.\n\nAnggaran Bulanan\n\nTentukan batas pengeluaran untuk setiap kategori dan pantau penggunaannya secara berkala.\n\nStatus anggaran dibagi menjadi:\n\n• Aman: penggunaan di bawah 80%\n• Waspada: penggunaan 80–99%\n• Melebihi anggaran: penggunaan 100% atau lebih\n\nRiwayat dan Kalender Transaksi\n\nLihat semua transaksi dalam bentuk daftar atau kalender. Gunakan filter berdasarkan kategori dan jenis transaksi, atau cari transaksi tertentu dengan mudah.\n\nTampilan kalender membantu melihat pola pengeluaran berdasarkan tanggal.\n\nPrivasi dan Keamanan\n\nKucing Atur Duit dirancang untuk menyimpan data keuangan langsung di perangkat.\n\n• Data transaksi disimpan secara lokal\n• Tidak membutuhkan koneksi internet untuk pencatatan\n• Kunci aplikasi menggunakan PIN dan biometrik\n• Backup dan restore lokal\n• Opsi untuk menyembunyikan nominal transaksi\n• Tanpa iklan banner yang mengganggu\n\nSemua Fitur Gratis\n\nKucing Atur Duit dapat digunakan secara gratis tanpa fitur Premium atau langganan.\n\nSeluruh fitur utama tersedia untuk digunakan, termasuk pencatatan transaksi, pengelolaan banyak akun dan buku, anggaran, laporan keuangan, kalender transaksi, pilihan maskot kucing, backup lokal, dan fitur privasi.\n\nAplikasi ini cocok untuk mencatat uang saku, kebutuhan sehari-hari, keuangan keluarga, maupun usaha kecil.\n\nMulai catat pemasukan dan pengeluaran dengan lebih teratur bersama Kucing Atur Duit.",
     "category": "tool",
     "tags": [
       "Finance",
@@ -281,7 +275,6 @@ export const apps: AppItem[] = [
       "/images/apps/kucing-atur-duit/screenshot-4.webp",
       "/images/apps/kucing-atur-duit/screenshot-5.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "50+",
     "contentRating": "Everyone",
@@ -291,10 +284,10 @@ export const apps: AppItem[] = [
   },
   {
     "slug": "soundfx-studio",
-    "name": "SoundFX Studio - Voice Effects",
+    "name": "Voice Changer: SoundFX Studio",
     "packageId": "com.soundfx.studio",
-    "tagline": "Studio voice morpher & 100+ sound effects with pro manual audio controls.",
-    "description": "Transform your voice with studio-grade audio processing! SoundFX Studio is a powerful, 100% offline voice changer and audio effects processor designed for creators, gamers, and audio enthusiasts.\n\n🎙️ KEY FEATURES:\n\n✨ 100+ Professional Voice &amp; Sound Effects:\nExplore a massive library of high-fidelity audio effects categorized for every scenario:\n• Pitch &amp; Modulation: Chipmunk, Deep Voice, Helium, Giant, Monster, Fast Forward\n• Robots &amp; Sci-Fi: Classic Android, Cyber Cyborg, Space Alien, Radio Transmission\n• Environments &amp; Spaces: Cathedral Reverb, Cave Echo, Concert Hall, Underwater, Tunnel\n• Musical &amp; Retro: 8-Bit Bitcrusher, Vinyl Record, Telephone Filter, Megaphone, Vocoder\n• Creative &amp; Unique: Comic Cartoon, Time Warper, Tremolo Pulse, Phased Horizon\n\n🎛️ Pro Manual DAW Mode:\nTake full control of your sound with parametric audio shaping:\n• Multi-band Studio Equalizer (EQ)\n• Real-time Pitch &amp; Tempo Shifting\n• Custom Delay, Echo &amp; Reverb Wet/Dry controls\n• Saturation &amp; Distortion parameters\n\n🔴 Built-in Studio Audio Recorder:\n• Crystal-clear on-device voice recording\n• Live real-time audio waveform visualization\n• Pause, resume, and instant review options\n\n📁 Audio Import &amp; Export:\n• Import audio files directly from your device storage\n• Export processed recordings in high-quality uncompressed audio format\n• Rename, lock, favorite, and organize your audio library\n\n🔒 100% Offline &amp; Private:\nYour privacy comes first. All audio processing runs strictly on your local device hardware using optimized DSP algorithms. No internet required, and no recordings are ever uploaded to any cloud or external servers.\n\nDownload SoundFX Studio now and take your voice recordings to the professional studio level!",
+    "tagline": "Voice changer & sound effects: 100+ effects, recorder, EQ. 100% offline.",
+    "description": "Transform your voice with studio-grade audio processing! SoundFX Studio is a powerful, 100% offline voice changer and audio effects processor designed for creators, gamers, and audio enthusiasts.\n\n🎙️ KEY FEATURES:\n\n✨ 100+ Professional Voice & Sound Effects:\nExplore a massive library of high-fidelity audio effects categorized for every scenario:\n• Pitch & Modulation: Chipmunk, Deep Voice, Helium, Giant, Monster, Fast Forward\n• Robots & Sci-Fi: Classic Android, Cyber Cyborg, Space Alien, Radio Transmission\n• Environments & Spaces: Cathedral Reverb, Cave Echo, Concert Hall, Underwater, Tunnel\n• Musical & Retro: 8-Bit Bitcrusher, Vinyl Record, Telephone Filter, Megaphone, Vocoder\n• Creative & Unique: Comic Cartoon, Time Warper, Tremolo Pulse, Phased Horizon\n\n🎛️ Pro Manual DAW Mode:\nTake full control of your sound with parametric audio shaping:\n• Multi-band Studio Equalizer (EQ)\n• Real-time Pitch & Tempo Shifting\n• Custom Delay, Echo & Reverb Wet/Dry controls\n• Saturation & Distortion parameters\n\n🔴 Built-in Studio Audio Recorder:\n• Crystal-clear on-device voice recording\n• Live real-time audio waveform visualization\n• Pause, resume, and instant review options\n\n📁 Audio Import & Export:\n• Import audio files directly from your device storage\n• Export processed recordings in high-quality uncompressed audio format\n• Rename, lock, favorite, and organize your audio library\n\n🔒 100% Offline & Private:\nYour privacy comes first. All audio processing runs strictly on your local device hardware using optimized DSP algorithms. No internet required, and no recordings are ever uploaded to any cloud or external servers.\n\nDownload SoundFX Studio now and take your voice recordings to the professional studio level!",
     "category": "tool",
     "tags": [
       "Voice Changer",
@@ -316,7 +309,6 @@ export const apps: AppItem[] = [
       "/images/apps/soundfx-studio/screenshot-3.webp",
       "/images/apps/soundfx-studio/screenshot-4.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "100+",
     "contentRating": "Everyone",
@@ -328,21 +320,21 @@ export const apps: AppItem[] = [
     "slug": "guardian-orbit",
     "name": "Guardian Orbit: Tower Defense",
     "packageId": "com.guardianorbit",
-    "tagline": "Defend Earth in epic space Tower defense battles",
+    "tagline": "Build orbital towers, upgrade space defenses and stop alien waves. Sci-fi TD!",
     "description": "Tower Defense is an epic sci-fi strategy game where you defend Earth from relentless alien invasions!\n\nCommand powerful orbital towers, deploy advanced space technology, and stop waves of enemy forces before they breach the planet’s defenses.",
     "category": "game",
     "tags": [
-      "Guardian",
-      "Orbit",
-      "Tower",
-      "Defense",
-      "Arcade"
+      "Tower Defense",
+      "Strategy",
+      "Space",
+      "Sci-Fi",
+      "Offline"
     ],
     "features": [
-      "Lightning-fast and user-friendly experience designed for Android devices",
-      "100% on-device private processing with zero personal data tracking",
-      "Seamless offline accessibility without requiring persistent internet connection",
-      "Regular updates with continuous performance enhancements"
+      "Spin orbit rings around tiny planet Orbi to aim your towers at alien waves",
+      "10 defense towers to unlock and upgrade, 14 quirky alien types and bosses",
+      "Power-up cards between waves and a screen-clearing Nova blast",
+      "12 levels in 2 worlds, gems, boosters and daily gifts, playable offline"
     ],
     "icon": "/images/apps/guardian-orbit/icon.webp",
     "screenshots": [
@@ -351,7 +343,6 @@ export const apps: AppItem[] = [
       "/images/apps/guardian-orbit/screenshot-3.webp",
       "/images/apps/guardian-orbit/screenshot-4.webp"
     ],
-    "rating": 5,
     "reviewsCount": null,
     "downloads": "10+",
     "contentRating": "Everyone",

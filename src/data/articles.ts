@@ -6,6 +6,8 @@ import { monsterMathArticles } from "./articles/monster-math";
 import { babySharkArticles } from "./articles/baby-shark";
 import { fruityMergeArticles } from "./articles/fruity-merge";
 import { kucingAturDuitArticles } from "./articles/kucing-atur-duit";
+import { guardianOrbitArticles } from "./articles/guardian-orbit";
+import { fruitMatchArticles } from "./articles/fruit-match";
 
 // Active Published Gaming Meta Articles (Single pro feature live right now)
 import { publishedGamingArticles } from "./articles/published-gaming";
@@ -28,6 +30,8 @@ const unsortedArticles: ArticleItem[] = [
   ...babySharkArticles,
   ...fruityMergeArticles,
   ...kucingAturDuitArticles,
+  ...guardianOrbitArticles,
+  ...fruitMatchArticles,
 ];
 
 // Always sort newest first so the latest published article is featured spotlight
