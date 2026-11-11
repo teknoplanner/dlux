@@ -18,6 +18,7 @@ import { FloatingNavControls } from "@/components/blog/FloatingNavControls";
 import { AmazonGearShowcase, AmazonInlineCallout } from "@/components/blog/AmazonProductCard";
 import { getAmazonProductsByCategory, getAmazonProductsByIds } from "@/data/amazonProducts";
 import { generateArticleSchema, generateFaqSchema, generateBreadcrumbSchema } from "@/lib/seo";
+import { playHref } from "@/lib/analytics";
 
 const copy = {
   id: {
@@ -69,7 +70,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
       : article.category === "productivity"
       ? apps.find((a) => a.slug === "offline-pdf-editor") || apps[0]
       : article.category === "education"
-      ? apps.find((a) => a.slug === "monster-math-brain-training") || apps[2]
+      ? apps.find((a) => a.slug === "monster-math-train-brain") || apps[2]
       : apps[0]);
   const related = getRelatedArticles(article.slug, 3);
   const date = new Date(article.publishedDate).toLocaleDateString(isEn ? "en-US" : "id-ID", { day: "numeric", month: "long", year: "numeric" });
@@ -337,7 +338,7 @@ export function ArticleView({ article, lang }: { article: ArticleItem; lang: "id
                       {targetApp.tagline}
                     </p>
                     <a
-                      href={targetApp.playUrl}
+                      href={playHref(targetApp.playUrl, "blog_sidebar")}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-3 inline-flex items-center justify-center w-full min-h-[36px] px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs transition-colors shadow-xs"

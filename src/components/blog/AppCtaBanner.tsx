@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AppItem } from "@/data/apps";
 import { PlayClickLink } from "@/components/blog/PlayClickLink";
+import { playHref } from "@/lib/analytics";
 
 export const AppCtaBanner: React.FC<{ app: AppItem; variant?: "inline" | "bottom"; lang?: "id" | "en" }> = ({
   app,
@@ -26,7 +27,7 @@ export const AppCtaBanner: React.FC<{ app: AppItem; variant?: "inline" | "bottom
         )}
       </div>
       <PlayClickLink
-        href={app.playUrl}
+        href={playHref(app.playUrl, big ? "blog_banner_bottom" : "blog_banner_inline")}
         slug={app.slug}
         name={app.name}
         source={big ? "banner_bottom" : "banner_inline"}
