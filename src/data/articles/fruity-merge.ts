@@ -3,6 +3,8 @@ import { ArticleItem } from "./types";
 export const fruityMergeArticles: ArticleItem[] = [
   {
     slug: "trik-meraih-skor-tinggi-game-merge-semangka-3d",
+    // Describes a merge game, not the current triple-match Fruit Match 3D.
+    noindex: true,
     slugEn: "secret-tricks-to-merge-giant-watermelons-beat-high-scores-in-fruity-merge-3d",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
@@ -140,6 +142,8 @@ export const fruityMergeArticles: ArticleItem[] = [
   },
   {
     slug: "panduan-urutan-evolusi-buah-di-fruity-merge-3d-dari-ceri-ke-semangka",
+    // Describes a merge game, not the current triple-match Fruit Match 3D.
+    noindex: true,
     slugEn: "complete-fruit-evolution-hierarchy-in-fruity-merge-3d-from-cherry-to-watermelon",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
@@ -283,6 +287,8 @@ export const fruityMergeArticles: ArticleItem[] = [
   },
   {
     slug: "strategi-penataan-sudut-kotak-agar-buah-tidak-cepat-penuh-game-merge",
+    // Describes a merge game, not the current triple-match Fruit Match 3D.
+    noindex: true,
     slugEn: "corner-stacking-strategy-how-to-keep-your-basket-clean-in-3d-merge-puzzle",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
@@ -550,6 +556,8 @@ export const fruityMergeArticles: ArticleItem[] = [
   },
   {
     slug: "cara-menciptakan-reaksi-berantai-combo-merge-untuk-skor-berlipat-ganda",
+    // Describes a merge game, not the current triple-match Fruit Match 3D.
+    noindex: true,
     slugEn: "chain-reaction-masterclass-how-to-trigger-5x-combo-drops-in-fruity-merge-3d",
     targetAppSlug: "fruity-merge-3d-match-puzzle",
     category: "gaming",
