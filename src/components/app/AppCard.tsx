@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Play, Info, Star, Download } from "lucide-react";
 import { AppItem } from "@/data/apps";
-import { trackPlayStoreClick } from "@/lib/analytics";
+import { playHref, trackPlayStoreClick } from "@/lib/analytics";
 
 interface AppCardProps {
   app: AppItem;
@@ -96,11 +96,15 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
 
               {/* Play Store Real Stats: Rating & Downloads */}
               <div className="flex items-center gap-2.5 text-xs text-slate-600 mt-1">
-                <span className="inline-flex items-center gap-1 font-bold text-amber-600">
-                  <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
-                  {app.rating ? app.rating.toFixed(1) : "5.0"}
-                </span>
-                <span className="text-slate-300">•</span>
+                {app.rating ? (
+                  <>
+                    <span className="inline-flex items-center gap-1 font-bold text-amber-600">
+                      <Star className="w-3.5 h-3.5 fill-amber-500 text-amber-500" />
+                      {app.rating.toFixed(1)}
+                    </span>
+                    <span className="text-slate-300">•</span>
+                  </>
+                ) : null}
                 <span className="inline-flex items-center gap-1 font-semibold text-slate-700">
                   <Download className="w-3.5 h-3.5 text-slate-400" />
                   {app.downloads} Downloads
@@ -140,7 +144,7 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
           </Link>
 
           <a
-            href={app.playUrl}
+            href={playHref(app.playUrl, "app_card")}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => trackPlayStoreClick(app.slug, app.name, "app_card")}
