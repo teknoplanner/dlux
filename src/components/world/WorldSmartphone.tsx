@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { IslandPOI } from "./WorldEngine";
 import { apps } from "@/data/apps";
+import { playHref } from "@/lib/analytics";
 import { WorldLang, WORLD_STRINGS, BILINGUAL_QUESTS, BILINGUAL_RESIDENTS } from "./worldI18n";
 import {
   GameIconMap,
@@ -532,7 +533,7 @@ export const WorldSmartphone: React.FC<WorldSmartphoneProps> = ({
                     </div>
 
                     <a
-                      href={g.playUrl}
+                      href={playHref(g.playUrl, "world")}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="relative w-24 h-9 inline-flex items-center justify-center cursor-pointer active:scale-95 transition-transform group shrink-0"
