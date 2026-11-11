@@ -6,6 +6,7 @@ import { Play, CheckCircle, ArrowRight, Gamepad2, Wrench, GraduationCap, Smartph
 import { apps } from "@/data/apps";
 import { Button } from "@/components/ui/Button";
 import { ScreenshotCarousel } from "@/components/app/ScreenshotCarousel";
+import { playHref } from "@/lib/analytics";
 
 export const Featured: React.FC = () => {
   // Pinned priority: Monster Math: Brain Training as requested
@@ -143,7 +144,7 @@ export const Featured: React.FC = () => {
                 <div>
                   <div className="flex items-center justify-center gap-1 text-slate-900 font-bold text-base font-display">
                     <Star className="w-4 h-4 text-amber-500 fill-amber-500" />
-                    <span>{currentApp.rating ? currentApp.rating.toFixed(1) : "5.0"}</span>
+                    <span>{currentApp.rating ? currentApp.rating.toFixed(1) : "Baru"}</span>
                   </div>
                   <div className="text-[11px] text-slate-600 font-medium">
                     {currentApp.reviewsCount ? `${currentApp.reviewsCount} Ulasan` : "Rating Play Store"}
@@ -161,7 +162,7 @@ export const Featured: React.FC = () => {
               {/* Action Buttons */}
               <div className="flex flex-wrap items-center gap-3 pt-2">
                 <Button
-                  href={currentApp.playUrl}
+                  href={playHref(currentApp.playUrl, "home_featured")}
                   external
                   variant="primary"
                   size="md"
