@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { apps, developer } from "@/data/apps";
 import { Badge } from "@/components/ui/Badge";
+import { playHref } from "@/lib/analytics";
 
 interface PageProps {
   params: {
@@ -240,7 +241,7 @@ export default function AppTermsPage({ params }: PageProps) {
                 <span>{developer.email}</span>
               </div>
               <a
-                href={app.playUrl}
+                href={playHref(app.playUrl, "terms_page")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-xl bg-white border border-slate-200 text-xs font-semibold text-slate-800 hover:bg-slate-50 inline-flex items-center gap-2 shadow-2xs"
