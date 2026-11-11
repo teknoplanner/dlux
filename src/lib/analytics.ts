@@ -40,3 +40,9 @@ export function trackPlayStoreClick(appSlug: string, appName: string, source: st
     page_path: typeof window !== "undefined" ? window.location.pathname : "",
   });
 }
+
+// UTM referrer so Play Console attributes installs that came from this site.
+export function playHref(playUrl: string, source: string) {
+  const ref = encodeURIComponent(`utm_source=dluckyx.cloud&utm_medium=website&utm_campaign=${source}`);
+  return `${playUrl}${playUrl.includes("?") ? "&" : "?"}referrer=${ref}`;
+}
