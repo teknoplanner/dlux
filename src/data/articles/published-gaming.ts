@@ -34316,5 +34316,259 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "postur-main-game-di-hp-cegah-leher-kaku-jempol-pegal-dan-mata-lelah",
+    "slugEn": "mobile-gaming-posture-preventing-neck-strain-thumb-pain-and-eye-fatigue",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "mobile-controller",
+      "finger-sleeves"
+    ],
+    "publishedDate": "2026-11-11T09:45:00+07:00",
+    "title": "Postur Main Game di HP: Cara Mencegah Leher Kaku, Jempol Pegal, dan Mata Lelah",
+    "metaTitle": "Postur Main Game HP: Cegah Leher & Jempol Pegal",
+    "metaDescription": "Main game di HP berjam-jam bisa membuat leher kaku, jempol nyeri, dan mata perih. Pelajari posisi duduk yang benar, aturan istirahat, peregangan sederhana, dan aksesoris yang membantu.",
+    "keywords": [
+      "postur main game hp",
+      "jempol pegal main game",
+      "leher sakit main hp",
+      "mata lelah main game",
+      "tips sehat gamer mobile"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Keluhan yang sering dianggap sepele",
+        "content": [
+          "Setelah sesi panjang push rank atau menyelesaikan event, banyak pemain game mobile merasakan leher kaku, bahu tegang, jempol nyeri, atau mata perih. Keluhan ini sering dianggap biasa dan hilang sendiri setelah tidur. Namun jika terjadi setiap hari, ketegangan kecil bisa menumpuk menjadi nyeri yang mengganggu, bahkan di luar waktu bermain.",
+          "Kabar baiknya, sebagian besar keluhan ini bisa dicegah dengan kebiasaan sederhana: posisi tubuh yang lebih baik, jeda yang teratur, dan beberapa gerakan peregangan. Performa bermain pun biasanya ikut membaik, karena tubuh yang nyaman membuat fokus lebih tahan lama."
+        ],
+        "tipBox": {
+          "title": "Bukan nasihat medis",
+          "text": "Artikel ini berisi tips umum. Jika nyeri menetap, terasa kesemutan, mati rasa, atau makin parah, segera periksakan ke dokter atau fisioterapis.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "leher",
+        "title": "Leher: berat kepala yang terus bertambah",
+        "content": [
+          "Saat menunduk menatap HP, otot leher harus menahan beban kepala yang terasa makin berat seiring makin dalam sudut menunduk. Posisi ini sering disebut text neck. Menunduk sesekali tidak masalah, tapi menunduk dalam berjam-jam membuat otot leher dan bahu bekerja terus-menerus.",
+          "Solusinya adalah membawa layar lebih dekat ke tinggi mata, bukan membawa kepala turun ke layar. Bersandarlah di kursi atau sofa dengan punggung tertopang, lalu letakkan siku di atas bantal atau sandaran tangan sehingga HP bisa diangkat lebih tinggi tanpa membuat lengan cepat pegal."
+        ],
+        "bulletPoints": [
+          "Duduk dengan punggung bersandar, bukan membungkuk ke depan.",
+          "Gunakan bantal di pangkuan sebagai penopang siku.",
+          "Angkat HP setinggi dada atau dagu, bukan di atas paha.",
+          "Hindari bermain sambil tengkurap atau berbaring miring terlalu lama."
+        ]
+      },
+      {
+        "id": "jempol",
+        "title": "Jempol dan pergelangan tangan",
+        "content": [
+          "Game mobile kompetitif menuntut gerakan jempol yang cepat dan berulang. Gerakan berulang dengan tekanan kuat dalam waktu lama bisa membuat tendon di sekitar jempol dan pergelangan tangan meradang. Gejalanya antara lain nyeri di pangkal jempol atau sisi pergelangan tangan, terutama saat menggenggam.",
+          "Kurangi tekanan saat menyentuh layar. Layar sentuh modern tidak membutuhkan tekanan keras, sentuhan ringan sudah cukup. Atur tata letak tombol di game agar jempol tidak perlu meregang terlalu jauh, dan perbesar tombol yang paling sering dipakai.",
+          "Pegangan HP juga berpengaruh. Menggenggam HP terlalu erat membuat otot tangan tegang sepanjang permainan. Jika memungkinkan, sandarkan HP pada penopang atau gunakan gamepad untuk game yang mendukungnya, sehingga tangan berada di posisi yang lebih alami."
+        ]
+      },
+      {
+        "id": "mata",
+        "title": "Mata: kedipan yang berkurang",
+        "content": [
+          "Saat fokus pada layar, frekuensi berkedip cenderung berkurang. Akibatnya mata terasa kering, perih, dan lelah. Layar yang terlalu terang di ruangan gelap atau terlalu redup di ruangan terang juga membuat mata bekerja lebih keras.",
+          "Aturan 20-20-20 sering dianjurkan untuk mengurangi kelelahan mata: setiap 20 menit, lihat benda yang berjarak sekitar 6 meter selama 20 detik. Dalam game, momen seperti waktu memuat, jeda antarpertandingan, atau saat karakter mati bisa dimanfaatkan untuk melakukan ini."
+        ],
+        "bulletPoints": [
+          "Sesuaikan kecerahan layar dengan cahaya ruangan.",
+          "Hindari bermain di ruangan gelap total.",
+          "Jaga jarak layar sekitar 30 sentimeter atau lebih dari mata.",
+          "Sengaja berkedip beberapa kali saat jeda."
+        ]
+      },
+      {
+        "id": "jeda",
+        "title": "Jadwal jeda yang realistis",
+        "content": [
+          "Banyak pemain sulit berhenti di tengah sesi. Daripada menargetkan waktu, gunakan pertandingan sebagai patokan. Misalnya, setelah dua atau tiga pertandingan, berdiri dan bergerak selama dua sampai tiga menit. Minum air, berjalan ke dapur, atau lakukan peregangan singkat.",
+          "Jeda ini juga baik untuk performa. Pemain yang istirahat sebentar setelah kalah beruntun cenderung tidak terbawa emosi dan mengambil keputusan lebih baik di pertandingan berikutnya."
+        ]
+      },
+      {
+        "id": "peregangan",
+        "title": "Peregangan dua menit untuk gamer",
+        "content": [
+          "Lakukan gerakan berikut dengan perlahan, tanpa menyentak, dan hentikan jika terasa nyeri:"
+        ],
+        "bulletPoints": [
+          "Leher: tundukkan kepala perlahan, lalu miringkan ke kanan dan kiri, tahan masing-masing 10 detik.",
+          "Bahu: putar bahu ke belakang sebanyak 10 kali, lalu tarik kedua tulang belikat saling mendekat dan tahan 5 detik.",
+          "Pergelangan tangan: luruskan lengan ke depan, tarik jari ke arah tubuh dengan tangan lain, tahan 15 detik, lalu balik arah.",
+          "Jempol: buka telapak tangan lebar-lebar, lalu kepalkan perlahan, ulangi 10 kali.",
+          "Mata: pejamkan mata selama beberapa detik, lalu lihat jauh ke luar jendela."
+        ]
+      },
+      {
+        "id": "aksesoris",
+        "title": "Aksesoris yang membantu kenyamanan",
+        "content": [
+          "Beberapa aksesoris dapat mengurangi beban tubuh saat bermain lama. Gamepad atau controller untuk HP membuat posisi tangan lebih alami dan mengurangi gerakan jempol di layar, terutama untuk game yang mendukung kontrol fisik. Sarung jempol gaming membantu jari meluncur lebih ringan di layar, sehingga tekanan yang dibutuhkan lebih kecil dan jari tidak lengket karena keringat.",
+          "Stand atau penyangga HP juga berguna untuk game yang tidak membutuhkan HP digenggam terus, sehingga leher tidak terus menunduk."
+        ]
+      },
+      {
+        "id": "game-santai",
+        "title": "Selingi dengan game yang lebih santai",
+        "content": [
+          "Tidak semua sesi bermain harus kompetitif dan menegangkan. Game dengan sesi singkat seperti **Stickman Penalty Rush** bisa menjadi selingan yang menyenangkan di antara pertandingan berat. Satu sesi adu penalti hanya butuh beberapa menit, kontrolnya berupa gerakan geser ringan, dan bisa dimainkan offline. Ini cara yang baik untuk tetap bersenang-senang tanpa tubuh terus berada dalam posisi tegang selama satu jam penuh."
+        ],
+        "tipBox": {
+          "title": "Dengarkan tubuh Anda",
+          "text": "Rasa pegal adalah sinyal untuk berhenti sejenak. Mengabaikannya terus-menerus demi satu pertandingan lagi justru bisa membuat Anda harus berhenti bermain lebih lama karena cedera.",
+          "type": "highlight"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah main game di HP bisa menyebabkan cedera jempol?",
+        "a": "Gerakan berulang dengan tekanan kuat dalam waktu lama bisa memicu nyeri tendon. Kurangi tekanan sentuhan, ambil jeda, dan periksa ke dokter jika nyeri menetap."
+      },
+      {
+        "q": "Berapa lama sebaiknya istirahat saat main game?",
+        "a": "Jeda dua sampai tiga menit setiap dua atau tiga pertandingan, atau sekitar setiap 20 sampai 30 menit, sudah membantu."
+      },
+      {
+        "q": "Apakah gamepad mengurangi pegal?",
+        "a": "Untuk game yang mendukung, gamepad membuat posisi tangan lebih alami dan mengurangi gerakan jempol di layar."
+      },
+      {
+        "q": "Mode gelap bisa mengurangi mata lelah?",
+        "a": "Bisa terasa lebih nyaman di ruangan gelap, tapi yang lebih penting adalah kecerahan yang sesuai dan jeda yang teratur."
+      }
+    ],
+    "titleEn": "Mobile Gaming Posture: Preventing Neck Strain, Thumb Pain, and Eye Fatigue",
+    "metaTitleEn": "Mobile Gaming Posture: Neck, Thumb and Eyes",
+    "metaDescriptionEn": "Long mobile gaming sessions can cause a stiff neck, sore thumbs, and tired eyes. Learn better sitting positions, break rules, simple stretches, and helpful accessories.",
+    "keywordsEn": [
+      "mobile gaming posture",
+      "thumb pain gaming",
+      "text neck",
+      "eye strain gaming",
+      "healthy gaming tips"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers text neck and raising the screen, reducing thumb pressure and grip, the 20-20-20 rule, match-based breaks, a two-minute stretch routine, comfort accessories, and lighter games between intense sessions.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "Complaints people shrug off",
+        "content": [
+          "Stiff necks, sore thumbs, and dry eyes after long sessions can build into persistent pain. Simple habits prevent most of it and often improve focus."
+        ],
+        "tipBox": {
+          "title": "Not medical advice",
+          "text": "See a doctor or physiotherapist if pain persists, tingles, numbs, or worsens.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "neck",
+        "title": "Neck: the growing weight of your head",
+        "content": [
+          "Looking down loads the neck more the deeper you bend. Bring the screen up instead: lean back with support and rest elbows on a pillow."
+        ],
+        "bulletPoints": [
+          "Sit back rather than hunching forward.",
+          "Use a lap pillow to support elbows.",
+          "Hold the phone at chest or chin height.",
+          "Avoid long sessions lying on your stomach or side."
+        ]
+      },
+      {
+        "id": "thumb",
+        "title": "Thumbs and wrists",
+        "content": [
+          "Fast repetitive thumb movement with hard presses can irritate tendons. Tap lightly, adjust button layouts to reduce stretching, avoid a death grip, and use a gamepad where supported."
+        ]
+      },
+      {
+        "id": "eyes",
+        "title": "Eyes: blinking less",
+        "content": [
+          "We blink less when focused, causing dryness. Follow 20-20-20: every 20 minutes look about 6 metres away for 20 seconds, using loading screens and respawns."
+        ],
+        "bulletPoints": [
+          "Match brightness to the room.",
+          "Avoid fully dark rooms.",
+          "Keep the screen 30 cm or more away.",
+          "Blink deliberately during breaks."
+        ]
+      },
+      {
+        "id": "breaks",
+        "title": "Realistic breaks",
+        "content": [
+          "Use matches as markers: after two or three, stand and move for two to three minutes. Breaks also help after losing streaks."
+        ]
+      },
+      {
+        "id": "stretch",
+        "title": "A two-minute stretch routine",
+        "content": [
+          "Move slowly and stop if it hurts:"
+        ],
+        "bulletPoints": [
+          "Neck tilts, 10 seconds each side.",
+          "Ten backward shoulder rolls and a shoulder-blade squeeze.",
+          "Wrist flexor and extensor stretches, 15 seconds each.",
+          "Open and close the hand 10 times.",
+          "Close your eyes, then look far away."
+        ]
+      },
+      {
+        "id": "accessories",
+        "title": "Helpful accessories",
+        "content": [
+          "A gamepad gives a more natural hand position, finger sleeves let thumbs glide with less pressure, and a stand keeps your neck up for games that do not need holding."
+        ]
+      },
+      {
+        "id": "lighter",
+        "title": "Mix in lighter games",
+        "content": [
+          "Short-session games like **Stickman Penalty Rush**, with light swipe controls and offline play, make a relaxing break between intense matches."
+        ],
+        "tipBox": {
+          "title": "Listen to your body",
+          "text": "Soreness is a signal to pause. Ignoring it can lead to injuries that stop you playing for longer.",
+          "type": "highlight"
+        }
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can mobile gaming injure thumbs?",
+        "a": "Repetitive hard presses over long periods can cause tendon pain. Tap lightly, take breaks, and see a doctor if pain persists."
+      },
+      {
+        "q": "How often should I take breaks?",
+        "a": "Two to three minutes every two or three matches, or roughly every 20 to 30 minutes."
+      },
+      {
+        "q": "Do gamepads reduce strain?",
+        "a": "In supported games, yes, by giving a more natural hand position."
+      },
+      {
+        "q": "Does dark mode reduce eye strain?",
+        "a": "It can feel better in dark rooms, but suitable brightness and breaks matter more."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
