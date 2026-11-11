@@ -9,6 +9,7 @@ import { ScreenshotCarousel } from "@/components/app/ScreenshotCarousel";
 import { AppCard } from "@/components/app/AppCard";
 import { ArticleCard } from "@/components/blog/ArticleCard";
 import { generateSoftwareAppSchema, generateBreadcrumbSchema } from "@/lib/seo";
+import { playHref } from "@/lib/analytics";
 
 interface PageProps {
   params: {
@@ -111,7 +112,7 @@ export default function AppDetailPage({ params }: PageProps) {
                 <span>Rated <strong className="text-slate-950">{app.contentRating || "3+"}</strong></span>
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
-                <a href={app.playUrl} target="_blank" rel="noopener noreferrer" className={playBtn}>
+                <a href={playHref(app.playUrl, "app_page")} target="_blank" rel="noopener noreferrer" className={playBtn}>
                   Get on Google Play
                 </a>
               </div>
@@ -152,7 +153,7 @@ export default function AppDetailPage({ params }: PageProps) {
                       </div>
                     ))}
                   </dl>
-                  <a href={app.playUrl} target="_blank" rel="noopener noreferrer" className={`${playBtn} mt-5 w-full`}>
+                  <a href={playHref(app.playUrl, "app_page")} target="_blank" rel="noopener noreferrer" className={`${playBtn} mt-5 w-full`}>
                     Get on Google Play
                   </a>
                 </section>
