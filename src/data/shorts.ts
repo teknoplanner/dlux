@@ -23,10 +23,32 @@ export const youtubeChannel = {
 
 export const shorts: ShortVideo[] = [
   {
+    "id": "d_WZOE0lsJ0",
+    "title": "Kapan Sampai Ujung Dunia Minecraft? Jawabannya Bikin Kaget! 🌍 #shorts",
+    "views": "15 x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/d_WZOE0lsJ0/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCtNy7Z8tIi0UKLgmYKzuEEPyXcHw",
+    "category": "trivia",
+    "tags": [
+      "Minecraft"
+    ],
+    "youtubeUrl": "https://www.youtube.com/shorts/d_WZOE0lsJ0"
+  },
+  {
+    "id": "NnxDNNxr3_M",
+    "title": "Naik perahu di atas es, kok bisa secepat peluru? Rahasia Blue Ice Minecraft! 🚤⚡ #shorts",
+    "views": "1,2 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/NnxDNNxr3_M/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAluEjL3mqSVK8SJjh7y8VJ4DdPTQ",
+    "category": "trivia",
+    "tags": [
+      "Minecraft"
+    ],
+    "youtubeUrl": "https://www.youtube.com/shorts/NnxDNNxr3_M"
+  },
+  {
     "id": "rcV3yd_xlSI",
     "title": "Kenapa Tumpukan Minecraft Cuma 64? Ini Rahasia Hitungan Komputer! 🧱 #shorts",
-    "views": "287 x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/rcV3yd_xlSI/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBt69zwoDtQjlSCICzYgOH-JdqL5w",
+    "views": "1,5 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/rcV3yd_xlSI/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBTW8dpNd8tb2xHcn9j0GTp6IfKFA",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -47,8 +69,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "LQ20f4qosH8",
     "title": "Monster Math: Brain Training New",
-    "views": "43 x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/LQ20f4qosH8/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDqn6Hdm0sb9dXAG6pZC55U_FbMng",
+    "views": "44 x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/LQ20f4qosH8/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCSNmSH-32FoEk5du9UpkNEol9tuw",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -58,8 +80,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "gOrIY1iD6cM",
     "title": "Beliung Emas Katanya Paling Lemah? Ini Rahasia Angka Minecraft! ⛏️ #shorts",
-    "views": "1,8 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/gOrIY1iD6cM/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLAwgOKxpifkOAjqFFbHZmRKGpYw9A",
+    "views": "1,9 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/gOrIY1iD6cM/hq720_1.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBW9n-jFvywwqrSpftoXlgJqvPEMQ",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -80,8 +102,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "UInY1xOk7aQ",
     "title": "Dua Ember di Gurun, Kok Air Minecraft Nggak Habis? Rahasia Air Abadi! 💧 #shorts",
-    "views": "1,9 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/UInY1xOk7aQ/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBp8U9PbqgcEJm8-6oghf5dnhc2sw",
+    "views": "2 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/UInY1xOk7aQ/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCf4nhrkynli2u9zMyToLlc4sw1bg",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -92,7 +114,7 @@ export const shorts: ShortVideo[] = [
     "id": "FN5pvEbNaN8",
     "title": "Mau jalan 10.000 blok di Minecraft tapi mager? Ini rahasia koordinat Nether! 🎮 #shorts",
     "views": "1,7 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/FN5pvEbNaN8/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC0M1wpD6LiaGgsysOs8z2qlmlrOw",
+    "thumbnail": "https://i.ytimg.com/vi/FN5pvEbNaN8/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCr9dUPuglr7wpJa_2yuC7heoBNag",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -102,8 +124,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "0hR-rH5AOmY",
     "title": "Lava Nether Kok Larinya Jauh Banget? Ini Rahasia Aturan Minecraft! 🌋 #shorts",
-    "views": "1,4 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/0hR-rH5AOmY/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAFZnxdeQWNQJ0ifJrkN6UeSPqfUA",
+    "views": "1,5 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/0hR-rH5AOmY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD1B7jrDbq6N5BSM24jM6gfGkPSdA",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -114,7 +136,7 @@ export const shorts: ShortVideo[] = [
     "id": "P9AwOICNNjY",
     "title": "Karakter jalan sendiri bukan hantu, ini penyebab analog drift! 🎮 #shorts",
     "views": "1,3 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/P9AwOICNNjY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB5dmzaVlrJTA2559ojf5zwvbBEYg",
+    "thumbnail": "https://i.ytimg.com/vi/P9AwOICNNjY/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCPMSWYbIlQRx8btGdA3FotmgZ1KQ",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -125,7 +147,7 @@ export const shorts: ShortVideo[] = [
     "id": "FyjY5uWUqrc",
     "title": "Jatuh dari 100 Blok Minecraft, Kok Bisa Selamat? Rahasia Water Bucket Clutch! 🪣⚡ #shorts",
     "views": "4,9 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/FyjY5uWUqrc/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAgg1f627Xe4-mRJJm_piL-h2akWQ",
+    "thumbnail": "https://i.ytimg.com/vi/FyjY5uWUqrc/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBcErvCMivWmtOKmmcC_GHbGnm-iw",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -147,7 +169,7 @@ export const shorts: ShortVideo[] = [
     "id": "3Zxu6yn3cdg",
     "title": "Jalan miring di game ternyata lebih cepat 41%! 🎮 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/3Zxu6yn3cdg/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA6HUQM6GdoZ7h4DE1uPbgTEJvrZg",
+    "thumbnail": "https://i.ytimg.com/vi/3Zxu6yn3cdg/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBnMiBlde-vYrAeoWXidM26FpK3Tw",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -158,7 +180,7 @@ export const shorts: ShortVideo[] = [
     "id": "X7P2fUhkgbg",
     "title": "Jalan miring di game ternyata lebih cepat 41%! 🎮 #shorts",
     "views": "1,3 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/X7P2fUhkgbg/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCEDQF-L8vCqh9nRQX1NujynwWjtA",
+    "thumbnail": "https://i.ytimg.com/vi/X7P2fUhkgbg/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAdUyCzSevuxdzcxIlfjeTz2rB3pg",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -169,7 +191,7 @@ export const shorts: ShortVideo[] = [
     "id": "hqzO4KRzsYU",
     "title": "Avatar teman di Roblox patah-patah? Bukan karena internetmu! 🎮 #shorts",
     "views": "1,3 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/hqzO4KRzsYU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAbG9VjGp5bACQsZV4Luw_psCvx3g",
+    "thumbnail": "https://i.ytimg.com/vi/hqzO4KRzsYU/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD2zm2ChvEbcQEzA0Qz_Wl3yaqwrg",
     "category": "trivia",
     "tags": [
       "Roblox"
@@ -213,7 +235,7 @@ export const shorts: ShortVideo[] = [
     "id": "uCC3dFjH2_c",
     "title": "Lompat tinggi di game bukan soal tekan keras! 🎮 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/uCC3dFjH2_c/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAxM58LlrNukMztMfGbEkmlT455TA",
+    "thumbnail": "https://i.ytimg.com/vi/uCC3dFjH2_c/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBNlAEe-23HJ71fU0zDR3U9pZTj5A",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -224,7 +246,7 @@ export const shorts: ShortVideo[] = [
     "id": "tXOiCI9EaJI",
     "title": "Alien Space Invaders makin ngebut itu ternyata BUG 👾 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/tXOiCI9EaJI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBNLavyiZZ3NNPVvRFxZXWROU6mJQ",
+    "thumbnail": "https://i.ytimg.com/vi/tXOiCI9EaJI/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAQABTuHjBuKTaWmAXdWDI_wZ_x6w",
     "category": "trivia",
     "tags": [
       "Retro Game",
@@ -258,7 +280,7 @@ export const shorts: ShortVideo[] = [
     "id": "DEvlJGtq86s",
     "title": "Stickman Penalty Rush ready on Playstore",
     "views": "138 x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/DEvlJGtq86s/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDNbI3Xoquf6bMosunoudkbUOAJJA",
+    "thumbnail": "https://i.ytimg.com/vi/DEvlJGtq86s/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBJwRQ2Ejocbz1Qa87iFJNSrQ6N6w",
     "category": "showcase",
     "tags": [
       "Action Game"
@@ -280,7 +302,7 @@ export const shorts: ShortVideo[] = [
     "id": "Y34s3-XwwPw",
     "title": "Shark Smart Alphabet Ready on Playstore #gameandroid",
     "views": "2,8 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/Y34s3-XwwPw/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDEYLaxj6Ea0AWlwZrPXgap_6diJQ",
+    "thumbnail": "https://i.ytimg.com/vi/Y34s3-XwwPw/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAUQtov26hY50BSSCxAgeZ8P0OClQ",
     "category": "showcase",
     "tags": [
       "Edukasi Anak"
