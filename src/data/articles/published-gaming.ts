@@ -35574,5 +35574,264 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/soundfx-studio/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-mengatur-keuangan-freelancer-dan-pekerja-dengan-penghasilan-tidak-tetap",
+    "slugEn": "managing-money-on-an-irregular-income-a-guide-for-freelancers",
+    "targetAppSlug": "kucing-atur-duit",
+    "category": "finance",
+    "publishedDate": "2026-11-16T09:45:00+07:00",
+    "title": "Cara Mengatur Keuangan Freelancer dan Pekerja dengan Penghasilan Tidak Tetap",
+    "metaTitle": "Atur Keuangan Freelancer: Penghasilan Tak Tetap",
+    "metaDescription": "Penghasilan naik turun membuat anggaran biasa sulit dipakai. Pelajari cara menghitung penghasilan dasar, membuat rekening penyangga, menyisihkan pajak dan dana darurat, serta menggaji diri sendiri setiap bulan.",
+    "keywords": [
+      "keuangan freelancer",
+      "penghasilan tidak tetap",
+      "cara atur uang freelance",
+      "menggaji diri sendiri",
+      "dana darurat freelancer"
+    ],
+    "readTime": "11 menit baca",
+    "sections": [
+      {
+        "id": "tantangan",
+        "title": "Tantangan uang yang datang tidak menentu",
+        "content": [
+          "Freelancer, pengemudi ojek daring, pedagang, pekerja kreatif, dan pekerja proyek punya kesamaan: penghasilan mereka tidak datang dalam jumlah yang sama setiap bulan. Ada bulan ramai ketika uang mengalir deras, ada bulan sepi ketika tagihan tetap datang tapi pemasukan tersendat.",
+          "Masalah utamanya bukan jumlah penghasilan, melainkan pola belanja yang mengikuti pemasukan. Di bulan ramai, pengeluaran ikut naik karena merasa punya banyak uang. Di bulan sepi, terpaksa berutang untuk menutup kebutuhan dasar. Siklus ini bisa diputus dengan sistem yang memisahkan uang yang masuk dari uang yang dibelanjakan."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Langkah 1: Lihat pola penghasilan 12 bulan terakhir",
+        "content": [
+          "Kumpulkan data pemasukan selama 12 bulan terakhir dari rekening bank, dompet digital, atau catatan proyek. Tuliskan penghasilan bersih setiap bulan setelah dikurangi biaya operasional seperti bensin, kuota, atau langganan perangkat lunak kerja.",
+          "Dari data ini, cari tiga angka: rata-rata penghasilan bulanan, penghasilan terendah, dan bulan-bulan yang biasanya sepi. Banyak pekerja lepas menemukan pola musiman, misalnya proyek ramai menjelang akhir tahun dan sepi setelah hari raya."
+        ],
+        "tipBox": {
+          "title": "Belum punya data?",
+          "text": "Jika baru mulai bekerja lepas, catat semua pemasukan mulai hari ini. Dalam tiga bulan, Anda sudah punya gambaran awal yang cukup untuk mulai membuat sistem.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "dasar",
+        "title": "Langkah 2: Tentukan pengeluaran dasar dan gaji diri sendiri",
+        "content": [
+          "Hitung pengeluaran dasar bulanan, yaitu kebutuhan yang tetap harus dibayar dalam kondisi apa pun: tempat tinggal, makan, listrik, transportasi, cicilan, dan kebutuhan keluarga. Angka ini adalah batas minimum yang harus tersedia setiap bulan.",
+          "Lalu tentukan gaji bulanan untuk diri sendiri. Patokan yang aman adalah angka yang mendekati penghasilan di bulan sepi atau sedikit di atas pengeluaran dasar. Gaji inilah yang Anda pakai untuk hidup setiap bulan, terlepas dari berapa banyak uang yang masuk bulan itu."
+        ]
+      },
+      {
+        "id": "rekening",
+        "title": "Langkah 3: Sistem tiga rekening",
+        "content": [
+          "Kunci mengatur penghasilan tidak tetap adalah memisahkan aliran uang. Sistem sederhana yang banyak dipakai pekerja lepas:"
+        ],
+        "bulletPoints": [
+          "Rekening penampung: semua pemasukan dari klien atau usaha masuk ke sini. Jangan belanja langsung dari rekening ini.",
+          "Rekening gaji: setiap awal bulan, pindahkan gaji bulanan dari rekening penampung ke rekening ini. Semua kebutuhan hidup dibayar dari sini.",
+          "Rekening cadangan: berisi dana darurat dan dana penyangga untuk menutup gaji di bulan sepi."
+        ],
+        "tipBox": {
+          "title": "Efek psikologis",
+          "text": "Dengan sistem ini, bulan ramai tidak lagi terasa seperti bonus untuk dihabiskan, dan bulan sepi tidak lagi terasa seperti krisis. Anda hidup dari gaji yang stabil.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "penyangga",
+        "title": "Langkah 4: Bangun dana penyangga",
+        "content": [
+          "Dana penyangga adalah tabungan yang khusus dipakai untuk membayar gaji Anda sendiri saat pemasukan bulan itu kurang. Targetkan dana penyangga sebesar dua sampai tiga kali gaji bulanan, terpisah dari dana darurat.",
+          "Di bulan ramai, setelah gaji dibayar, pindahkan kelebihan uang ke dana penyangga sampai targetnya tercapai. Setelah penuh, kelebihan bisa dialokasikan untuk tabungan jangka panjang, investasi, atau tujuan lain.",
+          "Dana darurat untuk pekerja dengan penghasilan tidak tetap sebaiknya lebih besar dibandingkan karyawan tetap. Banyak perencana keuangan menyarankan enam bulan pengeluaran atau lebih, karena tidak ada jaminan pemasukan saat sakit atau kehilangan klien besar."
+        ]
+      },
+      {
+        "id": "pajak",
+        "title": "Langkah 5: Sisihkan pajak dan jaminan sosial",
+        "content": [
+          "Pekerja lepas sering lupa bahwa tidak ada perusahaan yang memotong pajak dan iuran jaminan sosial untuk mereka. Akibatnya, kewajiban ini terasa berat saat harus dibayar sekaligus.",
+          "Sisihkan persentase tertentu dari setiap pemasukan ke pos pajak. Pelajari aturan pajak yang berlaku untuk jenis pekerjaan Anda atau konsultasikan dengan konsultan pajak. Pertimbangkan juga mendaftar BPJS Kesehatan dan program BPJS Ketenagakerjaan untuk pekerja bukan penerima upah agar terlindungi saat sakit atau kecelakaan kerja."
+        ],
+        "tipBox": {
+          "title": "Cek aturan terbaru",
+          "text": "Aturan pajak bisa berubah. Selalu cek informasi resmi dari Direktorat Jenderal Pajak atau tanyakan konsultan pajak untuk situasi Anda.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "catat",
+        "title": "Mencatat pemasukan dan pengeluaran dengan rapi",
+        "content": [
+          "Sistem tiga rekening bekerja paling baik jika didukung catatan yang rapi. Di **Kucing Atur Duit**, catat setiap pemasukan proyek sebagai pendapatan dan setiap pengeluaran dengan kategori yang jelas. Pisahkan juga kategori biaya kerja, seperti kuota, bensin, dan peralatan, dari kebutuhan pribadi, agar Anda tahu penghasilan bersih yang sebenarnya.",
+          "Grafik arus kas bulanan membantu melihat pola musiman dengan jelas, sehingga Anda bisa bersiap sebelum bulan sepi datang. Fitur anggaran bulanan menjaga pengeluaran tetap dalam batas gaji yang sudah ditetapkan. Data tersimpan di HP dan bisa dikunci dengan PIN atau sidik jari, cocok untuk menyimpan catatan pemasukan dari berbagai klien secara privat."
+        ]
+      },
+      {
+        "id": "bulan-sepi",
+        "title": "Strategi saat bulan sepi datang",
+        "content": [
+          "Bahkan dengan dana penyangga, bulan sepi tetap perlu diantisipasi. Beberapa langkah yang bisa dilakukan:"
+        ],
+        "bulletPoints": [
+          "Pakai dana penyangga untuk menutup kekurangan gaji, bukan kartu kredit atau paylater.",
+          "Tunda pengeluaran yang tidak mendesak, seperti membeli perangkat baru.",
+          "Gunakan waktu luang untuk memasarkan diri, memperbarui portofolio, atau belajar keterampilan baru.",
+          "Hubungi klien lama untuk menawarkan proyek lanjutan.",
+          "Isi kembali dana penyangga di bulan ramai berikutnya sebelum menaikkan gaya hidup."
+        ]
+      },
+      {
+        "id": "evaluasi",
+        "title": "Evaluasi setiap tiga bulan",
+        "content": [
+          "Tinjau sistem ini setiap tiga bulan. Apakah gaji yang ditetapkan masih realistis? Apakah dana penyangga cukup? Jika penghasilan rata-rata naik secara konsisten selama beberapa bulan, Anda bisa menaikkan gaji secara bertahap. Jika turun, sesuaikan sebelum dana penyangga habis."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa gaji yang sebaiknya saya tetapkan untuk diri sendiri?",
+        "a": "Mulailah dari angka yang mendekati penghasilan di bulan sepi atau sedikit di atas pengeluaran dasar, lalu naikkan bertahap jika penghasilan stabil."
+      },
+      {
+        "q": "Apa bedanya dana penyangga dan dana darurat?",
+        "a": "Dana penyangga menutup gaji di bulan sepi. Dana darurat untuk kejadian tak terduga seperti sakit atau kerusakan."
+      },
+      {
+        "q": "Perlu rekening bank terpisah untuk sistem ini?",
+        "a": "Sangat membantu. Pemisahan fisik membuat uang lebih sulit tercampur dan terpakai untuk hal lain."
+      },
+      {
+        "q": "Bagaimana jika penghasilan saya sangat kecil?",
+        "a": "Mulailah mencatat dan memisahkan rekening dulu. Fokus menekan pengeluaran dasar dan membangun dana penyangga kecil sedikit demi sedikit."
+      }
+    ],
+    "titleEn": "Managing Money on an Irregular Income: A Guide for Freelancers and Gig Workers",
+    "metaTitleEn": "Managing Money on an Irregular Income",
+    "metaDescriptionEn": "Fluctuating income breaks ordinary budgets. Learn to find your baseline income, set up a buffer account, set aside tax and emergency funds, and pay yourself a steady monthly salary.",
+    "keywordsEn": [
+      "freelancer finances",
+      "irregular income budget",
+      "freelance money management",
+      "pay yourself a salary",
+      "freelancer emergency fund"
+    ],
+    "readTimeEn": "9 min read",
+    "englishSummary": "Covers reviewing 12 months of income, setting baseline costs and a personal salary, a three-account system, building a buffer fund, setting aside tax and social insurance, tracking in Kucing Atur Duit, slow-month tactics, and quarterly reviews.",
+    "sectionsEn": [
+      {
+        "id": "challenge",
+        "title": "The challenge of unpredictable income",
+        "content": [
+          "Freelancers and gig workers face feast-and-famine months. The real problem is spending that follows income; a system that separates incoming money from spending money breaks the cycle."
+        ]
+      },
+      {
+        "id": "data",
+        "title": "Step 1: Review 12 months of income",
+        "content": [
+          "List net monthly income after work costs, then find the average, the lowest month, and seasonal slow periods."
+        ],
+        "tipBox": {
+          "title": "No data yet?",
+          "text": "Start logging all income today. Three months gives a useful first picture.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "baseline",
+        "title": "Step 2: Baseline costs and your salary",
+        "content": [
+          "Calculate essential monthly costs, then set a personal salary close to a slow month's income or slightly above essentials. Live on that salary every month."
+        ]
+      },
+      {
+        "id": "accounts",
+        "title": "Step 3: A three-account system",
+        "content": [
+          "Separate the flow of money:"
+        ],
+        "bulletPoints": [
+          "Holding account: all client income lands here; never spend from it.",
+          "Salary account: transfer your salary here monthly and pay living costs.",
+          "Reserve account: emergency fund and buffer for slow months."
+        ],
+        "tipBox": {
+          "title": "The psychological effect",
+          "text": "Busy months stop feeling like bonuses to spend, and slow months stop feeling like crises.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "buffer",
+        "title": "Step 4: Build a buffer fund",
+        "content": [
+          "Aim for two to three months of salary in a buffer, separate from an emergency fund of six months or more of expenses. Top up the buffer in busy months before upgrading your lifestyle."
+        ]
+      },
+      {
+        "id": "tax",
+        "title": "Step 5: Set aside tax and social insurance",
+        "content": [
+          "No employer withholds for you. Reserve a percentage of every payment for tax, check the rules for your work, and consider BPJS health and employment programmes for informal workers."
+        ],
+        "tipBox": {
+          "title": "Check current rules",
+          "text": "Tax rules change. Consult official sources or a tax adviser.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "track",
+        "title": "Tracking with Kucing Atur Duit",
+        "content": [
+          "Log project income and categorise expenses in **Kucing Atur Duit**, separating work costs from personal spending. Monthly cash-flow charts reveal seasonal patterns and budgets keep spending within your salary. Data stays on your phone behind a lock."
+        ]
+      },
+      {
+        "id": "slow",
+        "title": "When a slow month arrives",
+        "content": [
+          "Tactics:"
+        ],
+        "bulletPoints": [
+          "Cover the shortfall from the buffer, not credit.",
+          "Delay non-urgent purchases.",
+          "Market yourself and update your portfolio.",
+          "Contact past clients.",
+          "Refill the buffer in the next busy month."
+        ]
+      },
+      {
+        "id": "review",
+        "title": "Review every three months",
+        "content": [
+          "Adjust your salary up gradually if average income rises, and down before the buffer runs out if it falls."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "What salary should I pay myself?",
+        "a": "Start near a slow month's income or just above essentials, then raise it gradually."
+      },
+      {
+        "q": "Buffer fund vs emergency fund?",
+        "a": "The buffer covers salary in slow months; the emergency fund covers surprises like illness."
+      },
+      {
+        "q": "Do I need separate bank accounts?",
+        "a": "It helps a lot, because physical separation stops money mixing."
+      },
+      {
+        "q": "What if my income is very small?",
+        "a": "Start tracking and separating accounts, trim essentials, and build a small buffer gradually."
+      }
+    ],
+    "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
