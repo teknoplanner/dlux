@@ -224,7 +224,7 @@
     "rating": null,
     "reviewsCount": null,
     "genre": [
-      "Action",
+      "Educational",
       [
         null,
         null,
@@ -233,10 +233,10 @@
         [
           null,
           null,
-          "/store/apps/category/GAME_ACTION"
+          "/store/apps/category/GAME_EDUCATIONAL"
         ]
       ],
-      "GAME_ACTION"
+      "GAME_EDUCATIONAL"
     ],
     "iconUrl": "https://play-lh.googleusercontent.com/woOKOW85oFurhE5KdYTCRq7FLNbSPhFbuwDuTgywhkr5hm4Wf-XRN0wbT5X5KQZWUSWi4H-MFo88CcLsOa5B",
     "screenshotUrls": [
