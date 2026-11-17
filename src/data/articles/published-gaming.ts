@@ -35833,5 +35833,244 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/kucing-atur-duit/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membuat-invoice-dan-kuitansi-pdf-dari-hp-untuk-umkm-dan-freelancer",
+    "slugEn": "how-to-create-pdf-invoices-and-receipts-on-your-phone-for-small-businesses",
+    "targetAppSlug": "offline-pdf-editor",
+    "category": "productivity",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "capacitive-stylus",
+      "paper-screen-protector"
+    ],
+    "publishedDate": "2026-11-17T09:45:00+07:00",
+    "title": "Cara Membuat Invoice dan Kuitansi PDF dari HP untuk UMKM dan Freelancer",
+    "metaTitle": "Buat Invoice & Kuitansi PDF dari HP untuk UMKM",
+    "metaDescription": "Invoice yang rapi mempercepat pembayaran dan membuat usaha terlihat profesional. Pelajari isi wajib invoice dan kuitansi, cara membuatnya dari HP, menandatangani PDF, dan mengarsipkan dengan aman.",
+    "keywords": [
+      "cara membuat invoice di hp",
+      "contoh invoice freelancer",
+      "kuitansi pdf",
+      "invoice umkm",
+      "tanda tangan pdf di hp"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "Kenapa invoice yang rapi itu penting",
+        "content": [
+          "Banyak pelaku UMKM dan freelancer menagih pembayaran hanya lewat pesan singkat: \"Kak, totalnya Rp1.500.000 ya, transfer ke rekening ini.\" Cara ini memang cepat, tapi mudah terlupa, sulit dilacak, dan kurang meyakinkan bagi klien perusahaan yang membutuhkan dokumen untuk proses pembayaran internal.",
+          "Invoice yang rapi memberi beberapa keuntungan sekaligus: pembayaran lebih cepat diproses, ada catatan resmi jika terjadi selisih, dan usaha Anda terlihat lebih profesional. Kabar baiknya, semua ini bisa dibuat langsung dari HP."
+        ]
+      },
+      {
+        "id": "beda",
+        "title": "Invoice dan kuitansi: apa bedanya",
+        "content": [
+          "Kedua dokumen ini sering tertukar. Invoice atau faktur tagihan dikirim sebelum pembayaran, berisi rincian barang atau jasa dan jumlah yang harus dibayar. Kuitansi atau tanda terima diberikan setelah pembayaran diterima, sebagai bukti bahwa uang sudah dibayar.",
+          "Untuk transaksi jasa dengan klien perusahaan, alurnya biasanya: kirim invoice, klien membayar, lalu kirim kuitansi atau tandai invoice sebagai lunas. Untuk penjualan langsung di toko, kuitansi atau nota sering sudah cukup."
+        ]
+      },
+      {
+        "id": "isi",
+        "title": "Isi wajib invoice",
+        "content": [
+          "Invoice yang lengkap memudahkan klien memproses pembayaran tanpa harus bertanya ulang. Pastikan memuat:"
+        ],
+        "bulletPoints": [
+          "Kata \"INVOICE\" atau \"FAKTUR\" yang jelas di bagian atas.",
+          "Nomor invoice yang unik dan berurutan, misalnya INV-2026-011.",
+          "Tanggal invoice dan tanggal jatuh tempo pembayaran.",
+          "Nama usaha atau nama Anda, alamat, nomor HP, dan email.",
+          "Nama dan alamat klien, termasuk nama kontak penanggung jawab.",
+          "Rincian barang atau jasa: deskripsi, jumlah, harga satuan, dan subtotal.",
+          "Diskon, pajak jika berlaku, dan total yang harus dibayar.",
+          "Informasi pembayaran: nama bank, nomor rekening, dan nama pemilik rekening.",
+          "Catatan tambahan seperti syarat pembayaran atau ucapan terima kasih."
+        ],
+        "tipBox": {
+          "title": "Sistem penomoran",
+          "text": "Gunakan format penomoran yang konsisten, misalnya tahun dan nomor urut. Nomor yang rapi memudahkan pencarian saat ada klien yang menanyakan pembayaran beberapa bulan kemudian.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "membuat",
+        "title": "Membuat invoice dari HP",
+        "content": [
+          "Ada beberapa cara membuat invoice dari HP. Cara paling fleksibel adalah membuat templat di aplikasi pengolah kata atau spreadsheet di HP, lalu menyimpannya sebagai PDF. Buat templat sekali dengan logo, data usaha, dan informasi rekening, lalu cukup ubah data klien dan rincian setiap kali menagih.",
+          "Spreadsheet punya keuntungan karena bisa menghitung subtotal dan total otomatis, sehingga mengurangi risiko salah hitung. Pastikan tampilannya rapi saat diekspor ke PDF dengan mengatur area cetak dan ukuran kertas A4."
+        ]
+      },
+      {
+        "id": "rapikan",
+        "title": "Merapikan dan menandatangani PDF",
+        "content": [
+          "Setelah invoice diekspor, buka di **Offline PDF Editor & Sign** untuk sentuhan akhir. Tambahkan tanda tangan digital Anda di bagian bawah invoice agar terlihat resmi. Stylus membantu membuat tanda tangan yang lebih rapi dan mirip tanda tangan basah dibandingkan memakai ujung jari.",
+          "Jika klien meminta dokumen pendukung, misalnya surat penawaran, berita acara serah terima, atau laporan pekerjaan, gabungkan semuanya menjadi satu PDF dengan urutan yang jelas. Kompres ukuran file jika akan dikirim lewat email atau aplikasi pesan yang membatasi ukuran lampiran.",
+          "Untuk invoice yang berisi informasi sensitif, seperti nomor rekening atau nilai kontrak, Anda bisa mengunci PDF dengan kata sandi dan mengirimkan kata sandinya lewat jalur terpisah. Semua proses berjalan di HP tanpa unggah ke server, sehingga data keuangan usaha Anda tetap aman."
+        ],
+        "tipBox": {
+          "title": "Tandai lunas",
+          "text": "Setelah pembayaran diterima, tambahkan tulisan atau stempel LUNAS beserta tanggal pembayaran pada salinan invoice, lalu kirimkan kembali ke klien sebagai bukti.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "kuitansi",
+        "title": "Isi kuitansi yang benar",
+        "content": [
+          "Kuitansi yang baik mencantumkan nomor kuitansi, tanggal, nama pembayar, jumlah uang dalam angka dan huruf, keterangan pembayaran, serta nama dan tanda tangan penerima. Menulis jumlah dalam huruf, misalnya \"satu juta lima ratus ribu rupiah\", mencegah angka diubah.",
+          "Untuk nilai transaksi tertentu, kuitansi fisik mungkin memerlukan meterai sesuai ketentuan yang berlaku. Cek aturan bea meterai terbaru, karena besaran dan batas nilai transaksinya dapat berubah."
+        ]
+      },
+      {
+        "id": "kirim",
+        "title": "Mengirim dan menindaklanjuti tagihan",
+        "content": [
+          "Kirim invoice lewat email dengan subjek yang jelas, misalnya \"Invoice INV-2026-011 - Desain Logo - Nama Usaha\". Tulis pesan singkat yang sopan berisi ringkasan total dan tanggal jatuh tempo.",
+          "Catat setiap invoice yang dikirim, tanggal jatuh tempo, dan status pembayarannya. Jika mendekati jatuh tempo belum ada pembayaran, kirim pengingat yang sopan. Klien perusahaan sering membayar sesuai jadwal pembayaran internal, jadi invoice yang dikirim lebih awal biasanya dibayar lebih cepat."
+        ]
+      },
+      {
+        "id": "arsip",
+        "title": "Mengarsipkan invoice dengan rapi",
+        "content": [
+          "Simpan semua invoice dan kuitansi dalam folder yang terorganisasi, misalnya per tahun dan per bulan. Arsip yang rapi sangat membantu saat menghitung penghasilan, melaporkan pajak, atau menyelesaikan perselisihan dengan klien.",
+          "Buat cadangan berkala ke penyimpanan awan atau komputer, agar arsip tidak hilang jika HP rusak atau hilang."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah invoice dari HP sah dipakai?",
+        "a": "Ya, selama isinya lengkap dan jelas. Yang penting adalah informasi yang benar, bukan alat pembuatnya."
+      },
+      {
+        "q": "Perlu tanda tangan di invoice?",
+        "a": "Tidak selalu wajib, tapi tanda tangan membuat invoice terlihat lebih resmi dan sering diminta klien perusahaan."
+      },
+      {
+        "q": "Kapan invoice sebaiknya dikirim?",
+        "a": "Segera setelah pekerjaan selesai atau sesuai termin yang disepakati. Makin cepat dikirim, makin cepat diproses."
+      },
+      {
+        "q": "Apakah kuitansi perlu meterai?",
+        "a": "Untuk nilai transaksi tertentu bisa diperlukan. Cek aturan bea meterai terbaru yang berlaku."
+      }
+    ],
+    "titleEn": "How to Create PDF Invoices and Receipts on Your Phone for Small Businesses and Freelancers",
+    "metaTitleEn": "Create PDF Invoices and Receipts on Your Phone",
+    "metaDescriptionEn": "Neat invoices speed up payment and look professional. Learn what invoices and receipts must include, how to make them on a phone, sign PDFs, and archive safely.",
+    "keywordsEn": [
+      "make invoice on phone",
+      "freelancer invoice",
+      "pdf receipt",
+      "small business invoice",
+      "sign pdf on phone"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers invoice vs receipt, required invoice fields, building a reusable template on a phone, signing, merging and protecting PDFs offline, receipt essentials, sending and follow-up, and archiving.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "Why a neat invoice matters",
+        "content": [
+          "Chat-message billing is easy to forget and hard to track. A proper invoice speeds up processing, records the agreement, and looks professional, and you can make one on a phone."
+        ]
+      },
+      {
+        "id": "difference",
+        "title": "Invoice vs receipt",
+        "content": [
+          "An invoice is sent before payment with itemised charges; a receipt confirms payment. For service clients: invoice, payment, then receipt or a paid mark."
+        ]
+      },
+      {
+        "id": "contents",
+        "title": "What an invoice must include",
+        "content": [
+          "Make sure it has:"
+        ],
+        "bulletPoints": [
+          "A clear INVOICE heading.",
+          "A unique sequential number.",
+          "Invoice date and due date.",
+          "Your business details.",
+          "Client details and contact person.",
+          "Itemised description, quantity, unit price, subtotal.",
+          "Discounts, tax if applicable, and total.",
+          "Bank details.",
+          "Payment terms or a thank-you note."
+        ],
+        "tipBox": {
+          "title": "Numbering",
+          "text": "Use a consistent year-plus-sequence format for easy lookup later.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "create",
+        "title": "Creating invoices on a phone",
+        "content": [
+          "Build a template once in a mobile word processor or spreadsheet with your logo and bank details, then change client and line items each time. Spreadsheets total automatically; set A4 print areas before exporting to PDF."
+        ]
+      },
+      {
+        "id": "finish",
+        "title": "Finishing and signing the PDF",
+        "content": [
+          "Use **Offline PDF Editor & Sign** to add a digital signature (a stylus helps), merge supporting documents, compress for email, and password-protect sensitive invoices, all on-device."
+        ],
+        "tipBox": {
+          "title": "Mark it paid",
+          "text": "Once paid, add PAID and the payment date to a copy and send it back as proof.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "receipt",
+        "title": "Receipt essentials",
+        "content": [
+          "Include number, date, payer, amount in figures and words, purpose, and the recipient's signature. Some transaction values may require a duty stamp; check the current rules."
+        ]
+      },
+      {
+        "id": "send",
+        "title": "Sending and following up",
+        "content": [
+          "Use a clear email subject with the invoice number, track due dates and status, and send polite reminders. Early invoices fit corporate payment cycles better."
+        ]
+      },
+      {
+        "id": "archive",
+        "title": "Archiving",
+        "content": [
+          "Organise invoices by year and month and back them up to the cloud or a computer."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Is a phone-made invoice valid?",
+        "a": "Yes, if the information is complete and correct."
+      },
+      {
+        "q": "Does an invoice need a signature?",
+        "a": "Not always, but it looks more official and corporate clients often ask for one."
+      },
+      {
+        "q": "When should I send an invoice?",
+        "a": "As soon as work is done or per the agreed terms."
+      },
+      {
+        "q": "Do receipts need a duty stamp?",
+        "a": "Possibly for certain values; check current regulations."
+      }
+    ],
+    "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
