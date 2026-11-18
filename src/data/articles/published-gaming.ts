@@ -36072,5 +36072,257 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-merawat-baterai-hp-agar-awet-mitos-dan-fakta-mengisi-daya",
+    "slugEn": "how-to-make-your-phone-battery-last-longer-charging-myths-and-facts",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "gaming",
+    "affiliateProductIds": [
+      "phone-cooler"
+    ],
+    "publishedDate": "2026-11-18T09:45:00+07:00",
+    "title": "Cara Merawat Baterai HP agar Awet: Mitos dan Fakta Seputar Mengisi Daya",
+    "metaTitle": "Rawat Baterai HP agar Awet: Mitos dan Fakta",
+    "metaDescription": "Benarkah HP harus dicas sampai 100 persen? Apakah fast charging merusak baterai? Pelajari cara kerja baterai lithium-ion, mitos yang perlu ditinggalkan, dan kebiasaan sederhana agar baterai HP bertahan lebih lama.",
+    "keywords": [
+      "cara merawat baterai hp",
+      "mitos mengisi daya hp",
+      "baterai hp cepat habis",
+      "fast charging merusak baterai",
+      "kesehatan baterai android"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "pendahuluan",
+        "title": "Baterai adalah komponen yang pasti menua",
+        "content": [
+          "Hampir semua HP modern memakai baterai lithium-ion atau lithium-polymer. Baterai jenis ini pasti mengalami penurunan kapasitas seiring waktu dan jumlah siklus pengisian. HP yang dulu bertahan seharian, setelah dua atau tiga tahun mungkin hanya bertahan setengah hari.",
+          "Penurunan ini tidak bisa dihindari, tapi bisa diperlambat. Banyak kebiasaan yang diyakini merawat baterai ternyata berasal dari teknologi baterai lama, sementara kebiasaan yang benar-benar berpengaruh justru sering diabaikan."
+        ]
+      },
+      {
+        "id": "cara-kerja",
+        "title": "Apa yang membuat baterai cepat menua",
+        "content": [
+          "Ada dua faktor utama yang mempercepat penuaan baterai lithium-ion: panas dan tegangan tinggi. Baterai yang sering berada dalam suhu tinggi akan kehilangan kapasitas lebih cepat. Begitu juga baterai yang terlalu lama berada di kondisi terisi penuh, karena pada kondisi ini tegangannya berada di titik tertinggi.",
+          "Selain itu, setiap siklus pengisian penuh dari kosong ke penuh sedikit demi sedikit mengurangi kapasitas. Namun yang dihitung adalah akumulasi, bukan jumlah kali mencolok charger. Mengisi dari 50 ke 100 persen dua kali kurang lebih setara dengan satu siklus penuh."
+        ]
+      },
+      {
+        "id": "mitos",
+        "title": "Mitos yang sebaiknya ditinggalkan",
+        "content": [
+          "Beberapa anggapan berikut masih sering dipercaya, padahal sudah tidak relevan untuk HP modern:"
+        ],
+        "bulletPoints": [
+          "Mitos: HP baru harus dicas 8 jam sebelum dipakai. Fakta: kebiasaan ini berasal dari baterai jenis lama. Baterai lithium-ion tidak memerlukan pengisian awal yang lama.",
+          "Mitos: baterai harus dihabiskan sampai 0 persen sebelum dicas. Fakta: membiarkan baterai sampai benar-benar kosong justru tidak baik untuk baterai lithium-ion.",
+          "Mitos: mengisi daya sebentar-sebentar merusak baterai. Fakta: pengisian parsial tidak masalah dan bahkan lebih ramah daripada siklus kosong ke penuh.",
+          "Mitos: memakai charger merek lain pasti merusak HP. Fakta: charger berkualitas yang sesuai standar aman dipakai. Yang berbahaya adalah charger palsu atau berkualitas rendah tanpa perlindungan.",
+          "Mitos: menutup semua aplikasi di latar belakang selalu menghemat baterai. Fakta: sistem Android modern mengelola aplikasi latar belakang. Membuka ulang aplikasi dari awal kadang justru memakan daya lebih banyak."
+        ]
+      },
+      {
+        "id": "kebiasaan",
+        "title": "Kebiasaan yang benar-benar membantu",
+        "content": [
+          "Fokuslah pada kebiasaan yang mengurangi panas dan waktu baterai berada di kondisi ekstrem:"
+        ],
+        "bulletPoints": [
+          "Usahakan baterai berada di kisaran sekitar 20 sampai 80 persen dalam pemakaian sehari-hari, tanpa harus terobsesi angka pastinya.",
+          "Aktifkan fitur perlindungan baterai atau pengisian adaptif jika HP Anda memilikinya. Banyak HP kini bisa membatasi pengisian di sekitar 80 sampai 85 persen atau menunda pengisian penuh sampai menjelang pagi.",
+          "Jauhkan HP dari panas, misalnya dasbor mobil di bawah terik matahari atau di bawah bantal saat mengisi daya.",
+          "Lepas casing tebal saat mengisi daya jika HP terasa sangat panas.",
+          "Gunakan charger dan kabel yang berkualitas dan sesuai standar."
+        ],
+        "tipBox": {
+          "title": "Cek fitur di pengaturan",
+          "text": "Cari menu Baterai di pengaturan HP. Nama fiturnya berbeda di tiap merek, misalnya perlindungan baterai, pengisian adaptif, atau pengisian yang dioptimalkan.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "fast-charging",
+        "title": "Apakah fast charging merusak baterai?",
+        "content": [
+          "Pengisian cepat menghasilkan lebih banyak panas, dan panas memang mempercepat penuaan baterai. Namun produsen HP merancang sistem pengisian cepat dengan pengaturan suhu dan tegangan. Biasanya pengisian paling cepat hanya terjadi di persentase rendah, lalu melambat saat baterai mendekati penuh.",
+          "Bagi kebanyakan pengguna, manfaat fast charging lebih besar daripada dampaknya. Jika ingin lebih hati-hati, gunakan pengisian biasa saat mengisi semalaman atau ketika tidak terburu-buru, dan pakai fast charging saat benar-benar membutuhkan."
+        ]
+      },
+      {
+        "id": "gaming",
+        "title": "Main game sambil mengisi daya",
+        "content": [
+          "Kebiasaan yang paling membebani baterai adalah bermain game berat sambil mengisi daya. Prosesor menghasilkan panas karena bekerja keras, dan proses pengisian juga menghasilkan panas. Kombinasi keduanya membuat suhu HP naik tinggi, yang mempercepat penuaan baterai sekaligus membuat performa game turun karena throttling.",
+          "Jika terpaksa bermain sambil mengisi daya, lepas casing, main di ruangan sejuk, dan pertimbangkan kipas pendingin HP untuk menjaga suhu. Beberapa HP gaming memiliki fitur bypass charging yang menyalurkan daya langsung ke sistem tanpa mengisi baterai saat bermain, cek apakah HP Anda mendukungnya."
+        ],
+        "tipBox": {
+          "title": "Pilih game yang lebih ringan saat baterai menipis",
+          "text": "Game ringan seperti Stickman Penalty Rush memakai daya jauh lebih sedikit dibandingkan game 3D berat dan bisa dimainkan offline, sehingga cocok saat ingin bermain tanpa menguras baterai.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "tanda",
+        "title": "Tanda baterai perlu diganti",
+        "content": [
+          "Beberapa tanda bahwa baterai sudah sangat menurun dan perlu diperiksa:"
+        ],
+        "bulletPoints": [
+          "Baterai turun drastis, misalnya dari 30 persen langsung mati.",
+          "HP mati sendiri saat menjalankan aplikasi berat meskipun baterai masih tersisa.",
+          "HP terasa sangat panas bahkan saat pemakaian ringan.",
+          "Bodi HP menggembung atau layar terangkat. Ini tanda bahaya, segera hentikan pemakaian dan bawa ke pusat servis."
+        ]
+      },
+      {
+        "id": "ganti",
+        "title": "Mengganti baterai dengan aman",
+        "content": [
+          "Jika baterai sudah menurun, mengganti baterai sering jauh lebih murah daripada membeli HP baru. Gunakan layanan servis resmi atau tepercaya, dan pastikan baterai pengganti asli atau berkualitas baik. Baterai palsu berisiko cepat rusak dan dapat membahayakan keselamatan."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Apakah boleh mengisi daya HP semalaman?",
+        "a": "Umumnya aman karena HP modern menghentikan pengisian saat penuh. Aktifkan fitur pengisian adaptif agar baterai tidak lama berada di 100 persen."
+      },
+      {
+        "q": "Berapa persen terbaik untuk mulai mengisi daya?",
+        "a": "Tidak ada angka pasti. Sebagai panduan, isi daya sebelum di bawah sekitar 20 persen dan hindari sering membiarkan baterai sampai 0 persen."
+      },
+      {
+        "q": "Apakah fast charging membuat baterai cepat rusak?",
+        "a": "Dampaknya kecil bagi kebanyakan pengguna karena sistem pengisian mengatur suhu dan tegangan. Gunakan pengisian biasa saat tidak terburu-buru jika ingin lebih hati-hati."
+      },
+      {
+        "q": "Bagaimana cara mengecek kesehatan baterai?",
+        "a": "Beberapa HP menampilkan informasi kesehatan baterai di menu pengaturan. Jika tidak ada, pusat servis resmi bisa memeriksanya."
+      }
+    ],
+    "titleEn": "How to Make Your Phone Battery Last Longer: Charging Myths and Facts",
+    "metaTitleEn": "Make Your Phone Battery Last: Myths and Facts",
+    "metaDescriptionEn": "Should you charge to 100 percent? Does fast charging ruin batteries? Learn how lithium-ion batteries age, which myths to drop, and simple habits that keep your phone battery healthy for longer.",
+    "keywordsEn": [
+      "phone battery care",
+      "charging myths",
+      "battery drains fast",
+      "does fast charging damage battery",
+      "android battery health"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains that heat and high voltage age lithium-ion batteries, debunks five common myths, lists helpful habits and adaptive charging, discusses fast charging and gaming while charging, warning signs, and safe battery replacement.",
+    "sectionsEn": [
+      {
+        "id": "intro",
+        "title": "Batteries inevitably age",
+        "content": [
+          "Lithium-ion batteries lose capacity over time and cycles. You cannot stop it, but you can slow it, and many popular habits come from older battery types."
+        ]
+      },
+      {
+        "id": "aging",
+        "title": "What ages a battery",
+        "content": [
+          "Heat and long periods at full charge (high voltage) are the main culprits. Cycles count cumulatively, so charging 50 to 100 percent twice is about one full cycle."
+        ]
+      },
+      {
+        "id": "myths",
+        "title": "Myths to drop",
+        "content": [
+          "These no longer apply to modern phones:"
+        ],
+        "bulletPoints": [
+          "Charging a new phone for 8 hours first.",
+          "Draining to 0 percent before charging.",
+          "Partial top-ups harm the battery.",
+          "Any third-party charger will damage your phone (quality certified chargers are fine; fakes are the risk).",
+          "Closing all background apps always saves battery."
+        ]
+      },
+      {
+        "id": "habits",
+        "title": "Habits that really help",
+        "content": [
+          "Reduce heat and time at extremes:"
+        ],
+        "bulletPoints": [
+          "Keep charge roughly between 20 and 80 percent day to day.",
+          "Turn on battery protection or adaptive charging.",
+          "Keep phones out of hot cars and from under pillows while charging.",
+          "Remove thick cases if charging gets hot.",
+          "Use quality, standards-compliant chargers and cables."
+        ],
+        "tipBox": {
+          "title": "Check your settings",
+          "text": "Look under Battery for protection, adaptive, or optimised charging options.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "fast",
+        "title": "Does fast charging damage batteries?",
+        "content": [
+          "It creates more heat, but phones manage temperature and voltage and slow down near full. For most users the benefit outweighs the cost; use normal charging overnight if you want to be careful."
+        ]
+      },
+      {
+        "id": "gaming",
+        "title": "Gaming while charging",
+        "content": [
+          "Heavy gaming while charging combines two heat sources, ageing the battery and throttling performance. Remove the case, play somewhere cool, consider a phone cooler, and check for bypass charging."
+        ],
+        "tipBox": {
+          "title": "Lighter games on low battery",
+          "text": "Light offline games like Stickman Penalty Rush use far less power than heavy 3D titles.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "signs",
+        "title": "Signs a battery needs replacing",
+        "content": [
+          "Watch for:"
+        ],
+        "bulletPoints": [
+          "Sudden drops, such as dying at 30 percent.",
+          "Shutting down under load.",
+          "Excess heat during light use.",
+          "Swelling or a lifted screen: stop using it and get it serviced immediately."
+        ]
+      },
+      {
+        "id": "replace",
+        "title": "Replacing safely",
+        "content": [
+          "A battery swap is often far cheaper than a new phone. Use authorised or trusted service and genuine or quality batteries."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Is overnight charging OK?",
+        "a": "Generally yes; enable adaptive charging to avoid long periods at 100 percent."
+      },
+      {
+        "q": "When should I start charging?",
+        "a": "Before about 20 percent, and avoid frequent drains to 0."
+      },
+      {
+        "q": "Does fast charging ruin batteries?",
+        "a": "The impact is small for most users; use normal charging when not in a hurry."
+      },
+      {
+        "q": "How can I check battery health?",
+        "a": "Some phones show it in settings; otherwise a service centre can test it."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
