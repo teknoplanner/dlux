@@ -172,7 +172,7 @@ export const apps: AppItem[] = [
       "/images/apps/monster-math-train-brain/screenshot-5.webp"
     ],
     "reviewsCount": null,
-    "downloads": "500+",
+    "downloads": "1,000+",
     "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.monsteradventuremath",
