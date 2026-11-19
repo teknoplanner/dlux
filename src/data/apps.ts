@@ -103,7 +103,7 @@ export const apps: AppItem[] = [
       "/images/apps/stickman-penalty-rush/screenshot-5.webp"
     ],
     "reviewsCount": null,
-    "downloads": "10+",
+    "downloads": "50+",
     "contentRating": "Everyone",
     "hasAds": true,
     "playUrl": "https://play.google.com/store/apps/details?id=com.stickmanpenaltyrush.game",
@@ -307,7 +307,8 @@ export const apps: AppItem[] = [
       "/images/apps/soundfx-studio/screenshot-1.webp",
       "/images/apps/soundfx-studio/screenshot-2.webp",
       "/images/apps/soundfx-studio/screenshot-3.webp",
-      "/images/apps/soundfx-studio/screenshot-4.webp"
+      "/images/apps/soundfx-studio/screenshot-4.webp",
+      "/images/apps/soundfx-studio/screenshot-5.webp"
     ],
     "reviewsCount": null,
     "downloads": "100+",
