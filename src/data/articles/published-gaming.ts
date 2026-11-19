@@ -36324,5 +36324,245 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "melatih-konsentrasi-anak-yang-mudah-terdistraksi-permainan-fokus-10-menit-di-rumah",
+    "slugEn": "improving-focus-in-easily-distracted-kids-10-minute-attention-games-at-home",
+    "targetAppSlug": "fruity-merge-3d-match-puzzle",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-case"
+    ],
+    "publishedDate": "2026-11-19T09:45:00+07:00",
+    "title": "Melatih Konsentrasi Anak yang Mudah Terdistraksi: Permainan Fokus 10 Menit di Rumah",
+    "metaTitle": "Latih Konsentrasi Anak: Permainan Fokus 10 Menit",
+    "metaDescription": "Anak sulit fokus saat belajar? Kenali rentang perhatian yang wajar per usia, faktor yang mengganggu konsentrasi, dan permainan fokus singkat yang bisa dimainkan di rumah dengan atau tanpa gadget.",
+    "keywords": [
+      "melatih konsentrasi anak",
+      "anak sulit fokus",
+      "permainan melatih fokus anak",
+      "rentang perhatian anak",
+      "cara meningkatkan konsentrasi belajar anak"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "wajar",
+        "title": "Seberapa lama anak wajar bisa fokus",
+        "content": [
+          "Banyak orang tua mengeluh anaknya tidak bisa duduk tenang lebih dari beberapa menit saat belajar. Sebelum khawatir, penting untuk mengetahui bahwa rentang perhatian anak memang jauh lebih pendek dibandingkan orang dewasa, dan bertambah seiring usia.",
+          "Sebagai gambaran kasar yang sering dipakai pendidik, anak usia prasekolah biasanya bisa fokus pada satu kegiatan terarah sekitar 5 sampai 15 menit, sedangkan anak usia SD awal sekitar 15 sampai 20 menit. Angka ini berbeda untuk setiap anak dan sangat dipengaruhi minat. Anak yang bisa bermain balok selama satu jam belum tentu bisa mengerjakan soal selama 15 menit, dan itu wajar."
+        ],
+        "tipBox": {
+          "title": "Kapan perlu berkonsultasi",
+          "text": "Jika kesulitan fokus sangat mengganggu kegiatan sehari-hari di rumah dan sekolah, disertai perilaku sangat impulsif atau hiperaktif dalam waktu lama, konsultasikan dengan dokter anak atau psikolog anak.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "pengganggu",
+        "title": "Faktor yang sering mengganggu konsentrasi",
+        "content": [
+          "Sebelum melatih fokus, periksa dulu hal-hal dasar yang sering menjadi penyebab anak sulit berkonsentrasi:"
+        ],
+        "bulletPoints": [
+          "Kurang tidur: anak yang tidur larut cenderung rewel dan sulit fokus keesokan harinya.",
+          "Lapar atau haus: belajar sebelum makan sering kurang efektif.",
+          "Lingkungan ramai: televisi menyala, HP berbunyi, atau saudara bermain di dekatnya.",
+          "Tugas terlalu sulit atau terlalu mudah: keduanya membuat anak kehilangan minat.",
+          "Kurang bergerak: anak yang seharian duduk butuh menyalurkan energi sebelum bisa diam."
+        ]
+      },
+      {
+        "id": "lingkungan",
+        "title": "Menyiapkan lingkungan yang mendukung fokus",
+        "content": [
+          "Siapkan satu tempat belajar yang tetap dengan meja bersih dari barang yang tidak dibutuhkan. Matikan televisi dan jauhkan HP yang tidak dipakai. Siapkan semua alat tulis sebelum mulai agar anak tidak bolak-balik mencari pensil atau penghapus.",
+          "Gunakan pengatur waktu yang terlihat. Bagi anak, \"belajar sebentar\" terasa tidak jelas, sedangkan pengatur waktu 10 menit memberi batas yang konkret. Setelah waktu habis, beri jeda bergerak beberapa menit sebelum sesi berikutnya."
+        ]
+      },
+      {
+        "id": "permainan",
+        "title": "Permainan fokus tanpa gadget",
+        "content": [
+          "Fokus bisa dilatih seperti otot, terutama lewat permainan yang menyenangkan. Beberapa permainan sederhana yang bisa dilakukan sekitar 10 menit:"
+        ],
+        "bulletPoints": [
+          "Kartu memori: susun kartu bergambar secara terbalik, lalu bergantian membuka dua kartu untuk mencari pasangan. Melatih ingatan jangka pendek dan perhatian.",
+          "Patung: anak menari mengikuti musik dan harus diam seperti patung saat musik berhenti. Melatih kontrol diri dan mendengarkan.",
+          "Apa yang hilang: letakkan lima benda di meja, minta anak mengamati, lalu tutup matanya dan ambil satu benda. Anak menebak benda yang hilang.",
+          "Simon berkata: anak hanya boleh mengikuti perintah yang diawali kata \"Simon berkata\". Melatih perhatian pada instruksi.",
+          "Menyusun puzzle: mulai dari puzzle dengan sedikit potongan, lalu tingkatkan bertahap.",
+          "Mencari perbedaan: dua gambar yang mirip dengan beberapa perbedaan kecil."
+        ],
+        "tipBox": {
+          "title": "Naikkan tantangan sedikit demi sedikit",
+          "text": "Mulailah dari tingkat yang membuat anak berhasil, lalu tambahkan kesulitan sedikit demi sedikit. Rasa berhasil membuat anak mau mencoba lebih lama.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "gadget",
+        "title": "Memakai game digital yang tepat",
+        "content": [
+          "Tidak semua game cocok untuk melatih fokus. Game dengan banyak efek berkedip, hadiah instan terus-menerus, dan iklan yang sering muncul justru bisa membuat anak makin sulit fokus pada kegiatan yang lebih tenang. Pilih game dengan tempo santai, tujuan jelas, dan tantangan yang meningkat bertahap.",
+          "**Fruit Match: Memory Puzzle** adalah contoh game memori yang cocok untuk latihan fokus singkat. Anak membalik kartu dan mencari pasangan buah yang sama, mirip permainan kartu memori fisik tetapi dengan gambar buah yang cerah dan musik latar yang menenangkan. Tingkat kesulitannya naik bertahap sehingga cocok untuk anak maupun keluarga, dan bisa dimainkan offline.",
+          "Gunakan game seperti ini sebagai pemanasan singkat sebelum belajar atau sebagai selingan, sekitar 5 sampai 10 menit. Tablet dengan casing anti-banting dan kontrol orang tua membuat sesi bermain lebih aman dan terkendali."
+        ]
+      },
+      {
+        "id": "belajar",
+        "title": "Menerapkan saat belajar",
+        "content": [
+          "Latihan fokus akan lebih bermakna jika diterapkan saat belajar. Pecah tugas besar menjadi bagian kecil. Daripada \"kerjakan 20 soal\", katakan \"kerjakan 5 soal dulu, lalu istirahat sebentar\". Tugas kecil terasa lebih mungkin diselesaikan.",
+          "Beri pujian yang spesifik pada usaha, bukan hanya hasil. \"Hebat, kamu fokus mengerjakan sampai pengatur waktu berbunyi\" lebih membangun daripada \"pintar\". Anak belajar bahwa fokus adalah kemampuan yang bisa dilatih."
+        ]
+      },
+      {
+        "id": "gerak",
+        "title": "Jangan lupakan gerak dan istirahat",
+        "content": [
+          "Anak membutuhkan banyak gerak fisik untuk menyalurkan energi. Bermain di luar, bersepeda, atau sekadar melompat-lompat beberapa menit sebelum belajar sering membuat anak lebih siap duduk tenang. Tidur yang cukup dan teratur juga merupakan fondasi konsentrasi yang tidak bisa digantikan latihan apa pun."
+        ],
+        "tipBox": {
+          "title": "Konsisten lebih penting dari lama",
+          "text": "Sepuluh menit latihan fokus setiap hari lebih bermanfaat daripada satu jam sekali seminggu. Jadikan bagian dari rutinitas harian.",
+          "type": "highlight"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": "Berapa lama anak usia 5 tahun bisa fokus?",
+        "a": "Sebagai gambaran kasar, sekitar 10 sampai 15 menit untuk kegiatan terarah, tergantung minat dan kondisi anak."
+      },
+      {
+        "q": "Apakah game di HP membuat anak sulit fokus?",
+        "a": "Game yang terlalu cepat dan penuh hadiah instan bisa berdampak kurang baik. Game bertempo santai dengan durasi terbatas bisa menjadi latihan yang menyenangkan."
+      },
+      {
+        "q": "Kapan anak sulit fokus perlu diperiksakan?",
+        "a": "Jika sangat mengganggu kegiatan di rumah dan sekolah dalam waktu lama, disertai perilaku sangat impulsif atau hiperaktif."
+      },
+      {
+        "q": "Permainan apa yang paling mudah untuk mulai melatih fokus?",
+        "a": "Permainan kartu memori sederhana dengan sedikit kartu sangat mudah dimulai dan bisa ditingkatkan bertahap."
+      }
+    ],
+    "titleEn": "Improving Focus in Easily Distracted Kids: 10-Minute Attention Games at Home",
+    "metaTitleEn": "Improve Kids' Focus: 10-Minute Attention Games",
+    "metaDescriptionEn": "Does your child struggle to focus? Learn typical attention spans by age, common distractions, and short focus games you can play at home with or without devices.",
+    "keywordsEn": [
+      "improve child concentration",
+      "child cannot focus",
+      "focus games for kids",
+      "attention span by age",
+      "study concentration tips"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Covers realistic attention spans, common focus disruptors, a focus-friendly setup with timers, six screen-free focus games, choosing calm digital memory games like Fruit Match, applying focus to homework, and movement and sleep.",
+    "sectionsEn": [
+      {
+        "id": "normal",
+        "title": "How long kids can normally focus",
+        "content": [
+          "As a rough guide, preschoolers manage about 5 to 15 minutes of directed activity and early primary children about 15 to 20, varying with interest."
+        ],
+        "tipBox": {
+          "title": "When to seek advice",
+          "text": "If focus problems seriously disrupt home and school life with marked impulsivity or hyperactivity, consult a paediatrician or child psychologist.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "disruptors",
+        "title": "Common focus disruptors",
+        "content": [
+          "Check the basics first:"
+        ],
+        "bulletPoints": [
+          "Poor sleep.",
+          "Hunger or thirst.",
+          "Noisy surroundings.",
+          "Tasks that are too hard or too easy.",
+          "Too little movement."
+        ]
+      },
+      {
+        "id": "setup",
+        "title": "A focus-friendly setup",
+        "content": [
+          "Use a consistent, clear study spot, switch off the TV, prepare supplies in advance, and use a visible 10-minute timer followed by movement breaks."
+        ]
+      },
+      {
+        "id": "games",
+        "title": "Screen-free focus games",
+        "content": [
+          "Around 10 minutes each:"
+        ],
+        "bulletPoints": [
+          "Memory cards.",
+          "Musical statues.",
+          "What's missing?",
+          "Simon says.",
+          "Jigsaw puzzles of increasing size.",
+          "Spot the difference."
+        ],
+        "tipBox": {
+          "title": "Raise the challenge gradually",
+          "text": "Start where your child succeeds and add difficulty step by step.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "digital",
+        "title": "Choosing the right digital games",
+        "content": [
+          "Avoid flashy games with constant rewards and frequent ads. **Fruit Match: Memory Puzzle** mirrors physical memory cards with bright fruit, calm music, gradual difficulty, and offline play. Use 5 to 10 minute sessions as a warm-up, on a tablet with a sturdy case and parental controls."
+        ]
+      },
+      {
+        "id": "study",
+        "title": "Applying focus to homework",
+        "content": [
+          "Break tasks into small chunks and praise specific effort, such as focusing until the timer rang."
+        ]
+      },
+      {
+        "id": "move",
+        "title": "Movement and rest",
+        "content": [
+          "Physical play before study and regular, sufficient sleep are foundations no exercise can replace."
+        ],
+        "tipBox": {
+          "title": "Consistency beats duration",
+          "text": "Ten minutes daily beats one hour weekly.",
+          "type": "highlight"
+        }
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "How long can a 5-year-old focus?",
+        "a": "Roughly 10 to 15 minutes on directed tasks, depending on interest and state."
+      },
+      {
+        "q": "Do phone games hurt focus?",
+        "a": "Fast, reward-heavy games may; calm, time-limited games can be fun practice."
+      },
+      {
+        "q": "When should focus problems be checked?",
+        "a": "When they seriously disrupt home and school life over time with marked impulsivity or hyperactivity."
+      },
+      {
+        "q": "Which game is easiest to start with?",
+        "a": "A simple memory card game with few cards."
+      }
+    ],
+    "coverImage": "/images/apps/fruity-merge-3d-match-puzzle/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
