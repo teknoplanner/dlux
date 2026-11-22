@@ -23,9 +23,31 @@ export const youtubeChannel = {
 
 export const shorts: ShortVideo[] = [
   {
+    "id": "DToqtcBKqZg",
+    "title": "Ice Cave Minecraft: apa jadinya kalau sekolahmu membeku? 🧊Ice Cave Minecraft dari update mu",
+    "views": "754 x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/DToqtcBKqZg/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB51douhbzm916vvC3GUwmkTom9QQ",
+    "category": "trivia",
+    "tags": [
+      "Minecraft"
+    ],
+    "youtubeUrl": "https://www.youtube.com/shorts/DToqtcBKqZg"
+  },
+  {
+    "id": "H6u8D16quac",
+    "title": "Apa jadinya kalau napasmu kayak di Minecraft? 🫧",
+    "views": "1 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/H6u8D16quac/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAPRBzQmPPJPm6jaRBBZ60mz8jp7Q",
+    "category": "trivia",
+    "tags": [
+      "Minecraft"
+    ],
+    "youtubeUrl": "https://www.youtube.com/shorts/H6u8D16quac"
+  },
+  {
     "id": "eW5p58PQBMg",
     "title": "Apa jadinya kalau tetanggamu villager Minecraft? 🗣️",
-    "views": "410 x ditonton",
+    "views": "1,3 rb x ditonton",
     "thumbnail": "https://i.ytimg.com/vi/eW5p58PQBMg/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBPpnZVDEUZUnpzfvpksmTv_MOc-A",
     "category": "trivia",
     "tags": [
@@ -36,8 +58,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "yznxAreIUQA",
     "title": "Apa jadinya kalau kamu gerak kayak avatar Roblox? 🏃",
-    "views": "849 x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/yznxAreIUQA/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCbBJju6sXGxX-vFaWAUvncsI772g",
+    "views": "1,3 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/yznxAreIUQA/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCNZCRTvOy0v_uMJ_AjKIKAFvrZ4Q",
     "category": "trivia",
     "tags": [
       "Roblox"
@@ -47,8 +69,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "QHBG59Et5EE",
     "title": "Apa jadinya kalau kucingmu kayak kucing Minecraft? 🐱",
-    "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/QHBG59Et5EE/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCd0F_6jBfY-vWqdzFsX98i87DyeQ",
+    "views": "2 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/QHBG59Et5EE/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCKbA0sfiuqc4miDg5FGYAOIKBZiQ",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -58,7 +80,7 @@ export const shorts: ShortVideo[] = [
   {
     "id": "1-R8n_DDyLg",
     "title": "Apa jadinya kalau ayammu kayak ayam Minecraft? 🥚",
-    "views": "1 rb x ditonton",
+    "views": "1,1 rb x ditonton",
     "thumbnail": "https://i.ytimg.com/vi/1-R8n_DDyLg/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLB9ZdVqelYofWk4cLs0td17OOwhdA",
     "category": "trivia",
     "tags": [
@@ -69,8 +91,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "E_RVXyuj21M",
     "title": "Apa jadinya kalau Ender Pearl Minecraft beneran ada? 🟣",
-    "views": "2,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/E_RVXyuj21M/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCck8Mg358E4nW_dKC-JXfmjHeAPw",
+    "views": "2,3 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/E_RVXyuj21M/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBvlCayARvC3r2xiab4ht9Dv8QTIw",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -80,7 +102,7 @@ export const shorts: ShortVideo[] = [
   {
     "id": "bw5n3oMqvO8",
     "title": "Apa jadinya kalau satpammu Iron Golem Minecraft? 🛡️",
-    "views": "2,5 rb x ditonton",
+    "views": "3,6 rb x ditonton",
     "thumbnail": "https://i.ytimg.com/vi/bw5n3oMqvO8/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCu_z-9gU8ZvBoUtugF1VtGMFukqQ",
     "category": "trivia",
     "tags": [
@@ -91,8 +113,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "BjZEWitCz_w",
     "title": "Apa jadinya kalau gravitasi kayak di Minecraft? 🏠",
-    "views": "2,7 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/BjZEWitCz_w/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAsJze408EORIMltGeS8w6brrG36Q",
+    "views": "3,8 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/BjZEWitCz_w/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLASDPJAkztKk37CFbEPGeaR_RIrZg",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -102,7 +124,7 @@ export const shorts: ShortVideo[] = [
   {
     "id": "X8vYMC-bQlc",
     "title": "Apa jadinya kalau laparmu kayak bar lapar Minecraft? 🍗",
-    "views": "2,6 rb x ditonton",
+    "views": "3,4 rb x ditonton",
     "thumbnail": "https://i.ytimg.com/vi/X8vYMC-bQlc/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCoBtb-N6sNzghdYl6ziuyjXigPZQ",
     "category": "trivia",
     "tags": [
@@ -113,7 +135,7 @@ export const shorts: ShortVideo[] = [
   {
     "id": "a4RXz1ddAac",
     "title": "Apa jadinya kalau hujan kayak di Minecraft? ⚡",
-    "views": "1,5 rb x ditonton",
+    "views": "1,7 rb x ditonton",
     "thumbnail": "https://i.ytimg.com/vi/a4RXz1ddAac/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDmB03dnUQ7tGYZhVK9NRDuAPVVOw",
     "category": "trivia",
     "tags": [
@@ -124,8 +146,8 @@ export const shorts: ShortVideo[] = [
   {
     "id": "B7lmQpsdwf0",
     "title": "Apa jadinya kalau barangmu jatuh kayak di Minecraft? 📱",
-    "views": "1,6 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/B7lmQpsdwf0/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBg3RIUeuSB7tvDrvC_3sGeksAi-A",
+    "views": "2,1 rb x ditonton",
+    "thumbnail": "https://i.ytimg.com/vi/B7lmQpsdwf0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCmVMNRvRDHWJi5LxxZfIAG55VEbQ",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -136,7 +158,7 @@ export const shorts: ShortVideo[] = [
     "id": "x9MIT0qJKAQ",
     "title": "Apa jadinya kalau mati lampu kayak di Minecraft? 🔦",
     "views": "1,4 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/x9MIT0qJKAQ/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC25MuEwbj36Oj-Dy0uJ9o2QpekWQ",
+    "thumbnail": "https://i.ytimg.com/vi/x9MIT0qJKAQ/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBBoH3od-0G29VEp3KtLjTEUQoTIQ",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -147,7 +169,7 @@ export const shorts: ShortVideo[] = [
     "id": "AdA1VLZrSRY",
     "title": "Apa jadinya kalau tasmu jadi inventory Minecraft? 🎒",
     "views": "2,9 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/AdA1VLZrSRY/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDYOywnbTE1iHsW4mvLUcDzRzroMA",
+    "thumbnail": "https://i.ytimg.com/vi/AdA1VLZrSRY/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCYmqVaUt2gnxB-cBXM8NWLzloG-w",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -158,7 +180,7 @@ export const shorts: ShortVideo[] = [
     "id": "lD8f8o2-6L0",
     "title": "Apa jadinya kalau Roblox mati 3 hari penuh? 😱",
     "views": "1,5 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/lD8f8o2-6L0/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCmKI3Igm8c7aQRAO-v8XkZaGHEnw",
+    "thumbnail": "https://i.ytimg.com/vi/lD8f8o2-6L0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCBAZ6PkOrl4MWwKFqk8fHnIn1YWg",
     "category": "trivia",
     "tags": [
       "Roblox"
@@ -169,7 +191,7 @@ export const shorts: ShortVideo[] = [
     "id": "Ju_CBLNb278",
     "title": "Apa Jadinya Kalau Creeper Nongol di Ruang Tamumu? 💥",
     "views": "3,9 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/Ju_CBLNb278/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCoxoKYiQhDpmQu-n0sK60EI0oyYg",
+    "thumbnail": "https://i.ytimg.com/vi/Ju_CBLNb278/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA_Ad85PYsFJo3PPdWDVLudphcRUg",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -191,7 +213,7 @@ export const shorts: ShortVideo[] = [
     "id": "QSPwJge7mOk",
     "title": "Apa jadinya kalau begadang dihukum kayak di Minecraft? 👻",
     "views": "1,3 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/QSPwJge7mOk/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLA2-u4PCi6HOQk44Wd8Ep4jqWNYqA",
+    "thumbnail": "https://i.ytimg.com/vi/QSPwJge7mOk/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDKc0GzzNjPhkT3ItKqvMcaHMcLkw",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -224,7 +246,7 @@ export const shorts: ShortVideo[] = [
     "id": "L0S8Wl83RUo",
     "title": "Dunia Minecraft-mu Bisa Kembar? Jawabannya Bikin Kaget! 🌍 #shorts",
     "views": "1,2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/L0S8Wl83RUo/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCLoeAPo_trn6Er6BmBawC6DnngQg",
+    "thumbnail": "https://i.ytimg.com/vi/L0S8Wl83RUo/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAcq5bSIweAV7VK4_o9FV-6n_qZCA",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -235,7 +257,7 @@ export const shorts: ShortVideo[] = [
     "id": "qobE6uIf8yo",
     "title": "Sehari di Minecraft Itu 24 Jam? Ternyata Cuma 20 Menit! ☀️ #shorts",
     "views": "1,8 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/qobE6uIf8yo/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCxZWZHKNzDUhNZe7XMHTYzDPCs7Q",
+    "thumbnail": "https://i.ytimg.com/vi/qobE6uIf8yo/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD-2emu8Zw_LSsXY-IPlTdRvRyppA",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -246,7 +268,7 @@ export const shorts: ShortVideo[] = [
     "id": "d_WZOE0lsJ0",
     "title": "Kapan Sampai Ujung Dunia Minecraft? Jawabannya Bikin Kaget! 🌍 #shorts",
     "views": "1,6 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/d_WZOE0lsJ0/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC8VdG2Vp6ajS5aIXjwKycaR_84SQ",
+    "thumbnail": "https://i.ytimg.com/vi/d_WZOE0lsJ0/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCtNy7Z8tIi0UKLgmYKzuEEPyXcHw",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -268,7 +290,7 @@ export const shorts: ShortVideo[] = [
     "id": "rcV3yd_xlSI",
     "title": "Kenapa Tumpukan Minecraft Cuma 64? Ini Rahasia Hitungan Komputer! 🧱 #shorts",
     "views": "1,8 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/rcV3yd_xlSI/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBt69zwoDtQjlSCICzYgOH-JdqL5w",
+    "thumbnail": "https://i.ytimg.com/vi/rcV3yd_xlSI/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLC32qJn3c9rEGCsyIxM-_g32eG6tg",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -290,7 +312,7 @@ export const shorts: ShortVideo[] = [
     "id": "LQ20f4qosH8",
     "title": "Monster Math: Brain Training New",
     "views": "46 x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/LQ20f4qosH8/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCs5_FGOvLQi9UMi5SHrxnokIL1rQ",
+    "thumbnail": "https://i.ytimg.com/vi/LQ20f4qosH8/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDqn6Hdm0sb9dXAG6pZC55U_FbMng",
     "category": "trivia",
     "tags": [
       "Gaming"
@@ -323,7 +345,7 @@ export const shorts: ShortVideo[] = [
     "id": "UInY1xOk7aQ",
     "title": "Dua Ember di Gurun, Kok Air Minecraft Nggak Habis? Rahasia Air Abadi! 💧 #shorts",
     "views": "2 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/UInY1xOk7aQ/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCf4nhrkynli2u9zMyToLlc4sw1bg",
+    "thumbnail": "https://i.ytimg.com/vi/UInY1xOk7aQ/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBp8U9PbqgcEJm8-6oghf5dnhc2sw",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -334,7 +356,7 @@ export const shorts: ShortVideo[] = [
     "id": "FN5pvEbNaN8",
     "title": "Mau jalan 10.000 blok di Minecraft tapi mager? Ini rahasia koordinat Nether! 🎮 #shorts",
     "views": "1,8 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/FN5pvEbNaN8/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCr9dUPuglr7wpJa_2yuC7heoBNag",
+    "thumbnail": "https://i.ytimg.com/vi/FN5pvEbNaN8/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDQnywEFpIwuj1VBuicj5XMU7ClzQ",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -367,7 +389,7 @@ export const shorts: ShortVideo[] = [
     "id": "FyjY5uWUqrc",
     "title": "Jatuh dari 100 Blok Minecraft, Kok Bisa Selamat? Rahasia Water Bucket Clutch! 🪣⚡ #shorts",
     "views": "4,9 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/FyjY5uWUqrc/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLBcErvCMivWmtOKmmcC_GHbGnm-iw",
+    "thumbnail": "https://i.ytimg.com/vi/FyjY5uWUqrc/oar3.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLCOmWnhYS1fNJNFj1LcAMFeBMdSlg",
     "category": "trivia",
     "tags": [
       "Minecraft"
@@ -411,7 +433,7 @@ export const shorts: ShortVideo[] = [
     "id": "hqzO4KRzsYU",
     "title": "Avatar teman di Roblox patah-patah? Bukan karena internetmu! 🎮 #shorts",
     "views": "1,3 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/hqzO4KRzsYU/oar2.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLAbG9VjGp5bACQsZV4Luw_psCvx3g",
+    "thumbnail": "https://i.ytimg.com/vi/hqzO4KRzsYU/oar1.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLD2zm2ChvEbcQEzA0Qz_Wl3yaqwrg",
     "category": "trivia",
     "tags": [
       "Roblox"
@@ -528,16 +550,5 @@ export const shorts: ShortVideo[] = [
       "Edukasi Anak"
     ],
     "youtubeUrl": "https://www.youtube.com/shorts/Y34s3-XwwPw"
-  },
-  {
-    "id": "j8RlXtyOPvI",
-    "title": "Whats a game, genius play game? ....",
-    "views": "2,1 rb x ditonton",
-    "thumbnail": "https://i.ytimg.com/vi/j8RlXtyOPvI/oardefault.jpg?sqp=-oaymwEdCJUDENAFSFWQAgHyq4qpAwwIARUAAIhCcAHAAQY=&rs=AOn4CLDCqrRFhk-ToksmR4oiNxjov_zU3A",
-    "category": "trivia",
-    "tags": [
-      "Gaming"
-    ],
-    "youtubeUrl": "https://www.youtube.com/shorts/j8RlXtyOPvI"
   }
 ];
