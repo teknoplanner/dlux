@@ -37808,5 +37808,246 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/offline-pdf-editor/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "cara-membersihkan-hp-dengan-aman-layar-port-charger-speaker-dan-casing",
+    "slugEn": "how-to-clean-your-phone-safely-screen-charging-port-speaker-and-case",
+    "targetAppSlug": "stickman-penalty-rush",
+    "category": "gaming",
+    "affiliateCategory": "productivity",
+    "affiliateProductIds": [
+      "paper-screen-protector"
+    ],
+    "publishedDate": "2026-11-25T09:45:00+07:00",
+    "title": "Cara Membersihkan HP dengan Aman: Layar, Port Charger, Speaker, dan Casing",
+    "metaTitle": "Cara Membersihkan HP dengan Aman dan Benar",
+    "metaDescription": "HP yang kotor bisa membuat layar kurang responsif, pengisian daya bermasalah, dan suara speaker pelan. Pelajari cara membersihkan setiap bagian HP dengan aman, bahan yang boleh dan tidak boleh dipakai, serta jadwal perawatannya.",
+    "keywords": [
+      "cara membersihkan hp",
+      "membersihkan port charger",
+      "membersihkan speaker hp",
+      "membersihkan layar hp",
+      "merawat hp agar awet"
+    ],
+    "readTime": "9 menit baca",
+    "sections": [
+      {
+        "id": "kenapa",
+        "title": "HP adalah benda yang paling sering kita sentuh",
+        "content": [
+          "HP ikut ke mana pun kita pergi: ke meja makan, kendaraan umum, kantor, bahkan kamar mandi. Debu, minyak dari kulit, sisa makanan, dan serat kain dari saku menumpuk di layar, celah, dan lubang-lubang kecil HP.",
+          "Kotoran ini bukan hanya soal kebersihan. Port charger yang tersumbat debu bisa membuat kabel tidak masuk sempurna sehingga pengisian daya terputus-putus. Kisi speaker yang tertutup kotoran membuat suara terdengar pelan. Layar yang berminyak bisa terasa kurang responsif, terutama saat bermain game yang membutuhkan sentuhan cepat."
+        ]
+      },
+      {
+        "id": "persiapan",
+        "title": "Persiapan dan aturan dasar",
+        "content": [
+          "Sebelum mulai, matikan HP dan lepas dari charger. Lepaskan casing dan kartu memori jika perlu. Siapkan alat yang aman:"
+        ],
+        "bulletPoints": [
+          "Kain mikrofiber bersih, seperti kain pembersih kacamata.",
+          "Sikat berbulu halus, misalnya sikat gigi baru yang lembut atau kuas kecil.",
+          "Tusuk gigi kayu atau plastik, bukan logam.",
+          "Air sedikit atau cairan pembersih yang aman untuk layar.",
+          "Selotip atau lakban kertas untuk mengangkat debu dari kisi speaker."
+        ],
+        "tipBox": {
+          "title": "Yang sebaiknya dihindari",
+          "text": "Jangan menyemprotkan cairan langsung ke HP, jangan memakai benda logam seperti jarum atau peniti di port, dan hindari bahan kimia keras seperti pemutih atau pembersih kaca rumah tangga yang dapat merusak lapisan layar.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "layar",
+        "title": "Membersihkan layar",
+        "content": [
+          "Layar HP modern memiliki lapisan oleofobik yang membantu mengurangi sidik jari. Lapisan ini bisa terkikis oleh bahan kimia keras dan gosokan kasar. Cara paling aman adalah mengelap layar dengan kain mikrofiber kering dengan gerakan melingkar ringan.",
+          "Untuk noda membandel, basahi sedikit sudut kain mikrofiber dengan air, peras sampai hampir kering, lalu lap perlahan. Hindari tisu biasa atau kain kasar, karena bisa meninggalkan serat dan goresan halus. Beberapa produsen HP juga memperbolehkan tisu dengan alkohol isopropil kadar tertentu untuk permukaan luar, cek panduan dari produsen HP Anda."
+        ]
+      },
+      {
+        "id": "port",
+        "title": "Membersihkan port charger",
+        "content": [
+          "Port charger adalah bagian yang paling sering menjadi masalah. Debu dan serat kain dari saku celana bisa terdorong ke dalam setiap kali kabel dicolokkan, lama-lama memadat di dasar port.",
+          "Gunakan senter untuk melihat ke dalam port. Jika ada kotoran, gunakan tusuk gigi kayu atau plastik untuk mencungkilnya perlahan dari dasar ke arah luar. Lakukan dengan sangat hati-hati dan jangan menekan pin di dalam port. Setelah itu, tiup perlahan atau gunakan sikat halus untuk mengeluarkan sisa debu.",
+          "Hindari meniup langsung dengan mulut karena uap air dari napas bisa masuk. Jika kabel masih tidak masuk sempurna setelah dibersihkan atau pengisian tetap bermasalah, bawa ke pusat servis."
+        ],
+        "tipBox": {
+          "title": "Tanda port perlu dibersihkan",
+          "text": "Kabel terasa tidak masuk sampai ujung, pengisian daya sering terputus saat kabel tersentuh, atau HP hanya mengisi daya dengan posisi kabel tertentu.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "speaker",
+        "title": "Membersihkan speaker dan mikrofon",
+        "content": [
+          "Kisi speaker dan lubang mikrofon sangat kecil dan mudah tersumbat. Gunakan sikat berbulu halus dengan gerakan menyapu ringan untuk mengangkat debu. Untuk kotoran yang menempel, tempelkan selotip atau lakban kertas di atas kisi, tekan perlahan, lalu angkat. Debu akan ikut menempel di selotip.",
+          "Jangan menusuk lubang speaker atau mikrofon dengan benda tajam, karena bisa merusak membran di dalamnya. Jangan pula menggunakan cairan di area ini."
+        ]
+      },
+      {
+        "id": "casing",
+        "title": "Membersihkan casing dan bodi",
+        "content": [
+          "Casing sering menjadi tempat kotoran paling banyak, terutama di sela-sela antara casing dan HP. Lepaskan casing dan cuci dengan air sabun jika bahannya silikon atau plastik. Keringkan sepenuhnya sebelum dipasang kembali, karena casing yang masih lembap bisa memerangkap kelembapan di HP.",
+          "Lap bodi HP, tombol, dan area kamera dengan kain mikrofiber. Bersihkan lensa kamera dengan lembut, karena sidik jari di lensa adalah penyebab umum foto terlihat berkabut."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Layar bersih, sentuhan lebih akurat",
+        "content": [
+          "Bagi pemain game, layar bersih bukan hanya soal tampilan. Minyak dan keringat di layar membuat jari tersendat saat menggeser, sehingga gerakan menjadi kurang akurat. Di game yang mengandalkan kontrol geser presisi seperti **Stickman Penalty Rush**, perbedaan kecil ini bisa menentukan apakah tendangan mengarah ke sudut gawang atau melenceng.",
+          "Biasakan mengelap layar sebelum sesi bermain. Pelindung layar matte juga membantu mengurangi sidik jari yang terlihat dan membuat jari meluncur lebih stabil."
+        ]
+      },
+      {
+        "id": "jadwal",
+        "title": "Jadwal perawatan sederhana",
+        "content": [
+          "Tidak perlu membersihkan HP secara menyeluruh setiap hari. Jadwal berikut sudah cukup untuk sebagian besar pengguna:"
+        ],
+        "bulletPoints": [
+          "Setiap hari: lap layar dengan kain mikrofiber kering.",
+          "Setiap minggu: lap bodi, tombol, dan lensa kamera.",
+          "Setiap bulan: lepas dan cuci casing, periksa dan bersihkan port charger serta kisi speaker.",
+          "Segera: bersihkan jika HP terkena cairan lengket atau pasir, lalu periksakan jika ada masalah fungsi."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Bolehkah membersihkan HP dengan alkohol?",
+        "a": "Beberapa produsen memperbolehkan tisu alkohol isopropil untuk permukaan luar. Cek panduan produsen HP Anda dan jangan menyemprotkan cairan langsung ke HP."
+      },
+      {
+        "q": "Bagaimana membersihkan port charger yang tersumbat?",
+        "a": "Gunakan senter dan tusuk gigi kayu atau plastik untuk mencungkil kotoran perlahan. Jangan memakai benda logam."
+      },
+      {
+        "q": "Kenapa suara speaker HP makin pelan?",
+        "a": "Sering kali karena kisi speaker tertutup debu. Bersihkan dengan sikat halus atau selotip."
+      },
+      {
+        "q": "Apakah HP tahan air boleh dicuci?",
+        "a": "Ketahanan air bisa menurun seiring waktu dan tidak dimaksudkan untuk dicuci. Tetap bersihkan dengan kain lembap, bukan air mengalir."
+      }
+    ],
+    "titleEn": "How to Clean Your Phone Safely: Screen, Charging Port, Speaker, and Case",
+    "metaTitleEn": "How to Clean Your Phone Safely",
+    "metaDescriptionEn": "A dirty phone can mean an unresponsive screen, charging problems, and a muffled speaker. Learn how to safely clean each part, what to use and avoid, and a simple maintenance schedule.",
+    "keywordsEn": [
+      "how to clean phone",
+      "clean charging port",
+      "clean phone speaker",
+      "clean phone screen",
+      "phone care tips"
+    ],
+    "readTimeEn": "7 min read",
+    "englishSummary": "Covers safe tools and things to avoid, cleaning the screen without stripping its coating, clearing lint from charging ports, cleaning speakers with tape, washing cases, why clean screens help gaming precision, and a maintenance schedule.",
+    "sectionsEn": [
+      {
+        "id": "why",
+        "title": "The object we touch most",
+        "content": [
+          "Dust, skin oil, and pocket lint build up, causing loose charging connections, muffled speakers, and less responsive screens."
+        ]
+      },
+      {
+        "id": "prep",
+        "title": "Preparation and ground rules",
+        "content": [
+          "Power off, unplug, and remove the case. Use safe tools:"
+        ],
+        "bulletPoints": [
+          "A clean microfibre cloth.",
+          "A soft brush.",
+          "A wooden or plastic toothpick, never metal.",
+          "A little water or screen-safe cleaner.",
+          "Masking tape for speaker grilles."
+        ],
+        "tipBox": {
+          "title": "What to avoid",
+          "text": "No sprays directly on the phone, no metal objects in ports, and no harsh chemicals like bleach or household glass cleaner.",
+          "type": "warning"
+        }
+      },
+      {
+        "id": "screen",
+        "title": "Cleaning the screen",
+        "content": [
+          "Wipe gently with a dry microfibre cloth. For stubborn marks, use a barely damp corner. Avoid tissues and rough cloths. Some makers allow isopropyl wipes on exterior surfaces; check your manufacturer's guidance."
+        ]
+      },
+      {
+        "id": "port",
+        "title": "Cleaning the charging port",
+        "content": [
+          "Shine a torch inside and gently lift packed lint outwards with a wooden or plastic toothpick without pressing the pins, then brush out loose dust. Do not blow with your mouth. If charging still fails, visit a service centre."
+        ],
+        "tipBox": {
+          "title": "Signs the port needs cleaning",
+          "text": "The cable will not seat fully, charging cuts out when touched, or only works at an angle.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "speaker",
+        "title": "Cleaning speakers and microphones",
+        "content": [
+          "Sweep with a soft brush or press tape over the grille and lift. Never poke holes or use liquids here."
+        ]
+      },
+      {
+        "id": "case",
+        "title": "Cleaning the case and body",
+        "content": [
+          "Wash silicone or plastic cases in soapy water and dry fully before refitting. Wipe the body, buttons, and camera lens."
+        ]
+      },
+      {
+        "id": "gaming",
+        "title": "Clean screen, more accurate touch",
+        "content": [
+          "Oil and sweat make swipes stutter. In precise swipe games like **Stickman Penalty Rush**, that can decide whether a shot finds the corner. Wipe before sessions; a matte protector also helps."
+        ]
+      },
+      {
+        "id": "schedule",
+        "title": "A simple maintenance schedule",
+        "content": [
+          "Enough for most people:"
+        ],
+        "bulletPoints": [
+          "Daily: dry-wipe the screen.",
+          "Weekly: wipe body, buttons, and lens.",
+          "Monthly: wash the case, check port and speaker.",
+          "Immediately: after sticky spills or sand, and get it checked if anything misbehaves."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "Can I clean my phone with alcohol?",
+        "a": "Some makers allow isopropyl wipes on exterior surfaces; check guidance and never spray directly."
+      },
+      {
+        "q": "How do I clean a blocked charging port?",
+        "a": "Use a torch and a wooden or plastic toothpick gently; never metal."
+      },
+      {
+        "q": "Why is my speaker getting quieter?",
+        "a": "Often dust in the grille; clean with a soft brush or tape."
+      },
+      {
+        "q": "Can I wash a water-resistant phone?",
+        "a": "Water resistance fades and is not meant for washing; use a damp cloth instead."
+      }
+    ],
+    "coverImage": "/images/apps/stickman-penalty-rush/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
