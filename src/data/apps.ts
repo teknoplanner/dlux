@@ -311,7 +311,7 @@ export const apps: AppItem[] = [
       "/images/apps/soundfx-studio/screenshot-5.webp"
     ],
     "reviewsCount": null,
-    "downloads": "100+",
+    "downloads": "500+",
     "contentRating": "Everyone",
     "hasAds": false,
     "playUrl": "https://play.google.com/store/apps/details?id=com.soundfx.studio",
