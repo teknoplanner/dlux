@@ -38276,5 +38276,259 @@ export const publishedGamingArticles: ArticleItem[] = [
     ],
     "coverImage": "/images/apps/milo-cat-adventure/screenshot-1.webp",
     "author": "D Lucky X Editorial"
+  },
+  {
+    "slug": "strategi-bilangan-teman-10-latihan-penjumlahan-dan-pengurangan-cepat-kelas-1-2",
+    "slugEn": "make-ten-strategy-fast-addition-and-subtraction-practice-for-grades-1-and-2",
+    "targetAppSlug": "monster-math-train-brain",
+    "category": "education",
+    "affiliateCategory": "kids",
+    "affiliateProductIds": [
+      "kids-tablet",
+      "kids-stylus"
+    ],
+    "publishedDate": "2026-11-27T09:45:00+07:00",
+    "title": "Strategi Bilangan Teman 10: Latihan Penjumlahan dan Pengurangan Cepat untuk Kelas 1 dan 2",
+    "metaTitle": "Strategi Teman 10: Penjumlahan Cepat Kelas 1-2",
+    "metaDescription": "Anak masih menghitung dengan jari untuk 8 + 7? Strategi bilangan teman 10 membantu anak menjumlah dan mengurang lebih cepat dengan pemahaman, bukan hafalan. Lengkap dengan langkah, contoh, dan permainan.",
+    "keywords": [
+      "bilangan teman 10",
+      "penjumlahan cepat kelas 1",
+      "strategi berhitung anak sd",
+      "pengurangan kelas 2",
+      "matematika kelas 1 sd"
+    ],
+    "readTime": "10 menit baca",
+    "sections": [
+      {
+        "id": "masalah",
+        "title": "Dari menghitung jari ke berhitung lancar",
+        "content": [
+          "Di kelas 1, wajar jika anak menghitung penjumlahan dengan jari. Namun jika di kelas 2 dan 3 anak masih menghitung satu per satu untuk soal seperti 8 + 7, ia akan kelelahan saat menghadapi soal bersusun dan soal cerita yang lebih panjang.",
+          "Solusinya bukan memaksa anak menghafal semua hasil penjumlahan. Cara yang lebih bertahan lama adalah mengajarkan strategi yang memanfaatkan pola bilangan. Salah satu strategi paling berguna adalah bilangan teman 10, yaitu pasangan bilangan yang jika dijumlahkan hasilnya 10."
+        ]
+      },
+      {
+        "id": "teman-10",
+        "title": "Mengenal pasangan teman 10",
+        "content": [
+          "Ada lima pasangan bilangan yang jumlahnya 10. Kuasai pasangan ini lebih dulu sampai anak bisa menjawabnya tanpa menghitung:"
+        ],
+        "bulletPoints": [
+          "1 dan 9",
+          "2 dan 8",
+          "3 dan 7",
+          "4 dan 6",
+          "5 dan 5"
+        ],
+        "tipBox": {
+          "title": "Gunakan sepuluh jari",
+          "text": "Minta anak membuka sepuluh jari, lalu tekuk beberapa. Jari yang terbuka dan tertekuk selalu berjumlah 10. Cara ini membantu anak melihat pasangan teman 10 secara nyata.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "bingkai",
+        "title": "Memakai bingkai sepuluh",
+        "content": [
+          "Bingkai sepuluh adalah kotak berisi dua baris dengan lima petak di setiap baris. Gambar di kertas atau gunakan wadah telur yang dipotong menjadi sepuluh lubang. Isi petak dengan kancing, kacang, atau tutup botol.",
+          "Saat anak meletakkan 7 kancing, ia langsung melihat ada 3 petak kosong. Artinya 7 butuh 3 lagi untuk menjadi 10. Bingkai sepuluh membuat konsep teman 10 terlihat jelas, bukan sekadar angka di buku."
+        ]
+      },
+      {
+        "id": "penjumlahan",
+        "title": "Penjumlahan melewati 10: pecah lalu genapkan",
+        "content": [
+          "Setelah lancar dengan teman 10, anak bisa memakainya untuk penjumlahan yang hasilnya lebih dari 10. Caranya adalah menggenapkan salah satu bilangan menjadi 10 terlebih dahulu.",
+          "Contoh: 8 + 7. Teman 10 dari 8 adalah 2. Ambil 2 dari 7, sehingga 7 dipecah menjadi 2 dan 5. Lalu 8 + 2 = 10, dan 10 + 5 = 15. Jadi 8 + 7 = 15.",
+          "Contoh lain: 9 + 6. Teman 10 dari 9 adalah 1. Pecah 6 menjadi 1 dan 5. Lalu 9 + 1 = 10, dan 10 + 5 = 15. Setelah beberapa kali latihan dengan kancing di bingkai sepuluh, anak bisa melakukannya di kepala."
+        ]
+      },
+      {
+        "id": "pengurangan",
+        "title": "Pengurangan melewati 10: turun ke 10 dulu",
+        "content": [
+          "Strategi yang sama berlaku untuk pengurangan. Untuk 15 - 7, turunkan dulu ke 10, lalu kurangi sisanya.",
+          "15 - 7: dari 15 ke 10 berkurang 5. Masih perlu dikurangi 2 lagi, karena 7 = 5 + 2. Jadi 10 - 2 = 8. Hasilnya 15 - 7 = 8.",
+          "Ada juga cara lain yang sering lebih mudah bagi anak, yaitu menghitung maju. Untuk 15 - 7, tanyakan, \"Dari 7, butuh berapa lagi untuk sampai 15?\" Dari 7 ke 10 butuh 3, dari 10 ke 15 butuh 5, jadi totalnya 8. Biarkan anak memilih cara yang paling nyaman baginya."
+        ],
+        "tipBox": {
+          "title": "Penjumlahan dan pengurangan adalah keluarga",
+          "text": "Tunjukkan bahwa jika 8 + 7 = 15, maka 15 - 7 = 8 dan 15 - 8 = 7. Melihat hubungan ini membantu anak mengecek jawabannya sendiri.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "strategi-lain",
+        "title": "Strategi pendukung lainnya",
+        "content": [
+          "Selain teman 10, beberapa strategi lain juga membantu anak berhitung lebih cepat:"
+        ],
+        "bulletPoints": [
+          "Bilangan kembar: 6 + 6 = 12, 7 + 7 = 14. Setelah hafal, 6 + 7 bisa dihitung sebagai 6 + 6 + 1 = 13.",
+          "Menambah 10: 10 + 4 = 14, 10 + 8 = 18. Anak cukup mengganti angka satuan.",
+          "Menambah 9: tambahkan 10 lalu kurangi 1. Contoh 9 + 5 = 10 + 5 - 1 = 14.",
+          "Menukar urutan: 2 + 9 lebih mudah dihitung sebagai 9 + 2."
+        ]
+      },
+      {
+        "id": "permainan",
+        "title": "Permainan untuk melatih teman 10",
+        "content": [
+          "Latihan akan lebih menyenangkan jika dikemas dalam permainan. Beberapa ide yang bisa dimainkan di rumah:"
+        ],
+        "bulletPoints": [
+          "Kartu pasangan 10: gunakan kartu remi tanpa kartu bergambar. Balik kartu dan cari pasangan yang jumlahnya 10.",
+          "Tepuk teman 10: orang tua menyebut satu angka, anak menyebut teman 10-nya sambil bertepuk tangan.",
+          "Lempar kancing: lempar 10 kancing ke dalam dan luar lingkaran tali, lalu hitung berapa di dalam dan berapa di luar.",
+          "Balap bingkai: siapa yang paling cepat mengisi bingkai sepuluh dari angka yang disebutkan."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Latihan rutin lewat game",
+        "content": [
+          "Setelah anak paham strateginya dengan benda nyata, latihan rutin membantu membuatnya otomatis. **Monster Math** menyajikan soal penjumlahan dan pengurangan, juga perkalian dan pembagian, dalam petualangan pertempuran monster. Setiap jawaban benar membuat monster lebih kuat dan membuka kemampuan baru, sehingga anak terdorong untuk menjawab cepat dan tepat.",
+          "Lima sampai sepuluh menit sehari sudah cukup. Game ini bisa dimainkan offline tanpa iklan, dan tablet dengan stylus berujung tebal membantu anak yang ingin mencoret-coret hitungan di aplikasi catatan sebelum menjawab."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Kapan anak sebaiknya berhenti menghitung dengan jari?",
+        "a": "Tidak perlu dipaksa berhenti. Seiring anak menguasai strategi seperti teman 10, ketergantungan pada jari biasanya berkurang dengan sendirinya."
+      },
+      {
+        "q": "Apa itu bilangan teman 10?",
+        "a": "Pasangan bilangan yang jumlahnya 10, yaitu 1 dan 9, 2 dan 8, 3 dan 7, 4 dan 6, serta 5 dan 5."
+      },
+      {
+        "q": "Anak saya bingung dengan cara memecah bilangan. Bagaimana?",
+        "a": "Kembali ke bingkai sepuluh dan benda nyata. Biarkan anak memindahkan kancing sendiri sampai polanya terlihat."
+      },
+      {
+        "q": "Berapa lama latihan yang dibutuhkan?",
+        "a": "Lima sampai sepuluh menit sehari secara rutin biasanya lebih efektif daripada sesi panjang yang jarang."
+      }
+    ],
+    "titleEn": "The Make-Ten Strategy: Fast Addition and Subtraction Practice for Grades 1 and 2",
+    "metaTitleEn": "Make-Ten Strategy for Fast Addition, Grades 1-2",
+    "metaDescriptionEn": "Still counting on fingers for 8 + 7? The make-ten strategy helps children add and subtract faster through understanding, not memorisation, with steps, examples, and games.",
+    "keywordsEn": [
+      "make ten strategy",
+      "number bonds to 10",
+      "fast addition grade 1",
+      "subtraction grade 2",
+      "early math strategies"
+    ],
+    "readTimeEn": "8 min read",
+    "englishSummary": "Explains number bonds to 10, ten-frames, adding past 10 by splitting, subtracting via 10 or counting up, supporting strategies, games, and daily practice with Monster Math.",
+    "sectionsEn": [
+      {
+        "id": "problem",
+        "title": "From finger counting to fluency",
+        "content": [
+          "Counting on fingers is normal in grade 1, but by grades 2 and 3 it slows children down. Strategies based on number patterns last longer than rote memorisation."
+        ]
+      },
+      {
+        "id": "bonds",
+        "title": "Number bonds to 10",
+        "content": [
+          "Master these five pairs first:"
+        ],
+        "bulletPoints": [
+          "1 and 9",
+          "2 and 8",
+          "3 and 7",
+          "4 and 6",
+          "5 and 5"
+        ],
+        "tipBox": {
+          "title": "Use ten fingers",
+          "text": "Raised and folded fingers always add to 10.",
+          "type": "tip"
+        }
+      },
+      {
+        "id": "frame",
+        "title": "Using a ten-frame",
+        "content": [
+          "Draw a 2 × 5 grid or cut an egg carton to ten cups and fill with buttons. Seven buttons show three empty spaces, so 7 needs 3 to make 10."
+        ]
+      },
+      {
+        "id": "adding",
+        "title": "Adding past 10: split and make ten",
+        "content": [
+          "8 + 7: split 7 into 2 and 5, so 8 + 2 = 10 and 10 + 5 = 15. 9 + 6: split 6 into 1 and 5 to get 15."
+        ]
+      },
+      {
+        "id": "subtracting",
+        "title": "Subtracting past 10: down to 10 first",
+        "content": [
+          "15 - 7: go down 5 to 10, then 2 more to 8. Or count up from 7: 3 to 10, 5 to 15, total 8."
+        ],
+        "tipBox": {
+          "title": "Addition and subtraction are family",
+          "text": "If 8 + 7 = 15, then 15 - 7 = 8 and 15 - 8 = 7.",
+          "type": "highlight"
+        }
+      },
+      {
+        "id": "other",
+        "title": "Supporting strategies",
+        "content": [
+          "Also useful:"
+        ],
+        "bulletPoints": [
+          "Doubles and near doubles.",
+          "Adding 10 by changing the ones digit.",
+          "Adding 9 as add 10, minus 1.",
+          "Swapping order, like 2 + 9 as 9 + 2."
+        ]
+      },
+      {
+        "id": "games",
+        "title": "Games for number bonds",
+        "content": [
+          "Ideas:"
+        ],
+        "bulletPoints": [
+          "Pairs-to-10 card game with number cards.",
+          "Clap the bond partner.",
+          "Toss ten buttons in and out of a loop.",
+          "Ten-frame races."
+        ]
+      },
+      {
+        "id": "game",
+        "title": "Daily practice with a game",
+        "content": [
+          "**Monster Math** turns addition, subtraction, multiplication, and division into monster battles, building automatic recall in 5 to 10 minutes a day, offline and ad-free."
+        ]
+      }
+    ],
+    "faqEn": [
+      {
+        "q": "When should children stop counting on fingers?",
+        "a": "No need to force it; reliance fades as strategies take hold."
+      },
+      {
+        "q": "What are number bonds to 10?",
+        "a": "Pairs that add to 10: 1-9, 2-8, 3-7, 4-6, 5-5."
+      },
+      {
+        "q": "My child finds splitting numbers confusing. What now?",
+        "a": "Go back to the ten-frame and real objects."
+      },
+      {
+        "q": "How much practice is needed?",
+        "a": "Five to ten minutes daily beats long, infrequent sessions."
+      }
+    ],
+    "coverImage": "/images/apps/monster-math-train-brain/screenshot-1.webp",
+    "author": "D Lucky X Editorial"
   }
 ];
